@@ -1,0 +1,28 @@
+#region System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e
+// C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.20\System.Private.CoreLib.dll
+#endregion
+
+using System.Collections;
+using System.Runtime.CompilerServices;
+
+namespace System
+{
+    public struct ValueTuple : IComparable, IComparable<ValueTuple>, IEquatable<ValueTuple>, IStructuralComparable, IStructuralEquatable, ITuple, IValueTupleInternal
+    {
+
+        public override bool Equals(object obj);
+        public bool Equals(ValueTuple other);
+        public int CompareTo(ValueTuple other);
+        public override int GetHashCode();
+        public override string ToString();
+        public static ValueTuple Create();
+        public static (T1) Create<T1>(T1 item1);
+        public static (T1, T2) Create<T1, T2>(T1 item1, T2 item2);
+        public static (T1, T2, T3) Create<T1, T2, T3>(T1 item1, T2 item2, T3 item3);
+        public static (T1, T2, T3, T4) Create<T1, T2, T3, T4>(T1 item1, T2 item2, T3 item3, T4 item4);
+        public static (T1, T2, T3, T4, T5) Create<T1, T2, T3, T4, T5>(T1 item1, T2 item2, T3 item3, T4 item4, T5 item5);
+        public static (T1, T2, T3, T4, T5, T6) Create<T1, T2, T3, T4, T5, T6>(T1 item1, T2 item2, T3 item3, T4 item4, T5 item5, T6 item6);
+        public static (T1, T2, T3, T4, T5, T6, T7) Create<T1, T2, T3, T4, T5, T6, T7>(T1 item1, T2 item2, T3 item3, T4 item4, T5 item5, T6 item6, T7 item7);
+        public static (T1, T2, T3, T4, T5, T6, T7, T8) Create<T1, T2, T3, T4, T5, T6, T7, T8>(T1 item1, T2 item2, T3 item3, T4 item4, T5 item5, T6 item6, T7 item7, T8 item8);
+    }
+}

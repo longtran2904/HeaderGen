@@ -1,0 +1,148 @@
+#region System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e
+// C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.20\System.Private.CoreLib.dll
+#endregion
+
+using System.Globalization;
+using System.Numerics;
+
+namespace System
+{
+    public readonly struct Single : IAdditionOperators<float, float, float>, IAdditiveIdentity<float, float>, IBinaryFloatingPointIeee754<float>, IBinaryFloatParseAndFormatInfo<float>, IBinaryNumber<float>, IBitwiseOperators<float, float, float>, IComparable, IComparable<float>, IComparisonOperators<float, float, bool>, IConvertible, IDecrementOperators<float>, IDivisionOperators<float, float, float>, IEqualityOperators<float, float, bool>, IEquatable<float>, IExponentialFunctions<float>, IFloatingPoint<float>, IFloatingPointConstants<float>, IFloatingPointIeee754<float>, IFormattable, IHyperbolicFunctions<float>, IIncrementOperators<float>, ILogarithmicFunctions<float>, IMinMaxValue<float>, IModulusOperators<float, float, float>, IMultiplicativeIdentity<float, float>, IMultiplyOperators<float, float, float>, INumber<float>, INumberBase<float>, IParsable<float>, IPowerFunctions<float>, IRootFunctions<float>, ISignedNumber<float>, ISpanFormattable, ISpanParsable<float>, ISubtractionOperators<float, float, float>, ITrigonometricFunctions<float>, IUnaryNegationOperators<float, float>, IUnaryPlusOperators<float, float>, IUtf8SpanFormattable, IUtf8SpanParsable<float>
+    {
+
+        public const float MinValue = -3.4028235E+38;
+        public const float MaxValue = 3.4028235E+38;
+        public const float Epsilon = 1E-45;
+        public const float NegativeInfinity = -∞F;
+        public const float PositiveInfinity = ∞F;
+        public const float NaN = NaNF;
+        public const float NegativeZero = -0;
+        public const float E = 2.7182817F;
+        public const float Pi = 3.1415927F;
+        public const float Tau = 6.2831855F;
+
+        public static bool IsFinite(float f);
+        public static bool IsInfinity(float f);
+        public static bool IsNaN(float f);
+        public static bool IsNegative(float f);
+        public static bool IsNegativeInfinity(float f);
+        public static bool IsNormal(float f);
+        public static bool IsPositiveInfinity(float f);
+        public static bool IsSubnormal(float f);
+        public int CompareTo(object value);
+        public int CompareTo(float value);
+        public override bool Equals(object obj);
+        public bool Equals(float obj);
+        public override int GetHashCode();
+        public override string ToString();
+        public string ToString(IFormatProvider provider);
+        public string ToString(string format);
+        public string ToString(string format, IFormatProvider provider);
+        public bool TryFormat(Span<char> destination, out int charsWritten, ReadOnlySpan<char> format = null, IFormatProvider provider = null);
+        public bool TryFormat(Span<byte> utf8Destination, out int bytesWritten, ReadOnlySpan<char> format = null, IFormatProvider provider = null);
+        public static float Parse(string s);
+        public static float Parse(string s, NumberStyles style);
+        public static float Parse(string s, IFormatProvider provider);
+        public static float Parse(string s, NumberStyles style, IFormatProvider provider);
+        public static float Parse(ReadOnlySpan<char> s, NumberStyles style = NumberStyles.AllowThousands | NumberStyles.Float, IFormatProvider provider = null);
+        public static bool TryParse(string s, out float result);
+        public static bool TryParse(ReadOnlySpan<char> s, out float result);
+        public static bool TryParse(ReadOnlySpan<byte> utf8Text, out float result);
+        public static bool TryParse(string s, NumberStyles style, IFormatProvider provider, out float result);
+        public static bool TryParse(ReadOnlySpan<char> s, NumberStyles style, IFormatProvider provider, out float result);
+        public TypeCode GetTypeCode();
+        public static bool IsPow2(float value);
+        public static float Log2(float value);
+        public static float Exp(float x);
+        public static float ExpM1(float x);
+        public static float Exp2(float x);
+        public static float Exp2M1(float x);
+        public static float Exp10(float x);
+        public static float Exp10M1(float x);
+        public static float Ceiling(float x);
+        public static float Floor(float x);
+        public static float Round(float x);
+        public static float Round(float x, int digits);
+        public static float Round(float x, MidpointRounding mode);
+        public static float Round(float x, int digits, MidpointRounding mode);
+        public static float Truncate(float x);
+        public static float Atan2(float y, float x);
+        public static float Atan2Pi(float y, float x);
+        public static float BitDecrement(float x);
+        public static float BitIncrement(float x);
+        public static float FusedMultiplyAdd(float left, float right, float addend);
+        public static float Ieee754Remainder(float left, float right);
+        public static int ILogB(float x);
+        public static float Lerp(float value1, float value2, float amount);
+        public static float ReciprocalEstimate(float x);
+        public static float ReciprocalSqrtEstimate(float x);
+        public static float ScaleB(float x, int n);
+        public static float Acosh(float x);
+        public static float Asinh(float x);
+        public static float Atanh(float x);
+        public static float Cosh(float x);
+        public static float Sinh(float x);
+        public static float Tanh(float x);
+        public static float Log(float x);
+        public static float Log(float x, float newBase);
+        public static float LogP1(float x);
+        public static float Log10(float x);
+        public static float Log2P1(float x);
+        public static float Log10P1(float x);
+        public static float Clamp(float value, float min, float max);
+        public static float CopySign(float value, float sign);
+        public static float Max(float x, float y);
+        public static float MaxNumber(float x, float y);
+        public static float Min(float x, float y);
+        public static float MinNumber(float x, float y);
+        public static int Sign(float value);
+        public static float Abs(float value);
+        public static float CreateChecked<TOther>(TOther value) where TOther : INumberBase<TOther>;
+        public static float CreateSaturating<TOther>(TOther value) where TOther : INumberBase<TOther>;
+        public static float CreateTruncating<TOther>(TOther value) where TOther : INumberBase<TOther>;
+        public static bool IsEvenInteger(float value);
+        public static bool IsInteger(float value);
+        public static bool IsOddInteger(float value);
+        public static bool IsPositive(float value);
+        public static bool IsRealNumber(float value);
+        public static float MaxMagnitude(float x, float y);
+        public static float MaxMagnitudeNumber(float x, float y);
+        public static float MinMagnitude(float x, float y);
+        public static float MinMagnitudeNumber(float x, float y);
+        public static bool TryParse(string s, IFormatProvider provider, out float result);
+        public static float Pow(float x, float y);
+        public static float Cbrt(float x);
+        public static float Hypot(float x, float y);
+        public static float RootN(float x, int n);
+        public static float Sqrt(float x);
+        public static float Parse(ReadOnlySpan<char> s, IFormatProvider provider);
+        public static bool TryParse(ReadOnlySpan<char> s, IFormatProvider provider, out float result);
+        public static float Acos(float x);
+        public static float AcosPi(float x);
+        public static float Asin(float x);
+        public static float AsinPi(float x);
+        public static float Atan(float x);
+        public static float AtanPi(float x);
+        public static float Cos(float x);
+        public static float CosPi(float x);
+        public static float DegreesToRadians(float degrees);
+        public static float RadiansToDegrees(float radians);
+        public static float Sin(float x);
+        public static (float Sin, float Cos) SinCos(float x);
+        public static (float SinPi, float CosPi) SinCosPi(float x);
+        public static float SinPi(float x);
+        public static float Tan(float x);
+        public static float TanPi(float x);
+        public static float Parse(ReadOnlySpan<byte> utf8Text, NumberStyles style = NumberStyles.AllowThousands | NumberStyles.Float, IFormatProvider provider = null);
+        public static bool TryParse(ReadOnlySpan<byte> utf8Text, NumberStyles style, IFormatProvider provider, out float result);
+        public static float Parse(ReadOnlySpan<byte> utf8Text, IFormatProvider provider);
+        public static bool TryParse(ReadOnlySpan<byte> utf8Text, IFormatProvider provider, out float result);
+
+        public static bool operator ==(float left, float right);
+        public static bool operator !=(float left, float right);
+        public static bool operator <(float left, float right);
+        public static bool operator >(float left, float right);
+        public static bool operator <=(float left, float right);
+        public static bool operator >=(float left, float right);
+    }
+}

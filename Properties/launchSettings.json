@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "HeaderGen": {
+      "commandName": "Project",
+      "commandLineArgs": "..\\generated\\",
+      "workingDirectory": "$(ProjectDir)"
+    }
+  }
+}
