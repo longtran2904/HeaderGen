@@ -1553,6 +1553,8 @@ public class HeaderGen
     
     public static bool IsAttIgnoredByVS(string fullname)
     {
+        // TODO(long): Check the attribute’s EditorBrowsable setting
+        
         if (fullname == "System.Runtime.Versioning.NonVersionableAttribute" ||
             fullname == "System.SerializableAttribute" || fullname == paramAttribute)
             return true;
