@@ -10,7 +10,6 @@ namespace UnityEditorInternal
 {
     public class GenerateIconsWithMipLevels
     {
-
         public GenerateIconsWithMipLevels();
 
         public static void GenerateAllIconsWithMipLevels();

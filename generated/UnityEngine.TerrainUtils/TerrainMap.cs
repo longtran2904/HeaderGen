@@ -9,7 +9,6 @@ namespace UnityEngine.TerrainUtils
 {
     public class TerrainMap
     {
-
         public TerrainMap();
 
         public Dictionary<TerrainTileCoord, Terrain> terrainTiles { get; }

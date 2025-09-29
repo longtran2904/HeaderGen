@@ -6,7 +6,6 @@ namespace UnityEditor.Search
 {
     public class SearchQueryError
     {
-
         public SearchQueryError(int index, int length, string reason, SearchContext context, SearchProvider provider, bool fromSearchQuery = True, SearchQueryErrorType type = SearchQueryErrorType.Error);
         public SearchQueryError(QueryError error, SearchContext context, SearchProvider provider, bool fromSearchQuery = True);
 

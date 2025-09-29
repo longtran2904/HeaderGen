@@ -8,7 +8,6 @@ namespace Mono.Cecil.Cil
 {
     public sealed class EmbeddedSourceDebugInformation : CustomDebugInformation
     {
-
         public static Guid KindIdentifier;
 
         public EmbeddedSourceDebugInformation(byte[] content, bool compress);

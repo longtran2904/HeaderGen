@@ -7,7 +7,6 @@ namespace System.ComponentModel
     [AttributeUsage(AttributeTargets.All)]
     public sealed class TypeConverterAttribute : Attribute
     {
-
         public static readonly TypeConverterAttribute Default;
 
         public TypeConverterAttribute();

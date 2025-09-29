@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeLinePragma
     {
-
         public CodeLinePragma();
         public CodeLinePragma(string fileName, int lineNumber);
 

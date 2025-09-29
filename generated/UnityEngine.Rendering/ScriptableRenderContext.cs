@@ -18,7 +18,6 @@ namespace UnityEngine.Rendering
     [NativeType("Runtime/Graphics/ScriptableRenderLoop/ScriptableRenderContext.h")]
     public struct ScriptableRenderContext : IEquatable<ScriptableRenderContext>
     {
-
         [FreeFunction("UI::GetCanvasManager().EmitWorldGeometryForSceneView")]
         public static void EmitWorldGeometryForSceneView(Camera cullingCamera);
         [FreeFunction("UI::GetCanvasManager().EmitGeometryForCamera")]

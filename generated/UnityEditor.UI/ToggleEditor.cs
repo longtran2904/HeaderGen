@@ -10,7 +10,6 @@ namespace UnityEditor.UI
     [CustomEditor(typeof(Toggle), True)]
     public class ToggleEditor : SelectableEditor
     {
-
         public ToggleEditor();
 
         protected override void OnEnable();

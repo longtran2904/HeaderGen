@@ -12,7 +12,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Mono/AssetDatabase/AssetPreview.bindings.h")]
     public sealed class AssetPreview
     {
-
         public AssetPreview();
 
         public static Texture2D GetAssetPreview(UnityEngine.Object asset);

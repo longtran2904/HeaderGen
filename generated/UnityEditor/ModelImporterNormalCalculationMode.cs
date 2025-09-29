@@ -10,7 +10,6 @@ namespace UnityEditor
     [NativeType(Header = "Modules/AssetPipelineEditor/Public/ModelImporting/ImportMesh.h")]
     public enum ModelImporterNormalCalculationMode
     {
-
         [InspectorName("Unweighted (Legacy)")]
         Unweighted_Legacy = 0,
         Unweighted = 1,

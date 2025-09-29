@@ -8,7 +8,6 @@ namespace System.Threading
 {
     public sealed class PeriodicTimer : IDisposable
     {
-
         public PeriodicTimer(TimeSpan period);
         public PeriodicTimer(TimeSpan period, TimeProvider timeProvider);
 

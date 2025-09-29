@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public interface ITypeLib2 : ITypeLib
     {
-
         int GetTypeInfoCount();
         void GetTypeInfo(int index, out ITypeInfo ppTI);
         void GetTypeInfoType(int index, out TYPEKIND pTKind);

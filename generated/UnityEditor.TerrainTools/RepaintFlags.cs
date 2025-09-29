@@ -11,7 +11,6 @@ namespace UnityEditor.TerrainTools
     [MovedFrom("UnityEditor.Experimental.TerrainAPI")]
     public enum RepaintFlags
     {
-
         UI = 1,
         Scene = 2
     }

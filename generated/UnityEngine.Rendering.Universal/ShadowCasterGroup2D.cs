@@ -10,7 +10,6 @@ namespace UnityEngine.Rendering.Universal
     [MovedFrom("UnityEngine.Experimental.Rendering.Universal")]
     public abstract class ShadowCasterGroup2D : MonoBehaviour
     {
-
         protected ShadowCasterGroup2D();
 
         public List<ShadowCaster2D> GetShadowCasters();

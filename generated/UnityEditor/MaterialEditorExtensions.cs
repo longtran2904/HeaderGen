@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public static class MaterialEditorExtensions
     {
-
         public static void PerformBumpMapCheck(this Material material);
     }
 }

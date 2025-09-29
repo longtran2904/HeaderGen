@@ -9,7 +9,6 @@ namespace System
 {
     public struct RuntimeFieldHandle : IEquatable<RuntimeFieldHandle>, ISerializable
     {
-
         public nint Value { get; }
 
         public override int GetHashCode();

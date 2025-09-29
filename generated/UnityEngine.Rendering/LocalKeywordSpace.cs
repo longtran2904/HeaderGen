@@ -10,7 +10,6 @@ namespace UnityEngine.Rendering
     [NativeHeader("Runtime/Shaders/Keywords/KeywordSpaceScriptBindings.h")]
     public readonly struct LocalKeywordSpace : IEquatable<LocalKeywordSpace>
     {
-
         public LocalKeyword[] keywords { get; }
         public string[] keywordNames { get; }
         public uint keywordCount { get; }

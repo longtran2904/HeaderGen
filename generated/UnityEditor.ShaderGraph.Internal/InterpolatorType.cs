@@ -6,7 +6,6 @@ namespace UnityEditor.ShaderGraph.Internal
 {
     public enum InterpolatorType
     {
-
         Normal = 0,
         BiTangent = 1,
         Tangent = 2,

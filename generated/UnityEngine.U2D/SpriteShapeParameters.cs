@@ -9,7 +9,6 @@ namespace UnityEngine.U2D
     [MovedFrom("UnityEngine.Experimental.U2D")]
     public struct SpriteShapeParameters
     {
-
         public Matrix4x4 transform;
         public Texture2D fillTexture;
         public uint fillScale;

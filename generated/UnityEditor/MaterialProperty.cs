@@ -10,7 +10,6 @@ namespace UnityEditor
 {
     public sealed class MaterialProperty
     {
-
         public MaterialProperty();
 
         public UnityEngine.Object[] targets { get; }
@@ -31,10 +30,10 @@ namespace UnityEditor
 
         public void ReadFromMaterialPropertyBlock(MaterialPropertyBlock block);
         public void WriteToMaterialPropertyBlock(MaterialPropertyBlock materialblock, int changedPropertyMask);
+
         public delegate bool ApplyPropertyCallback(MaterialProperty prop, int changeMask, object previousValue);
         public enum PropType
         {
-
             Color = 0,
             Vector = 1,
             Float = 2,
@@ -45,7 +44,6 @@ namespace UnityEditor
         [Flags]
         public enum PropFlags
         {
-
             None = 0,
             HideInInspector = 1,
             PerRendererData = 2,
@@ -58,7 +56,6 @@ namespace UnityEditor
         [Obsolete("Use UnityEngine.Rendering.TextureDimension instead.", False)]
         public enum TexDim
         {
-
             Unknown = -1,
             None = 0,
             Tex2D = 2,

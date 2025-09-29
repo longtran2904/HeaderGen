@@ -10,7 +10,6 @@ namespace UnityEditor.CrashReporting
     [StaticAccessor("GetCrashReportingSettings()")]
     public static class CrashReportingSettings
     {
-
         public static bool enabled { get; set; }
         public static bool captureEditorExceptions { get; set; }
         [NativeThrows]

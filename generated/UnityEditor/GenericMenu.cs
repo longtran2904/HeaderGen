@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public sealed class GenericMenu
     {
-
         public GenericMenu();
 
         public bool allowDuplicateNames { get; set; }
@@ -21,6 +20,7 @@ namespace UnityEditor
         public int GetItemCount();
         public void ShowAsContext();
         public void DropDown(Rect position);
+
         public delegate void MenuFunction();
         public delegate void MenuFunction2(object userData);
     }

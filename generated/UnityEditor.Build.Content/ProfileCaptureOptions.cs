@@ -6,7 +6,6 @@ namespace UnityEditor.Build.Content
 {
     public enum ProfileCaptureOptions
     {
-
         None = 0,
         IgnoreShortEvents = 1
     }

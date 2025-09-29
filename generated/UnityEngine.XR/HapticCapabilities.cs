@@ -10,7 +10,6 @@ namespace UnityEngine.XR
     [NativeConditional("ENABLE_VR")]
     public struct HapticCapabilities : IEquatable<HapticCapabilities>
     {
-
         public uint numChannels { get; }
         public bool supportsImpulse { get; }
         public bool supportsBuffer { get; }

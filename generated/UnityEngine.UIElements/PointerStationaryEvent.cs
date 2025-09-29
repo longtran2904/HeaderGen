@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public sealed class PointerStationaryEvent : PointerEventBase<PointerStationaryEvent>
     {
-
         public PointerStationaryEvent();
 
         protected override void Init();

@@ -9,7 +9,6 @@ namespace UnityEditor
 {
     public enum iOSStatusBarStyle
     {
-
         Default = 0,
         LightContent = 1,
         [EditorBrowsable(EditorBrowsableState.Never)]

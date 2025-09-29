@@ -8,7 +8,6 @@ namespace System.Security.AccessControl
 {
     public sealed class AceEnumerator : IEnumerator
     {
-
         public GenericAce Current { get; }
 
         public bool MoveNext();

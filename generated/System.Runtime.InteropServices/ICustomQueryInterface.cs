@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices
     [EditorBrowsable(EditorBrowsableState.Never)]
     public interface ICustomQueryInterface
     {
-
         CustomQueryInterfaceResult GetInterface(in Guid iid, out nint ppv);
     }
 }

@@ -9,7 +9,6 @@ namespace System.Net.Http
 {
     public abstract class DelegatingHandler : HttpMessageHandler
     {
-
         protected DelegatingHandler();
         protected DelegatingHandler(HttpMessageHandler innerHandler);
 

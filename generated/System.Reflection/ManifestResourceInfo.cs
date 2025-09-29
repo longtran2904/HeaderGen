@@ -6,7 +6,6 @@ namespace System.Reflection
 {
     public class ManifestResourceInfo
     {
-
         public ManifestResourceInfo(Assembly containingAssembly, string containingFileName, ResourceLocation resourceLocation);
 
         public virtual Assembly ReferencedAssembly { get; }

@@ -6,7 +6,6 @@ namespace System.Threading
 {
     public static class Timeout
     {
-
         public static readonly TimeSpan InfiniteTimeSpan;
         public const int Infinite = -1;
     }

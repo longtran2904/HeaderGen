@@ -8,7 +8,6 @@ namespace UnityEditor.UIElements
 {
     public abstract class BaseMaskField<TChoice> : BasePopupField<TChoice, string>
     {
-
         public override List<string> choices { get; set; }
         public virtual List<int> choicesMasks { get; set; }
 

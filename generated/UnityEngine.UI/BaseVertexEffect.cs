@@ -11,7 +11,6 @@ namespace UnityEngine.UI
     [Obsolete("Use BaseMeshEffect instead", True)]
     public abstract class BaseVertexEffect
     {
-
         protected BaseVertexEffect();
 
         [EditorBrowsable(EditorBrowsableState.Never)]

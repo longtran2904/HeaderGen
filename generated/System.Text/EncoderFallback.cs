@@ -6,7 +6,6 @@ namespace System.Text
 {
     public abstract class EncoderFallback
     {
-
         protected EncoderFallback();
 
         public static EncoderFallback ReplacementFallback { get; }

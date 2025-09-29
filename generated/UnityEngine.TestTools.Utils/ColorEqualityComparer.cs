@@ -8,7 +8,6 @@ namespace UnityEngine.TestTools.Utils
 {
     public class ColorEqualityComparer : IEqualityComparer<Color>
     {
-
         public ColorEqualityComparer(float error);
 
         public static ColorEqualityComparer Instance { get; }

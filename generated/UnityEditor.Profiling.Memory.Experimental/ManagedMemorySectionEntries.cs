@@ -6,7 +6,6 @@ namespace UnityEditor.Profiling.Memory.Experimental
 {
     public class ManagedMemorySectionEntries
     {
-
         public ArrayEntries<byte[]> bytes { get; }
         public ArrayEntries<ulong> startAddress { get; }
 

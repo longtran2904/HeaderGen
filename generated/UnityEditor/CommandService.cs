@@ -9,7 +9,6 @@ namespace UnityEditor
     [ExcludeFromDocs]
     public static class CommandService
     {
-
         public static string GetCommandLabel(string commandId);
         public static void RegisterCommand(string id, string label, CommandHandler handler, CommandHint hint = CommandHint.Undefined);
         public static void RegisterCommand(string id, CommandHandler handler, CommandHint hint = CommandHint.Undefined);

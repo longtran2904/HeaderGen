@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public abstract class EventReference : MemberReference
     {
-
         protected EventReference(string name, TypeReference eventType);
 
         public TypeReference EventType { get; set; }

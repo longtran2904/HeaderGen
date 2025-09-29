@@ -11,7 +11,6 @@ namespace Microsoft.Unity.VisualStudio.Editor
 {
     public interface IAssemblyNameProvider
     {
-
         string[] ProjectSupportedExtensions { get; }
         string ProjectGenerationRootNamespace { get; }
         ProjectGenerationFlag ProjectGenerationFlag { get; }

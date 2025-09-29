@@ -6,7 +6,6 @@ namespace System.Security.AccessControl
 {
     public abstract class GenericAce
     {
-
         public AceType AceType { get; }
         public AceFlags AceFlags { get; set; }
         public bool IsInherited { get; }

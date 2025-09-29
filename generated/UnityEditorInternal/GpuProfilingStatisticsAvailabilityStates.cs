@@ -13,7 +13,6 @@ namespace UnityEditorInternal
     [RequiredByNativeCode]
     public enum GpuProfilingStatisticsAvailabilityStates
     {
-
         Gathered = 1,
         Enabled = 2,
         Supported = 4,

@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum HighlightSearchMode
     {
-
         None = 0,
         Auto = 1,
         Identifier = 2,

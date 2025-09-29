@@ -6,7 +6,6 @@ namespace UnityEditor.Timeline
 {
     public interface IInspectorChangeHandler
     {
-
         void OnPlayableAssetChangedInInspector();
     }
 }

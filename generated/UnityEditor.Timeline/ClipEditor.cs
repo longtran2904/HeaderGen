@@ -11,7 +11,6 @@ namespace UnityEditor.Timeline
 {
     public class ClipEditor
     {
-
         public ClipEditor();
 
         public virtual ClipDrawOptions GetClipOptions(TimelineClip clip);

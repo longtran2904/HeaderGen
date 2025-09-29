@@ -9,7 +9,6 @@ namespace System.Reflection
     [AttributeUsage(AttributeTargets.Assembly, Inherited = False)]
     public sealed class AssemblyAlgorithmIdAttribute : Attribute
     {
-
         public AssemblyAlgorithmIdAttribute(AssemblyHashAlgorithm algorithmId);
         [CLSCompliant(False)]
         public AssemblyAlgorithmIdAttribute(uint algorithmId);

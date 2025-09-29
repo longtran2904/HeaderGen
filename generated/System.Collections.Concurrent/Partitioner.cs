@@ -8,7 +8,6 @@ namespace System.Collections.Concurrent
 {
     public static class Partitioner
     {
-
         public static OrderablePartitioner<TSource> Create<TSource>(IList<TSource> list, bool loadBalance);
         public static OrderablePartitioner<TSource> Create<TSource>(TSource[] array, bool loadBalance);
         public static OrderablePartitioner<TSource> Create<TSource>(IEnumerable<TSource> source);

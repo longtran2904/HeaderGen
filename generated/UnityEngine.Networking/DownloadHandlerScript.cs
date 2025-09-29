@@ -9,7 +9,6 @@ namespace UnityEngine.Networking
     [NativeHeader("Modules/UnityWebRequest/Public/DownloadHandler/DownloadHandlerScript.h")]
     public class DownloadHandlerScript : DownloadHandler
     {
-
         public DownloadHandlerScript();
         public DownloadHandlerScript(byte[] preallocatedBuffer);
     }

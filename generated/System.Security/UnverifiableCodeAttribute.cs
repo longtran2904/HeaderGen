@@ -7,7 +7,6 @@ namespace System.Security
     [AttributeUsage(AttributeTargets.Module, AllowMultiple = True, Inherited = False)]
     public sealed class UnverifiableCodeAttribute : Attribute
     {
-
         public UnverifiableCodeAttribute();
     }
 }

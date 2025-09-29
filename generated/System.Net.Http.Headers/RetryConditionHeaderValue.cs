@@ -6,7 +6,6 @@ namespace System.Net.Http.Headers
 {
     public class RetryConditionHeaderValue : ICloneable
     {
-
         public RetryConditionHeaderValue(DateTimeOffset date);
         public RetryConditionHeaderValue(TimeSpan delta);
 

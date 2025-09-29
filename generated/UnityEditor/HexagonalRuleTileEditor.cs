@@ -10,7 +10,6 @@ namespace UnityEditor
     [CustomEditor(typeof(HexagonalRuleTile), True)]
     public class HexagonalRuleTileEditor : RuleTileEditor
     {
-
         public HexagonalRuleTileEditor();
 
         public HexagonalRuleTile hexTile { get; }

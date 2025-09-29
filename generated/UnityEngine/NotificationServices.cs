@@ -11,7 +11,6 @@ namespace UnityEngine
     [Obsolete("NotificationServices is deprecated. Please use iOS.NotificationServices instead (UnityUpgradable) -> UnityEngine.iOS.NotificationServices", True)]
     public sealed class NotificationServices
     {
-
         public NotificationServices();
 
         [EditorBrowsable(EditorBrowsableState.Never)]

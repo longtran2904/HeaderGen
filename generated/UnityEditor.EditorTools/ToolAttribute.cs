@@ -8,7 +8,6 @@ namespace UnityEditor.EditorTools
 {
     public abstract class ToolAttribute : Attribute
     {
-
         protected ToolAttribute(string displayName, Type targetType = null, Type editorToolContext = null);
 
         public string displayName { get; }

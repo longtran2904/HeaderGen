@@ -6,7 +6,6 @@ namespace Unity.Rendering.HybridV2
 {
     public enum DOTSInstancingPropertyType
     {
-
         Unknown = 0,
         Float = 1,
         Half = 2,

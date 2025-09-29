@@ -8,7 +8,6 @@ namespace UnityEditor.Build
 {
     public readonly struct NamedBuildTarget : IComparable<NamedBuildTarget>, IEquatable<NamedBuildTarget>
     {
-
         public static readonly NamedBuildTarget Unknown;
         public static readonly NamedBuildTarget Standalone;
         public static readonly NamedBuildTarget Server;

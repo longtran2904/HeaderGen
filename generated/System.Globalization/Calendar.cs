@@ -6,7 +6,6 @@ namespace System.Globalization
 {
     public abstract class Calendar : ICloneable
     {
-
         public const int CurrentEra = 0;
 
         protected Calendar();

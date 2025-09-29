@@ -7,7 +7,6 @@ namespace System
     [AttributeUsage(AttributeTargets.Class, Inherited = True)]
     public sealed class AttributeUsageAttribute : Attribute
     {
-
         public AttributeUsageAttribute(AttributeTargets validOn);
 
         public AttributeTargets ValidOn { get; }

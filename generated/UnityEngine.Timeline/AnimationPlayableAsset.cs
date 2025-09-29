@@ -10,7 +10,6 @@ namespace UnityEngine.Timeline
     [NotKeyable]
     public class AnimationPlayableAsset : PlayableAsset, IPropertyPreview, ISerializationCallbackReceiver, ITimelineClipAsset
     {
-
         public AnimationPlayableAsset();
 
         public Vector3 position { get; set; }
@@ -30,9 +29,9 @@ namespace UnityEngine.Timeline
         public void LiveLink();
         public void ResetOffsets();
         public void GatherProperties(PlayableDirector director, IPropertyCollector driver);
+
         public enum LoopMode
         {
-
             [Tooltip("Use the loop time setting from the source AnimationClip.")]
             UseSourceAsset = 0,
             [Tooltip("The source AnimationClip loops during playback.")]

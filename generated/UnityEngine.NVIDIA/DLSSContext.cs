@@ -6,7 +6,6 @@ namespace UnityEngine.NVIDIA
 {
     public class DLSSContext
     {
-
         public ref readonly DLSSCommandInitializationData initData { get; }
         public ref DLSSCommandExecutionData executeData { get; }
     }

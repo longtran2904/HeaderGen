@@ -8,7 +8,6 @@ namespace System.Runtime.Serialization
     [Obsolete("Formatter-based serialization is obsolete and should not be used.", DiagnosticId = "SYSLIB0050", UrlFormat = "https://aka.ms/dotnet-warnings/{0}")]
     public interface IFormatterConverter
     {
-
         object Convert(object value, Type type);
         object Convert(object value, TypeCode typeCode);
         bool ToBoolean(object value);

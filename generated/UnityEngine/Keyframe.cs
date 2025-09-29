@@ -10,7 +10,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public struct Keyframe
     {
-
         public Keyframe(float time, float value);
         public Keyframe(float time, float value, float inTangent, float outTangent);
         public Keyframe(float time, float value, float inTangent, float outTangent, float inWeight, float outWeight);

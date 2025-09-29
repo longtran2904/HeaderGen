@@ -11,7 +11,6 @@ namespace UnityEngine.Apple.TV
     [Obsolete("UnityEngine.Apple.TV.Remote has been deprecated. Use UnityEngine.tvOS.Remote instead (UnityUpgradable) -> UnityEngine.tvOS.Remote", True)]
     public sealed class Remote
     {
-
         public Remote();
 
         public static bool allowExitToHome { get; set; }

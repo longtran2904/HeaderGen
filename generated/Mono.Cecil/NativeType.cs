@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public enum NativeType
     {
-
         None = 102,
         Boolean = 2,
         I1 = 3,

@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public abstract class CallbackEventHandler : IEventHandler
     {
-
         protected CallbackEventHandler();
 
         public void RegisterCallback<TEventType>(EventCallback<TEventType> callback, TrickleDown useTrickleDown = TrickleDown.NoTrickleDown) where TEventType : EventBase<TEventType>, new();

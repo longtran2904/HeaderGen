@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Camera/LightProbeProxyVolume.h")]
     public sealed class LightProbeProxyVolume : Behaviour
     {
-
         public LightProbeProxyVolume();
 
         public static bool isFeatureSupported { get; }
@@ -31,41 +30,36 @@ namespace UnityEngine
         public DataFormat dataFormat { get; set; }
 
         public void Update();
+
         public enum ResolutionMode
         {
-
             Automatic = 0,
             Custom = 1
         }
         public enum BoundingBoxMode
         {
-
             AutomaticLocal = 0,
             AutomaticWorld = 1,
             Custom = 2
         }
         public enum ProbePositionMode
         {
-
             CellCorner = 0,
             CellCenter = 1
         }
         public enum RefreshMode
         {
-
             Automatic = 0,
             EveryFrame = 1,
             ViaScripting = 2
         }
         public enum QualityMode
         {
-
             Low = 0,
             Normal = 1
         }
         public enum DataFormat
         {
-
             HalfFloat = 0,
             Float = 1
         }

@@ -6,7 +6,6 @@ namespace UnityEditor.VersionControl
 {
     public interface ISettingsInspectorExtension
     {
-
         void OnInspectorGUI();
     }
 }

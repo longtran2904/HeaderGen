@@ -9,7 +9,6 @@ namespace TreeEditor
 {
     public class TreeGroupLeaf : TreeGroup
     {
-
         public int geometryMode;
         public Material materialLeaf;
         public GameObject instanceMesh;
@@ -24,9 +23,9 @@ namespace TreeEditor
         public override void UpdateMatrix();
         public override void BuildAOSpheres(List<TreeAOSphere> aoSpheres);
         public override void UpdateMesh(List<TreeMaterial> materials, List<TreeVertex> verts, List<TreeTriangle> tris, List<TreeAOSphere> aoSpheres, int buildFlags, float adaptiveQuality, float aoDensity);
+
         public enum GeometryMode
         {
-
             PLANE = 0,
             CROSS = 1,
             TRI_CROSS = 2,

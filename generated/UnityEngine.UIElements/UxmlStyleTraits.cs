@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public class UxmlStyleTraits : UxmlTraits
     {
-
         public UxmlStyleTraits();
 
         public override IEnumerable<UxmlChildElementDescription> uxmlChildElementsDescription { get; }

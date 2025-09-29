@@ -6,7 +6,6 @@ namespace UnityEditorInternal
 {
     public enum DllType
     {
-
         Unknown = 0,
         Native = 1,
         UnknownManaged = 2,

@@ -11,7 +11,6 @@ namespace TMPro.EditorUtilities
     [CustomPropertyDrawer(typeof(GlyphRect))]
     public class GlyphRectPropertyDrawer : PropertyDrawer
     {
-
         public GlyphRectPropertyDrawer();
 
         public override void OnGUI(Rect position, SerializedProperty property, GUIContent label);

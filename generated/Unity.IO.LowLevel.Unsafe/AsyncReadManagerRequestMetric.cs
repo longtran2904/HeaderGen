@@ -11,7 +11,6 @@ namespace Unity.IO.LowLevel.Unsafe
     [RequiredByNativeCode]
     public struct AsyncReadManagerRequestMetric
     {
-
         [NativeName("assetName")]
         public string AssetName { get; }
         [NativeName("fileName")]

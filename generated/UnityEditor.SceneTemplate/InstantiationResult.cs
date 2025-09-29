@@ -8,7 +8,6 @@ namespace UnityEditor.SceneTemplate
 {
     public sealed class InstantiationResult
     {
-
         public Scene scene { get; }
         public SceneAsset sceneAsset { get; }
     }

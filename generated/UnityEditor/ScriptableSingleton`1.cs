@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public class ScriptableSingleton<T> : ScriptableObject where T : ScriptableObject
     {
-
         protected ScriptableSingleton();
 
         public static T instance { get; }

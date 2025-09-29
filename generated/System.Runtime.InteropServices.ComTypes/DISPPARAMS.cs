@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public struct DISPPARAMS
     {
-
         public nint rgvarg;
         public nint rgdispidNamedArgs;
         public int cArgs;

@@ -9,7 +9,6 @@ namespace UnityEngine
 {
     public class MissingReferenceException : SystemException
     {
-
         public MissingReferenceException();
         public MissingReferenceException(string message);
         public MissingReferenceException(string message, Exception innerException);

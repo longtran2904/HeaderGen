@@ -11,7 +11,6 @@ namespace System.IO
 {
     public static class RandomAccess
     {
-
         public static long GetLength(SafeFileHandle handle);
         public static void SetLength(SafeFileHandle handle, long length);
         public static int Read(SafeFileHandle handle, Span<byte> buffer, long fileOffset);

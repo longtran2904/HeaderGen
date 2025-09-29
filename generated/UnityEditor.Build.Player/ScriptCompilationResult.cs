@@ -10,7 +10,6 @@ namespace UnityEditor.Build.Player
     [UsedByNativeCode]
     public struct ScriptCompilationResult
     {
-
         public ReadOnlyCollection<string> assemblies { get; }
         public TypeDB typeDB { get; }
     }

@@ -9,7 +9,6 @@ namespace UnityEngine.UIElements
     [HelpURL("UIE-Runtime-Panel-Settings")]
     public class PanelSettings : ScriptableObject
     {
-
         [SerializeField]
         public PanelTextSettings textSettings;
 

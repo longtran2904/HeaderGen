@@ -8,7 +8,6 @@ namespace UnityEditor.VersionControl
 {
     public interface IPopupMenuExtension
     {
-
         void DisplayPopupMenu(Rect position);
     }
 }

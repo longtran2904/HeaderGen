@@ -14,7 +14,6 @@ namespace UnityEngine.Playables
     [UsedByNativeCode]
     public struct PlayableOutputHandle : IEquatable<PlayableOutputHandle>
     {
-
         public static PlayableOutputHandle Null { get; }
 
         public override int GetHashCode();

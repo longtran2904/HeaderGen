@@ -10,7 +10,6 @@ namespace UnityEngine
     [RequireComponent(typeof(AudioBehaviour))]
     public sealed class AudioHighPassFilter : Behaviour
     {
-
         public AudioHighPassFilter();
 
         [EditorBrowsable(EditorBrowsableState.Never)]

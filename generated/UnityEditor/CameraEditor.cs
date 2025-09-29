@@ -13,7 +13,6 @@ namespace UnityEditor
     [CustomEditor(typeof(Camera))]
     public class CameraEditor : Editor
     {
-
         public CameraEditor();
 
         [Obsolete("Preview camera is obsolete, use Overlays to create a Camera preview.")]
@@ -28,9 +27,9 @@ namespace UnityEditor
         [Obsolete("OnOverlayGUI is obsolete, use Overlay to create a preview.")]
         public virtual void OnOverlayGUI(UnityEngine.Object target, SceneView sceneView);
         public virtual void OnSceneGUI();
+
         public sealed class Settings
         {
-
             public Settings(SerializedObject so);
 
             public static IEnumerable<string> ApertureFormatNames { get; }

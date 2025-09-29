@@ -9,7 +9,6 @@ namespace System.Security.AccessControl
 {
     public abstract class ObjectSecurity
     {
-
         protected ObjectSecurity();
         protected ObjectSecurity(bool isContainer, bool isDS);
         protected ObjectSecurity(CommonSecurityDescriptor securityDescriptor);

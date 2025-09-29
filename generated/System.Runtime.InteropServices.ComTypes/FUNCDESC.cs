@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public struct FUNCDESC
     {
-
         public int memid;
         public nint lprgscode;
         public nint lprgelemdescParam;

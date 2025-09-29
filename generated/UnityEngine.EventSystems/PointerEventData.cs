@@ -9,7 +9,6 @@ namespace UnityEngine.EventSystems
 {
     public class PointerEventData : BaseEventData
     {
-
         public List<GameObject> hovered;
 
         public PointerEventData(EventSystem eventSystem);
@@ -52,16 +51,15 @@ namespace UnityEngine.EventSystems
         public bool IsPointerMoving();
         public bool IsScrolling();
         public override string ToString();
+
         public enum InputButton
         {
-
             Left = 0,
             Right = 1,
             Middle = 2
         }
         public enum FramePressState
         {
-
             Pressed = 0,
             Released = 1,
             PressedAndReleased = 2,

@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [CLSCompliant(False)]
     public readonly struct CULong : IEquatable<CULong>
     {
-
         public CULong(uint value);
         public CULong(nuint value);
 

@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public struct BlendState : IEquatable<BlendState>
     {
-
         public BlendState(bool separateMRTBlend = False, bool alphaToMask = False);
 
         public static BlendState defaultValue { get; }

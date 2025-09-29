@@ -11,7 +11,6 @@ namespace UnityEditor.Animations
     [NativeHeader("Modules/Animation/MecanimUtility.h")]
     public class AnimatorTransitionBase : UnityEngine.Object
     {
-
         protected AnimatorTransitionBase();
 
         public bool solo { get; set; }

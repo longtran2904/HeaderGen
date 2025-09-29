@@ -11,7 +11,6 @@ namespace UnityEngine
     [Obsolete("CalendarIdentifier is deprecated. Please use iOS.CalendarIdentifier instead (UnityUpgradable) -> UnityEngine.iOS.CalendarIdentifier", True)]
     public enum CalendarIdentifier
     {
-
         GregorianCalendar = 0,
         BuddhistCalendar = 1,
         ChineseCalendar = 2,

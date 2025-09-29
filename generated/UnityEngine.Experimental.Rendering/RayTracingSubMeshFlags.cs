@@ -14,7 +14,6 @@ namespace UnityEngine.Experimental.Rendering
     [UsedByNativeCode]
     public enum RayTracingSubMeshFlags
     {
-
         Disabled = 0,
         Enabled = 1,
         ClosestHitOnly = 2,

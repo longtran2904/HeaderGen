@@ -11,7 +11,6 @@ namespace UnityEditor
     [Obsolete("MovieImporter is removed. Use VideoClipImporter instead.", True)]
     public class MovieImporter
     {
-
         public MovieImporter();
 
         public float quality { get; set; }

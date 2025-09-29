@@ -6,7 +6,6 @@ namespace TMPro
 {
     public class TMP_EditorResourceManager
     {
-
         public static TMP_EditorResourceManager instance { get; }
     }
 }

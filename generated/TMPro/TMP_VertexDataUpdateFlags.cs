@@ -6,7 +6,6 @@ namespace TMPro
 {
     public enum TMP_VertexDataUpdateFlags
     {
-
         None = 0,
         Vertices = 1,
         Uv0 = 2,

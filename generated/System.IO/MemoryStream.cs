@@ -9,7 +9,6 @@ namespace System.IO
 {
     public class MemoryStream : Stream
     {
-
         public MemoryStream();
         public MemoryStream(int capacity);
         public MemoryStream(byte[] buffer);

@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum TextureResizeAlgorithm
     {
-
         Mitchell = 0,
         Bilinear = 1
     }

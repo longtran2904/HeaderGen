@@ -6,7 +6,6 @@ namespace System.IO
 {
     public enum HandleInheritability
     {
-
         None = 0,
         Inheritable = 1
     }

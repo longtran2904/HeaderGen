@@ -8,7 +8,6 @@ namespace Mono.Cecil.Cil
 {
     public sealed class EmbeddedPortablePdbReaderProvider : ISymbolReaderProvider
     {
-
         public EmbeddedPortablePdbReaderProvider();
 
         public ISymbolReader GetSymbolReader(ModuleDefinition module, string fileName);

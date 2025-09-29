@@ -9,7 +9,6 @@ namespace UnityEngine.Timeline
     [AttributeUsage(AttributeTargets.Class)]
     public class TrackColorAttribute : Attribute
     {
-
         public TrackColorAttribute(float r, float g, float b);
 
         public Color color { get; }

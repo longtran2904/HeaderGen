@@ -6,7 +6,6 @@ namespace System.Runtime.CompilerServices
 {
     public class StrongBox<T> : IStrongBox
     {
-
         public T Value;
 
         public StrongBox();

@@ -6,7 +6,6 @@ namespace UnityEditor.ShaderKeywordFilter
 {
     public enum FilterAction
     {
-
         Select = 0,
         Remove = 1,
         SelectOrRemove = 2

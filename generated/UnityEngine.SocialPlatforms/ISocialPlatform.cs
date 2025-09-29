@@ -8,7 +8,6 @@ namespace UnityEngine.SocialPlatforms
 {
     public interface ISocialPlatform
     {
-
         ILocalUser localUser { get; }
 
         void LoadUsers(string[] userIDs, Action<IUserProfile[]> callback);

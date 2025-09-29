@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public struct Vertex
     {
-
         public Vector3 position;
         public Color32 tint;
         public Vector2 uv;

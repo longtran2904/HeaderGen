@@ -10,7 +10,6 @@ namespace System.IO
 {
     public abstract class TextWriter : MarshalByRefObject, IAsyncDisposable, IDisposable
     {
-
         protected char[] CoreNewLine;
         public static readonly TextWriter Null;
 

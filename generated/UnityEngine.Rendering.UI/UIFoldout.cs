@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering.UI
     [ExecuteAlways]
     public class UIFoldout : Toggle
     {
-
         public GameObject content;
         public GameObject arrowOpened;
         public GameObject arrowClosed;

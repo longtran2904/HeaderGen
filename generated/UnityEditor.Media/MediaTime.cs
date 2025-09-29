@@ -6,7 +6,6 @@ namespace UnityEditor.Media
 {
     public struct MediaTime
     {
-
         public static readonly MediaTime Invalid;
 
         public MediaTime(long seconds);

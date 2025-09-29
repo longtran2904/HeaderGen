@@ -6,7 +6,6 @@ namespace Unity.CompilationPipeline.Common.ILPostProcessing
 {
     public class InMemoryAssembly
     {
-
         public InMemoryAssembly(byte[] peData, byte[] pdbData);
 
         public byte[] PeData { get; set; }

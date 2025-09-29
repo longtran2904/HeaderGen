@@ -6,7 +6,6 @@ namespace UnityEditor.MemoryProfiler
 {
     public struct FieldDescription
     {
-
         public FieldDescription(string name, int offset, int typeIndex, bool isStatic);
 
         public string name { get; }

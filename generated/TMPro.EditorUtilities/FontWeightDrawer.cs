@@ -10,7 +10,6 @@ namespace TMPro.EditorUtilities
     [CustomPropertyDrawer(typeof(TMP_FontWeightPair))]
     public class FontWeightDrawer : PropertyDrawer
     {
-
         public FontWeightDrawer();
 
         public override void OnGUI(Rect position, SerializedProperty property, GUIContent label);

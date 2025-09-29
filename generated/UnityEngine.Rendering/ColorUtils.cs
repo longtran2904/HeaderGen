@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public static class ColorUtils
     {
-
         public static float s_LightMeterCalibrationConstant;
         public static float s_LensAttenuation;
 

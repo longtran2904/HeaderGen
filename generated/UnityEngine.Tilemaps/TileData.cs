@@ -11,7 +11,6 @@ namespace UnityEngine.Tilemaps
     [RequiredByNativeCode]
     public struct TileData
     {
-
         public Sprite sprite { get; set; }
         public Color color { get; set; }
         public Matrix4x4 transform { get; set; }

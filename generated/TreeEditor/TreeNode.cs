@@ -8,7 +8,6 @@ namespace TreeEditor
 {
     public class TreeNode
     {
-
         public TreeSpline spline;
         public int seed;
         public float animSeed;

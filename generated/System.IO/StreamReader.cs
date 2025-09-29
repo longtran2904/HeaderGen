@@ -10,7 +10,6 @@ namespace System.IO
 {
     public class StreamReader : TextReader
     {
-
         public static readonly StreamReader Null;
 
         public StreamReader(Stream stream);

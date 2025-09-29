@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public struct DepthState : IEquatable<DepthState>
     {
-
         public DepthState(bool writeEnabled = True, CompareFunction compareFunction = CompareFunction.Less);
 
         public static DepthState defaultValue { get; }

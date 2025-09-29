@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public interface IEnumVARIANT
     {
-
         int Next(int celt, out object[] rgVar, nint pceltFetched);
         int Skip(int celt);
         int Reset();

@@ -7,7 +7,6 @@ namespace UnityEngine.UIElements
     [HelpURL("UIE-USS")]
     public class StyleSheet : ScriptableObject
     {
-
         public StyleSheet();
 
         public bool importedWithErrors { get; }

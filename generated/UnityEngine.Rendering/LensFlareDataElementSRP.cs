@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public sealed class LensFlareDataElementSRP
     {
-
         public bool visible;
         public float position;
         public Vector2 positionOffset;

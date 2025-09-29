@@ -11,7 +11,6 @@ namespace UnityEditorInternal
 {
     public class ScriptEditorUtility
     {
-
         public ScriptEditorUtility();
 
         [EditorBrowsable(EditorBrowsableState.Never)]
@@ -31,11 +30,11 @@ namespace UnityEditorInternal
         [EditorBrowsable(EditorBrowsableState.Never)]
         [Obsolete("This method is being internalized, please use UnityEditorInternal.CodeEditorUtility.GetFoundScriptEditorPaths", True)]
         public static Dictionary<string, string> GetFoundScriptEditorPaths(RuntimePlatform platform);
+
         [EditorBrowsable(EditorBrowsableState.Never)]
         [Obsolete("This will be removed", False)]
         public enum ScriptEditor
         {
-
             SystemDefault = 0,
             MonoDevelop = 1,
             VisualStudio = 2,
@@ -44,7 +43,6 @@ namespace UnityEditorInternal
         }
         public struct Installation
         {
-
             public string Name;
             public string Path;
         }

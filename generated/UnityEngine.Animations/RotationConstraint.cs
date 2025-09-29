@@ -14,7 +14,6 @@ namespace UnityEngine.Animations
     [UsedByNativeCode]
     public sealed class RotationConstraint : Behaviour, IConstraint, IConstraintInternal
     {
-
         public float weight { get; set; }
         public Vector3 rotationAtRest { get; set; }
         public Vector3 rotationOffset { get; set; }

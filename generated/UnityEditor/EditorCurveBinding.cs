@@ -10,7 +10,6 @@ namespace UnityEditor
     [NativeType(CodegenOptions.Custom, "MonoEditorCurveBinding")]
     public struct EditorCurveBinding : IEquatable<EditorCurveBinding>
     {
-
         public string path;
         public string propertyName;
 

@@ -9,7 +9,6 @@ namespace UnityEditor.Graphs
 {
     public class Property
     {
-
         public Property();
         public Property(string typeString, string name);
         public Property(Type type, string name);

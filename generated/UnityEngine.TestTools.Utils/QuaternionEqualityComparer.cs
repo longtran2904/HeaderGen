@@ -8,7 +8,6 @@ namespace UnityEngine.TestTools.Utils
 {
     public class QuaternionEqualityComparer : IEqualityComparer<Quaternion>
     {
-
         public QuaternionEqualityComparer(float allowedError);
 
         public static QuaternionEqualityComparer Instance { get; }

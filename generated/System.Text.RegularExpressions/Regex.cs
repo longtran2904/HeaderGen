@@ -12,7 +12,6 @@ namespace System.Text.RegularExpressions
 {
     public class Regex : ISerializable
     {
-
         protected internal string pattern;
         protected internal RegexOptions roptions;
         protected internal RegexRunnerFactory factory;
@@ -116,10 +115,10 @@ namespace System.Text.RegularExpressions
         public static ValueMatchEnumerator EnumerateMatches(ReadOnlySpan<char> input, string pattern, RegexOptions options, TimeSpan matchTimeout);
         public ValueMatchEnumerator EnumerateMatches(ReadOnlySpan<char> input);
         public ValueMatchEnumerator EnumerateMatches(ReadOnlySpan<char> input, int startat);
+
         [Obsolete("Types with embedded references are not supported in this version of your compiler.", True)]
         public ref struct ValueMatchEnumerator
         {
-
             public ValueMatch Current { get; }
 
             public ValueMatchEnumerator GetEnumerator();

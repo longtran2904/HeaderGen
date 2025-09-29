@@ -7,7 +7,6 @@ namespace UnityEngine.Rendering.Universal
     [VolumeComponentMenuForRenderPipeline("Post-processing/Channel Mixer", new[] {typeof(UniversalRenderPipeline) })]
     public sealed class ChannelMixer : VolumeComponent, IPostProcessComponent
     {
-
         [Tooltip("Modify influence of the red channel in the overall mix.")]
         public ClampedFloatParameter redOutRedIn;
         [Tooltip("Modify influence of the green channel in the overall mix.")]

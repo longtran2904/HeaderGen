@@ -8,7 +8,6 @@ namespace UnityEngine
     [HelpURL("https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@latest/index.html?subfolder=/manual/RuleTile.html")]
     public class HexagonalRuleTile : RuleTile
     {
-
         [DontOverride]
         public bool m_FlatTop;
 

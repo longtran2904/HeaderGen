@@ -10,7 +10,6 @@ namespace UnityEditor.Recorder
 {
     public abstract class RecorderSettings : ScriptableObject
     {
-
         protected RecorderSettings();
 
         public string OutputFile { get; set; }

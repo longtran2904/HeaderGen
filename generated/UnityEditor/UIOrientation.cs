@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum UIOrientation
     {
-
         Portrait = 0,
         PortraitUpsideDown = 1,
         LandscapeRight = 2,

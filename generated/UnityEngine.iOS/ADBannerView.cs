@@ -11,7 +11,6 @@ namespace UnityEngine.iOS
     [Obsolete("iOS.ADBannerView class is obsolete, Apple iAD service discontinued", True)]
     public sealed class ADBannerView
     {
-
         public ADBannerView(Type type, Layout layout);
 
         public bool loaded { get; }
@@ -25,9 +24,9 @@ namespace UnityEngine.iOS
         public static event BannerFailedToLoadDelegate onBannerFailedToLoad;
 
         public static bool IsAvailable(Type type);
+
         public enum Layout
         {
-
             Top = 0,
             Bottom = 1,
             TopLeft = 0,
@@ -43,7 +42,6 @@ namespace UnityEngine.iOS
         }
         public enum Type
         {
-
             Banner = 0,
             MediumRect = 1
         }

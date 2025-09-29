@@ -9,7 +9,6 @@ namespace TMPro
 {
     public class TMP_PostBuildProcessHandler
     {
-
         public TMP_PostBuildProcessHandler();
 
         [PostProcessBuild(10000)]

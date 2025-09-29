@@ -9,7 +9,6 @@ namespace UnityEditor.UIElements
 {
     public class Hash128Field : TextInputBaseField<Hash128>
     {
-
         public static readonly string ussClassName;
         public static readonly string labelUssClassName;
         public static readonly string inputUssClassName;
@@ -21,14 +20,13 @@ namespace UnityEditor.UIElements
         public override Hash128 value { get; set; }
 
         public override void SetValueWithoutNotify(Hash128 newValue);
+
         public class UxmlFactory : UxmlFactory<Hash128Field, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : TextValueFieldTraits<Hash128, UxmlHash128AttributeDescription>
         {
-
             public UxmlTraits();
         }
     }

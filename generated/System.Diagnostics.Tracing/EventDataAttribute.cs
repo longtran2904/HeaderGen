@@ -7,7 +7,6 @@ namespace System.Diagnostics.Tracing
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct, Inherited = False)]
     public class EventDataAttribute : Attribute
     {
-
         public EventDataAttribute();
 
         public string Name { get; set; }

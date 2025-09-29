@@ -6,7 +6,6 @@ namespace UnityEngine.SceneManagement
 {
     public struct CreateSceneParameters
     {
-
         public CreateSceneParameters(LocalPhysicsMode physicsMode);
 
         public LocalPhysicsMode localPhysicsMode { get; set; }

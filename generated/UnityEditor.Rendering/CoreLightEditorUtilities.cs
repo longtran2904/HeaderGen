@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering
 {
     public static class CoreLightEditorUtilities
     {
-
         public static void DrawDirectionalLightGizmo(Light light);
         public static void DrawPointLightGizmo(Light light);
         public static void DrawRectangleLightGizmo(Light light);

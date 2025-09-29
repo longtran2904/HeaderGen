@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.Universal
 {
     public sealed class UniversalRenderer : ScriptableRenderer
     {
-
         public UniversalRenderer(UniversalRendererData data);
 
         public DepthPrimingMode depthPrimingMode { get; set; }

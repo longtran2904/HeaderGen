@@ -8,7 +8,6 @@ namespace System.Reflection
 {
     public static class CustomAttributeExtensions
     {
-
         public static Attribute GetCustomAttribute(this Assembly element, Type attributeType);
         public static Attribute GetCustomAttribute(this Module element, Type attributeType);
         public static Attribute GetCustomAttribute(this MemberInfo element, Type attributeType);

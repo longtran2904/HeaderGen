@@ -10,7 +10,6 @@ namespace UnityEngine
     [StaticAccessor("ScalableBufferManager::GetInstance()", StaticAccessorType.Dot)]
     public static class ScalableBufferManager
     {
-
         public static float widthScaleFactor { get; }
         public static float heightScaleFactor { get; }
 

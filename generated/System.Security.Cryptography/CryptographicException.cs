@@ -9,7 +9,6 @@ namespace System.Security.Cryptography
 {
     public class CryptographicException : SystemException
     {
-
         public CryptographicException();
         public CryptographicException(int hr);
         public CryptographicException(string message);

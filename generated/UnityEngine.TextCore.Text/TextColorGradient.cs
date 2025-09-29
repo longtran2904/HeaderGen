@@ -8,7 +8,6 @@ namespace UnityEngine.TextCore.Text
     [ExcludeFromPreset]
     public class TextColorGradient : ScriptableObject
     {
-
         public ColorGradientMode colorMode;
         public Color topLeft;
         public Color topRight;

@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices
     [EditorBrowsable(EditorBrowsableState.Never)]
     public sealed class BStrWrapper
     {
-
         public BStrWrapper(string value);
         public BStrWrapper(object value);
 

@@ -10,7 +10,6 @@ namespace UnityEngine.Rendering
 {
     public static class CoreUnsafeUtils
     {
-
         public static void CopyTo<T>(this List<T> list, void* dest, int count) where T : struct;
         public static void CopyTo<T>(this T[] list, void* dest, int count) where T : struct;
         public static void MergeSort(uint[] arr, int sortSize, ref uint[] supportArray);
@@ -29,9 +28,9 @@ namespace UnityEngine.Rendering
         public static void CombineHashes<TValue, TGetter>(int count, void* hashes, Hash128* outHash) where TValue : struct where TGetter : IKeyGetter<TValue, Hash128>, struct;
         public static void CombineHashes(int count, Hash128* hashes, Hash128* outHash);
         public static bool HaveDuplicates(int[] arr);
+
         public struct FixedBufferStringQueue
         {
-
             public FixedBufferStringQueue(byte* ptr, int length);
 
             public int Count { get; }
@@ -42,7 +41,6 @@ namespace UnityEngine.Rendering
         }
         public interface IKeyGetter<TValue, TKey>
         {
-
             TKey Get(ref TValue v);
         }
     }

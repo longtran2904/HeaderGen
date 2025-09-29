@@ -13,7 +13,6 @@ namespace UnityEngine
     [RequireComponent(typeof(Transform))]
     public sealed class Rigidbody2D : Component
     {
-
         public Rigidbody2D();
 
         public Vector2 position { get; set; }

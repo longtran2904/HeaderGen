@@ -8,7 +8,6 @@ namespace Mono.Cecil.Cil
 {
     public sealed class PortablePdbWriter : IDisposable, IMetadataSymbolWriter, ISymbolWriter
     {
-
         public ISymbolReaderProvider GetReaderProvider();
         public ImageDebugHeader GetDebugHeader();
         public void Write(MethodDebugInformation info);

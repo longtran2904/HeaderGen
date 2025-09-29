@@ -9,7 +9,6 @@ namespace UnityEditor.Animations
     [NativeHeader("Editor/Src/Animation/Transition.h")]
     public struct AnimatorCondition
     {
-
         public AnimatorConditionMode mode { get; set; }
         public string parameter { get; set; }
         public float threshold { get; set; }

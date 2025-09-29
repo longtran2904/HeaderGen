@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public abstract class ImmediateModeElement : VisualElement
     {
-
         public ImmediateModeElement();
 
         public bool cullingEnabled { get; set; }

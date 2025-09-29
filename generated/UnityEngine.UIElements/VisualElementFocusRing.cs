@@ -6,16 +6,15 @@ namespace UnityEngine.UIElements
 {
     public class VisualElementFocusRing : IFocusRing
     {
-
         public VisualElementFocusRing(VisualElement root, DefaultFocusOrder dfo = DefaultFocusOrder.ChildOrder);
 
         public DefaultFocusOrder defaultFocusOrder { get; set; }
 
         public FocusChangeDirection GetFocusChangeDirection(Focusable currentFocusable, EventBase e);
         public Focusable GetNextFocusable(Focusable currentFocusable, FocusChangeDirection direction);
+
         public enum DefaultFocusOrder
         {
-
             ChildOrder = 0,
             PositionXY = 1,
             PositionYX = 2

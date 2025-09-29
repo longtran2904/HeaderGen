@@ -9,7 +9,6 @@ namespace System.Net.Http.Headers
 {
     public abstract class HttpHeaders : IEnumerable, IEnumerable<KeyValuePair<string, IEnumerable<string>>>
     {
-
         protected HttpHeaders();
 
         public HttpHeadersNonValidated NonValidated { get; }

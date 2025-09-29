@@ -9,7 +9,6 @@ namespace UnityEditor.UIElements
 {
     public abstract class BasePopupField<TValueType, TValueChoice> : BaseField<TValueType>
     {
-
         public static readonly string ussClassName;
         public static readonly string textUssClassName;
         public static readonly string arrowUssClassName;

@@ -10,7 +10,6 @@ namespace System.IO
 {
     public class StreamWriter : TextWriter
     {
-
         public static readonly StreamWriter Null;
 
         public StreamWriter(Stream stream);

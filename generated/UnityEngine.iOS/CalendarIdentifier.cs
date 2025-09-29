@@ -9,7 +9,6 @@ namespace UnityEngine.iOS
     [Obsolete("iOS.Notification Services is deprecated. Consider using the Mobile Notifications package (available in the package manager) which implements the UserNotifications framework.")]
     public enum CalendarIdentifier
     {
-
         GregorianCalendar = 0,
         BuddhistCalendar = 1,
         ChineseCalendar = 2,

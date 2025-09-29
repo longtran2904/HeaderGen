@@ -6,7 +6,6 @@ namespace Unity.CompilationPipeline.Common
 {
     public class AssemblyInfo
     {
-
         public AssemblyInfo();
 
         public string Name { get; set; }

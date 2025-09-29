@@ -8,7 +8,6 @@ namespace UnityEditor.UIElements
 {
     public sealed class SerializedPropertyChangeEvent : EventBase<SerializedPropertyChangeEvent>
     {
-
         public SerializedPropertyChangeEvent();
 
         public SerializedProperty changedProperty { get; set; }

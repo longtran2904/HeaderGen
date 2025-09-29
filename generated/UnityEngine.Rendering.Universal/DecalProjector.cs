@@ -11,7 +11,6 @@ namespace UnityEngine.Rendering.Universal
     [ExecuteAlways]
     public class DecalProjector : MonoBehaviour
     {
-
         public DecalProjector();
 
         public Material material { get; set; }

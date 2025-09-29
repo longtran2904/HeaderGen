@@ -9,7 +9,6 @@ namespace UnityEditor.ShaderGraph
 {
     public class VertexColorControl : IControl
     {
-
         public VertexColorControl(Color value);
 
         public Color value { get; }

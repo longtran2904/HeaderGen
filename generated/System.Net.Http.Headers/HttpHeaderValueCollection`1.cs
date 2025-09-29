@@ -9,7 +9,6 @@ namespace System.Net.Http.Headers
 {
     public sealed class HttpHeaderValueCollection<T> : ICollection<T>, IEnumerable, IEnumerable<T> where T : class
     {
-
         public int Count { get; }
         public bool IsReadOnly { get; }
 

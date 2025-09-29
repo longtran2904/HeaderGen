@@ -6,7 +6,6 @@ namespace System.Reflection
 {
     public sealed class MethodInvoker
     {
-
         public static MethodInvoker Create(MethodBase method);
         public object Invoke(object obj);
         public object Invoke(object obj, object arg1);

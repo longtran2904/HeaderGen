@@ -11,7 +11,6 @@ namespace UnityEngine.VFX
     [RequiredByNativeCode]
     public class VFXExpressionValues
     {
-
         [NativeName("GetValueFromScript<bool>")]
         [NativeThrows]
         public bool GetBool(int nameID);

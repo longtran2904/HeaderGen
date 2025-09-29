@@ -10,7 +10,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class Pill : VisualElement
     {
-
         public Pill();
         public Pill(VisualElement left, VisualElement right);
 
@@ -19,14 +18,13 @@ namespace UnityEditor.Experimental.GraphView
         public Texture icon { get; set; }
         public VisualElement left { get; set; }
         public VisualElement right { get; set; }
+
         public class UxmlFactory : UxmlFactory<Pill, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : VisualElement.UxmlTraits
         {
-
             public UxmlTraits();
 
             public override IEnumerable<UxmlChildElementDescription> uxmlChildElementsDescription { get; }

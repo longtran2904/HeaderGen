@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class CustomStyleResolvedEvent : EventBase<CustomStyleResolvedEvent>
     {
-
         public CustomStyleResolvedEvent();
 
         public ICustomStyle customStyle { get; }

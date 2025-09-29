@@ -6,7 +6,6 @@ namespace Mono.Cecil.Cil
 {
     public enum Code
     {
-
         Nop = 0,
         Break = 1,
         Ldarg_0 = 2,

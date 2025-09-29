@@ -8,7 +8,6 @@ namespace TreeEditor
 {
     public class TreeAOSphere
     {
-
         public bool flag;
         public float area;
         public float radius;

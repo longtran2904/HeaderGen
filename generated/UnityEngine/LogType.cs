@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum LogType
     {
-
         Error = 0,
         Assert = 1,
         Warning = 2,

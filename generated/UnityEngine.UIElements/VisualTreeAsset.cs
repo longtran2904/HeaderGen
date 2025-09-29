@@ -9,7 +9,6 @@ namespace UnityEngine.UIElements
     [HelpURL("UIE-VisualTree-landing")]
     public class VisualTreeAsset : ScriptableObject
     {
-
         public VisualTreeAsset();
 
         public bool importedWithErrors { get; }

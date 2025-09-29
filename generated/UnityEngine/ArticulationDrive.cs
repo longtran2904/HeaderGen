@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics/ArticulationBody.h")]
     public struct ArticulationDrive
     {
-
         public float lowerLimit;
         public float upperLimit;
         public float stiffness;

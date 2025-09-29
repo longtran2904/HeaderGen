@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public enum PropagationPhase
     {
-
         None = 0,
         TrickleDown = 1,
         AtTarget = 2,

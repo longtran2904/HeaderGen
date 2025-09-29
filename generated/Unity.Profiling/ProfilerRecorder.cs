@@ -15,7 +15,6 @@ namespace Unity.Profiling
     [UsedByNativeCode]
     public struct ProfilerRecorder : IDisposable
     {
-
         public ProfilerRecorder(string statName, int capacity = 1, ProfilerRecorderOptions options = ProfilerRecorderOptions.Default);
         public ProfilerRecorder(string categoryName, string statName, int capacity = 1, ProfilerRecorderOptions options = ProfilerRecorderOptions.Default);
         public ProfilerRecorder(ProfilerCategory category, string statName, int capacity = 1, ProfilerRecorderOptions options = ProfilerRecorderOptions.Default);

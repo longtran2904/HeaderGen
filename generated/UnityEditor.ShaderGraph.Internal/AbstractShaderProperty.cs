@@ -8,7 +8,6 @@ namespace UnityEditor.ShaderGraph.Internal
 {
     public abstract class AbstractShaderProperty : ShaderInput
     {
-
         protected AbstractShaderProperty();
 
         public abstract PropertyType propertyType { get; }

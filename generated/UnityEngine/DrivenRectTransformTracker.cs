@@ -11,7 +11,6 @@ namespace UnityEngine
     [NativeHeader("Editor/Src/Animation/AnimationModeSnapshot.h")]
     public struct DrivenRectTransformTracker
     {
-
         public static void StopRecordingUndo();
         public static void StartRecordingUndo();
         public void Add(Object driver, RectTransform rectTransform, DrivenTransformProperties drivenProperties);

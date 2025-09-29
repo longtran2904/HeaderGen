@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering
 {
     public interface ISerializedBitArray
     {
-
         uint capacity { get; }
 
         bool GetBitAt(uint bitIndex);

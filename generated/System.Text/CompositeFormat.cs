@@ -6,7 +6,6 @@ namespace System.Text
 {
     public sealed class CompositeFormat
     {
-
         public string Format { get; }
         public int MinimumArgumentCount { get; }
 

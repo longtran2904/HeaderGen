@@ -6,7 +6,6 @@ namespace System.Buffers.Text
 {
     public static class Base64
     {
-
         public static OperationStatus EncodeToUtf8(ReadOnlySpan<byte> bytes, Span<byte> utf8, out int bytesConsumed, out int bytesWritten, bool isFinalBlock = True);
         public static int GetMaxEncodedToUtf8Length(int length);
         public static OperationStatus EncodeToUtf8InPlace(Span<byte> buffer, int dataLength, out int bytesWritten);

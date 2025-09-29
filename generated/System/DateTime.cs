@@ -10,7 +10,6 @@ namespace System
 {
     public readonly struct DateTime : IComparable, IComparable<DateTime>, IConvertible, IEquatable<DateTime>, IFormattable, IParsable<DateTime>, ISerializable, ISpanFormattable, ISpanParsable<DateTime>, IUtf8SpanFormattable
     {
-
         public static readonly DateTime MinValue;
         public static readonly DateTime MaxValue;
         public static readonly DateTime UnixEpoch;

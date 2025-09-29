@@ -10,7 +10,6 @@ namespace UnityEngine.Rendering
     [UsedByNativeCode]
     public struct VisibleReflectionProbe : IEquatable<VisibleReflectionProbe>
     {
-
         public Texture texture { get; }
         public ReflectionProbe reflectionProbe { get; }
         public Bounds bounds { get; set; }

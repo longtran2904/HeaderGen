@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class TooltipEvent : EventBase<TooltipEvent>
     {
-
         public TooltipEvent();
 
         public string tooltip { get; set; }

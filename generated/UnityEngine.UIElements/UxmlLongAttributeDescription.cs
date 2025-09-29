@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class UxmlLongAttributeDescription : TypedUxmlAttributeDescription<long>
     {
-
         public UxmlLongAttributeDescription();
 
         public override string defaultValueAsString { get; }

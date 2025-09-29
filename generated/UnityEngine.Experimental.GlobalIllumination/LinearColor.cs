@@ -6,7 +6,6 @@ namespace UnityEngine.Experimental.GlobalIllumination
 {
     public struct LinearColor
     {
-
         public float red { get; set; }
         public float green { get; set; }
         public float blue { get; set; }

@@ -9,7 +9,6 @@ namespace Microsoft.Unity.VisualStudio.Editor
 {
     public sealed class Image : IDisposable
     {
-
         public static bool IsAssembly(string file);
         public static bool IsAssembly(Stream stream);
     }

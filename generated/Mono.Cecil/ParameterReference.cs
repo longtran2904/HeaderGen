@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public abstract class ParameterReference : IMetadataTokenProvider
     {
-
         protected TypeReference parameter_type;
 
         public string Name { get; set; }

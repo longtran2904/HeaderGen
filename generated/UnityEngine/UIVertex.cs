@@ -9,7 +9,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public struct UIVertex
     {
-
         public Vector3 position;
         public Vector3 normal;
         public Vector4 tangent;

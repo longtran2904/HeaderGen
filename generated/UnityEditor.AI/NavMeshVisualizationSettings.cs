@@ -11,7 +11,6 @@ namespace UnityEditor.AI
     [StaticAccessor("GetNavMeshVisualizationSettings()", StaticAccessorType.Dot)]
     public sealed class NavMeshVisualizationSettings
     {
-
         public NavMeshVisualizationSettings();
 
         public static int showNavigation { get; set; }

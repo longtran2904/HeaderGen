@@ -6,7 +6,6 @@ namespace UnityEngine.Experimental.Rendering
 {
     public sealed class ProbeReferenceVolumeProfile : ScriptableObject
     {
-
         [Range(2, 5)]
         public int simplificationLevels;
         [Min(0.1F)]

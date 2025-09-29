@@ -6,7 +6,6 @@ namespace TMPro
 {
     public struct TMP_LinkInfo
     {
-
         public TMP_Text textComponent;
         public int hashCode;
         public int linkIdFirstCharacterIndex;

@@ -6,7 +6,6 @@ namespace System.Security.Principal
 {
     public enum WindowsAccountType
     {
-
         Normal = 0,
         Guest = 1,
         System = 2,

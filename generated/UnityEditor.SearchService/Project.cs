@@ -9,7 +9,6 @@ namespace UnityEditor.SearchService
     [Obsolete("Project has been deprecated. Use ProjectSearch instead (UnityUpgradable) -> ProjectSearch", False)]
     public static class Project
     {
-
         public const SearchEngineScope EngineScope = 1;
 
         public static void RegisterEngine(IProjectSearchEngine engine);

@@ -9,7 +9,6 @@ namespace UnityEngine.TestTools
     [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class | AttributeTargets.Method)]
     public class PostBuildCleanupAttribute : Attribute
     {
-
         public PostBuildCleanupAttribute(Type targetClass);
         public PostBuildCleanupAttribute(string targetClassName);
     }

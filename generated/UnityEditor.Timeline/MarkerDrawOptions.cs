@@ -6,7 +6,6 @@ namespace UnityEditor.Timeline
 {
     public struct MarkerDrawOptions
     {
-
         public string tooltip { get; set; }
         public string errorText { get; set; }
 

@@ -6,7 +6,6 @@ namespace System.Reflection
 {
     public abstract class MethodInfo : MethodBase
     {
-
         protected MethodInfo();
 
         public override MemberTypes MemberType { get; }

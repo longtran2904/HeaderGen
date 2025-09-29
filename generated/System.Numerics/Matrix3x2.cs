@@ -9,7 +9,6 @@ namespace System.Numerics
     [DefaultMember("Item")]
     public struct Matrix3x2 : IEquatable<Matrix3x2>
     {
-
         public float M11;
         public float M12;
         public float M21;

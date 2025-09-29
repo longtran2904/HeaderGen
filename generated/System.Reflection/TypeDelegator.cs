@@ -8,7 +8,6 @@ namespace System.Reflection
 {
     public class TypeDelegator : TypeInfo
     {
-
         protected Type typeImpl;
 
         protected TypeDelegator();

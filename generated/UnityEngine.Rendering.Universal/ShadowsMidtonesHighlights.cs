@@ -7,7 +7,6 @@ namespace UnityEngine.Rendering.Universal
     [VolumeComponentMenuForRenderPipeline("Post-processing/Shadows, Midtones, Highlights", new[] {typeof(UniversalRenderPipeline) })]
     public sealed class ShadowsMidtonesHighlights : VolumeComponent, IPostProcessComponent
     {
-
         [Tooltip("Use this to control and apply a hue to the shadows.")]
         public Vector4Parameter shadows;
         [Tooltip("Use this to control and apply a hue to the midtones.")]

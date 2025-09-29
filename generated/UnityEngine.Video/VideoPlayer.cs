@@ -12,7 +12,6 @@ namespace UnityEngine.Video
     [RequiredByNativeCode]
     public sealed class VideoPlayer : Behaviour
     {
-
         public VideoPlayer();
 
         public VideoSource source { get; set; }
@@ -96,6 +95,7 @@ namespace UnityEngine.Video
         [NativeHeader("Modules/Audio/Public/AudioSource.h")]
         public AudioSource GetTargetAudioSource(ushort trackIndex);
         public void SetTargetAudioSource(ushort trackIndex, AudioSource source);
+
         public delegate void EventHandler(VideoPlayer source);
         public delegate void ErrorEventHandler(VideoPlayer source, string message);
         public delegate void FrameReadyEventHandler(VideoPlayer source, long frameIdx);

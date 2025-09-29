@@ -11,7 +11,6 @@ namespace UnityEngine
     [RequireComponent(typeof(Transform))]
     public class GridLayout : Behaviour
     {
-
         public GridLayout();
 
         public Vector3 cellSize { get; }
@@ -40,9 +39,9 @@ namespace UnityEngine
         public Vector3 WorldToLocal(Vector3 worldPosition);
         [FreeFunction("GridLayoutBindings::GetLayoutCellCenter", HasExplicitThis = True)]
         public Vector3 GetLayoutCellCenter();
+
         public enum CellLayout
         {
-
             Rectangle = 0,
             Hexagon = 1,
             Isometric = 2,
@@ -50,7 +49,6 @@ namespace UnityEngine
         }
         public enum CellSwizzle
         {
-
             XYZ = 0,
             XZY = 1,
             YXZ = 2,

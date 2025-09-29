@@ -8,7 +8,6 @@ namespace System.Net.Http.Headers
 {
     public class TransferCodingHeaderValue : ICloneable
     {
-
         protected TransferCodingHeaderValue(TransferCodingHeaderValue source);
         public TransferCodingHeaderValue(string value);
 

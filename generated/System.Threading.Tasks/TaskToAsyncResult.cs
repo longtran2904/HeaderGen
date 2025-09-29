@@ -6,7 +6,6 @@ namespace System.Threading.Tasks
 {
     public static class TaskToAsyncResult
     {
-
         public static IAsyncResult Begin(Task task, AsyncCallback callback, object state);
         public static void End(IAsyncResult asyncResult);
         public static TResult End<TResult>(IAsyncResult asyncResult);

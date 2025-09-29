@@ -19,7 +19,6 @@ namespace UnityEngine.Experimental.Video
     [StaticAccessor("VideoClipPlayableBindings", StaticAccessorType.DoubleColon)]
     public struct VideoClipPlayable : IEquatable<VideoClipPlayable>, IPlayable
     {
-
         public static VideoClipPlayable Create(PlayableGraph graph, VideoClip clip, bool looping);
         public PlayableHandle GetHandle();
         public bool Equals(VideoClipPlayable other);

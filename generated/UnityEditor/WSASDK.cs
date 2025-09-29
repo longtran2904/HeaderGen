@@ -9,7 +9,6 @@ namespace UnityEditor
     [NativeType(Header = "Editor/Src/EditorUserBuildSettings.h")]
     public enum WSASDK
     {
-
         SDK80 = 0,
         SDK81 = 1,
         PhoneSDK81 = 2,

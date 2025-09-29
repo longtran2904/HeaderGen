@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public static class CameraEditorUtils
     {
-
         public static float GameViewAspectRatio { get; }
 
         public static void HandleFrustum(Camera c, int cameraEditorTargetIndex);

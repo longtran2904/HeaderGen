@@ -8,7 +8,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class StickyNoteChangeEvent : EventBase<StickyNoteChangeEvent>
     {
-
         public StickyNoteChangeEvent();
 
         public StickyNoteChange change { get; protected set; }

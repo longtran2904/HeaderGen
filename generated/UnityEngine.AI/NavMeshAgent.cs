@@ -13,7 +13,6 @@ namespace UnityEngine.AI
     [NativeHeader("Modules/AI/Components/NavMeshAgent.bindings.h")]
     public sealed class NavMeshAgent : Behaviour
     {
-
         public NavMeshAgent();
 
         public Vector3 destination { get; set; }

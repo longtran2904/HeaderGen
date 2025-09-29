@@ -9,7 +9,6 @@ namespace UnityEngine.Timeline
     [NotKeyable]
     public class ControlPlayableAsset : PlayableAsset, IPropertyPreview, ITimelineClipAsset
     {
-
         [SerializeField]
         public ExposedReference<GameObject> sourceGameObject;
         [SerializeField]

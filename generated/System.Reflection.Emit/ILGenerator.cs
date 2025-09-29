@@ -8,7 +8,6 @@ namespace System.Reflection.Emit
 {
     public abstract class ILGenerator
     {
-
         protected ILGenerator();
 
         public abstract int ILOffset { get; }

@@ -9,7 +9,6 @@ namespace UnityEditor
 {
     public struct ObjectChangeEventStream : IDisposable
     {
-
         public int length { get; }
         public bool isCreated { get; }
 
@@ -27,9 +26,9 @@ namespace UnityEditor
         public void GetUpdatePrefabInstancesEvent(int eventIdx, out UpdatePrefabInstancesEventArgs data);
         public ObjectChangeEventStream Clone(Allocator allocator);
         public void Dispose();
+
         public struct Builder : IDisposable
         {
-
             public Builder(Allocator allocator);
 
             public int eventCount { get; }

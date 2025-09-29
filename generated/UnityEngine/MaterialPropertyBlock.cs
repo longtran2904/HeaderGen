@@ -15,7 +15,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Shaders/ShaderPropertySheet.h")]
     public sealed class MaterialPropertyBlock
     {
-
         public MaterialPropertyBlock();
 
         ~MaterialPropertyBlock();

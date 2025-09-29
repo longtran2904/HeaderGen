@@ -7,7 +7,6 @@ namespace System.Security
     [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Constructor | AttributeTargets.Method | AttributeTargets.Field | AttributeTargets.Interface | AttributeTargets.Delegate, AllowMultiple = False, Inherited = False)]
     public sealed class SecurityCriticalAttribute : Attribute
     {
-
         public SecurityCriticalAttribute();
         public SecurityCriticalAttribute(SecurityCriticalScope scope);
 

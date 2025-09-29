@@ -9,7 +9,6 @@ namespace UnityEditor.MemoryProfiler
 {
     public struct PackedNativeUnityEngineObject
     {
-
         public PackedNativeUnityEngineObject(string name, int instanceId, int size, int nativeTypeArrayIndex, HideFlags hideFlags, ObjectFlags flags, long nativeObjectAddress);
 
         public bool isPersistent { get; }
@@ -23,9 +22,9 @@ namespace UnityEditor.MemoryProfiler
         public int nativeTypeArrayIndex { get; }
         public HideFlags hideFlags { get; }
         public long nativeObjectAddress { get; }
+
         public enum ObjectFlags
         {
-
             IsDontDestroyOnLoad = 1,
             IsPersistent = 2,
             IsManager = 4

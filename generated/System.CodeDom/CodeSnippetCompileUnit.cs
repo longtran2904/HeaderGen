@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeSnippetCompileUnit : CodeCompileUnit
     {
-
         public CodeSnippetCompileUnit();
         public CodeSnippetCompileUnit(string value);
 

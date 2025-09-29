@@ -10,7 +10,6 @@ namespace UnityEngine.EventSystems
     [RequireComponent(typeof(Camera))]
     public class PhysicsRaycaster : BaseRaycaster
     {
-
         protected Camera m_EventCamera;
         [SerializeField]
         protected LayerMask m_EventMask;

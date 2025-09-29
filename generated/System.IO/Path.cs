@@ -6,7 +6,6 @@ namespace System.IO
 {
     public static class Path
     {
-
         public static readonly char DirectorySeparatorChar;
         public static readonly char AltDirectorySeparatorChar;
         public static readonly char VolumeSeparatorChar;

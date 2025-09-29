@@ -10,7 +10,6 @@ namespace UnityEngine.Rendering.VirtualTexturing
     [StaticAccessor("VirtualTexturing::Streaming", StaticAccessorType.DoubleColon)]
     public static class Streaming
     {
-
         [NativeThrows]
         public static void RequestRegion([NotNull("ArgumentNullException")] Material mat, int stackNameId, Rect r, int mipMap, int numMips);
         [NativeThrows]

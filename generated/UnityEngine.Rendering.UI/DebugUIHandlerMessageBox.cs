@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering.UI
 {
     public class DebugUIHandlerMessageBox : DebugUIHandlerWidget
     {
-
         public Text nameLabel;
 
         public DebugUIHandlerMessageBox();

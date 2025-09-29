@@ -6,7 +6,6 @@ namespace UnityEditor.PackageManager
 {
     public enum ErrorCode
     {
-
         Unknown = 0,
         NotFound = 1,
         Forbidden = 2,

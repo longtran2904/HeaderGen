@@ -9,7 +9,6 @@ namespace UnityEngine.UIElements
 {
     public struct StyleList<T> : IEquatable<StyleList<T>>, IStyleValue<List<T>>
     {
-
         public StyleList(List<T> v);
         public StyleList(StyleKeyword keyword);
 

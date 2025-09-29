@@ -17,7 +17,6 @@ namespace UnityEngine.Audio
     [StaticAccessor("AudioClipPlayableBindings", StaticAccessorType.DoubleColon)]
     public struct AudioClipPlayable : IEquatable<AudioClipPlayable>, IPlayable
     {
-
         public static AudioClipPlayable Create(PlayableGraph graph, AudioClip clip, bool looping);
         public PlayableHandle GetHandle();
         public bool Equals(AudioClipPlayable other);

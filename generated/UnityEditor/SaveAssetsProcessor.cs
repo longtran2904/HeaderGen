@@ -9,7 +9,6 @@ namespace UnityEditor
     [Obsolete("Use UnityEditor.AssetModificationProcessor")]
     public class SaveAssetsProcessor : AssetModificationProcessor
     {
-
         public SaveAssetsProcessor();
     }
 }

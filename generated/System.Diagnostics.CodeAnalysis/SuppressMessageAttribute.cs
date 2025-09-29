@@ -8,7 +8,6 @@ namespace System.Diagnostics.CodeAnalysis
     [Conditional("CODE_ANALYSIS")]
     public sealed class SuppressMessageAttribute : Attribute
     {
-
         public SuppressMessageAttribute(string category, string checkId);
 
         public string Category { get; }

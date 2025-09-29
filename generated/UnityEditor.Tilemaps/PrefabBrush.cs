@@ -10,17 +10,16 @@ namespace UnityEditor.Tilemaps
     [CustomGridBrush(False, True, False, "Prefab Brush")]
     public class PrefabBrush : BasePrefabBrush
     {
-
         public PrefabBrush();
 
         public override void Rotate(RotationDirection direction, GridLayout.CellLayout layout);
         public override void Paint(GridLayout grid, GameObject brushTarget, Vector3Int position);
         public override void BoxFill(GridLayout grid, GameObject brushTarget, BoundsInt bounds);
         public override void Erase(GridLayout grid, GameObject brushTarget, Vector3Int position);
+
         [CustomEditor(typeof(PrefabBrush))]
         public class PrefabBrushEditor : BasePrefabBrushEditor
         {
-
             public PrefabBrushEditor();
 
             protected override void OnEnable();

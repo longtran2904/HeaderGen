@@ -6,7 +6,6 @@ namespace UnityEngine.TextCore.Text
 {
     public struct FontWeightPair
     {
-
         public FontAsset regularTypeface;
         public FontAsset italicTypeface;
     }

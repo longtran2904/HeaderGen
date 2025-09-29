@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public enum VertexAttributeFormat
     {
-
         Float32 = 0,
         Float16 = 1,
         UNorm8 = 2,

@@ -8,7 +8,6 @@ namespace UnityEngine.TestTools.Constraints
 {
     public class AllocatingGCMemoryConstraint : Constraint
     {
-
         public AllocatingGCMemoryConstraint();
 
         public override string Description { get; }

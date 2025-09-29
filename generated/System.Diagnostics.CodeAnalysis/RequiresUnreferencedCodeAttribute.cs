@@ -7,7 +7,6 @@ namespace System.Diagnostics.CodeAnalysis
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Constructor | AttributeTargets.Method, Inherited = False)]
     public sealed class RequiresUnreferencedCodeAttribute : Attribute
     {
-
         public RequiresUnreferencedCodeAttribute(string message);
 
         public string Message { get; }

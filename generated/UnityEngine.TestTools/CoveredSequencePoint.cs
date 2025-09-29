@@ -10,7 +10,6 @@ namespace UnityEngine.TestTools
     [NativeType(CodegenOptions.Custom, "ManagedCoveredSequencePoint", Header = "Runtime/Scripting/ScriptingCoverage.bindings.h")]
     public struct CoveredSequencePoint
     {
-
         public MethodBase method;
         public uint ilOffset;
         public uint hitCount;

@@ -12,7 +12,6 @@ namespace UnityEngine
     [RequireComponent(typeof(Transform), typeof(Rigidbody2D))]
     public class Joint2D : Behaviour
     {
-
         public Joint2D();
 
         public Rigidbody2D attachedRigidbody { get; }

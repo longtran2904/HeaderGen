@@ -6,7 +6,6 @@ namespace TMPro
 {
     public struct TMP_TextProcessingStack<T>
     {
-
         public T[] itemStack;
         public int index;
 

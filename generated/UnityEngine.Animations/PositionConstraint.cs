@@ -14,7 +14,6 @@ namespace UnityEngine.Animations
     [UsedByNativeCode]
     public sealed class PositionConstraint : Behaviour, IConstraint, IConstraintInternal
     {
-
         public float weight { get; set; }
         public Vector3 translationAtRest { get; set; }
         public Vector3 translationOffset { get; set; }

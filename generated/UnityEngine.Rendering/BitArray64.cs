@@ -10,7 +10,6 @@ namespace UnityEngine.Rendering
     [DefaultMember("Item")]
     public struct BitArray64 : IBitArray
     {
-
         public BitArray64(ulong initValue);
         public BitArray64(IEnumerable<uint> bitIndexTrue);
 

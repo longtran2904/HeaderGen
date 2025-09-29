@@ -6,7 +6,6 @@ namespace System.Numerics
 {
     public interface IMultiplicativeIdentity<TSelf, TResult> where TSelf : IMultiplicativeIdentity<TSelf, TResult>
     {
-
         TResult MultiplicativeIdentity { get; }
     }
 }

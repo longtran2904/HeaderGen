@@ -10,7 +10,6 @@ namespace System.Collections
 {
     public sealed class Comparer : IComparer, ISerializable
     {
-
         public static readonly Comparer Default;
         public static readonly Comparer DefaultInvariant;
 

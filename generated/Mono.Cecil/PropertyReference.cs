@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public abstract class PropertyReference : MemberReference
     {
-
         public TypeReference PropertyType { get; set; }
         public abstract Collection<ParameterDefinition> Parameters { get; }
 

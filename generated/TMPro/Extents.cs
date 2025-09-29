@@ -8,7 +8,6 @@ namespace TMPro
 {
     public struct Extents
     {
-
         public Vector2 min;
         public Vector2 max;
 

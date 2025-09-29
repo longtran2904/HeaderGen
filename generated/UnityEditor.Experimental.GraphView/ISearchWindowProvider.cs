@@ -8,7 +8,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public interface ISearchWindowProvider
     {
-
         List<SearchTreeEntry> CreateSearchTree(SearchWindowContext context);
         bool OnSelectEntry(SearchTreeEntry SearchTreeEntry, SearchWindowContext context);
     }

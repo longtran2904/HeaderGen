@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public enum VariantType
     {
-
         None = 0,
         I2 = 2,
         I4 = 3,

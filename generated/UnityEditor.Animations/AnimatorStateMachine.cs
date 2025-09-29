@@ -14,7 +14,6 @@ namespace UnityEditor.Animations
     [NativeHeader("Editor/Src/Animation/StateMachine.bindings.h")]
     public sealed class AnimatorStateMachine : UnityEngine.Object
     {
-
         public AnimatorStateMachine();
 
         public ChildAnimatorState[] states { get; set; }

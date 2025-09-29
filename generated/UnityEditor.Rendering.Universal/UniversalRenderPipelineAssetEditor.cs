@@ -10,7 +10,6 @@ namespace UnityEditor.Rendering.Universal
     [CustomEditor(typeof(UniversalRenderPipelineAsset))]
     public class UniversalRenderPipelineAssetEditor : Editor
     {
-
         public UniversalRenderPipelineAssetEditor();
 
         public override void OnInspectorGUI();

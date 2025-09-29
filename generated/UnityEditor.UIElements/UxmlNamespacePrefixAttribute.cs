@@ -9,7 +9,6 @@ namespace UnityEditor.UIElements
     [AttributeUsage(AttributeTargets.Assembly, AllowMultiple = True)]
     public sealed class UxmlNamespacePrefixAttribute : Attribute
     {
-
         public UxmlNamespacePrefixAttribute(string ns, string prefix);
 
         public string ns { get; }

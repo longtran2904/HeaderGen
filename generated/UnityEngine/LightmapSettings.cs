@@ -11,7 +11,6 @@ namespace UnityEngine
     [StaticAccessor("GetLightmapSettings()")]
     public sealed class LightmapSettings : Object
     {
-
         public static LightmapData[] lightmaps { get; set; }
         public static LightmapsMode lightmapsMode { get; set; }
         public static LightProbes lightProbes { get; set; }

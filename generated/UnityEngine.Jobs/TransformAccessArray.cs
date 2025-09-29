@@ -12,7 +12,6 @@ namespace UnityEngine.Jobs
     [NativeType(Header = "Runtime/Transform/ScriptBindings/TransformAccess.bindings.h", CodegenOptions = CodegenOptions.Custom)]
     public struct TransformAccessArray : IDisposable
     {
-
         public TransformAccessArray(Transform[] transforms, int desiredJobCount = -1);
         public TransformAccessArray(int capacity, int desiredJobCount = -1);
 

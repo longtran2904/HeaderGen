@@ -11,7 +11,6 @@ namespace UnityEditorInternal
     [StaticAccessor("AssetStoreScriptBindings", StaticAccessorType.DoubleColon)]
     public sealed class AssetStoreToolUtils
     {
-
         public AssetStoreToolUtils();
 
         public static bool BuildAssetStoreAssetBundle(UnityEngine.Object targetObject, string targetPath);

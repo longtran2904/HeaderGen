@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering
 {
     public class HierarchicalSphere
     {
-
         public HierarchicalSphere(Color baseColor, HierarchicalSphere parent = null);
 
         public Vector3 center { get; set; }

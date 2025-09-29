@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public enum TYPEKIND
     {
-
         TKIND_ENUM = 0,
         TKIND_RECORD = 1,
         TKIND_MODULE = 2,

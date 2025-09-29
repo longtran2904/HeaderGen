@@ -7,7 +7,6 @@ namespace UnityEngine.Timeline
     [TimelineHelpURL(typeof(PlayableTrack))]
     public class PlayableTrack : TrackAsset
     {
-
         public PlayableTrack();
 
         protected override void OnCreateClip(TimelineClip clip);

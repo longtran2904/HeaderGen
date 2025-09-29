@@ -6,7 +6,6 @@ namespace UnityEditor.Profiling.Memory.Experimental
 {
     public class NativeTypeEntries
     {
-
         public ArrayEntries<string> typeName { get; }
         public ArrayEntries<int> nativeBaseTypeArrayIndex { get; }
 

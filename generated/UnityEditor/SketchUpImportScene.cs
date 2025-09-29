@@ -9,7 +9,6 @@ namespace UnityEditor
     [NativeType("Modules/SketchUpEditor/SketchUpImporter.h")]
     public struct SketchUpImportScene
     {
-
         public SketchUpImportCamera camera;
         public string name;
     }

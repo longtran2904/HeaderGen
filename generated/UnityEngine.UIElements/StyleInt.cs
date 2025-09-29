@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public struct StyleInt : IEquatable<StyleInt>, IStyleValue<int>
     {
-
         public StyleInt(int v);
         public StyleInt(StyleKeyword keyword);
 

@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
     [Flags]
     public enum FoldoutOption
     {
-
         None = 0,
         Indent = 1,
         Boxed = 4,

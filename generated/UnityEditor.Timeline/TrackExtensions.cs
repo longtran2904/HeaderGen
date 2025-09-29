@@ -8,7 +8,6 @@ namespace UnityEditor.Timeline
 {
     public static class TrackExtensions
     {
-
         public static bool IsCollapsed(this TrackAsset track);
         public static void SetCollapsed(this TrackAsset track, bool collapsed);
         public static bool IsVisibleInHierarchy(this TrackAsset track);

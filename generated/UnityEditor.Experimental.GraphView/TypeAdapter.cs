@@ -8,7 +8,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class TypeAdapter : Attribute
     {
-
         public TypeAdapter();
     }
 }

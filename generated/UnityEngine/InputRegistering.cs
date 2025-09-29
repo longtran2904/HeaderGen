@@ -8,7 +8,6 @@ namespace UnityEngine
 {
     public static class InputRegistering
     {
-
         public static void RegisterInputs(List<InputManagerEntry> entries);
     }
 }

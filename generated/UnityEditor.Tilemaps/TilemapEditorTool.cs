@@ -11,7 +11,6 @@ namespace UnityEditor.Tilemaps
 {
     public abstract class TilemapEditorTool : EditorTool
     {
-
         protected TilemapEditorTool();
 
         public static EditorTool[] tilemapEditorTools { get; }
@@ -26,9 +25,9 @@ namespace UnityEditor.Tilemaps
         public override bool IsAvailable();
         public static void ToggleActiveEditorTool(Type type);
         public static void SetActiveEditorTool(Type type);
+
         public class ShortcutContext : IShortcutToolContext
         {
-
             public ShortcutContext();
 
             public bool active { get; set; }

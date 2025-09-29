@@ -17,7 +17,6 @@ namespace UnityEngine.Tilemaps
     [RequireComponent(typeof(Transform))]
     public sealed class Tilemap : GridLayout
     {
-
         public Tilemap();
 
         public Grid layoutGrid { get; }
@@ -117,9 +116,9 @@ namespace UnityEngine.Tilemaps
         public void EditorPreviewBoxFill(Vector3Int position, Object tile, int startX, int startY, int endX, int endY);
         [NativeMethod(Name = "ClearAllEditorPreviewTileAssets")]
         public void ClearAllEditorPreviewTiles();
+
         public enum Orientation
         {
-
             XY = 0,
             XZ = 1,
             YX = 2,
@@ -131,7 +130,6 @@ namespace UnityEngine.Tilemaps
         [RequiredByNativeCode]
         public struct SyncTile
         {
-
             public Vector3Int position { get; }
             public TileBase tile { get; }
             public TileData tileData { get; }

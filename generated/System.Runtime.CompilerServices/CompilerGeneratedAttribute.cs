@@ -7,7 +7,6 @@ namespace System.Runtime.CompilerServices
     [AttributeUsage(AttributeTargets.All, Inherited = True)]
     public sealed class CompilerGeneratedAttribute : Attribute
     {
-
         public CompilerGeneratedAttribute();
     }
 }

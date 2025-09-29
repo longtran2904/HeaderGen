@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public interface IMethodSignature : IMetadataTokenProvider
     {
-
         bool HasThis { get; set; }
         bool ExplicitThis { get; set; }
         MethodCallingConvention CallingConvention { get; set; }

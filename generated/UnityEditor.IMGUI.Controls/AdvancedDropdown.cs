@@ -8,7 +8,6 @@ namespace UnityEditor.IMGUI.Controls
 {
     public abstract class AdvancedDropdown
     {
-
         public AdvancedDropdown(AdvancedDropdownState state);
 
         protected Vector2 minimumSize { get; set; }

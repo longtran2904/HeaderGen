@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeCatchClause
     {
-
         public CodeCatchClause();
         public CodeCatchClause(string localName);
         public CodeCatchClause(string localName, CodeTypeReference catchExceptionType);

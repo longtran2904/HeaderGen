@@ -6,7 +6,6 @@ namespace UnityEditor.Timeline
 {
     public enum TrackBindingErrors
     {
-
         None = 0,
         BoundGameObjectDisabled = 1,
         NoValidComponent = 2,

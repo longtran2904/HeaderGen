@@ -7,7 +7,6 @@ namespace System.Diagnostics.CodeAnalysis
     [AttributeUsage(AttributeTargets.Constructor | AttributeTargets.Method | AttributeTargets.Field, AllowMultiple = True, Inherited = False)]
     public sealed class DynamicDependencyAttribute : Attribute
     {
-
         public DynamicDependencyAttribute(string memberSignature);
         public DynamicDependencyAttribute(string memberSignature, Type type);
         public DynamicDependencyAttribute(string memberSignature, string typeName, string assemblyName);

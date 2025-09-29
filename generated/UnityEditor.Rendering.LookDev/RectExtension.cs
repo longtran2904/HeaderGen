@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering.LookDev
 {
     public static class RectExtension
     {
-
         public static bool IsNullOrInverted(this Rect r);
     }
 }

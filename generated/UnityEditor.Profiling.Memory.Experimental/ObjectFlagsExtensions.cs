@@ -6,7 +6,6 @@ namespace UnityEditor.Profiling.Memory.Experimental
 {
     public static class ObjectFlagsExtensions
     {
-
         public static bool IsDontDestroyOnLoad(this ObjectFlags flags);
         public static bool IsPersistent(this ObjectFlags flags);
         public static bool IsManager(this ObjectFlags flags);

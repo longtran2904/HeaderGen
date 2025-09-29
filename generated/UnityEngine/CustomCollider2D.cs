@@ -11,7 +11,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics2D/Public/CustomCollider2D.h")]
     public sealed class CustomCollider2D : Collider2D
     {
-
         public CustomCollider2D();
 
         [NativeMethod("CustomShapeCount_Binding")]

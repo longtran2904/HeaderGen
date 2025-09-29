@@ -10,7 +10,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics2D/Public/EdgeCollider2D.h")]
     public sealed class EdgeCollider2D : Collider2D
     {
-
         public EdgeCollider2D();
 
         public float edgeRadius { get; set; }

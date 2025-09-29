@@ -9,7 +9,6 @@ namespace Unity.MemoryProfiler
 {
     public abstract class MetadataCollect : IDisposable
     {
-
         public MetadataCollect();
 
         public abstract void CollectMetadata(MetaData data);

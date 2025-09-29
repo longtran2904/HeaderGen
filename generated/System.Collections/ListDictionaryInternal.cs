@@ -9,7 +9,6 @@ namespace System.Collections
     [DefaultMember("Item")]
     public class ListDictionaryInternal : ICollection, IDictionary, IEnumerable
     {
-
         public ListDictionaryInternal();
 
         public object this[object key] { get; set; }

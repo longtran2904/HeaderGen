@@ -9,7 +9,6 @@ namespace UnityEngine.Jobs
     [NativeHeader("Runtime/Transform/ScriptBindings/TransformAccess.bindings.h")]
     public struct TransformAccess
     {
-
         public Vector3 position { get; set; }
         public Quaternion rotation { get; set; }
         public Vector3 localPosition { get; set; }

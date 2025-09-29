@@ -10,7 +10,6 @@ namespace UnityEditor.Timeline
 {
     public readonly struct SequenceContext : IEquatable<SequenceContext>
     {
-
         public SequenceContext(PlayableDirector director, TimelineClip clip);
 
         public PlayableDirector director { get; }

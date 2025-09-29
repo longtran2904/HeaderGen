@@ -11,7 +11,6 @@ namespace Unity.Collections.LowLevel.Unsafe
     [RequiredByNativeCode]
     public sealed class NativeContainerAttribute : Attribute
     {
-
         public NativeContainerAttribute();
     }
 }

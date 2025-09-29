@@ -6,7 +6,6 @@ namespace System.Net.Http
 {
     public sealed class SocketsHttpConnectionContext
     {
-
         public DnsEndPoint DnsEndPoint { get; }
         public HttpRequestMessage InitialRequestMessage { get; }
     }

@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public abstract class ContextualMenuManager
     {
-
         protected ContextualMenuManager();
 
         public abstract void DisplayMenuIfEventMatches(EventBase evt, IEventHandler eventHandler);

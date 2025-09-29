@@ -9,7 +9,6 @@ namespace System.Collections.Generic
     [DefaultMember("Item")]
     public interface IReadOnlyDictionary<TKey, TValue> : IEnumerable, IEnumerable<KeyValuePair<TKey, TValue>>, IReadOnlyCollection<KeyValuePair<TKey, TValue>>
     {
-
         TValue this[TKey key] { get; }
         IEnumerable<TKey> Keys { get; }
         IEnumerable<TValue> Values { get; }

@@ -8,7 +8,6 @@ namespace System.Threading
 {
     public class CountdownEvent : IDisposable
     {
-
         public CountdownEvent(int initialCount);
 
         public int CurrentCount { get; }

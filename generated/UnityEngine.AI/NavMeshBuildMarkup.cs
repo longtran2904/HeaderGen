@@ -9,7 +9,6 @@ namespace UnityEngine.AI
     [NativeHeader("Modules/AI/Public/NavMeshBindingTypes.h")]
     public struct NavMeshBuildMarkup
     {
-
         public bool overrideArea { get; set; }
         public int area { get; set; }
         public bool ignoreFromBuild { get; set; }

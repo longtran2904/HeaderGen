@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering
 {
     public class IESMetaData
     {
-
         public string FileFormatVersion;
         public string IESPhotometricType;
         public float IESMaximumIntensity;

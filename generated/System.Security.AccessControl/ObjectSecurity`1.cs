@@ -9,7 +9,6 @@ namespace System.Security.AccessControl
 {
     public abstract class ObjectSecurity<T> : NativeObjectSecurity where T : struct
     {
-
         protected ObjectSecurity(bool isContainer, ResourceType resourceType);
         protected ObjectSecurity(bool isContainer, ResourceType resourceType, string name, AccessControlSections includeSections);
         protected ObjectSecurity(bool isContainer, ResourceType resourceType, string name, AccessControlSections includeSections, ExceptionFromErrorCode exceptionFromErrorCode, object exceptionContext);

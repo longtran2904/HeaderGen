@@ -9,7 +9,6 @@ namespace UnityEngine
     [AttributeUsage(AttributeTargets.Field, AllowMultiple = False, Inherited = True)]
     public sealed class TextAreaAttribute : PropertyAttribute
     {
-
         public readonly int minLines;
         public readonly int maxLines;
 

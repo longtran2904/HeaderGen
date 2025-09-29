@@ -8,7 +8,6 @@ namespace TMPro.EditorUtilities
 {
     public static class TMP_ColorGradientAssetMenu
     {
-
         [MenuItem("Assets/Create/TextMeshPro/Color Gradient", False, 115)]
         public static void CreateColorGradient(MenuCommand context);
     }

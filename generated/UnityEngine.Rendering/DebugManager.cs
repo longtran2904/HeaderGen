@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
 {
     public sealed class DebugManager
     {
-
         public bool refreshEditorRequested;
 
         public static DebugManager instance { get; }

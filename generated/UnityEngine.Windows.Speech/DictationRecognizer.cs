@@ -8,7 +8,6 @@ namespace UnityEngine.Windows.Speech
 {
     public sealed class DictationRecognizer : IDisposable
     {
-
         public DictationRecognizer();
         public DictationRecognizer(ConfidenceLevel confidenceLevel);
         public DictationRecognizer(DictationTopicConstraint topic);
@@ -28,6 +27,7 @@ namespace UnityEngine.Windows.Speech
         public void Start();
         public void Stop();
         public void Dispose();
+
         public delegate void DictationHypothesisDelegate(string text);
         public delegate void DictationResultDelegate(string text, ConfidenceLevel confidence);
         public delegate void DictationCompletedDelegate(DictationCompletionCause cause);

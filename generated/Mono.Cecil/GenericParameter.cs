@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public sealed class GenericParameter : TypeReference, ICustomAttributeProvider
     {
-
         public GenericParameter(IGenericParameterProvider owner);
         public GenericParameter(string name, IGenericParameterProvider owner);
 

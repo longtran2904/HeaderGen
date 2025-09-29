@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public struct Scale : IEquatable<Scale>
     {
-
         public Scale(Vector3 scale);
 
         public Vector3 value { get; set; }

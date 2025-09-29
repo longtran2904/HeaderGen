@@ -9,7 +9,6 @@ namespace UnityEditor.Callbacks
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = True)]
     public class RunBeforeAssemblyAttribute : Attribute
     {
-
         public RunBeforeAssemblyAttribute(string assemblyName);
 
         public string assemblyName { get; }

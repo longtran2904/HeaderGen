@@ -9,7 +9,6 @@ namespace UnityEditor.Callbacks
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = True)]
     public class RunAfterPackageAttribute : Attribute
     {
-
         public RunAfterPackageAttribute(string packageName);
 
         public string packageName { get; }

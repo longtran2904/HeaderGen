@@ -9,7 +9,6 @@ namespace UnityEngine.Timeline
     [AttributeUsage(AttributeTargets.Class, Inherited = False)]
     public class HideInMenuAttribute : Attribute
     {
-
         public HideInMenuAttribute();
     }
 }

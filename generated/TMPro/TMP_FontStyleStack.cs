@@ -6,7 +6,6 @@ namespace TMPro
 {
     public struct TMP_FontStyleStack
     {
-
         public byte bold;
         public byte italic;
         public byte underline;

@@ -12,7 +12,6 @@ namespace UnityEngine.Rendering
     [UsedByNativeCode]
     public readonly struct PassIdentifier : IEquatable<PassIdentifier>
     {
-
         public uint SubshaderIndex { get; }
         public uint PassIndex { get; }
 

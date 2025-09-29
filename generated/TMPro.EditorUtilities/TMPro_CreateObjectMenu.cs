@@ -9,7 +9,6 @@ namespace TMPro.EditorUtilities
 {
     public static class TMPro_CreateObjectMenu
     {
-
         [MenuItem("GameObject/UI/Button - TextMeshPro", False, 2031)]
         public static void AddButton(MenuCommand menuCommand);
         [MenuItem("GameObject/UI/Dropdown - TextMeshPro", False, 2036)]

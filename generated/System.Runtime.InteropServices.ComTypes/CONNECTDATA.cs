@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public struct CONNECTDATA
     {
-
         public object pUnk;
         public int dwCookie;
     }

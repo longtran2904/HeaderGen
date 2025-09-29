@@ -9,7 +9,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class ContentZoomer : Manipulator
     {
-
         public static readonly float DefaultReferenceScale;
         public static readonly float DefaultMinScale;
         public static readonly float DefaultMaxScale;

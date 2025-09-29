@@ -11,7 +11,6 @@ namespace UnityEngine.EventSystems
     [DisallowMultipleComponent]
     public class EventSystem : UIBehaviour
     {
-
         protected EventSystem();
 
         public static EventSystem current { get; set; }

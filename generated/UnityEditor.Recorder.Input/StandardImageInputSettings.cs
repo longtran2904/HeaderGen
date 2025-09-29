@@ -8,7 +8,6 @@ namespace UnityEditor.Recorder.Input
 {
     public abstract class StandardImageInputSettings : ImageInputSettings
     {
-
         protected StandardImageInputSettings();
 
         public override int OutputWidth { get; set; }

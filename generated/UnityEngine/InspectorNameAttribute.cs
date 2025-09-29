@@ -9,7 +9,6 @@ namespace UnityEngine
     [AttributeUsage(AttributeTargets.Field, AllowMultiple = False, Inherited = True)]
     public class InspectorNameAttribute : PropertyAttribute
     {
-
         public readonly string displayName;
 
         public InspectorNameAttribute(string displayName);

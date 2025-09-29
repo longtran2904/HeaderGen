@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.UI
 {
     public class DebugUIPrefabBundle
     {
-
         public string type;
         public RectTransform prefab;
 

@@ -8,7 +8,6 @@ namespace UnityEngine
 {
     public enum ParticleSystemShapeType
     {
-
         Sphere = 0,
         [Obsolete("SphereShell is deprecated and does nothing. Please use ShapeModule.radiusThickness instead, to control edge emission.", False)]
         SphereShell = 1,

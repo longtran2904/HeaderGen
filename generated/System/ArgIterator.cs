@@ -6,7 +6,6 @@ namespace System
 {
     public ref struct ArgIterator
     {
-
         public ArgIterator(RuntimeArgumentHandle arglist);
         [CLSCompliant(False)]
         public ArgIterator(RuntimeArgumentHandle arglist, void* ptr);

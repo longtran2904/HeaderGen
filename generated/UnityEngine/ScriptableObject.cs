@@ -14,7 +14,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public class ScriptableObject : Object
     {
-
         public ScriptableObject();
 
         [NativeConditional("ENABLE_MONO")]

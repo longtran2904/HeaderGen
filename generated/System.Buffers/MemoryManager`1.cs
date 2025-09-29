@@ -6,7 +6,6 @@ namespace System.Buffers
 {
     public abstract class MemoryManager<T> : IDisposable, IMemoryOwner<T>, IPinnable
     {
-
         protected MemoryManager();
 
         public virtual Memory<T> Memory { get; }

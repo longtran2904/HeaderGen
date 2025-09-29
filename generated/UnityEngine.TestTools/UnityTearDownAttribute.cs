@@ -10,7 +10,6 @@ namespace UnityEngine.TestTools
     [AttributeUsage(AttributeTargets.Method)]
     public class UnityTearDownAttribute : NUnitAttribute
     {
-
         public UnityTearDownAttribute();
     }
 }

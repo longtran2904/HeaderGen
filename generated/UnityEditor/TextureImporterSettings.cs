@@ -14,7 +14,6 @@ namespace UnityEditor
     [NativeType(CodegenOptions.Custom, "TextureImporterSettings")]
     public sealed class TextureImporterSettings
     {
-
         public TextureImporterSettings();
 
         public TextureImporterType textureType { get; set; }

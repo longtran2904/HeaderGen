@@ -9,7 +9,6 @@ namespace UnityEditor.ShaderGraph
 {
     public class Vector2Control : IControl
     {
-
         public Vector2Control(Vector2 value);
 
         public Vector2 value { get; }

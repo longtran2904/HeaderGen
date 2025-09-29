@@ -10,7 +10,6 @@ namespace UnityEngine.WSA
     [NativeHeader("PlatformDependent/MetroPlayer/MetroCursor.h")]
     public static class Cursor
     {
-
         [FreeFunction("Cursors::SetHardwareCursor")]
         public static void SetCustomCursor(uint id);
     }

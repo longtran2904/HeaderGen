@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public abstract class DecoratorDrawer : GUIDrawer
     {
-
         protected DecoratorDrawer();
 
         public PropertyAttribute attribute { get; }

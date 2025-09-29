@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public class SubsystemDescriptor<TSubsystem> : SubsystemDescriptor where TSubsystem : Subsystem
     {
-
         public SubsystemDescriptor();
 
         public TSubsystem Create();

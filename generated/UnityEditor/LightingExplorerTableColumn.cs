@@ -8,11 +8,10 @@ namespace UnityEditor
 {
     public sealed class LightingExplorerTableColumn
     {
-
         public LightingExplorerTableColumn(DataType type, GUIContent headerContent, string propertyName = null, int width = 100, OnGUIDelegate onGUIDelegate = null, ComparePropertiesDelegate compareDelegate = null, CopyPropertiesDelegate copyDelegate = null, int[] dependencyIndices = null);
+
         public enum DataType
         {
-
             Name = 0,
             Checkbox = 1,
             Enum = 2,

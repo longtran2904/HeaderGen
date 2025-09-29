@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public sealed class PointerUpEvent : PointerEventBase<PointerUpEvent>
     {
-
         public PointerUpEvent();
 
         protected override void Init();

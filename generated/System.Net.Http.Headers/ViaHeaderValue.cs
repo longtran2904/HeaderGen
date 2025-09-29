@@ -6,7 +6,6 @@ namespace System.Net.Http.Headers
 {
     public class ViaHeaderValue : ICloneable
     {
-
         public ViaHeaderValue(string protocolVersion, string receivedBy);
         public ViaHeaderValue(string protocolVersion, string receivedBy, string protocolName);
         public ViaHeaderValue(string protocolVersion, string receivedBy, string protocolName, string comment);

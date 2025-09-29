@@ -10,12 +10,11 @@ namespace UnityEngine.UIElements
 {
     public struct StylePropertyNameCollection : IEnumerable, IEnumerable<StylePropertyName>
     {
-
         public Enumerator GetEnumerator();
         public bool Contains(StylePropertyName stylePropertyName);
+
         public struct Enumerator : IDisposable, IEnumerator, IEnumerator<StylePropertyName>
         {
-
             public StylePropertyName Current { get; }
 
             public bool MoveNext();

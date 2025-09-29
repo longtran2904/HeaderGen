@@ -8,7 +8,6 @@ namespace System.Diagnostics
 {
     public class StackTrace
     {
-
         public const int METHODS_TO_SKIP = 0;
 
         public StackTrace();

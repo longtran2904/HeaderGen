@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public static class HashSetPool<T>
     {
-
         public static HashSet<T> Get();
         public static ObjectPool<HashSet<T>>.PooledObject Get(out HashSet<T> value);
         public static void Release(HashSet<T> toRelease);

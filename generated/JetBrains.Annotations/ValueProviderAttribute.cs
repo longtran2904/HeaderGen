@@ -9,7 +9,6 @@ namespace JetBrains.Annotations
     [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Parameter, AllowMultiple = True)]
     public sealed class ValueProviderAttribute : Attribute
     {
-
         public ValueProviderAttribute([NotNull] string name);
 
         [NotNull]

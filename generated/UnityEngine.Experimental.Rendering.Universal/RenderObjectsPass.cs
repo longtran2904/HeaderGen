@@ -9,7 +9,6 @@ namespace UnityEngine.Experimental.Rendering.Universal
 {
     public class RenderObjectsPass : ScriptableRenderPass
     {
-
         public RenderObjectsPass(string profilerTag, RenderPassEvent renderPassEvent, string[] shaderTags, RenderQueueType renderQueueType, int layerMask, RenderObjects.CustomCameraSettings cameraSettings);
 
         public Material overrideMaterial { get; set; }

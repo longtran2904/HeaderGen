@@ -8,7 +8,6 @@ namespace System.Runtime.InteropServices
 {
     public abstract class SafeBuffer : SafeHandleZeroOrMinusOneIsInvalid
     {
-
         protected SafeBuffer(bool ownsHandle);
 
         [CLSCompliant(False)]

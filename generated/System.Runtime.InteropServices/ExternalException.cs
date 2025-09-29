@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices
 {
     public class ExternalException : SystemException
     {
-
         public ExternalException();
         public ExternalException(string message);
         public ExternalException(string message, Exception inner);

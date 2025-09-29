@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public class UxmlRootElementTraits : UxmlTraits
     {
-
         protected UxmlStringAttributeDescription m_Name;
 
         public UxmlRootElementTraits();

@@ -15,7 +15,6 @@ namespace UnityEngine.Rendering.Universal
     [MovedFrom("UnityEngine.Experimental.Rendering.Universal")]
     public sealed class Light2D : Light2DBase, ISerializationCallbackReceiver
     {
-
         public Light2D();
 
         public LightType lightType { get; set; }
@@ -56,14 +55,13 @@ namespace UnityEngine.Rendering.Universal
         public void OnBeforeSerialize();
         public void OnAfterDeserialize();
         public void SetShapePath(Vector3[] path);
+
         public enum DeprecatedLightType
         {
-
             Parametric = 0
         }
         public enum LightType
         {
-
             Parametric = 0,
             Freeform = 1,
             Sprite = 2,
@@ -72,14 +70,12 @@ namespace UnityEngine.Rendering.Universal
         }
         public enum NormalMapQuality
         {
-
             Disabled = 2,
             Fast = 0,
             Accurate = 1
         }
         public enum OverlapOperation
         {
-
             Additive = 0,
             AlphaBlend = 1
         }

@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.Universal.Internal
 {
     public class FinalBlitPass : ScriptableRenderPass
     {
-
         public FinalBlitPass(RenderPassEvent evt, Material blitMaterial);
 
         public void Setup(RenderTextureDescriptor baseDescriptor, RenderTargetHandle colorHandle);

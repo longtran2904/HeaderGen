@@ -11,7 +11,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public sealed class ContextMenu : Attribute
     {
-
         public readonly string menuItem;
         public readonly bool validate;
         public readonly int priority;

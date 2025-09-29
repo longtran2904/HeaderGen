@@ -6,7 +6,6 @@ namespace System.Runtime.CompilerServices
 {
     public struct AsyncVoidMethodBuilder
     {
-
         public static AsyncVoidMethodBuilder Create();
         public void Start<TStateMachine>(ref TStateMachine stateMachine) where TStateMachine : IAsyncStateMachine;
         public void SetStateMachine(IAsyncStateMachine stateMachine);

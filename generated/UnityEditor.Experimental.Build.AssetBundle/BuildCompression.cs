@@ -11,7 +11,6 @@ namespace UnityEditor.Experimental.Build.AssetBundle
     [Obsolete("UnityEditor.Experimental.Build.AssetBundle.BuildCompression has been deprecated. Use UnityEngine.BuildCompression instead (UnityUpgradable) -> [UnityEngine] UnityEngine.BuildCompression", True)]
     public struct BuildCompression
     {
-
         [EditorBrowsable(EditorBrowsableState.Never)]
         [Obsolete("DefaultUncompressed has been deprecated. Use Uncompressed instead (UnityUpgradable) -> [UnityEngine] UnityEngine.BuildCompression.Uncompressed", True)]
         public static readonly BuildCompression DefaultUncompressed;

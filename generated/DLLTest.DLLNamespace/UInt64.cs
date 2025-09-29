@@ -6,7 +6,6 @@ namespace DLLTest.DLLNamespace
 {
     public class UInt64
     {
-
         public UInt64();
     }
 }

@@ -8,7 +8,6 @@ namespace UnityEngine
 {
     public class ResourcesAPI
     {
-
         protected internal ResourcesAPI();
 
         public static ResourcesAPI overrideAPI { get; set; }

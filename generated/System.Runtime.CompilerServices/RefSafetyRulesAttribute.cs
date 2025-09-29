@@ -10,7 +10,6 @@ namespace System.Runtime.CompilerServices
     [EditorBrowsable(EditorBrowsableState.Never)]
     public sealed class RefSafetyRulesAttribute : Attribute
     {
-
         public RefSafetyRulesAttribute(int version);
 
         public int Version { get; }

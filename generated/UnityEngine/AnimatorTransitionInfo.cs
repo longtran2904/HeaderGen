@@ -11,7 +11,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public struct AnimatorTransitionInfo
     {
-
         public int fullPathHash { get; }
         public int nameHash { get; }
         public int userNameHash { get; }

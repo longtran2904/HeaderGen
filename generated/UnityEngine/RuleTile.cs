@@ -13,7 +13,6 @@ namespace UnityEngine
     [HelpURL("https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@latest/index.html?subfolder=/manual/RuleTile.html")]
     public class RuleTile : TileBase
     {
-
         public Sprite m_DefaultSprite;
         public GameObject m_DefaultGameObject;
         public Tile.ColliderType m_DefaultColliderType;
@@ -43,9 +42,9 @@ namespace UnityEngine
         public virtual Vector3Int GetMirroredPosition(Vector3Int position, bool mirrorX, bool mirrorY);
         public virtual Vector3Int GetOffsetPosition(Vector3Int position, Vector3Int offset);
         public virtual Vector3Int GetOffsetPositionReverse(Vector3Int position, Vector3Int offset);
+
         public class TilingRuleOutput
         {
-
             public int m_Id;
             public Sprite[] m_Sprites;
             public GameObject m_GameObject;
@@ -56,9 +55,9 @@ namespace UnityEngine
             public Transform m_RandomTransform;
 
             public TilingRuleOutput();
+
             public class Neighbor
             {
-
                 public const int This = 1;
                 public const int NotThis = 2;
 
@@ -66,7 +65,6 @@ namespace UnityEngine
             }
             public enum Transform
             {
-
                 Fixed = 0,
                 Rotated = 1,
                 MirrorX = 2,
@@ -75,7 +73,6 @@ namespace UnityEngine
             }
             public enum OutputSprite
             {
-
                 Single = 0,
                 Random = 1,
                 Animation = 2
@@ -83,7 +80,6 @@ namespace UnityEngine
         }
         public class TilingRule : TilingRuleOutput
         {
-
             public List<int> m_Neighbors;
             public List<Vector3Int> m_NeighborPositions;
             public Transform m_RuleTransform;
@@ -96,7 +92,6 @@ namespace UnityEngine
         }
         public class DontOverride : Attribute
         {
-
             public DontOverride();
         }
     }

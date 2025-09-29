@@ -6,7 +6,6 @@ namespace UnityEngine.Experimental.Rendering.RenderGraphModule
 {
     public sealed class RenderGraphObjectPool
     {
-
         public T[] GetTempArray<T>(int size);
         public MaterialPropertyBlock GetTempMaterialPropertyBlock();
     }

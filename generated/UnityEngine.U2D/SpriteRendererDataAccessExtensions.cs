@@ -10,7 +10,6 @@ namespace UnityEngine.U2D
     [NativeHeader("Runtime/Graphics/Mesh/SpriteRenderer.h")]
     public static class SpriteRendererDataAccessExtensions
     {
-
         public static void DeactivateDeformableBuffer([NotNull("ArgumentNullException")] this SpriteRenderer renderer);
     }
 }

@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
     [Flags]
     public enum SortingCriteria
     {
-
         None = 0,
         SortingLayer = 1,
         RenderQueue = 2,

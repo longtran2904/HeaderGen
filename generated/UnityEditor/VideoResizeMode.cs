@@ -9,7 +9,6 @@ namespace UnityEditor
     [NativeHeader("Modules/AssetPipelineEditor/Public/VideoClipImporter.h")]
     public enum VideoResizeMode
     {
-
         OriginalSize = 0,
         ThreeQuarterRes = 1,
         HalfRes = 2,

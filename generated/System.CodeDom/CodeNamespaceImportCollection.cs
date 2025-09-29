@@ -10,7 +10,6 @@ namespace System.CodeDom
     [DefaultMember("Item")]
     public class CodeNamespaceImportCollection : ICollection, IEnumerable, IList
     {
-
         public CodeNamespaceImportCollection();
 
         public CodeNamespaceImport this[int index] { get; set; }

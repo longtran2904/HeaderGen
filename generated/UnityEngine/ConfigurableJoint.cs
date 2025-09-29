@@ -10,7 +10,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics/ConfigurableJoint.h")]
     public class ConfigurableJoint : Joint
     {
-
         public ConfigurableJoint();
 
         public Vector3 secondaryAxis { get; set; }

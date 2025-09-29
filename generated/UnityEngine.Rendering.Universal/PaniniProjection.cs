@@ -7,7 +7,6 @@ namespace UnityEngine.Rendering.Universal
     [VolumeComponentMenuForRenderPipeline("Post-processing/Panini Projection", new[] {typeof(UniversalRenderPipeline) })]
     public sealed class PaniniProjection : VolumeComponent, IPostProcessComponent
     {
-
         [Tooltip("Panini projection distance.")]
         public ClampedFloatParameter distance;
         [Tooltip("Panini projection crop to fit.")]

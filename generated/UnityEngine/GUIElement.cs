@@ -14,7 +14,6 @@ namespace UnityEngine
     [Obsolete("GUIElement has been removed.", True)]
     public sealed class GUIElement
     {
-
         public GUIElement();
 
         [Obsolete("GUIElement has been removed.", True)]

@@ -10,7 +10,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public abstract class StateMachineBehaviour : ScriptableObject
     {
-
         protected StateMachineBehaviour();
 
         public virtual void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex);

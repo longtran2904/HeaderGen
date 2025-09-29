@@ -12,7 +12,6 @@ namespace UnityEngine.Timeline
     [TimelineHelpURL(typeof(TimelineAsset))]
     public class TimelineAsset : PlayableAsset, IPropertyPreview, ISerializationCallbackReceiver, ITimelineClipAsset
     {
-
         public TimelineAsset();
 
         public EditorSettings editorSettings { get; }
@@ -38,10 +37,10 @@ namespace UnityEngine.Timeline
         public T CreateTrack<T>() where T : TrackAsset, new();
         public bool DeleteClip(TimelineClip clip);
         public bool DeleteTrack(TrackAsset track);
+
         [Obsolete("MediaType has been deprecated. It is no longer required, and will be removed in a future release.", False)]
         public enum MediaType
         {
-
             Animation = 0,
             Audio = 1,
             Texture = 2,
@@ -53,13 +52,11 @@ namespace UnityEngine.Timeline
         }
         public enum DurationMode
         {
-
             BasedOnClips = 0,
             FixedLength = 1
         }
         public class EditorSettings
         {
-
             public EditorSettings();
 
             [Obsolete("EditorSettings.fps has been deprecated. Use editorSettings.frameRate instead.", False)]

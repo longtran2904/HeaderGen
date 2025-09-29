@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class ChangeEvent<T> : EventBase<ChangeEvent<T>>, IChangeEvent
     {
-
         public ChangeEvent();
 
         public T previousValue { get; protected set; }

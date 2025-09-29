@@ -10,7 +10,6 @@ namespace UnityEditorInternal
     [NativeHeader("Editor/Src/Animation/BlendTreePreviewUtility.h")]
     public class BlendTreePreviewUtility
     {
-
         public BlendTreePreviewUtility();
 
         public static void GetRootBlendTreeChildWeights([NotNull("NullExceptionObject")] Animator animator, int layerIndex, int stateHash, out float[] weightArray);

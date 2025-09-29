@@ -9,7 +9,6 @@ namespace UnityEditor.Search
     [DefaultMember("Item")]
     public readonly struct SearchSelectorArgs
     {
-
         public readonly SearchItem current;
     }
 }

@@ -9,7 +9,6 @@ namespace AOT
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = True)]
     public class MonoPInvokeCallbackAttribute : Attribute
     {
-
         public MonoPInvokeCallbackAttribute(Type type);
     }
 }

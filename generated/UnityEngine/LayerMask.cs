@@ -13,7 +13,6 @@ namespace UnityEngine
     [RequiredByNativeCode(Optional = True, GenerateProxy = True)]
     public struct LayerMask
     {
-
         public int value { get; set; }
 
         [NativeMethod("LayerToString")]

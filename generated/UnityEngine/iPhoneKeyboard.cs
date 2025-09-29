@@ -11,7 +11,6 @@ namespace UnityEngine
     [Obsolete("iPhoneKeyboard class is deprecated. Please use TouchScreenKeyboard instead (UnityUpgradable) -> TouchScreenKeyboard", True)]
     public class iPhoneKeyboard
     {
-
         public iPhoneKeyboard();
 
         public string text { get; set; }

@@ -9,7 +9,6 @@ namespace UnityEditor.TestTools.TestRunner.Api
     [Flags]
     public enum TestMode
     {
-
         EditMode = 1,
         PlayMode = 2
     }

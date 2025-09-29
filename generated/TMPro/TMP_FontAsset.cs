@@ -13,7 +13,6 @@ namespace TMPro
     [ExcludeFromPreset]
     public class TMP_FontAsset : TMP_Asset
     {
-
         [SerializeField]
         public Texture2D atlas;
         public float normalStyle;

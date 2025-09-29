@@ -10,7 +10,6 @@ namespace System.Security.AccessControl
     [DefaultMember("Item")]
     public sealed class AuthorizationRuleCollection : ReadOnlyCollectionBase
     {
-
         public AuthorizationRuleCollection();
 
         public AuthorizationRule this[int index] { get; }

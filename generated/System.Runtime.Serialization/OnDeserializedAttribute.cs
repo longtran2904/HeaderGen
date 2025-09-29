@@ -7,7 +7,6 @@ namespace System.Runtime.Serialization
     [AttributeUsage(AttributeTargets.Method, Inherited = False)]
     public sealed class OnDeserializedAttribute : Attribute
     {
-
         public OnDeserializedAttribute();
     }
 }

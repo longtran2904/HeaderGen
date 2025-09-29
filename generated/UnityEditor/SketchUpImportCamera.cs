@@ -10,7 +10,6 @@ namespace UnityEditor
     [NativeType("Modules/SketchUpEditor/SketchUpImporter.h")]
     public struct SketchUpImportCamera
     {
-
         public Vector3 position;
         public Vector3 lookAt;
         public Vector3 up;

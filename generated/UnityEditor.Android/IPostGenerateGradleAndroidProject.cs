@@ -8,7 +8,6 @@ namespace UnityEditor.Android
 {
     public interface IPostGenerateGradleAndroidProject : IOrderedCallback
     {
-
         void OnPostGenerateGradleAndroidProject(string path);
     }
 }

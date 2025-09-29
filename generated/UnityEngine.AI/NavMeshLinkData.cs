@@ -6,7 +6,6 @@ namespace UnityEngine.AI
 {
     public struct NavMeshLinkData
     {
-
         public Vector3 startPosition { get; set; }
         public Vector3 endPosition { get; set; }
         public float costModifier { get; set; }

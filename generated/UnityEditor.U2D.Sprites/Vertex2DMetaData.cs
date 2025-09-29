@@ -8,7 +8,6 @@ namespace UnityEditor.U2D.Sprites
 {
     public struct Vertex2DMetaData
     {
-
         public Vector2 position;
         public BoneWeight boneWeight;
     }

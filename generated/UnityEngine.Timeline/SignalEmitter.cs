@@ -11,7 +11,6 @@ namespace UnityEngine.Timeline
     [TimelineHelpURL(typeof(SignalEmitter))]
     public class SignalEmitter : Marker, INotification, INotificationOptionProvider
     {
-
         public SignalEmitter();
 
         public bool retroactive { get; set; }

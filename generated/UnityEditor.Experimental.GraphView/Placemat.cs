@@ -10,7 +10,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class Placemat : GraphElement
     {
-
         protected GraphView m_GraphView;
 
         public Placemat();
@@ -30,9 +29,9 @@ namespace UnityEditor.Experimental.GraphView
         protected virtual void BuildContextualMenu(ContextualMenuPopulateEvent evt);
         public void StartEditTitle();
         public static bool ComputeElementBounds(ref Rect pos, List<GraphElement> elements, MinSizePolicy ensureMinSize = MinSizePolicy.EnsureMinSize);
+
         public enum MinSizePolicy
         {
-
             EnsureMinSize = 0,
             DoNotEnsureMinSize = 1
         }

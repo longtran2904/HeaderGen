@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public struct DestroyAssetObjectEventArgs
     {
-
         public DestroyAssetObjectEventArgs(GUID guid, int instanceId, Scene scene);
 
         public GUID guid { get; }

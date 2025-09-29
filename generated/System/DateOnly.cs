@@ -9,7 +9,6 @@ namespace System
 {
     public readonly struct DateOnly : IComparable, IComparable<DateOnly>, IEquatable<DateOnly>, IFormattable, IParsable<DateOnly>, ISpanFormattable, ISpanParsable<DateOnly>, IUtf8SpanFormattable
     {
-
         public DateOnly(int year, int month, int day);
         public DateOnly(int year, int month, int day, Calendar calendar);
 

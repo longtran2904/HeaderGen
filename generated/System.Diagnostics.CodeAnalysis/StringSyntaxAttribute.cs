@@ -7,7 +7,6 @@ namespace System.Diagnostics.CodeAnalysis
     [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Parameter, AllowMultiple = False, Inherited = False)]
     public sealed class StringSyntaxAttribute : Attribute
     {
-
         public const string CompositeFormat = "CompositeFormat";
         public const string DateOnlyFormat = "DateOnlyFormat";
         public const string DateTimeFormat = "DateTimeFormat";

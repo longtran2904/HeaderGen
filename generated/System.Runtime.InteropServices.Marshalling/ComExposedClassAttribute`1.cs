@@ -8,7 +8,6 @@ namespace System.Runtime.InteropServices.Marshalling
     [CLSCompliant(False)]
     public sealed class ComExposedClassAttribute<T> : Attribute, IComExposedDetails where T : IComExposedClass
     {
-
         public ComExposedClassAttribute();
 
         public ComWrappers.ComInterfaceEntry* GetComInterfaceEntries(out int count);

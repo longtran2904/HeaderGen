@@ -13,7 +13,6 @@ namespace UnityEngine.Playables
     [RequiredByNativeCode]
     public class PlayableDirector : Behaviour, IExposedPropertyTable
     {
-
         public PlayableDirector();
 
         public PlayState state { get; }

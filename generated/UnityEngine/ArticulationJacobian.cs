@@ -12,7 +12,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics/ArticulationBody.h")]
     public struct ArticulationJacobian
     {
-
         public ArticulationJacobian(int rows, int cols);
 
         public float this[int row, int col] { get; set; }

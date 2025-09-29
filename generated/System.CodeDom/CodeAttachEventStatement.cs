@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeAttachEventStatement : CodeStatement
     {
-
         public CodeAttachEventStatement();
         public CodeAttachEventStatement(CodeEventReferenceExpression eventRef, CodeExpression listener);
         public CodeAttachEventStatement(CodeExpression targetObject, string eventName, CodeExpression listener);

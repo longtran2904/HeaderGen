@@ -7,7 +7,6 @@ namespace System.Diagnostics
     [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field, AllowMultiple = False)]
     public sealed class DebuggerBrowsableAttribute : Attribute
     {
-
         public DebuggerBrowsableAttribute(DebuggerBrowsableState state);
 
         public DebuggerBrowsableState State { get; }

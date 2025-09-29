@@ -9,7 +9,6 @@ namespace UnityEditor.Tilemaps
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = False)]
     public class BrushToolsAttribute : Attribute
     {
-
         public BrushToolsAttribute(params Type[] tools);
     }
 }

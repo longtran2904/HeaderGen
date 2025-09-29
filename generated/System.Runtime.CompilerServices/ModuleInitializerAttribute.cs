@@ -7,7 +7,6 @@ namespace System.Runtime.CompilerServices
     [AttributeUsage(AttributeTargets.Method, Inherited = False)]
     public sealed class ModuleInitializerAttribute : Attribute
     {
-
         public ModuleInitializerAttribute();
     }
 }

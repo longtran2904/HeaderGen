@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeType(CodegenOptions.Custom, "ScriptingJvalue")]
     public struct jvalue
     {
-
         public bool z;
         public sbyte b;
         public char c;

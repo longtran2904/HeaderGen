@@ -9,7 +9,6 @@ namespace System.Runtime.Intrinsics
     [DefaultMember("Item")]
     public readonly struct Vector256<T> : IEquatable<Vector256<T>>
     {
-
         public T this[int index] { get; }
         public static Vector256<T> AllBitsSet { get; }
         public static int Count { get; }

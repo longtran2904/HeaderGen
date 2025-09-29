@@ -9,7 +9,6 @@ namespace UnityEngine.XR
     [Flags]
     public enum InputDeviceCharacteristics
     {
-
         None = 0,
         HeadMounted = 1,
         Camera = 2,

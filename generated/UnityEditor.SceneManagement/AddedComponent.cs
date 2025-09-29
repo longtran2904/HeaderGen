@@ -8,7 +8,6 @@ namespace UnityEditor.SceneManagement
 {
     public class AddedComponent : PrefabOverride
     {
-
         public AddedComponent();
 
         public Component instanceComponent { get; set; }

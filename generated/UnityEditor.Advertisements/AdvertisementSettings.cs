@@ -12,7 +12,6 @@ namespace UnityEditor.Advertisements
     [StaticAccessor("GetUnityAdsSettings()", StaticAccessorType.Dot)]
     public static class AdvertisementSettings
     {
-
         public static bool enabled { get; set; }
         public static bool testMode { get; set; }
         public static bool initializeOnStartup { get; set; }

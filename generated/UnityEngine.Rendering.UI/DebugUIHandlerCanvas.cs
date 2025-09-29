@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering.UI
 {
     public class DebugUIHandlerCanvas : MonoBehaviour
     {
-
         public Transform panelPrefab;
         public List<DebugUIPrefabBundle> prefabs;
 

@@ -11,7 +11,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public class RuntimeInitializeOnLoadMethodAttribute : PreserveAttribute
     {
-
         public RuntimeInitializeOnLoadMethodAttribute();
         public RuntimeInitializeOnLoadMethodAttribute(RuntimeInitializeLoadType loadType);
 

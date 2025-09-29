@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeChecksumPragma : CodeDirective
     {
-
         public CodeChecksumPragma();
         public CodeChecksumPragma(string fileName, Guid checksumAlgorithmId, byte[] checksumData);
 

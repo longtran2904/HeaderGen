@@ -12,7 +12,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public struct BoundsInt : IEquatable<BoundsInt>, IFormattable
     {
-
         public BoundsInt(int xMin, int yMin, int zMin, int sizeX, int sizeY, int sizeZ);
         public BoundsInt(Vector3Int position, Vector3Int size);
 
@@ -44,9 +43,9 @@ namespace UnityEngine
 
         public static bool operator ==(BoundsInt lhs, BoundsInt rhs);
         public static bool operator !=(BoundsInt lhs, BoundsInt rhs);
+
         public struct PositionEnumerator : IDisposable, IEnumerator, IEnumerator<Vector3Int>
         {
-
             public PositionEnumerator(Vector3Int min, Vector3Int max);
 
             public Vector3Int Current { get; }

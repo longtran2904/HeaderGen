@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Graphics/GraphicsScriptBindings.h")]
     public static class RendererExtensions
     {
-
         public static void UpdateGIMaterials(this Renderer renderer);
     }
 }

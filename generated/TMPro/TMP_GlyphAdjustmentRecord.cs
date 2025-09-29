@@ -6,7 +6,6 @@ namespace TMPro
 {
     public struct TMP_GlyphAdjustmentRecord
     {
-
         public TMP_GlyphAdjustmentRecord(uint glyphIndex, TMP_GlyphValueRecord glyphValueRecord);
 
         public uint glyphIndex { get; set; }

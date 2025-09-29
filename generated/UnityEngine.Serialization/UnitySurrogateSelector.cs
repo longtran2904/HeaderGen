@@ -9,7 +9,6 @@ namespace UnityEngine.Serialization
 {
     public class UnitySurrogateSelector : ISurrogateSelector
     {
-
         public UnitySurrogateSelector();
 
         public ISerializationSurrogate GetSurrogate(Type type, StreamingContext context, out ISurrogateSelector selector);

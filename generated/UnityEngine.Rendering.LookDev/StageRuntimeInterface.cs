@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering.LookDev
 {
     public class StageRuntimeInterface
     {
-
         public object SRPData;
 
         public StageRuntimeInterface(Func<bool, GameObject> AddGameObject, Func<Camera> GetCamera, Func<Light> GetSunLight);

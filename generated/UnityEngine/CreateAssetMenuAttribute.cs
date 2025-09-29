@@ -9,7 +9,6 @@ namespace UnityEngine
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = False, Inherited = False)]
     public sealed class CreateAssetMenuAttribute : Attribute
     {
-
         public CreateAssetMenuAttribute();
 
         public string menuName { get; set; }

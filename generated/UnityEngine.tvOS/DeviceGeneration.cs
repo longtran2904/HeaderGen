@@ -8,7 +8,6 @@ namespace UnityEngine.tvOS
 {
     public enum DeviceGeneration
     {
-
         Unknown = 0,
         [Obsolete("AppleTV1Gen has been renamed. Use AppleTVHD instead (UnityUpgradable) -> AppleTVHD", False)]
         AppleTV1Gen = 1001,

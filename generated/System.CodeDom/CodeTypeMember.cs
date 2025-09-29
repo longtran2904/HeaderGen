@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeTypeMember : CodeObject
     {
-
         public CodeTypeMember();
 
         public string Name { get; set; }

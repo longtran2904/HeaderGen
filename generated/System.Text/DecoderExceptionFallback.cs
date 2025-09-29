@@ -6,7 +6,6 @@ namespace System.Text
 {
     public sealed class DecoderExceptionFallback : DecoderFallback
     {
-
         public DecoderExceptionFallback();
 
         public override int MaxCharCount { get; }

@@ -6,7 +6,6 @@ namespace System.Runtime.Serialization
 {
     public readonly struct DeserializationToken : IDisposable
     {
-
         public void Dispose();
     }
 }

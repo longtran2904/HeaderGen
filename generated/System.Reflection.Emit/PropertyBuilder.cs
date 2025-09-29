@@ -6,7 +6,6 @@ namespace System.Reflection.Emit
 {
     public abstract class PropertyBuilder : PropertyInfo
     {
-
         protected PropertyBuilder();
 
         public void AddOtherMethod(MethodBuilder mdBuilder);

@@ -6,7 +6,6 @@ namespace UnityEditor.EditorTools
 {
     public interface IDrawSelectedHandles
     {
-
         void OnDrawHandles();
     }
 }

@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public class UxmlEnumAttributeDescription<T> : TypedUxmlAttributeDescription<T> where T : IConvertible, struct
     {
-
         public UxmlEnumAttributeDescription();
 
         public override string defaultValueAsString { get; }

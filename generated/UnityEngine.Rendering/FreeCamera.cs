@@ -7,7 +7,6 @@ namespace UnityEngine.Rendering
     [CoreRPHelpURL("Free-Camera", "com.unity.render-pipelines.core")]
     public class FreeCamera : MonoBehaviour
     {
-
         public float m_LookSpeedController;
         public float m_LookSpeedMouse;
         public float m_MoveSpeed;

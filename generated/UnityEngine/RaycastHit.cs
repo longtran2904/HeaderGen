@@ -15,7 +15,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public struct RaycastHit
     {
-
         public Collider collider { get; }
         public int colliderInstanceID { get; }
         public Vector3 point { get; set; }

@@ -12,7 +12,6 @@ namespace UnityEngine
     [RequiredByNativeCode(Optional = False, GenerateProxy = True)]
     public struct ContactPoint2D
     {
-
         public Vector2 point { get; }
         public Vector2 normal { get; }
         public float separation { get; }

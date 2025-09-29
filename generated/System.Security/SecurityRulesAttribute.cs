@@ -7,7 +7,6 @@ namespace System.Security
     [AttributeUsage(AttributeTargets.Assembly, AllowMultiple = False)]
     public sealed class SecurityRulesAttribute : Attribute
     {
-
         public SecurityRulesAttribute(SecurityRuleSet ruleSet);
 
         public bool SkipVerificationInFullTrust { get; set; }

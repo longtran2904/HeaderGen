@@ -12,7 +12,6 @@ namespace UnityEngine.Rendering.Universal
     [ReloadGroup]
     public class Renderer2DData : ScriptableRendererData
     {
-
         public Renderer2DData();
 
         public float hdrEmulationScale { get; }

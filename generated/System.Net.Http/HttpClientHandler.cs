@@ -15,7 +15,6 @@ namespace System.Net.Http
 {
     public class HttpClientHandler : HttpMessageHandler
     {
-
         public HttpClientHandler();
 
         public virtual bool SupportsAutomaticDecompression { get; }

@@ -10,7 +10,6 @@ namespace UnityEditor
     [CustomEditor(typeof(TerrainLayer))]
     public sealed class TerrainLayerInspector : Editor
     {
-
         public TerrainLayerInspector();
 
         public void ApplyCustomUI(ITerrainLayerCustomUI customUI, Terrain terrain);

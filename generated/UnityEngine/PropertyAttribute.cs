@@ -9,7 +9,6 @@ namespace UnityEngine
     [AttributeUsage(AttributeTargets.Field, AllowMultiple = False, Inherited = True)]
     public abstract class PropertyAttribute : Attribute
     {
-
         protected PropertyAttribute();
 
         public int order { get; set; }

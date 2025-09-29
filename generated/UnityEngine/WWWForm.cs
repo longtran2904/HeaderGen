@@ -10,7 +10,6 @@ namespace UnityEngine
 {
     public class WWWForm
     {
-
         public WWWForm();
 
         public Dictionary<string, string> headers { get; }

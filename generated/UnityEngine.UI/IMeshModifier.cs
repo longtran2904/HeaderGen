@@ -8,7 +8,6 @@ namespace UnityEngine.UI
 {
     public interface IMeshModifier
     {
-
         [Obsolete("use IMeshModifier.ModifyMesh (VertexHelper verts) instead", False)]
         void ModifyMesh(Mesh mesh);
         void ModifyMesh(VertexHelper verts);

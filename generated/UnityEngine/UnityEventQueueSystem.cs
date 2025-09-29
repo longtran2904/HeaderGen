@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Export/UnityEvent/UnityEventQueueSystem.bindings.h")]
     public class UnityEventQueueSystem
     {
-
         public UnityEventQueueSystem();
 
         public static string GenerateEventIdForPayload(string eventPayloadName);

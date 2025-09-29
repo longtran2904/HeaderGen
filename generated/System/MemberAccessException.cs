@@ -9,7 +9,6 @@ namespace System
 {
     public class MemberAccessException : SystemException
     {
-
         public MemberAccessException();
         public MemberAccessException(string message);
         public MemberAccessException(string message, Exception inner);

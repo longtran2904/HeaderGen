@@ -11,7 +11,6 @@ namespace UnityEngine
     [NativeType("Modules/Animation/AnimationClip.h")]
     public sealed class AnimationClip : Motion
     {
-
         public AnimationClip();
 
         [NativeProperty("Length", False, TargetType.Function)]

@@ -13,7 +13,6 @@ namespace System.Security.Principal
 {
     public class WindowsIdentity : ClaimsIdentity, IDeserializationCallback, IDisposable, ISerializable
     {
-
         public const string DefaultIssuer = "AD AUTHORITY";
 
         public WindowsIdentity(nint userToken);

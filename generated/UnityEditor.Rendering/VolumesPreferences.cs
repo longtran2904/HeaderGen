@@ -10,7 +10,6 @@ namespace UnityEditor.Rendering
 {
     public class VolumesPreferences : ICoreRenderPipelinePreferencesProvider
     {
-
         public VolumesPreferences();
 
         public static VolumeGizmoVisibility volumeGizmosVisibilityOption { get; set; }
@@ -21,10 +20,10 @@ namespace UnityEditor.Rendering
         public GUIContent header { get; }
 
         public void PreferenceGUI();
+
         [Flags]
         public enum VolumeGizmoVisibility
         {
-
             Wireframe = 1,
             Solid = 2,
             Everything = 3

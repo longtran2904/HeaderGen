@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.Universal.Internal
 {
     public class ScreenSpaceShadowResolvePass : ScriptableRenderPass
     {
-
         public ScreenSpaceShadowResolvePass(RenderPassEvent evt, Material screenspaceShadowsMaterial);
 
         public void Setup(RenderTextureDescriptor baseDescriptor);

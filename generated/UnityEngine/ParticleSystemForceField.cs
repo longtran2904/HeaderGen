@@ -14,7 +14,6 @@ namespace UnityEngine
     [RequireComponent(typeof(Transform))]
     public class ParticleSystemForceField : Behaviour
     {
-
         public ParticleSystemForceField();
 
         [NativeName("ForceShape")]

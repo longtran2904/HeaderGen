@@ -8,7 +8,6 @@ namespace TMPro
 {
     public class TMP_ProjectConversionUtility : EditorWindow
     {
-
         public TMP_ProjectConversionUtility();
     }
 }

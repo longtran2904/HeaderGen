@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum HumanPartDof
     {
-
         Body = 0,
         Head = 1,
         LeftLeg = 2,

@@ -6,7 +6,6 @@ namespace System
 {
     public readonly struct Index : IEquatable<Index>
     {
-
         public Index(int value, bool fromEnd = False);
 
         public static Index Start { get; }

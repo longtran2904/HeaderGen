@@ -8,7 +8,6 @@ namespace UnityEditor.ShaderGraph
 {
     public interface IControl
     {
-
         ShaderGraphRequirements GetRequirements();
     }
 }

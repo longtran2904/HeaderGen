@@ -9,7 +9,6 @@ namespace UnityEditor
     [Obsolete("iOSBuildType is obsolete. Use XcodeBuildConfig instead (UnityUpgradable) -> XcodeBuildConfig", True)]
     public enum iOSBuildType
     {
-
         Debug = 0,
         Release = 1
     }

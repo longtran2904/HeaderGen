@@ -9,7 +9,6 @@ namespace UnityEditor.ShortcutManagement
     [Flags]
     public enum ShortcutModifiers
     {
-
         None = 0,
         Alt = 1,
         Action = 2,

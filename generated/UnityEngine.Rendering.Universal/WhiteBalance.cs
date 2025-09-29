@@ -7,7 +7,6 @@ namespace UnityEngine.Rendering.Universal
     [VolumeComponentMenuForRenderPipeline("Post-processing/White Balance", new[] {typeof(UniversalRenderPipeline) })]
     public sealed class WhiteBalance : VolumeComponent, IPostProcessComponent
     {
-
         [Tooltip("Sets the white balance to a custom color temperature.")]
         public ClampedFloatParameter temperature;
         [Tooltip("Sets the white balance to compensate for a green or magenta tint.")]

@@ -10,7 +10,6 @@ namespace UnityEngine.Rendering
     [UsedByNativeCode]
     public enum GraphicsDeviceType
     {
-
         [Obsolete("OpenGL2 is no longer supported in Unity 5.5+")]
         OpenGL2 = 0,
         [Obsolete("Direct3D 9 is no longer supported in Unity 2017.2+")]

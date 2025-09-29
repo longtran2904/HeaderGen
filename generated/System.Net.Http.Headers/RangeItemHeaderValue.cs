@@ -6,7 +6,6 @@ namespace System.Net.Http.Headers
 {
     public class RangeItemHeaderValue : ICloneable
     {
-
         public RangeItemHeaderValue(long? from, long? to);
 
         public long? From { get; }

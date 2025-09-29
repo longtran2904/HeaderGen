@@ -9,7 +9,6 @@ namespace UnityEngine
 {
     public class UnassignedReferenceException : SystemException
     {
-
         public UnassignedReferenceException();
         public UnassignedReferenceException(string message);
         public UnassignedReferenceException(string message, Exception innerException);

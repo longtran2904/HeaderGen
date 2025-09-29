@@ -13,7 +13,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Src/Utility/SerializedProperty.bindings.h")]
     public class SerializedProperty : IDisposable
     {
-
         ~SerializedProperty();
 
         public SerializedObject serializedObject { get; }

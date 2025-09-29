@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public abstract class IAudioEffectPluginGUI
     {
-
         protected IAudioEffectPluginGUI();
 
         public abstract string Name { get; }

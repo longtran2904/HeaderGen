@@ -15,7 +15,6 @@ namespace UnityEditor.Presets
     [UsedByNativeCode]
     public sealed class Preset : UnityEngine.Object
     {
-
         public Preset(UnityEngine.Object source);
 
         public PropertyModification[] PropertyModifications { get; }

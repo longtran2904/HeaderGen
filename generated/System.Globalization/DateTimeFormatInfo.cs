@@ -6,7 +6,6 @@ namespace System.Globalization
 {
     public sealed class DateTimeFormatInfo : ICloneable, IFormatProvider
     {
-
         public DateTimeFormatInfo();
 
         public static DateTimeFormatInfo InvariantInfo { get; }

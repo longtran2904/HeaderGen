@@ -9,7 +9,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public sealed class TreePrototype
     {
-
         public TreePrototype();
         public TreePrototype(TreePrototype other);
 

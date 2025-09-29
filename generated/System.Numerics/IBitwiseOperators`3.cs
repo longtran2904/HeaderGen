@@ -6,7 +6,6 @@ namespace System.Numerics
 {
     public interface IBitwiseOperators<TSelf, TOther, TResult> where TSelf : IBitwiseOperators<TSelf, TOther, TResult>
     {
-
         TResult operator &(TSelf left, TOther right);
         TResult operator |(TSelf left, TOther right);
         TResult operator ^(TSelf left, TOther right);

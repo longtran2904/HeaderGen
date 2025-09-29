@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public sealed class PointerEnterEvent : PointerEventBase<PointerEnterEvent>
     {
-
         public PointerEnterEvent();
 
         protected override void Init();

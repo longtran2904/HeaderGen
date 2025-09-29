@@ -11,7 +11,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class Node : GraphElement, ICollectibleElement
     {
-
         protected readonly VisualElement m_CollapseButton;
         protected readonly VisualElement m_ButtonContainer;
 

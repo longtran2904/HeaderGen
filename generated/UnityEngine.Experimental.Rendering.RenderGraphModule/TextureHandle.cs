@@ -8,7 +8,6 @@ namespace UnityEngine.Experimental.Rendering.RenderGraphModule
 {
     public struct TextureHandle
     {
-
         public static TextureHandle nullHandle { get; }
 
         public bool IsValid();

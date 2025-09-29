@@ -10,7 +10,6 @@ namespace UnityEngine.UI
 {
     public static class StencilMaterial
     {
-
         [EditorBrowsable(EditorBrowsableState.Never)]
         [Obsolete("Use Material.Add instead.", True)]
         public static Material Add(Material baseMat, int stencilID);

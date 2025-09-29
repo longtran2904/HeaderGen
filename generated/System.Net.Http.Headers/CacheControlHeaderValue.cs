@@ -8,7 +8,6 @@ namespace System.Net.Http.Headers
 {
     public class CacheControlHeaderValue : ICloneable
     {
-
         public CacheControlHeaderValue();
 
         public bool NoCache { get; set; }

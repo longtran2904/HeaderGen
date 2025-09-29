@@ -11,7 +11,6 @@ namespace UnityEditor.Scripting
     [NativeHeader("Editor/Src/Scripting/ManagedDebugger.h")]
     public sealed class ManagedDebugger
     {
-
         public ManagedDebugger();
 
         public static bool isAttached { get; }

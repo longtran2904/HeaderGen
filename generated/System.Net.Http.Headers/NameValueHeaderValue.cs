@@ -6,7 +6,6 @@ namespace System.Net.Http.Headers
 {
     public class NameValueHeaderValue : ICloneable
     {
-
         public NameValueHeaderValue(string name);
         public NameValueHeaderValue(string name, string value);
         protected internal NameValueHeaderValue(NameValueHeaderValue source);

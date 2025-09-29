@@ -8,7 +8,6 @@ namespace UnityEditor.Tilemaps
 {
     public sealed class PickingTool : TilemapEditorTool
     {
-
         public PickingTool();
 
         protected override string tooltipStringFormat { get; }

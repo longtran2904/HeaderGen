@@ -14,7 +14,6 @@ namespace UnityEditor
     [EditorWindowTitle(title = "Scene", useTypeNameAsIconName = True)]
     public class SceneView : SearchableEditorWindow, IHasCustomMenu, ISupportsOverlays
     {
-
         [EditorBrowsable(EditorBrowsableState.Never)]
         [Obsolete("m_SceneLighting has been deprecated. Use sceneLighting instead (UnityUpgradable) -> UnityEditor.SceneView.sceneLighting", True)]
         public bool m_SceneLighting;
@@ -99,9 +98,9 @@ namespace UnityEditor
         public static CameraMode AddCameraMode(string name, string section);
         public static void ClearUserDefinedCameraModes();
         public static CameraMode GetBuiltinCameraMode(DrawCameraMode mode);
+
         public struct CameraMode
         {
-
             public DrawCameraMode drawMode;
             public string name;
             public string section;
@@ -115,7 +114,6 @@ namespace UnityEditor
         }
         public class SceneViewState
         {
-
             public bool showFog;
             public bool showSkybox;
             public bool showFlares;
@@ -154,7 +152,6 @@ namespace UnityEditor
         public delegate void OnSceneFunc(SceneView sceneView);
         public class CameraSettings
         {
-
             public CameraSettings();
 
             public float speed { get; set; }

@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public struct StyleTranslate : IEquatable<StyleTranslate>, IStyleValue<Translate>
     {
-
         public StyleTranslate(Translate v);
         public StyleTranslate(StyleKeyword keyword);
 

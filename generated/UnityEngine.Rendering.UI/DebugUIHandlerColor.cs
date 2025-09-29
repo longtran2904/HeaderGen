@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering.UI
 {
     public class DebugUIHandlerColor : DebugUIHandlerWidget
     {
-
         public Text nameLabel;
         public UIFoldout valueToggle;
         public Image colorImage;

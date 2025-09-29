@@ -12,7 +12,6 @@ namespace UnityEngine.Rendering
     [UsedByNativeCode]
     public enum ShaderKeywordType
     {
-
         None = 0,
         BuiltinDefault = 2,
         [Obsolete("Shader keyword type BuiltinExtra is no longer used. Use BuiltinDefault instead. (UnityUpgradable) -> BuiltinDefault")]

@@ -8,7 +8,6 @@ namespace UnityEditor.DeviceSimulation
 {
     public class DeviceSimulator
     {
-
         public event Action<TouchEvent> touchScreenInput;
     }
 }

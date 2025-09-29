@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public class NoInterpFloatParameter : VolumeParameter<float>
     {
-
         public NoInterpFloatParameter(float value, bool overrideState = False);
     }
 }

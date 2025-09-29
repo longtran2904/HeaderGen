@@ -11,7 +11,6 @@ namespace UnityEditor
 {
     public class AssetSettingsProvider : SettingsProvider
     {
-
         public AssetSettingsProvider(string settingsWindowPath, Func<Editor> editorCreator, IEnumerable<string> keywords = null);
         public AssetSettingsProvider(string settingsWindowPath, Func<UnityEngine.Object> settingsGetter);
 

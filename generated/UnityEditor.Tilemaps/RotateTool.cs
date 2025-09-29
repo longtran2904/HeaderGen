@@ -8,7 +8,6 @@ namespace UnityEditor.Tilemaps
 {
     public abstract class RotateTool : TilemapEditorTool
     {
-
         protected RotateTool();
 
         protected void Rotate(GridBrushBase.RotationDirection direction);

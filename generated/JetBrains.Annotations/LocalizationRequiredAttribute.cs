@@ -9,7 +9,6 @@ namespace JetBrains.Annotations
     [AttributeUsage(AttributeTargets.All)]
     public sealed class LocalizationRequiredAttribute : Attribute
     {
-
         public LocalizationRequiredAttribute();
         public LocalizationRequiredAttribute(bool required);
 

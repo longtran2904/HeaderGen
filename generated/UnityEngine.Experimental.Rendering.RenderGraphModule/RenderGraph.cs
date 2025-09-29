@@ -10,7 +10,6 @@ namespace UnityEngine.Experimental.Rendering.RenderGraphModule
 {
     public class RenderGraph
     {
-
         public static readonly int kMaxMRTCount;
 
         public RenderGraph(string name = "RenderGraph");

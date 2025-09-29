@@ -10,7 +10,6 @@ namespace UnityEditor.MPE
     [MovedFrom("Unity.MPE")]
     public struct ChannelScope : IDisposable
     {
-
         public ChannelScope(string channelName, Action<int, byte[]> handler, bool closeChannelOnExit = True);
 
         public void Dispose();

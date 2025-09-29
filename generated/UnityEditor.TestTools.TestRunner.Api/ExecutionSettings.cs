@@ -8,7 +8,6 @@ namespace UnityEditor.TestTools.TestRunner.Api
 {
     public class ExecutionSettings
     {
-
         public ITestRunSettings overloadTestRunSettings;
         [SerializeField]
         public Filter[] filters;

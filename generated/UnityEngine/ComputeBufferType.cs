@@ -9,7 +9,6 @@ namespace UnityEngine
     [Flags]
     public enum ComputeBufferType
     {
-
         Default = 0,
         Raw = 1,
         Append = 2,

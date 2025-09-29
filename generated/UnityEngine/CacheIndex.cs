@@ -11,7 +11,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public struct CacheIndex
     {
-
         public string name;
         public int bytesUsed;
         public int expires;

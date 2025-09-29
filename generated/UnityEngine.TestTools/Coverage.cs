@@ -12,7 +12,6 @@ namespace UnityEngine.TestTools
     [NativeType("Runtime/Scripting/ScriptingCoverage.h")]
     public static class Coverage
     {
-
         public static bool enabled { get; set; }
 
         public static CoveredSequencePoint[] GetSequencePointsFor(MethodBase method);

@@ -9,7 +9,6 @@ namespace Mono.Cecil
     [Flags]
     public enum PInvokeAttributes
     {
-
         NoMangle = 1,
         CharSetMask = 6,
         CharSetNotSpec = 0,

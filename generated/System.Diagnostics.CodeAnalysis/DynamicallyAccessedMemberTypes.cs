@@ -7,7 +7,6 @@ namespace System.Diagnostics.CodeAnalysis
     [Flags]
     public enum DynamicallyAccessedMemberTypes
     {
-
         None = 0,
         PublicParameterlessConstructor = 1,
         PublicConstructors = 3,

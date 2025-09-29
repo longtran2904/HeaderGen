@@ -11,7 +11,6 @@ namespace UnityEditor.Rendering
     [ScriptedImporter(2, "ies")]
     public class IESImporter : ScriptedImporter
     {
-
         public IESEngine engine;
         public IESMetaData iesMetaData;
 

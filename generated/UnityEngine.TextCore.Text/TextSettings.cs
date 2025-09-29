@@ -11,7 +11,6 @@ namespace UnityEngine.TextCore.Text
     [ExcludeFromPreset]
     public class TextSettings : ScriptableObject
     {
-
         [SerializeField]
         protected string m_Version;
         [FormerlySerializedAs("m_defaultFontAsset")]

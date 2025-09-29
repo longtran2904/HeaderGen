@@ -9,7 +9,6 @@ namespace System.Reflection
     [CLSCompliant(False)]
     public sealed class Pointer : ISerializable
     {
-
         public static object Box(void* ptr, Type type);
         public static void* Unbox(object ptr);
         public override bool Equals(object obj);

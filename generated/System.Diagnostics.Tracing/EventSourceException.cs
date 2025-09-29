@@ -9,7 +9,6 @@ namespace System.Diagnostics.Tracing
 {
     public class EventSourceException : Exception
     {
-
         public EventSourceException();
         public EventSourceException(string message);
         public EventSourceException(string message, Exception innerException);

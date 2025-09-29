@@ -8,7 +8,6 @@ namespace UnityEditor.TextCore.Text
 {
     public abstract class TextCoreShaderGUI : ShaderGUI
     {
-
         protected MaterialEditor m_Editor;
         protected Material m_Material;
         protected MaterialProperty[] m_Properties;
@@ -34,9 +33,9 @@ namespace UnityEditor.TextCore.Text
         protected void DoSlider(string name, string label);
         protected void DoVector3(string name, string label);
         protected void DoVector(string name, string label, GUIContent[] subLabels);
+
         protected class ShaderFeature
         {
-
             public string undoLabel;
             public GUIContent label;
             public GUIContent[] keywordLabels;

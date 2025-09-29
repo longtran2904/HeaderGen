@@ -9,7 +9,6 @@ namespace System.Security.Principal
 {
     public class GenericIdentity : ClaimsIdentity
     {
-
         public GenericIdentity(string name);
         public GenericIdentity(string name, string type);
         protected GenericIdentity(GenericIdentity identity);

@@ -6,12 +6,11 @@ namespace UnityEditor.Timeline.Actions
 {
     public static class MenuPriority
     {
-
         public const int defaultPriority = 9000;
         public const int separatorAt = 1000;
+
         public static class TimelineActionSection
         {
-
             public const int start = 1000;
             public const int copy = 1100;
             public const int paste = 1200;
@@ -22,7 +21,6 @@ namespace UnityEditor.Timeline.Actions
         }
         public static class TrackActionSection
         {
-
             public const int start = 2000;
             public const int lockTrack = 2100;
             public const int lockSelected = 2150;
@@ -34,20 +32,17 @@ namespace UnityEditor.Timeline.Actions
         }
         public static class AddTrackMenu
         {
-
             public const int start = 3000;
             public const int addLayerTrack = 3000;
         }
         public static class ClipEditActionSection
         {
-
             public const int start = 4000;
             public const int editInAnimationWindow = 4100;
             public const int editSubTimeline = 4200;
         }
         public static class ClipActionSection
         {
-
             public const int start = 5000;
             public const int trimStart = 5100;
             public const int trimEnd = 5110;
@@ -65,17 +60,14 @@ namespace UnityEditor.Timeline.Actions
         }
         public static class MarkerActionSection
         {
-
             public const int start = 6000;
         }
         public static class CustomTimelineActionSection
         {
-
             public const int start = 7000;
         }
         public static class CustomTrackActionSection
         {
-
             public const int start = 8000;
             public const int convertToClipMode = 8100;
             public const int convertFromClipMode = 8200;
@@ -87,7 +79,6 @@ namespace UnityEditor.Timeline.Actions
         }
         public static class CustomClipActionSection
         {
-
             public const int start = 9000;
             public const int matchPrevious = 9100;
             public const int matchNext = 9110;
@@ -96,7 +87,6 @@ namespace UnityEditor.Timeline.Actions
         }
         public static class AddItem
         {
-
             public const int addGroup = 10000;
             public const int addTrack = 11000;
             public const int addCustomTrack = 12000;

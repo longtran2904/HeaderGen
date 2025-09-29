@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering.Universal
 {
     public abstract class ScriptableRendererData : ScriptableObject
     {
-
         public DebugShaderResources debugShaders;
 
         protected ScriptableRendererData();
@@ -20,10 +19,10 @@ namespace UnityEngine.Rendering.Universal
         public void SetDirty();
         protected virtual void OnValidate();
         protected virtual void OnEnable();
+
         [ReloadGroup]
         public sealed class DebugShaderResources
         {
-
             [Reload("Shaders/Debug/DebugReplacement.shader", ReloadAttribute.Package.Root)]
             public Shader debugReplacementPS;
 

@@ -9,7 +9,6 @@ namespace UnityEditor.Build.Content
     [UsedByNativeCode]
     public struct ResourceFile
     {
-
         public string fileName { get; set; }
         public string fileAlias { get; set; }
         public bool serializedFile { get; set; }

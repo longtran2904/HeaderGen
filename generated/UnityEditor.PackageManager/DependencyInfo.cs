@@ -6,7 +6,6 @@ namespace UnityEditor.PackageManager
 {
     public struct DependencyInfo
     {
-
         public string version { get; }
         public string name { get; }
     }

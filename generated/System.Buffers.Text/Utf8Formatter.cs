@@ -6,7 +6,6 @@ namespace System.Buffers.Text
 {
     public static class Utf8Formatter
     {
-
         public static bool TryFormat(bool value, Span<byte> destination, out int bytesWritten, StandardFormat format = null);
         public static bool TryFormat(DateTimeOffset value, Span<byte> destination, out int bytesWritten, StandardFormat format = null);
         public static bool TryFormat(DateTime value, Span<byte> destination, out int bytesWritten, StandardFormat format = null);

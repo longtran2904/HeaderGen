@@ -12,7 +12,6 @@ namespace Unity.Collections.LowLevel.Unsafe
     [RequiredByNativeCode]
     public sealed class NativeContainerNeedsThreadIndexAttribute : Attribute
     {
-
         public NativeContainerNeedsThreadIndexAttribute();
     }
 }

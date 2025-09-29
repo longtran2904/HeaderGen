@@ -6,7 +6,6 @@ namespace Mono.Cecil.Cil
 {
     public enum FlowControl
     {
-
         Branch = 0,
         Break = 1,
         Call = 2,

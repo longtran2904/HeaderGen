@@ -6,7 +6,6 @@ namespace UnityEditor.PackageManager.Requests
 {
     public sealed class PackRequest : Request<PackOperationResult>
     {
-
         protected override PackOperationResult GetResult();
     }
 }

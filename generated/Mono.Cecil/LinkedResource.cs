@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public sealed class LinkedResource : Resource
     {
-
         public LinkedResource(string name, ManifestResourceAttributes flags);
         public LinkedResource(string name, ManifestResourceAttributes flags, string file);
 

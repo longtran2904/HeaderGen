@@ -10,7 +10,6 @@ namespace UnityEditor.Recorder.Input
     [DisplayName("Audio")]
     public class AudioInputSettings : RecorderInputSettings
     {
-
         public AudioInputSettings();
 
         public bool PreserveAudio { get; set; }

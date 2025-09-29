@@ -6,11 +6,10 @@ namespace A
 {
     public class X
     {
-
         public X();
+
         public class Int32
         {
-
             public Int32();
         }
     }

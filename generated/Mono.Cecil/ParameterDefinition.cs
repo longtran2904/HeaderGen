@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public sealed class ParameterDefinition : ParameterReference, IConstantProvider, ICustomAttributeProvider, IMarshalInfoProvider
     {
-
         public ParameterDefinition(TypeReference parameterType);
         public ParameterDefinition(string name, ParameterAttributes attributes, TypeReference parameterType);
 

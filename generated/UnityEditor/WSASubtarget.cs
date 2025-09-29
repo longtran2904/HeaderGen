@@ -11,7 +11,6 @@ namespace UnityEditor
     [Obsolete("WSASubtarget is obsolete and has no effect. It will be removed in a subsequent Unity release.")]
     public enum WSASubtarget
     {
-
         AnyDevice = 0,
         PC = 1,
         Mobile = 2,

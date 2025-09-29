@@ -10,7 +10,6 @@ namespace Microsoft.Extensions.HotReload
 {
     public interface IPayLoad
     {
-
         bool ReplyExpected { get; }
 
         ValueTask WriteAsync(Stream stream, CancellationToken cancellationToken);

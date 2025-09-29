@@ -8,7 +8,6 @@ namespace TMPro
 {
     public struct WordWrapState
     {
-
         public int previous_WordBreak;
         public int total_CharacterCount;
         public int visible_CharacterCount;

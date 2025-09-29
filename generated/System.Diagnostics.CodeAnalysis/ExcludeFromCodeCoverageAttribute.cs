@@ -7,7 +7,6 @@ namespace System.Diagnostics.CodeAnalysis
     [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Constructor | AttributeTargets.Method | AttributeTargets.Property | AttributeTargets.Event, AllowMultiple = False, Inherited = False)]
     public sealed class ExcludeFromCodeCoverageAttribute : Attribute
     {
-
         public ExcludeFromCodeCoverageAttribute();
 
         public string Justification { get; set; }

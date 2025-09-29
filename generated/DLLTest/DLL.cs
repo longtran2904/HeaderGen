@@ -6,29 +6,27 @@ namespace DLLTest
 {
     public class DLL
     {
-
         public DLL();
+
         public class A
         {
-
             public A();
+
             public class X
             {
-
                 public X();
             }
         }
         public class A<T>
         {
-
             public A();
+
             public class X<U>
             {
-
                 public X();
+
                 public class Y<W>
                 {
-
                     public Y<W> y1;
                     public Y<int> y2;
                     public X<W>.Y<W> y3;
@@ -40,11 +38,10 @@ namespace DLLTest
         }
         public class B
         {
-
             public B();
+
             public class X
             {
-
                 public X x1;
                 public A.X x2;
                 public X x3;
@@ -56,7 +53,6 @@ namespace DLLTest
         }
         public class C
         {
-
             public X x1;
             public X.DLL.X x2;
             public DLL dll1;
@@ -66,11 +62,10 @@ namespace DLLTest
         }
         public class D
         {
-
             public D();
+
             public class E
             {
-
                 public X x1;
                 public D.X x2;
                 public A.X x3;
@@ -78,15 +73,14 @@ namespace DLLTest
                 public DLL.X x5;
 
                 public E();
+
                 public class X
                 {
-
                     public X();
                 }
             }
             public class F
             {
-
                 public X x1;
                 public E.X x2;
 
@@ -94,26 +88,24 @@ namespace DLLTest
             }
             public class X
             {
-
                 public X();
             }
         }
         public class X
         {
-
             public X();
+
             public class DLL
             {
-
                 public X x1;
                 public DLLTest.DLL.X x2;
                 public D.X x3;
                 public D.E.X x4;
 
                 public DLL();
+
                 public class X
                 {
-
                     public DLL dll1;
                     public DLLTest.DLL.X dll2;
 

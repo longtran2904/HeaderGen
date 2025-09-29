@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public class ContextualMenuManipulator : MouseManipulator
     {
-
         public ContextualMenuManipulator(Action<ContextualMenuPopulateEvent> menuBuilder);
 
         protected override void RegisterCallbacksOnTarget();

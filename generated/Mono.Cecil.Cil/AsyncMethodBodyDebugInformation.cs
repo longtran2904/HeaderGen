@@ -9,7 +9,6 @@ namespace Mono.Cecil.Cil
 {
     public sealed class AsyncMethodBodyDebugInformation : CustomDebugInformation
     {
-
         public static Guid KindIdentifier;
 
         public AsyncMethodBodyDebugInformation(Instruction catchHandler);

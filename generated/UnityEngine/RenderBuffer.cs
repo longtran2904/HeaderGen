@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Graphics/GraphicsScriptBindings.h")]
     public struct RenderBuffer
     {
-
         [FreeFunction(Name = "RenderBufferScripting::GetNativeRenderBufferPtr", HasExplicitThis = True)]
         public nint GetNativeRenderBufferPtr();
     }

@@ -20,7 +20,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Graphics/ShaderScriptBindings.h")]
     public sealed class Shader : Object
     {
-
         [Obsolete("Use Graphics.activeTier instead (UnityUpgradable) -> UnityEngine.Graphics.activeTier", False)]
         public static ShaderHardwareTier globalShaderHardwareTier { get; set; }
         [NativeProperty("MaxChunksRuntimeOverride")]

@@ -6,7 +6,6 @@ namespace UnityEngine.SubsystemsImplementation
 {
     public abstract class SubsystemProvider
     {
-
         protected SubsystemProvider();
 
         public bool running { get; }

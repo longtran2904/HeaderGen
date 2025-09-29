@@ -9,7 +9,6 @@ namespace UnityEditor
     [Flags]
     public enum HierarchyDropFlags
     {
-
         None = 0,
         DropUpon = 1,
         DropBetween = 2,

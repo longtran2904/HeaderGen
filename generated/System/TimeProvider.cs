@@ -8,7 +8,6 @@ namespace System
 {
     public abstract class TimeProvider
     {
-
         protected TimeProvider();
 
         public static TimeProvider System { get; }

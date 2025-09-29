@@ -11,7 +11,6 @@ namespace TMPro.EditorUtilities
     [CustomPropertyDrawer(typeof(Glyph))]
     public class TMP_GlyphPropertyDrawer : PropertyDrawer
     {
-
         public TMP_GlyphPropertyDrawer();
 
         public override void OnGUI(Rect position, SerializedProperty property, GUIContent label);

@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class MouseDownEvent : MouseEventBase<MouseDownEvent>
     {
-
         public MouseDownEvent();
 
         protected override void Init();

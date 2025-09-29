@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public struct CameraProjectionCache
     {
-
         public CameraProjectionCache(Camera camera);
 
         public Vector2 WorldToScreenPoint(Vector3 worldPoint);

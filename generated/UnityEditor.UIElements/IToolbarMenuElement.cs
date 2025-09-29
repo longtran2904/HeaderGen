@@ -8,7 +8,6 @@ namespace UnityEditor.UIElements
 {
     public interface IToolbarMenuElement
     {
-
         DropdownMenu menu { get; }
     }
 }

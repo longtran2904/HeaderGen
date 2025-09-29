@@ -10,7 +10,6 @@ namespace UnityEditor.Recorder.Input
     [DisplayName("Game View")]
     public class GameViewInputSettings : StandardImageInputSettings
     {
-
         public GameViewInputSettings();
 
         public bool FlipFinalOutput { get; set; }

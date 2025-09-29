@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering.Universal
     [GenerateHLSL(PackingRules.Exact, True, False, False, 1, False, False, False, -1, "D:\\Documents\\GitHub\\Rogue-like-game-i-guess\\The game is liar\\Library\\PackageCache\\com.unity.render-pipelines.universal@12.1.14\\Editor\\ShaderGraph\\Includes\\DecalMeshBiasTypeEnum.cs")]
     public enum DecalMeshDepthBiasType
     {
-
         DepthBias = 0,
         ViewBias = 1
     }

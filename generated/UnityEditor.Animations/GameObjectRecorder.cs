@@ -15,7 +15,6 @@ namespace UnityEditor.Animations
     [NativeType]
     public class GameObjectRecorder : UnityEngine.Object
     {
-
         public GameObjectRecorder(GameObject root);
         [EditorBrowsable(EditorBrowsableState.Never)]
         [Obsolete("The GameObjectRecorder constructor now takes a root GameObject", True)]

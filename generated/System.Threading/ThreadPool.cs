@@ -9,7 +9,6 @@ namespace System.Threading
 {
     public static class ThreadPool
     {
-
         public static long PendingWorkItemCount { get; }
         public static int ThreadCount { get; }
         public static long CompletedWorkItemCount { get; }

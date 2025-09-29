@@ -9,7 +9,6 @@ namespace System.Collections.Generic
 {
     public class KeyNotFoundException : SystemException
     {
-
         public KeyNotFoundException();
         public KeyNotFoundException(string message);
         public KeyNotFoundException(string message, Exception innerException);

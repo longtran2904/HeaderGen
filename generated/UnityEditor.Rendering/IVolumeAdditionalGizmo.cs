@@ -10,7 +10,6 @@ namespace UnityEditor.Rendering
 {
     public interface IVolumeAdditionalGizmo
     {
-
         Type type { get; }
 
         void OnBoxColliderDraw(IVolume scr, BoxCollider c);

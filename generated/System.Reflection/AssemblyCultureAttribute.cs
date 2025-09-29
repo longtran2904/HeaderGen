@@ -7,7 +7,6 @@ namespace System.Reflection
     [AttributeUsage(AttributeTargets.Assembly, Inherited = False)]
     public sealed class AssemblyCultureAttribute : Attribute
     {
-
         public AssemblyCultureAttribute(string culture);
 
         public string Culture { get; }

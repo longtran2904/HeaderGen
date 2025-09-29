@@ -8,7 +8,6 @@ namespace UnityEngine.NVIDIA
 {
     public class GraphicsDevice
     {
-
         ~GraphicsDevice();
 
         public static GraphicsDevice device { get; }

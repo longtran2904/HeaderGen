@@ -14,7 +14,6 @@ namespace UnityEngine.UI
     [SelectionBase]
     public class Selectable : UIBehaviour, IDeselectHandler, IEventSystemHandler, IMoveHandler, IPointerDownHandler, IPointerEnterHandler, IPointerExitHandler, IPointerUpHandler, ISelectHandler
     {
-
         protected int m_CurrentIndex;
         protected static Selectable[] s_Selectables;
         protected static int s_SelectableCount;
@@ -63,9 +62,9 @@ namespace UnityEngine.UI
         public virtual void OnSelect(BaseEventData eventData);
         public virtual void OnDeselect(BaseEventData eventData);
         public virtual void Select();
+
         public enum Transition
         {
-
             None = 0,
             ColorTint = 1,
             SpriteSwap = 2,
@@ -73,7 +72,6 @@ namespace UnityEngine.UI
         }
         protected enum SelectionState
         {
-
             Normal = 0,
             Highlighted = 1,
             Pressed = 2,

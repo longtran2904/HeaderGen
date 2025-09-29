@@ -12,7 +12,6 @@ namespace UnityEngine.Networking
     [UsedByNativeCode]
     public class UnityWebRequestAsyncOperation : AsyncOperation
     {
-
         public UnityWebRequestAsyncOperation();
 
         public UnityWebRequest webRequest { get; }

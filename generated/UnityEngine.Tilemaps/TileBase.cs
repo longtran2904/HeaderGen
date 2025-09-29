@@ -9,7 +9,6 @@ namespace UnityEngine.Tilemaps
     [RequiredByNativeCode]
     public abstract class TileBase : ScriptableObject
     {
-
         protected TileBase();
 
         [RequiredByNativeCode]

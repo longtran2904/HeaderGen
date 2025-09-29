@@ -7,7 +7,6 @@ namespace System.Runtime.Intrinsics.X86
     [CLSCompliant(False)]
     public abstract class Fma : Avx
     {
-
         public static bool IsSupported { get; }
 
         public static Vector128<float> MultiplyAdd(Vector128<float> a, Vector128<float> b, Vector128<float> c);
@@ -42,9 +41,9 @@ namespace System.Runtime.Intrinsics.X86
         public static Vector256<double> MultiplySubtractNegated(Vector256<double> a, Vector256<double> b, Vector256<double> c);
         public static Vector128<float> MultiplySubtractNegatedScalar(Vector128<float> a, Vector128<float> b, Vector128<float> c);
         public static Vector128<double> MultiplySubtractNegatedScalar(Vector128<double> a, Vector128<double> b, Vector128<double> c);
+
         public abstract class X64 : Avx.X64
         {
-
             public static bool IsSupported { get; }
         }
     }

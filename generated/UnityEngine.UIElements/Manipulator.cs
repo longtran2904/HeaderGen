@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public abstract class Manipulator : IManipulator
     {
-
         protected Manipulator();
 
         public VisualElement target { get; set; }

@@ -6,7 +6,6 @@ namespace Unity.MemoryProfiler.Editor.Database
 {
     public enum DataMatchMethod
     {
-
         AsString = 0,
         AsNumber = 1,
         AsEnum = 2

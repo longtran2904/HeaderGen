@@ -8,7 +8,6 @@ namespace System.Security.AccessControl
 {
     public abstract class ObjectAuditRule : AuditRule
     {
-
         protected ObjectAuditRule(IdentityReference identity, int accessMask, bool isInherited, InheritanceFlags inheritanceFlags, PropagationFlags propagationFlags, Guid objectType, Guid inheritedObjectType, AuditFlags auditFlags);
 
         public Guid ObjectType { get; }

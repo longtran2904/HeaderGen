@@ -17,7 +17,6 @@ namespace UnityEngine
     [RequiredByNativeCode(Optional = True, GenerateProxy = True)]
     public struct Bounds : IEquatable<Bounds>, IFormattable
     {
-
         public Bounds(Vector3 center, Vector3 size);
 
         public Vector3 center { get; set; }

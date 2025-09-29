@@ -9,7 +9,6 @@ namespace UnityEngine.Analytics
     [Flags]
     public enum AnalyticsEventPriority
     {
-
         FlushQueueFlag = 1,
         CacheImmediatelyFlag = 2,
         AllowInStopModeFlag = 4,

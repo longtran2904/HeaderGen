@@ -9,7 +9,6 @@ namespace UnityEngine.Networking.Types
     [DefaultValue(AppID.Invalid)]
     public enum AppID
     {
-
         Invalid = 18446744073709551615
     }
 }

@@ -12,7 +12,6 @@ namespace UnityEditor
 {
     public sealed class EditorGUILayout
     {
-
         public EditorGUILayout();
 
         [Obsolete("EnumMaskField has been deprecated. Use EnumFlagsField instead.")]
@@ -323,9 +322,9 @@ namespace UnityEditor
         public static void EditorToolbar(params EditorTool[] tools);
         public static void EditorToolbar<T>(IList<T> tools) where T : EditorTool;
         public static void ToolContextToolbar<T>(GUIContent content, IList<T> contexts) where T : EditorToolContext;
+
         public class ToggleGroupScope : GUI.Scope
         {
-
             public ToggleGroupScope(string label, bool toggle);
             public ToggleGroupScope(GUIContent label, bool toggle);
 
@@ -335,7 +334,6 @@ namespace UnityEditor
         }
         public class HorizontalScope : GUI.Scope
         {
-
             public HorizontalScope(params GUILayoutOption[] options);
             public HorizontalScope(GUIStyle style, params GUILayoutOption[] options);
 
@@ -345,7 +343,6 @@ namespace UnityEditor
         }
         public class VerticalScope : GUI.Scope
         {
-
             public VerticalScope(params GUILayoutOption[] options);
             public VerticalScope(GUIStyle style, params GUILayoutOption[] options);
 
@@ -355,7 +352,6 @@ namespace UnityEditor
         }
         public class ScrollViewScope : GUI.Scope
         {
-
             public ScrollViewScope(Vector2 scrollPosition, params GUILayoutOption[] options);
             public ScrollViewScope(Vector2 scrollPosition, bool alwaysShowHorizontal, bool alwaysShowVertical, params GUILayoutOption[] options);
             public ScrollViewScope(Vector2 scrollPosition, GUIStyle horizontalScrollbar, GUIStyle verticalScrollbar, params GUILayoutOption[] options);
@@ -369,7 +365,6 @@ namespace UnityEditor
         }
         public class FadeGroupScope : GUI.Scope
         {
-
             public FadeGroupScope(float value);
 
             public bool visible { get; protected set; }

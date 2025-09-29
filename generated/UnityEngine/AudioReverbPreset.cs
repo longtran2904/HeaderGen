@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum AudioReverbPreset
     {
-
         Off = 0,
         Generic = 1,
         PaddedCell = 2,

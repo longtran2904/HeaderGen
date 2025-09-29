@@ -10,7 +10,6 @@ namespace UnityEditor
     [CustomEditor(typeof(IsometricRuleTile), True)]
     public class IsometricRuleTileEditor : RuleTileEditor
     {
-
         public IsometricRuleTileEditor();
 
         public override int GetArrowIndex(Vector3Int position);

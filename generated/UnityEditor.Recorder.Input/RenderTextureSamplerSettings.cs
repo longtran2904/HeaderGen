@@ -12,7 +12,6 @@ namespace UnityEditor.Recorder.Input
     [DisplayName("Texture Sampling")]
     public class RenderTextureSamplerSettings : ImageInputSettings
     {
-
         public RenderTextureSamplerSettings();
 
         public SuperSamplingCount SuperSampling { get; set; }

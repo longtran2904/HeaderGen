@@ -12,7 +12,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Video/BaseWebCamTexture.h")]
     public sealed class WebCamTexture : Texture
     {
-
         public WebCamTexture(string deviceName, int requestedWidth, int requestedHeight, int requestedFPS);
         public WebCamTexture(string deviceName, int requestedWidth, int requestedHeight);
         public WebCamTexture(string deviceName);

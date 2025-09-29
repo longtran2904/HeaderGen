@@ -10,7 +10,6 @@ namespace UnityEditor.SearchService
     [Obsolete("ObjectSelectorTargetInfo has been deprecated.")]
     public struct ObjectSelectorTargetInfo
     {
-
         public ObjectSelectorTargetInfo(GlobalObjectId globalObjectId, UnityEngine.Object targetObject = null, Type type = null);
 
         public GlobalObjectId globalObjectId { get; }

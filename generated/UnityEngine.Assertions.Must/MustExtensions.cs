@@ -10,7 +10,6 @@ namespace UnityEngine.Assertions.Must
     [Obsolete("Must extensions are deprecated. Use UnityEngine.Assertions.Assert instead")]
     public static class MustExtensions
     {
-
         [Conditional("UNITY_ASSERTIONS")]
         [Obsolete("Must extensions are deprecated. Use UnityEngine.Assertions.Assert instead")]
         public static void MustBeTrue(this bool value);

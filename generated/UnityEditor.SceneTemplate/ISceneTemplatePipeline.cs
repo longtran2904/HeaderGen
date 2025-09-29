@@ -8,7 +8,6 @@ namespace UnityEditor.SceneTemplate
 {
     public interface ISceneTemplatePipeline
     {
-
         bool IsValidTemplateForInstantiation(SceneTemplateAsset sceneTemplateAsset);
         void BeforeTemplateInstantiation(SceneTemplateAsset sceneTemplateAsset, bool isAdditive, string sceneName);
         void AfterTemplateInstantiation(SceneTemplateAsset sceneTemplateAsset, Scene scene, bool isAdditive, string sceneName);

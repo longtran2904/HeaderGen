@@ -9,7 +9,6 @@ namespace UnityEditor.Toolbars
 {
     public class EditorToolbarDropdown : EditorToolbarButton
     {
-
         public EditorToolbarDropdown();
         public EditorToolbarDropdown(Action clickEvent);
         public EditorToolbarDropdown(string text, Action clickEvent);

@@ -9,7 +9,6 @@ namespace Unity.Mathematics
     [Il2CppEagerStaticClassConstruction]
     public struct Random
     {
-
         public uint state;
 
         public Random(uint seed);

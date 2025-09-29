@@ -9,7 +9,6 @@ namespace UnityEngine.NVIDIA
     [Flags]
     public enum DLSSFeatureFlags
     {
-
         None = 0,
         IsHDR = 1,
         MVLowRes = 2,

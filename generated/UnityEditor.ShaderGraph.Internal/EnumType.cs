@@ -6,7 +6,6 @@ namespace UnityEditor.ShaderGraph.Internal
 {
     public enum EnumType
     {
-
         Enum = 0,
         CSharpEnum = 1,
         KeywordEnum = 2

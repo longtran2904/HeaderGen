@@ -11,7 +11,6 @@ namespace System.Runtime.InteropServices
     [SupportedOSPlatform("windows")]
     public static class ComEventsHelper
     {
-
         public static void Combine(object rcw, Guid iid, int dispid, Delegate d);
         public static Delegate Remove(object rcw, Guid iid, int dispid, Delegate d);
     }

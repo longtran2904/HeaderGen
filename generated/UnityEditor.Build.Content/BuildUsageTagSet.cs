@@ -14,7 +14,6 @@ namespace UnityEditor.Build.Content
     [UsedByNativeCode]
     public class BuildUsageTagSet : IDisposable, ISerializable
     {
-
         public BuildUsageTagSet();
         protected BuildUsageTagSet(System.Runtime.Serialization.SerializationInfo info, StreamingContext context);
 

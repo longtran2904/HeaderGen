@@ -10,7 +10,6 @@ namespace UnityEngine.Rendering.VirtualTexturing
     [StaticAccessor("VirtualTexturing::System", StaticAccessorType.DoubleColon)]
     public static class System
     {
-
         public const int AllMips = 2147483647;
 
         [NativeThrows]

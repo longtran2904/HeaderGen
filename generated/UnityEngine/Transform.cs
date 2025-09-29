@@ -16,7 +16,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public class Transform : Component, IEnumerable
     {
-
         protected Transform();
 
         public Vector3 position { get; set; }

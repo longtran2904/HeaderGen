@@ -9,7 +9,6 @@ namespace System.IO
 {
     public abstract class TextReader : MarshalByRefObject, IDisposable
     {
-
         public static readonly TextReader Null;
 
         protected TextReader();

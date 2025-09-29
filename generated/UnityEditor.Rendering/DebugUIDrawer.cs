@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
 {
     public class DebugUIDrawer
     {
-
         public DebugUIDrawer();
 
         protected T Cast<T>(object o) where T : class;

@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public class RTHandle
     {
-
         public Vector2 scaleFactor { get; }
         public bool useScaling { get; }
         public Vector2Int referenceSize { get; }

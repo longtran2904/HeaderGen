@@ -9,7 +9,6 @@ namespace UnityEditor.Graphs
 {
     public class EdgeGUI : IEdgeGUI
     {
-
         public EdgeStyle edgeStyle;
         public static readonly Color kFunctionEdgeColor;
         public static readonly Color kObjectTypeEdgeColor;
@@ -27,9 +26,9 @@ namespace UnityEditor.Graphs
         public void EndSlotDragging(Slot slot, bool allowMultiple);
         public void EndDragging();
         public Edge FindClosestEdge();
+
         public enum EdgeStyle
         {
-
             Angular = 0,
             Curvy = 1
         }

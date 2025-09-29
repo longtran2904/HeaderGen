@@ -6,7 +6,6 @@ namespace UnityEngine.Android
 {
     public class AndroidDevice
     {
-
         public AndroidDevice();
 
         public static AndroidHardwareType hardwareType { get; }

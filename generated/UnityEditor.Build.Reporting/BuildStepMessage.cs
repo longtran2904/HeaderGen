@@ -10,7 +10,6 @@ namespace UnityEditor.Build.Reporting
     [NativeType(Header = "Modules/BuildReportingEditor/Public/BuildReport.h")]
     public struct BuildStepMessage
     {
-
         public LogType type { get; }
         public string content { get; }
     }

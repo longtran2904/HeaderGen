@@ -11,7 +11,6 @@ namespace UnityEngine.WSA
     [StaticAccessor("WSATilesBindings::Tile", StaticAccessorType.DoubleColon)]
     public sealed class Tile
     {
-
         public static Tile main { get; }
         public string id { get; }
         public bool hasUserConsent { get; }

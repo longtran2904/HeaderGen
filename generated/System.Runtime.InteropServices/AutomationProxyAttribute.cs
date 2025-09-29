@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class | AttributeTargets.Interface, Inherited = False)]
     public sealed class AutomationProxyAttribute : Attribute
     {
-
         public AutomationProxyAttribute(bool val);
 
         public bool Value { get; }

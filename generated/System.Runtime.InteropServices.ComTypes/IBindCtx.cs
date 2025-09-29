@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public interface IBindCtx
     {
-
         void RegisterObjectBound(object punk);
         void RevokeObjectBound(object punk);
         void ReleaseBoundObjects();

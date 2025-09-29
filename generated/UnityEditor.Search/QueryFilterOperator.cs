@@ -8,7 +8,6 @@ namespace UnityEditor.Search
 {
     public readonly struct QueryFilterOperator
     {
-
         public string token { get; }
         public bool valid { get; }
 

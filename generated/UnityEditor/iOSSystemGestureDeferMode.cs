@@ -10,7 +10,6 @@ namespace UnityEditor
     [Obsolete("Use UnityEngine.iOS.SystemGestureDeferMode instead. (UnityUpgradable) -> [UnityEngine] UnityEngine.iOS.SystemGestureDeferMode", True)]
     public enum iOSSystemGestureDeferMode
     {
-
         None = 0,
         TopEdge = 1,
         LeftEdge = 2,

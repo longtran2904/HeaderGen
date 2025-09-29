@@ -8,7 +8,6 @@ namespace UnityEngine
 {
     public class IsometricRuleTile<T> : IsometricRuleTile
     {
-
         public IsometricRuleTile();
 
         public sealed override Type m_NeighborType { get; }

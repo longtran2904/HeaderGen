@@ -7,7 +7,6 @@ namespace System.Diagnostics.CodeAnalysis
     [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Module | AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Constructor | AttributeTargets.Method | AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Event | AttributeTargets.Interface | AttributeTargets.Delegate, Inherited = False)]
     public sealed class ExperimentalAttribute : Attribute
     {
-
         public ExperimentalAttribute(string diagnosticId);
 
         public string DiagnosticId { get; }

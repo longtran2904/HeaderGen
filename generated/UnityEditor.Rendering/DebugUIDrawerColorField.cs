@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
     [DebugUIDrawer(typeof(DebugUI.ColorField))]
     public sealed class DebugUIDrawerColorField : DebugUIDrawer
     {
-
         public DebugUIDrawerColorField();
 
         public override bool OnGUI(DebugUI.Widget widget, DebugState state);

@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering.Universal
 {
     public static class SupportedUpgradeParams
     {
-
         public static UpgradeParams diffuseOpaque;
         public static UpgradeParams specularOpaque;
         public static UpgradeParams diffuseAlpha;

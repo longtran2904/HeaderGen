@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering.Universal
 {
     public static class PostProcessUtils
     {
-
         [Obsolete("This method is obsolete. Use ConfigureDithering override that takes camera pixel width and height instead.")]
         public static int ConfigureDithering(PostProcessData data, int index, Camera camera, Material material);
         public static int ConfigureDithering(PostProcessData data, int index, int cameraPixelWidth, int cameraPixelHeight, Material material);

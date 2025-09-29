@@ -9,7 +9,6 @@ namespace System
 {
     public class MissingMethodException : MissingMemberException
     {
-
         public MissingMethodException();
         public MissingMethodException(string message);
         public MissingMethodException(string message, Exception inner);

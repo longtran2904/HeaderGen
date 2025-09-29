@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering
 {
     public class IESEngine
     {
-
         public IESEngine();
 
         public TextureImporterType TextureGenerationType { set; }

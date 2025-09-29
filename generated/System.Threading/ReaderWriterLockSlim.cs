@@ -6,7 +6,6 @@ namespace System.Threading
 {
     public class ReaderWriterLockSlim : IDisposable
     {
-
         public ReaderWriterLockSlim();
         public ReaderWriterLockSlim(LockRecursionPolicy recursionPolicy);
 

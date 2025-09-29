@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.Universal
 {
     public class DebugDisplaySettings : IDebugDisplaySettingsQuery
     {
-
         public static DebugDisplaySettings Instance { get; }
         public bool AreAnySettingsActive { get; }
         public bool IsLightingActive { get; }

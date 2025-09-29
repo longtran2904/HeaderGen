@@ -8,7 +8,6 @@ namespace Mono.Cecil.Cil
 {
     public sealed class MethodBody
     {
-
         public MethodBody(MethodDefinition method);
 
         public MethodDefinition Method { get; }

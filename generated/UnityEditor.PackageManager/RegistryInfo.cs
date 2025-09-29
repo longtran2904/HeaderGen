@@ -11,7 +11,6 @@ namespace UnityEditor.PackageManager
     [RequiredByNativeCode]
     public class RegistryInfo
     {
-
         public string name { get; }
         public string url { get; }
         public bool isDefault { get; }

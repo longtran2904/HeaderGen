@@ -10,7 +10,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Input/LocationService.h")]
     public class LocationService
     {
-
         public LocationService();
 
         public bool isEnabledByUser { get; }

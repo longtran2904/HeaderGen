@@ -9,7 +9,6 @@ namespace UnityEngine.Playables
 {
     public struct PlayableBinding
     {
-
         public static readonly PlayableBinding[] None;
         public static readonly double DefaultDuration;
 

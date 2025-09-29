@@ -7,7 +7,6 @@ namespace System.IO.Enumeration
     [Obsolete("Types with embedded references are not supported in this version of your compiler.", True)]
     public ref struct FileSystemEntry
     {
-
         public ReadOnlySpan<char> Directory { get; }
         public ReadOnlySpan<char> RootDirectory { get; }
         public ReadOnlySpan<char> OriginalRootDirectory { get; }

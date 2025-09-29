@@ -12,7 +12,6 @@ namespace UnityEditor
     [StaticAccessor("GetDragAndDrop()", StaticAccessorType.Dot)]
     public class DragAndDrop
     {
-
         public DragAndDrop();
 
         public static UnityEngine.Object[] objectReferences { get; set; }
@@ -34,6 +33,7 @@ namespace UnityEditor
         public static void RemoveDropHandler(SceneDropHandler handler);
         public static void RemoveDropHandler(HierarchyDropHandler handler);
         public static void RemoveDropHandler(InspectorDropHandler handler);
+
         public delegate DragAndDropVisualMode ProjectBrowserDropHandler(int dragInstanceId, string dropUponPath, bool perform);
         public delegate DragAndDropVisualMode SceneDropHandler(UnityEngine.Object dropUpon, Vector3 worldPosition, Vector2 viewportPosition, Transform parentForDraggedObjects, bool perform);
         public delegate DragAndDropVisualMode InspectorDropHandler(UnityEngine.Object[] targets, bool perform);

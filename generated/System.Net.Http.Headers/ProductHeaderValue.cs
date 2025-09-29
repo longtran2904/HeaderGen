@@ -6,7 +6,6 @@ namespace System.Net.Http.Headers
 {
     public class ProductHeaderValue : ICloneable
     {
-
         public ProductHeaderValue(string name);
         public ProductHeaderValue(string name, string version);
 

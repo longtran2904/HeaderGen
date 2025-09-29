@@ -6,7 +6,6 @@ namespace TMPro
 {
     public enum TextAlignmentOptions
     {
-
         TopLeft = 257,
         Top = 258,
         TopRight = 260,

@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public struct Angle : IEquatable<Angle>
     {
-
         public Angle(float value);
         public Angle(float value, AngleUnit unit);
 

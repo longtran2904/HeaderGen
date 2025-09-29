@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public sealed class FieldDefinition : FieldReference, IConstantProvider, ICustomAttributeProvider, IMarshalInfoProvider, IMemberDefinition
     {
-
         public FieldDefinition(string name, FieldAttributes attributes, TypeReference fieldType);
 
         public bool HasLayoutInfo { get; }

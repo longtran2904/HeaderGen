@@ -9,7 +9,6 @@ namespace UnityEditor.UIElements
 {
     public class LayerMaskField : MaskField
     {
-
         public static readonly string ussClassName;
         public static readonly string labelUssClassName;
         public static readonly string inputUssClassName;
@@ -21,14 +20,13 @@ namespace UnityEditor.UIElements
 
         public override Func<string, string> formatSelectedValueCallback { get; set; }
         public override Func<string, string> formatListItemCallback { get; set; }
+
         public class UxmlFactory : UxmlFactory<LayerMaskField, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : BaseField<int>.UxmlTraits
         {
-
             public UxmlTraits();
 
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc);

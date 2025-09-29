@@ -6,7 +6,6 @@ namespace UnityEngine.XR.Provider
 {
     public static class XRStats
     {
-
         public static bool TryGetStat(IntegratedSubsystem xrSubsystem, string tag, out float value);
     }
 }

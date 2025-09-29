@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public static class TerrainExtensions
     {
-
         public static void UpdateGIMaterials(this Terrain terrain);
         public static void UpdateGIMaterials(this Terrain terrain, int x, int y, int width, int height);
     }

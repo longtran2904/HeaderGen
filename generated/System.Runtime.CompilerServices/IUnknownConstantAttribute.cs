@@ -7,7 +7,6 @@ namespace System.Runtime.CompilerServices
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Parameter, Inherited = False)]
     public sealed class IUnknownConstantAttribute : CustomConstantAttribute
     {
-
         public IUnknownConstantAttribute();
 
         public override object Value { get; }

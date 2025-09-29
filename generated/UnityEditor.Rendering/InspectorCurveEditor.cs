@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering
 {
     public sealed class InspectorCurveEditor
     {
-
         public readonly Settings settings;
 
         public InspectorCurveEditor();
@@ -24,9 +23,9 @@ namespace UnityEditor.Rendering
         public Selection GetSelection();
         public void SetKeyframe(SerializedProperty curve, int keyframeIndex, Keyframe keyframe);
         public bool OnGUI(Rect rect);
+
         public struct Settings
         {
-
             public Rect bounds;
             public RectOffset padding;
             public Color selectionColor;
@@ -37,7 +36,6 @@ namespace UnityEditor.Rendering
         }
         public struct CurveState
         {
-
             public bool visible;
             public bool editable;
             public uint minPointCount;
@@ -53,7 +51,6 @@ namespace UnityEditor.Rendering
         }
         public struct Selection
         {
-
             public SerializedProperty curve;
             public int keyframeIndex;
             public Keyframe? keyframe;

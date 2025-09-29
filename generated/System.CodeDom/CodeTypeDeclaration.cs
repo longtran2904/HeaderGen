@@ -8,7 +8,6 @@ namespace System.CodeDom
 {
     public class CodeTypeDeclaration : CodeTypeMember
     {
-
         public CodeTypeDeclaration();
         public CodeTypeDeclaration(string name);
 

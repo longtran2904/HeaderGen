@@ -8,7 +8,6 @@ namespace UnityEngine
 {
     public enum FocusType
     {
-
         [Obsolete("FocusType.Native now behaves the same as FocusType.Passive in all OS cases. (UnityUpgradable) -> Passive", False)]
         Native = 0,
         Keyboard = 1,

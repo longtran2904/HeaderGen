@@ -14,7 +14,6 @@ namespace UnityEngine.Animations
     [UsedByNativeCode]
     public sealed class ScaleConstraint : Behaviour, IConstraint, IConstraintInternal
     {
-
         public float weight { get; set; }
         public Vector3 scaleAtRest { get; set; }
         public Vector3 scaleOffset { get; set; }

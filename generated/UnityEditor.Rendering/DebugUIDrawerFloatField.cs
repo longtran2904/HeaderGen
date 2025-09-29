@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
     [DebugUIDrawer(typeof(DebugUI.FloatField))]
     public sealed class DebugUIDrawerFloatField : DebugUIDrawer
     {
-
         public DebugUIDrawerFloatField();
 
         public override bool OnGUI(DebugUI.Widget widget, DebugState state);

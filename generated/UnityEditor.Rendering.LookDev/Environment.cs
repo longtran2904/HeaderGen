@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering.LookDev
 {
     public class Environment : ScriptableObject
     {
-
         public float rotation;
         public float exposure;
         public Color shadowColor;

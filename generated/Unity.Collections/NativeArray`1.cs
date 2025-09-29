@@ -19,7 +19,6 @@ namespace Unity.Collections
     [NativeContainerSupportsMinMaxWriteRestriction]
     public struct NativeArray<T> : IDisposable, IEnumerable, IEnumerable<T>, IEquatable<NativeArray<T>> where T : struct
     {
-
         public NativeArray(int length, Allocator allocator, NativeArrayOptions options = NativeArrayOptions.ClearMemory);
         public NativeArray(T[] array, Allocator allocator);
         public NativeArray(NativeArray<T> array, Allocator allocator);
@@ -66,10 +65,10 @@ namespace Unity.Collections
 
         public static bool operator ==(NativeArray<T> left, NativeArray<T> right);
         public static bool operator !=(NativeArray<T> left, NativeArray<T> right);
+
         [ExcludeFromDocs]
         public struct Enumerator : IDisposable, IEnumerator, IEnumerator<T>
         {
-
             public Enumerator(ref NativeArray<T> array);
 
             public T Current { get; }
@@ -83,7 +82,6 @@ namespace Unity.Collections
         [NativeContainerIsReadOnly]
         public struct ReadOnly : IEnumerable, IEnumerable<T>
         {
-
             public T this[int index] { get; }
             public int Length { get; }
             public bool IsCreated { get; }
@@ -93,10 +91,10 @@ namespace Unity.Collections
             public T[] ToArray();
             public NativeArray<U>.ReadOnly Reinterpret<U>() where U : struct;
             public Enumerator GetEnumerator();
+
             [ExcludeFromDocs]
             public struct Enumerator : IDisposable, IEnumerator, IEnumerator<T>
             {
-
                 public Enumerator(in ReadOnly array);
 
                 public T Current { get; }

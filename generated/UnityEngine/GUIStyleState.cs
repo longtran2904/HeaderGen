@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Modules/IMGUI/GUIStyle.bindings.h")]
     public sealed class GUIStyleState
     {
-
         public GUIStyleState();
 
         ~GUIStyleState();

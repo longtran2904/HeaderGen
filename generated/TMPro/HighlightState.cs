@@ -8,7 +8,6 @@ namespace TMPro
 {
     public struct HighlightState
     {
-
         public Color32 color;
         public TMP_Offset padding;
 

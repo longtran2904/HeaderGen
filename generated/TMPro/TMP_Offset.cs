@@ -6,7 +6,6 @@ namespace TMPro
 {
     public struct TMP_Offset
     {
-
         public TMP_Offset(float left, float right, float top, float bottom);
         public TMP_Offset(float horizontal, float vertical);
 

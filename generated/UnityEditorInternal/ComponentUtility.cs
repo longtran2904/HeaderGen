@@ -11,7 +11,6 @@ namespace UnityEditorInternal
     [StaticAccessor("ComponentUtilityBindings", StaticAccessorType.DoubleColon)]
     public sealed class ComponentUtility
     {
-
         public ComponentUtility();
 
         public static bool MoveComponentUp(Component component);
@@ -21,6 +20,7 @@ namespace UnityEditorInternal
         public static bool PasteComponentAsNew([NotNull("NullExceptionObject")] GameObject go);
         public static void DestroyComponentsMatching(GameObject dst, IsDesiredComponent componentFilter);
         public static void ReplaceComponentsIfDifferent(GameObject src, GameObject dst, IsDesiredComponent componentFilter);
+
         public delegate bool IsDesiredComponent(Component c);
     }
 }

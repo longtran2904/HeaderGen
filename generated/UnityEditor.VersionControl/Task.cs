@@ -12,7 +12,6 @@ namespace UnityEditor.VersionControl
     [UsedByNativeCode]
     public class Task
     {
-
         ~Task();
 
         public int userIdentifier { get; set; }

@@ -9,7 +9,6 @@ namespace UnityEditor.Recorder
 {
     public abstract class Recorder : ScriptableObject
     {
-
         protected List<RecorderInput> m_Inputs;
 
         protected Recorder();

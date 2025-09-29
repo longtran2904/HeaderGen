@@ -8,7 +8,6 @@ namespace System.Runtime.InteropServices
 {
     public static class CollectionsMarshal
     {
-
         public static Span<T> AsSpan<T>(List<T> list);
         public static ref TValue GetValueRefOrNullRef<TKey, TValue>(Dictionary<TKey, TValue> dictionary, TKey key);
         public static ref TValue GetValueRefOrAddDefault<TKey, TValue>(Dictionary<TKey, TValue> dictionary, TKey key, out bool exists);

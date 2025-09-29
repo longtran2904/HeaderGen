@@ -9,7 +9,6 @@ namespace Mono.Cecil.Cil
 {
     public sealed class MethodDebugInformation : DebugInformation
     {
-
         public MethodDefinition Method { get; }
         public bool HasSequencePoints { get; }
         public Collection<SequencePoint> SequencePoints { get; }

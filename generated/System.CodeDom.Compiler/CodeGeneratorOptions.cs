@@ -9,7 +9,6 @@ namespace System.CodeDom.Compiler
     [DefaultMember("Item")]
     public class CodeGeneratorOptions
     {
-
         public CodeGeneratorOptions();
 
         public object this[string index] { get; set; }

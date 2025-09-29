@@ -6,7 +6,6 @@ namespace UnityEngine.Timeline
 {
     public abstract class Marker : ScriptableObject, IMarker
     {
-
         protected Marker();
 
         public TrackAsset parent { get; }

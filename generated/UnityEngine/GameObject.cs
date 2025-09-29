@@ -19,7 +19,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public sealed class GameObject : Object
     {
-
         public GameObject(string name);
         public GameObject();
         public GameObject(string name, params Type[] components);

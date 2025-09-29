@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics2D/Public/PhysicsMaterial2D.h")]
     public sealed class PhysicsMaterial2D : Object
     {
-
         public PhysicsMaterial2D();
         public PhysicsMaterial2D(string name);
 

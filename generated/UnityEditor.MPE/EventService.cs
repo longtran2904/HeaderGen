@@ -11,7 +11,6 @@ namespace UnityEditor.MPE
     [MovedFrom("Unity.MPE")]
     public static class EventService
     {
-
         public static bool isConnected { get; }
 
         public static void Start();

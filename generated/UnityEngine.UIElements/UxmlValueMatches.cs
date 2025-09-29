@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class UxmlValueMatches : UxmlTypeRestriction
     {
-
         public UxmlValueMatches();
 
         public string regex { get; set; }

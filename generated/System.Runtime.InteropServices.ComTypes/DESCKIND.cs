@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public enum DESCKIND
     {
-
         DESCKIND_NONE = 0,
         DESCKIND_FUNCDESC = 1,
         DESCKIND_VARDESC = 2,

@@ -9,7 +9,6 @@ namespace UnityEngine.UIElements
     [Flags]
     public enum DynamicAtlasFilters
     {
-
         None = 0,
         Readability = 1,
         Size = 2,

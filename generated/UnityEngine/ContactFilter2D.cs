@@ -12,7 +12,6 @@ namespace UnityEngine
     [RequiredByNativeCode(Optional = True, GenerateProxy = True)]
     public struct ContactFilter2D
     {
-
         [NativeName("m_UseTriggers")]
         public bool useTriggers;
         [NativeName("m_UseLayerMask")]

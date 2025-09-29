@@ -9,7 +9,6 @@ namespace UnityEngine
     [AttributeUsage(AttributeTargets.Field, AllowMultiple = True, Inherited = True)]
     public class SpaceAttribute : PropertyAttribute
     {
-
         public readonly float height;
 
         public SpaceAttribute();

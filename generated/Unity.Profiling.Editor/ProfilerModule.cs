@@ -8,7 +8,6 @@ namespace Unity.Profiling.Editor
 {
     public abstract class ProfilerModule
     {
-
         protected ProfilerModule(ProfilerCounterDescriptor[] chartCounters, ProfilerModuleChartType defaultChartType = ProfilerModuleChartType.Line, string[] autoEnabledCategoryNames = null);
 
         public string DisplayName { get; }

@@ -9,7 +9,6 @@ namespace UnityEditor.VersionControl
     [Flags]
     public enum SubmitResult
     {
-
         OK = 1,
         Error = 2,
         ConflictingFiles = 4,

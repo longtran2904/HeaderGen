@@ -6,7 +6,6 @@ namespace System.Buffers
 {
     public class SearchValues<T> where T : IEquatable<T>
     {
-
         public bool Contains(T value);
     }
 }

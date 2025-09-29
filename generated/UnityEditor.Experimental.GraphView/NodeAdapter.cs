@@ -9,7 +9,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class NodeAdapter
     {
-
         public NodeAdapter();
 
         public bool CanAdapt(object a, object b);

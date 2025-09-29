@@ -6,7 +6,6 @@ namespace UnityEditor.Search
 {
     public interface ISearchNode : IQueryNode
     {
-
         bool exact { get; }
         string searchValue { get; }
     }

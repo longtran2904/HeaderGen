@@ -10,7 +10,6 @@ namespace UnityEngine.Rendering
     [UsedByNativeCode]
     public struct VisibleLight : IEquatable<VisibleLight>
     {
-
         public Light light { get; }
         public LightType lightType { get; set; }
         public Color finalColor { get; set; }

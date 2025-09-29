@@ -13,7 +13,6 @@ namespace UnityEditor.Rendering
     [StaticAccessor("EditorGraphicsSettingsScripting", StaticAccessorType.DoubleColon)]
     public sealed class EditorGraphicsSettings
     {
-
         public EditorGraphicsSettings();
 
         public static AlbedoSwatchInfo[] albedoSwatches { get; set; }

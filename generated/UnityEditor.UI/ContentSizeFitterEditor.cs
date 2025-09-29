@@ -10,7 +10,6 @@ namespace UnityEditor.UI
     [CustomEditor(typeof(ContentSizeFitter), True)]
     public class ContentSizeFitterEditor : SelfControllerEditor
     {
-
         public ContentSizeFitterEditor();
 
         protected virtual void OnEnable();

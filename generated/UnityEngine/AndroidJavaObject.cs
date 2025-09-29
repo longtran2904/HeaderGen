@@ -8,7 +8,6 @@ namespace UnityEngine
 {
     public class AndroidJavaObject : IDisposable
     {
-
         public AndroidJavaObject(string className, string[] args);
         public AndroidJavaObject(string className, AndroidJavaObject[] args);
         public AndroidJavaObject(string className, AndroidJavaClass[] args);

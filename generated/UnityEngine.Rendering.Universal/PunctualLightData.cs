@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.Universal
 {
     public struct PunctualLightData
     {
-
         public Vector3 wsPos;
         public float radius;
         public Vector4 color;

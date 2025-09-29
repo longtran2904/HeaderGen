@@ -9,7 +9,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public struct NodeCreationContext
     {
-
         public Vector2 screenMousePosition;
         public VisualElement target;
         public int index;

@@ -8,7 +8,6 @@ namespace System.Text
 {
     public enum NormalizationForm
     {
-
         FormC = 1,
         FormD = 2,
         [UnsupportedOSPlatform("browser")]

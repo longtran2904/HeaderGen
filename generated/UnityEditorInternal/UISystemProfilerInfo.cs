@@ -9,7 +9,6 @@ namespace UnityEditorInternal
     [UsedByNativeCode]
     public struct UISystemProfilerInfo
     {
-
         public int objectInstanceId;
         public int objectNameOffset;
         public int parentId;

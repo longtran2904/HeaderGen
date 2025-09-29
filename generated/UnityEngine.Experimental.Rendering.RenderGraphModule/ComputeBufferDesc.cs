@@ -6,7 +6,6 @@ namespace UnityEngine.Experimental.Rendering.RenderGraphModule
 {
     public struct ComputeBufferDesc
     {
-
         public int count;
         public int stride;
         public ComputeBufferType type;

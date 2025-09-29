@@ -7,7 +7,6 @@ namespace UnityEditor.Timeline.Actions
     [ActiveInMode(TimelineModes.Default)]
     public abstract class TimelineAction : IAction
     {
-
         protected TimelineAction();
 
         public abstract bool Execute(ActionContext context);

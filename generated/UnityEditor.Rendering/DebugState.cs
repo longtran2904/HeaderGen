@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
 {
     public abstract class DebugState : ScriptableObject
     {
-
         [SerializeField]
         protected string m_QueryPath;
 

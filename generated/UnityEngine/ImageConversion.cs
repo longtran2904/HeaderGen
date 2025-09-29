@@ -12,7 +12,6 @@ namespace UnityEngine
     [NativeHeader("Modules/ImageConversion/ScriptBindings/ImageConversion.bindings.h")]
     public static class ImageConversion
     {
-
         public static bool EnableLegacyPngGammaRuntimeLoadBehavior { get; set; }
 
         [NativeMethod(Name = "ImageConversionBindings::EncodeToTGA", IsFreeFunction = True, ThrowsException = True)]

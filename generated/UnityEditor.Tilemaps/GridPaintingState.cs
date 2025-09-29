@@ -10,7 +10,6 @@ namespace UnityEditor.Tilemaps
 {
     public class GridPaintingState : ScriptableSingleton<GridPaintingState>
     {
-
         public GridPaintingState();
 
         public static GameObject scenePaintTarget { get; set; }

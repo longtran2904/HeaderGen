@@ -10,7 +10,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics/FixedJoint.h")]
     public class FixedJoint : Joint
     {
-
         public FixedJoint();
     }
 }

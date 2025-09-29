@@ -9,7 +9,6 @@ namespace TMPro.EditorUtilities
 {
     public static class TMP_EditorUtility
     {
-
         public static string packageRelativePath { get; }
         public static string packageFullPath { get; }
 

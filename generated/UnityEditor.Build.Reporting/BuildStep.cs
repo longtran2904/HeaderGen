@@ -10,7 +10,6 @@ namespace UnityEditor.Build.Reporting
     [NativeType(Header = "Modules/BuildReportingEditor/Public/BuildReport.h")]
     public struct BuildStep
     {
-
         [NativeName("stepName")]
         public string name { get; }
         public TimeSpan duration { get; }

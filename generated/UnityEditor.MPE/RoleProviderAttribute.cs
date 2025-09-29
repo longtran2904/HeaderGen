@@ -13,7 +13,6 @@ namespace UnityEditor.MPE
     [RequiredByNativeCode]
     public sealed class RoleProviderAttribute : Attribute
     {
-
         public string name;
         public ProcessEvent eventType;
         public ProcessLevel level;

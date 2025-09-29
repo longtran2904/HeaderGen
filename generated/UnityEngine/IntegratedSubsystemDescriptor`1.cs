@@ -11,7 +11,6 @@ namespace UnityEngine
     [UsedByNativeCode("SubsystemDescriptor")]
     public class IntegratedSubsystemDescriptor<TSubsystem> : IntegratedSubsystemDescriptor where TSubsystem : IntegratedSubsystem
     {
-
         public IntegratedSubsystemDescriptor();
 
         public TSubsystem Create();

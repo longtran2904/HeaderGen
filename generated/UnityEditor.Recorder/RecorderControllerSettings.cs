@@ -9,7 +9,6 @@ namespace UnityEditor.Recorder
 {
     public class RecorderControllerSettings : ScriptableObject
     {
-
         public RecorderControllerSettings();
 
         public FrameRatePlayback FrameRatePlayback { get; set; }

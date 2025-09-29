@@ -8,7 +8,6 @@ namespace Unity.EditorCoroutines.Editor
 {
     public static class EditorCoroutineUtility
     {
-
         public static EditorCoroutine StartCoroutine(IEnumerator routine, object owner);
         public static EditorCoroutine StartCoroutineOwnerless(IEnumerator routine);
         public static void StopCoroutine(EditorCoroutine coroutine);

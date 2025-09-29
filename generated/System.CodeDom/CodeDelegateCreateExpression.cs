@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeDelegateCreateExpression : CodeExpression
     {
-
         public CodeDelegateCreateExpression();
         public CodeDelegateCreateExpression(CodeTypeReference delegateType, CodeExpression targetObject, string methodName);
 

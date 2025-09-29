@@ -6,7 +6,6 @@ namespace UnityEditor.U2D
 {
     public struct SpriteAtlasPackingSettings
     {
-
         public int blockOffset { get; set; }
         public int padding { get; set; }
         public bool enableRotation { get; set; }

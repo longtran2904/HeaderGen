@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class SliderInt : BaseSlider<int>
     {
-
         public static readonly string ussClassName;
         public static readonly string labelUssClassName;
         public static readonly string inputUssClassName;
@@ -16,14 +15,13 @@ namespace UnityEngine.UIElements
         public SliderInt(string label, int start = 0, int end = 10, SliderDirection direction = SliderDirection.Horizontal, float pageSize = 0);
 
         public override float pageSize { get; set; }
+
         public class UxmlFactory : UxmlFactory<SliderInt, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : BaseFieldTraits<int, UxmlIntAttributeDescription>
         {
-
             public UxmlTraits();
 
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc);

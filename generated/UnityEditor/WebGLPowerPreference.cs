@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum WebGLPowerPreference
     {
-
         Default = 0,
         LowPower = 1,
         HighPerformance = 2

@@ -10,7 +10,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Src/Shaders/ShaderInclude.h")]
     public sealed class ShaderInclude : TextAsset
     {
-
         public ShaderInclude();
     }
 }

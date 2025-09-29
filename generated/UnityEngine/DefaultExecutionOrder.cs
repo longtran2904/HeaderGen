@@ -11,7 +11,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public class DefaultExecutionOrder : Attribute
     {
-
         public DefaultExecutionOrder(int order);
 
         public int order { get; }

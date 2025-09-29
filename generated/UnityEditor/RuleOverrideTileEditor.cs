@@ -11,7 +11,6 @@ namespace UnityEditor
     [CustomEditor(typeof(RuleOverrideTile))]
     public class RuleOverrideTileEditor : Editor
     {
-
         public List<KeyValuePair<Sprite, Sprite>> m_Sprites;
         public List<KeyValuePair<GameObject, GameObject>> m_GameObjects;
         public static float k_SpriteElementHeight;

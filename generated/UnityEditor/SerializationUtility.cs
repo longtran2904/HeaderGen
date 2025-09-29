@@ -10,7 +10,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Src/Utility/EditorSerializationUtility.h")]
     public sealed class SerializationUtility
     {
-
         public const long RefIdUnknown = -1;
         public const long RefIdNull = -2;
 

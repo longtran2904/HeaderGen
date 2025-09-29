@@ -8,7 +8,6 @@ namespace System.Reflection.Emit
 {
     public abstract class TypeBuilder : TypeInfo
     {
-
         public const int UnspecifiedTypeSize = 0;
 
         protected TypeBuilder();

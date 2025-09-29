@@ -9,7 +9,6 @@ namespace TreeEditor
 {
     public class TreeGroupBranch : TreeGroup
     {
-
         public float lodQualityMultiplier;
         public GeometryMode geometryMode;
         public Material materialBranch;
@@ -52,9 +51,9 @@ namespace TreeEditor
         public override void BuildAOSpheres(List<TreeAOSphere> aoSpheres);
         public override void UpdateMesh(List<TreeMaterial> materials, List<TreeVertex> verts, List<TreeTriangle> tris, List<TreeAOSphere> aoSpheres, int buildFlags, float adaptiveQuality, float aoDensity);
         public void UpdateSpline(TreeNode node);
+
         public enum GeometryMode
         {
-
             Branch = 0,
             BranchFrond = 1,
             Frond = 2

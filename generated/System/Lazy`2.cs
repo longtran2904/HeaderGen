@@ -8,7 +8,6 @@ namespace System
 {
     public class Lazy<T, TMetadata> : Lazy<T>
     {
-
         public Lazy(Func<T> valueFactory, TMetadata metadata);
         public Lazy(TMetadata metadata);
         public Lazy(TMetadata metadata, bool isThreadSafe);

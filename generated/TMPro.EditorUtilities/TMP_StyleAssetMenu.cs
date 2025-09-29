@@ -8,7 +8,6 @@ namespace TMPro.EditorUtilities
 {
     public static class TMP_StyleAssetMenu
     {
-
         [MenuItem("Assets/Create/TextMeshPro/Style Sheet", False, 120)]
         public static void CreateTextMeshProObjectPerform();
     }

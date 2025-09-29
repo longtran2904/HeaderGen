@@ -6,7 +6,6 @@ namespace Unity.CodeEditor
 {
     public interface IExternalCodeEditor
     {
-
         CodeEditor.Installation[] Installations { get; }
 
         bool TryGetInstallationForPath(string editorPath, out CodeEditor.Installation installation);

@@ -6,7 +6,6 @@ namespace UnityEditor.ShaderGraph
 {
     public static class TextUtil
     {
-
         public static string PascalToLabel(this string pascalString);
     }
 }

@@ -6,7 +6,6 @@ namespace UnityEngine.Experimental.GlobalIllumination
 {
     public static class LightmapperUtils
     {
-
         public static LightMode Extract(LightmapBakeType baketype);
         public static LinearColor ExtractIndirect(Light l);
         public static float ExtractInnerCone(Light l);

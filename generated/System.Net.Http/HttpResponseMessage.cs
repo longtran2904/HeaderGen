@@ -8,7 +8,6 @@ namespace System.Net.Http
 {
     public class HttpResponseMessage : IDisposable
     {
-
         public HttpResponseMessage();
         public HttpResponseMessage(HttpStatusCode statusCode);
 

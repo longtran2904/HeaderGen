@@ -13,7 +13,6 @@ namespace UnityEditor
     [NativeType("Editor/Mono/MonoScript.bindings.h")]
     public class MonoScript : TextAsset
     {
-
         public MonoScript();
 
         public Type GetClass();

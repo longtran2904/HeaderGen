@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public abstract class FocusEventBase<T> : EventBase<T>, IFocusEvent where T : FocusEventBase<T>, new()
     {
-
         protected FocusEventBase();
 
         public Focusable relatedTarget { get; }

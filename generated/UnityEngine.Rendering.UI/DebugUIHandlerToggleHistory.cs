@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.UI
 {
     public class DebugUIHandlerToggleHistory : DebugUIHandlerToggle
     {
-
         public DebugUIHandlerToggleHistory();
 
         protected internal override void UpdateValueLabel();

@@ -11,7 +11,6 @@ namespace UnityEditor.UI
     [CustomEditor(typeof(Image), True)]
     public class ImageEditor : GraphicEditor
     {
-
         public ImageEditor();
 
         protected override void OnEnable();

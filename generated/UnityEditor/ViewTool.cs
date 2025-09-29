@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum ViewTool
     {
-
         None = -1,
         Orbit = 0,
         Pan = 1,

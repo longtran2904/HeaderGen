@@ -6,7 +6,6 @@ namespace System.Threading.Tasks
 {
     public enum TaskStatus
     {
-
         Created = 0,
         WaitingForActivation = 1,
         WaitingToRun = 2,

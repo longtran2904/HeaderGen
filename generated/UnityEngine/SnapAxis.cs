@@ -9,7 +9,6 @@ namespace UnityEngine
     [Flags]
     public enum SnapAxis
     {
-
         None = 0,
         X = 1,
         Y = 2,

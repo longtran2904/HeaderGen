@@ -6,7 +6,6 @@ namespace Mono.Cecil.Cil
 {
     public sealed class VariableDefinition : VariableReference
     {
-
         public VariableDefinition(TypeReference variableType);
 
         public bool IsPinned { get; }

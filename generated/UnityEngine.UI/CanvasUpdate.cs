@@ -6,7 +6,6 @@ namespace UnityEngine.UI
 {
     public enum CanvasUpdate
     {
-
         Prelayout = 0,
         Layout = 1,
         PostLayout = 2,

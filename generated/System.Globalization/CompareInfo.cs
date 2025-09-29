@@ -10,7 +10,6 @@ namespace System.Globalization
 {
     public sealed class CompareInfo : IDeserializationCallback
     {
-
         public string Name { get; }
         public SortVersion Version { get; }
         public int LCID { get; }

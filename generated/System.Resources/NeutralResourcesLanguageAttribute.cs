@@ -10,7 +10,6 @@ namespace System.Resources
     [EditorBrowsable(EditorBrowsableState.Never)]
     public sealed class NeutralResourcesLanguageAttribute : Attribute
     {
-
         public NeutralResourcesLanguageAttribute(string cultureName);
         public NeutralResourcesLanguageAttribute(string cultureName, UltimateResourceFallbackLocation location);
 

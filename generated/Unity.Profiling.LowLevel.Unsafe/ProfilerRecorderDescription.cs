@@ -9,7 +9,6 @@ namespace Unity.Profiling.LowLevel.Unsafe
     [UsedByNativeCode]
     public readonly struct ProfilerRecorderDescription
     {
-
         public ProfilerCategory Category { get; }
         public MarkerFlags Flags { get; }
         public ProfilerMarkerDataType DataType { get; }

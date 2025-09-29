@@ -7,7 +7,6 @@ namespace System.Diagnostics
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = True)]
     public sealed class ConditionalAttribute : Attribute
     {
-
         public ConditionalAttribute(string conditionString);
 
         public string ConditionString { get; }

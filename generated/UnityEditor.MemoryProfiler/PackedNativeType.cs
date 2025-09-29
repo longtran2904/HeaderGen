@@ -8,7 +8,6 @@ namespace UnityEditor.MemoryProfiler
 {
     public struct PackedNativeType
     {
-
         public PackedNativeType(string name, int nativeBaseTypeArrayIndex);
 
         public string name { get; }

@@ -12,7 +12,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Jobs/ScriptBindings/JobsBindingsTypes.h")]
     public struct CapsulecastCommand
     {
-
         public CapsulecastCommand(Vector3 p1, Vector3 p2, float radius, Vector3 direction, float distance = 3.4028235E+38, int layerMask = -5);
         public CapsulecastCommand(PhysicsScene physicsScene, Vector3 p1, Vector3 p2, float radius, Vector3 direction, float distance = 3.4028235E+38, int layerMask = -5);
 

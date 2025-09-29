@@ -13,7 +13,6 @@ namespace UnityEngine.UI
     [RequireComponent(typeof(RectTransform))]
     public class Mask : UIBehaviour, ICanvasRaycastFilter, IMaterialModifier
     {
-
         protected Mask();
 
         public RectTransform rectTransform { get; }

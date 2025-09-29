@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public enum CameraEvent
     {
-
         BeforeDepthTexture = 0,
         AfterDepthTexture = 1,
         BeforeDepthNormalsTexture = 2,

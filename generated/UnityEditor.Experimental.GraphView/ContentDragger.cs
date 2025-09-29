@@ -9,7 +9,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class ContentDragger : MouseManipulator
     {
-
         public ContentDragger();
 
         public Vector2 panSpeed { get; set; }

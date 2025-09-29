@@ -6,7 +6,6 @@ namespace UnityEditor.Profiling.Memory.Experimental
 {
     public class NativeAllocationEntries
     {
-
         public ArrayEntries<int> memoryRegionIndex { get; }
         public ArrayEntries<long> rootReferenceId { get; }
         public ArrayEntries<long> allocationSiteId { get; }

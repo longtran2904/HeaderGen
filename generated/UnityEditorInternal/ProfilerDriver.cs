@@ -17,7 +17,6 @@ namespace UnityEditorInternal
     [NativeHeader("Modules/ProfilerEditor/Public/ProfilerSession.h")]
     public static class ProfilerDriver
     {
-
         public static string directConnectionPort;
 
         [StaticAccessor("profiling::GetProfilerSessionPtr()->GetProfilerHistory()", StaticAccessorType.Arrow)]

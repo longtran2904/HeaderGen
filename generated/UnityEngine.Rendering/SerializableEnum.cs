@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public class SerializableEnum
     {
-
         public SerializableEnum(Type enumType);
 
         public Enum value { get; set; }

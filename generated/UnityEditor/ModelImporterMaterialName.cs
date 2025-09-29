@@ -10,7 +10,6 @@ namespace UnityEditor
     [NativeType(Header = "Modules/AssetPipelineEditor/Public/ModelImporting/ModelImporter.h")]
     public enum ModelImporterMaterialName
     {
-
         BasedOnTextureName = 0,
         BasedOnMaterialName = 1,
         BasedOnModelNameAndMaterialName = 2,

@@ -14,7 +14,6 @@ namespace Unity.Collections.LowLevel.Unsafe
     [UsedByNativeCode]
     public struct AtomicSafetyHandle
     {
-
         [ThreadSafe]
         public static AtomicSafetyHandle Create();
         [ThreadSafe]

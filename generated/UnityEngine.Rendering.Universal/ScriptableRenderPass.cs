@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering.Universal
 {
     public abstract class ScriptableRenderPass
     {
-
         public ScriptableRenderPass();
 
         public RenderPassEvent renderPassEvent { get; set; }

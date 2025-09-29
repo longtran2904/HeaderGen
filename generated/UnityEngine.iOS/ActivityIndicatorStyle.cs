@@ -6,7 +6,6 @@ namespace UnityEngine.iOS
 {
     public enum ActivityIndicatorStyle
     {
-
         DontShow = -1,
         WhiteLarge = 0,
         White = 1,

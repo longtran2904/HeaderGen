@@ -19,7 +19,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Src/ShaderData.h")]
     public sealed class ShaderUtil
     {
-
         public ShaderUtil();
 
         public static bool hardwareSupportsRectRenderTexture { get; }
@@ -85,10 +84,10 @@ namespace UnityEditor
         public static ShaderData GetShaderData(Shader shader);
         public static bool ShaderHasError(Shader shader);
         public static bool ShaderHasWarnings(Shader shader);
+
         [Obsolete("Use UnityEngine.Rendering.TextureDimension instead.")]
         public enum ShaderPropertyTexDim
         {
-
             TexDimNone = 0,
             TexDim2D = 2,
             TexDim3D = 3,
@@ -97,7 +96,6 @@ namespace UnityEditor
         }
         public enum ShaderPropertyType
         {
-
             Color = 0,
             Vector = 1,
             Float = 2,

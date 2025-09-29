@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [AttributeUsage(AttributeTargets.Field, Inherited = False)]
     public sealed class TypeLibVarAttribute : Attribute
     {
-
         public TypeLibVarAttribute(TypeLibVarFlags flags);
         public TypeLibVarAttribute(short flags);
 

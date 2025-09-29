@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [AttributeUsage(AttributeTargets.Method, Inherited = False)]
     public sealed class SuppressGCTransitionAttribute : Attribute
     {
-
         public SuppressGCTransitionAttribute();
     }
 }

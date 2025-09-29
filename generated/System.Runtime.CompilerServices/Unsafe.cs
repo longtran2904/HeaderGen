@@ -6,7 +6,6 @@ namespace System.Runtime.CompilerServices
 {
     public static class Unsafe
     {
-
         [CLSCompliant(False)]
         public static void* AsPointer<T>(ref T value);
         public static int SizeOf<T>();

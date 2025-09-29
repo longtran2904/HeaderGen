@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeConstructor : CodeMemberMethod
     {
-
         public CodeConstructor();
 
         public CodeExpressionCollection BaseConstructorArgs { get; }

@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeMemberEvent : CodeTypeMember
     {
-
         public CodeMemberEvent();
 
         public CodeTypeReference Type { get; set; }

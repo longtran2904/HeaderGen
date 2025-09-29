@@ -9,7 +9,6 @@ namespace System.Threading
 {
     public class SynchronizationLockException : SystemException
     {
-
         public SynchronizationLockException();
         public SynchronizationLockException(string message);
         public SynchronizationLockException(string message, Exception innerException);

@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum TexGenMode
     {
-
         None = 0,
         SphereMap = 1,
         Object = 2,

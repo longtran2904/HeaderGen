@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering.BuiltIn.ShaderGraph
 {
     public class BuiltInLitGUI : BuiltInBaseShaderGUI
     {
-
         public BuiltInLitGUI();
 
         public static void UpdateMaterial(Material material);

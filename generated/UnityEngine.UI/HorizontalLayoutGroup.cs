@@ -7,7 +7,6 @@ namespace UnityEngine.UI
     [AddComponentMenu("Layout/Horizontal Layout Group", 150)]
     public class HorizontalLayoutGroup : HorizontalOrVerticalLayoutGroup
     {
-
         protected HorizontalLayoutGroup();
 
         public override void CalculateLayoutInputHorizontal();

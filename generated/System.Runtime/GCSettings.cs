@@ -6,7 +6,6 @@ namespace System.Runtime
 {
     public static class GCSettings
     {
-
         public static bool IsServerGC { get; }
         public static GCLatencyMode LatencyMode { get; set; }
         public static GCLargeObjectHeapCompactionMode LargeObjectHeapCompactionMode { get; set; }

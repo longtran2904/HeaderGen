@@ -9,7 +9,6 @@ namespace UnityEngine.EventSystems
 {
     public abstract class BaseRaycaster : UIBehaviour
     {
-
         protected BaseRaycaster();
 
         public abstract Camera eventCamera { get; }

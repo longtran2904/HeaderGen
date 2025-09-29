@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public class MaxFloatParameter : FloatParameter
     {
-
         [NonSerialized]
         public float max;
 

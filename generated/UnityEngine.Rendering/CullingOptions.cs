@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
     [Flags]
     public enum CullingOptions
     {
-
         None = 0,
         ForceEvenIfCameraIsNotActive = 1,
         OcclusionCull = 2,

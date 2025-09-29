@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [AttributeUsage(AttributeTargets.Assembly, AllowMultiple = True, Inherited = False)]
     public sealed class PrimaryInteropAssemblyAttribute : Attribute
     {
-
         public PrimaryInteropAssemblyAttribute(int major, int minor);
 
         public int MajorVersion { get; }

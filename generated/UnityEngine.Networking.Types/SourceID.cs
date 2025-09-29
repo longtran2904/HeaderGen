@@ -9,7 +9,6 @@ namespace UnityEngine.Networking.Types
     [DefaultValue(SourceID.Invalid)]
     public enum SourceID
     {
-
         Invalid = 18446744073709551615
     }
 }

@@ -10,7 +10,6 @@ namespace UnityEditor.ShaderGraph.Internal
     [DefaultMember("Item")]
     public abstract class KeywordDependentCollection<TStorage, TAll, TAllPermutations, TForPermutation, TBase, TIInstance, TISet> where TStorage : new() where TAll : TISet where TAllPermutations : TISet where TForPermutation : TISet, TIInstance where TBase : TISet, TIInstance where TIInstance : KeywordDependentCollection.IInstance where TISet : KeywordDependentCollection.ISet<TIInstance>
     {
-
         protected KeywordDependentCollection();
 
         public TForPermutation this[int index] { get; }

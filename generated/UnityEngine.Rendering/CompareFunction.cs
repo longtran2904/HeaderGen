@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
     [NativeHeader("Runtime/GfxDevice/GfxDeviceTypes.h")]
     public enum CompareFunction
     {
-
         Disabled = 0,
         Never = 1,
         Less = 2,

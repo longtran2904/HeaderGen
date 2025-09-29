@@ -6,7 +6,6 @@ namespace System
 {
     public enum GCKind
     {
-
         Any = 0,
         Ephemeral = 1,
         FullBlocking = 2,

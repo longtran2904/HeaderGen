@@ -10,7 +10,6 @@ namespace UnityEditor
     [Flags]
     public enum StaticEditorFlags
     {
-
         [Description("Contribute Global Illumination")]
         ContributeGI = 1,
         OccluderStatic = 2,

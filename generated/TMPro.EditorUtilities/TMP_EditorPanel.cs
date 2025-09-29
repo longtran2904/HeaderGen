@@ -10,7 +10,6 @@ namespace TMPro.EditorUtilities
     [CustomEditor(typeof(TextMeshPro), True)]
     public class TMP_EditorPanel : TMP_BaseEditorPanel
     {
-
         public TMP_EditorPanel();
 
         protected override void OnEnable();

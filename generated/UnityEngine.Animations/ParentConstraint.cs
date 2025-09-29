@@ -14,7 +14,6 @@ namespace UnityEngine.Animations
     [UsedByNativeCode]
     public sealed class ParentConstraint : Behaviour, IConstraint, IConstraintInternal
     {
-
         public float weight { get; set; }
         public bool constraintActive { get; set; }
         public bool locked { get; set; }

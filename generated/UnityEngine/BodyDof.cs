@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum BodyDof
     {
-
         SpineFrontBack = 0,
         SpineLeftRight = 1,
         SpineRollLeftRight = 2,

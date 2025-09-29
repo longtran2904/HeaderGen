@@ -12,7 +12,6 @@ namespace Unity.Mathematics
     [Il2CppEagerStaticClassConstruction]
     public struct bool2x2 : IEquatable<bool2x2>
     {
-
         public bool2 c0;
         public bool2 c1;
 

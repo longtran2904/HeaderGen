@@ -6,7 +6,6 @@ namespace System
 {
     public readonly struct Guid : IComparable, IComparable<Guid>, IEquatable<Guid>, IFormattable, IParsable<Guid>, ISpanFormattable, ISpanParsable<Guid>, IUtf8SpanFormattable
     {
-
         public static readonly Guid Empty;
 
         public Guid(byte[] b);

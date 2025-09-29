@@ -7,7 +7,6 @@ namespace System.Runtime.Intrinsics.X86
     [CLSCompliant(False)]
     public abstract class Avx2 : Avx
     {
-
         public static bool IsSupported { get; }
 
         public static Vector256<byte> Abs(Vector256<sbyte> value);
@@ -403,9 +402,9 @@ namespace System.Runtime.Intrinsics.X86
         public static Vector256<uint> Xor(Vector256<uint> left, Vector256<uint> right);
         public static Vector256<long> Xor(Vector256<long> left, Vector256<long> right);
         public static Vector256<ulong> Xor(Vector256<ulong> left, Vector256<ulong> right);
+
         public abstract class X64 : Avx.X64
         {
-
             public static bool IsSupported { get; }
         }
     }

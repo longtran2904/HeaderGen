@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public sealed class FunctionPointerType : TypeSpecification, IMethodSignature
     {
-
         public FunctionPointerType();
 
         public bool HasThis { get; set; }

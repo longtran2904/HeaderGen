@@ -11,7 +11,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Mono/GameObjectUtility.bindings.h")]
     public sealed class GameObjectUtility
     {
-
         public GameObjectUtility();
 
         public static StaticEditorFlags GetStaticEditorFlags(GameObject go);

@@ -9,7 +9,6 @@ namespace UnityEngineInternal
     [AttributeUsage(AttributeTargets.Method)]
     public class TypeInferenceRuleAttribute : Attribute
     {
-
         public TypeInferenceRuleAttribute(TypeInferenceRules rule);
         public TypeInferenceRuleAttribute(string rule);
 

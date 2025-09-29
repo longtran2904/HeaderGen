@@ -11,7 +11,6 @@ namespace UnityEditor.Tilemaps
     [MovedFrom(True, "UnityEditor", "UnityEditor", null)]
     public class GridBrushEditorBase : Editor
     {
-
         public GridBrushEditorBase();
 
         public virtual bool canChangeZPosition { get; set; }

@@ -6,7 +6,6 @@ namespace System.Diagnostics
 {
     public class Stopwatch
     {
-
         public static readonly long Frequency;
         public static readonly bool IsHighResolution;
 

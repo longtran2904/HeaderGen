@@ -9,19 +9,17 @@ namespace UnityEditor.UIElements
 {
     public class ToolbarButton : Button
     {
-
         public static readonly string ussClassName;
 
         public ToolbarButton(Action clickEvent);
         public ToolbarButton();
+
         public class UxmlFactory : UxmlFactory<ToolbarButton, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : Button.UxmlTraits
         {
-
             public UxmlTraits();
         }
     }

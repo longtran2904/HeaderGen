@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public enum BuiltinShaderDefine
     {
-
         UNITY_NO_DXT5nm = 0,
         UNITY_NO_RGBM = 1,
         UNITY_USE_NATIVE_HDR = 2,

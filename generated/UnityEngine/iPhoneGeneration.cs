@@ -11,7 +11,6 @@ namespace UnityEngine
     [Obsolete("iPhoneGeneration enumeration is deprecated. Please use iOS.DeviceGeneration instead (UnityUpgradable) -> UnityEngine.iOS.DeviceGeneration", True)]
     public enum iPhoneGeneration
     {
-
         Unknown = 0,
         iPhone = 1,
         iPhone3G = 2,

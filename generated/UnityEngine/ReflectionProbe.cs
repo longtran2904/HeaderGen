@@ -13,7 +13,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Camera/ReflectionProbes.h")]
     public sealed class ReflectionProbe : Behaviour
     {
-
         public ReflectionProbe();
 
         [EditorBrowsable(EditorBrowsableState.Never)]
@@ -76,9 +75,9 @@ namespace UnityEngine
         [NativeMethod("UpdateSampleData")]
         [StaticAccessor("GetReflectionProbes()")]
         public static void UpdateCachedState();
+
         public enum ReflectionProbeEvent
         {
-
             ReflectionProbeAdded = 0,
             ReflectionProbeRemoved = 1
         }

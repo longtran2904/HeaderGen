@@ -6,7 +6,6 @@ namespace Mono.Cecil.Cil
 {
     public sealed class ExceptionHandler
     {
-
         public ExceptionHandler(ExceptionHandlerType handlerType);
 
         public Instruction TryStart { get; set; }

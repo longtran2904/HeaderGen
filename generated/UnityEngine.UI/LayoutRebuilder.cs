@@ -6,7 +6,6 @@ namespace UnityEngine.UI
 {
     public class LayoutRebuilder : ICanvasElement
     {
-
         public LayoutRebuilder();
 
         public Transform transform { get; }

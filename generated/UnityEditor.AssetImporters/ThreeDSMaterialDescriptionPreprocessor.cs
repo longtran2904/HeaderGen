@@ -10,7 +10,6 @@ namespace UnityEditor.AssetImporters
     [MovedFrom("UnityEditor.Experimental.AssetImporters")]
     public class ThreeDSMaterialDescriptionPreprocessor : AssetPostprocessor
     {
-
         public ThreeDSMaterialDescriptionPreprocessor();
 
         public override uint GetVersion();

@@ -7,7 +7,6 @@ namespace System.Runtime.CompilerServices
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Parameter, Inherited = False)]
     public abstract class CustomConstantAttribute : Attribute
     {
-
         protected CustomConstantAttribute();
 
         public abstract object Value { get; }

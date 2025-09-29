@@ -7,7 +7,6 @@ namespace UnityEngine
     [RequireComponent(typeof(AudioBehaviour))]
     public sealed class AudioDistortionFilter : Behaviour
     {
-
         public AudioDistortionFilter();
 
         public float distortionLevel { get; set; }

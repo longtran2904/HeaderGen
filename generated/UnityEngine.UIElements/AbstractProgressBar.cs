@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public abstract class AbstractProgressBar : BindableElement, INotifyValueChanged<float>
     {
-
         public static readonly string ussClassName;
         public static readonly string containerUssClassName;
         public static readonly string titleUssClassName;
@@ -22,9 +21,9 @@ namespace UnityEngine.UIElements
         public virtual float value { get; set; }
 
         public void SetValueWithoutNotify(float newValue);
+
         public class UxmlTraits : BindableElement.UxmlTraits
         {
-
             public UxmlTraits();
 
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc);

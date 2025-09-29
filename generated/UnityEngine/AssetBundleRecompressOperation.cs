@@ -11,7 +11,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public class AssetBundleRecompressOperation : AsyncOperation
     {
-
         public AssetBundleRecompressOperation();
 
         public string humanReadableResult { get; }

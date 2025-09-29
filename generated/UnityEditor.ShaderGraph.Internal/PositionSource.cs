@@ -6,7 +6,6 @@ namespace UnityEditor.ShaderGraph.Internal
 {
     public enum PositionSource
     {
-
         Default = 0,
         Predisplacement = 1
     }

@@ -9,7 +9,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Mono/Unwrapping.bindings.h")]
     public struct UnwrapParam
     {
-
         public float angleError;
         public float areaError;
         public float hardAngle;

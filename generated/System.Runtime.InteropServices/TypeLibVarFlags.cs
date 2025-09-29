@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [Flags]
     public enum TypeLibVarFlags
     {
-
         FReadOnly = 1,
         FSource = 2,
         FBindable = 4,

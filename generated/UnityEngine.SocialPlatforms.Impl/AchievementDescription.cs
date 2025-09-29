@@ -6,7 +6,6 @@ namespace UnityEngine.SocialPlatforms.Impl
 {
     public class AchievementDescription : IAchievementDescription
     {
-
         public AchievementDescription(string id, string title, Texture2D image, string achievedDescription, string unachievedDescription, bool hidden, int points);
 
         public string id { get; set; }

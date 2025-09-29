@@ -9,7 +9,6 @@ namespace UnityEditor.Experimental.GraphView
     [Flags]
     public enum ResizerDirection
     {
-
         Top = 1,
         Bottom = 2,
         Left = 4,

@@ -9,7 +9,6 @@ namespace UnityEditor
     [Flags]
     public enum MeshOptimizationFlags
     {
-
         PolygonOrder = 1,
         VertexOrder = 2,
         Everything = -1

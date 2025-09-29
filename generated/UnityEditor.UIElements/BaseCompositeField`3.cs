@@ -8,7 +8,6 @@ namespace UnityEditor.UIElements
 {
     public abstract class BaseCompositeField<TValueType, TField, TFieldValue> : BaseField<TValueType> where TField : TextValueField<TFieldValue>, new()
     {
-
         public static readonly string ussClassName;
         public static readonly string labelUssClassName;
         public static readonly string inputUssClassName;

@@ -9,7 +9,6 @@ namespace UnityEditor.MPE
     [MovedFrom("Unity.MPE")]
     public enum EventDataSerialization
     {
-
         StandardJson = 0,
         JsonUtility = 1
     }

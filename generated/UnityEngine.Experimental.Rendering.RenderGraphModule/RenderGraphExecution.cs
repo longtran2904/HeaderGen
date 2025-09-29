@@ -8,7 +8,6 @@ namespace UnityEngine.Experimental.Rendering.RenderGraphModule
 {
     public struct RenderGraphExecution : IDisposable
     {
-
         public void Dispose();
     }
 }

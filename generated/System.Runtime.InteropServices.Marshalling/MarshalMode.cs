@@ -6,7 +6,6 @@ namespace System.Runtime.InteropServices.Marshalling
 {
     public enum MarshalMode
     {
-
         Default = 0,
         ManagedToUnmanagedIn = 1,
         ManagedToUnmanagedRef = 2,

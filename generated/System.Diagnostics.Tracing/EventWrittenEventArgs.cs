@@ -8,7 +8,6 @@ namespace System.Diagnostics.Tracing
 {
     public class EventWrittenEventArgs : EventArgs
     {
-
         public string EventName { get; }
         public int EventId { get; }
         public Guid ActivityId { get; }

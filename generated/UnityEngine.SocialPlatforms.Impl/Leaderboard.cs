@@ -8,7 +8,6 @@ namespace UnityEngine.SocialPlatforms.Impl
 {
     public class Leaderboard : ILeaderboard
     {
-
         public Leaderboard();
 
         public bool loading { get; }

@@ -9,7 +9,6 @@ namespace System
 {
     public class DllNotFoundException : TypeLoadException
     {
-
         public DllNotFoundException();
         public DllNotFoundException(string message);
         public DllNotFoundException(string message, Exception inner);

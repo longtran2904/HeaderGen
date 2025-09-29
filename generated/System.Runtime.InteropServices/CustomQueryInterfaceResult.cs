@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices
     [EditorBrowsable(EditorBrowsableState.Never)]
     public enum CustomQueryInterfaceResult
     {
-
         Handled = 0,
         NotHandled = 1,
         Failed = 2

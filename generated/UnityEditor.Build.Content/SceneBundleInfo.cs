@@ -13,7 +13,6 @@ namespace UnityEditor.Build.Content
     [UsedByNativeCode]
     public class SceneBundleInfo
     {
-
         public SceneBundleInfo();
 
         public string bundleName { get; set; }

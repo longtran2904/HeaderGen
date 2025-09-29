@@ -7,7 +7,6 @@ namespace UnityEngine.Recorder
     [ExecuteInEditMode]
     public class RecorderBindings : MonoBehaviour
     {
-
         public RecorderBindings();
 
         public void SetBindingValue(string id, Object value);

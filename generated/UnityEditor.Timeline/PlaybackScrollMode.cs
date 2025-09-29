@@ -6,7 +6,6 @@ namespace UnityEditor.Timeline
 {
     public enum PlaybackScrollMode
     {
-
         None = 0,
         Pan = 1,
         Smooth = 2

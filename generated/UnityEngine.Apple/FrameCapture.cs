@@ -10,7 +10,6 @@ namespace UnityEngine.Apple
     [NativeHeader("Runtime/Export/Apple/FrameCaptureMetalScriptBindings.h")]
     public class FrameCapture
     {
-
         public static bool IsDestinationSupported(FrameCaptureDestination dest);
         public static void BeginCaptureToXcode();
         public static void BeginCaptureToFile(string path);

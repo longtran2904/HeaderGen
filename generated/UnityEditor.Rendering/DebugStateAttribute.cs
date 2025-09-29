@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering
 {
     public sealed class DebugStateAttribute : Attribute
     {
-
         public DebugStateAttribute(params Type[] types);
     }
 }

@@ -6,7 +6,6 @@ namespace TMPro
 {
     public struct TMP_LineInfo
     {
-
         public int characterCount;
         public int visibleCharacterCount;
         public int spaceCount;

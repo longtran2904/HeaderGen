@@ -10,7 +10,6 @@ namespace UnityEditor.Build.Reporting
     [NativeType(Header = "Modules/BuildReportingEditor/Managed/BuildSummary.bindings.h", CodegenOptions = CodegenOptions.Custom)]
     public struct BuildSummary
     {
-
         public DateTime buildStartedAt { get; }
         [NativeName("buildGUID")]
         public GUID guid { get; }

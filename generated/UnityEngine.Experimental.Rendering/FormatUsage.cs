@@ -6,7 +6,6 @@ namespace UnityEngine.Experimental.Rendering
 {
     public enum FormatUsage
     {
-
         Sample = 0,
         Linear = 1,
         Sparse = 2,

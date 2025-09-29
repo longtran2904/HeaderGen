@@ -20,7 +20,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Graphics/GraphicsScriptBindings.h")]
     public class Graphics
     {
-
         public Graphics();
 
         public static ColorGamut activeColorGamut { get; }

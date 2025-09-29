@@ -9,7 +9,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public struct GraphViewChange
     {
-
         public List<GraphElement> elementsToRemove;
         public List<Edge> edgesToCreate;
         public List<GraphElement> movedElements;

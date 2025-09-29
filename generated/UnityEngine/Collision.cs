@@ -13,7 +13,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public class Collision
     {
-
         public Collision();
 
         public Vector3 relativeVelocity { get; }

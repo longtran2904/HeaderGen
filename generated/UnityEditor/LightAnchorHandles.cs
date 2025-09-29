@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public class LightAnchorHandles
     {
-
         public LightAnchorHandles(LightAnchor target);
 
         public Vector3 lightPosition { get; set; }

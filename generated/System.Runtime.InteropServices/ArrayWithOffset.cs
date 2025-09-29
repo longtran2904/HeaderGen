@@ -6,7 +6,6 @@ namespace System.Runtime.InteropServices
 {
     public readonly struct ArrayWithOffset : IEquatable<ArrayWithOffset>
     {
-
         public ArrayWithOffset(object array, int offset);
 
         public object GetArray();

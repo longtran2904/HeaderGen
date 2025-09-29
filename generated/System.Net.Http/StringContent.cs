@@ -12,7 +12,6 @@ namespace System.Net.Http
 {
     public class StringContent : ByteArrayContent
     {
-
         public StringContent(string content);
         public StringContent(string content, MediaTypeHeaderValue mediaType);
         public StringContent(string content, Encoding encoding);

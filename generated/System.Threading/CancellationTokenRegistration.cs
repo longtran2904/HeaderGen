@@ -8,7 +8,6 @@ namespace System.Threading
 {
     public readonly struct CancellationTokenRegistration : IAsyncDisposable, IDisposable, IEquatable<CancellationTokenRegistration>
     {
-
         public CancellationToken Token { get; }
 
         public void Dispose();

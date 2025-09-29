@@ -10,7 +10,6 @@ namespace UnityEditor.Build
 {
     public interface IPreprocessComputeShaders : IOrderedCallback
     {
-
         void OnProcessComputeShader(ComputeShader shader, string kernelName, IList<ShaderCompilerData> data);
     }
 }

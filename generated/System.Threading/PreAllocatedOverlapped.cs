@@ -6,7 +6,6 @@ namespace System.Threading
 {
     public sealed class PreAllocatedOverlapped : IDeferredDisposable, IDisposable
     {
-
         [CLSCompliant(False)]
         public PreAllocatedOverlapped(IOCompletionCallback callback, object state, object pinData);
 

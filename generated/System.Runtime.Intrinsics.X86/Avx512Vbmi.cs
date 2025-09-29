@@ -7,16 +7,15 @@ namespace System.Runtime.Intrinsics.X86
     [CLSCompliant(False)]
     public abstract class Avx512Vbmi : Avx512BW
     {
-
         public static bool IsSupported { get; }
 
         public static Vector512<sbyte> PermuteVar64x8(Vector512<sbyte> left, Vector512<sbyte> control);
         public static Vector512<byte> PermuteVar64x8(Vector512<byte> left, Vector512<byte> control);
         public static Vector512<byte> PermuteVar64x8x2(Vector512<byte> lower, Vector512<byte> indices, Vector512<byte> upper);
         public static Vector512<sbyte> PermuteVar64x8x2(Vector512<sbyte> lower, Vector512<sbyte> indices, Vector512<sbyte> upper);
+
         public abstract class VL : Avx512BW.VL
         {
-
             public static bool IsSupported { get; }
 
             public static Vector128<sbyte> PermuteVar16x8(Vector128<sbyte> left, Vector128<sbyte> control);
@@ -30,7 +29,6 @@ namespace System.Runtime.Intrinsics.X86
         }
         public abstract class X64 : Avx512BW.X64
         {
-
             public static bool IsSupported { get; }
         }
     }

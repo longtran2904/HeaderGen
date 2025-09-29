@@ -8,7 +8,6 @@ namespace TMPro
 {
     public class TMP_SpriteAssetImporter : EditorWindow
     {
-
         public TMP_SpriteAssetImporter();
 
         [MenuItem("Window/TextMeshPro/Sprite Importer", False, 2026)]

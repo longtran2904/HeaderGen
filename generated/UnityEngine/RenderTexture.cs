@@ -19,7 +19,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public class RenderTexture : Texture
     {
-
         [RequiredByNativeCode]
         protected internal RenderTexture();
         public RenderTexture(RenderTextureDescriptor desc);

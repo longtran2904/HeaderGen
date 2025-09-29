@@ -15,7 +15,6 @@ namespace UnityEngine.XR
     [UsedByNativeCode]
     public class InputDevices
     {
-
         public InputDevices();
 
         public static event Action<InputDevice> deviceConnected;

@@ -9,7 +9,6 @@ namespace System.Runtime.Intrinsics.X86
     [CLSCompliant(False)]
     public abstract class X86Base
     {
-
         public static bool IsSupported { get; }
 
         public static (int Eax, int Ebx, int Ecx, int Edx) CpuId(int functionId, int subFunctionId);
@@ -22,9 +21,9 @@ namespace System.Runtime.Intrinsics.X86
         [RequiresPreviewFeatures("DivRem is in preview.")]
         public static (nint Quotient, nint Remainder) DivRem(nuint lower, nint upper, nint divisor);
         public static void Pause();
+
         public abstract class X64
         {
-
             public static bool IsSupported { get; }
 
             [RequiresPreviewFeatures("DivRem is in preview.")]

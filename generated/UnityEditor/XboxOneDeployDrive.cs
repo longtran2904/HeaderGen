@@ -9,7 +9,6 @@ namespace UnityEditor
     [NativeType(Header = "Runtime/Serialize/BuildTarget.h")]
     public enum XboxOneDeployDrive
     {
-
         Default = 0,
         Retail = 1,
         Development = 2,

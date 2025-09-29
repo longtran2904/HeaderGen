@@ -8,7 +8,6 @@ namespace UnityEngine.SocialPlatforms.Impl
 {
     public class LocalUser : UserProfile, ILocalUser
     {
-
         public LocalUser();
 
         public IUserProfile[] friends { get; }

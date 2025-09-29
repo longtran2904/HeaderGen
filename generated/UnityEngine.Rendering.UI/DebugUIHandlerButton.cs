@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering.UI
 {
     public class DebugUIHandlerButton : DebugUIHandlerWidget
     {
-
         public Text nameLabel;
 
         public DebugUIHandlerButton();

@@ -7,7 +7,6 @@ namespace System
     [Flags]
     public enum AttributeTargets
     {
-
         Assembly = 1,
         Module = 2,
         Class = 4,

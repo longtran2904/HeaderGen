@@ -6,7 +6,6 @@ namespace Mono.Cecil.Cil
 {
     public enum OperandType
     {
-
         InlineBrTarget = 0,
         InlineField = 1,
         InlineI = 2,

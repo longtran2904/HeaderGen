@@ -8,7 +8,6 @@ namespace UnityEngine.SocialPlatforms.Impl
 {
     public class Score : IScore
     {
-
         public Score();
         public Score(string leaderboardID, long value);
         public Score(string leaderboardID, long value, string userID, DateTime date, string formattedValue, int rank);

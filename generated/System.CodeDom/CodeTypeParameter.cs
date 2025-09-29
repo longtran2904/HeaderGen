@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeTypeParameter : CodeObject
     {
-
         public CodeTypeParameter();
         public CodeTypeParameter(string name);
 

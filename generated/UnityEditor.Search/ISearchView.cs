@@ -9,7 +9,6 @@ namespace UnityEditor.Search
 {
     public interface ISearchView : IDisposable
     {
-
         SearchSelection selection { get; }
         ISearchList results { get; }
         SearchContext context { get; }

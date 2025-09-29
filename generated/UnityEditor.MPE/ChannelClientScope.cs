@@ -10,7 +10,6 @@ namespace UnityEditor.MPE
     [MovedFrom("Unity.MPE")]
     public struct ChannelClientScope : IDisposable
     {
-
         public ChannelClientScope(bool autoTick, string channelName, Action<string> handler, bool closeClientOnExit = True);
         public ChannelClientScope(bool autoTick, string channelName, Action<byte[]> handler, bool closeClientOnExit = True);
 

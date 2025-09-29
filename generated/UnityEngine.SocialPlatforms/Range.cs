@@ -6,7 +6,6 @@ namespace UnityEngine.SocialPlatforms
 {
     public struct Range
     {
-
         public int from;
         public int count;
 

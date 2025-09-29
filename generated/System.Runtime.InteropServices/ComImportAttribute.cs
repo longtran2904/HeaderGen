@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Interface, Inherited = False)]
     public sealed class ComImportAttribute : Attribute
     {
-
         public ComImportAttribute();
     }
 }

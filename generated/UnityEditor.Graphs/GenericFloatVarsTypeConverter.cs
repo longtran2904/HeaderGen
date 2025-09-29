@@ -10,7 +10,6 @@ namespace UnityEditor.Graphs
 {
     public class GenericFloatVarsTypeConverter : GraphsTypeConverter
     {
-
         public GenericFloatVarsTypeConverter(Type type, params string[] varNames);
 
         public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type destinationType);

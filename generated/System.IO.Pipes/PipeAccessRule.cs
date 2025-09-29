@@ -9,7 +9,6 @@ namespace System.IO.Pipes
 {
     public sealed class PipeAccessRule : AccessRule
     {
-
         public PipeAccessRule(string identity, PipeAccessRights rights, AccessControlType type);
         public PipeAccessRule(IdentityReference identity, PipeAccessRights rights, AccessControlType type);
 

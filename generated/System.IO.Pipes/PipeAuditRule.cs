@@ -9,7 +9,6 @@ namespace System.IO.Pipes
 {
     public sealed class PipeAuditRule : AuditRule
     {
-
         public PipeAuditRule(IdentityReference identity, PipeAccessRights rights, AuditFlags flags);
         public PipeAuditRule(string identity, PipeAccessRights rights, AuditFlags flags);
 

@@ -8,7 +8,6 @@ namespace TMPro
 {
     public static class TMP_FontAsset_CreationMenu
     {
-
         [MenuItem("Assets/Create/TextMeshPro/Font Asset Variant", False, 105)]
         public static void CreateFontAssetVariant();
         [MenuItem("Assets/Create/TextMeshPro/Font Asset #%F12", False, 100)]

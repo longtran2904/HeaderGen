@@ -7,7 +7,6 @@ namespace System.Diagnostics.CodeAnalysis
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Constructor | AttributeTargets.Method, Inherited = False)]
     public sealed class RequiresDynamicCodeAttribute : Attribute
     {
-
         public RequiresDynamicCodeAttribute(string message);
 
         public string Message { get; }

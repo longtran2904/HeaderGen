@@ -8,7 +8,6 @@ namespace UnityEngine.Windows
 {
     public static class File
     {
-
         [NativeHeader("PlatformDependent/MetroPlayer/Bindings/WindowsFileBindings.h")]
         public static byte[] ReadAllBytes(string path);
         [NativeHeader("PlatformDependent/MetroPlayer/Bindings/WindowsFileBindings.h")]

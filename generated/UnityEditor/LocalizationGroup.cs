@@ -9,7 +9,6 @@ namespace UnityEditor
 {
     public class LocalizationGroup : IDisposable
     {
-
         public LocalizationGroup();
         public LocalizationGroup(Behaviour behaviour);
         public LocalizationGroup(Type type);

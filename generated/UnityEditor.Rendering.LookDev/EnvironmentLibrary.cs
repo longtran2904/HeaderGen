@@ -12,7 +12,6 @@ namespace UnityEditor.Rendering.LookDev
     [DefaultMember("Item")]
     public class EnvironmentLibrary : ScriptableObject
     {
-
         public EnvironmentLibrary();
 
         public Environment this[int index] { get; }

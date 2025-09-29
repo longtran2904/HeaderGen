@@ -10,7 +10,6 @@ namespace UnityEditor.Rendering
     [DebugState(new[] {typeof(DebugUI.BitField) })]
     public sealed class DebugStateFlags : DebugState<Enum>
     {
-
         public DebugStateFlags();
 
         public override Enum value { get; set; }

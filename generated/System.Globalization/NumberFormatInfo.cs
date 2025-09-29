@@ -6,7 +6,6 @@ namespace System.Globalization
 {
     public sealed class NumberFormatInfo : ICloneable, IFormatProvider
     {
-
         public NumberFormatInfo();
 
         public static NumberFormatInfo InvariantInfo { get; }

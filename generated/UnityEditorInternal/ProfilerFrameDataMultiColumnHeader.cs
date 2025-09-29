@@ -9,7 +9,6 @@ namespace UnityEditorInternal
 {
     public class ProfilerFrameDataMultiColumnHeader : MultiColumnHeader
     {
-
         public ProfilerFrameDataMultiColumnHeader(MultiColumnHeaderState state, Column[] columns);
 
         public Column[] columns { get; }
@@ -19,9 +18,9 @@ namespace UnityEditorInternal
         public int GetMultiColumnHeaderIndex(int profilerColumn);
         public static int GetMultiColumnHeaderIndex(Column[] columns, int profilerColumn);
         public int GetProfilerColumn(int multiColumnHeaderIndex);
+
         public struct Column
         {
-
             public int profilerColumn;
             public GUIContent headerLabel;
         }

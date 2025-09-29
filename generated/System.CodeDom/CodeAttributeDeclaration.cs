@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeAttributeDeclaration
     {
-
         public CodeAttributeDeclaration();
         public CodeAttributeDeclaration(string name);
         public CodeAttributeDeclaration(string name, params CodeAttributeArgument[] arguments);

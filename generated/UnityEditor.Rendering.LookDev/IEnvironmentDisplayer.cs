@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering.LookDev
 {
     public interface IEnvironmentDisplayer
     {
-
         event Action<EnvironmentLibrary> OnChangingEnvironmentLibrary;
 
         void Repaint();

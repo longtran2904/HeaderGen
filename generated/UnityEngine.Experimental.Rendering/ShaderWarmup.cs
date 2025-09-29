@@ -9,7 +9,6 @@ namespace UnityEngine.Experimental.Rendering
     [NativeHeader("Runtime/Graphics/ShaderScriptBindings.h")]
     public static class ShaderWarmup
     {
-
         [FreeFunction(Name = "ShaderWarmupScripting::WarmupShader")]
         public static void WarmupShader(Shader shader, ShaderWarmupSetup setup);
         [FreeFunction(Name = "ShaderWarmupScripting::WarmupShaderFromCollection")]

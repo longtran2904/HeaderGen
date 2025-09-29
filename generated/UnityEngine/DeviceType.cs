@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum DeviceType
     {
-
         Unknown = 0,
         Handheld = 1,
         Console = 2,

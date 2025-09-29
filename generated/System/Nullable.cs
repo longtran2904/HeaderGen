@@ -6,7 +6,6 @@ namespace System
 {
     public static class Nullable
     {
-
         public static int Compare<T>(T? n1, T? n2) where T : struct;
         public static bool Equals<T>(T? n1, T? n2) where T : struct;
         public static Type GetUnderlyingType(Type nullableType);

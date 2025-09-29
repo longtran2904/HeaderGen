@@ -10,7 +10,6 @@ namespace UnityEditor
     [CustomEditor(typeof(AdvancedRuleOverrideTile))]
     public class AdvancedRuleOverrideTileEditor : RuleOverrideTileEditor
     {
-
         public AdvancedRuleOverrideTileEditor();
 
         public AdvancedRuleOverrideTile overrideTile { get; }

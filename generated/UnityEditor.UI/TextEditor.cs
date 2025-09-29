@@ -10,7 +10,6 @@ namespace UnityEditor.UI
     [CustomEditor(typeof(Text), True)]
     public class TextEditor : GraphicEditor
     {
-
         public TextEditor();
 
         protected override void OnEnable();

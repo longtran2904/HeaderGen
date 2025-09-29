@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices.Marshalling
     [CLSCompliant(False)]
     public interface IUnmanagedVirtualMethodTableProvider
     {
-
         VirtualMethodTableInfo GetVirtualMethodTableInfoForKey(Type type);
     }
 }

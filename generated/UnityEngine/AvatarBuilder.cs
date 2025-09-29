@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Animation/ScriptBindings/AvatarBuilder.bindings.h")]
     public class AvatarBuilder
     {
-
         public AvatarBuilder();
 
         public static Avatar BuildHumanAvatar(GameObject go, HumanDescription humanDescription);

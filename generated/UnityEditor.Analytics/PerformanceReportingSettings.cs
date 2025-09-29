@@ -10,7 +10,6 @@ namespace UnityEditor.Analytics
     [StaticAccessor("GetPerformanceReportingSettings()", StaticAccessorType.Dot)]
     public static class PerformanceReportingSettings
     {
-
         public static bool enabled { get; set; }
     }
 }

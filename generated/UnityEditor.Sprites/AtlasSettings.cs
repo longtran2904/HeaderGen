@@ -8,7 +8,6 @@ namespace UnityEditor.Sprites
 {
     public struct AtlasSettings
     {
-
         public TextureFormat format;
         public ColorSpace colorSpace;
         public int compressionQuality;

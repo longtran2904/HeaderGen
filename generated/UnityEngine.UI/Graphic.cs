@@ -16,7 +16,6 @@ namespace UnityEngine.UI
     [RequireComponent(typeof(RectTransform))]
     public abstract class Graphic : UIBehaviour, ICanvasElement
     {
-
         [FormerlySerializedAs("m_Mat")]
         [SerializeField]
         protected Material m_Material;

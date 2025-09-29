@@ -16,7 +16,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public sealed class AvatarMask : Object
     {
-
         public AvatarMask();
 
         [Obsolete("AvatarMask.humanoidBodyPartCount is deprecated, use AvatarMaskBodyPart.LastBodyPart instead.")]

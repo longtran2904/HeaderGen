@@ -12,7 +12,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public class BoxCollider : Collider
     {
-
         public BoxCollider();
 
         public Vector3 center { get; set; }

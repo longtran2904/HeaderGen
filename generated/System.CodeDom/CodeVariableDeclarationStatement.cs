@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeVariableDeclarationStatement : CodeStatement
     {
-
         public CodeVariableDeclarationStatement();
         public CodeVariableDeclarationStatement(CodeTypeReference type, string name);
         public CodeVariableDeclarationStatement(string type, string name);

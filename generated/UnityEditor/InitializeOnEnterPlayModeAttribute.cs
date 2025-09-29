@@ -11,7 +11,6 @@ namespace UnityEditor
     [RequiredByNativeCode]
     public class InitializeOnEnterPlayModeAttribute : Attribute
     {
-
         public InitializeOnEnterPlayModeAttribute();
     }
 }

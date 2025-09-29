@@ -6,7 +6,6 @@ namespace UnityEditorInternal
 {
     public sealed class ObjectMemoryInfo
     {
-
         public int instanceId;
         public long memorySize;
         public int count;

@@ -9,7 +9,6 @@ namespace UnityEditor.Search
     [AttributeUsage(AttributeTargets.Method)]
     public class SearchActionsProviderAttribute : Attribute
     {
-
         public SearchActionsProviderAttribute();
     }
 }

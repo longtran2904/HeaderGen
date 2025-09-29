@@ -12,7 +12,6 @@ namespace UnityEditor.VersionControl
     [UsedByNativeCode]
     public class ChangeSet
     {
-
         public static string defaultID;
 
         public ChangeSet();

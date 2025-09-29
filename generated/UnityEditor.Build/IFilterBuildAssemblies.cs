@@ -6,7 +6,6 @@ namespace UnityEditor.Build
 {
     public interface IFilterBuildAssemblies : IOrderedCallback
     {
-
         string[] OnFilterAssemblies(BuildOptions buildOptions, string[] assemblies);
     }
 }

@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices
 {
     public class SEHException : ExternalException
     {
-
         public SEHException();
         public SEHException(string message);
         public SEHException(string message, Exception inner);

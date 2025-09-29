@@ -9,7 +9,6 @@ namespace UnityEngine.TestRunner
     [AttributeUsage(AttributeTargets.Assembly)]
     public class TestRunCallbackAttribute : Attribute
     {
-
         public TestRunCallbackAttribute(Type type);
     }
 }

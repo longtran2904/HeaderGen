@@ -14,7 +14,6 @@ namespace UnityEditor
     [StaticAccessor("MeshUtility", StaticAccessorType.DoubleColon)]
     public class MeshUtility
     {
-
         public MeshUtility();
 
         public static void Optimize(Mesh mesh);

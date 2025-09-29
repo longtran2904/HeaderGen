@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public sealed class CallSite : IMetadataTokenProvider, IMethodSignature
     {
-
         public CallSite(TypeReference returnType);
 
         public bool HasThis { get; set; }

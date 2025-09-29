@@ -6,7 +6,6 @@ namespace System.Buffers
 {
     public abstract class ArrayPool<T>
     {
-
         protected ArrayPool();
 
         public static ArrayPool<T> Shared { get; }

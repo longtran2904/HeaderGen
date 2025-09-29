@@ -12,7 +12,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public struct Color32 : IFormattable
     {
-
         public byte r;
         public byte g;
         public byte b;

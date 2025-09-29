@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Export/Math/ColorUtility.bindings.h")]
     public class ColorUtility
     {
-
         public ColorUtility();
 
         public static bool TryParseHtmlString(string htmlString, out Color color);

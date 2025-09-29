@@ -8,7 +8,6 @@ namespace UnityEngine.UI
 {
     public struct Navigation : IEquatable<Navigation>
     {
-
         public Mode mode { get; set; }
         public bool wrapAround { get; set; }
         public Selectable selectOnUp { get; set; }
@@ -18,10 +17,10 @@ namespace UnityEngine.UI
         public static Navigation defaultNavigation { get; }
 
         public bool Equals(Navigation other);
+
         [Flags]
         public enum Mode
         {
-
             None = 0,
             Horizontal = 1,
             Vertical = 2,

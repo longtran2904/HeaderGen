@@ -8,7 +8,6 @@ namespace System.Security.AccessControl
 {
     public sealed class RawSecurityDescriptor : GenericSecurityDescriptor
     {
-
         public RawSecurityDescriptor(ControlFlags flags, SecurityIdentifier owner, SecurityIdentifier group, RawAcl systemAcl, RawAcl discretionaryAcl);
         public RawSecurityDescriptor(string sddlForm);
         public RawSecurityDescriptor(byte[] binaryForm, int offset);

@@ -6,7 +6,6 @@ namespace Unity.MemoryProfiler.Editor.Format.QueriedSnapshot
 {
     public enum EntryType
     {
-
         Metadata_Version = 0,
         Metadata_RecordDate = 1,
         Metadata_UserMetadata = 2,

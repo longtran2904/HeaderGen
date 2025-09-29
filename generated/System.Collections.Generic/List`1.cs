@@ -10,7 +10,6 @@ namespace System.Collections.Generic
     [DefaultMember("Item")]
     public class List<T> : ICollection, ICollection<T>, IEnumerable, IEnumerable<T>, IList, IList<T>, IReadOnlyCollection<T>, IReadOnlyList<T>
     {
-
         public List();
         public List(int capacity);
         public List(IEnumerable<T> collection);
@@ -67,9 +66,9 @@ namespace System.Collections.Generic
         public T[] ToArray();
         public void TrimExcess();
         public bool TrueForAll(Predicate<T> match);
+
         public struct Enumerator : IDisposable, IEnumerator, IEnumerator<T>
         {
-
             public T Current { get; }
 
             public void Dispose();

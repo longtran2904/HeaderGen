@@ -16,7 +16,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public class MonoBehaviour : Behaviour
     {
-
         public MonoBehaviour();
 
         public bool useGUILayout { get; set; }

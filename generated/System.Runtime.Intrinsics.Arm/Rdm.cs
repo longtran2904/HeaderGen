@@ -7,7 +7,6 @@ namespace System.Runtime.Intrinsics.Arm
     [CLSCompliant(False)]
     public abstract class Rdm : AdvSimd
     {
-
         public static bool IsSupported { get; }
 
         public static Vector64<short> MultiplyRoundedDoublingAndAddSaturateHigh(Vector64<short> addend, Vector64<short> left, Vector64<short> right);
@@ -34,9 +33,9 @@ namespace System.Runtime.Intrinsics.Arm
         public static Vector128<short> MultiplyRoundedDoublingBySelectedScalarAndSubtractSaturateHigh(Vector128<short> minuend, Vector128<short> left, Vector128<short> right, byte rightIndex);
         public static Vector128<int> MultiplyRoundedDoublingBySelectedScalarAndSubtractSaturateHigh(Vector128<int> minuend, Vector128<int> left, Vector64<int> right, byte rightIndex);
         public static Vector128<int> MultiplyRoundedDoublingBySelectedScalarAndSubtractSaturateHigh(Vector128<int> minuend, Vector128<int> left, Vector128<int> right, byte rightIndex);
+
         public abstract class Arm64 : AdvSimd.Arm64
         {
-
             public static bool IsSupported { get; }
 
             public static Vector64<short> MultiplyRoundedDoublingAndAddSaturateHighScalar(Vector64<short> addend, Vector64<short> left, Vector64<short> right);

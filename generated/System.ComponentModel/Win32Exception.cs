@@ -9,7 +9,6 @@ namespace System.ComponentModel
 {
     public class Win32Exception : ExternalException
     {
-
         public Win32Exception();
         public Win32Exception(int error);
         public Win32Exception(int error, string message);

@@ -11,7 +11,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public abstract class GraphView : VisualElement, ISelection
     {
-
         public UQueryState<Port> ports;
 
         protected GraphView();
@@ -96,9 +95,9 @@ namespace UnityEditor.Experimental.GraphView
         public virtual Blackboard GetBlackboard();
         public virtual void ReleaseBlackboard(Blackboard toRelease);
         protected virtual PlacematContainer CreatePlacematContainer();
+
         public class Layer : VisualElement
         {
-
             public Layer();
         }
         public delegate GraphViewChange GraphViewChanged(GraphViewChange graphViewChange);
@@ -106,14 +105,12 @@ namespace UnityEditor.Experimental.GraphView
         public delegate void ViewTransformChanged(GraphView graphView);
         public enum FrameType
         {
-
             All = 0,
             Selection = 1,
             Origin = 2
         }
         public enum AskUser
         {
-
             AskUser = 0,
             DontAskUser = 1
         }

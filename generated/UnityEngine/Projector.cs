@@ -11,7 +11,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Camera/Projector.h")]
     public sealed class Projector : Behaviour
     {
-
         public Projector();
 
         [EditorBrowsable(EditorBrowsableState.Never)]

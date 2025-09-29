@@ -8,7 +8,6 @@ namespace System.Security.AccessControl
 {
     public class AuditRule<T> : AuditRule where T : struct
     {
-
         public AuditRule(IdentityReference identity, T rights, AuditFlags flags);
         public AuditRule(IdentityReference identity, T rights, InheritanceFlags inheritanceFlags, PropagationFlags propagationFlags, AuditFlags flags);
         public AuditRule(string identity, T rights, AuditFlags flags);

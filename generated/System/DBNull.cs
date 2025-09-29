@@ -9,7 +9,6 @@ namespace System
 {
     public sealed class DBNull : IConvertible, ISerializable
     {
-
         public static readonly DBNull Value;
 
         [EditorBrowsable(EditorBrowsableState.Never)]

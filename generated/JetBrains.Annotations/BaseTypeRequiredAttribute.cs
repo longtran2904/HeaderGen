@@ -10,7 +10,6 @@ namespace JetBrains.Annotations
     [BaseTypeRequired(typeof(Attribute))]
     public sealed class BaseTypeRequiredAttribute : Attribute
     {
-
         public BaseTypeRequiredAttribute([NotNull] Type baseType);
 
         [NotNull]

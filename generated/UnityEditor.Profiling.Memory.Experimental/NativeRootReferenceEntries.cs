@@ -6,7 +6,6 @@ namespace UnityEditor.Profiling.Memory.Experimental
 {
     public class NativeRootReferenceEntries
     {
-
         public ArrayEntries<long> id { get; }
         public ArrayEntries<string> areaName { get; }
         public ArrayEntries<string> objectName { get; }

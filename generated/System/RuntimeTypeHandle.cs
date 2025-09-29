@@ -9,7 +9,6 @@ namespace System
 {
     public struct RuntimeTypeHandle : IEquatable<RuntimeTypeHandle>, ISerializable
     {
-
         public nint Value { get; }
 
         public static RuntimeTypeHandle FromIntPtr(nint value);

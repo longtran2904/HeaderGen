@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public abstract class MaterialPropertyDrawer
     {
-
         protected MaterialPropertyDrawer();
 
         public virtual void OnGUI(Rect position, MaterialProperty prop, GUIContent label, MaterialEditor editor);

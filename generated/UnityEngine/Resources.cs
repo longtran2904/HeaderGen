@@ -15,7 +15,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Export/Resources/Resources.bindings.h")]
     public sealed class Resources
     {
-
         public Resources();
 
         public static Object[] FindObjectsOfTypeAll(Type type);

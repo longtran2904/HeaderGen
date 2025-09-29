@@ -12,7 +12,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Src/Animation/AnimationUtility.bindings.h")]
     public class AnimationUtility
     {
-
         public static OnCurveWasModified onCurveWasModified;
 
         public AnimationUtility();
@@ -81,16 +80,15 @@ namespace UnityEditor
         public static void StopAnimationMode();
         [Obsolete("SetAnimationType is no longer supported.")]
         public static void SetAnimationType(AnimationClip clip, ModelImporterAnimationType type);
+
         public enum CurveModifiedType
         {
-
             CurveDeleted = 0,
             CurveModified = 1,
             ClipModified = 2
         }
         public enum TangentMode
         {
-
             Free = 0,
             Auto = 1,
             Linear = 2,

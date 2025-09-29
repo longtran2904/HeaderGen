@@ -8,7 +8,6 @@ namespace UnityEngine
 {
     public abstract class SubsystemDescriptor : ISubsystemDescriptor
     {
-
         protected SubsystemDescriptor();
 
         public string id { get; set; }

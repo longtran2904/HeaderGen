@@ -11,7 +11,6 @@ namespace UnityEditor.U2D
     [NativeHeader("Runtime/2D/SpriteAtlas/SpriteAtlas.h")]
     public class SpriteAtlasUtility
     {
-
         public SpriteAtlasUtility();
 
         [FreeFunction("CollectAllSpriteAtlasesAndPack")]

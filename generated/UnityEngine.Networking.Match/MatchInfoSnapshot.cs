@@ -11,7 +11,6 @@ namespace UnityEngine.Networking.Match
     [Obsolete("The matchmaker and relay feature will be removed in the future, minimal support will continue until this can be safely done.")]
     public class MatchInfoSnapshot
     {
-
         public MatchInfoSnapshot();
 
         public NetworkID networkId { get; }
@@ -23,9 +22,9 @@ namespace UnityEngine.Networking.Match
         public bool isPrivate { get; }
         public Dictionary<string, long> matchAttributes { get; }
         public List<MatchInfoDirectConnectSnapshot> directConnectInfos { get; }
+
         public class MatchInfoDirectConnectSnapshot
         {
-
             public MatchInfoDirectConnectSnapshot();
 
             public NodeID nodeId { get; }

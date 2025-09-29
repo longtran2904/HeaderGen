@@ -9,7 +9,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public struct BuildCompression
     {
-
         public static readonly BuildCompression Uncompressed;
         public static readonly BuildCompression LZ4;
         public static readonly BuildCompression LZMA;

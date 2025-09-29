@@ -10,7 +10,6 @@ namespace UnityEngine.Apple.ReplayKit
     [NativeHeader("PlatformDependent/iPhonePlayer/IOSScriptBindings.h")]
     public static class ReplayKit
     {
-
         public static bool APIAvailable { get; }
         public static bool broadcastingAPIAvailable { get; }
         public static bool recordingAvailable { get; }
@@ -54,6 +53,7 @@ namespace UnityEngine.Apple.ReplayKit
         [FreeFunction("UnityReplayKitHideCameraPreview")]
         [NativeConditional("PLATFORM_IOS || PLATFORM_TVOS")]
         public static void HideCameraPreview();
+
         public delegate void BroadcastStatusCallback(bool hasStarted, string errorMessage);
     }
 }

@@ -8,7 +8,6 @@ namespace System.Reflection.Emit
 {
     public sealed class DynamicMethod : MethodInfo
     {
-
         public DynamicMethod(string name, Type returnType, Type[] parameterTypes);
         public DynamicMethod(string name, Type returnType, Type[] parameterTypes, bool restrictedSkipVisibility);
         public DynamicMethod(string name, Type returnType, Type[] parameterTypes, Module m);

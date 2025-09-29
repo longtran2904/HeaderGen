@@ -11,7 +11,6 @@ namespace UnityEngine.AI
     [NativeHeader("Modules/AI/Components/OffMeshLink.bindings.h")]
     public struct OffMeshLinkData
     {
-
         public bool valid { get; }
         public bool activated { get; }
         public OffMeshLinkType linkType { get; }

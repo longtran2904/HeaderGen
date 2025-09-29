@@ -8,7 +8,6 @@ namespace UnityEngine
 {
     public struct JointDrive
     {
-
         public float positionSpring { get; set; }
         public float positionDamper { get; set; }
         public float maximumForce { get; set; }

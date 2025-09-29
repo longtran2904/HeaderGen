@@ -10,7 +10,6 @@ namespace UnityEngine.Networking.Match
     [Obsolete("The matchmaker and relay feature will be removed in the future, minimal support will continue until this can be safely done.")]
     public class MatchInfo
     {
-
         public MatchInfo();
 
         public string address { get; }

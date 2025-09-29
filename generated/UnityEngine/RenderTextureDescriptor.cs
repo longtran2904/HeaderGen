@@ -10,7 +10,6 @@ namespace UnityEngine
 {
     public struct RenderTextureDescriptor
     {
-
         [ExcludeFromDocs]
         public RenderTextureDescriptor(int width, int height);
         [ExcludeFromDocs]

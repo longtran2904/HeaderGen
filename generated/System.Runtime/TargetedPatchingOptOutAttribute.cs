@@ -7,7 +7,6 @@ namespace System.Runtime
     [AttributeUsage(AttributeTargets.Constructor | AttributeTargets.Method, AllowMultiple = False, Inherited = False)]
     public sealed class TargetedPatchingOptOutAttribute : Attribute
     {
-
         public TargetedPatchingOptOutAttribute(string reason);
 
         public string Reason { get; }

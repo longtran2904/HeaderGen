@@ -15,7 +15,6 @@ namespace UnityEngine.Audio
     [StaticAccessor("AudioPlayableOutputBindings", StaticAccessorType.DoubleColon)]
     public struct AudioPlayableOutput : IPlayableOutput
     {
-
         public static AudioPlayableOutput Null { get; }
 
         public static AudioPlayableOutput Create(PlayableGraph graph, string name, AudioSource target);

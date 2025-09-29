@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodePropertyReferenceExpression : CodeExpression
     {
-
         public CodePropertyReferenceExpression();
         public CodePropertyReferenceExpression(CodeExpression targetObject, string propertyName);
 

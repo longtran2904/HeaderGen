@@ -10,7 +10,6 @@ namespace System
 {
     public static class Console
     {
-
         [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]

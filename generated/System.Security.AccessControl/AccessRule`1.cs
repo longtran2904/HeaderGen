@@ -8,7 +8,6 @@ namespace System.Security.AccessControl
 {
     public class AccessRule<T> : AccessRule where T : struct
     {
-
         public AccessRule(IdentityReference identity, T rights, AccessControlType type);
         public AccessRule(string identity, T rights, AccessControlType type);
         public AccessRule(IdentityReference identity, T rights, InheritanceFlags inheritanceFlags, PropagationFlags propagationFlags, AccessControlType type);

@@ -12,7 +12,6 @@ namespace UnityEngine.Animations
     [NativeHeader("Modules/Animation/Director/AnimationSceneHandles.h")]
     public struct PropertySceneHandle
     {
-
         public bool IsValid(AnimationStream stream);
         public void Resolve(AnimationStream stream);
         public bool IsResolved(AnimationStream stream);

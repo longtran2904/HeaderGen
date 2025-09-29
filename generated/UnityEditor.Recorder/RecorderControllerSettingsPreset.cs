@@ -8,7 +8,6 @@ namespace UnityEditor.Recorder
 {
     public class RecorderControllerSettingsPreset : ScriptableObject
     {
-
         public RecorderControllerSettingsPreset();
 
         public static void SaveAtPath(RecorderControllerSettings model, string path);

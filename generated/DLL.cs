@@ -8,15 +8,14 @@ using DLLTest.DLLNamespace;
 
 public class DLL
 {
-
     public DLL();
+
     public class A
     {
-
         public A();
+
         public class DLL
         {
-
             public DLL dll1;
             public global::DLL dll2;
             public DLLTest.DLL dll3;

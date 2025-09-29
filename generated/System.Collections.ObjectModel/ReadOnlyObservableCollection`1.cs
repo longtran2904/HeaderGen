@@ -9,7 +9,6 @@ namespace System.Collections.ObjectModel
 {
     public class ReadOnlyObservableCollection<T> : ReadOnlyCollection<T>, INotifyCollectionChanged, INotifyPropertyChanged
     {
-
         public ReadOnlyObservableCollection(ObservableCollection<T> list);
 
         public static ReadOnlyObservableCollection<T> Empty { get; }

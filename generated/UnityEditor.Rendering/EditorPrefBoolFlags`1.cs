@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering
 {
     public struct EditorPrefBoolFlags<T> : IEquatable<T>, IEquatable<EditorPrefBoolFlags<T>> where T : IConvertible, struct
     {
-
         public EditorPrefBoolFlags(string key);
 
         public T value { get; set; }

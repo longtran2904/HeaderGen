@@ -10,7 +10,6 @@ namespace Unity.Jobs
     [NativeType(Header = "Runtime/Jobs/ScriptBindings/JobsBindings.h")]
     public struct JobHandle
     {
-
         public bool IsCompleted { get; }
 
         public void Complete();

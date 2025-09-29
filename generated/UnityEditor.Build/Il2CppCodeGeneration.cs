@@ -9,7 +9,6 @@ namespace UnityEditor.Build
     [NativeType(Header = "Editor/Src/EditorUserBuildSettings.h")]
     public enum Il2CppCodeGeneration
     {
-
         OptimizeSpeed = 0,
         OptimizeSize = 1
     }

@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class BlurEvent : FocusEventBase<BlurEvent>
     {
-
         public BlurEvent();
 
         protected internal override void PreDispatch(IPanel panel);

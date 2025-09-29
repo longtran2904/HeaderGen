@@ -8,7 +8,6 @@ namespace System.IO
 {
     public class UnmanagedMemoryAccessor : IDisposable
     {
-
         protected UnmanagedMemoryAccessor();
         public UnmanagedMemoryAccessor(SafeBuffer buffer, long offset, long capacity);
         public UnmanagedMemoryAccessor(SafeBuffer buffer, long offset, long capacity, FileAccess access);

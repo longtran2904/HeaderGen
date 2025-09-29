@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeExpressionStatement : CodeStatement
     {
-
         public CodeExpressionStatement();
         public CodeExpressionStatement(CodeExpression expression);
 

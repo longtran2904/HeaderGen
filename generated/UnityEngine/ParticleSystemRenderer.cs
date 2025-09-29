@@ -15,7 +15,6 @@ namespace UnityEngine
     [RequireComponent(typeof(Transform))]
     public sealed class ParticleSystemRenderer : Renderer
     {
-
         public ParticleSystemRenderer();
 
         [NativeName("RenderAlignment")]

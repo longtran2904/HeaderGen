@@ -9,7 +9,6 @@ namespace UnityEngine
 {
     public sealed class ShaderVariantCollection : Object
     {
-
         public ShaderVariantCollection();
 
         public int shaderCount { get; }
@@ -23,9 +22,9 @@ namespace UnityEngine
         public bool Add(ShaderVariant variant);
         public bool Remove(ShaderVariant variant);
         public bool Contains(ShaderVariant variant);
+
         public struct ShaderVariant
         {
-
             public Shader shader;
             public PassType passType;
             public string[] keywords;

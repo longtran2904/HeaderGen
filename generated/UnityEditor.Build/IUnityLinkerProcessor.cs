@@ -9,7 +9,6 @@ namespace UnityEditor.Build
 {
     public interface IUnityLinkerProcessor : IOrderedCallback
     {
-
         string GenerateAdditionalLinkXmlFile(BuildReport report, UnityLinkerBuildPipelineData data);
     }
 }

@@ -9,7 +9,6 @@ namespace UnityEditor.Compilation
     [Flags]
     public enum ReferencesOptions
     {
-
         None = 0,
         UseEngineModules = 1
     }

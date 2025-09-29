@@ -6,7 +6,6 @@ namespace System.Net.Http.Headers
 {
     public class EntityTagHeaderValue : ICloneable
     {
-
         public EntityTagHeaderValue(string tag);
         public EntityTagHeaderValue(string tag, bool isWeak);
 

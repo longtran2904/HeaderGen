@@ -9,7 +9,6 @@ namespace System
 {
     public class Tuple<T1> : IComparable, IStructuralComparable, IStructuralEquatable, ITuple, ITupleInternal
     {
-
         public Tuple(T1 item1);
 
         public T1 Item1 { get; }

@@ -9,14 +9,13 @@ namespace System.Runtime.InteropServices.Marshalling
     [CustomMarshaller(typeof(string), MarshalMode.ManagedToUnmanagedIn, typeof(ManagedToUnmanagedIn))]
     public static class BStrStringMarshaller
     {
-
         public static ushort* ConvertToUnmanaged(string managed);
         public static string ConvertToManaged(ushort* unmanaged);
         public static void Free(ushort* unmanaged);
+
         [Obsolete("Types with embedded references are not supported in this version of your compiler.", True)]
         public ref struct ManagedToUnmanagedIn
         {
-
             public static int BufferSize { get; }
 
             public void FromManaged(string managed, Span<byte> buffer);

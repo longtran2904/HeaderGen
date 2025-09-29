@@ -6,7 +6,6 @@ namespace UnityEngine.TextCore.Text
 {
     public class UnicodeLineBreakingRules
     {
-
         public UnicodeLineBreakingRules();
 
         public UnityEngine.TextAsset lineBreakingRules { get; }

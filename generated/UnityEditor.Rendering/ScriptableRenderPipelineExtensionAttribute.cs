@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
     [AttributeUsage(AttributeTargets.Class)]
     public class ScriptableRenderPipelineExtensionAttribute : Attribute
     {
-
         public ScriptableRenderPipelineExtensionAttribute(Type renderPipelineAsset);
 
         public bool inUse { get; }

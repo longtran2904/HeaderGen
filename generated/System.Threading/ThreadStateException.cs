@@ -9,7 +9,6 @@ namespace System.Threading
 {
     public class ThreadStateException : SystemException
     {
-
         public ThreadStateException();
         public ThreadStateException(string message);
         public ThreadStateException(string message, Exception innerException);

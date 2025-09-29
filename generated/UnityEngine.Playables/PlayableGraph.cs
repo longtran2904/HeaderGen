@@ -15,7 +15,6 @@ namespace UnityEngine.Playables
     [UsedByNativeCode]
     public struct PlayableGraph
     {
-
         public Playable GetRootPlayable(int index);
         public bool Connect<U, V>(U source, int sourceOutputPort, V destination, int destinationInputPort) where U : IPlayable, struct where V : IPlayable, struct;
         public void Disconnect<U>(U input, int inputPort) where U : IPlayable, struct;

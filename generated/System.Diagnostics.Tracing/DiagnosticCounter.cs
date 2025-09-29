@@ -9,7 +9,6 @@ namespace System.Diagnostics.Tracing
     [UnsupportedOSPlatform("browser")]
     public abstract class DiagnosticCounter : IDisposable
     {
-
         public string DisplayName { get; set; }
         public string DisplayUnits { get; set; }
         public string Name { get; }

@@ -6,7 +6,6 @@ namespace Mono.Cecil.Cil
 {
     public sealed class ImageDebugHeader
     {
-
         public ImageDebugHeader(ImageDebugHeaderEntry[] entries);
         public ImageDebugHeader();
         public ImageDebugHeader(ImageDebugHeaderEntry entry);

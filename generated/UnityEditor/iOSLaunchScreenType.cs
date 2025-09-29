@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public enum iOSLaunchScreenType
     {
-
         Default = 0,
         ImageAndBackgroundRelative = 1,
         ImageAndBackgroundConstant = 4,

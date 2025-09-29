@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeMemberField : CodeTypeMember
     {
-
         public CodeMemberField();
         public CodeMemberField(CodeTypeReference type, string name);
         public CodeMemberField(string type, string name);

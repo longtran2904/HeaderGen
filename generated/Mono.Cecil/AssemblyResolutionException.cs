@@ -9,7 +9,6 @@ namespace Mono.Cecil
 {
     public sealed class AssemblyResolutionException : FileNotFoundException
     {
-
         public AssemblyResolutionException(AssemblyNameReference reference);
         public AssemblyResolutionException(AssemblyNameReference reference, Exception innerException);
 

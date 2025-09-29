@@ -6,7 +6,6 @@ namespace System
 {
     public sealed class Version : ICloneable, IComparable, IComparable<Version>, IEquatable<Version>, IFormattable, ISpanFormattable, IUtf8SpanFormattable
     {
-
         public Version(int major, int minor, int build, int revision);
         public Version(int major, int minor, int build);
         public Version(int major, int minor);

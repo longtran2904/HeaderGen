@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Input/GetInput.h")]
     public class AndroidInput
     {
-
         public static int touchCountSecondary { get; }
         public static bool secondaryTouchEnabled { get; }
         public static int secondaryTouchWidth { get; }

@@ -10,7 +10,6 @@ namespace Mono.Cecil
 {
     public sealed class AssemblyDefinition : ICustomAttributeProvider, IDisposable, IMetadataTokenProvider, ISecurityDeclarationProvider
     {
-
         public AssemblyNameDefinition Name { get; set; }
         public string FullName { get; }
         public MetadataToken MetadataToken { get; set; }

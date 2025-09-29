@@ -10,7 +10,6 @@ namespace UnityEditor
 {
     public class SceneVisibilityManager : ScriptableSingleton<SceneVisibilityManager>
     {
-
         public SceneVisibilityManager();
 
         public static event Action visibilityChanged;

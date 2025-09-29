@@ -9,7 +9,6 @@ namespace TMPro.EditorUtilities
     [CustomEditor(typeof(TMP_SpriteAsset))]
     public class TMP_SpriteAssetEditor : Editor
     {
-
         public TMP_SpriteAssetEditor();
 
         public void OnEnable();

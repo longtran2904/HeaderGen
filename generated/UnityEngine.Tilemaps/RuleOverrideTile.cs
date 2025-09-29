@@ -14,7 +14,6 @@ namespace UnityEngine.Tilemaps
     [MovedFrom(True, "UnityEngine", null, null)]
     public class RuleOverrideTile : TileBase
     {
-
         public RuleTile m_Tile;
         public List<TileSpritePair> m_Sprites;
         public List<TileGameObjectPair> m_GameObjects;
@@ -36,9 +35,9 @@ namespace UnityEngine.Tilemaps
         public override void GetTileData(Vector3Int position, ITilemap tilemap, ref TileData tileData);
         public override void RefreshTile(Vector3Int position, ITilemap tilemap);
         public override bool StartUp(Vector3Int position, ITilemap tilemap, GameObject go);
+
         public class TileSpritePair
         {
-
             public Sprite m_OriginalSprite;
             public Sprite m_OverrideSprite;
 
@@ -46,7 +45,6 @@ namespace UnityEngine.Tilemaps
         }
         public class TileGameObjectPair
         {
-
             public GameObject m_OriginalGameObject;
             public GameObject m_OverrideGameObject;
 

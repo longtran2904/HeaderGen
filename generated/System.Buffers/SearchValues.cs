@@ -6,7 +6,6 @@ namespace System.Buffers
 {
     public static class SearchValues
     {
-
         public static SearchValues<byte> Create(ReadOnlySpan<byte> values);
         public static SearchValues<char> Create(ReadOnlySpan<char> values);
     }

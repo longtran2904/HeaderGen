@@ -11,7 +11,6 @@ namespace UnityEngine
     [StaticAccessor("AudioListenerBindings", StaticAccessorType.DoubleColon)]
     public sealed class AudioListener : AudioBehaviour
     {
-
         public AudioListener();
 
         public static float volume { get; set; }

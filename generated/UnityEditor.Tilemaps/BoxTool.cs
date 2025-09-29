@@ -8,7 +8,6 @@ namespace UnityEditor.Tilemaps
 {
     public sealed class BoxTool : TilemapEditorTool
     {
-
         public BoxTool();
 
         protected override string tooltipStringFormat { get; }

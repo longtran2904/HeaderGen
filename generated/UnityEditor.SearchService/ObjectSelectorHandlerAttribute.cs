@@ -10,7 +10,6 @@ namespace UnityEditor.SearchService
     [Obsolete("ObjectSelectorHandlerAttribute has been deprecated. Use SearchContextAttribute instead.")]
     public class ObjectSelectorHandlerAttribute : Attribute
     {
-
         public ObjectSelectorHandlerAttribute(Type attributeType);
 
         public Type attributeType { get; }

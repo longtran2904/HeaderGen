@@ -6,7 +6,6 @@ namespace UnityEditor.Recorder
 {
     public abstract class GenericRecorder<T> : Recorder where T : RecorderSettings
     {
-
         protected GenericRecorder();
 
         public T Settings { get; set; }

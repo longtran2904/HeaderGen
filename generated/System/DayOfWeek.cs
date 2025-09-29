@@ -6,7 +6,6 @@ namespace System
 {
     public enum DayOfWeek
     {
-
         Sunday = 0,
         Monday = 1,
         Tuesday = 2,

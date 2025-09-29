@@ -10,7 +10,6 @@ namespace System.Reflection
 {
     public class ParameterInfo : ICustomAttributeProvider, IObjectReference
     {
-
         protected ParameterAttributes AttrsImpl;
         protected Type ClassImpl;
         protected object DefaultValueImpl;

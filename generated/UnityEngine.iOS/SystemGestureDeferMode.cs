@@ -9,7 +9,6 @@ namespace UnityEngine.iOS
     [Flags]
     public enum SystemGestureDeferMode
     {
-
         None = 0,
         TopEdge = 1,
         LeftEdge = 2,

@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [CLSCompliant(False)]
     public interface IDataObject
     {
-
         void GetData(in FORMATETC format, out STGMEDIUM medium);
         void GetDataHere(in FORMATETC format, ref STGMEDIUM medium);
         int QueryGetData(in FORMATETC format);

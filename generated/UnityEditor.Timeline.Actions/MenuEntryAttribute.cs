@@ -9,7 +9,6 @@ namespace UnityEditor.Timeline.Actions
     [AttributeUsage(AttributeTargets.Class)]
     public class MenuEntryAttribute : Attribute
     {
-
         public MenuEntryAttribute(string path = null, int priority = 9000);
     }
 }

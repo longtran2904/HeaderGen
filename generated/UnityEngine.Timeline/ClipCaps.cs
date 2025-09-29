@@ -9,7 +9,6 @@ namespace UnityEngine.Timeline
     [Flags]
     public enum ClipCaps
     {
-
         None = 0,
         Looping = 1,
         Extrapolation = 2,

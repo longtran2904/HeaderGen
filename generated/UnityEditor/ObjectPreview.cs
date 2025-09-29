@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public class ObjectPreview : IPreviewable
     {
-
         protected UnityEngine.Object[] m_Targets;
         protected int m_ReferenceTargetIndex;
 

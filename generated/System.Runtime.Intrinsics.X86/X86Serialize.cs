@@ -7,13 +7,12 @@ namespace System.Runtime.Intrinsics.X86
     [CLSCompliant(False)]
     public abstract class X86Serialize : X86Base
     {
-
         public static bool IsSupported { get; }
 
         public static void Serialize();
+
         public abstract class X64 : X86Base.X64
         {
-
             public static bool IsSupported { get; }
         }
     }

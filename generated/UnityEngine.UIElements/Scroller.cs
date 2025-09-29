@@ -9,7 +9,6 @@ namespace UnityEngine.UIElements
 {
     public class Scroller : VisualElement
     {
-
         public static readonly string ussClassName;
         public static readonly string horizontalVariantUssClassName;
         public static readonly string verticalVariantUssClassName;
@@ -35,14 +34,13 @@ namespace UnityEngine.UIElements
         public void ScrollPageDown();
         public void ScrollPageUp(float factor);
         public void ScrollPageDown(float factor);
+
         public class UxmlFactory : UxmlFactory<Scroller, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : VisualElement.UxmlTraits
         {
-
             public UxmlTraits();
 
             public override IEnumerable<UxmlChildElementDescription> uxmlChildElementsDescription { get; }

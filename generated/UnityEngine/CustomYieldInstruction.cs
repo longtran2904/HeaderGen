@@ -8,7 +8,6 @@ namespace UnityEngine
 {
     public abstract class CustomYieldInstruction : IEnumerator
     {
-
         protected CustomYieldInstruction();
 
         public abstract bool keepWaiting { get; }

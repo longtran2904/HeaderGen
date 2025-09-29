@@ -10,7 +10,6 @@ namespace UnityEngine
     [NativeType("Runtime/GfxDevice/GfxDeviceTypes.h")]
     public enum ComputeBufferMode
     {
-
         Immutable = 0,
         Dynamic = 1,
         [Obsolete("ComputeBufferMode.Circular is deprecated (legacy mode)")]

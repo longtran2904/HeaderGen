@@ -8,7 +8,6 @@ namespace UnityEngine.UI
 {
     public static class DefaultControls
     {
-
         public static IFactoryControls factory { get; set; }
 
         public static GameObject CreatePanel(Resources resources);
@@ -22,14 +21,13 @@ namespace UnityEngine.UI
         public static GameObject CreateInputField(Resources resources);
         public static GameObject CreateDropdown(Resources resources);
         public static GameObject CreateScrollView(Resources resources);
+
         public interface IFactoryControls
         {
-
             GameObject CreateGameObject(string name, params Type[] components);
         }
         public struct Resources
         {
-
             public Sprite standard;
             public Sprite background;
             public Sprite inputField;

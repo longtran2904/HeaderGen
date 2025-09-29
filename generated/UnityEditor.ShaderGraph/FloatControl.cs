@@ -8,7 +8,6 @@ namespace UnityEditor.ShaderGraph
 {
     public class FloatControl : IControl
     {
-
         public FloatControl(float value);
 
         public float value { get; }

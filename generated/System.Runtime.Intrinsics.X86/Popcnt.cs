@@ -7,13 +7,12 @@ namespace System.Runtime.Intrinsics.X86
     [CLSCompliant(False)]
     public abstract class Popcnt : Sse42
     {
-
         public static bool IsSupported { get; }
 
         public static uint PopCount(uint value);
+
         public abstract class X64 : Sse42.X64
         {
-
             public static bool IsSupported { get; }
 
             public static ulong PopCount(ulong value);

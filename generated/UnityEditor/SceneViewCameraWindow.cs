@@ -9,7 +9,6 @@ namespace UnityEditor
 {
     public class SceneViewCameraWindow : PopupWindowContent
     {
-
         public SceneViewCameraWindow(SceneView sceneView);
 
         public static event Action<SceneView> additionalSettingsGui;

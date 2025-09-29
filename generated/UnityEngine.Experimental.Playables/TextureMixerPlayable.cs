@@ -16,7 +16,6 @@ namespace UnityEngine.Experimental.Playables
     [StaticAccessor("TextureMixerPlayableBindings", StaticAccessorType.DoubleColon)]
     public struct TextureMixerPlayable : IEquatable<TextureMixerPlayable>, IPlayable
     {
-
         public static TextureMixerPlayable Create(PlayableGraph graph);
         public PlayableHandle GetHandle();
         public bool Equals(TextureMixerPlayable other);

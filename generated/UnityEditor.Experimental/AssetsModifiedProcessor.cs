@@ -8,7 +8,6 @@ namespace UnityEditor.Experimental
 {
     public abstract class AssetsModifiedProcessor
     {
-
         protected AssetsModifiedProcessor();
 
         public HashSet<string> assetsReportedChanged { get; set; }

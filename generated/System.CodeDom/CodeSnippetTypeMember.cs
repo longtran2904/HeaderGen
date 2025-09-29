@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeSnippetTypeMember : CodeTypeMember
     {
-
         public CodeSnippetTypeMember();
         public CodeSnippetTypeMember(string text);
 

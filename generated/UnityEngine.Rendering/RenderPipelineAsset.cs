@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public abstract class RenderPipelineAsset : ScriptableObject
     {
-
         protected RenderPipelineAsset();
 
         public virtual int terrainBrushPassIndex { get; }

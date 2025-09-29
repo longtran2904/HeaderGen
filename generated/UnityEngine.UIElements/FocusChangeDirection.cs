@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public class FocusChangeDirection : IDisposable
     {
-
         protected FocusChangeDirection(int value);
 
         public static FocusChangeDirection unspecified { get; }

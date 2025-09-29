@@ -13,7 +13,6 @@ namespace UnityEngine.XR
     [UsedByNativeCode]
     public struct InputDevice : IEquatable<InputDevice>
     {
-
         public XRInputSubsystem subsystem { get; }
         public bool isValid { get; }
         public string name { get; }

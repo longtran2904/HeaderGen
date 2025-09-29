@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public enum ModelImporterTangentSpaceMode
     {
-
         [Obsolete("Use ModelImporterNormals.Import instead")]
         Import = 0,
         [Obsolete("Use ModelImporterNormals.Calculate instead")]

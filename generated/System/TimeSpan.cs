@@ -8,7 +8,6 @@ namespace System
 {
     public readonly struct TimeSpan : IComparable, IComparable<TimeSpan>, IEquatable<TimeSpan>, IFormattable, IParsable<TimeSpan>, ISpanFormattable, ISpanParsable<TimeSpan>, IUtf8SpanFormattable
     {
-
         public static readonly TimeSpan Zero;
         public static readonly TimeSpan MaxValue;
         public static readonly TimeSpan MinValue;

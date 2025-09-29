@@ -12,7 +12,6 @@ namespace UnityEngine.XR
     [UsedByNativeCode]
     public readonly struct MeshTransform : IEquatable<MeshTransform>
     {
-
         public MeshTransform(in MeshId meshId, ulong timestamp, in Vector3 position, in Quaternion rotation, in Vector3 scale);
 
         public MeshId MeshId { get; }

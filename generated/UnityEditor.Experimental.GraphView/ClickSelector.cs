@@ -8,7 +8,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class ClickSelector : MouseManipulator
     {
-
         public ClickSelector();
 
         protected override void RegisterCallbacksOnTarget();

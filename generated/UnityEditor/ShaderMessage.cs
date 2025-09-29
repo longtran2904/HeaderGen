@@ -9,7 +9,6 @@ namespace UnityEditor
 {
     public struct ShaderMessage : IEquatable<ShaderMessage>
     {
-
         public ShaderMessage(string msg, ShaderCompilerMessageSeverity sev = ShaderCompilerMessageSeverity.Error);
 
         public string message { get; }

@@ -9,7 +9,6 @@ namespace UnityEditor
 {
     public class DefaultLightingExplorerExtension : ILightingExplorerExtension
     {
-
         public DefaultLightingExplorerExtension();
 
         public virtual LightingExplorerTab[] GetContentTabs();

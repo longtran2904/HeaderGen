@@ -8,7 +8,6 @@ namespace Unity.Media
 {
     public class RefHandle<T> : IDisposable where T : class
     {
-
         public RefHandle();
         public RefHandle(T target);
 

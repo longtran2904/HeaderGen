@@ -11,7 +11,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics2D/PlatformEffector2D.h")]
     public class PlatformEffector2D : Effector2D
     {
-
         public PlatformEffector2D();
 
         public bool useOneWay { get; set; }

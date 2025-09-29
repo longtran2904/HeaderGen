@@ -6,7 +6,6 @@ namespace UnityEditor.ShaderGraph.Internal
 {
     public enum ConcretePrecision
     {
-
         Single = 0,
         Half = 1
     }

@@ -6,7 +6,6 @@ namespace UnityEditor.Build.Content
 {
     public struct WriteManagerParameters
     {
-
         public BuildSettings settings;
         public BuildUsageTagGlobal globalUsage;
         public BuildReferenceMap referenceMap;

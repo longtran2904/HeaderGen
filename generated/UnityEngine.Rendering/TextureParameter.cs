@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public class TextureParameter : VolumeParameter<Texture>
     {
-
         public TextureDimension dimension;
 
         public TextureParameter(Texture value, bool overrideState = False);

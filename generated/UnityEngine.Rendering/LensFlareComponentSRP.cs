@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
     [ExecuteAlways]
     public sealed class LensFlareComponentSRP : MonoBehaviour
     {
-
         [Min(0)]
         public float intensity;
         [Min(1E-05F)]

@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering
 {
     public sealed class SerializedBitArray64 : SerializedBitArray
     {
-
         public SerializedBitArray64(SerializedProperty serializedProperty);
 
         protected override bool HasBitMultipleDifferentValue_Internal(uint bitIndex);

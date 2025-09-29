@@ -8,7 +8,6 @@ namespace UnityEngine.Experimental.Rendering
 {
     public abstract class ScriptableRuntimeReflectionSystem : IDisposable, IScriptableRuntimeReflectionSystem
     {
-
         protected ScriptableRuntimeReflectionSystem();
 
         public virtual bool TickRealtimeProbes();

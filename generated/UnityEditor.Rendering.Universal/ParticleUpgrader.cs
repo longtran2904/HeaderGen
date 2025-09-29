@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering.Universal
 {
     public class ParticleUpgrader : MaterialUpgrader
     {
-
         public ParticleUpgrader(string oldShaderName);
 
         public static void UpdateStandardSurface(Material material);

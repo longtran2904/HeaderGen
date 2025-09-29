@@ -8,7 +8,6 @@ namespace System.Reflection
 {
     public static class RuntimeReflectionExtensions
     {
-
         public static IEnumerable<FieldInfo> GetRuntimeFields(this Type type);
         public static IEnumerable<MethodInfo> GetRuntimeMethods(this Type type);
         public static IEnumerable<PropertyInfo> GetRuntimeProperties(this Type type);

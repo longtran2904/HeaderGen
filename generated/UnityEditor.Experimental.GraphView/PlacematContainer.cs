@@ -10,7 +10,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class PlacematContainer : GraphView.Layer
     {
-
         public PlacematContainer(GraphView graphView);
 
         public IEnumerable<Placemat> Placemats { get; }
@@ -23,9 +22,9 @@ namespace UnityEditor.Experimental.GraphView
         public int GetTopZOrder();
         protected virtual void UpdateElementsOrder();
         public void HideCollapsedEdges();
+
         public enum CycleDirection
         {
-
             Up = 0,
             Down = 1
         }

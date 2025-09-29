@@ -9,7 +9,6 @@ namespace UnityEditor.Toolbars
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = True, Inherited = False)]
     public sealed class EditorToolbarElementAttribute : Attribute
     {
-
         public EditorToolbarElementAttribute(string id, params Type[] targetWindows);
 
         public string id { get; }

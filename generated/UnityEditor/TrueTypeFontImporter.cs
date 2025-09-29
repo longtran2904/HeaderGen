@@ -10,7 +10,6 @@ namespace UnityEditor
     [NativeHeader("Modules/TextRenderingEditor/TrueTypeFontImporter.h")]
     public sealed class TrueTypeFontImporter : AssetImporter
     {
-
         public TrueTypeFontImporter();
 
         public int fontSize { get; set; }

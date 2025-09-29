@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering.BuiltIn
 {
     public static class ShaderKeywordStrings
     {
-
         public static readonly string MainLightShadows;
         public static readonly string MainLightShadowCascades;
         public static readonly string MainLightShadowScreen;

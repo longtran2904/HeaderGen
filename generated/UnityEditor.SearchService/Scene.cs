@@ -9,7 +9,6 @@ namespace UnityEditor.SearchService
     [Obsolete("Scene has been deprecated. Use SceneSearch instead (UnityUpgradable) -> SceneSearch", False)]
     public static class Scene
     {
-
         public const SearchEngineScope EngineScope = 0;
 
         public static void RegisterEngine(ISceneSearchEngine engine);

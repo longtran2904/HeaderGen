@@ -14,7 +14,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Src/EditorSettings.h")]
     public sealed class EditorSettings : UnityEngine.Object
     {
-
         public static string unityRemoteDevice { get; set; }
         public static string unityRemoteCompression { get; set; }
         public static string unityRemoteResolution { get; set; }
@@ -103,9 +102,9 @@ namespace UnityEditor
         public static NamingScheme gameObjectNamingScheme { get; set; }
         [StaticAccessor("GetEditorSettings()", StaticAccessorType.Dot)]
         public static bool assetNamingUsesSpace { get; set; }
+
         public enum NamingScheme
         {
-
             SpaceParenthesis = 0,
             Dot = 1,
             Underscore = 2

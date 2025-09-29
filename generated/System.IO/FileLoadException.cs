@@ -9,7 +9,6 @@ namespace System.IO
 {
     public class FileLoadException : IOException
     {
-
         public FileLoadException();
         public FileLoadException(string message);
         public FileLoadException(string message, Exception inner);

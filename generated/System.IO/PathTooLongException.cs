@@ -9,7 +9,6 @@ namespace System.IO
 {
     public class PathTooLongException : IOException
     {
-
         public PathTooLongException();
         public PathTooLongException(string message);
         public PathTooLongException(string message, Exception innerException);

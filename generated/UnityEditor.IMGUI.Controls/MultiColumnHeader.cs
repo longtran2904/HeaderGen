@@ -9,7 +9,6 @@ namespace UnityEditor.IMGUI.Controls
 {
     public class MultiColumnHeader
     {
-
         public MultiColumnHeader(MultiColumnHeaderState state);
 
         public float height { get; set; }
@@ -43,17 +42,16 @@ namespace UnityEditor.IMGUI.Controls
         protected virtual void OnVisibleColumnsChanged();
         protected virtual void ToggleVisibility(int columnIndex);
         public void Repaint();
+
         public delegate void HeaderCallback(MultiColumnHeader multiColumnHeader);
         public static class DefaultGUI
         {
-
             public static float defaultHeight { get; }
             public static float minimumHeight { get; }
             public static float columnContentMargin { get; }
         }
         public static class DefaultStyles
         {
-
             public static GUIStyle columnHeader;
             public static GUIStyle columnHeaderRightAligned;
             public static GUIStyle columnHeaderCenterAligned;

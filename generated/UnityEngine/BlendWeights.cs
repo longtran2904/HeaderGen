@@ -9,7 +9,6 @@ namespace UnityEngine
     [Obsolete("BlendWeights is obsolete. Use SkinWeights instead (UnityUpgradable) -> SkinWeights", True)]
     public enum BlendWeights
     {
-
         [Obsolete("BlendWeights.OneBone is obsolete. Use SkinWeights.OneBone instead (UnityUpgradable) -> SkinWeights.OneBone", True)]
         OneBone = 1,
         [Obsolete("BlendWeights.TwoBones is obsolete. Use SkinWeights.TwoBones instead (UnityUpgradable) -> SkinWeights.TwoBones", True)]

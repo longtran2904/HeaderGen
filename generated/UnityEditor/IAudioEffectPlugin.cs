@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public abstract class IAudioEffectPlugin
     {
-
         protected IAudioEffectPlugin();
 
         public abstract bool SetFloatParameter(string name, float value);

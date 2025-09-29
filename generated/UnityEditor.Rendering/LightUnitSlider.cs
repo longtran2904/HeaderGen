@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering
 {
     public class LightUnitSlider
     {
-
         protected SerializedObject m_SerializedObject;
         protected readonly LightUnitSliderUIDescriptor m_Descriptor;
 
@@ -22,9 +21,9 @@ namespace UnityEditor.Rendering
         protected virtual void DoSlider(Rect rect, ref float value, Vector2 sliderRange);
         protected virtual float GetPositionOnSlider(float value, Vector2 valueRange);
         protected virtual float GetPositionOnSlider(float value);
+
         protected static class SliderStyles
         {
-
             public static GUIStyle k_IconButton;
             public static GUIStyle k_TemperatureBorder;
             public static GUIStyle k_TemperatureThumb;

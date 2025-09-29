@@ -6,7 +6,6 @@ namespace TMPro
 {
     public enum TextContainerAnchors
     {
-
         TopLeft = 0,
         Top = 1,
         TopRight = 2,

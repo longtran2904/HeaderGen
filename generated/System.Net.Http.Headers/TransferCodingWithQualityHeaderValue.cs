@@ -6,7 +6,6 @@ namespace System.Net.Http.Headers
 {
     public sealed class TransferCodingWithQualityHeaderValue : TransferCodingHeaderValue
     {
-
         public TransferCodingWithQualityHeaderValue(string value);
         public TransferCodingWithQualityHeaderValue(string value, double quality);
 

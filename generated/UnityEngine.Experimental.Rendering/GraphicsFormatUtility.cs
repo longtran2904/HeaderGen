@@ -12,7 +12,6 @@ namespace UnityEngine.Experimental.Rendering
     [NativeHeader("Runtime/Graphics/Format.h")]
     public class GraphicsFormatUtility
     {
-
         public GraphicsFormatUtility();
 
         public static GraphicsFormat GetGraphicsFormat(TextureFormat format, bool isSRGB);

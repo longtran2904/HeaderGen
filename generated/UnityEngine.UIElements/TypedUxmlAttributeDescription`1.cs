@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public abstract class TypedUxmlAttributeDescription<T> : UxmlAttributeDescription
     {
-
         protected TypedUxmlAttributeDescription();
 
         public T defaultValue { get; set; }

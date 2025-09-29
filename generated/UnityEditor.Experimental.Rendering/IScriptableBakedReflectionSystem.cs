@@ -9,7 +9,6 @@ namespace UnityEditor.Experimental.Rendering
 {
     public interface IScriptableBakedReflectionSystem : IDisposable
     {
-
         int stageCount { get; }
         Hash128[] stateHashes { get; }
 

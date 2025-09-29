@@ -8,7 +8,6 @@ namespace Mono.Cecil.Cil
 {
     public sealed class BinaryCustomDebugInformation : CustomDebugInformation
     {
-
         public BinaryCustomDebugInformation(Guid identifier, byte[] data);
 
         public byte[] Data { get; set; }

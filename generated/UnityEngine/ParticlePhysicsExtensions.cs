@@ -9,7 +9,6 @@ namespace UnityEngine
 {
     public static class ParticlePhysicsExtensions
     {
-
         [Obsolete("GetCollisionEvents function using ParticleCollisionEvent[] is deprecated. Use List<ParticleCollisionEvent> instead.", False)]
         public static int GetCollisionEvents(this ParticleSystem ps, GameObject go, ParticleCollisionEvent[] collisionEvents);
         public static int GetSafeCollisionEventSize(this ParticleSystem ps);

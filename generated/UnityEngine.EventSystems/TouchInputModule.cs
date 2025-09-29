@@ -10,7 +10,6 @@ namespace UnityEngine.EventSystems
     [Obsolete("TouchInputModule is no longer required as Touch input is now handled in StandaloneInputModule.")]
     public class TouchInputModule : PointerInputModule
     {
-
         protected TouchInputModule();
 
         [Obsolete("allowActivationOnStandalone has been deprecated. Use forceModuleActive instead (UnityUpgradable) -> forceModuleActive")]

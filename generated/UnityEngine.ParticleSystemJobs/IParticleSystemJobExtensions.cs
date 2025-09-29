@@ -8,7 +8,6 @@ namespace UnityEngine.ParticleSystemJobs
 {
     public static class IParticleSystemJobExtensions
     {
-
         public static JobHandle Schedule<T>(this T jobData, ParticleSystem ps, JobHandle dependsOn = null) where T : IJobParticleSystem, struct;
         public static JobHandle Schedule<T>(this T jobData, ParticleSystem ps, int minIndicesPerJobCount, JobHandle dependsOn = null) where T : IJobParticleSystemParallelFor, struct;
         public static JobHandle ScheduleBatch<T>(this T jobData, ParticleSystem ps, int innerLoopBatchCount, JobHandle dependsOn = null) where T : IJobParticleSystemParallelForBatch, struct;

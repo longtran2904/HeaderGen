@@ -16,7 +16,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public struct Vector2Int : IEquatable<Vector2Int>, IFormattable
     {
-
         public Vector2Int(int x, int y);
 
         public int this[int index] { get; set; }

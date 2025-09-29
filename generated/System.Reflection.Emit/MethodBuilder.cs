@@ -6,7 +6,6 @@ namespace System.Reflection.Emit
 {
     public abstract class MethodBuilder : MethodInfo
     {
-
         protected MethodBuilder();
 
         public bool InitLocals { get; set; }

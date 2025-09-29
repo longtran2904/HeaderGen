@@ -11,7 +11,6 @@ namespace UnityEngine
     [NativeType("Runtime/Graphics/RefreshRate.h")]
     public struct RefreshRate : IEquatable<RefreshRate>
     {
-
         [RequiredMember]
         public uint numerator;
         [RequiredMember]

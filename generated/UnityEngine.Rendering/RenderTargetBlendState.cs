@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public struct RenderTargetBlendState : IEquatable<RenderTargetBlendState>
     {
-
         public RenderTargetBlendState(ColorWriteMask writeMask = ColorWriteMask.All, BlendMode sourceColorBlendMode = BlendMode.One, BlendMode destinationColorBlendMode = BlendMode.Zero, BlendMode sourceAlphaBlendMode = BlendMode.One, BlendMode destinationAlphaBlendMode = BlendMode.Zero, BlendOp colorBlendOperation = BlendOp.Add, BlendOp alphaBlendOperation = BlendOp.Add);
 
         public static RenderTargetBlendState defaultValue { get; }

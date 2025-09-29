@@ -9,7 +9,6 @@ namespace System.Collections.Generic
     [DefaultMember("Item")]
     public class SortedList<TKey, TValue> : ICollection, ICollection<KeyValuePair<TKey, TValue>>, IDictionary, IDictionary<TKey, TValue>, IEnumerable, IEnumerable<KeyValuePair<TKey, TValue>>, IReadOnlyCollection<KeyValuePair<TKey, TValue>>, IReadOnlyDictionary<TKey, TValue>
     {
-
         public SortedList();
         public SortedList(int capacity);
         public SortedList(IComparer<TKey> comparer);
@@ -38,10 +37,10 @@ namespace System.Collections.Generic
         public void RemoveAt(int index);
         public bool Remove(TKey key);
         public void TrimExcess();
+
         [DefaultMember("Item")]
         public sealed class KeyList : ICollection, ICollection<TKey>, IEnumerable, IEnumerable<TKey>, IList<TKey>
         {
-
             public TKey this[int index] { get; set; }
             public int Count { get; }
             public bool IsReadOnly { get; }
@@ -59,7 +58,6 @@ namespace System.Collections.Generic
         [DefaultMember("Item")]
         public sealed class ValueList : ICollection, ICollection<TValue>, IEnumerable, IEnumerable<TValue>, IList<TValue>
         {
-
             public TValue this[int index] { get; set; }
             public int Count { get; }
             public bool IsReadOnly { get; }

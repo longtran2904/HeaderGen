@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public sealed class FixedSysStringMarshalInfo : MarshalInfo
     {
-
         public FixedSysStringMarshalInfo();
 
         public int Size { get; set; }

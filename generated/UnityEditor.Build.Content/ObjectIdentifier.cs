@@ -14,7 +14,6 @@ namespace UnityEditor.Build.Content
     [UsedByNativeCode]
     public struct ObjectIdentifier : IEquatable<ObjectIdentifier>
     {
-
         public GUID guid { get; }
         public long localIdentifierInFile { get; }
         public FileType fileType { get; }

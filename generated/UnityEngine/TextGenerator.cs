@@ -13,7 +13,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public sealed class TextGenerator : IDisposable
     {
-
         public TextGenerator();
         public TextGenerator(int initialCapacity);
 

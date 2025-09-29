@@ -9,7 +9,6 @@ namespace System.Collections
     [DefaultMember("Item")]
     public sealed class BitArray : ICloneable, ICollection, IEnumerable
     {
-
         public BitArray(int length);
         public BitArray(int length, bool defaultValue);
         public BitArray(byte[] bytes);

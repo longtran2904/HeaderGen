@@ -11,7 +11,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public struct ContactPoint
     {
-
         public Vector3 point { get; }
         public Vector3 normal { get; }
         public Collider thisCollider { get; }

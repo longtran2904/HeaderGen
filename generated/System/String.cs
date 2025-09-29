@@ -16,7 +16,6 @@ namespace System
     [DefaultMember("Chars")]
     public sealed class String : ICloneable, IComparable, IComparable<string>, IConvertible, IEnumerable, IEnumerable<char>, IEquatable<string>, IParsable<string>, ISpanParsable<string>
     {
-
         public static readonly string Empty;
 
         public String(char[] value);

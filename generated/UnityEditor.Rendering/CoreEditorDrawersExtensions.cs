@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering
 {
     public static class CoreEditorDrawersExtensions
     {
-
         public static void Draw<TData>(this IEnumerable<CoreEditorDrawer<TData>.IDrawer> drawers, TData data, Editor owner);
     }
 }

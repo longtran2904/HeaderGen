@@ -10,7 +10,6 @@ namespace Mono.Cecil
 {
     public sealed class WriterParameters
     {
-
         public WriterParameters();
 
         public uint? Timestamp { get; set; }

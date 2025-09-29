@@ -8,7 +8,6 @@ namespace System.Reflection
 {
     public interface IReflect
     {
-
         Type UnderlyingSystemType { get; }
 
         MethodInfo GetMethod(string name, BindingFlags bindingAttr, Binder binder, Type[] types, ParameterModifier[] modifiers);

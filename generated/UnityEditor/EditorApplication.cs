@@ -17,7 +17,6 @@ namespace UnityEditor
     [StaticAccessor("EditorApplicationBindings", StaticAccessorType.DoubleColon)]
     public sealed class EditorApplication
     {
-
         public static ProjectWindowItemCallback projectWindowItemOnGUI;
         public static HierarchyWindowItemCallback hierarchyWindowItemOnGUI;
         public static CallbackFunction update;
@@ -108,6 +107,7 @@ namespace UnityEditor
         public static bool SaveCurrentSceneIfUserWantsTo();
         [Obsolete("Use EditorSceneManager.MarkSceneDirty or EditorSceneManager.MarkAllScenesDirty")]
         public static void MarkSceneDirty();
+
         public delegate void ProjectWindowItemCallback(string guid, Rect selectionRect);
         public delegate void HierarchyWindowItemCallback(int instanceID, Rect selectionRect);
         public delegate void CallbackFunction();

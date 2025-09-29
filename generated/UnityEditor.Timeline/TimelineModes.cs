@@ -9,7 +9,6 @@ namespace UnityEditor.Timeline
     [Flags]
     public enum TimelineModes
     {
-
         Active = 1,
         ReadOnly = 2,
         Inactive = 4,

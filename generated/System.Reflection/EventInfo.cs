@@ -6,7 +6,6 @@ namespace System.Reflection
 {
     public abstract class EventInfo : MemberInfo
     {
-
         protected EventInfo();
 
         public override MemberTypes MemberType { get; }

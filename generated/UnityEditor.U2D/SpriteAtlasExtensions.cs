@@ -14,7 +14,6 @@ namespace UnityEditor.U2D
     [NativeHeader("Runtime/2D/SpriteAtlas/SpriteAtlas.h")]
     public static class SpriteAtlasExtensions
     {
-
         public static void Add([NotNull("NullExceptionObject")] this SpriteAtlas spriteAtlas, UnityEngine.Object[] objects);
         public static void Remove([NotNull("NullExceptionObject")] this SpriteAtlas spriteAtlas, UnityEngine.Object[] objects);
         public static UnityEngine.Object[] GetPackables([NotNull("NullExceptionObject")] this SpriteAtlas spriteAtlas);

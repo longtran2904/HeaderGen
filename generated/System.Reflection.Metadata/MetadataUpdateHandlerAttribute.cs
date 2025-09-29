@@ -7,7 +7,6 @@ namespace System.Reflection.Metadata
     [AttributeUsage(AttributeTargets.Assembly, AllowMultiple = True)]
     public sealed class MetadataUpdateHandlerAttribute : Attribute
     {
-
         public MetadataUpdateHandlerAttribute(Type handlerType);
 
         public Type HandlerType { get; }

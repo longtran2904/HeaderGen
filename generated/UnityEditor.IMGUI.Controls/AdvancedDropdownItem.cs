@@ -10,7 +10,6 @@ namespace UnityEditor.IMGUI.Controls
 {
     public class AdvancedDropdownItem : IComparable
     {
-
         public AdvancedDropdownItem(string name);
 
         public string name { get; set; }

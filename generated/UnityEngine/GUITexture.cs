@@ -13,7 +13,6 @@ namespace UnityEngine
     [Obsolete("GUITexture has been removed. Use UI.Image instead.", True)]
     public sealed class GUITexture
     {
-
         public GUITexture();
 
         [Obsolete("GUITexture has been removed. Use UI.Image instead.", True)]

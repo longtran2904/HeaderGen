@@ -13,7 +13,6 @@ namespace UnityEditor.Build.Content
     [UsedByNativeCode]
     public class SceneLoadInfo
     {
-
         public SceneLoadInfo();
 
         public GUID asset { get; set; }

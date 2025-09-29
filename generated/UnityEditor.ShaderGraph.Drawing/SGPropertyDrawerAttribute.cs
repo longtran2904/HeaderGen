@@ -9,7 +9,6 @@ namespace UnityEditor.ShaderGraph.Drawing
     [AttributeUsage(AttributeTargets.Class)]
     public class SGPropertyDrawerAttribute : Attribute
     {
-
         public SGPropertyDrawerAttribute(Type propertyType);
 
         public Type propertyType { get; }

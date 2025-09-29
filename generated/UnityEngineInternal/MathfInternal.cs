@@ -9,7 +9,6 @@ namespace UnityEngineInternal
     [Il2CppEagerStaticClassConstruction]
     public struct MathfInternal
     {
-
         public static float FloatMinNormal;
         public static float FloatMinDenormal;
         public static bool IsFlushToZeroEnabled;

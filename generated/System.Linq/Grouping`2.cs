@@ -9,7 +9,6 @@ namespace System.Linq
 {
     public class Grouping<TKey, TElement> : ICollection<TElement>, IEnumerable, IEnumerable<TElement>, IGrouping<TKey, TElement>, IList<TElement>
     {
-
         public TKey Key { get; }
 
         public IEnumerator<TElement> GetEnumerator();

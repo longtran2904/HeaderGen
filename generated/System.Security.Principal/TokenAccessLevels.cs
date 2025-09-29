@@ -7,7 +7,6 @@ namespace System.Security.Principal
     [Flags]
     public enum TokenAccessLevels
     {
-
         AssignPrimary = 1,
         Duplicate = 2,
         Impersonate = 4,

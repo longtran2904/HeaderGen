@@ -14,7 +14,6 @@ namespace UnityEngine.Tilemaps
     [MovedFrom(True, "UnityEngine", null, null)]
     public class AdvancedRuleOverrideTile : RuleOverrideTile
     {
-
         public Sprite m_DefaultSprite;
         public GameObject m_DefaultGameObject;
         public Tile.ColliderType m_DefaultColliderType;

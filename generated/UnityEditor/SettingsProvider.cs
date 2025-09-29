@@ -10,7 +10,6 @@ namespace UnityEditor
 {
     public class SettingsProvider
     {
-
         public SettingsProvider(string path, SettingsScope scopes, IEnumerable<string> keywords = null);
 
         public string label { get; set; }

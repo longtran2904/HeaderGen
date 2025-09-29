@@ -7,7 +7,6 @@ namespace System.ComponentModel
     [AttributeUsage(AttributeTargets.All)]
     public class DefaultValueAttribute : Attribute
     {
-
         public DefaultValueAttribute(Type type, string value);
         public DefaultValueAttribute(char value);
         public DefaultValueAttribute(byte value);

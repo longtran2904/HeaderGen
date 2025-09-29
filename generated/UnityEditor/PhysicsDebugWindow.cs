@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public class PhysicsDebugWindow : EditorWindow
     {
-
         public PhysicsDebugWindow();
 
         [MenuItem("Window/Analysis/Physics Debugger", False, 11)]

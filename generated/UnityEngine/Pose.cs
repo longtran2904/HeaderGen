@@ -8,7 +8,6 @@ namespace UnityEngine
 {
     public struct Pose : IEquatable<Pose>
     {
-
         public Vector3 position;
         public Quaternion rotation;
 

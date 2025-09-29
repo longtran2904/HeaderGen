@@ -8,7 +8,6 @@ namespace UnityEditor.Search
 {
     public interface IQueryHandler<TData, TPayload> where TPayload : class
     {
-
         IEnumerable<TData> Eval(TPayload payload);
         bool Eval(TData element);
     }

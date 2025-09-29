@@ -9,7 +9,6 @@ namespace UnityEditor.Timeline
     [Flags]
     public enum MarkerUIStates
     {
-
         None = 0,
         Selected = 1,
         Collapsed = 2

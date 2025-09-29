@@ -9,7 +9,6 @@ namespace UnityEngine.Video
     [RequiredByNativeCode]
     public enum VideoAspectRatio
     {
-
         NoScaling = 0,
         FitVertically = 1,
         FitHorizontally = 2,

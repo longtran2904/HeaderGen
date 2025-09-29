@@ -6,7 +6,6 @@ namespace System.Diagnostics
 {
     public static class Debugger
     {
-
         public static readonly string DefaultCategory;
 
         public static bool IsAttached { get; }

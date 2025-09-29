@@ -9,7 +9,6 @@ namespace UnityEditor
     [Obsolete("D3D9 support has been removed")]
     public enum D3D9FullscreenMode
     {
-
         [Obsolete("D3D9 support has been removed")]
         ExclusiveMode = 0,
         [Obsolete("D3D9 support has been removed")]

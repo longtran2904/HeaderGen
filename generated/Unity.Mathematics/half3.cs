@@ -13,7 +13,6 @@ namespace Unity.Mathematics
     [Il2CppEagerStaticClassConstruction]
     public struct half3 : IEquatable<half3>, IFormattable
     {
-
         public half x;
         public half y;
         public half z;

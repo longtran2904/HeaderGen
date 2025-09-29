@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Wind/Public/Wind.h")]
     public class WindZone : Component
     {
-
         public WindZone();
 
         public WindZoneMode mode { get; set; }

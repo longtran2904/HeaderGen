@@ -10,7 +10,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [Flags]
     public enum TYMED
     {
-
         TYMED_HGLOBAL = 1,
         TYMED_FILE = 2,
         TYMED_ISTREAM = 4,

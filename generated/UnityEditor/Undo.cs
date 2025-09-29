@@ -17,7 +17,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Src/Undo/PropertyUndoManager.h")]
     public class Undo
     {
-
         public static UndoRedoCallback undoRedoPerformed;
         public static WillFlushUndoRecord willFlushUndoRecord;
         public static PostprocessModifications postprocessModifications;
@@ -95,6 +94,7 @@ namespace UnityEditor
         public static void RegisterSnapshot();
         [Obsolete("Use DestroyObjectImmediate, RegisterCreatedObjectUndo or RegisterUndo instead.")]
         public static void RegisterSceneUndo(string name);
+
         public delegate void UndoRedoCallback();
         public delegate void WillFlushUndoRecord();
         public delegate UndoPropertyModification[] PostprocessModifications(UndoPropertyModification[] modifications);

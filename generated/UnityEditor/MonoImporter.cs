@@ -12,7 +12,6 @@ namespace UnityEditor
     [NativeHeader("Modules/AssetPipelineEditor/Public/MonoImporter.h")]
     public class MonoImporter : AssetImporter
     {
-
         public MonoImporter();
 
         public void SetDefaultReferences(string[] name, UnityEngine.Object[] target);

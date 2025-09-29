@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public class UxmlAttributeOverridesTraits : UxmlTraits
     {
-
         public UxmlAttributeOverridesTraits();
 
         public override IEnumerable<UxmlChildElementDescription> uxmlChildElementsDescription { get; }

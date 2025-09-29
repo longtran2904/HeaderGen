@@ -10,7 +10,6 @@ namespace System
 {
     public abstract class MulticastDelegate : Delegate
     {
-
         protected MulticastDelegate(object target, string method);
         protected MulticastDelegate(Type target, string method);
 

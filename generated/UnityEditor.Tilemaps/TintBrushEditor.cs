@@ -9,7 +9,6 @@ namespace UnityEditor.Tilemaps
     [CustomEditor(typeof(TintBrush))]
     public class TintBrushEditor : GridBrushEditorBase
     {
-
         public TintBrushEditor();
 
         public override GameObject[] validTargets { get; }

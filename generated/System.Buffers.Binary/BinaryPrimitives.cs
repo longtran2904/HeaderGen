@@ -6,7 +6,6 @@ namespace System.Buffers.Binary
 {
     public static class BinaryPrimitives
     {
-
         public static double ReadDoubleBigEndian(ReadOnlySpan<byte> source);
         public static Half ReadHalfBigEndian(ReadOnlySpan<byte> source);
         public static short ReadInt16BigEndian(ReadOnlySpan<byte> source);

@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering.BuiltIn.ShaderGraph
 {
     public class BuiltInBaseShaderGUI : ShaderGUI
     {
-
         public bool m_FirstTimeApply;
 
         public BuiltInBaseShaderGUI();
@@ -26,23 +25,21 @@ namespace UnityEditor.Rendering.BuiltIn.ShaderGraph
         public static void DoPopup(GUIContent label, MaterialEditor materialEditor, MaterialProperty property, string[] options);
         public static void DoIntPopup(GUIContent label, MaterialEditor materialEditor, MaterialProperty property, string[] options, int[] optionValues);
         public static void DrawFloatToggleProperty(GUIContent styles, MaterialProperty prop);
+
         [Flags]
         protected enum Expandable
         {
-
             SurfaceOptions = 1,
             SurfaceInputs = 2,
             Advanced = 4
         }
         public enum SurfaceType
         {
-
             Opaque = 0,
             Transparent = 1
         }
         public enum BlendMode
         {
-
             Alpha = 0,
             Premultiply = 1,
             Additive = 2,
@@ -50,20 +47,17 @@ namespace UnityEditor.Rendering.BuiltIn.ShaderGraph
         }
         public enum RenderFace
         {
-
             Front = 2,
             Back = 1,
             Both = 0
         }
         public enum QueueControl
         {
-
             Auto = 0,
             UserOverride = 1
         }
         protected class Styles
         {
-
             public static readonly string[] surfaceTypeNames;
             public static readonly string[] blendModeNames;
             public static readonly string[] renderFaceNames;

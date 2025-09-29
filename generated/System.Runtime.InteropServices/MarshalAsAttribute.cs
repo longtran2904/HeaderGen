@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Parameter | AttributeTargets.ReturnValue, Inherited = False)]
     public sealed class MarshalAsAttribute : Attribute
     {
-
         public VarEnum SafeArraySubType;
         public Type SafeArrayUserDefinedSubType;
         public int IidParameterIndex;

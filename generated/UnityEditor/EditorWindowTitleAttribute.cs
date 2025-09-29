@@ -9,7 +9,6 @@ namespace UnityEditor
     [AttributeUsage(AttributeTargets.Class)]
     public class EditorWindowTitleAttribute : Attribute
     {
-
         public EditorWindowTitleAttribute();
 
         public string title { get; set; }

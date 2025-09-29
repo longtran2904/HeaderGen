@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum ArmDof
     {
-
         ShoulderDownUp = 0,
         ShoulderFrontBack = 1,
         ArmDownUp = 2,

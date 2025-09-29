@@ -7,7 +7,6 @@ namespace System.Runtime.Versioning
     [Flags]
     public enum ResourceScope
     {
-
         None = 0,
         Machine = 1,
         Process = 2,

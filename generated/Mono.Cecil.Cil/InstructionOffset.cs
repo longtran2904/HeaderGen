@@ -6,7 +6,6 @@ namespace Mono.Cecil.Cil
 {
     public struct InstructionOffset
     {
-
         public InstructionOffset(Instruction instruction);
         public InstructionOffset(int offset);
 

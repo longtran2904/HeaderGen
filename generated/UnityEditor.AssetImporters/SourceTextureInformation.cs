@@ -11,7 +11,6 @@ namespace UnityEditor.AssetImporters
     [NativeAsStruct]
     public class SourceTextureInformation
     {
-
         public SourceTextureInformation();
 
         public int width { get; set; }

@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Camera/Flare.h")]
     public sealed class LensFlare : Behaviour
     {
-
         public LensFlare();
 
         public float brightness { get; set; }

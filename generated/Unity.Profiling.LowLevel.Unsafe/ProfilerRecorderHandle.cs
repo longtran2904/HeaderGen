@@ -11,7 +11,6 @@ namespace Unity.Profiling.LowLevel.Unsafe
     [UsedByNativeCode]
     public readonly struct ProfilerRecorderHandle
     {
-
         public bool Valid { get; }
 
         public static ProfilerRecorderDescription GetDescription(ProfilerRecorderHandle handle);

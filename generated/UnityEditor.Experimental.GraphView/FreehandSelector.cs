@@ -8,7 +8,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class FreehandSelector : MouseManipulator
     {
-
         public FreehandSelector();
 
         protected override void RegisterCallbacksOnTarget();

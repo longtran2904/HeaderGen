@@ -6,7 +6,6 @@ namespace System.Security.AccessControl
 {
     public abstract class QualifiedAce : KnownAce
     {
-
         public AceQualifier AceQualifier { get; }
         public bool IsCallback { get; }
         public int OpaqueLength { get; }

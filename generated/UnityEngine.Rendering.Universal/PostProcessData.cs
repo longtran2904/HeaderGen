@@ -6,15 +6,14 @@ namespace UnityEngine.Rendering.Universal
 {
     public class PostProcessData : ScriptableObject
     {
-
         public ShaderResources shaders;
         public TextureResources textures;
 
         public PostProcessData();
+
         [ReloadGroup]
         public sealed class ShaderResources
         {
-
             [Reload("Shaders/PostProcessing/StopNaN.shader", ReloadAttribute.Package.Root)]
             public Shader stopNanPS;
             [Reload("Shaders/PostProcessing/SubpixelMorphologicalAntialiasing.shader", ReloadAttribute.Package.Root)]
@@ -49,7 +48,6 @@ namespace UnityEngine.Rendering.Universal
         [ReloadGroup]
         public sealed class TextureResources
         {
-
             [Reload("Textures/BlueNoise16/L/LDR_LLL1_{0}.png", 0, 32, ReloadAttribute.Package.Root)]
             public Texture2D[] blueNoise16LTex;
             [Reload(new[] {"Textures/FilmGrain/Thin01.png", "Textures/FilmGrain/Thin02.png", "Textures/FilmGrain/Medium01.png", "Textures/FilmGrain/Medium02.png", "Textures/FilmGrain/Medium03.png", "Textures/FilmGrain/Medium04.png", "Textures/FilmGrain/Medium05.png", "Textures/FilmGrain/Medium06.png", "Textures/FilmGrain/Large01.png", "Textures/FilmGrain/Large02.png" }, ReloadAttribute.Package.Root)]

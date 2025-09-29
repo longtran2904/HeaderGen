@@ -9,7 +9,6 @@ namespace UnityEngine.TextCore.LowLevel
     [NativeHeader("Modules/TextCoreFontEngine/Native/FontEngine.h")]
     public sealed class FontEngine
     {
-
         public static FontEngineError InitializeFontEngine();
         public static FontEngineError DestroyFontEngine();
         public static FontEngineError LoadFontFace(string filePath);

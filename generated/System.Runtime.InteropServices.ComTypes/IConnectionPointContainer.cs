@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public interface IConnectionPointContainer
     {
-
         void EnumConnectionPoints(out IEnumConnectionPoints ppEnum);
         void FindConnectionPoint(in Guid riid, out IConnectionPoint ppCP);
     }

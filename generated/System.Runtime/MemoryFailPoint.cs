@@ -8,7 +8,6 @@ namespace System.Runtime
 {
     public sealed class MemoryFailPoint : CriticalFinalizerObject, IDisposable
     {
-
         public MemoryFailPoint(int sizeInMegabytes);
 
         ~MemoryFailPoint();

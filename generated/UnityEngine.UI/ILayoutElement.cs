@@ -6,7 +6,6 @@ namespace UnityEngine.UI
 {
     public interface ILayoutElement
     {
-
         float minWidth { get; }
         float preferredWidth { get; }
         float flexibleWidth { get; }

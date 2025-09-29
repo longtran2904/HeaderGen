@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public struct StyleEnum<T> : IEquatable<StyleEnum<T>>, IStyleValue<T> where T : IConvertible, struct
     {
-
         public StyleEnum(T v);
         public StyleEnum(StyleKeyword keyword);
 

@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public class VolumeParameter<T> : VolumeParameter, IEquatable<VolumeParameter<T>>
     {
-
         [SerializeField]
         protected T m_Value;
 

@@ -12,7 +12,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public struct AnimatorStateInfo
     {
-
         public int fullPathHash { get; }
         [Obsolete("AnimatorStateInfo.nameHash has been deprecated. Use AnimatorStateInfo.fullPathHash instead.")]
         public int nameHash { get; }

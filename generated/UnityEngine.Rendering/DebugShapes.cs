@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public class DebugShapes
     {
-
         public DebugShapes();
 
         public static DebugShapes instance { get; }

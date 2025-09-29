@@ -10,7 +10,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public sealed class ImageEffectAfterScale : Attribute
     {
-
         public ImageEffectAfterScale();
     }
 }

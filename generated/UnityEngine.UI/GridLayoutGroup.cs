@@ -7,7 +7,6 @@ namespace UnityEngine.UI
     [AddComponentMenu("Layout/Grid Layout Group", 152)]
     public class GridLayoutGroup : LayoutGroup
     {
-
         [SerializeField]
         protected Corner m_StartCorner;
         [SerializeField]
@@ -35,9 +34,9 @@ namespace UnityEngine.UI
         public override void CalculateLayoutInputVertical();
         public override void SetLayoutHorizontal();
         public override void SetLayoutVertical();
+
         public enum Corner
         {
-
             UpperLeft = 0,
             UpperRight = 1,
             LowerLeft = 2,
@@ -45,13 +44,11 @@ namespace UnityEngine.UI
         }
         public enum Axis
         {
-
             Horizontal = 0,
             Vertical = 1
         }
         public enum Constraint
         {
-
             Flexible = 0,
             FixedColumnCount = 1,
             FixedRowCount = 2

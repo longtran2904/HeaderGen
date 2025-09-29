@@ -6,7 +6,6 @@ namespace UnityEngine.VFX
 {
     public struct VFXOutputEventArgs
     {
-
         public VFXOutputEventArgs(int nameId, VFXEventAttribute eventAttribute);
 
         public int nameId { get; }

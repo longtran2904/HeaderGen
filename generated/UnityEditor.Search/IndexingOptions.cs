@@ -9,7 +9,6 @@ namespace UnityEditor.Search
     [Flags]
     public enum IndexingOptions
     {
-
         None = 0,
         Types = 1,
         Properties = 2,

@@ -9,7 +9,6 @@ namespace System.Text.RegularExpressions
     [EditorBrowsable(EditorBrowsableState.Never)]
     public abstract class RegexRunner
     {
-
         protected internal int runtextbeg;
         protected internal int runtextend;
         protected internal int runtextstart;

@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
     [NativeHeader("Runtime/GfxDevice/GfxDeviceTypes.h")]
     public enum StencilOp
     {
-
         Keep = 0,
         Zero = 1,
         Replace = 2,

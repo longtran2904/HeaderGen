@@ -8,7 +8,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public abstract class EdgeDragHelper
     {
-
         protected EdgeDragHelper();
 
         public abstract Edge edgeCandidate { get; set; }

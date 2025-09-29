@@ -8,7 +8,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public interface ISelection
     {
-
         List<ISelectable> selection { get; }
 
         void AddToSelection(ISelectable selectable);

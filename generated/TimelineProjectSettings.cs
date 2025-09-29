@@ -9,7 +9,6 @@ using UnityEngine;
 [FilePath("ProjectSettings/TimelineSettings.asset", FilePathAttribute.Location.ProjectFolder)]
 public class TimelineProjectSettings : ScriptableSingleton<TimelineProjectSettings>
 {
-
     [HideInInspector]
     [Obsolete("assetDefaultFramerate has been deprecated. Use defaultFrameRate instead.")]
     public float assetDefaultFramerate;

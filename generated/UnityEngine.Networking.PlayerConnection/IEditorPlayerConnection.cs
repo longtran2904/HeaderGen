@@ -9,7 +9,6 @@ namespace UnityEngine.Networking.PlayerConnection
 {
     public interface IEditorPlayerConnection
     {
-
         void Register(Guid messageId, UnityAction<MessageEventArgs> callback);
         void Unregister(Guid messageId, UnityAction<MessageEventArgs> callback);
         void DisconnectAll();

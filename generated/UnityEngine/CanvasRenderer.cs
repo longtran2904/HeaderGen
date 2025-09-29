@@ -12,7 +12,6 @@ namespace UnityEngine
     [NativeHeader("Modules/UI/CanvasRenderer.h")]
     public sealed class CanvasRenderer : Component
     {
-
         public CanvasRenderer();
 
         public bool hasPopInstruction { get; set; }
@@ -60,6 +59,7 @@ namespace UnityEngine
         public void SetVertices(List<UIVertex> vertices);
         [Obsolete("UI System now uses meshes.Generate a mesh and use 'SetMesh' instead", False)]
         public void SetVertices(UIVertex[] vertices, int size);
+
         public delegate void OnRequestRebuild();
     }
 }

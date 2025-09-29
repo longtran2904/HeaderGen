@@ -6,7 +6,6 @@ namespace System.Runtime.CompilerServices
 {
     public enum UnsafeAccessorKind
     {
-
         Constructor = 0,
         Method = 1,
         StaticMethod = 2,

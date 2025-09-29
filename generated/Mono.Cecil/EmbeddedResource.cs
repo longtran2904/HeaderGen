@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public sealed class EmbeddedResource : Resource
     {
-
         public EmbeddedResource(string name, ManifestResourceAttributes attributes, byte[] data);
         public EmbeddedResource(string name, ManifestResourceAttributes attributes, Stream stream);
 

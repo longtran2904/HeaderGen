@@ -9,7 +9,6 @@ namespace UnityEngine.Networking.Types
     [DefaultValue(NetworkID.Invalid)]
     public enum NetworkID
     {
-
         Invalid = 18446744073709551615
     }
 }

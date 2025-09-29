@@ -10,7 +10,6 @@ namespace UnityEngine.TestTools
     [NativeType(CodegenOptions.Custom, "ManagedCoveredMethodStats", Header = "Runtime/Scripting/ScriptingCoverage.bindings.h")]
     public struct CoveredMethodStats
     {
-
         public MethodBase method;
         public int totalSequencePoints;
         public int uncoveredSequencePoints;

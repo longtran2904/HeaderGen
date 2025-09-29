@@ -8,7 +8,6 @@ namespace System.Collections.Concurrent
 {
     public class ConcurrentStack<T> : ICollection, IEnumerable, IEnumerable<T>, IProducerConsumerCollection<T>, IReadOnlyCollection<T>
     {
-
         public ConcurrentStack();
         public ConcurrentStack(IEnumerable<T> collection);
 

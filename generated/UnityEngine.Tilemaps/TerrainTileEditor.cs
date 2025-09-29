@@ -9,7 +9,6 @@ namespace UnityEngine.Tilemaps
     [CustomEditor(typeof(TerrainTile))]
     public class TerrainTileEditor : Editor
     {
-
         public TerrainTileEditor();
 
         public void OnEnable();

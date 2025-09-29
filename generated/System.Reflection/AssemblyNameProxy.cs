@@ -6,7 +6,6 @@ namespace System.Reflection
 {
     public class AssemblyNameProxy : MarshalByRefObject
     {
-
         public AssemblyNameProxy();
 
         public AssemblyName GetAssemblyName(string assemblyFile);

@@ -9,7 +9,6 @@ namespace System.Linq
 {
     public static class Enumerable
     {
-
         public static IEnumerable<TResult> Empty<TResult>();
         public static TSource Aggregate<TSource>(this IEnumerable<TSource> source, Func<TSource, TSource, TSource> func);
         public static TAccumulate Aggregate<TSource, TAccumulate>(this IEnumerable<TSource> source, TAccumulate seed, Func<TAccumulate, TSource, TAccumulate> func);

@@ -9,7 +9,6 @@ namespace System.Collections
     [DefaultMember("Item")]
     public class ArrayList : ICloneable, ICollection, IEnumerable, IList
     {
-
         public ArrayList();
         public ArrayList(int capacity);
         public ArrayList(ICollection c);

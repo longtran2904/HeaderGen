@@ -9,7 +9,6 @@ namespace UnityEngine
     [Flags]
     public enum AdditionalCanvasShaderChannels
     {
-
         None = 0,
         TexCoord1 = 1,
         TexCoord2 = 2,

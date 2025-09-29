@@ -11,7 +11,6 @@ namespace System.IO.Pipes
 {
     public abstract class PipeStream : Stream
     {
-
         protected PipeStream(PipeDirection direction, int bufferSize);
         protected PipeStream(PipeDirection direction, PipeTransmissionMode transmissionMode, int outBufferSize);
 

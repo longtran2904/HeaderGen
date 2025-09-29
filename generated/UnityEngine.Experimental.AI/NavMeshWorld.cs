@@ -10,7 +10,6 @@ namespace UnityEngine.Experimental.AI
     [StaticAccessor("NavMeshWorldBindings", StaticAccessorType.DoubleColon)]
     public struct NavMeshWorld
     {
-
         public bool IsValid();
         public static NavMeshWorld GetDefaultWorld();
         public void AddDependency(JobHandle job);

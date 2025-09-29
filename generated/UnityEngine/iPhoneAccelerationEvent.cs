@@ -11,7 +11,6 @@ namespace UnityEngine
     [Obsolete("iPhoneAccelerationEvent struct is deprecated. Please use AccelerationEvent instead (UnityUpgradable) -> AccelerationEvent", True)]
     public struct iPhoneAccelerationEvent
     {
-
         [EditorBrowsable(EditorBrowsableState.Never)]
         [Obsolete("timeDelta property is deprecated. Please use AccelerationEvent.deltaTime instead (UnityUpgradable) -> AccelerationEvent.deltaTime", True)]
         public float timeDelta { get; }

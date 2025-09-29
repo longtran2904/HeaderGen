@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public class Texture3DParameter : VolumeParameter<Texture>
     {
-
         public Texture3DParameter(Texture value, bool overrideState = False);
 
         public override int GetHashCode();

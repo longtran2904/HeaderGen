@@ -10,7 +10,6 @@ namespace UnityEngine.UIElements
 {
     public class ListView : BaseVerticalCollectionView
     {
-
         public static readonly string ussClassName;
         public static readonly string itemUssClassName;
         public static readonly string emptyLabelUssClassName;
@@ -39,14 +38,13 @@ namespace UnityEngine.UIElements
 
         public event Action<IEnumerable<int>> itemsAdded;
         public event Action<IEnumerable<int>> itemsRemoved;
+
         public class UxmlFactory : UxmlFactory<ListView, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : BindableElement.UxmlTraits
         {
-
             public UxmlTraits();
 
             public override IEnumerable<UxmlChildElementDescription> uxmlChildElementsDescription { get; }

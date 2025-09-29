@@ -9,7 +9,6 @@ namespace UnityEditor.SearchService
 {
     public class ProjectSearchContext : ISearchContext
     {
-
         public ProjectSearchContext();
 
         public Guid guid { get; }

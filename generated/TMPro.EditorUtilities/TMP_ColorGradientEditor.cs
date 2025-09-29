@@ -9,7 +9,6 @@ namespace TMPro.EditorUtilities
     [CustomEditor(typeof(TMP_ColorGradient))]
     public class TMP_ColorGradientEditor : Editor
     {
-
         public TMP_ColorGradientEditor();
 
         public override void OnInspectorGUI();

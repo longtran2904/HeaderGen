@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering
 {
     public class TemperatureSliderUIDrawer
     {
-
         public TemperatureSliderUIDrawer();
 
         public static void Draw(LightEditor.Settings settings, SerializedObject serializedObject, SerializedProperty value, Rect rect);

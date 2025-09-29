@@ -17,7 +17,6 @@ namespace UnityEngine.Experimental.AI
     [StaticAccessor("NavMeshQueryBindings", StaticAccessorType.DoubleColon)]
     public struct NavMeshQuery : IDisposable
     {
-
         public NavMeshQuery(NavMeshWorld world, Allocator allocator, int pathNodePoolSize = 0);
 
         public void Dispose();

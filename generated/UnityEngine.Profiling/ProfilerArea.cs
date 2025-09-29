@@ -6,7 +6,6 @@ namespace UnityEngine.Profiling
 {
     public enum ProfilerArea
     {
-
         CPU = 0,
         GPU = 1,
         Rendering = 2,

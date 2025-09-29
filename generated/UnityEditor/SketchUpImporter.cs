@@ -9,7 +9,6 @@ namespace UnityEditor
     [NativeHeader("Modules/SketchUpEditor/SketchUpImporter.h")]
     public sealed class SketchUpImporter : ModelImporter
     {
-
         public SketchUpImporter();
 
         public double latitude { get; }

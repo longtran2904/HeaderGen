@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public static class DynamicArrayExtensions
     {
-
         public static void QuickSort<T>(this DynamicArray<T> array) where T : IComparable<T>, new();
     }
 }

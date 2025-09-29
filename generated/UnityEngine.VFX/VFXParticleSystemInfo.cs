@@ -11,7 +11,6 @@ namespace UnityEngine.VFX
     [UsedByNativeCode]
     public struct VFXParticleSystemInfo
     {
-
         public uint aliveCount;
         public uint capacity;
         public bool sleeping;

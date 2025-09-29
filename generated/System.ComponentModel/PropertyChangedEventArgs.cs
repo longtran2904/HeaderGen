@@ -6,7 +6,6 @@ namespace System.ComponentModel
 {
     public class PropertyChangedEventArgs : EventArgs
     {
-
         public PropertyChangedEventArgs(string propertyName);
 
         public virtual string PropertyName { get; }

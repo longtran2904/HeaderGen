@@ -14,7 +14,6 @@ namespace UnityEngine
     [NativeHeader("UnityAnalyticsScriptingClasses.h")]
     public class RemoteConfigSettings : IDisposable
     {
-
         public RemoteConfigSettings(string configKey);
 
         ~RemoteConfigSettings();

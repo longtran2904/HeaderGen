@@ -11,7 +11,6 @@ namespace UnityEngine.AI
     [NativeHeader("Modules/AI/Components/NavMeshObstacle.bindings.h")]
     public sealed class NavMeshObstacle : Behaviour
     {
-
         public NavMeshObstacle();
 
         public float height { get; set; }

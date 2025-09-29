@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class DropdownMenuSeparator : DropdownMenuItem
     {
-
         public DropdownMenuSeparator(string subMenuPath);
 
         public string subMenuPath { get; }

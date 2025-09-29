@@ -9,7 +9,6 @@ namespace UnityEditor.Overlays
     [Flags]
     public enum Layout
     {
-
         HorizontalToolbar = 1,
         VerticalToolbar = 2,
         Panel = 4,

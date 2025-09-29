@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public struct STATSTG
     {
-
         public string pwcsName;
         public int type;
         public long cbSize;

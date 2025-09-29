@@ -10,7 +10,6 @@ namespace UnityEngine.Rendering
     [DefaultMember("Item")]
     public class DynamicArray<T> where T : new()
     {
-
         public DynamicArray();
         public DynamicArray(int size);
 

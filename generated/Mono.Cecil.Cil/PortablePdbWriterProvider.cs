@@ -8,7 +8,6 @@ namespace Mono.Cecil.Cil
 {
     public sealed class PortablePdbWriterProvider : ISymbolWriterProvider
     {
-
         public PortablePdbWriterProvider();
 
         public ISymbolWriter GetSymbolWriter(ModuleDefinition module, string fileName);

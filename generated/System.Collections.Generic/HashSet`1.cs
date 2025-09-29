@@ -9,7 +9,6 @@ namespace System.Collections.Generic
 {
     public class HashSet<T> : ICollection<T>, IDeserializationCallback, IEnumerable, IEnumerable<T>, IReadOnlyCollection<T>, IReadOnlySet<T>, ISerializable, ISet<T>
     {
-
         public HashSet();
         public HashSet(IEqualityComparer<T> comparer);
         public HashSet(int capacity);
@@ -50,9 +49,9 @@ namespace System.Collections.Generic
         public int EnsureCapacity(int capacity);
         public void TrimExcess();
         public static IEqualityComparer<HashSet<T>> CreateSetComparer();
+
         public struct Enumerator : IDisposable, IEnumerator, IEnumerator<T>
         {
-
             public T Current { get; }
 
             public bool MoveNext();

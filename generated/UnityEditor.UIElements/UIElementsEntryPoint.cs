@@ -6,7 +6,6 @@ namespace UnityEditor.UIElements
 {
     public static class UIElementsEntryPoint
     {
-
         public static void SetAntiAliasing(this EditorWindow window, int aa);
         public static int GetAntiAliasing(this EditorWindow window);
     }

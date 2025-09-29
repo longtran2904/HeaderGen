@@ -14,7 +14,6 @@ namespace UnityEngine.XR
     [UsedByNativeCode]
     public class XRInputSubsystem : IntegratedSubsystem<XRInputSubsystemDescriptor>
     {
-
         public XRInputSubsystem();
 
         public event Action<XRInputSubsystem> trackingOriginUpdated;

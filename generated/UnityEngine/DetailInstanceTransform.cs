@@ -9,7 +9,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public struct DetailInstanceTransform
     {
-
         public float posX;
         public float posY;
         public float posZ;

@@ -10,7 +10,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics/HingeJoint.h")]
     public class HingeJoint : Joint
     {
-
         public HingeJoint();
 
         public JointMotor motor { get; set; }

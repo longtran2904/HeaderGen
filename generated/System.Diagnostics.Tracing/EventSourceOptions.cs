@@ -6,7 +6,6 @@ namespace System.Diagnostics.Tracing
 {
     public struct EventSourceOptions
     {
-
         public EventLevel Level { get; set; }
         public EventOpcode Opcode { get; set; }
         public EventKeywords Keywords { get; set; }

@@ -8,7 +8,6 @@ namespace UnityEngine.Pool
 {
     public class DictionaryPool<TKey, TValue> : CollectionPool<Dictionary<TKey, TValue>, KeyValuePair<TKey, TValue>>
     {
-
         public DictionaryPool();
     }
 }

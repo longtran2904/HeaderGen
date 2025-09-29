@@ -6,7 +6,6 @@ namespace System.Net.Http
 {
     public class HttpMethod : IEquatable<HttpMethod>
     {
-
         public HttpMethod(string method);
 
         public static HttpMethod Get { get; }

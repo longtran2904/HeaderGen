@@ -9,7 +9,6 @@ namespace System.Threading.Tasks
 {
     public readonly struct ValueTask : IEquatable<ValueTask>
     {
-
         public ValueTask(Task task);
         public ValueTask(IValueTaskSource source, short token);
 

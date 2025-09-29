@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public struct TransformOrigin : IEquatable<TransformOrigin>
     {
-
         public TransformOrigin(Length x, Length y, float z);
         public TransformOrigin(Length x, Length y);
 

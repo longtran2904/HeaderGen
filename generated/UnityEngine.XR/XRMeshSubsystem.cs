@@ -16,7 +16,6 @@ namespace UnityEngine.XR
     [UsedByNativeCode]
     public class XRMeshSubsystem : IntegratedSubsystem<XRMeshSubsystemDescriptor>
     {
-
         public XRMeshSubsystem();
 
         public float meshDensity { get; set; }

@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering
 {
     public class IESObject : ScriptableObject
     {
-
         public IESMetaData iesMetaData;
 
         public IESObject();

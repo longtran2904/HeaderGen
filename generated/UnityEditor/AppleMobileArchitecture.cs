@@ -10,7 +10,6 @@ namespace UnityEditor
     [Flags]
     public enum AppleMobileArchitecture
     {
-
         [EditorBrowsable(EditorBrowsableState.Never)]
         [Obsolete("ARMv7 is no longer supported", True)]
         ARMv7 = 0,

@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class AttachToPanelEvent : PanelChangedEventBase<AttachToPanelEvent>
     {
-
         public AttachToPanelEvent();
     }
 }

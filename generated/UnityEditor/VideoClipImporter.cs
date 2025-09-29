@@ -14,7 +14,6 @@ namespace UnityEditor
     [NativeHeader("Modules/AssetPipelineEditor/Public/VideoClipImporter.bindings.h")]
     public class VideoClipImporter : AssetImporter
     {
-
         public VideoClipImporter();
 
         [EditorBrowsable(EditorBrowsableState.Never)]

@@ -8,7 +8,6 @@ namespace System.Security.AccessControl
 {
     public sealed class CommonAce : QualifiedAce
     {
-
         public CommonAce(AceFlags flags, AceQualifier qualifier, int accessMask, SecurityIdentifier sid, bool isCallback, byte[] opaque);
 
         public override int BinaryLength { get; }

@@ -8,7 +8,6 @@ namespace UnityEditor.Compilation
 {
     public class PrecompiledAssemblyException : Exception
     {
-
         public PrecompiledAssemblyException(string message, params string[] filePaths);
 
         public string[] filePaths { get; }

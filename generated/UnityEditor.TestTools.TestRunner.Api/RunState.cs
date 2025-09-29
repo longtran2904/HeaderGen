@@ -6,7 +6,6 @@ namespace UnityEditor.TestTools.TestRunner.Api
 {
     public enum RunState
     {
-
         NotRunnable = 0,
         Runnable = 1,
         Explicit = 2,

@@ -11,7 +11,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public enum ColorGamut
     {
-
         sRGB = 0,
         Rec709 = 1,
         Rec2020 = 2,

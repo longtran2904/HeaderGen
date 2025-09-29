@@ -6,7 +6,6 @@ namespace System.Runtime.Intrinsics.X86
 {
     public enum FloatComparisonMode
     {
-
         OrderedEqualNonSignaling = 0,
         OrderedLessThanSignaling = 1,
         OrderedLessThanOrEqualSignaling = 2,

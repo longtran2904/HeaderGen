@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public class VolumeComponent : ScriptableObject
     {
-
         public bool active;
 
         public VolumeComponent();
@@ -23,9 +22,9 @@ namespace UnityEngine.Rendering
         public override int GetHashCode();
         protected virtual void OnDestroy();
         public void Release();
+
         public sealed class Indent : PropertyAttribute
         {
-
             public readonly int relativeAmount;
 
             public Indent(int relativeAmount = 1);

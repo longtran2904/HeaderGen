@@ -9,7 +9,6 @@ namespace UnityEditor
 {
     public sealed class Tools : ScriptableObject
     {
-
         public Tools();
 
         public static Tool current { get; set; }

@@ -10,7 +10,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [Flags]
     public enum FUNCFLAGS
     {
-
         FUNCFLAG_FRESTRICTED = 1,
         FUNCFLAG_FSOURCE = 2,
         FUNCFLAG_FBINDABLE = 4,

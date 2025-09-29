@@ -9,7 +9,6 @@ namespace TMPro
 {
     public class TMP_PreBuildProcessor : IOrderedCallback, IPreprocessBuildWithReport
     {
-
         public TMP_PreBuildProcessor();
 
         public int callbackOrder { get; }

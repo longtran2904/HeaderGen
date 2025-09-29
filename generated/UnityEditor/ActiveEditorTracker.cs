@@ -11,7 +11,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Src/Utility/ActiveEditorTracker.bindings.h")]
     public sealed class ActiveEditorTracker
     {
-
         public ActiveEditorTracker();
 
         ~ActiveEditorTracker();

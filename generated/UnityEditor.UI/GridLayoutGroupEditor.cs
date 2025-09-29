@@ -10,7 +10,6 @@ namespace UnityEditor.UI
     [CustomEditor(typeof(GridLayoutGroup), True)]
     public class GridLayoutGroupEditor : Editor
     {
-
         public GridLayoutGroupEditor();
 
         protected virtual void OnEnable();

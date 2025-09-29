@@ -8,7 +8,6 @@ namespace UnityEngine
 {
     public enum TouchScreenKeyboardType
     {
-
         Default = 0,
         ASCIICapable = 1,
         NumbersAndPunctuation = 2,

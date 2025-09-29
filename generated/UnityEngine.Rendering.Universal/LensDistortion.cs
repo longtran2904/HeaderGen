@@ -7,7 +7,6 @@ namespace UnityEngine.Rendering.Universal
     [VolumeComponentMenuForRenderPipeline("Post-processing/Lens Distortion", new[] {typeof(UniversalRenderPipeline) })]
     public sealed class LensDistortion : VolumeComponent, IPostProcessComponent
     {
-
         [Tooltip("Total distortion amount.")]
         public ClampedFloatParameter intensity;
         [Tooltip("Intensity multiplier on X axis. Set it to 0 to disable distortion on this axis.")]

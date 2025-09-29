@@ -11,7 +11,6 @@ namespace UnityEngine
     [Obsolete("iPhoneTouchPhase enumeration is deprecated. Please use TouchPhase instead (UnityUpgradable) -> TouchPhase", True)]
     public enum iPhoneTouchPhase
     {
-
         Began = 0,
         Moved = 1,
         Stationary = 2,

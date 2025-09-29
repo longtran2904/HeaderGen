@@ -13,7 +13,6 @@ namespace Microsoft.CSharp
 {
     public class CSharpCodeProvider : CodeDomProvider
     {
-
         public CSharpCodeProvider();
         public CSharpCodeProvider(IDictionary<string, string> providerOptions);
 

@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public sealed class SentinelType : TypeSpecification
     {
-
         public SentinelType(TypeReference type);
 
         public override bool IsValueType { get; set; }

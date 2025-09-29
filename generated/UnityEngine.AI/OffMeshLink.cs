@@ -10,7 +10,6 @@ namespace UnityEngine.AI
     [MovedFrom("UnityEngine")]
     public sealed class OffMeshLink : Behaviour
     {
-
         public OffMeshLink();
 
         public bool activated { get; set; }

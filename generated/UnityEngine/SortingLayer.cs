@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/BaseClasses/TagManager.h")]
     public struct SortingLayer
     {
-
         public int id { get; }
         public string name { get; }
         public int value { get; }

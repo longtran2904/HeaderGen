@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeAttributeArgument
     {
-
         public CodeAttributeArgument();
         public CodeAttributeArgument(CodeExpression value);
         public CodeAttributeArgument(string name, CodeExpression value);

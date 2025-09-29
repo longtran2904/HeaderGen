@@ -10,7 +10,6 @@ namespace UnityEditor.UI
     [CustomEditor(typeof(ScrollRect), True)]
     public class ScrollRectEditor : Editor
     {
-
         public ScrollRectEditor();
 
         protected virtual void OnEnable();

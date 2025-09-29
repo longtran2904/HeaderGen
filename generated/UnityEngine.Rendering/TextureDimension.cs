@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public enum TextureDimension
     {
-
         Unknown = -1,
         None = 0,
         Any = 1,

@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public struct TextShadow : IEquatable<TextShadow>
     {
-
         public Vector2 offset;
         public float blurRadius;
         public Color color;

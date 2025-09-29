@@ -10,7 +10,6 @@ namespace UnityEditor.Rendering
     [UsedByNativeCode]
     public struct ShaderCompilerData
     {
-
         public ShaderKeywordSet shaderKeywordSet;
         public PlatformKeywordSet platformKeywordSet;
 

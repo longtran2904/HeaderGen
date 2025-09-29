@@ -8,7 +8,6 @@ namespace UnityEngine.Jobs
 {
     public static class IJobParallelForTransformExtensions
     {
-
         public static JobHandle Schedule<T>(this T jobData, TransformAccessArray transforms, JobHandle dependsOn = null) where T : IJobParallelForTransform, struct;
         public static JobHandle ScheduleReadOnly<T>(this T jobData, TransformAccessArray transforms, int batchSize, JobHandle dependsOn = null) where T : IJobParallelForTransform, struct;
         public static void RunReadOnly<T>(this T jobData, TransformAccessArray transforms) where T : IJobParallelForTransform, struct;

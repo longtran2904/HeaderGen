@@ -10,7 +10,6 @@ namespace UnityEditor.Rendering
     [DebugState(new[] {typeof(DebugUI.ColorField) })]
     public sealed class DebugStateColor : DebugState<Color>
     {
-
         public DebugStateColor();
     }
 }

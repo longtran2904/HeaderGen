@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics2D/FixedJoint2D.h")]
     public sealed class FixedJoint2D : AnchoredJoint2D
     {
-
         public FixedJoint2D();
 
         public float dampingRatio { get; set; }

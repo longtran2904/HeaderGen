@@ -10,7 +10,6 @@ namespace UnityEngine
     [NativeHeader("Modules/JSONSerialize/Public/JsonUtility.bindings.h")]
     public static class JsonUtility
     {
-
         public static string ToJson(object obj);
         public static string ToJson(object obj, bool prettyPrint);
         public static T FromJson<T>(string json);

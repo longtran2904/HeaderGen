@@ -10,7 +10,6 @@ namespace UnityEngine.TextCore
     [UsedByNativeCode]
     public struct GlyphRect : IEquatable<GlyphRect>
     {
-
         public GlyphRect(int x, int y, int width, int height);
         public GlyphRect(Rect rect);
 

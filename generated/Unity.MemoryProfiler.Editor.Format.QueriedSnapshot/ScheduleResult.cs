@@ -8,7 +8,6 @@ namespace Unity.MemoryProfiler.Editor.Format.QueriedSnapshot
 {
     public struct ScheduleResult
     {
-
         public ReadHandle handle;
         public ReadError error;
     }

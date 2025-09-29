@@ -10,7 +10,6 @@ namespace UnityEditor.Search
 {
     public static class SearchService
     {
-
         public static List<SearchProvider> Providers { get; }
         public static IEnumerable<SearchProvider> OrderedProviders { get; }
 

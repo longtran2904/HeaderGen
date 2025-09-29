@@ -12,7 +12,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public class Display
     {
-
         public static Display[] displays;
 
         public int renderingWidth { get; }
@@ -36,6 +35,7 @@ namespace UnityEngine
         [Obsolete("MultiDisplayLicense has been deprecated.", False)]
         public static bool MultiDisplayLicense();
         public static Vector3 RelativeMouseAt(Vector3 inputMouseCoordinates);
+
         public delegate void DisplaysUpdatedDelegate();
     }
 }

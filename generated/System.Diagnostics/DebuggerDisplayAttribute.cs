@@ -7,7 +7,6 @@ namespace System.Diagnostics
     [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Delegate, AllowMultiple = True)]
     public sealed class DebuggerDisplayAttribute : Attribute
     {
-
         public DebuggerDisplayAttribute(string value);
 
         public string Value { get; }

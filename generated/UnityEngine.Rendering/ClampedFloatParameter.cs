@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public class ClampedFloatParameter : FloatParameter
     {
-
         [NonSerialized]
         public float min;
         [NonSerialized]

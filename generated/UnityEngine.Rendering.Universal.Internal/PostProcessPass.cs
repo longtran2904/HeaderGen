@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.Universal.Internal
 {
     public class PostProcessPass : ScriptableRenderPass
     {
-
         public PostProcessPass(RenderPassEvent evt, PostProcessData data, Material blitMaterial);
 
         public void Cleanup();

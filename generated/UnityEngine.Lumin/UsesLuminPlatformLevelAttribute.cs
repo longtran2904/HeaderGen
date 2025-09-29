@@ -9,7 +9,6 @@ namespace UnityEngine.Lumin
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = False)]
     public sealed class UsesLuminPlatformLevelAttribute : Attribute
     {
-
         public UsesLuminPlatformLevelAttribute(uint platformLevel);
 
         public uint platformLevel { get; }

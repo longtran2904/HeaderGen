@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.Universal.Internal
 {
     public static class NormalReconstruction
     {
-
         public static void SetupProperties(CommandBuffer cmd, in CameraData cameraData);
     }
 }

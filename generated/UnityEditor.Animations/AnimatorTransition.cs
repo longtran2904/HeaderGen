@@ -10,7 +10,6 @@ namespace UnityEditor.Animations
     [NativeHeader("Editor/Src/Animation/StateMachine.bindings.h")]
     public class AnimatorTransition : AnimatorTransitionBase
     {
-
         public AnimatorTransition();
     }
 }

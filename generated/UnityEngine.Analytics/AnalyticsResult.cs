@@ -6,7 +6,6 @@ namespace UnityEngine.Analytics
 {
     public enum AnalyticsResult
     {
-
         Ok = 0,
         NotInitialized = 1,
         AnalyticsDisabled = 2,

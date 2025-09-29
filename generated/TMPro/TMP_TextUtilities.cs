@@ -8,7 +8,6 @@ namespace TMPro
 {
     public static class TMP_TextUtilities
     {
-
         public static int GetCursorIndexFromPosition(TMP_Text textComponent, Vector3 position, Camera camera);
         public static int GetCursorIndexFromPosition(TMP_Text textComponent, Vector3 position, Camera camera, out CaretPosition cursor);
         public static int FindNearestLine(TMP_Text text, Vector3 position, Camera camera);

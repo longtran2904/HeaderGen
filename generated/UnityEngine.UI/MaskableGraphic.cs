@@ -10,7 +10,6 @@ namespace UnityEngine.UI
 {
     public abstract class MaskableGraphic : Graphic, IClippable, IMaskable, IMaterialModifier
     {
-
         [NonSerialized]
         protected bool m_ShouldRecalculateStencil;
         [NonSerialized]
@@ -46,9 +45,9 @@ namespace UnityEngine.UI
         protected override void OnCanvasHierarchyChanged();
         public virtual void RecalculateClipping();
         public virtual void RecalculateMasking();
+
         public class CullStateChangedEvent : UnityEvent<bool>
         {
-
             public CullStateChangedEvent();
         }
     }

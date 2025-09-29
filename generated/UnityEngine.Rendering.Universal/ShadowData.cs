@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering.Universal
 {
     public struct ShadowData
     {
-
         public bool supportsMainLightShadows;
         [Obsolete("Obsolete, this feature was replaced by new 'ScreenSpaceShadows' renderer feature")]
         public bool requiresScreenSpaceShadowResolve;

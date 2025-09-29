@@ -8,7 +8,6 @@ namespace Unity.MemoryProfiler.Editor.Format.LowLevel.IO
 {
     public static class ReadCommandBufferUtils
     {
-
         public static ReadCommand GetCommand(void* buffer, long readSize, long offset);
     }
 }

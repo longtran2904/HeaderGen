@@ -13,7 +13,6 @@ namespace UnityEditor.Animations
     [NativeType(CodegenOptions.Custom, "MonoAnimatorControllerLayer")]
     public class AnimatorControllerLayer
     {
-
         public AnimatorControllerLayer();
 
         public string name { get; set; }

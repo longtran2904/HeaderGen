@@ -6,7 +6,6 @@ namespace System.Globalization
 {
     public class TaiwanLunisolarCalendar : EastAsianLunisolarCalendar
     {
-
         public TaiwanLunisolarCalendar();
 
         public override DateTime MinSupportedDateTime { get; }

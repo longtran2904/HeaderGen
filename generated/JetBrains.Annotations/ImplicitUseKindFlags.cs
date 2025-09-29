@@ -9,7 +9,6 @@ namespace JetBrains.Annotations
     [Flags]
     public enum ImplicitUseKindFlags
     {
-
         Default = 7,
         Access = 1,
         Assign = 2,

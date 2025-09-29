@@ -8,7 +8,6 @@ namespace UnityEngine.Pool
 {
     public class LinkedPool<T> : IDisposable, IObjectPool<T> where T : class
     {
-
         public LinkedPool(Func<T> createFunc, Action<T> actionOnGet = null, Action<T> actionOnRelease = null, Action<T> actionOnDestroy = null, bool collectionCheck = True, int maxSize = 10000);
 
         public int CountInactive { get; }

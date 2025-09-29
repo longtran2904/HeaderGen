@@ -6,7 +6,6 @@ namespace System.IO
 {
     public sealed class FileStreamOptions
     {
-
         public FileStreamOptions();
 
         public FileMode Mode { get; set; }

@@ -9,7 +9,6 @@ namespace System
 {
     public class FieldAccessException : MemberAccessException
     {
-
         public FieldAccessException();
         public FieldAccessException(string message);
         public FieldAccessException(string message, Exception inner);

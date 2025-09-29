@@ -6,7 +6,6 @@ namespace Unity.Collections.LowLevel.Unsafe
 {
     public static class NativeSliceUnsafeUtility
     {
-
         public static AtomicSafetyHandle GetAtomicSafetyHandle<T>(NativeSlice<T> slice) where T : struct;
         public static void SetAtomicSafetyHandle<T>(ref NativeSlice<T> slice, AtomicSafetyHandle safety) where T : struct;
         public static NativeSlice<T> ConvertExistingDataToNativeSlice<T>(void* dataPointer, int stride, int length) where T : struct;

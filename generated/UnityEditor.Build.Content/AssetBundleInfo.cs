@@ -13,7 +13,6 @@ namespace UnityEditor.Build.Content
     [UsedByNativeCode]
     public class AssetBundleInfo
     {
-
         public AssetBundleInfo();
 
         public string bundleName { get; set; }

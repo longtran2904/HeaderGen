@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering
 {
     public static class CoreRenderPipelinePreferences
     {
-
         public static readonly string corePreferencePath;
 
         public static void Open();

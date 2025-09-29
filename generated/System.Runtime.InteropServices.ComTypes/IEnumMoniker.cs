@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public interface IEnumMoniker
     {
-
         int Next(int celt, out IMoniker[] rgelt, nint pceltFetched);
         int Skip(int celt);
         void Reset();

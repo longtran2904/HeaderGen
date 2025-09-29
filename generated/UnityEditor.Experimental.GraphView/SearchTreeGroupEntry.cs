@@ -8,7 +8,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class SearchTreeGroupEntry : SearchTreeEntry
     {
-
         public SearchTreeGroupEntry(GUIContent content, int level = 0);
     }
 }

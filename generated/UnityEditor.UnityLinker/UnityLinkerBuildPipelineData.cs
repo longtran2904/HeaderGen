@@ -6,7 +6,6 @@ namespace UnityEditor.UnityLinker
 {
     public sealed class UnityLinkerBuildPipelineData
     {
-
         public readonly BuildTarget target;
         public readonly string inputDirectory;
 

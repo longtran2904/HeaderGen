@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.Universal.Internal
 {
     public class CopyColorPass : ScriptableRenderPass
     {
-
         public CopyColorPass(RenderPassEvent evt, Material samplingMaterial, Material copyColorMaterial = null);
 
         public void Setup(RenderTargetIdentifier source, RenderTargetHandle destination, Downsampling downsampling);

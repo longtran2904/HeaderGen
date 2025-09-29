@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public class TextElement : BindableElement, INotifyValueChanged<string>, ITextElement
     {
-
         public static readonly string ussClassName;
 
         public TextElement();
@@ -21,14 +20,13 @@ namespace UnityEngine.UIElements
         public override void HandleEvent(EventBase evt);
         public Vector2 MeasureTextSize(string textToMeasure, float width, MeasureMode widthMode, float height, MeasureMode heightMode);
         protected internal override Vector2 DoMeasure(float desiredWidth, MeasureMode widthMode, float desiredHeight, MeasureMode heightMode);
+
         public class UxmlFactory : UxmlFactory<TextElement, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : BindableElement.UxmlTraits
         {
-
             public UxmlTraits();
 
             public override IEnumerable<UxmlChildElementDescription> uxmlChildElementsDescription { get; }

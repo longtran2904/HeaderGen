@@ -9,7 +9,6 @@ namespace System.Collections.Generic
     [DefaultMember("Item")]
     public class SortedDictionary<TKey, TValue> : ICollection, ICollection<KeyValuePair<TKey, TValue>>, IDictionary, IDictionary<TKey, TValue>, IEnumerable, IEnumerable<KeyValuePair<TKey, TValue>>, IReadOnlyCollection<KeyValuePair<TKey, TValue>>, IReadOnlyDictionary<TKey, TValue>
     {
-
         public SortedDictionary();
         public SortedDictionary(IDictionary<TKey, TValue> dictionary);
         public SortedDictionary(IDictionary<TKey, TValue> dictionary, IComparer<TKey> comparer);
@@ -29,9 +28,9 @@ namespace System.Collections.Generic
         public Enumerator GetEnumerator();
         public bool Remove(TKey key);
         public bool TryGetValue(TKey key, out TValue value);
+
         public struct Enumerator : IDictionaryEnumerator, IDisposable, IEnumerator, IEnumerator<KeyValuePair<TKey, TValue>>
         {
-
             public KeyValuePair<TKey, TValue> Current { get; }
 
             public bool MoveNext();
@@ -39,7 +38,6 @@ namespace System.Collections.Generic
         }
         public sealed class KeyCollection : ICollection, ICollection<TKey>, IEnumerable, IEnumerable<TKey>, IReadOnlyCollection<TKey>
         {
-
             public KeyCollection(SortedDictionary<TKey, TValue> dictionary);
 
             public int Count { get; }
@@ -47,9 +45,9 @@ namespace System.Collections.Generic
             public Enumerator GetEnumerator();
             public void CopyTo(TKey[] array, int index);
             public bool Contains(TKey item);
+
             public struct Enumerator : IDisposable, IEnumerator, IEnumerator<TKey>
             {
-
                 public TKey Current { get; }
 
                 public void Dispose();
@@ -58,16 +56,15 @@ namespace System.Collections.Generic
         }
         public sealed class ValueCollection : ICollection, ICollection<TValue>, IEnumerable, IEnumerable<TValue>, IReadOnlyCollection<TValue>
         {
-
             public ValueCollection(SortedDictionary<TKey, TValue> dictionary);
 
             public int Count { get; }
 
             public Enumerator GetEnumerator();
             public void CopyTo(TValue[] array, int index);
+
             public struct Enumerator : IDisposable, IEnumerator, IEnumerator<TValue>
             {
-
                 public TValue Current { get; }
 
                 public void Dispose();
@@ -76,7 +73,6 @@ namespace System.Collections.Generic
         }
         public sealed class KeyValuePairComparer : Comparer<KeyValuePair<TKey, TValue>>
         {
-
             public KeyValuePairComparer(IComparer<TKey> keyComparer);
 
             public override int Compare(KeyValuePair<TKey, TValue> x, KeyValuePair<TKey, TValue> y);

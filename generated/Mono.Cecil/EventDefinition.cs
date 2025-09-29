@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public sealed class EventDefinition : EventReference, ICustomAttributeProvider, IMemberDefinition
     {
-
         public EventDefinition(string name, EventAttributes attributes, TypeReference eventType);
 
         public EventAttributes Attributes { get; set; }

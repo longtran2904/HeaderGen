@@ -8,7 +8,6 @@ namespace UnityEditor.DeviceSimulation
 {
     public struct TouchEvent
     {
-
         public int touchId { get; }
         public Vector2 position { get; }
         public TouchPhase phase { get; }

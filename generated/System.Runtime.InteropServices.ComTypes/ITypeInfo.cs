@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public interface ITypeInfo
     {
-
         void GetTypeAttr(out nint ppTypeAttr);
         void GetTypeComp(out ITypeComp ppTComp);
         void GetFuncDesc(int index, out nint ppFuncDesc);

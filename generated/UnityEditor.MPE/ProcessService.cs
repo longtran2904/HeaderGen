@@ -14,7 +14,6 @@ namespace UnityEditor.MPE
     [StaticAccessor("Unity::MPE::ProcessService", StaticAccessorType.DoubleColon)]
     public class ProcessService
     {
-
         public ProcessService();
 
         public static ProcessLevel level { get; }

@@ -6,7 +6,6 @@ namespace System.Numerics
 {
     public interface IIncrementOperators<TSelf> where TSelf : IIncrementOperators<TSelf>
     {
-
         TSelf operator ++(TSelf value);
         TSelf operator checked ++(TSelf value);
     }

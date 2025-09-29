@@ -9,7 +9,6 @@ namespace UnityEditor
     [EditorWindowTitle(title = "Animation", useTypeNameAsIconName = True)]
     public sealed class AnimationWindow : EditorWindow, IHasCustomMenu
     {
-
         public AnimationClip animationClip { get; set; }
         public bool previewing { get; set; }
         public bool canPreview { get; }

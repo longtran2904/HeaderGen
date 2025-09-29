@@ -7,7 +7,6 @@ namespace System.Runtime.Serialization
     [AttributeUsage(AttributeTargets.Field, Inherited = False)]
     public sealed class OptionalFieldAttribute : Attribute
     {
-
         public OptionalFieldAttribute();
 
         public int VersionAdded { get; set; }

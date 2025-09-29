@@ -12,7 +12,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Src/Utility/HierarchyProperty.bindings.h")]
     public sealed class HierarchyProperty : IHierarchyProperty
     {
-
         public HierarchyProperty(HierarchyType hierarchyType);
         public HierarchyProperty(HierarchyType hierarchyType, bool forceImport);
         public HierarchyProperty(string rootPath);

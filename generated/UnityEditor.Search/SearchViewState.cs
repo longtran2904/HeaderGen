@@ -9,7 +9,6 @@ namespace UnityEditor.Search
 {
     public class SearchViewState : ISerializationCallbackReceiver
     {
-
         public string title;
         public float itemSize;
         public Rect position;

@@ -6,7 +6,6 @@ namespace System.Security.Policy
 {
     public abstract class EvidenceBase
     {
-
         protected EvidenceBase();
 
         public virtual EvidenceBase Clone();

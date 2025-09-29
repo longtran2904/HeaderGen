@@ -7,12 +7,12 @@ namespace System.Runtime.InteropServices.Marshalling
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct, AllowMultiple = True)]
     public sealed class CustomMarshallerAttribute : Attribute
     {
-
         public CustomMarshallerAttribute(Type managedType, MarshalMode marshalMode, Type marshallerType);
 
         public Type ManagedType { get; }
         public MarshalMode MarshalMode { get; }
         public Type MarshallerType { get; }
+
         public struct GenericPlaceholder
         {
         }

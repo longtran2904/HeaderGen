@@ -13,7 +13,6 @@ namespace UnityEngine.XR
     [UsedByNativeCode]
     public enum MeshGenerationOptions
     {
-
         None = 0,
         ConsumeTransform = 1
     }

@@ -16,7 +16,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public sealed class GraphicsBuffer : IDisposable
     {
-
         public GraphicsBuffer(Target target, int count, int stride);
 
         ~GraphicsBuffer();
@@ -52,10 +51,10 @@ namespace UnityEngine
         public static void CopyCount(GraphicsBuffer src, ComputeBuffer dst, int dstOffsetBytes);
         public static void CopyCount(ComputeBuffer src, GraphicsBuffer dst, int dstOffsetBytes);
         public static void CopyCount(GraphicsBuffer src, GraphicsBuffer dst, int dstOffsetBytes);
+
         [Flags]
         public enum Target
         {
-
             Vertex = 1,
             Index = 2,
             CopySource = 4,
@@ -69,7 +68,6 @@ namespace UnityEngine
         }
         public struct IndirectDrawArgs
         {
-
             public const int size = 16;
 
             public uint vertexCountPerInstance { get; set; }
@@ -79,7 +77,6 @@ namespace UnityEngine
         }
         public struct IndirectDrawIndexedArgs
         {
-
             public const int size = 20;
 
             public uint indexCountPerInstance { get; set; }

@@ -6,7 +6,6 @@ namespace System.Globalization
 {
     public enum UnicodeCategory
     {
-
         UppercaseLetter = 0,
         LowercaseLetter = 1,
         TitlecaseLetter = 2,

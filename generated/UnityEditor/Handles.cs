@@ -13,7 +13,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Src/Handles/Handles.bindings.h")]
     public sealed class Handles
     {
-
         public Handles();
 
         [NativeProperty("handles::g_HandleLighting", True, TargetType.Field)]
@@ -137,9 +136,9 @@ namespace UnityEditor
         public static void TransformHandle(ref Vector3 position, Quaternion rotation, ref float uniformScale);
         public static void TransformHandle(Vector3 position, ref Quaternion rotation, ref float uniformScale);
         public static void TransformHandle(ref Vector3 position, ref Quaternion rotation);
+
         public struct DrawingScope : IDisposable
         {
-
             public DrawingScope(Color color);
             public DrawingScope(Matrix4x4 matrix);
             public DrawingScope(Color color, Matrix4x4 matrix);

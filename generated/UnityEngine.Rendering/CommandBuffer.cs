@@ -21,7 +21,6 @@ namespace UnityEngine.Rendering
     [UsedByNativeCode]
     public class CommandBuffer : IDisposable
     {
-
         public CommandBuffer();
 
         ~CommandBuffer();

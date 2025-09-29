@@ -11,7 +11,6 @@ namespace UnityEditor
     [RequiredByNativeCode]
     public sealed class LocalizationAttribute : Attribute
     {
-
         public LocalizationAttribute(string locGroupName = null);
     }
 }

@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
     [DebugUIDrawer(typeof(DebugUI.Vector2Field))]
     public sealed class DebugUIDrawerVector2Field : DebugUIDrawer
     {
-
         public DebugUIDrawerVector2Field();
 
         public override bool OnGUI(DebugUI.Widget widget, DebugState state);

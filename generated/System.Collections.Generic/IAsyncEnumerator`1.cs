@@ -8,7 +8,6 @@ namespace System.Collections.Generic
 {
     public interface IAsyncEnumerator<T> : IAsyncDisposable
     {
-
         T Current { get; }
 
         ValueTask<bool> MoveNextAsync();

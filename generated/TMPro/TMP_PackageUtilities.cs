@@ -8,7 +8,6 @@ namespace TMPro
 {
     public class TMP_PackageUtilities : Editor
     {
-
         public TMP_PackageUtilities();
 
         [MenuItem("Window/TextMeshPro/Import TMP Essential Resources", False, 2050)]

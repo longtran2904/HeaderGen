@@ -9,7 +9,6 @@ namespace UnityEditor.VersionControl
     [AttributeUsage(AttributeTargets.Class)]
     public class VersionControlAttribute : Attribute
     {
-
         public VersionControlAttribute(string name, string displayName = null);
 
         public string name { get; }

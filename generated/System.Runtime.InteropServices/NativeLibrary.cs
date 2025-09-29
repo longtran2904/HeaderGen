@@ -8,7 +8,6 @@ namespace System.Runtime.InteropServices
 {
     public static class NativeLibrary
     {
-
         public static nint Load(string libraryPath);
         public static bool TryLoad(string libraryPath, out nint handle);
         public static nint Load(string libraryName, Assembly assembly, DllImportSearchPath? searchPath);

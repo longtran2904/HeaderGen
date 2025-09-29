@@ -14,7 +14,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public sealed class ComputeShader : Object
     {
-
         public LocalKeywordSpace keywordSpace { get; }
         public string[] shaderKeywords { get; set; }
         public LocalKeyword[] enabledKeywords { get; set; }

@@ -6,7 +6,6 @@ namespace UnityEditorInternal
 {
     public sealed class AssetStore
     {
-
         public AssetStore();
 
         public static void Open(string assetStoreURL);

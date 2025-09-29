@@ -9,7 +9,6 @@ namespace UnityEditor.Search
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = True)]
     public class SearchColumnProviderAttribute : Attribute
     {
-
         public SearchColumnProviderAttribute(string provider);
 
         public string provider { get; }

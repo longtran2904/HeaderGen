@@ -9,7 +9,6 @@ namespace UnityEditor.TextCore.Text
     [CustomEditor(typeof(SpriteAsset))]
     public class TextSpriteAssetEditor : Editor
     {
-
         public TextSpriteAssetEditor();
 
         public void OnEnable();

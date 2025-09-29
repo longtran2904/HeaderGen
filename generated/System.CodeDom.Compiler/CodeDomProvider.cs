@@ -11,7 +11,6 @@ namespace System.CodeDom.Compiler
     [ToolboxItem(False)]
     public abstract class CodeDomProvider : Component
     {
-
         protected CodeDomProvider();
 
         public virtual string FileExtension { get; }

@@ -10,7 +10,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Animation/ScriptBindings/AvatarBuilder.bindings.h")]
     public struct HumanDescription
     {
-
         [NativeName("m_Human")]
         public HumanBone[] human;
         [NativeName("m_Skeleton")]

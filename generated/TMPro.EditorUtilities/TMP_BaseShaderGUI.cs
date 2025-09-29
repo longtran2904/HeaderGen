@@ -9,7 +9,6 @@ namespace TMPro.EditorUtilities
 {
     public abstract class TMP_BaseShaderGUI : ShaderGUI
     {
-
         protected MaterialEditor m_Editor;
         protected Material m_Material;
         protected MaterialProperty[] m_Properties;
@@ -37,9 +36,9 @@ namespace TMPro.EditorUtilities
         protected void DoVector2(string name, string label);
         protected void DoVector3(string name, string label);
         protected void DoVector(string name, string label, GUIContent[] subLabels);
+
         protected class ShaderFeature
         {
-
             public string undoLabel;
             public GUIContent label;
             public GUIContent[] keywordLabels;

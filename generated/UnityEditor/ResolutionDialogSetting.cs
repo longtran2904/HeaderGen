@@ -9,7 +9,6 @@ namespace UnityEditor
     [Obsolete("The Display Resolution Dialog has been removed.", False)]
     public enum ResolutionDialogSetting
     {
-
         Disabled = 0,
         Enabled = 1,
         HiddenByDefault = 2

@@ -12,7 +12,6 @@ namespace UnityEditorInternal
     [CustomPropertyDrawer(typeof(UnityEventBase), True)]
     public class UnityEventDrawer : PropertyDrawer
     {
-
         public UnityEventDrawer();
 
         public override void OnGUI(Rect position, SerializedProperty property, GUIContent label);
@@ -26,9 +25,9 @@ namespace UnityEditorInternal
         protected virtual void OnSelectEvent(ReorderableList list);
         protected virtual void OnReorderEvent(ReorderableList list);
         public static bool IsPersistantListenerValid(UnityEventBase dummyEvent, string methodName, UnityEngine.Object uObject, PersistentListenerMode modeEnum, Type argumentType);
+
         protected class State
         {
-
             public int lastSelectedIndex;
 
             public State();

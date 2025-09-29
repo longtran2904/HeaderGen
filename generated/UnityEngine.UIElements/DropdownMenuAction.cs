@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public class DropdownMenuAction : DropdownMenuItem
     {
-
         public DropdownMenuAction(string actionName, Action<DropdownMenuAction> actionCallback, Func<DropdownMenuAction, Status> actionStatusCallback, object userData = null);
 
         public string name { get; }
@@ -20,10 +19,10 @@ namespace UnityEngine.UIElements
         public static Status AlwaysDisabled(DropdownMenuAction a);
         public void UpdateActionStatus(DropdownMenuEventInfo eventInfo);
         public void Execute();
+
         [Flags]
         public enum Status
         {
-
             None = 0,
             Normal = 1,
             Disabled = 2,

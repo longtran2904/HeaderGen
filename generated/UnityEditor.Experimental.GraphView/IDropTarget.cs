@@ -9,7 +9,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public interface IDropTarget
     {
-
         bool CanAcceptDrop(List<ISelectable> selection);
         bool DragUpdated(DragUpdatedEvent evt, IEnumerable<ISelectable> selection, IDropTarget dropTarget, ISelection dragSource);
         bool DragPerform(DragPerformEvent evt, IEnumerable<ISelectable> selection, IDropTarget dropTarget, ISelection dragSource);

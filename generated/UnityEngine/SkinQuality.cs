@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum SkinQuality
     {
-
         Auto = 0,
         Bone1 = 1,
         Bone2 = 2,

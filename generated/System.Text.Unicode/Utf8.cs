@@ -9,17 +9,16 @@ namespace System.Text.Unicode
 {
     public static class Utf8
     {
-
         public static OperationStatus FromUtf16(ReadOnlySpan<char> source, Span<byte> destination, out int charsRead, out int bytesWritten, bool replaceInvalidSequences = True, bool isFinalBlock = True);
         public static OperationStatus ToUtf16(ReadOnlySpan<byte> source, Span<char> destination, out int bytesRead, out int charsWritten, bool replaceInvalidSequences = True, bool isFinalBlock = True);
         public static bool TryWrite(Span<byte> destination, ref TryWriteInterpolatedStringHandler handler, out int bytesWritten);
         public static bool TryWrite(Span<byte> destination, IFormatProvider provider, ref TryWriteInterpolatedStringHandler handler, out int bytesWritten);
         public static bool IsValid(ReadOnlySpan<byte> value);
+
         [EditorBrowsable(EditorBrowsableState.Never)]
         [Obsolete("Types with embedded references are not supported in this version of your compiler.", True)]
         public ref struct TryWriteInterpolatedStringHandler
         {
-
             public TryWriteInterpolatedStringHandler(int literalLength, int formattedCount, Span<byte> destination, out bool shouldAppend);
             public TryWriteInterpolatedStringHandler(int literalLength, int formattedCount, Span<byte> destination, IFormatProvider provider, out bool shouldAppend);
 

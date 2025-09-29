@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public struct PARAMDESC
     {
-
         public nint lpVarValue;
         public PARAMFLAG wParamFlags;
     }

@@ -6,7 +6,6 @@ namespace System
 {
     public enum EnvironmentVariableTarget
     {
-
         Process = 0,
         User = 1,
         Machine = 2

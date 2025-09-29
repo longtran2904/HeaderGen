@@ -8,7 +8,6 @@ namespace System.Threading
 {
     public sealed class Timer : MarshalByRefObject, IAsyncDisposable, IDisposable, ITimer
     {
-
         public Timer(TimerCallback callback, object state, int dueTime, int period);
         public Timer(TimerCallback callback, object state, TimeSpan dueTime, TimeSpan period);
         [CLSCompliant(False)]

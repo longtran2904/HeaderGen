@@ -10,7 +10,6 @@ namespace UnityEngine.Scripting
     [NativeHeader("Runtime/Scripting/GarbageCollector.h")]
     public static class GarbageCollector
     {
-
         public static Mode GCMode { get; set; }
         public static bool isIncremental { get; }
         public static ulong incrementalTimeSliceNanoseconds { get; set; }
@@ -20,9 +19,9 @@ namespace UnityEngine.Scripting
         [NativeMethod("CollectIncrementalWrapper")]
         [NativeThrows]
         public static bool CollectIncremental(ulong nanoseconds = 0);
+
         public enum Mode
         {
-
             Disabled = 0,
             Enabled = 1,
             Manual = 2

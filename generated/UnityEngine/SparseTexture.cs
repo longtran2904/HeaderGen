@@ -11,7 +11,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Graphics/SparseTexture.h")]
     public sealed class SparseTexture : Texture
     {
-
         [ExcludeFromDocs]
         public SparseTexture(int width, int height, DefaultFormat format, int mipCount);
         [ExcludeFromDocs]

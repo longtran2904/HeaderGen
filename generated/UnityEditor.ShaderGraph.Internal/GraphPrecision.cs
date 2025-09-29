@@ -6,7 +6,6 @@ namespace UnityEditor.ShaderGraph.Internal
 {
     public enum GraphPrecision
     {
-
         Single = 0,
         Graph = 1,
         Half = 2

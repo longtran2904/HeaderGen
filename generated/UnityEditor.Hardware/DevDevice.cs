@@ -9,7 +9,6 @@ namespace UnityEditor.Hardware
     [RequiredByNativeCode]
     public struct DevDevice
     {
-
         public readonly string id;
         public readonly string name;
         public readonly string type;

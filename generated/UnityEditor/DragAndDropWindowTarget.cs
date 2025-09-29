@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public struct DragAndDropWindowTarget
     {
-
         public static readonly int projectBrowser;
         public static readonly int sceneView;
         public static readonly int hierarchy;

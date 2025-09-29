@@ -11,7 +11,6 @@ namespace UnityEngine
     [Obsolete("iPhoneOrientation enumeration is deprecated. Please use DeviceOrientation instead (UnityUpgradable) -> DeviceOrientation", True)]
     public enum iPhoneOrientation
     {
-
         Unknown = 0,
         Portrait = 1,
         PortraitUpsideDown = 2,

@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public sealed class SecurityDeclaration
     {
-
         public SecurityDeclaration(SecurityAction action);
         public SecurityDeclaration(SecurityAction action, byte[] blob);
 

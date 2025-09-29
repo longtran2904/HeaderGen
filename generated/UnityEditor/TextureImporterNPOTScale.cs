@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum TextureImporterNPOTScale
     {
-
         None = 0,
         ToNearest = 1,
         ToLarger = 2,

@@ -8,7 +8,6 @@ namespace UnityEditor.Tilemaps
 {
     public abstract class FlipTool : TilemapEditorTool
     {
-
         protected FlipTool();
 
         protected void Flip(GridBrushBase.FlipAxis axis);

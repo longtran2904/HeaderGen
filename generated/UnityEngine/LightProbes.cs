@@ -13,7 +13,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Export/Graphics/Graphics.bindings.h")]
     public sealed class LightProbes : Object
     {
-
         public Vector3[] positions { get; }
         public SphericalHarmonicsL2[] bakedProbes { get; set; }
         public int count { get; }

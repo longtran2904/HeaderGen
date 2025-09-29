@@ -6,7 +6,6 @@ namespace UnityEngine.Android
 {
     public enum AndroidAssetPackError
     {
-
         NoError = 0,
         AppUnavailable = -1,
         PackUnavailable = -2,

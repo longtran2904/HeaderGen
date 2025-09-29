@@ -10,7 +10,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Scripting/TextAsset.h")]
     public class TextAsset : Object
     {
-
         public TextAsset();
         public TextAsset(string text);
 

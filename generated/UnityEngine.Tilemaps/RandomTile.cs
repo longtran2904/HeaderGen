@@ -7,7 +7,6 @@ namespace UnityEngine.Tilemaps
     [CreateAssetMenu(menuName = "2D/Tiles/Random Tile", fileName = "New Random Tile", order = 82)]
     public class RandomTile : Tile
     {
-
         [SerializeField]
         public Sprite[] m_Sprites;
 

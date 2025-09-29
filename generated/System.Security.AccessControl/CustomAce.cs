@@ -6,7 +6,6 @@ namespace System.Security.AccessControl
 {
     public sealed class CustomAce : GenericAce
     {
-
         public static readonly int MaxOpaqueLength;
 
         public CustomAce(AceType type, AceFlags flags, byte[] opaque);

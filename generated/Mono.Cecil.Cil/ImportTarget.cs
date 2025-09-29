@@ -6,7 +6,6 @@ namespace Mono.Cecil.Cil
 {
     public sealed class ImportTarget
     {
-
         public ImportTarget(ImportTargetKind kind);
 
         public string Namespace { get; set; }

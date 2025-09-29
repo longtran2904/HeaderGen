@@ -6,7 +6,6 @@ namespace System.Reflection
 {
     public readonly struct CustomAttributeTypedArgument : IEquatable<CustomAttributeTypedArgument>
     {
-
         public CustomAttributeTypedArgument(Type argumentType, object value);
         public CustomAttributeTypedArgument(object value);
 

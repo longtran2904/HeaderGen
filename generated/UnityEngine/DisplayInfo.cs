@@ -12,7 +12,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public struct DisplayInfo : IEquatable<DisplayInfo>
     {
-
         [RequiredMember]
         public int width;
         [RequiredMember]

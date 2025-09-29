@@ -8,7 +8,6 @@ namespace System.Diagnostics.Tracing
 {
     public class EventSource : IDisposable
     {
-
         protected EventSource();
         protected EventSource(bool throwOnEventWriteErrors);
         protected EventSource(EventSourceSettings settings);
@@ -73,9 +72,9 @@ namespace System.Diagnostics.Tracing
         public void Write<T>(string eventName, EventSourceOptions options, T data);
         public void Write<T>(string eventName, ref EventSourceOptions options, ref T data);
         public void Write<T>(string eventName, ref EventSourceOptions options, ref Guid activityId, ref Guid relatedActivityId, ref T data);
+
         public readonly struct EventSourcePrimitive
         {
-
             public static implicit operator EventSourcePrimitive(bool value);
             public static implicit operator EventSourcePrimitive(byte value);
             public static implicit operator EventSourcePrimitive(short value);
@@ -104,7 +103,6 @@ namespace System.Diagnostics.Tracing
         }
         protected internal struct EventData
         {
-
             public nint DataPointer { get; set; }
             public int Size { get; set; }
         }

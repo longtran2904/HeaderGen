@@ -6,7 +6,6 @@ namespace System.Collections.Generic
 {
     public interface ISet<T> : ICollection<T>, IEnumerable, IEnumerable<T>
     {
-
         bool Add(T item);
         void UnionWith(IEnumerable<T> other);
         void IntersectWith(IEnumerable<T> other);

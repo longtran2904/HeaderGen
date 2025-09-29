@@ -12,7 +12,6 @@ namespace System.Net.Http
 {
     public class MultipartContent : HttpContent, IEnumerable, IEnumerable<HttpContent>
     {
-
         public MultipartContent();
         public MultipartContent(string subtype);
         public MultipartContent(string subtype, string boundary);

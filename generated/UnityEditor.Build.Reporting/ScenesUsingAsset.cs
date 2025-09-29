@@ -9,7 +9,6 @@ namespace UnityEditor.Build.Reporting
     [NativeType(Header = "Modules/BuildReportingEditor/Public/ScenesUsingAssets.h")]
     public struct ScenesUsingAsset
     {
-
         public string assetPath { get; }
         public string[] scenePaths { get; }
     }

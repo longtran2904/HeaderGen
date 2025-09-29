@@ -6,7 +6,6 @@ namespace UnityEditor.Overlays
 {
     public interface ITransientOverlay
     {
-
         bool visible { get; }
     }
 }

@@ -10,7 +10,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Src/Highlighter/HighlighterCore.bindings.h")]
     public sealed class Highlighter
     {
-
         public Highlighter();
 
         public static string activeText { get; }

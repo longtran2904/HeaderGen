@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class MouseLeaveWindowEvent : MouseEventBase<MouseLeaveWindowEvent>
     {
-
         public MouseLeaveWindowEvent();
 
         protected override void Init();

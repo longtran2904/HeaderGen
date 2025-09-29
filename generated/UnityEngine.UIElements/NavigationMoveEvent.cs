@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class NavigationMoveEvent : NavigationEventBase<NavigationMoveEvent>
     {
-
         public NavigationMoveEvent();
 
         public Direction direction { get; }
@@ -14,9 +13,9 @@ namespace UnityEngine.UIElements
 
         public static NavigationMoveEvent GetPooled(Vector2 moveVector);
         protected override void Init();
+
         public enum Direction
         {
-
             None = 0,
             Left = 1,
             Up = 2,

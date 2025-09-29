@@ -6,7 +6,6 @@ namespace UnityEditor.Experimental.Rendering
 {
     public interface IScriptableBakedReflectionSystemStageNotifier
     {
-
         void EnterStage(int stage, string progressMessage, float progress);
         void ExitStage(int stage);
         void SetIsDone(bool isDone);

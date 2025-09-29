@@ -13,7 +13,6 @@ namespace UnityEditor
     [RequiredByNativeCode]
     public class AnimationClipSettings
     {
-
         public AnimationClip additiveReferencePoseClip;
         public float additiveReferencePoseTime;
         public float startTime;

@@ -7,7 +7,6 @@ namespace System.Runtime.CompilerServices
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct, AllowMultiple = False)]
     public sealed class CreateNewOnMetadataUpdateAttribute : Attribute
     {
-
         public CreateNewOnMetadataUpdateAttribute();
     }
 }

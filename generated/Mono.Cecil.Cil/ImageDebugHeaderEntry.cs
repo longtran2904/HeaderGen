@@ -6,7 +6,6 @@ namespace Mono.Cecil.Cil
 {
     public sealed class ImageDebugHeaderEntry
     {
-
         public ImageDebugHeaderEntry(ImageDebugDirectory directory, byte[] data);
 
         public ImageDebugDirectory Directory { get; }

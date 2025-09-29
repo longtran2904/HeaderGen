@@ -11,7 +11,6 @@ namespace UnityEngine.AI
     [UsedByNativeCode]
     public struct NavMeshBuildSource
     {
-
         public Matrix4x4 transform { get; set; }
         public Vector3 size { get; set; }
         public NavMeshBuildSourceShape shape { get; set; }

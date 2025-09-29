@@ -8,7 +8,6 @@ namespace TMPro
 {
     public class KerningPair
     {
-
         [FormerlySerializedAs("XadvanceOffset")]
         public float xOffset;
 

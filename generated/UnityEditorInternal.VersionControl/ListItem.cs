@@ -9,7 +9,6 @@ namespace UnityEditorInternal.VersionControl
 {
     public class ListItem
     {
-
         public ListItem();
 
         ~ListItem();

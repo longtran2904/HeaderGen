@@ -15,7 +15,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Input/InputManager.h")]
     public class GUIUtility
     {
-
         public GUIUtility();
 
         public static bool hasModalWindow { get; }

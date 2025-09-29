@@ -10,7 +10,6 @@ namespace UnityEditor.SearchService
 {
     public class ObjectSelectorSearchContext : ISearchContext
     {
-
         public ObjectSelectorSearchContext();
 
         [Obsolete("selectorConstraint has been deprecated.")]

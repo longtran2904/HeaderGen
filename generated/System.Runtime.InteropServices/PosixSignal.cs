@@ -8,7 +8,6 @@ namespace System.Runtime.InteropServices
 {
     public enum PosixSignal
     {
-
         SIGHUP = -1,
         SIGINT = -2,
         SIGQUIT = -3,

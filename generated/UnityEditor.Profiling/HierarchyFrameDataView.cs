@@ -12,7 +12,6 @@ namespace UnityEditor.Profiling
     [NativeHeader("Modules/ProfilerEditor/ProfilerHistory/HierarchyFrameDataView.h")]
     public class HierarchyFrameDataView : FrameDataView
     {
-
         public const int invalidSampleId = -1;
         public const int columnDontSort = -1;
         public const int columnName = 0;
@@ -89,10 +88,10 @@ namespace UnityEditor.Profiling
         public void Sort(int sortColumn, bool sortAscending);
         public override bool Equals(object obj);
         public override int GetHashCode();
+
         [Flags]
         public enum ViewModes
         {
-
             Default = 0,
             MergeSamplesWithTheSameName = 1,
             HideEditorOnlySamples = 2

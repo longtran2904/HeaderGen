@@ -6,7 +6,6 @@ namespace UnityEngine.Android
 {
     public struct Permission
     {
-
         public const string Camera = "android.permission.CAMERA";
         public const string Microphone = "android.permission.RECORD_AUDIO";
         public const string FineLocation = "android.permission.ACCESS_FINE_LOCATION";

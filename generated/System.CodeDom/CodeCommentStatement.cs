@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeCommentStatement : CodeStatement
     {
-
         public CodeCommentStatement();
         public CodeCommentStatement(CodeComment comment);
         public CodeCommentStatement(string text);

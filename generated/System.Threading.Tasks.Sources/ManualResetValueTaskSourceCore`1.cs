@@ -6,7 +6,6 @@ namespace System.Threading.Tasks.Sources
 {
     public struct ManualResetValueTaskSourceCore<TResult>
     {
-
         public bool RunContinuationsAsynchronously { get; set; }
         public short Version { get; }
 

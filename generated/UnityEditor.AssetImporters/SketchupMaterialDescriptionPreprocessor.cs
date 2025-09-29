@@ -10,7 +10,6 @@ namespace UnityEditor.AssetImporters
     [MovedFrom("UnityEditor.Experimental.AssetImporters")]
     public class SketchupMaterialDescriptionPreprocessor : AssetPostprocessor
     {
-
         public SketchupMaterialDescriptionPreprocessor();
 
         public override uint GetVersion();

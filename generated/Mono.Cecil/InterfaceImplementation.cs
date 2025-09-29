@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public sealed class InterfaceImplementation : ICustomAttributeProvider, IMetadataTokenProvider
     {
-
         public InterfaceImplementation(TypeReference interfaceType);
 
         public TypeReference InterfaceType { get; set; }

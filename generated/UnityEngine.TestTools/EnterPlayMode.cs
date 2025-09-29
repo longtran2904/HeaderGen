@@ -8,7 +8,6 @@ namespace UnityEngine.TestTools
 {
     public class EnterPlayMode : IEditModeTestYieldInstruction
     {
-
         public EnterPlayMode(bool expectDomainReload = True);
 
         public bool ExpectDomainReload { get; }

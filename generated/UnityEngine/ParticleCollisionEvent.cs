@@ -11,7 +11,6 @@ namespace UnityEngine
     [RequiredByNativeCode(Optional = True)]
     public struct ParticleCollisionEvent
     {
-
         [EditorBrowsable(EditorBrowsableState.Never)]
         [Obsolete("collider property is deprecated. Use colliderComponent instead, which supports Collider and Collider2D components (UnityUpgradable) -> colliderComponent", True)]
         public Component collider { get; }

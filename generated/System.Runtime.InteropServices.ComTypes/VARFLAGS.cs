@@ -10,7 +10,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [Flags]
     public enum VARFLAGS
     {
-
         VARFLAG_FREADONLY = 1,
         VARFLAG_FSOURCE = 2,
         VARFLAG_FBINDABLE = 4,

@@ -8,7 +8,6 @@ namespace UnityEngine.TextCore.Text
     [ExcludeFromPreset]
     public class TextStyleSheet : ScriptableObject
     {
-
         public TextStyleSheet();
 
         public TextStyle GetStyle(int hashCode);

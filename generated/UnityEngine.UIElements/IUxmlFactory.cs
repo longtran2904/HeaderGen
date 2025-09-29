@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public interface IUxmlFactory
     {
-
         string uxmlName { get; }
         string uxmlNamespace { get; }
         string uxmlQualifiedName { get; }

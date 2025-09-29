@@ -8,7 +8,6 @@ namespace UnityEditor.Search
 {
     public class Query<T> : Query<T, IEnumerable<T>>
     {
-
         public bool returnPayloadIfEmpty { get; set; }
 
         public override IEnumerable<T> Apply(IEnumerable<T> data);

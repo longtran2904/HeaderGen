@@ -11,7 +11,6 @@ namespace UnityEngine.Timeline
     [TrackClipType(typeof(ControlPlayableAsset), False)]
     public class ControlTrack : TrackAsset
     {
-
         public ControlTrack();
 
         public override void GatherProperties(PlayableDirector director, IPropertyCollector driver);

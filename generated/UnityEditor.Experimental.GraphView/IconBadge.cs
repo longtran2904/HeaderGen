@@ -9,7 +9,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class IconBadge : VisualElement
     {
-
         public IconBadge();
         public IconBadge(VisualTreeAsset template);
 

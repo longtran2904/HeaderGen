@@ -9,16 +9,15 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public struct VARDESC
     {
-
         public int memid;
         public string lpstrSchema;
         public DESCUNION desc;
         public ELEMDESC elemdescVar;
         public short wVarFlags;
         public VARKIND varkind;
+
         public struct DESCUNION
         {
-
             public int oInst;
             public nint lpvarValue;
         }

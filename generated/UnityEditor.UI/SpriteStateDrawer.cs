@@ -10,7 +10,6 @@ namespace UnityEditor.UI
     [CustomPropertyDrawer(typeof(SpriteState), True)]
     public class SpriteStateDrawer : PropertyDrawer
     {
-
         public SpriteStateDrawer();
 
         public override void OnGUI(Rect rect, SerializedProperty prop, GUIContent label);

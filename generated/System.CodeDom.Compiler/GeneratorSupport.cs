@@ -7,7 +7,6 @@ namespace System.CodeDom.Compiler
     [Flags]
     public enum GeneratorSupport
     {
-
         ArraysOfArrays = 1,
         EntryPointMethod = 2,
         GotoStatements = 4,

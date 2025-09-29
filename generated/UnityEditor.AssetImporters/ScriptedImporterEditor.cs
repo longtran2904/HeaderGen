@@ -11,7 +11,6 @@ namespace UnityEditor.AssetImporters
     [MovedFrom("UnityEditor.Experimental.AssetImporters")]
     public class ScriptedImporterEditor : AssetImporterEditor
     {
-
         public ScriptedImporterEditor();
     }
 }

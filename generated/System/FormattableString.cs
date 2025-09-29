@@ -6,7 +6,6 @@ namespace System
 {
     public abstract class FormattableString : IFormattable
     {
-
         protected FormattableString();
 
         public abstract string Format { get; }

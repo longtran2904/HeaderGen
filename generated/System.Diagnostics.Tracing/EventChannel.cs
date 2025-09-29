@@ -6,7 +6,6 @@ namespace System.Diagnostics.Tracing
 {
     public enum EventChannel
     {
-
         None = 0,
         Admin = 16,
         Operational = 17,

@@ -12,7 +12,6 @@ namespace UnityEditor.MPE
     [NativeType("Modules/UMPE/ChannelService.h")]
     public struct ChannelInfo : IEquatable<ChannelInfo>
     {
-
         public static ChannelInfo invalidChannel;
 
         public string name { get; }

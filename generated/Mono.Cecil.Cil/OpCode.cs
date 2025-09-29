@@ -8,7 +8,6 @@ namespace Mono.Cecil.Cil
 {
     public struct OpCode : IEquatable<OpCode>
     {
-
         public string Name { get; }
         public int Size { get; }
         public byte Op1 { get; }

@@ -9,7 +9,6 @@ namespace Unity.CompilationPipeline.Common.ILPostProcessing
 {
     public class ILPostProcessResult
     {
-
         public ILPostProcessResult(InMemoryAssembly inMemoryAssembly);
         public ILPostProcessResult(InMemoryAssembly inMemoryAssembly, List<DiagnosticMessage> diagnostics);
 

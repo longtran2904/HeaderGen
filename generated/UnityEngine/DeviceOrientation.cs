@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum DeviceOrientation
     {
-
         Unknown = 0,
         Portrait = 1,
         PortraitUpsideDown = 2,

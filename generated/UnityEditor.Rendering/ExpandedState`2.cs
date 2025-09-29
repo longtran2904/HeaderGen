@@ -10,7 +10,6 @@ namespace UnityEditor.Rendering
     [DefaultMember("Item")]
     public struct ExpandedState<TState, TTarget> where TState : IConvertible, struct
     {
-
         public ExpandedState(TState defaultValue, string prefix = "CoreRP");
 
         public bool this[TState mask] { get; set; }

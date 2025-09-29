@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics2D/AnchoredJoint2D.h")]
     public class AnchoredJoint2D : Joint2D
     {
-
         public AnchoredJoint2D();
 
         public Vector2 anchor { get; set; }

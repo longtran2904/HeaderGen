@@ -8,7 +8,6 @@ namespace UnityEditor.U2D.Sprites
 {
     public interface ISpriteMeshDataProvider
     {
-
         Vertex2DMetaData[] GetVertices(GUID guid);
         void SetVertices(GUID guid, Vertex2DMetaData[] vertices);
         int[] GetIndices(GUID guid);

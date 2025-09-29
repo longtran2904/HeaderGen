@@ -6,7 +6,6 @@ namespace System
 {
     public readonly struct Range : IEquatable<Range>
     {
-
         public Range(Index start, Index end);
 
         public Index Start { get; }

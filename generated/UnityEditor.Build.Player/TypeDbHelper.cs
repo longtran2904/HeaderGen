@@ -6,7 +6,6 @@ namespace UnityEditor.Build.Player
 {
     public static class TypeDbHelper
     {
-
         public static bool TryGet(string path, out TypeDB typeDb);
     }
 }

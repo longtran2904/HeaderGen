@@ -8,7 +8,6 @@ namespace System.IO
 {
     public sealed class FileInfo : FileSystemInfo
     {
-
         public FileInfo(string fileName);
 
         public override string Name { get; }

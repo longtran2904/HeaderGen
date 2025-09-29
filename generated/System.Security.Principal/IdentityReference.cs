@@ -6,7 +6,6 @@ namespace System.Security.Principal
 {
     public abstract class IdentityReference
     {
-
         public abstract string Value { get; }
 
         public abstract bool IsValidTargetType(Type targetType);

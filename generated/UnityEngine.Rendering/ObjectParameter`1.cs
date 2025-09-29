@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public class ObjectParameter<T> : VolumeParameter<T>
     {
-
         public ObjectParameter(T value);
 
         public sealed override bool overrideState { get; set; }

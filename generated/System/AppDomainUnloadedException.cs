@@ -9,7 +9,6 @@ namespace System
 {
     public class AppDomainUnloadedException : SystemException
     {
-
         public AppDomainUnloadedException();
         public AppDomainUnloadedException(string message);
         public AppDomainUnloadedException(string message, Exception innerException);

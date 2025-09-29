@@ -9,7 +9,6 @@ namespace UnityEditor.Timeline.Actions
 {
     public class TimelineShortcutAttribute : ShortcutAttribute
     {
-
         public TimelineShortcutAttribute(string id, KeyCode defaultKeyCode, ShortcutModifiers defaultShortcutModifiers = ShortcutModifiers.None);
     }
 }

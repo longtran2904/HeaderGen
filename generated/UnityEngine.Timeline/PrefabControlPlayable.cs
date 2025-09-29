@@ -8,7 +8,6 @@ namespace UnityEngine.Timeline
 {
     public class PrefabControlPlayable : PlayableBehaviour
     {
-
         public PrefabControlPlayable();
 
         public GameObject prefabInstance { get; }

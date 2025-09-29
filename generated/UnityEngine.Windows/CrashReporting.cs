@@ -6,7 +6,6 @@ namespace UnityEngine.Windows
 {
     public static class CrashReporting
     {
-
         public static string crashReportFolder { get; }
     }
 }

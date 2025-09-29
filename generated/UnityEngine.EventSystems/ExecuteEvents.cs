@@ -6,7 +6,6 @@ namespace UnityEngine.EventSystems
 {
     public static class ExecuteEvents
     {
-
         public static EventFunction<IPointerMoveHandler> pointerMoveHandler { get; }
         public static EventFunction<IPointerEnterHandler> pointerEnterHandler { get; }
         public static EventFunction<IPointerExitHandler> pointerExitHandler { get; }
@@ -31,6 +30,7 @@ namespace UnityEngine.EventSystems
         public static GameObject ExecuteHierarchy<T>(GameObject root, BaseEventData eventData, EventFunction<T> callbackFunction) where T : IEventSystemHandler;
         public static bool CanHandleEvent<T>(GameObject go) where T : IEventSystemHandler;
         public static GameObject GetEventHandler<T>(GameObject root) where T : IEventSystemHandler;
+
         public delegate void EventFunction<T1>(T1 handler, BaseEventData eventData);
     }
 }

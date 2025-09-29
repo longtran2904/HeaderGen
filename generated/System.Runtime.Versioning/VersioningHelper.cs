@@ -6,7 +6,6 @@ namespace System.Runtime.Versioning
 {
     public static class VersioningHelper
     {
-
         public static string MakeVersionSafeName(string name, ResourceScope from, ResourceScope to);
         public static string MakeVersionSafeName(string name, ResourceScope from, ResourceScope to, Type type);
     }

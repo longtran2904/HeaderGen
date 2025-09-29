@@ -18,7 +18,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public class Animator : Behaviour
     {
-
         public Animator();
 
         public bool isOptimizable { get; }

@@ -17,7 +17,6 @@ namespace UnityEngine
     [RequiredByNativeCode(GenerateProxy = True)]
     public class Object
     {
-
         public Object();
 
         public string name { get; set; }

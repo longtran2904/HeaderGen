@@ -12,7 +12,6 @@ namespace UnityEngine.UIElements
     [DefaultMember("Item")]
     public class VisualElement : Focusable, IExperimentalFeatures, IResolvedStyle, IStylePropertyAnimations, ITransform, ITransitionAnimations, IVisualElementScheduler
     {
-
         public static readonly string disabledUssClassName;
 
         public VisualElement();
@@ -89,14 +88,13 @@ namespace UnityEngine.UIElements
         public T GetFirstAncestorOfType<T>() where T : class;
         public bool Contains(VisualElement child);
         public VisualElement FindCommonAncestor(VisualElement other);
+
         public class UxmlFactory : UxmlFactory<VisualElement, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : UIElements.UxmlTraits
         {
-
             protected UxmlStringAttributeDescription m_Name;
             protected UxmlEnumAttributeDescription<PickingMode> m_PickingMode;
 
@@ -110,7 +108,6 @@ namespace UnityEngine.UIElements
         }
         public enum MeasureMode
         {
-
             Undefined = 0,
             Exactly = 1,
             AtMost = 2
@@ -118,7 +115,6 @@ namespace UnityEngine.UIElements
         [DefaultMember("Item")]
         public struct Hierarchy
         {
-
             public VisualElement this[int key] { get; }
             public VisualElement parent { get; }
             public int childCount { get; }

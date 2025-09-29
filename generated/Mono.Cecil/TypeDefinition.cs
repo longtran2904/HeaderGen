@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public sealed class TypeDefinition : TypeReference, ICustomAttributeProvider, IMemberDefinition, ISecurityDeclarationProvider
     {
-
         public TypeDefinition(string namespace, string name, TypeAttributes attributes);
         public TypeDefinition(string namespace, string name, TypeAttributes attributes, TypeReference baseType);
 

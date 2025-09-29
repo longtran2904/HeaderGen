@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public abstract class Resource
     {
-
         public string Name { get; set; }
         public ManifestResourceAttributes Attributes { get; set; }
         public abstract ResourceType ResourceType { get; }

@@ -12,7 +12,6 @@ namespace UnityEngine.Experimental.Animations
     [StaticAccessor("AnimationPlayableOutputExtensionsBindings", StaticAccessorType.DoubleColon)]
     public static class AnimationPlayableOutputExtensions
     {
-
         public static AnimationStreamSource GetAnimationStreamSource(this AnimationPlayableOutput output);
         public static void SetAnimationStreamSource(this AnimationPlayableOutput output, AnimationStreamSource streamSource);
         public static ushort GetSortingOrder(this AnimationPlayableOutput output);

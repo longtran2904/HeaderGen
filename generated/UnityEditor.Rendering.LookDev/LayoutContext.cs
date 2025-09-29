@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering.LookDev
 {
     public class LayoutContext
     {
-
         public Layout viewLayout;
         public ViewIndex lastFocusedView;
         public SidePanel showedSidePanel;

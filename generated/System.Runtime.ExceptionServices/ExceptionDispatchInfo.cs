@@ -6,7 +6,6 @@ namespace System.Runtime.ExceptionServices
 {
     public sealed class ExceptionDispatchInfo
     {
-
         public Exception SourceException { get; }
 
         public static ExceptionDispatchInfo Capture(Exception source);

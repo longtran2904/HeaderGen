@@ -10,7 +10,6 @@ namespace System.CodeDom
     [DefaultMember("Item")]
     public class CodeTypeDeclarationCollection : CollectionBase
     {
-
         public CodeTypeDeclarationCollection();
         public CodeTypeDeclarationCollection(CodeTypeDeclarationCollection value);
         public CodeTypeDeclarationCollection(CodeTypeDeclaration[] value);

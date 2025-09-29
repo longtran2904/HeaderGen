@@ -9,7 +9,6 @@ namespace UnityEditor.TextCore.Text
     [CustomEditor(typeof(TextColorGradient))]
     public class TextColorGradientEditor : Editor
     {
-
         public TextColorGradientEditor();
 
         public override void OnInspectorGUI();

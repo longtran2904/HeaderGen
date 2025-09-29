@@ -12,7 +12,6 @@ namespace UnityEngine.XR
     [UsedByNativeCode]
     public struct MeshInfo : IEquatable<MeshInfo>
     {
-
         public MeshId MeshId { get; set; }
         public MeshChangeState ChangeState { get; set; }
         public int PriorityHint { get; set; }

@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public class SupportedRenderingFeatures
     {
-
         public SupportedRenderingFeatures();
 
         public static SupportedRenderingFeatures active { get; set; }
@@ -42,17 +41,16 @@ namespace UnityEngine.Rendering
         public string shadowmaskMessage { get; }
         [Obsolete("terrainDetailUnsupported is deprecated.")]
         public bool terrainDetailUnsupported { get; set; }
+
         [Flags]
         public enum ReflectionProbeModes
         {
-
             None = 0,
             Rotation = 1
         }
         [Flags]
         public enum LightmapMixedBakeModes
         {
-
             None = 0,
             IndirectOnly = 1,
             Subtractive = 2,

@@ -9,7 +9,6 @@ namespace UnityEngine
     [AttributeUsage(AttributeTargets.Field, AllowMultiple = True, Inherited = True)]
     public class ContextMenuItemAttribute : PropertyAttribute
     {
-
         public readonly string name;
         public readonly string function;
 

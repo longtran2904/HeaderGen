@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum PlayModeStateChange
     {
-
         EnteredEditMode = 0,
         ExitingEditMode = 1,
         EnteredPlayMode = 2,

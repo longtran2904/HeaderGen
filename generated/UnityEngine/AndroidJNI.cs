@@ -12,7 +12,6 @@ namespace UnityEngine
     [StaticAccessor("AndroidJNIBindingsHelpers", StaticAccessorType.DoubleColon)]
     public static class AndroidJNI
     {
-
         [ThreadSafe]
         public static int AttachCurrentThread();
         [ThreadSafe]

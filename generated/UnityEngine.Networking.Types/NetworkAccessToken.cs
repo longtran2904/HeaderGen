@@ -6,7 +6,6 @@ namespace UnityEngine.Networking.Types
 {
     public class NetworkAccessToken
     {
-
         public byte[] array;
 
         public NetworkAccessToken();

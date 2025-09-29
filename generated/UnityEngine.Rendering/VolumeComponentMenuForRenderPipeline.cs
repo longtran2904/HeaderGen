@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public class VolumeComponentMenuForRenderPipeline : VolumeComponentMenu
     {
-
         public VolumeComponentMenuForRenderPipeline(string menu, params Type[] pipelineTypes);
 
         public Type[] pipelineTypes { get; }

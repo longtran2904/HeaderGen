@@ -18,7 +18,6 @@ namespace UnityEditor
     [NativeHeader("Modules/TextRendering/Public/Font.h")]
     public sealed class EditorGUIUtility : GUIUtility
     {
-
         [Obsolete("This field is no longer used by any builtin controls. If passing this field to GetControlID, explicitly use the FocusType enum instead.", False)]
         public static FocusType native;
 
@@ -124,16 +123,15 @@ namespace UnityEditor
         public static void ShowObjectPicker<T>(UnityEngine.Object obj, bool allowSceneObjects, string searchFilter, int controlID) where T : UnityEngine.Object;
         public static UnityEngine.Object GetObjectPickerObject();
         public static int GetObjectPickerControlID();
+
         public class PropertyCallbackScope : IDisposable
         {
-
             public PropertyCallbackScope(Action<Rect, SerializedProperty> callback);
 
             public void Dispose();
         }
         public class IconSizeScope : GUI.Scope
         {
-
             public IconSizeScope(Vector2 iconSizeWithinScope);
 
             protected override void CloseScope();

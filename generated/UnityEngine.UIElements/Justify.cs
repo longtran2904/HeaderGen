@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public enum Justify
     {
-
         FlexStart = 0,
         Center = 1,
         FlexEnd = 2,

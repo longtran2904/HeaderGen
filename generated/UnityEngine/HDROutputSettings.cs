@@ -13,7 +13,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public class HDROutputSettings
     {
-
         public static HDROutputSettings[] displays;
 
         public static HDROutputSettings main { get; }

@@ -13,7 +13,6 @@ namespace System
     [Obsolete("Types with embedded references are not supported in this version of your compiler.", True)]
     public ref readonly struct ReadOnlySpan<T>
     {
-
         public ReadOnlySpan(T[] array);
         public ReadOnlySpan(T[] array, int start, int length);
         [CLSCompliant(False)]
@@ -46,10 +45,10 @@ namespace System
 
         public static implicit operator ReadOnlySpan<T>(T[] array);
         public static implicit operator ReadOnlySpan<T>(ArraySegment<T> segment);
+
         [Obsolete("Types with embedded references are not supported in this version of your compiler.", True)]
         public ref struct Enumerator
         {
-
             public ref readonly T Current { get; }
 
             public bool MoveNext();

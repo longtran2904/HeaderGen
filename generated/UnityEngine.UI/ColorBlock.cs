@@ -8,7 +8,6 @@ namespace UnityEngine.UI
 {
     public struct ColorBlock : IEquatable<ColorBlock>
     {
-
         public static ColorBlock defaultColorBlock;
 
         public Color normalColor { get; set; }

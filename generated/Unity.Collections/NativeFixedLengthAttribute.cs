@@ -11,7 +11,6 @@ namespace Unity.Collections
     [RequiredByNativeCode]
     public sealed class NativeFixedLengthAttribute : Attribute
     {
-
         public int FixedLength;
 
         public NativeFixedLengthAttribute(int fixedLength);

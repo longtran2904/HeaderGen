@@ -6,7 +6,6 @@ namespace Microsoft.Unity.VisualStudio.Editor
 {
     public enum ScriptingLanguage
     {
-
         None = 0,
         CSharp = 1
     }

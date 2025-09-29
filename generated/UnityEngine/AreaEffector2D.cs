@@ -11,7 +11,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics2D/AreaEffector2D.h")]
     public class AreaEffector2D : Effector2D
     {
-
         public AreaEffector2D();
 
         public float forceAngle { get; set; }

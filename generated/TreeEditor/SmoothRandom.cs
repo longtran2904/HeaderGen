@@ -8,7 +8,6 @@ namespace TreeEditor
 {
     public class SmoothRandom
     {
-
         public SmoothRandom();
 
         public static Vector3 GetVector3(float speed);

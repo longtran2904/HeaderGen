@@ -6,11 +6,10 @@ namespace System.Runtime.CompilerServices
 {
     public readonly struct ConfiguredValueTaskAwaitable<TResult>
     {
-
         public ConfiguredValueTaskAwaiter GetAwaiter();
+
         public readonly struct ConfiguredValueTaskAwaiter : ICriticalNotifyCompletion, INotifyCompletion, IStateMachineBoxAwareAwaiter
         {
-
             public bool IsCompleted { get; }
 
             public TResult GetResult();

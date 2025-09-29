@@ -6,7 +6,6 @@ namespace System.Text
 {
     public sealed class EncodingInfo
     {
-
         public EncodingInfo(EncodingProvider provider, int codePage, string name, string displayName);
 
         public int CodePage { get; }

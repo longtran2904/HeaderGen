@@ -6,7 +6,6 @@ namespace Unity.Jobs
 {
     public static class IJobForExtensions
     {
-
         public static JobHandle Schedule<T>(this T jobData, int arrayLength, JobHandle dependency) where T : IJobFor, struct;
         public static JobHandle ScheduleParallel<T>(this T jobData, int arrayLength, int innerloopBatchCount, JobHandle dependency) where T : IJobFor, struct;
         public static void Run<T>(this T jobData, int arrayLength) where T : IJobFor, struct;

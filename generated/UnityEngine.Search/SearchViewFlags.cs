@@ -9,7 +9,6 @@ namespace UnityEngine.Search
     [Flags]
     public enum SearchViewFlags
     {
-
         None = 0,
         Debug = 16,
         NoIndexing = 32,

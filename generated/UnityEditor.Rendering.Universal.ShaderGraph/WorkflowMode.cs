@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering.Universal.ShaderGraph
 {
     public enum WorkflowMode
     {
-
         Specular = 0,
         Metallic = 1
     }

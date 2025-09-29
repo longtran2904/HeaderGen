@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public class ClampedIntParameter : IntParameter
     {
-
         [NonSerialized]
         public int min;
         [NonSerialized]

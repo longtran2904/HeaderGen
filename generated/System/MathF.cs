@@ -6,7 +6,6 @@ namespace System
 {
     public static class MathF
     {
-
         public const float E = 2.7182817F;
         public const float PI = 3.1415927F;
         public const float Tau = 6.2831855F;

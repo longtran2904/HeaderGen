@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public abstract class BaseSlider<TValueType> : BaseField<TValueType> where TValueType : IComparable<TValueType>
     {
-
         public static readonly string ussClassName;
         public static readonly string labelUssClassName;
         public static readonly string inputUssClassName;

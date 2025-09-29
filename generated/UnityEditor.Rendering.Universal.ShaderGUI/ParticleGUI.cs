@@ -9,14 +9,13 @@ namespace UnityEditor.Rendering.Universal.ShaderGUI
 {
     public static class ParticleGUI
     {
-
         public static void SetupMaterialWithColorMode(Material material);
         public static void FadingOptions(Material material, MaterialEditor materialEditor, ParticleProperties properties);
         public static void DoVertexStreamsArea(Material material, List<ParticleSystemRenderer> renderers, bool useLighting = False);
         public static void SetMaterialKeywords(Material material);
+
         public enum ColorMode
         {
-
             Multiply = 0,
             Additive = 1,
             Subtractive = 2,
@@ -26,7 +25,6 @@ namespace UnityEditor.Rendering.Universal.ShaderGUI
         }
         public static class Styles
         {
-
             public static GUIContent colorMode;
             public static GUIContent flipbookMode;
             public static GUIContent softParticlesEnabled;
@@ -56,7 +54,6 @@ namespace UnityEditor.Rendering.Universal.ShaderGUI
         }
         public struct ParticleProperties
         {
-
             public MaterialProperty colorMode;
             public MaterialProperty flipbookMode;
             public MaterialProperty softParticlesEnabled;

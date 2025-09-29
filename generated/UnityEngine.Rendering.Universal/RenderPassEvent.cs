@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering.Universal
 {
     public enum RenderPassEvent
     {
-
         BeforeRendering = 0,
         BeforeRenderingShadows = 50,
         AfterRenderingShadows = 100,

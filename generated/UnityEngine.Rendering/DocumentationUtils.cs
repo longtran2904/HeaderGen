@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public static class DocumentationUtils
     {
-
         public static string GetHelpURL<TEnum>(TEnum mask = null) where TEnum : IConvertible, struct;
     }
 }

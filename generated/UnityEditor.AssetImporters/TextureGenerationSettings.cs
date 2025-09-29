@@ -10,7 +10,6 @@ namespace UnityEditor.AssetImporters
     [MovedFrom("UnityEditor.Experimental.AssetImporters")]
     public struct TextureGenerationSettings
     {
-
         public TextureGenerationSettings(TextureImporterType type);
 
         public string assetPath { get; set; }

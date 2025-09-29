@@ -6,7 +6,6 @@ namespace UnityEngine.Windows.Speech
 {
     public enum SpeechError
     {
-
         NoError = 0,
         TopicLanguageNotSupported = 1,
         GrammarLanguageMismatch = 2,

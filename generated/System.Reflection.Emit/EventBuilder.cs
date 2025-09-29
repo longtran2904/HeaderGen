@@ -6,7 +6,6 @@ namespace System.Reflection.Emit
 {
     public abstract class EventBuilder
     {
-
         protected EventBuilder();
 
         public void AddOtherMethod(MethodBuilder mdBuilder);

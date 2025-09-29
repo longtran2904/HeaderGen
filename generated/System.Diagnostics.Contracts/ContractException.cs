@@ -9,7 +9,6 @@ namespace System.Diagnostics.Contracts
 {
     public sealed class ContractException : Exception
     {
-
         public ContractException(ContractFailureKind kind, string failure, string userMessage, string condition, Exception innerException);
 
         public ContractFailureKind Kind { get; }

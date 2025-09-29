@@ -8,7 +8,6 @@ namespace System.Reflection
 {
     public abstract class ConstructorInfo : MethodBase
     {
-
         public static readonly string ConstructorName;
         public static readonly string TypeConstructorName;
 

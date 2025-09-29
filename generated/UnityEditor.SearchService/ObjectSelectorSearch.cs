@@ -7,7 +7,6 @@ namespace UnityEditor.SearchService
     [InitializeOnLoad]
     public static class ObjectSelectorSearch
     {
-
         public const SearchEngineScope EngineScope = 2;
 
         public static void RegisterEngine(IObjectSelectorEngine engine);

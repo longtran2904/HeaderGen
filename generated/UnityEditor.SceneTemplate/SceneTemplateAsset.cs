@@ -11,7 +11,6 @@ namespace UnityEditor.SceneTemplate
     [HelpURL("https://docs.unity3d.com/2021.3/Documentation/Manual/scene-templates.html")]
     public class SceneTemplateAsset : ScriptableObject
     {
-
         public SceneAsset templateScene;
         public string templateName;
         public string description;

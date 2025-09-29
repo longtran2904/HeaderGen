@@ -7,7 +7,6 @@ namespace System.Runtime.Intrinsics.X86
     [CLSCompliant(False)]
     public abstract class Ssse3 : Sse3
     {
-
         public static bool IsSupported { get; }
 
         public static Vector128<byte> Abs(Vector128<sbyte> value);
@@ -34,9 +33,9 @@ namespace System.Runtime.Intrinsics.X86
         public static Vector128<sbyte> Sign(Vector128<sbyte> left, Vector128<sbyte> right);
         public static Vector128<short> Sign(Vector128<short> left, Vector128<short> right);
         public static Vector128<int> Sign(Vector128<int> left, Vector128<int> right);
+
         public abstract class X64 : Sse3.X64
         {
-
             public static bool IsSupported { get; }
         }
     }

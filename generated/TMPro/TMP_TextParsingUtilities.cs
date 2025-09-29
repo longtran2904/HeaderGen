@@ -6,7 +6,6 @@ namespace TMPro
 {
     public class TMP_TextParsingUtilities
     {
-
         public TMP_TextParsingUtilities();
 
         public static TMP_TextParsingUtilities instance { get; }

@@ -9,7 +9,6 @@ namespace System.Net.Http
 {
     public sealed class HttpRequestOptions : ICollection<KeyValuePair<string, object>>, IDictionary<string, object>, IEnumerable, IEnumerable<KeyValuePair<string, object>>, IReadOnlyCollection<KeyValuePair<string, object>>, IReadOnlyDictionary<string, object>
     {
-
         public HttpRequestOptions();
 
         public bool TryGetValue<TValue>(HttpRequestOptionsKey<TValue> key, out TValue value);

@@ -16,7 +16,6 @@ namespace UnityEngine.XR
     [StaticAccessor("XRInputDevices::Get()", StaticAccessorType.Dot)]
     public struct Eyes : IEquatable<Eyes>
     {
-
         public bool TryGetLeftEyePosition(out Vector3 position);
         public bool TryGetRightEyePosition(out Vector3 position);
         public bool TryGetLeftEyeRotation(out Quaternion rotation);

@@ -6,7 +6,6 @@ namespace System
 {
     public sealed class ApplicationId
     {
-
         public ApplicationId(byte[] publicKeyToken, string name, Version version, string processorArchitecture, string culture);
 
         public string Culture { get; }

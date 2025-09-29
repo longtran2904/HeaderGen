@@ -8,7 +8,6 @@ namespace System.Collections.Generic
 {
     public sealed class EnumEqualityComparer<T> : EqualityComparer<T>, ISerializable where T : Enum, struct
     {
-
         public EnumEqualityComparer();
 
         public override bool Equals(T x, T y);

@@ -15,7 +15,6 @@ namespace UnityEngine.Rendering
     [RequiredByNativeCode]
     public class BatchRendererGroup : IDisposable
     {
-
         public BatchRendererGroup(OnPerformCulling cullingCallback);
 
         public void Dispose();
@@ -38,6 +37,7 @@ namespace UnityEngine.Rendering
         public int GetNumBatches();
         public void RemoveBatch(int index);
         public void EnableVisibleIndicesYArray(bool enabled);
+
         public delegate JobHandle OnPerformCulling(BatchRendererGroup rendererGroup, BatchCullingContext cullingContext);
     }
 }

@@ -7,7 +7,6 @@ namespace UnityEngine.UI
     [ExecuteAlways]
     public abstract class HorizontalOrVerticalLayoutGroup : LayoutGroup
     {
-
         [SerializeField]
         protected float m_Spacing;
         [SerializeField]

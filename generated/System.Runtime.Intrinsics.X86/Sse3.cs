@@ -7,7 +7,6 @@ namespace System.Runtime.Intrinsics.X86
     [CLSCompliant(False)]
     public abstract class Sse3 : Sse2
     {
-
         public static bool IsSupported { get; }
 
         public static Vector128<float> AddSubtract(Vector128<float> left, Vector128<float> right);
@@ -28,9 +27,9 @@ namespace System.Runtime.Intrinsics.X86
         public static Vector128<double> MoveAndDuplicate(Vector128<double> source);
         public static Vector128<float> MoveHighAndDuplicate(Vector128<float> source);
         public static Vector128<float> MoveLowAndDuplicate(Vector128<float> source);
+
         public abstract class X64 : Sse2.X64
         {
-
             public static bool IsSupported { get; }
         }
     }

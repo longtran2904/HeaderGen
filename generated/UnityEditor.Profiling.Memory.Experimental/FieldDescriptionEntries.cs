@@ -6,7 +6,6 @@ namespace UnityEditor.Profiling.Memory.Experimental
 {
     public class FieldDescriptionEntries
     {
-
         public ArrayEntries<string> fieldDescriptionName { get; }
         public ArrayEntries<int> offset { get; }
         public ArrayEntries<int> typeIndex { get; }

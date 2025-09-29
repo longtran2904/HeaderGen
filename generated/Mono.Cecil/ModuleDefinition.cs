@@ -13,7 +13,6 @@ namespace Mono.Cecil
 {
     public sealed class ModuleDefinition : ModuleReference, ICustomAttributeProvider, ICustomDebugInformationProvider, IDisposable
     {
-
         public bool IsMain { get; }
         public ModuleKind Kind { get; set; }
         public MetadataKind MetadataKind { get; set; }

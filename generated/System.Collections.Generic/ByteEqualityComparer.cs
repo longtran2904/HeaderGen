@@ -6,7 +6,6 @@ namespace System.Collections.Generic
 {
     public sealed class ByteEqualityComparer : EqualityComparer<byte>
     {
-
         public ByteEqualityComparer();
 
         public override bool Equals(byte x, byte y);

@@ -9,7 +9,6 @@ namespace UnityEditor.Graphs
 {
     public class GroupNode : Node
     {
-
         public GroupNode();
 
         public Graph subGraph { get; }

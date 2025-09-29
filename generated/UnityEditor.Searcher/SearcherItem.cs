@@ -11,7 +11,6 @@ namespace UnityEditor.Searcher
     [PublicAPI]
     public class SearcherItem
     {
-
         public SearcherItem(string name, string help = "", List<SearcherItem> children = null, object userData = null, Texture2D icon = null, bool collapseEmptyIcon = True);
 
         public int Id { get; }

@@ -14,7 +14,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public class MeshCollider : Collider
     {
-
         public MeshCollider();
 
         public Mesh sharedMesh { get; set; }

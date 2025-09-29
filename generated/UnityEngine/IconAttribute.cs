@@ -11,7 +11,6 @@ namespace UnityEngine
     [Conditional("UNITY_EDITOR")]
     public class IconAttribute : Attribute
     {
-
         public IconAttribute(string path);
 
         public string path { get; }

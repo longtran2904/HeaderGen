@@ -10,7 +10,6 @@ namespace TMPro.EditorUtilities
     [CustomEditor(typeof(TextContainer))]
     public class TMPro_TextContainerEditor : Editor
     {
-
         public TMPro_TextContainerEditor();
 
         public override void OnInspectorGUI();

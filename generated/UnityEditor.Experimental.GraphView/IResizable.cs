@@ -6,7 +6,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public interface IResizable
     {
-
         void OnStartResize();
         void OnResized();
     }

@@ -6,7 +6,6 @@ namespace System.Threading
 {
     public interface ITimer : IAsyncDisposable, IDisposable
     {
-
         bool Change(TimeSpan dueTime, TimeSpan period);
     }
 }

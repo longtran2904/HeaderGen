@@ -9,7 +9,6 @@ namespace UnityEditor.Recorder.AOV.Input
 {
     public class AOVCameraInputSettings : CameraInputSettings
     {
-
         public AOVCameraInputSettings();
 
         protected internal override Type InputType { get; }

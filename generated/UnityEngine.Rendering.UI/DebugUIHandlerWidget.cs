@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.UI
 {
     public class DebugUIHandlerWidget : MonoBehaviour
     {
-
         [HideInInspector]
         public Color colorDefault;
         [HideInInspector]

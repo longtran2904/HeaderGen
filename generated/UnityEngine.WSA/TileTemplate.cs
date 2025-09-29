@@ -6,7 +6,6 @@ namespace UnityEngine.WSA
 {
     public enum TileTemplate
     {
-
         TileSquare150x150Image = 0,
         TileSquare150x150Block = 1,
         TileSquare150x150Text01 = 2,

@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public abstract class ShaderGUI
     {
-
         protected ShaderGUI();
 
         public virtual void OnGUI(MaterialEditor materialEditor, MaterialProperty[] properties);

@@ -11,7 +11,6 @@ namespace UnityEditor.U2D
     [NativeHeader("Editor/Src/2D/SpriteAtlas/SpriteAtlasImporter.h")]
     public sealed class SpriteAtlasImporter : AssetImporter
     {
-
         public SpriteAtlasImporter();
     }
 }

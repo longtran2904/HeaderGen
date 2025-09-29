@@ -6,7 +6,6 @@ namespace System
 {
     public class Progress<T> : IProgress<T>
     {
-
         public Progress();
         public Progress(Action<T> handler);
 

@@ -8,7 +8,6 @@ namespace UnityEngine
 {
     public static class PhysicsSceneExtensions
     {
-
         public static PhysicsScene GetPhysicsScene(this Scene scene);
     }
 }

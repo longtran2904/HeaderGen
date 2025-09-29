@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum CanAppendBuild
     {
-
         Unsupported = 0,
         Yes = 1,
         No = 2

@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public struct SortingLayerRange : IEquatable<SortingLayerRange>
     {
-
         public SortingLayerRange(short lowerBound, short upperBound);
 
         public short lowerBound { get; set; }

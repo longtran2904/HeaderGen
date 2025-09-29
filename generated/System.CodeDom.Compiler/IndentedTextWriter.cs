@@ -11,7 +11,6 @@ namespace System.CodeDom.Compiler
 {
     public class IndentedTextWriter : TextWriter
     {
-
         public const string DefaultTabString = "    ";
 
         public IndentedTextWriter(TextWriter writer);

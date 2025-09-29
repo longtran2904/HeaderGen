@@ -11,7 +11,6 @@ namespace UnityEngine.XR
     [UsedByNativeCode]
     public class XRDisplaySubsystemDescriptor : IntegratedSubsystemDescriptor<XRDisplaySubsystem>
     {
-
         public XRDisplaySubsystemDescriptor();
 
         [NativeConditional("ENABLE_XR")]

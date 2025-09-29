@@ -10,7 +10,6 @@ namespace JetBrains.Annotations
     [MeansImplicitUse(ImplicitUseTargetFlags.WithMembers)]
     public sealed class PublicAPIAttribute : Attribute
     {
-
         public PublicAPIAttribute();
         public PublicAPIAttribute([NotNull] string comment);
 

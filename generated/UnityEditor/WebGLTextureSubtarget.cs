@@ -9,7 +9,6 @@ namespace UnityEditor
     [NativeType(Header = "Runtime/Serialize/BuildTarget.h")]
     public enum WebGLTextureSubtarget
     {
-
         Generic = 0,
         DXT = 1,
         ETC2 = 3,

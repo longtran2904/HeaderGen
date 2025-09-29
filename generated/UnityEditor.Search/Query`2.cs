@@ -8,7 +8,6 @@ namespace UnityEditor.Search
 {
     public class Query<TData, TPayload> where TPayload : class
     {
-
         public string text { get; }
         public bool valid { get; }
         public ICollection<QueryError> errors { get; }

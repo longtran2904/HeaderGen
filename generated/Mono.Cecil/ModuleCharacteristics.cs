@@ -9,7 +9,6 @@ namespace Mono.Cecil
     [Flags]
     public enum ModuleCharacteristics
     {
-
         HighEntropyVA = 32,
         DynamicBase = 64,
         NoSEH = 1024,

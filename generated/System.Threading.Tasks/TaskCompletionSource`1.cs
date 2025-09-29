@@ -8,7 +8,6 @@ namespace System.Threading.Tasks
 {
     public class TaskCompletionSource<TResult>
     {
-
         public TaskCompletionSource();
         public TaskCompletionSource(TaskCreationOptions creationOptions);
         public TaskCompletionSource(object state);

@@ -12,7 +12,6 @@ namespace UnityEditor.SceneManagement
     [NativeHeader("Editor/Src/SceneManager/StageUtility.bindings.h")]
     public static class StageUtility
     {
-
         public static bool IsGameObjectRenderedByCamera(GameObject gameObject, Camera camera);
         public static bool IsGameObjectRenderedByCameraAndPartOfEditableScene(GameObject gameObject, Camera camera);
         public static Stage GetCurrentStage();

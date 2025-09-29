@@ -9,7 +9,6 @@ namespace Mono.Cecil
     [Flags]
     public enum AssemblyAttributes
     {
-
         PublicKey = 1,
         SideBySideCompatible = 0,
         Retargetable = 256,

@@ -9,7 +9,6 @@ namespace UnityEditor
 {
     public enum DrawCameraMode
     {
-
         UserDefined = -2147483648,
         Normal = -1,
         Textured = 0,

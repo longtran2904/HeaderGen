@@ -6,7 +6,6 @@ namespace UnityEngine.Experimental.AI
 {
     public struct NavMeshLocation
     {
-
         public PolygonId polygon { get; }
         public Vector3 position { get; }
     }

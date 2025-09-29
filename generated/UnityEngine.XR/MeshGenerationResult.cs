@@ -12,7 +12,6 @@ namespace UnityEngine.XR
     [RequiredByNativeCode]
     public struct MeshGenerationResult : IEquatable<MeshGenerationResult>
     {
-
         public MeshId MeshId { get; }
         public Mesh Mesh { get; }
         public MeshCollider MeshCollider { get; }

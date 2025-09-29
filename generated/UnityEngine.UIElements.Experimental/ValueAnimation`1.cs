@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements.Experimental
 {
     public sealed class ValueAnimation<T> : IValueAnimation, IValueAnimationUpdate
     {
-
         public ValueAnimation();
 
         public int durationMs { get; set; }

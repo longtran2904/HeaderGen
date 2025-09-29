@@ -11,7 +11,6 @@ namespace UnityEngine.Rendering
     [Conditional("UNITY_EDITOR")]
     public class CoreRPHelpURLAttribute : HelpURLAttribute
     {
-
         public CoreRPHelpURLAttribute(string pageName, string packageName = "com.unity.render-pipelines.core");
     }
 }

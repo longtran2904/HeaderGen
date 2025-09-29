@@ -9,7 +9,6 @@ namespace UnityEngine.UIElements
 {
     public class DropdownMenu
     {
-
         public DropdownMenu();
 
         public List<DropdownMenuItem> MenuItems();

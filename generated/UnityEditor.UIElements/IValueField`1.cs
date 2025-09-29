@@ -8,7 +8,6 @@ namespace UnityEditor.UIElements
 {
     public interface IValueField<T>
     {
-
         T value { get; set; }
 
         void ApplyInputDeviceDelta(Vector3 delta, DeltaSpeed speed, T startValue);

@@ -10,7 +10,6 @@ namespace UnityEditor.TerrainTools
     [MovedFrom("UnityEditor.Experimental.TerrainAPI")]
     public abstract class TerrainPaintTool<T> : ScriptableSingleton<T>, ITerrainPaintTool where T : TerrainPaintTool<T>
     {
-
         protected TerrainPaintTool();
 
         public abstract string GetName();

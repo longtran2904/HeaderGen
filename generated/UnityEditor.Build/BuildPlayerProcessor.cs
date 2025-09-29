@@ -6,7 +6,6 @@ namespace UnityEditor.Build
 {
     public abstract class BuildPlayerProcessor : IOrderedCallback
     {
-
         protected BuildPlayerProcessor();
 
         public virtual int callbackOrder { get; }

@@ -11,7 +11,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics/PhysicMaterial.h")]
     public class PhysicMaterial : Object
     {
-
         public PhysicMaterial();
         public PhysicMaterial(string name);
 

@@ -10,7 +10,6 @@ namespace UnityEngine.Networking
     [NativeHeader("Modules/UnityWebRequest/Public/UploadHandler/UploadHandlerRaw.h")]
     public sealed class UploadHandlerRaw : UploadHandler
     {
-
         public UploadHandlerRaw(byte[] data);
         public UploadHandlerRaw(NativeArray<byte> data, bool transferOwnership);
         public UploadHandlerRaw(NativeArray<byte>.ReadOnly data);

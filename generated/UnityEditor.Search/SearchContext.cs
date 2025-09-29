@@ -9,7 +9,6 @@ namespace UnityEditor.Search
 {
     public class SearchContext : IDisposable
     {
-
         public SearchContext(IEnumerable<SearchProvider> providers, string searchText, SearchFlags options);
         public SearchContext(IEnumerable<SearchProvider> providers, string searchText);
         public SearchContext(IEnumerable<SearchProvider> providers);

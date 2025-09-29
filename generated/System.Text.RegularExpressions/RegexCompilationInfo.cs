@@ -7,7 +7,6 @@ namespace System.Text.RegularExpressions
     [Obsolete("Regex.CompileToAssembly is obsolete and not supported. Use the GeneratedRegexAttribute with the regular expression source generator instead.", DiagnosticId = "SYSLIB0036", UrlFormat = "https://aka.ms/dotnet-warnings/{0}")]
     public class RegexCompilationInfo
     {
-
         public RegexCompilationInfo(string pattern, RegexOptions options, string name, string fullnamespace, bool ispublic);
         public RegexCompilationInfo(string pattern, RegexOptions options, string name, string fullnamespace, bool ispublic, TimeSpan matchTimeout);
 

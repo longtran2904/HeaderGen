@@ -9,7 +9,6 @@ namespace UnityEngine
     [Flags]
     public enum TerrainRenderFlags
     {
-
         [Obsolete("TerrainRenderFlags.heightmap is obsolete, use TerrainRenderFlags.Heightmap instead. (UnityUpgradable) -> Heightmap")]
         heightmap = 1,
         [Obsolete("TerrainRenderFlags.trees is obsolete, use TerrainRenderFlags.Trees instead. (UnityUpgradable) -> Trees")]

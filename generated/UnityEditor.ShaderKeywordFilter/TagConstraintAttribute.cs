@@ -9,7 +9,6 @@ namespace UnityEditor.ShaderKeywordFilter
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Field, AllowMultiple = True)]
     public class TagConstraintAttribute : Attribute
     {
-
         public TagConstraintAttribute(bool negate, params string[] tags);
     }
 }

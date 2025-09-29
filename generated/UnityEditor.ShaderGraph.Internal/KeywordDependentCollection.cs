@@ -10,19 +10,16 @@ namespace UnityEditor.ShaderGraph.Internal
     {
         public enum KeywordPermutationInstanceType
         {
-
             Base = 0,
             Permutation = 1
         }
         public interface ISet<IInstance>
         {
-
             int instanceCount { get; }
             IEnumerable<IInstance> instances { get; }
         }
         public interface IInstance
         {
-
             KeywordPermutationInstanceType type { get; }
             int permutationIndex { get; }
         }

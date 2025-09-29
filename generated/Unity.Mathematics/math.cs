@@ -9,7 +9,6 @@ namespace Unity.Mathematics
     [Il2CppEagerStaticClassConstruction]
     public static class math
     {
-
         public const double E_DBL = 2.718281828459045;
         public const double LOG2E_DBL = 1.4426950408889634;
         public const double LOG10E_DBL = 0.4342944819032518;
@@ -1914,9 +1913,9 @@ namespace Unity.Mathematics
         public static uint4x4 transpose(uint4x4 v);
         public static uint hash(uint4x4 v);
         public static uint4 hashwide(uint4x4 v);
+
         public enum RotationOrder
         {
-
             XYZ = 0,
             XZY = 1,
             YXZ = 2,
@@ -1927,7 +1926,6 @@ namespace Unity.Mathematics
         }
         public enum ShuffleComponent
         {
-
             LeftX = 0,
             LeftY = 1,
             LeftZ = 2,

@@ -7,7 +7,6 @@ namespace System.Diagnostics.CodeAnalysis
     [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Parameter | AttributeTargets.ReturnValue, Inherited = False)]
     public sealed class MaybeNullAttribute : Attribute
     {
-
         public MaybeNullAttribute();
     }
 }

@@ -10,7 +10,6 @@ namespace UnityEditor.Rendering
     [UsedByNativeCode]
     public struct ShaderSnippetData
     {
-
         public ShaderType shaderType { get; }
         public PassType passType { get; }
         public string passName { get; }

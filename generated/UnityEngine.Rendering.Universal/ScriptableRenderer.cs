@@ -10,7 +10,6 @@ namespace UnityEngine.Rendering.Universal
 {
     public abstract class ScriptableRenderer : IDisposable
     {
-
         public ScriptableRenderer(ScriptableRendererData data);
 
         [EditorBrowsable(EditorBrowsableState.Never)]
@@ -38,9 +37,9 @@ namespace UnityEngine.Rendering.Universal
         public void EnqueuePass(ScriptableRenderPass pass);
         protected static ClearFlag GetCameraClearFlag(ref CameraData cameraData);
         protected void AddRenderPasses(ref RenderingData renderingData);
+
         public class RenderingFeatures
         {
-
             public RenderingFeatures();
 
             [Obsolete("cameraStacking has been deprecated use SupportedCameraRenderTypes() in ScriptableRenderer instead.", False)]

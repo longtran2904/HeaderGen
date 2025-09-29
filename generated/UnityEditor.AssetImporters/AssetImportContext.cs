@@ -17,7 +17,6 @@ namespace UnityEditor.AssetImporters
     [RequiredByNativeCode]
     public class AssetImportContext
     {
-
         public string assetPath { get; }
         public BuildTarget selectedBuildTarget { get; }
         public UnityEngine.Object mainObject { get; }

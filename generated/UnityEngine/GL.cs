@@ -15,7 +15,6 @@ namespace UnityEngine
     [StaticAccessor("GetGfxDevice()", StaticAccessorType.Dot)]
     public sealed class GL
     {
-
         public const int TRIANGLES = 4;
         public const int TRIANGLE_STRIP = 5;
         public const int QUADS = 7;

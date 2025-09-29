@@ -14,7 +14,6 @@ namespace UnityEditor.Experimental
     [StaticAccessor("EditorResources", StaticAccessorType.DoubleColon)]
     public class EditorResources
     {
-
         public EditorResources();
 
         [NativeProperty("k_NormalSkinIndex", True, TargetType.Field)]

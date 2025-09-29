@@ -6,7 +6,6 @@ namespace System.Globalization
 {
     public class StringInfo
     {
-
         public StringInfo();
         public StringInfo(string value);
 

@@ -11,7 +11,6 @@ namespace UnityEngine.Subsystems
     [UsedByNativeCode]
     public class ExampleSubsystemDescriptor : IntegratedSubsystemDescriptor<ExampleSubsystem>
     {
-
         public ExampleSubsystemDescriptor();
 
         public bool supportsEditorMode { get; }

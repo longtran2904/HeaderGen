@@ -9,7 +9,6 @@ namespace TMPro
 {
     public static class TMPro_ExtensionMethods
     {
-
         public static int[] ToIntArray(this string text);
         public static string ArrayToString(this char[] chars);
         public static string IntToString(this int[] unicodes);

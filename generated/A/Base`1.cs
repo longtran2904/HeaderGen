@@ -6,25 +6,22 @@ namespace A
 {
     public class Base<T> : OG
     {
-
         public Base();
+
         public class A
         {
-
             public A();
         }
         public class Inner : OG.Inner
         {
-
             public Inner();
         }
         public class Inner2 : Inner1
         {
-
             public Inner2();
+
             public class InnerInner<U>
             {
-
                 public InnerInner();
             }
         }

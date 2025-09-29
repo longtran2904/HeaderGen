@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum IconKind
     {
-
         Any = -1,
         Application = 0,
         Settings = 1,

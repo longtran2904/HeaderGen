@@ -12,7 +12,6 @@ namespace Unity.Mathematics
     [Il2CppEagerStaticClassConstruction]
     public struct uint4x2 : IEquatable<uint4x2>, IFormattable
     {
-
         public uint4 c0;
         public uint4 c1;
         public static readonly uint4x2 zero;

@@ -7,7 +7,6 @@ namespace System.Runtime.Versioning
     [AttributeUsage(AttributeTargets.Assembly, AllowMultiple = False, Inherited = False)]
     public sealed class TargetFrameworkAttribute : Attribute
     {
-
         public TargetFrameworkAttribute(string frameworkName);
 
         public string FrameworkName { get; }

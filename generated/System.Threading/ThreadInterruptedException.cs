@@ -9,7 +9,6 @@ namespace System.Threading
 {
     public class ThreadInterruptedException : SystemException
     {
-
         public ThreadInterruptedException();
         public ThreadInterruptedException(string message);
         public ThreadInterruptedException(string message, Exception innerException);

@@ -11,7 +11,6 @@ namespace UnityEditor
     [NativeType(CodegenOptions.Custom, "TextureImporterPlatformSettings_Marshalling")]
     public sealed class TextureImporterPlatformSettings
     {
-
         public TextureImporterPlatformSettings();
 
         public string name { get; set; }

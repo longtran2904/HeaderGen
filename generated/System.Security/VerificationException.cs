@@ -9,7 +9,6 @@ namespace System.Security
 {
     public class VerificationException : SystemException
     {
-
         public VerificationException();
         public VerificationException(string message);
         public VerificationException(string message, Exception innerException);

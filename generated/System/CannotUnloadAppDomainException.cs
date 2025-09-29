@@ -9,7 +9,6 @@ namespace System
 {
     public class CannotUnloadAppDomainException : SystemException
     {
-
         public CannotUnloadAppDomainException();
         public CannotUnloadAppDomainException(string message);
         public CannotUnloadAppDomainException(string message, Exception innerException);

@@ -8,7 +8,6 @@ namespace UnityEditor.UIElements
 {
     public sealed class SerializedObjectChangeEvent : EventBase<SerializedObjectChangeEvent>
     {
-
         public SerializedObjectChangeEvent();
 
         public SerializedObject changedObject { get; set; }

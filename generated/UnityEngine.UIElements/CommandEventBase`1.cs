@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public abstract class CommandEventBase<T> : EventBase<T>, ICommandEvent where T : CommandEventBase<T>, new()
     {
-
         protected CommandEventBase();
 
         public string commandName { get; protected set; }

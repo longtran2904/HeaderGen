@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering.Universal
 {
     public enum ReflectionSource
     {
-
         NoReflection = 0,
         Cubemap = 1,
         ReflectionProbe = 2

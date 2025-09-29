@@ -9,7 +9,6 @@ namespace UnityEditor.UIElements
 {
     public class ColorField : BaseField<Color>
     {
-
         public static readonly string ussClassName;
         public static readonly string labelUssClassName;
         public static readonly string inputUssClassName;
@@ -22,14 +21,13 @@ namespace UnityEditor.UIElements
         public bool hdr { get; set; }
 
         protected override void UpdateMixedValueContent();
+
         public class UxmlFactory : UxmlFactory<ColorField, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : BaseFieldTraits<Color, UxmlColorAttributeDescription>
         {
-
             public UxmlTraits();
 
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc);

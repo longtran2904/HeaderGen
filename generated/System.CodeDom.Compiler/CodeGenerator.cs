@@ -9,7 +9,6 @@ namespace System.CodeDom.Compiler
 {
     public abstract class CodeGenerator : ICodeGenerator
     {
-
         protected CodeGenerator();
 
         protected CodeTypeDeclaration CurrentClass { get; }

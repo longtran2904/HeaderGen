@@ -6,7 +6,6 @@ namespace System.Collections.Generic
 {
     public sealed class LinkedListNode<T>
     {
-
         public LinkedListNode(T value);
 
         public LinkedList<T> List { get; }

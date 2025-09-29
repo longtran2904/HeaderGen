@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering.Universal
 {
     public static class RenderingUtils
     {
-
         public static Mesh fullscreenMesh { get; }
 
         public static void SetViewAndProjectionMatrices(CommandBuffer cmd, Matrix4x4 viewMatrix, Matrix4x4 projectionMatrix, bool setInverseMatrices);

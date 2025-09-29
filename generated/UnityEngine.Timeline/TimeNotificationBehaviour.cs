@@ -8,7 +8,6 @@ namespace UnityEngine.Timeline
 {
     public class TimeNotificationBehaviour : PlayableBehaviour
     {
-
         public TimeNotificationBehaviour();
 
         public Playable timeSource { set; }

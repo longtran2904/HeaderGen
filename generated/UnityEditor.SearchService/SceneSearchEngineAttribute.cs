@@ -9,7 +9,6 @@ namespace UnityEditor.SearchService
     [AttributeUsage(AttributeTargets.Class)]
     public class SceneSearchEngineAttribute : Attribute
     {
-
         public SceneSearchEngineAttribute();
     }
 }

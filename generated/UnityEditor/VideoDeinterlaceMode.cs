@@ -9,7 +9,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Src/Video/VideoClipTranscode.h")]
     public enum VideoDeinterlaceMode
     {
-
         Off = 0,
         Even = 1,
         Odd = 2

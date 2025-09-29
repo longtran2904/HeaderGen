@@ -9,7 +9,6 @@ namespace UnityEngine.Diagnostics
 {
     public static class PlayerConnection
     {
-
         [Obsolete("Use UnityEngine.Networking.PlayerConnection.PlayerConnection.instance.isConnected instead.")]
         public static bool connected { get; }
 

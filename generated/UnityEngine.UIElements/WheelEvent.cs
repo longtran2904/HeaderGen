@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class WheelEvent : MouseEventBase<WheelEvent>
     {
-
         public WheelEvent();
 
         public Vector3 delta { get; }

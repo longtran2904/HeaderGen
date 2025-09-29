@@ -7,7 +7,6 @@ namespace System.Text.RegularExpressions
     [Flags]
     public enum RegexOptions
     {
-
         None = 0,
         IgnoreCase = 1,
         Multiline = 2,

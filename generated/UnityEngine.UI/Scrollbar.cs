@@ -13,7 +13,6 @@ namespace UnityEngine.UI
     [RequireComponent(typeof(RectTransform))]
     public class Scrollbar : Selectable, IBeginDragHandler, ICanvasElement, IDragHandler, IInitializePotentialDragHandler
     {
-
         protected Scrollbar();
 
         public RectTransform handleRect { get; set; }
@@ -45,9 +44,9 @@ namespace UnityEngine.UI
         public override Selectable FindSelectableOnDown();
         public virtual void OnInitializePotentialDrag(PointerEventData eventData);
         public void SetDirection(Direction direction, bool includeRectLayouts);
+
         public enum Direction
         {
-
             LeftToRight = 0,
             RightToLeft = 1,
             BottomToTop = 2,
@@ -55,7 +54,6 @@ namespace UnityEngine.UI
         }
         public class ScrollEvent : UnityEvent<float>
         {
-
             public ScrollEvent();
         }
     }

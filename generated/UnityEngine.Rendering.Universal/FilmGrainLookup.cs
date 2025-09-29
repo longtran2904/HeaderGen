@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.Universal
 {
     public enum FilmGrainLookup
     {
-
         Thin1 = 0,
         Thin2 = 1,
         Medium1 = 2,

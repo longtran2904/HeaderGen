@@ -10,7 +10,6 @@ namespace UnityEditor
     [Obsolete("[PreferenceItem] is deprecated. Use [SettingsProvider] instead.")]
     public sealed class PreferenceItem : Attribute
     {
-
         public string name;
 
         public PreferenceItem(string name);

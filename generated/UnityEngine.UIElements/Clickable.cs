@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public class Clickable : PointerManipulator
     {
-
         public Clickable(Action handler, long delay, long interval);
         public Clickable(Action<EventBase> handler);
         public Clickable(Action handler);

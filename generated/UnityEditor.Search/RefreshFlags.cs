@@ -9,7 +9,6 @@ namespace UnityEditor.Search
     [Flags]
     public enum RefreshFlags
     {
-
         None = 0,
         Default = 1,
         StructureChanged = 2,

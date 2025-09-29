@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering.LookDev
 {
     public interface ICameraUpdater
     {
-
         void UpdateCamera(Camera camera);
     }
 }

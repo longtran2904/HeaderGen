@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public sealed class CustomAttribute : ICustomAttribute
     {
-
         public CustomAttribute(MethodReference constructor);
         public CustomAttribute(MethodReference constructor, byte[] blob);
 

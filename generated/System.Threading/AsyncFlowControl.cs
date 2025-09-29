@@ -6,7 +6,6 @@ namespace System.Threading
 {
     public struct AsyncFlowControl : IDisposable, IEquatable<AsyncFlowControl>
     {
-
         public void Undo();
         public void Dispose();
         public override bool Equals(object obj);

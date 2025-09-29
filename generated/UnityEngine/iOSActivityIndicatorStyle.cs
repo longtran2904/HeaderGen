@@ -11,7 +11,6 @@ namespace UnityEngine
     [Obsolete("iOSActivityIndicatorStyle enumeration is deprecated. Please use iOS.ActivityIndicatorStyle instead (UnityUpgradable) -> UnityEngine.iOS.ActivityIndicatorStyle", True)]
     public enum iOSActivityIndicatorStyle
     {
-
         DontShow = 0,
         WhiteLarge = 1,
         White = 2,

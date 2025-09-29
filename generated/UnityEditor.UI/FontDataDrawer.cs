@@ -10,7 +10,6 @@ namespace UnityEditor.UI
     [CustomPropertyDrawer(typeof(FontData), True)]
     public class FontDataDrawer : PropertyDrawer
     {
-
         public FontDataDrawer();
 
         protected void Init(SerializedProperty property);

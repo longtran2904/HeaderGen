@@ -10,7 +10,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Mono/LODUtility.bindings.h")]
     public sealed class LODUtility
     {
-
         public LODUtility();
 
         public static void CalculateLODGroupBoundingBox(LODGroup group);

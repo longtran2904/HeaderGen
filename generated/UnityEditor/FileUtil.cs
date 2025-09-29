@@ -11,7 +11,6 @@ namespace UnityEditor
     [NativeHeader("Runtime/Utilities/FileUtilities.h")]
     public class FileUtil
     {
-
         public FileUtil();
 
         public static bool DeleteFileOrDirectory(string path);

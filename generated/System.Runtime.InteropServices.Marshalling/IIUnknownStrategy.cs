@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices.Marshalling
     [CLSCompliant(False)]
     public interface IIUnknownStrategy
     {
-
         void* CreateInstancePointer(void* unknown);
         int QueryInterface(void* instancePtr, in Guid iid, out void* ppObj);
         int Release(void* instancePtr);

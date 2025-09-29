@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics2D/PointEffector2D.h")]
     public class PointEffector2D : Effector2D
     {
-
         public PointEffector2D();
 
         public float forceMagnitude { get; set; }

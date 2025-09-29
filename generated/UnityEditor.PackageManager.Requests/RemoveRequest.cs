@@ -6,7 +6,6 @@ namespace UnityEditor.PackageManager.Requests
 {
     public sealed class RemoveRequest : Request
     {
-
         public string PackageIdOrName { get; }
     }
 }

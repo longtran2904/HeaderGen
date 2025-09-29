@@ -8,7 +8,6 @@ namespace TMPro
 {
     public class TMP_FontFeatureTable
     {
-
         public TMP_FontFeatureTable();
 
         public List<TMP_GlyphPairAdjustmentRecord> glyphPairAdjustmentRecords { get; set; }

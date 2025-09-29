@@ -7,7 +7,6 @@ namespace System.Diagnostics.CodeAnalysis
     [AttributeUsage(AttributeTargets.Parameter, Inherited = False)]
     public sealed class NotNullWhenAttribute : Attribute
     {
-
         public NotNullWhenAttribute(bool returnValue);
 
         public bool ReturnValue { get; }

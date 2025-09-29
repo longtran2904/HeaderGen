@@ -14,7 +14,6 @@ namespace TMPro
     [RequireComponent(typeof(RectTransform))]
     public class TMP_Dropdown : Selectable, ICancelHandler, IPointerClickHandler, ISubmitHandler
     {
-
         protected TMP_Dropdown();
 
         public RectTransform template { get; set; }
@@ -50,9 +49,9 @@ namespace TMPro
         protected virtual DropdownItem CreateItem(DropdownItem itemTemplate);
         protected virtual void DestroyItem(DropdownItem item);
         public void Hide();
+
         protected internal class DropdownItem : MonoBehaviour, ICancelHandler, IEventSystemHandler, IPointerEnterHandler
         {
-
             public DropdownItem();
 
             public TMP_Text text { get; set; }
@@ -65,7 +64,6 @@ namespace TMPro
         }
         public class OptionData
         {
-
             public OptionData();
             public OptionData(string text);
             public OptionData(Sprite image);
@@ -76,14 +74,12 @@ namespace TMPro
         }
         public class OptionDataList
         {
-
             public OptionDataList();
 
             public List<OptionData> options { get; set; }
         }
         public class DropdownEvent : UnityEvent<int>
         {
-
             public DropdownEvent();
         }
     }

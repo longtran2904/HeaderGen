@@ -6,7 +6,6 @@ namespace System.Reflection
 {
     public enum ProcessorArchitecture
     {
-
         None = 0,
         MSIL = 1,
         X86 = 2,

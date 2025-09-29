@@ -6,7 +6,6 @@ namespace TMPro
 {
     public class TMP_ResourceManager
     {
-
         public TMP_ResourceManager();
 
         public static void AddFontAsset(TMP_FontAsset fontAsset);

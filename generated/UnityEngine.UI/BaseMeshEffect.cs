@@ -9,7 +9,6 @@ namespace UnityEngine.UI
     [ExecuteAlways]
     public abstract class BaseMeshEffect : UIBehaviour, IMeshModifier
     {
-
         protected BaseMeshEffect();
 
         protected Graphic graphic { get; }

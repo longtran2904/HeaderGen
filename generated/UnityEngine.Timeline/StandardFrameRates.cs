@@ -6,7 +6,6 @@ namespace UnityEngine.Timeline
 {
     public enum StandardFrameRates
     {
-
         Fps24 = 0,
         Fps23_97 = 1,
         Fps25 = 2,

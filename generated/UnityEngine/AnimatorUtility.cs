@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Animation/OptimizeTransformHierarchy.h")]
     public class AnimatorUtility
     {
-
         public AnimatorUtility();
 
         [FreeFunction]

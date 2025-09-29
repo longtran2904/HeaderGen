@@ -11,7 +11,6 @@ namespace UnityEditor.VersionControl
     [UsedByNativeCode]
     public class Plugin
     {
-
         ~Plugin();
 
         public static Plugin[] availablePlugins { get; }

@@ -11,7 +11,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Src/GlobalObjectId.h")]
     public struct GlobalObjectId : IEquatable<GlobalObjectId>
     {
-
         public ulong targetObjectId { get; }
         public ulong targetPrefabId { get; }
         public GUID assetGUID { get; }

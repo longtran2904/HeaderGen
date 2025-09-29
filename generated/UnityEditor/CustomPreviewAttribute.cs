@@ -9,7 +9,6 @@ namespace UnityEditor
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = False, Inherited = False)]
     public sealed class CustomPreviewAttribute : Attribute
     {
-
         public CustomPreviewAttribute(Type type);
     }
 }

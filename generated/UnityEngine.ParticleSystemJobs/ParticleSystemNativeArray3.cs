@@ -10,7 +10,6 @@ namespace UnityEngine.ParticleSystemJobs
     [DefaultMember("Item")]
     public struct ParticleSystemNativeArray3
     {
-
         public NativeArray<float> x;
         public NativeArray<float> y;
         public NativeArray<float> z;

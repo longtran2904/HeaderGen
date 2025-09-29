@@ -12,7 +12,6 @@ namespace UnityEngine.Rendering.VirtualTexturing
     [StaticAccessor("VirtualTexturing::Editor", StaticAccessorType.DoubleColon)]
     public static class EditorHelpers
     {
-
         [NativeThrows]
         public static bool ValidateTextureStack([NotNull("ArgumentNullException")][Unmarshalled] Texture[] textures, out string errorMessage);
         [NativeConditional("UNITY_EDITOR", "{}")]

@@ -10,7 +10,6 @@ namespace Unity.Mathematics
     [Il2CppEagerStaticClassConstruction]
     public struct RigidTransform
     {
-
         public quaternion rot;
         public float3 pos;
         public static readonly RigidTransform identity;

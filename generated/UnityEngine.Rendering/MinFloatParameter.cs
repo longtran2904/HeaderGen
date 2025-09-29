@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public class MinFloatParameter : FloatParameter
     {
-
         [NonSerialized]
         public float min;
 

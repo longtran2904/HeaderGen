@@ -8,7 +8,6 @@ namespace UnityEditor.Build
 {
     public interface IPostBuildPlayerScriptDLLs : IOrderedCallback
     {
-
         void OnPostBuildPlayerScriptDLLs(BuildReport report);
     }
 }

@@ -10,7 +10,6 @@ namespace TMPro.EditorUtilities
     [CustomEditor(typeof(TMP_SubMeshUI))]
     public class TMP_SubMeshUI_Editor : Editor
     {
-
         public TMP_SubMeshUI_Editor();
 
         public void OnEnable();

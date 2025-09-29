@@ -8,7 +8,6 @@ namespace System.Reflection
 {
     public class CustomAttributeData
     {
-
         protected CustomAttributeData();
 
         public virtual Type AttributeType { get; }

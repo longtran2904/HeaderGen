@@ -9,7 +9,6 @@ namespace UnityEditor.UIElements
 {
     public class LayerField : PopupField<int>
     {
-
         public static readonly string ussClassName;
         public static readonly string labelUssClassName;
         public static readonly string inputUssClassName;
@@ -24,14 +23,13 @@ namespace UnityEditor.UIElements
         public override Func<int, string> formatListItemCallback { get; set; }
 
         public override void SetValueWithoutNotify(int newValue);
+
         public class UxmlFactory : UxmlFactory<LayerField, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : BaseField<int>.UxmlTraits
         {
-
             public UxmlTraits();
 
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc);

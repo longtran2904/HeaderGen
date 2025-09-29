@@ -10,7 +10,6 @@ namespace UnityEngine.TextCore
     [UsedByNativeCode]
     public struct GlyphMetrics : IEquatable<GlyphMetrics>
     {
-
         public GlyphMetrics(float width, float height, float bearingX, float bearingY, float advance);
 
         public float width { get; set; }

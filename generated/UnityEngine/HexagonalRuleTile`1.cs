@@ -8,7 +8,6 @@ namespace UnityEngine
 {
     public class HexagonalRuleTile<T> : HexagonalRuleTile
     {
-
         public HexagonalRuleTile();
 
         public sealed override Type m_NeighborType { get; }

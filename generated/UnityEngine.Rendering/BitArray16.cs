@@ -10,7 +10,6 @@ namespace UnityEngine.Rendering
     [DefaultMember("Item")]
     public struct BitArray16 : IBitArray
     {
-
         public BitArray16(ushort initValue);
         public BitArray16(IEnumerable<uint> bitIndexTrue);
 

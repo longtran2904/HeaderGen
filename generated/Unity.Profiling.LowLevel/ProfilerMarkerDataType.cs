@@ -6,7 +6,6 @@ namespace Unity.Profiling.LowLevel
 {
     public enum ProfilerMarkerDataType
     {
-
         Int32 = 2,
         UInt32 = 3,
         Int64 = 4,

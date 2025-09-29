@@ -9,7 +9,6 @@ namespace UnityEditor
     [Flags]
     public enum iOSBackgroundMode
     {
-
         None = 0,
         Audio = 1,
         Location = 2,

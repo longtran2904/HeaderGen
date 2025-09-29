@@ -11,7 +11,6 @@ namespace UnityEngine.Serialization
     [RequiredByNativeCode]
     public class FormerlySerializedAsAttribute : Attribute
     {
-
         public FormerlySerializedAsAttribute(string oldName);
 
         public string oldName { get; }

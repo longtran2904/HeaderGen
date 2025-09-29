@@ -10,7 +10,6 @@ namespace UnityEngine.Rendering
     [UsedByNativeCode]
     public struct ShadowSplitData : IEquatable<ShadowSplitData>
     {
-
         public static readonly int maximumCullingPlaneCount;
 
         public int cullingPlaneCount { get; set; }

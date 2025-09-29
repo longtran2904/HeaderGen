@@ -9,7 +9,6 @@ namespace Mono.Cecil
 {
     public class ReflectionImporter : IReflectionImporter
     {
-
         public ReflectionImporter(ModuleDefinition module);
 
         public virtual TypeReference ImportReference(Type type, IGenericParameterProvider context);

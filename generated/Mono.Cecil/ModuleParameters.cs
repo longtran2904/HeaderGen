@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public sealed class ModuleParameters
     {
-
         public ModuleParameters();
 
         public ModuleKind Kind { get; set; }

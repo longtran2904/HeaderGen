@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public enum FontTextureCase
     {
-
         Dynamic = -2,
         Unicode = -1,
         [InspectorName("ASCII default set")]

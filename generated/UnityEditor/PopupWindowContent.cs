@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public abstract class PopupWindowContent
     {
-
         protected PopupWindowContent();
 
         public EditorWindow editorWindow { get; }

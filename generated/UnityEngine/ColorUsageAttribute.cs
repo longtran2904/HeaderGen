@@ -9,7 +9,6 @@ namespace UnityEngine
     [AttributeUsage(AttributeTargets.Field, AllowMultiple = False, Inherited = True)]
     public sealed class ColorUsageAttribute : PropertyAttribute
     {
-
         public readonly bool showAlpha;
         public readonly bool hdr;
         [Obsolete("This field is no longer used for anything.")]

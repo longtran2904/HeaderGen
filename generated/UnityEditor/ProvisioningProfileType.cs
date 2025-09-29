@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum ProvisioningProfileType
     {
-
         Automatic = 0,
         Development = 1,
         Distribution = 2

@@ -6,7 +6,6 @@ namespace System.Collections.Generic
 {
     public interface IReadOnlySet<T> : IEnumerable, IEnumerable<T>, IReadOnlyCollection<T>
     {
-
         bool Contains(T item);
         bool IsProperSubsetOf(IEnumerable<T> other);
         bool IsProperSupersetOf(IEnumerable<T> other);

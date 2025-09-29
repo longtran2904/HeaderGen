@@ -9,7 +9,6 @@ namespace UnityEngine.Scripting
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = False)]
     public class RequireDerivedAttribute : Attribute
     {
-
         public RequireDerivedAttribute();
     }
 }

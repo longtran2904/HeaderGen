@@ -8,7 +8,6 @@ namespace System.Numerics
 {
     public readonly struct TotalOrderIeee754Comparer<T> : IComparer<T>, IEqualityComparer<T>, IEquatable<TotalOrderIeee754Comparer<T>> where T : IFloatingPointIeee754<T>
     {
-
         public int Compare(T x, T y);
         public bool Equals(T x, T y);
         public int GetHashCode(T obj);

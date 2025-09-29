@@ -8,7 +8,6 @@ namespace UnityEngine.Timeline
 {
     public class DirectorControlPlayable : PlayableBehaviour
     {
-
         public PlayableDirector director;
 
         public DirectorControlPlayable();

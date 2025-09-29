@@ -9,7 +9,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Src/Video/VideoClipTranscode.h")]
     public enum VideoSpatialQuality
     {
-
         LowSpatialQuality = 0,
         MediumSpatialQuality = 1,
         HighSpatialQuality = 2

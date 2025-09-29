@@ -8,7 +8,6 @@ namespace System.Security
 {
     public sealed class SecurityElement
     {
-
         public SecurityElement(string tag);
         public SecurityElement(string tag, string text);
 

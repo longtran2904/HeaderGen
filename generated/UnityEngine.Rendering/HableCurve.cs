@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public class HableCurve
     {
-
         public readonly Segment[] segments;
         public readonly Uniforms uniforms;
 
@@ -19,9 +18,9 @@ namespace UnityEngine.Rendering
 
         public float Eval(float x);
         public void Init(float toeStrength, float toeLength, float shoulderStrength, float shoulderLength, float shoulderAngle, float gamma);
+
         public class Segment
         {
-
             public float offsetX;
             public float offsetY;
             public float scaleX;
@@ -35,7 +34,6 @@ namespace UnityEngine.Rendering
         }
         public class Uniforms
         {
-
             public Vector4 curve { get; }
             public Vector4 toeSegmentA { get; }
             public Vector4 toeSegmentB { get; }

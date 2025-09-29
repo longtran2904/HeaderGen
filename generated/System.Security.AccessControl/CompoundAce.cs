@@ -8,7 +8,6 @@ namespace System.Security.AccessControl
 {
     public sealed class CompoundAce : KnownAce
     {
-
         public CompoundAce(AceFlags flags, int accessMask, CompoundAceType compoundAceType, SecurityIdentifier sid);
 
         public CompoundAceType CompoundAceType { get; set; }

@@ -10,7 +10,6 @@ namespace UnityEngine
     [RequireComponent(typeof(Camera))]
     public class StreamingController : Behaviour
     {
-
         public StreamingController();
 
         public float streamingMipmapBias { get; set; }

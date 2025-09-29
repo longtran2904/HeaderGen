@@ -11,7 +11,6 @@ namespace UnityEditor.Sprites
     [NativeHeader("Editor/Src/SpritePacker/SpritePacker.h")]
     public sealed class Packer
     {
-
         public static string kDefaultPolicy;
 
         public Packer();
@@ -32,9 +31,9 @@ namespace UnityEditor.Sprites
         [Obsolete("Sprite Packing Tags are deprecated. Please use Sprite Atlas asset.")]
         public static void RebuildAtlasCacheIfNeeded(BuildTarget target);
         public static void GetAtlasDataForSprite(Sprite sprite, out string atlasName, out Texture2D atlasTexture);
+
         public enum Execution
         {
-
             Normal = 0,
             ForceRegroup = 1
         }

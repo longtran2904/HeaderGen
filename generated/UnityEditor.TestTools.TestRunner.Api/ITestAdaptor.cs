@@ -9,7 +9,6 @@ namespace UnityEditor.TestTools.TestRunner.Api
 {
     public interface ITestAdaptor
     {
-
         string Id { get; }
         string Name { get; }
         string FullName { get; }

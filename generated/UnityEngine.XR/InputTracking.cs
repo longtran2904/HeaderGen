@@ -15,7 +15,6 @@ namespace UnityEngine.XR
     [StaticAccessor("XRInputTrackingFacade::Get()", StaticAccessorType.Dot)]
     public static class InputTracking
     {
-
         [NativeConditional("ENABLE_VR")]
         [Obsolete("This API is obsolete, and should no longer be used. Please use the TrackedPoseDriver in the Legacy Input Helpers package for controlling a camera in XR.")]
         public static bool disablePositionalTracking { get; set; }

@@ -8,7 +8,6 @@ namespace UnityEditor.Overlays
 {
     public abstract class IMGUIOverlay : Overlay
     {
-
         protected IMGUIOverlay();
 
         public sealed override VisualElement CreatePanelContent();

@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class MinMaxSlider : BaseField<Vector2>
     {
-
         public static readonly string ussClassName;
         public static readonly string labelUssClassName;
         public static readonly string inputUssClassName;
@@ -29,14 +28,13 @@ namespace UnityEngine.UIElements
         public override void SetValueWithoutNotify(Vector2 newValue);
         protected override void ExecuteDefaultAction(EventBase evt);
         protected override void UpdateMixedValueContent();
+
         public class UxmlFactory : UxmlFactory<MinMaxSlider, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : BaseField<Vector2>.UxmlTraits
         {
-
             public UxmlTraits();
 
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc);

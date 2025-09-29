@@ -8,7 +8,6 @@ namespace UnityEngine.Playables
 {
     public struct ScriptPlayable<T> : IEquatable<ScriptPlayable<T>>, IPlayable where T : IPlayableBehaviour, class, new()
     {
-
         public static ScriptPlayable<T> Null { get; }
 
         public static ScriptPlayable<T> Create(PlayableGraph graph, int inputCount = 0);

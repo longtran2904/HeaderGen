@@ -10,7 +10,6 @@ namespace UnityEditor.SceneManagement
     [MovedFrom("UnityEditor.Experimental.SceneManagement")]
     public static class PrefabStageUtility
     {
-
         public static PrefabStage OpenPrefab(string prefabAssetPath);
         public static PrefabStage OpenPrefab(string prefabAssetPath, GameObject openedFromInstance);
         public static PrefabStage OpenPrefab(string prefabAssetPath, GameObject openedFromInstance, PrefabStage.Mode prefabStageMode);

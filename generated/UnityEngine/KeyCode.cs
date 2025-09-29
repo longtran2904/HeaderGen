@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum KeyCode
     {
-
         None = 0,
         Backspace = 8,
         Delete = 127,

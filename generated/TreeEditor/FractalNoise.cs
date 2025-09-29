@@ -6,7 +6,6 @@ namespace TreeEditor
 {
     public class FractalNoise
     {
-
         public FractalNoise(float inH, float inLacunarity, float inOctaves);
         public FractalNoise(float inH, float inLacunarity, float inOctaves, Perlin noise);
 

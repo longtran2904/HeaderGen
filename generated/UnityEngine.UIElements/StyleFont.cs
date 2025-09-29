@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public struct StyleFont : IEquatable<StyleFont>, IStyleValue<Font>
     {
-
         public StyleFont(Font v);
         public StyleFont(StyleKeyword keyword);
 

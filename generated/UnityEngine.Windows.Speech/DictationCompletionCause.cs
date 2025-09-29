@@ -6,7 +6,6 @@ namespace UnityEngine.Windows.Speech
 {
     public enum DictationCompletionCause
     {
-
         Complete = 0,
         AudioQualityFailure = 1,
         Canceled = 2,

@@ -9,7 +9,6 @@ namespace UnityEditor.Experimental.Rendering
 {
     public abstract class ScriptableBakedReflectionSystem : IDisposable, IScriptableBakedReflectionSystem
     {
-
         protected ScriptableBakedReflectionSystem(int stageCount);
 
         public int stageCount { get; }

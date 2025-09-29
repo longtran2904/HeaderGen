@@ -8,7 +8,6 @@ namespace System.Collections.Concurrent
 {
     public abstract class OrderablePartitioner<TSource> : Partitioner<TSource>
     {
-
         protected OrderablePartitioner(bool keysOrderedInEachPartition, bool keysOrderedAcrossPartitions, bool keysNormalized);
 
         public bool KeysOrderedInEachPartition { get; }

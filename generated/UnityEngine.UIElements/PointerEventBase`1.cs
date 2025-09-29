@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointerEventInternal where T : PointerEventBase<T>, new()
     {
-
         protected PointerEventBase();
 
         public int pointerId { get; protected set; }

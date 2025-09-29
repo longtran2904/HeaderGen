@@ -11,7 +11,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public class UnityException : SystemException
     {
-
         public UnityException();
         public UnityException(string message);
         public UnityException(string message, Exception innerException);

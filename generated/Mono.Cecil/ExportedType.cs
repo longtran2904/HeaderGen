@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public sealed class ExportedType : IMetadataTokenProvider
     {
-
         public ExportedType(string namespace, string name, ModuleDefinition module, IMetadataScope scope);
 
         public string Namespace { get; set; }

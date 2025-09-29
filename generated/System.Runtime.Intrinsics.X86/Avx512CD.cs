@@ -7,7 +7,6 @@ namespace System.Runtime.Intrinsics.X86
     [CLSCompliant(False)]
     public abstract class Avx512CD : Avx512F
     {
-
         public static bool IsSupported { get; }
 
         public static Vector512<int> DetectConflicts(Vector512<int> value);
@@ -18,9 +17,9 @@ namespace System.Runtime.Intrinsics.X86
         public static Vector512<uint> LeadingZeroCount(Vector512<uint> value);
         public static Vector512<long> LeadingZeroCount(Vector512<long> value);
         public static Vector512<ulong> LeadingZeroCount(Vector512<ulong> value);
+
         public abstract class VL : Avx512F.VL
         {
-
             public static bool IsSupported { get; }
 
             public static Vector128<int> DetectConflicts(Vector128<int> value);
@@ -42,7 +41,6 @@ namespace System.Runtime.Intrinsics.X86
         }
         public abstract class X64 : Avx512F.X64
         {
-
             public static bool IsSupported { get; }
         }
     }

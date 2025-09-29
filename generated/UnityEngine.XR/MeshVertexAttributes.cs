@@ -13,7 +13,6 @@ namespace UnityEngine.XR
     [UsedByNativeCode]
     public enum MeshVertexAttributes
     {
-
         None = 0,
         Normals = 1,
         Tangents = 2,

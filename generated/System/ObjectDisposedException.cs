@@ -9,7 +9,6 @@ namespace System
 {
     public class ObjectDisposedException : InvalidOperationException
     {
-
         public ObjectDisposedException(string objectName);
         public ObjectDisposedException(string objectName, string message);
         public ObjectDisposedException(string message, Exception innerException);

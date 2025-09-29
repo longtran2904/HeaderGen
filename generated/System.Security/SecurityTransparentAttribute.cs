@@ -7,7 +7,6 @@ namespace System.Security
     [AttributeUsage(AttributeTargets.Assembly, AllowMultiple = False, Inherited = False)]
     public sealed class SecurityTransparentAttribute : Attribute
     {
-
         public SecurityTransparentAttribute();
     }
 }

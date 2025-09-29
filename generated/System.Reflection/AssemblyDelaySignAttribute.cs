@@ -7,7 +7,6 @@ namespace System.Reflection
     [AttributeUsage(AttributeTargets.Assembly, Inherited = False)]
     public sealed class AssemblyDelaySignAttribute : Attribute
     {
-
         public AssemblyDelaySignAttribute(bool delaySign);
 
         public bool DelaySign { get; }

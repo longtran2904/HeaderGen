@@ -11,7 +11,6 @@ namespace Unity.Mathematics
     [Il2CppEagerStaticClassConstruction]
     public struct quaternion : IEquatable<quaternion>, IFormattable
     {
-
         public float4 value;
         public static readonly quaternion identity;
 

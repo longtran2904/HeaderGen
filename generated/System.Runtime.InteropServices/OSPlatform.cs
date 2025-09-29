@@ -6,7 +6,6 @@ namespace System.Runtime.InteropServices
 {
     public readonly struct OSPlatform : IEquatable<OSPlatform>
     {
-
         public static OSPlatform FreeBSD { get; }
         public static OSPlatform Linux { get; }
         public static OSPlatform OSX { get; }

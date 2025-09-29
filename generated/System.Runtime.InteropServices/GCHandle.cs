@@ -6,7 +6,6 @@ namespace System.Runtime.InteropServices
 {
     public struct GCHandle : IEquatable<GCHandle>
     {
-
         public object Target { get; set; }
         public bool IsAllocated { get; }
 

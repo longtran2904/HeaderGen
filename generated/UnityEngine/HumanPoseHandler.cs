@@ -12,7 +12,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Animation/HumanPoseHandler.h")]
     public class HumanPoseHandler : IDisposable
     {
-
         public HumanPoseHandler(Avatar avatar, Transform root);
         public HumanPoseHandler(Avatar avatar, string[] jointPaths);
 

@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public class SerializedDictionary<K, V> : SerializedDictionary<K, V, K, V>
     {
-
         public SerializedDictionary();
 
         public override K SerializeKey(K key);

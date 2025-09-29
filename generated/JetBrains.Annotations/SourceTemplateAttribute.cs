@@ -9,7 +9,6 @@ namespace JetBrains.Annotations
     [AttributeUsage(AttributeTargets.Method)]
     public sealed class SourceTemplateAttribute : Attribute
     {
-
         public SourceTemplateAttribute();
     }
 }

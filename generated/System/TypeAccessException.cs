@@ -9,7 +9,6 @@ namespace System
 {
     public class TypeAccessException : TypeLoadException
     {
-
         public TypeAccessException();
         public TypeAccessException(string message);
         public TypeAccessException(string message, Exception inner);

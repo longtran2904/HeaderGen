@@ -13,7 +13,6 @@ namespace UnityEditor
     [Obsolete("DDSImporter is obsolete. Use IHVImageFormatImporter instead (UnityUpgradable) -> IHVImageFormatImporter", True)]
     public sealed class DDSImporter : AssetImporter
     {
-
         public DDSImporter();
 
         public bool isReadable { get; set; }

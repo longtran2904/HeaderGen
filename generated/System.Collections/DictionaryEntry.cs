@@ -8,7 +8,6 @@ namespace System.Collections
 {
     public struct DictionaryEntry
     {
-
         public DictionaryEntry(object key, object value);
 
         public object Key { get; set; }

@@ -6,7 +6,6 @@ namespace System.Globalization
 {
     public class DaylightTime
     {
-
         public DaylightTime(DateTime start, DateTime end, TimeSpan delta);
 
         public DateTime Start { get; }

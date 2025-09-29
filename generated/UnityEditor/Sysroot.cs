@@ -10,7 +10,6 @@ namespace UnityEditor
     [MovedFrom("UnityEditor.LinuxStandalone")]
     public abstract class Sysroot
     {
-
         protected Sysroot();
 
         public abstract string Name { get; }

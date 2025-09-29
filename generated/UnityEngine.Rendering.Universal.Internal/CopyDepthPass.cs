@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.Universal.Internal
 {
     public class CopyDepthPass : ScriptableRenderPass
     {
-
         public CopyDepthPass(RenderPassEvent evt, Material copyDepthMaterial);
 
         public void Setup(RenderTargetHandle source, RenderTargetHandle destination);

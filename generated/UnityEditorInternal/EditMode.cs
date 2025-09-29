@@ -12,7 +12,6 @@ namespace UnityEditorInternal
     [InitializeOnLoad]
     public class EditMode
     {
-
         public static OnEditModeStopFunc onEditModeEndDelegate;
         public static OnEditModeStartFunc onEditModeStartDelegate;
 
@@ -33,11 +32,11 @@ namespace UnityEditorInternal
         public static void DoInspectorToolbar(SceneViewEditMode[] modes, GUIContent[] guiContents, Bounds bounds, Editor caller);
         public static void DoInspectorToolbar(SceneViewEditMode[] modes, GUIContent[] guiContents, Func<Bounds> getBoundsOfTargets, Editor caller);
         public static void ChangeEditMode(SceneViewEditMode mode, Bounds bounds, Editor caller);
+
         public delegate void OnEditModeStopFunc(Editor editor);
         public delegate void OnEditModeStartFunc(Editor editor, SceneViewEditMode mode);
         public enum SceneViewEditMode
         {
-
             None = 0,
             Collider = 1,
             ClothConstraints = 2,

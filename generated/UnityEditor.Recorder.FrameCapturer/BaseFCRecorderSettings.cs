@@ -11,7 +11,6 @@ namespace UnityEditor.Recorder.FrameCapturer
     [Obsolete("The legacy recorders are deprecated")]
     public abstract class BaseFCRecorderSettings : RecorderSettings
     {
-
         protected BaseFCRecorderSettings();
 
         public ImageInputSettings imageInputSettings { get; set; }

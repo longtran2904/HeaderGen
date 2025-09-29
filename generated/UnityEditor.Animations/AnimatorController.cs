@@ -16,7 +16,6 @@ namespace UnityEditor.Animations
     [NativeHeader("Modules/Animation/AnimatorController.h")]
     public sealed class AnimatorController : RuntimeAnimatorController
     {
-
         public AnimatorController();
 
         public AnimatorControllerLayer[] layers { get; set; }

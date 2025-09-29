@@ -7,7 +7,6 @@ namespace UnityEngine.Tilemaps
     [CreateAssetMenu(menuName = "2D/Tiles/Terrain Tile", fileName = "New Terrain Tile", order = 82)]
     public class TerrainTile : TileBase
     {
-
         [SerializeField]
         public Sprite[] m_Sprites;
 

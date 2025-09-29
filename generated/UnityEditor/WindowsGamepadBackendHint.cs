@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum WindowsGamepadBackendHint
     {
-
         WindowsGamepadBackendHintDefault = 0,
         WindowsGamepadBackendHintXInput = 1,
         WindowsGamepadBackendHintWindowsGamingInput = 2

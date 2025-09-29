@@ -12,7 +12,6 @@ namespace UnityEditor.U2D
     [NativeType(Header = "Editor/Src/2D/SpriteAtlas/SpriteAtlasAsset.h")]
     public class SpriteAtlasAsset : UnityEngine.Object
     {
-
         public SpriteAtlasAsset();
 
         public bool isVariant { get; }

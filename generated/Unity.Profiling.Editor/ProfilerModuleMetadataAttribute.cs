@@ -9,7 +9,6 @@ namespace Unity.Profiling.Editor
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = False, Inherited = False)]
     public class ProfilerModuleMetadataAttribute : Attribute
     {
-
         public ProfilerModuleMetadataAttribute(string displayName);
 
         public string DisplayName { get; }

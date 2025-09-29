@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum AssetBundleLoadResult
     {
-
         Success = 0,
         Cancelled = 1,
         NotMatchingCrc = 2,

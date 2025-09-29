@@ -6,7 +6,6 @@ namespace System.Numerics
 {
     public interface IComparisonOperators<TSelf, TOther, TResult> : IEqualityOperators<TSelf, TOther, TResult> where TSelf : IComparisonOperators<TSelf, TOther, TResult>
     {
-
         TResult operator <(TSelf left, TOther right);
         TResult operator <=(TSelf left, TOther right);
         TResult operator >(TSelf left, TOther right);

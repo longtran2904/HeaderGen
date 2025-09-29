@@ -8,7 +8,6 @@ namespace UnityEditor.AnimatedValues
 {
     public class AnimFloat : BaseAnimValueNonAlloc<float>
     {
-
         public AnimFloat(float value);
         public AnimFloat(float value, UnityAction callback);
 

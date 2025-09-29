@@ -9,7 +9,6 @@ namespace UnityEditor.Sprites
     [Obsolete("Use UnityEditor.Sprites.SpriteUtility instead (UnityUpgradable)", True)]
     public sealed class DataUtility
     {
-
         public DataUtility();
     }
 }

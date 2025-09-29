@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class UxmlFloatAttributeDescription : TypedUxmlAttributeDescription<float>
     {
-
         public UxmlFloatAttributeDescription();
 
         public override string defaultValueAsString { get; }

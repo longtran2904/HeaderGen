@@ -9,7 +9,6 @@ namespace UnityEditor.SearchService
 {
     public interface ISearchEngine<T> : ISearchEngineBase
     {
-
         IEnumerable<T> Search(ISearchContext context, string query, Action<IEnumerable<T>> asyncItemsReceived);
     }
 }

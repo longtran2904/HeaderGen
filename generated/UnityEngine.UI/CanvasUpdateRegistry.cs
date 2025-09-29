@@ -6,7 +6,6 @@ namespace UnityEngine.UI
 {
     public class CanvasUpdateRegistry
     {
-
         protected CanvasUpdateRegistry();
 
         public static CanvasUpdateRegistry instance { get; }

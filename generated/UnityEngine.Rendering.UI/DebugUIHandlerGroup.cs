@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering.UI
 {
     public class DebugUIHandlerGroup : DebugUIHandlerWidget
     {
-
         public Text nameLabel;
         public Transform header;
 

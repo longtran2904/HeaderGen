@@ -11,7 +11,6 @@ namespace UnityEditor
     [Obsolete("LightmapSnapshot has been deprecated. Use LightingDataAsset instead (UnityUpgradable) -> LightingDataAsset", True)]
     public class LightmapSnapshot : UnityEngine.Object
     {
-
         public LightmapSnapshot();
     }
 }

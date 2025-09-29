@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public enum ShaderParamType
     {
-
         Float = 0,
         Int = 1,
         Bool = 2,

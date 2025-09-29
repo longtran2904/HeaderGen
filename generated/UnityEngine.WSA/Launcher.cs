@@ -12,7 +12,6 @@ namespace UnityEngine.WSA
     [StaticAccessor("metro::Launcher", StaticAccessorType.DoubleColon)]
     public sealed class Launcher
     {
-
         public Launcher();
 
         public static void LaunchFile(Folder folder, string relativeFilePath, bool showWarning);

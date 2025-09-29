@@ -7,7 +7,6 @@ namespace System.Reflection
     [Flags]
     public enum TypeAttributes
     {
-
         VisibilityMask = 7,
         NotPublic = 0,
         Public = 1,

@@ -6,7 +6,6 @@ namespace UnityEngine.Events
 {
     public enum PersistentListenerMode
     {
-
         EventDefined = 0,
         Void = 1,
         Object = 2,

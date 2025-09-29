@@ -13,7 +13,6 @@ namespace UnityEngine
     [StaticAccessor("GetLODGroupManager()", StaticAccessorType.Dot)]
     public class LODGroup : Component
     {
-
         public LODGroup();
 
         public Vector3 localReferencePoint { get; set; }

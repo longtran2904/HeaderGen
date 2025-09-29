@@ -10,7 +10,6 @@ namespace System.Runtime.InteropServices.ObjectiveC
     [SupportedOSPlatform("macos")]
     public sealed class ObjectiveCTrackedTypeAttribute : Attribute
     {
-
         public ObjectiveCTrackedTypeAttribute();
     }
 }

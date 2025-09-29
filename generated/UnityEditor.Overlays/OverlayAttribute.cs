@@ -9,7 +9,6 @@ namespace UnityEditor.Overlays
     [AttributeUsage(AttributeTargets.Class)]
     public sealed class OverlayAttribute : Attribute
     {
-
         public OverlayAttribute(Type editorWindowType, string id, string displayName, string ussName, bool defaultDisplay = False);
         public OverlayAttribute(Type editorWindowType, string id, string displayName, bool defaultLayout = False);
         public OverlayAttribute(Type editorWindowType, string displayName, bool defaultLayout = False);

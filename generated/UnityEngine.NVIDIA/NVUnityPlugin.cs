@@ -9,7 +9,6 @@ namespace UnityEngine.NVIDIA
     [NativeHeader("Modules/NVIDIA/NVPlugins.h")]
     public static class NVUnityPlugin
     {
-
         public static bool Load();
         public static bool IsLoaded();
     }

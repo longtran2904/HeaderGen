@@ -6,7 +6,6 @@ namespace UnityEditor.Recorder
 {
     public class RecorderController
     {
-
         public RecorderController(RecorderControllerSettings settings);
 
         public RecorderControllerSettings Settings { get; }

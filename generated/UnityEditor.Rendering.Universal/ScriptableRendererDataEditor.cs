@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering.Universal
     [CustomEditor(typeof(ScriptableRendererData), True)]
     public class ScriptableRendererDataEditor : Editor
     {
-
         public ScriptableRendererDataEditor();
 
         public override void OnInspectorGUI();

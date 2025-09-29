@@ -10,7 +10,6 @@ namespace UnityEditor
     [Obsolete("This has turned into the more explicit APIs, SavePrefabAsset, SaveAsPrefabAsset, SaveAsPrefabAssetAndConnect")]
     public enum ReplacePrefabOptions
     {
-
         Default = 0,
         ConnectToPrefab = 1,
         ReplaceNameBased = 2

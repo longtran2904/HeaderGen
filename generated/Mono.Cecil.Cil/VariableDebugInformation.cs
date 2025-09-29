@@ -6,7 +6,6 @@ namespace Mono.Cecil.Cil
 {
     public sealed class VariableDebugInformation : DebugInformation
     {
-
         public VariableDebugInformation(VariableDefinition variable, string name);
 
         public int Index { get; }

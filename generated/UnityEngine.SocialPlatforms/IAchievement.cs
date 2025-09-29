@@ -8,7 +8,6 @@ namespace UnityEngine.SocialPlatforms
 {
     public interface IAchievement
     {
-
         string id { get; set; }
         double percentCompleted { get; set; }
         bool completed { get; }

@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
 {
     public static class VolumeProfileFactory
     {
-
         public static VolumeProfile CreateVolumeProfileAtPath(string path);
         public static VolumeProfile CreateVolumeProfile(Scene scene, string targetName);
         public static T CreateVolumeComponent<T>(VolumeProfile profile, bool overrides = False, bool saveAsset = True) where T : VolumeComponent;

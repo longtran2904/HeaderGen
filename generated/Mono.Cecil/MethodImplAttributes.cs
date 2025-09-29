@@ -9,7 +9,6 @@ namespace Mono.Cecil
     [Flags]
     public enum MethodImplAttributes
     {
-
         CodeTypeMask = 3,
         IL = 0,
         Native = 1,

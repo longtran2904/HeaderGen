@@ -13,7 +13,6 @@ namespace TMPro
     [AddComponentMenu("UI/TextMeshPro - Input Field", 11)]
     public class TMP_InputField : Selectable, IBeginDragHandler, ICanvasElement, IDragHandler, IEndDragHandler, ILayoutElement, IPointerClickHandler, IScrollHandler, ISubmitHandler, IUpdateSelectedHandler
     {
-
         protected TouchScreenKeyboard m_SoftKeyboard;
         protected RectTransform m_RectTransform;
         [SerializeField]
@@ -169,9 +168,9 @@ namespace TMPro
         public virtual void CalculateLayoutInputVertical();
         public void SetGlobalPointSize(float pointSize);
         public void SetGlobalFontAsset(TMP_FontAsset fontAsset);
+
         public enum ContentType
         {
-
             Standard = 0,
             Autocorrected = 1,
             IntegerNumber = 2,
@@ -185,14 +184,12 @@ namespace TMPro
         }
         public enum InputType
         {
-
             Standard = 0,
             AutoCorrect = 1,
             Password = 2
         }
         public enum CharacterValidation
         {
-
             None = 0,
             Digit = 1,
             Integer = 2,
@@ -205,7 +202,6 @@ namespace TMPro
         }
         public enum LineType
         {
-
             SingleLine = 0,
             MultiLineSubmit = 1,
             MultiLineNewline = 2
@@ -213,32 +209,26 @@ namespace TMPro
         public delegate char OnValidateInput(string text, int charIndex, char addedChar);
         public class SubmitEvent : UnityEvent<string>
         {
-
             public SubmitEvent();
         }
         public class OnChangeEvent : UnityEvent<string>
         {
-
             public OnChangeEvent();
         }
         public class SelectionEvent : UnityEvent<string>
         {
-
             public SelectionEvent();
         }
         public class TextSelectionEvent : UnityEvent<string, int, int>
         {
-
             public TextSelectionEvent();
         }
         public class TouchScreenKeyboardEvent : UnityEvent<TouchScreenKeyboard.Status>
         {
-
             public TouchScreenKeyboardEvent();
         }
         protected enum EditState
         {
-
             Continue = 0,
             Finish = 1
         }

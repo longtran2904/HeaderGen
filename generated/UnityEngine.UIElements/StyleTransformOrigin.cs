@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public struct StyleTransformOrigin : IEquatable<StyleTransformOrigin>, IStyleValue<TransformOrigin>
     {
-
         public StyleTransformOrigin(TransformOrigin v);
         public StyleTransformOrigin(StyleKeyword keyword);
 

@@ -9,7 +9,6 @@ namespace UnityEditor.EventSystems
     [CustomEditor(typeof(Physics2DRaycaster), True)]
     public class Physics2DRaycasterEditor : Editor
     {
-
         public Physics2DRaycasterEditor();
 
         public override void OnInspectorGUI();

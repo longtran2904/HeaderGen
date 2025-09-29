@@ -6,7 +6,6 @@ namespace System
 {
     public readonly struct GCMemoryInfo
     {
-
         public long HighMemoryLoadThresholdBytes { get; }
         public long MemoryLoadBytes { get; }
         public long TotalAvailableMemoryBytes { get; }

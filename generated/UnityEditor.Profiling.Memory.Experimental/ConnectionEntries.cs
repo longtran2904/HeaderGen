@@ -6,7 +6,6 @@ namespace UnityEditor.Profiling.Memory.Experimental
 {
     public class ConnectionEntries
     {
-
         public ArrayEntries<int> from { get; }
         public ArrayEntries<int> to { get; }
 

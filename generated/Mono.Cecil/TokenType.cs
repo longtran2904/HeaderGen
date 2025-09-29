@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public enum TokenType
     {
-
         Module = 0,
         TypeRef = 16777216,
         TypeDef = 33554432,

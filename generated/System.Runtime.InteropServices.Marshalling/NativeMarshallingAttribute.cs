@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices.Marshalling
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Interface | AttributeTargets.Delegate)]
     public sealed class NativeMarshallingAttribute : Attribute
     {
-
         public NativeMarshallingAttribute(Type nativeType);
 
         public Type NativeType { get; }

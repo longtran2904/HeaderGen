@@ -7,7 +7,6 @@ namespace UnityEngine
     [RequireComponent(typeof(AudioBehaviour))]
     public sealed class AudioEchoFilter : Behaviour
     {
-
         public AudioEchoFilter();
 
         public float delay { get; set; }

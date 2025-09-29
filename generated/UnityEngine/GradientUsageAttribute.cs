@@ -9,7 +9,6 @@ namespace UnityEngine
     [AttributeUsage(AttributeTargets.Field, AllowMultiple = False, Inherited = True)]
     public sealed class GradientUsageAttribute : PropertyAttribute
     {
-
         public readonly bool hdr;
         public readonly ColorSpace colorSpace;
 

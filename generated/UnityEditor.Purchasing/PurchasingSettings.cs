@@ -10,7 +10,6 @@ namespace UnityEditor.Purchasing
     [StaticAccessor("GetUnityPurchasingSettings()", StaticAccessorType.Dot)]
     public static class PurchasingSettings
     {
-
         public static bool enabled { get; set; }
     }
 }

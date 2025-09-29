@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public struct ArrayDimension
     {
-
         public ArrayDimension(int? lowerBound, int? upperBound);
 
         public int? LowerBound { get; set; }

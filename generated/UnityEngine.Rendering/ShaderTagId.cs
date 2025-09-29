@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public struct ShaderTagId : IEquatable<ShaderTagId>
     {
-
         public static readonly ShaderTagId none;
 
         public ShaderTagId(string name);

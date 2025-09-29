@@ -11,7 +11,6 @@ namespace System.Runtime.Loader
 {
     public class AssemblyLoadContext
     {
-
         protected AssemblyLoadContext();
         protected AssemblyLoadContext(bool isCollectible);
         public AssemblyLoadContext(string name, bool isCollectible = False);
@@ -45,10 +44,10 @@ namespace System.Runtime.Loader
         public void Unload();
         public ContextualReflectionScope EnterContextualReflection();
         public static ContextualReflectionScope EnterContextualReflection(Assembly activating);
+
         [EditorBrowsable(EditorBrowsableState.Never)]
         public struct ContextualReflectionScope : IDisposable
         {
-
             public void Dispose();
         }
     }

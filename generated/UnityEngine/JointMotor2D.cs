@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public struct JointMotor2D
     {
-
         public float motorSpeed { get; set; }
         public float maxMotorTorque { get; set; }
     }

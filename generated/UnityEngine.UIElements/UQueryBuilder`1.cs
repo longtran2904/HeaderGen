@@ -9,7 +9,6 @@ namespace UnityEngine.UIElements
 {
     public struct UQueryBuilder<T> : IEquatable<UQueryBuilder<T>> where T : VisualElement
     {
-
         public UQueryBuilder(VisualElement visualElement);
 
         public UQueryBuilder<T> Class(string classname);

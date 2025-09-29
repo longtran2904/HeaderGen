@@ -6,7 +6,6 @@ namespace System.Globalization
 {
     public static class ISOWeek
     {
-
         public static int GetWeekOfYear(DateTime date);
         public static int GetYear(DateTime date);
         public static DateTime GetYearStart(int year);

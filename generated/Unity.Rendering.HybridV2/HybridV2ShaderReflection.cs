@@ -10,7 +10,6 @@ namespace Unity.Rendering.HybridV2
 {
     public class HybridV2ShaderReflection
     {
-
         public HybridV2ShaderReflection();
 
         [FreeFunction("Shader::GetDOTSReflectionVersionNumber")]

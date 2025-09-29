@@ -6,7 +6,6 @@ namespace UnityEngine.TextCore.Text
 {
     public abstract class TextElement
     {
-
         [SerializeField]
         protected TextElementType m_ElementType;
 

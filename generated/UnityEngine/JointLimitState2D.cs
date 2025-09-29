@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum JointLimitState2D
     {
-
         Inactive = 0,
         LowerLimit = 1,
         UpperLimit = 2,

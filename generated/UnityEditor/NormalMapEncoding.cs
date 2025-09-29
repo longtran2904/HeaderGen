@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum NormalMapEncoding
     {
-
         XYZ = 0,
         DXT5nm = 1
     }

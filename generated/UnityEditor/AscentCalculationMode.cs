@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public enum AscentCalculationMode
     {
-
         [InspectorName("Legacy version 2 mode (glyph bounding boxes)")]
         Legacy2x = 0,
         [InspectorName("Face ascender metric")]

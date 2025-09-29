@@ -10,7 +10,6 @@ namespace UnityEditor.Search
 {
     public class SearchIndexer
     {
-
         public SearchIndexer();
         public SearchIndexer(string name);
 

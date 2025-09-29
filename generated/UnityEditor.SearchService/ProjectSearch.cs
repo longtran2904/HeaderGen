@@ -7,7 +7,6 @@ namespace UnityEditor.SearchService
     [InitializeOnLoad]
     public static class ProjectSearch
     {
-
         public const SearchEngineScope EngineScope = 1;
 
         public static void RegisterEngine(IProjectSearchEngine engine);

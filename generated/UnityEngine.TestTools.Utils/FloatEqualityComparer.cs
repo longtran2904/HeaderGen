@@ -8,7 +8,6 @@ namespace UnityEngine.TestTools.Utils
 {
     public class FloatEqualityComparer : IEqualityComparer<float>
     {
-
         public FloatEqualityComparer(float allowedError);
 
         public static FloatEqualityComparer Instance { get; }

@@ -11,7 +11,6 @@ namespace UnityEngine
     [Obsolete("iPhoneNetworkReachability enumeration is deprecated. Please use NetworkReachability instead (UnityUpgradable) -> NetworkReachability", True)]
     public enum iPhoneNetworkReachability
     {
-
         NotReachable = 0,
         ReachableViaCarrierDataNetwork = 1,
         [Obsolete]

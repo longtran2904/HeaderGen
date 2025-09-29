@@ -6,7 +6,6 @@ namespace UnityEditor.Search
 {
     public interface INestedQueryNode : IQueryNode
     {
-
         string associatedFilter { get; }
     }
 }

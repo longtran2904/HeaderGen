@@ -9,7 +9,6 @@ namespace System.Security.AccessControl
     [DefaultMember("Item")]
     public sealed class RawAcl : GenericAcl
     {
-
         public RawAcl(byte revision, int capacity);
         public RawAcl(byte[] binaryForm, int offset);
 

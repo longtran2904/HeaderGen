@@ -9,7 +9,6 @@ namespace UnityEditor.Timeline
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = False, Inherited = True)]
     public sealed class CustomTimelineEditorAttribute : Attribute
     {
-
         public CustomTimelineEditorAttribute(Type type);
 
         public Type classToEdit { get; }

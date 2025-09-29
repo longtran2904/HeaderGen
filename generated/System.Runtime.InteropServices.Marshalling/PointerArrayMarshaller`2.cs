@@ -10,7 +10,6 @@ namespace System.Runtime.InteropServices.Marshalling
     [CustomMarshaller(typeof(CustomMarshallerAttribute.GenericPlaceholder*[]), MarshalMode.ManagedToUnmanagedIn, typeof(PointerArrayMarshaller<, >.ManagedToUnmanagedIn))]
     public static class PointerArrayMarshaller<T, TUnmanagedElement> where T : unmanaged where TUnmanagedElement : unmanaged
     {
-
         public static TUnmanagedElement* AllocateContainerForUnmanagedElements(T*[] managed, out int numElements);
         public static ReadOnlySpan<nint> GetManagedValuesSource(T*[] managed);
         public static Span<TUnmanagedElement> GetUnmanagedValuesDestination(TUnmanagedElement* unmanaged, int numElements);
@@ -18,10 +17,10 @@ namespace System.Runtime.InteropServices.Marshalling
         public static Span<nint> GetManagedValuesDestination(T*[] managed);
         public static ReadOnlySpan<TUnmanagedElement> GetUnmanagedValuesSource(TUnmanagedElement* unmanagedValue, int numElements);
         public static void Free(TUnmanagedElement* unmanaged);
+
         [Obsolete("Types with embedded references are not supported in this version of your compiler.", True)]
         public ref struct ManagedToUnmanagedIn
         {
-
             public static int BufferSize { get; }
 
             public void FromManaged(T*[] array, Span<TUnmanagedElement> buffer);

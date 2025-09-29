@@ -6,7 +6,6 @@ namespace UnityEditor.Search
 {
     public enum QueryNodeType
     {
-
         And = 0,
         Or = 1,
         Filter = 2,

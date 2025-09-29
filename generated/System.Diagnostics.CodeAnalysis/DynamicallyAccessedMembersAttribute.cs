@@ -7,7 +7,6 @@ namespace System.Diagnostics.CodeAnalysis
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Method | AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Interface | AttributeTargets.Parameter | AttributeTargets.ReturnValue | AttributeTargets.GenericParameter, Inherited = False)]
     public sealed class DynamicallyAccessedMembersAttribute : Attribute
     {
-
         public DynamicallyAccessedMembersAttribute(DynamicallyAccessedMemberTypes memberTypes);
 
         public DynamicallyAccessedMemberTypes MemberTypes { get; }

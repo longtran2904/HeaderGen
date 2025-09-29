@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public class NoInterpMaxFloatParameter : VolumeParameter<float>
     {
-
         [NonSerialized]
         public float max;
 

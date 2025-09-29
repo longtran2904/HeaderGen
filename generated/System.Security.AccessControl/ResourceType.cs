@@ -6,7 +6,6 @@ namespace System.Security.AccessControl
 {
     public enum ResourceType
     {
-
         Unknown = 0,
         FileObject = 1,
         Service = 2,

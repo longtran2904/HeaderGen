@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class FocusController
     {
-
         public FocusController(IFocusRing focusRing);
 
         public Focusable focusedElement { get; }

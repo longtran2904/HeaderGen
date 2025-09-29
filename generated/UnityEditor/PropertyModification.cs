@@ -12,7 +12,6 @@ namespace UnityEditor
     [RequiredByNativeCode]
     public sealed class PropertyModification
     {
-
         public UnityEngine.Object target;
         public string propertyPath;
         public string value;

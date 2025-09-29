@@ -7,7 +7,6 @@ namespace System.Security.AccessControl
     [Flags]
     public enum ControlFlags
     {
-
         None = 0,
         OwnerDefaulted = 1,
         GroupDefaulted = 2,

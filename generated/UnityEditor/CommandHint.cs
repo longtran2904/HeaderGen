@@ -11,7 +11,6 @@ namespace UnityEditor
     [Flags]
     public enum CommandHint
     {
-
         Undefined = -1,
         None = 0,
         Event = 1,

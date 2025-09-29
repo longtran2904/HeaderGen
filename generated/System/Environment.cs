@@ -8,7 +8,6 @@ namespace System
 {
     public static class Environment
     {
-
         public static int CurrentManagedThreadId { get; }
         public static int ExitCode { get; set; }
         public static int TickCount { get; }
@@ -48,9 +47,9 @@ namespace System
         public static string GetFolderPath(SpecialFolder folder, SpecialFolderOption option);
         public static string[] GetLogicalDrives();
         public static IDictionary GetEnvironmentVariables();
+
         public enum SpecialFolder
         {
-
             ApplicationData = 26,
             CommonApplicationData = 35,
             LocalApplicationData = 28,
@@ -101,7 +100,6 @@ namespace System
         }
         public enum SpecialFolderOption
         {
-
             None = 0,
             Create = 32768,
             DoNotVerify = 16384

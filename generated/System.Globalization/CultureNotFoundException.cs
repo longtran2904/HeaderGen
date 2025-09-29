@@ -9,7 +9,6 @@ namespace System.Globalization
 {
     public class CultureNotFoundException : ArgumentException
     {
-
         public CultureNotFoundException();
         public CultureNotFoundException(string message);
         public CultureNotFoundException(string paramName, string message);

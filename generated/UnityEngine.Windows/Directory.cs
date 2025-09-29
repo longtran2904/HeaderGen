@@ -8,7 +8,6 @@ namespace UnityEngine.Windows
 {
     public static class Directory
     {
-
         [NativeHeader("Runtime/Export/Windows/WindowsDirectoryBindings.h")]
         public static string temporaryFolder { get; }
         [NativeHeader("Runtime/Export/Windows/WindowsDirectoryBindings.h")]

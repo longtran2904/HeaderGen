@@ -15,7 +15,6 @@ namespace UnityEngine.Animations
     [StaticAccessor("AnimationClipPlayableBindings", StaticAccessorType.DoubleColon)]
     public struct AnimationClipPlayable : IEquatable<AnimationClipPlayable>, IPlayable
     {
-
         public static AnimationClipPlayable Create(PlayableGraph graph, AnimationClip clip);
         public PlayableHandle GetHandle();
         public bool Equals(AnimationClipPlayable other);

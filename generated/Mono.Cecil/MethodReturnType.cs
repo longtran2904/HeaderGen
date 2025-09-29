@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public sealed class MethodReturnType : IConstantProvider, ICustomAttributeProvider, IMarshalInfoProvider, IMetadataTokenProvider
     {
-
         public MethodReturnType(IMethodSignature method);
 
         public IMethodSignature Method { get; }

@@ -8,7 +8,6 @@ namespace System.Runtime.CompilerServices
     [Obsolete("SuppressIldasmAttribute has no effect in .NET 6.0+.", DiagnosticId = "SYSLIB0025", UrlFormat = "https://aka.ms/dotnet-warnings/{0}")]
     public sealed class SuppressIldasmAttribute : Attribute
     {
-
         public SuppressIldasmAttribute();
     }
 }

@@ -6,7 +6,6 @@ namespace UnityEngine.EventSystems
 {
     public struct RaycastResult
     {
-
         public BaseRaycaster module;
         public float distance;
         public float index;

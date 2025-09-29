@@ -9,7 +9,6 @@ namespace UnityEditor.Hardware
     [NativeHeader("Editor/Src/Devices/DevDevice.h")]
     public sealed class DevDeviceList
     {
-
         public DevDeviceList();
 
         public static event OnChangedHandler Changed;
@@ -18,6 +17,7 @@ namespace UnityEditor.Hardware
         public static bool FindDevice(string deviceId, out DevDevice device);
         [FreeFunction("GetDeviceList")]
         public static DevDevice[] GetDevices();
+
         public delegate void OnChangedHandler();
     }
 }

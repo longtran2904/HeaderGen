@@ -10,7 +10,6 @@ namespace System.Security
 {
     public class SecurityException : SystemException
     {
-
         public SecurityException();
         public SecurityException(string message);
         public SecurityException(string message, Exception inner);

@@ -6,7 +6,6 @@ namespace DLLTest.DLLNamespace
 {
     public class UInt16
     {
-
         public UInt16();
     }
 }

@@ -13,7 +13,6 @@ namespace System.IO
 {
     public static class File
     {
-
         public static StreamReader OpenText(string path);
         public static StreamWriter CreateText(string path);
         public static StreamWriter AppendText(string path);

@@ -8,7 +8,6 @@ namespace UnityEditor.Timeline
 {
     public static class AnimationTrackExtensions
     {
-
         public static bool CanStartRecording(this AnimationTrack track);
         public static bool IsRecording(this AnimationTrack track);
         public static bool StartRecording(this AnimationTrack track);

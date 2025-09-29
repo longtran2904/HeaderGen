@@ -9,7 +9,6 @@ namespace UnityEditor.Tilemaps
     [CustomEditor(typeof(RandomBrush))]
     public class RandomBrushEditor : GridBrushEditor
     {
-
         public RandomBrushEditor();
 
         public override void PaintPreview(GridLayout grid, GameObject brushTarget, Vector3Int position);

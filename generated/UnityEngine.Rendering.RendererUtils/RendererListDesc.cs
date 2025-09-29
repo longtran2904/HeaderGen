@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.RendererUtils
 {
     public struct RendererListDesc
     {
-
         public SortingCriteria sortingCriteria;
         public PerObjectData rendererConfiguration;
         public RenderQueueRange renderQueueRange;

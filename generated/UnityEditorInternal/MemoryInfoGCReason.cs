@@ -6,7 +6,6 @@ namespace UnityEditorInternal
 {
     public enum MemoryInfoGCReason
     {
-
         SceneObject = 0,
         BuiltinResource = 1,
         MarkedDontSave = 2,

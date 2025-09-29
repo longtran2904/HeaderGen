@@ -10,7 +10,6 @@ namespace UnityEngine.Rendering
     [UsedByNativeCode]
     public struct VertexAttributeDescriptor : IEquatable<VertexAttributeDescriptor>
     {
-
         public VertexAttributeDescriptor(VertexAttribute attribute = VertexAttribute.Position, VertexAttributeFormat format = VertexAttributeFormat.Float32, int dimension = 3, int stream = 0);
 
         public VertexAttribute attribute { get; set; }

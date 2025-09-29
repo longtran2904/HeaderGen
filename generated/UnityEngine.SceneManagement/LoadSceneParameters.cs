@@ -6,7 +6,6 @@ namespace UnityEngine.SceneManagement
 {
     public struct LoadSceneParameters
     {
-
         public LoadSceneParameters(LoadSceneMode mode);
         public LoadSceneParameters(LoadSceneMode mode, LocalPhysicsMode physicsMode);
 

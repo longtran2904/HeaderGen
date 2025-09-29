@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum ApplicationInstallMode
     {
-
         Unknown = 0,
         Store = 1,
         DeveloperBuild = 2,

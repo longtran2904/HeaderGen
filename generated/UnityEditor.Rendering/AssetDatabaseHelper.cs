@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering
 {
     public static class AssetDatabaseHelper
     {
-
         public static IEnumerable<T> FindAssets<T>(string extension = null);
     }
 }

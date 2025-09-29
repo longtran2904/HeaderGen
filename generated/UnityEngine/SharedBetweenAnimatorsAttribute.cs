@@ -11,7 +11,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public sealed class SharedBetweenAnimatorsAttribute : Attribute
     {
-
         public SharedBetweenAnimatorsAttribute();
     }
 }

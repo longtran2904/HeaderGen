@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public class DocumentationInfo
     {
-
         public DocumentationInfo();
 
         public static string version { get; }

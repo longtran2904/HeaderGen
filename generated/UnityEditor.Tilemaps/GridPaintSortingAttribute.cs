@@ -9,7 +9,6 @@ namespace UnityEditor.Tilemaps
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method)]
     public class GridPaintSortingAttribute : Attribute
     {
-
         public GridPaintSortingAttribute();
     }
 }

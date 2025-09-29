@@ -6,7 +6,6 @@ namespace UnityEngine.TextCore.Text
 {
     public class FontFeatureTable
     {
-
         public FontFeatureTable();
 
         public void SortGlyphPairAdjustmentRecords();

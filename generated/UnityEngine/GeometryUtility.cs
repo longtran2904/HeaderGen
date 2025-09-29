@@ -10,7 +10,6 @@ namespace UnityEngine
     [StaticAccessor("GeometryUtilityScripting", StaticAccessorType.DoubleColon)]
     public sealed class GeometryUtility
     {
-
         public GeometryUtility();
 
         public static Plane[] CalculateFrustumPlanes(Camera camera);

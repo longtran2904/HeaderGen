@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum DragAndDropVisualMode
     {
-
         None = 0,
         Copy = 1,
         Link = 2,

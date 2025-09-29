@@ -9,7 +9,6 @@ namespace UnityEditor.SearchService
     [Flags]
     public enum VisibleObjects
     {
-
         None = 0,
         Assets = 1,
         Scene = 2,

@@ -10,7 +10,6 @@ namespace Microsoft.Unity.VisualStudio.Editor
     [InitializeOnLoad]
     public class VisualStudioEditor : IExternalCodeEditor
     {
-
         public VisualStudioEditor();
 
         public void CreateIfDoesntExist();

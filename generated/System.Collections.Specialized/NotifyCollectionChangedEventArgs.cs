@@ -6,7 +6,6 @@ namespace System.Collections.Specialized
 {
     public class NotifyCollectionChangedEventArgs : EventArgs
     {
-
         public NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction action);
         public NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction action, object changedItem);
         public NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction action, object changedItem, int index);

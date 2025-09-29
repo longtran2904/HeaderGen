@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public class HyperLinkClickedEventArgs
     {
-
         public Dictionary<string, string> hyperLinkData { get; }
     }
 }

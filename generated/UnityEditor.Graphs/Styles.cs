@@ -8,7 +8,6 @@ namespace UnityEditor.Graphs
 {
     public class Styles
     {
-
         public static GUIStyle graphBackground;
         public static GUIContent connectionTexture;
         public static GUIContent selectedConnectionTexture;
@@ -26,9 +25,9 @@ namespace UnityEditor.Graphs
         public Styles();
 
         public static GUIStyle GetNodeStyle(string styleName, Color color, bool on);
+
         public enum Color
         {
-
             Grey = 0,
             Gray = 0,
             Blue = 1,

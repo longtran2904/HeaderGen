@@ -11,7 +11,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public class AssetBundleCreateRequest : AsyncOperation
     {
-
         public AssetBundleCreateRequest();
 
         public AssetBundle assetBundle { get; }

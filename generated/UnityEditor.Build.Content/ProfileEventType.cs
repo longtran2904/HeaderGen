@@ -6,7 +6,6 @@ namespace UnityEditor.Build.Content
 {
     public enum ProfileEventType
     {
-
         Begin = 0,
         End = 1,
         Info = 2

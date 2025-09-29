@@ -6,7 +6,6 @@ namespace UnityEditor.Search
 {
     public struct QueryValidationOptions
     {
-
         public bool validateFilters;
         public bool skipUnknownFilters;
         public bool skipIncompleteFilters;

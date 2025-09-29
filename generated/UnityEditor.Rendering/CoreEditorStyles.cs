@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering
 {
     public static class CoreEditorStyles
     {
-
         public static readonly Texture2D redTexture;
         public static readonly Texture2D greenTexture;
         public static readonly Texture2D blueTexture;

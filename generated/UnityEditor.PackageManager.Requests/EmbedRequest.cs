@@ -6,7 +6,6 @@ namespace UnityEditor.PackageManager.Requests
 {
     public sealed class EmbedRequest : Request<PackageInfo>
     {
-
         protected override PackageInfo GetResult();
     }
 }

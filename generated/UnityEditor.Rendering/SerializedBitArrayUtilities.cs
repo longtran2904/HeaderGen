@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering
 {
     public static class SerializedBitArrayUtilities
     {
-
         public static SerializedBitArray8 ToSerializeBitArray8(this SerializedProperty serializedProperty);
         public static bool TryGetSerializeBitArray8(this SerializedProperty serializedProperty, out SerializedBitArray8 serializedBitArray);
         public static SerializedBitArray16 ToSerializeBitArray16(this SerializedProperty serializedProperty);

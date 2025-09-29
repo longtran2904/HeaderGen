@@ -6,7 +6,6 @@ namespace UnityEditor.TestTools.TestRunner
 {
     public class TestRunnerWindow : EditorWindow, IHasCustomMenu
     {
-
         public TestRunnerWindow();
 
         [MenuItem("Window/General/Test Runner", False, 201, False)]

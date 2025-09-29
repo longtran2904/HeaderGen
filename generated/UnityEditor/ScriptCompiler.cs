@@ -9,7 +9,6 @@ namespace UnityEditor
     [Obsolete("Mono script compiler is no longer supported.")]
     public enum ScriptCompiler
     {
-
         Mono = 0,
         Roslyn = 1
     }

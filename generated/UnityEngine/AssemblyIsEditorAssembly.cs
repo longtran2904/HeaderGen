@@ -11,7 +11,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public class AssemblyIsEditorAssembly : Attribute
     {
-
         public AssemblyIsEditorAssembly();
     }
 }

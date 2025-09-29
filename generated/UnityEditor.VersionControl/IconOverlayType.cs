@@ -6,7 +6,6 @@ namespace UnityEditor.VersionControl
 {
     public enum IconOverlayType
     {
-
         Project = 0,
         Hierarchy = 1,
         Other = 2

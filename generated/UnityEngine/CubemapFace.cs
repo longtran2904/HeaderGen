@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum CubemapFace
     {
-
         Unknown = -1,
         PositiveX = 0,
         NegativeX = 1,

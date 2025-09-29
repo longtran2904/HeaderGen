@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public class FieldReference : MemberReference
     {
-
         public FieldReference(string name, TypeReference fieldType);
         public FieldReference(string name, TypeReference fieldType, TypeReference declaringType);
 

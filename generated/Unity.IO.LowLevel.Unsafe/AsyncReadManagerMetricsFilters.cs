@@ -12,7 +12,6 @@ namespace Unity.IO.LowLevel.Unsafe
     [RequiredByNativeCode]
     public class AsyncReadManagerMetricsFilters
     {
-
         public AsyncReadManagerMetricsFilters();
         public AsyncReadManagerMetricsFilters(ulong typeID);
         public AsyncReadManagerMetricsFilters(ProcessingState state);

@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
 {
     public struct MaterialHeaderScope : IDisposable
     {
-
         public readonly bool expanded;
 
         public MaterialHeaderScope(GUIContent title, uint bitExpanded, MaterialEditor materialEditor, bool spaceAtEnd = True, bool subHeader = False, uint defaultExpandedState = 4294967295, string documentationURL = "");

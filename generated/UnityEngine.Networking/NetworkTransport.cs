@@ -16,7 +16,6 @@ namespace UnityEngine.Networking
     [Obsolete("The UNET transport will be removed in the future as soon a replacement is ready.")]
     public sealed class NetworkTransport
     {
-
         public static bool IsStarted { get; }
 
         public static bool DoesEndPointUsePlatformProtocols(EndPoint endPoint);

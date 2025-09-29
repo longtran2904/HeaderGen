@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public class Texture2DAtlas
     {
-
         public Texture2DAtlas(int width, int height, GraphicsFormat format, FilterMode filterMode = FilterMode.Point, bool powerOfTwoPadding = False, string name = "", bool useMipMap = True);
 
         public static int maxMipLevelPadding { get; }

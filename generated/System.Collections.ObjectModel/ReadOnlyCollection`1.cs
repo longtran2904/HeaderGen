@@ -10,7 +10,6 @@ namespace System.Collections.ObjectModel
     [DefaultMember("Item")]
     public class ReadOnlyCollection<T> : ICollection, ICollection<T>, IEnumerable, IEnumerable<T>, IList, IList<T>, IReadOnlyCollection<T>, IReadOnlyList<T>
     {
-
         public ReadOnlyCollection(IList<T> list);
 
         public T this[int index] { get; }

@@ -11,7 +11,6 @@ namespace UnityEngine
     [Obsolete("CalendarUnit is deprecated. Please use iOS.CalendarUnit instead (UnityUpgradable) -> UnityEngine.iOS.CalendarUnit", True)]
     public enum CalendarUnit
     {
-
         Era = 0,
         Year = 1,
         Month = 2,

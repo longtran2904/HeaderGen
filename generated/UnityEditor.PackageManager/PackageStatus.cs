@@ -9,7 +9,6 @@ namespace UnityEditor.PackageManager
     [Obsolete("PackageStatus is deprecated and will be removed in a later version.", False)]
     public enum PackageStatus
     {
-
         Unknown = 0,
         Unavailable = 1,
         InProgress = 2,

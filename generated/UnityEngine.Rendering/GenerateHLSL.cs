@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum)]
     public class GenerateHLSL : Attribute
     {
-
         public PackingRules packingRules;
         public bool containsPackedFields;
         public bool needAccessors;

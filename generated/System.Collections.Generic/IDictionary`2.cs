@@ -9,7 +9,6 @@ namespace System.Collections.Generic
     [DefaultMember("Item")]
     public interface IDictionary<TKey, TValue> : ICollection<KeyValuePair<TKey, TValue>>, IEnumerable, IEnumerable<KeyValuePair<TKey, TValue>>
     {
-
         TValue this[TKey key] { get; set; }
         ICollection<TKey> Keys { get; }
         ICollection<TValue> Values { get; }

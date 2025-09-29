@@ -6,7 +6,6 @@ namespace System.Collections.Generic
 {
     public sealed class TreeSet<T> : SortedSet<T>
     {
-
         public TreeSet();
         public TreeSet(IComparer<T> comparer);
     }

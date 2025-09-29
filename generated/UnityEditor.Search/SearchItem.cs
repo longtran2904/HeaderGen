@@ -11,7 +11,6 @@ namespace UnityEditor.Search
     [DefaultMember("Item")]
     public class SearchItem : IComparable, IComparable<SearchItem>, IEquatable<SearchItem>
     {
-
         public readonly string id;
         public int score;
         public string label;

@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum PrefabUnpackMode
     {
-
         OutermostRoot = 0,
         Completely = 1
     }

@@ -7,7 +7,6 @@ namespace System.Threading
     [Flags]
     public enum ThreadState
     {
-
         Running = 0,
         StopRequested = 1,
         SuspendRequested = 2,

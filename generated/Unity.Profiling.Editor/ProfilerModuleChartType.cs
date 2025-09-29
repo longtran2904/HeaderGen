@@ -6,7 +6,6 @@ namespace Unity.Profiling.Editor
 {
     public enum ProfilerModuleChartType
     {
-
         Line = 0,
         StackedTimeArea = 1
     }

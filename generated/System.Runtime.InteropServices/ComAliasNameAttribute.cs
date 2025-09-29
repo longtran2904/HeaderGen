@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Parameter | AttributeTargets.ReturnValue, Inherited = False)]
     public sealed class ComAliasNameAttribute : Attribute
     {
-
         public ComAliasNameAttribute(string alias);
 
         public string Value { get; }

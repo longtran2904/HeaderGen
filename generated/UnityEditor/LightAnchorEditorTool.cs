@@ -10,7 +10,6 @@ namespace UnityEditor
     [EditorTool("Light Anchor", typeof(LightAnchor))]
     public class LightAnchorEditorTool : EditorTool
     {
-
         public LightAnchorEditorTool();
 
         public override GUIContent toolbarIcon { get; }

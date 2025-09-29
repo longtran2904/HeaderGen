@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public sealed class CustomMarshalInfo : MarshalInfo
     {
-
         public CustomMarshalInfo();
 
         public Guid Guid { get; set; }

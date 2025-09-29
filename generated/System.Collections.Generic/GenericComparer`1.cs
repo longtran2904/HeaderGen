@@ -6,7 +6,6 @@ namespace System.Collections.Generic
 {
     public sealed class GenericComparer<T> : Comparer<T> where T : IComparable<T>
     {
-
         public GenericComparer();
 
         public override int Compare(T x, T y);

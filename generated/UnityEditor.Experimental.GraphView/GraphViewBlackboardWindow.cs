@@ -7,7 +7,6 @@ namespace UnityEditor.Experimental.GraphView
     [EditorWindowTitle(title = "Blackboard")]
     public class GraphViewBlackboardWindow : GraphViewToolWindow
     {
-
         public GraphViewBlackboardWindow();
 
         protected override string ToolName { get; }

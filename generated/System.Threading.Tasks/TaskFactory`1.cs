@@ -6,7 +6,6 @@ namespace System.Threading.Tasks
 {
     public class TaskFactory<TResult>
     {
-
         public TaskFactory();
         public TaskFactory(CancellationToken cancellationToken);
         public TaskFactory(TaskScheduler scheduler);

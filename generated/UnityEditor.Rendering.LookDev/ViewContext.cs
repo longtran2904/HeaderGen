@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering.LookDev
 {
     public class ViewContext
     {
-
         public ViewContext();
 
         public CameraState camera { get; }

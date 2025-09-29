@@ -6,7 +6,6 @@ namespace TMPro
 {
     public struct GlyphPairKey
     {
-
         public uint firstGlyphIndex;
         public uint secondGlyphIndex;
         public uint key;

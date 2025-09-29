@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public abstract class MouseManipulator : Manipulator
     {
-
         protected MouseManipulator();
 
         public List<ManipulatorActivationFilter> activators { get; }

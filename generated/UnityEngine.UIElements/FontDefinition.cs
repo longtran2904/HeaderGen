@@ -9,7 +9,6 @@ namespace UnityEngine.UIElements
 {
     public struct FontDefinition : IEquatable<FontDefinition>
     {
-
         public Font font { get; set; }
         public FontAsset fontAsset { get; set; }
 

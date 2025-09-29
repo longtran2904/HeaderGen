@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public struct RangeInt
     {
-
         public int start;
         public int length;
 

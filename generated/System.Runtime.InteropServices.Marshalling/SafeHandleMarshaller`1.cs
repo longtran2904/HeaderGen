@@ -11,14 +11,12 @@ namespace System.Runtime.InteropServices.Marshalling
     {
         public struct ManagedToUnmanagedIn
         {
-
             public void FromManaged(T handle);
             public nint ToUnmanaged();
             public void Free();
         }
         public struct ManagedToUnmanagedRef
         {
-
             public ManagedToUnmanagedRef();
 
             public void FromManaged(T handle);
@@ -30,7 +28,6 @@ namespace System.Runtime.InteropServices.Marshalling
         }
         public struct ManagedToUnmanagedOut
         {
-
             public ManagedToUnmanagedOut();
 
             public void FromUnmanaged(nint value);

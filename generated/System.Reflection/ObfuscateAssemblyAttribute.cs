@@ -7,7 +7,6 @@ namespace System.Reflection
     [AttributeUsage(AttributeTargets.Assembly, AllowMultiple = False, Inherited = False)]
     public sealed class ObfuscateAssemblyAttribute : Attribute
     {
-
         public ObfuscateAssemblyAttribute(bool assemblyIsPrivate);
 
         public bool AssemblyIsPrivate { get; }

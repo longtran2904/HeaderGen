@@ -6,7 +6,6 @@ namespace Microsoft.Unity.VisualStudio.Editor
 {
     public static class SolutionGuidGenerator
     {
-
         public static string GuidForProject(string projectName);
         public static string GuidForSolution(string projectName, ScriptingLanguage language);
     }

@@ -10,7 +10,6 @@ namespace UnityEditor
     [NativeType(Header = "Editor/Src/Utility/EditorSerializationUtility.h")]
     public readonly struct ManagedReferenceMissingType : IComparable<ManagedReferenceMissingType>, IEquatable<ManagedReferenceMissingType>
     {
-
         public string assemblyName { get; }
         public string className { get; }
         public string namespaceName { get; }

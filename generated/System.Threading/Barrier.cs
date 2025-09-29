@@ -8,7 +8,6 @@ namespace System.Threading
 {
     public class Barrier : IDisposable
     {
-
         public Barrier(int participantCount);
         public Barrier(int participantCount, Action<Barrier> postPhaseAction);
 

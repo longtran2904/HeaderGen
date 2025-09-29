@@ -14,7 +14,6 @@ namespace UnityEngine.Rendering
     [UsedByNativeCode]
     public struct AsyncGPUReadbackRequest
     {
-
         public bool done { get; }
         public bool hasError { get; }
         public int layerCount { get; }

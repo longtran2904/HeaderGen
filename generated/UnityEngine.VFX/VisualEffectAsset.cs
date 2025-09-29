@@ -14,7 +14,6 @@ namespace UnityEngine.VFX
     [UsedByNativeCode]
     public class VisualEffectAsset : VisualEffectObject
     {
-
         public static readonly int PlayEventID;
         public static readonly int StopEventID;
         public const string PlayEventName = "OnPlay";

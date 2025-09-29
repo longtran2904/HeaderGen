@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
     [DefaultMember("Item")]
     public struct ListBuffer<T> where T : unmanaged
     {
-
         public ListBuffer(T* bufferPtr, int* countPtr, int capacity);
 
         public ref T this[in int index] { get; }

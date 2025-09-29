@@ -10,7 +10,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Export/Graphics/LineUtility.bindings.h")]
     public sealed class LineUtility
     {
-
         public LineUtility();
 
         public static void Simplify(List<Vector3> points, float tolerance, List<int> pointsToKeep);

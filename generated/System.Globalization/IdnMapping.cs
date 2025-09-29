@@ -6,7 +6,6 @@ namespace System.Globalization
 {
     public sealed class IdnMapping
     {
-
         public IdnMapping();
 
         public bool AllowUnassigned { get; set; }

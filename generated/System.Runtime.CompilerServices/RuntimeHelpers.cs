@@ -6,7 +6,6 @@ namespace System.Runtime.CompilerServices
 {
     public static class RuntimeHelpers
     {
-
         [Obsolete("OffsetToStringData has been deprecated. Use string.GetPinnableReference() instead.")]
         public static int OffsetToStringData { get; }
 
@@ -36,6 +35,7 @@ namespace System.Runtime.CompilerServices
         [Obsolete("The Constrained Execution Region (CER) feature is not supported.", DiagnosticId = "SYSLIB0004", UrlFormat = "https://aka.ms/dotnet-warnings/{0}")]
         public static void PrepareConstrainedRegionsNoOP();
         public static ReadOnlySpan<T> CreateSpan<T>(RuntimeFieldHandle fldHandle);
+
         public delegate void TryCode(object userData);
         public delegate void CleanupCode(object userData, bool exceptionThrown);
     }

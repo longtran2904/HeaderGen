@@ -17,7 +17,6 @@ namespace UnityEngine.Animations
     [StaticAccessor("AnimationPlayableOutputBindings", StaticAccessorType.DoubleColon)]
     public struct AnimationPlayableOutput : IPlayableOutput
     {
-
         public static AnimationPlayableOutput Null { get; }
 
         public static AnimationPlayableOutput Create(PlayableGraph graph, string name, Animator target);

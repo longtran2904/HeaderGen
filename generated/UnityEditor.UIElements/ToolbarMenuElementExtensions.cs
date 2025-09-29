@@ -6,7 +6,6 @@ namespace UnityEditor.UIElements
 {
     public static class ToolbarMenuElementExtensions
     {
-
         public static void ShowMenu(this IToolbarMenuElement tbe);
     }
 }

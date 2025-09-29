@@ -9,7 +9,6 @@ namespace UnityEditor.UIElements
 {
     public class ToolbarBreadcrumbs : VisualElement
     {
-
         public static readonly string ussClassName;
         public static readonly string itemClassName;
         public static readonly string firstItemClassName;
@@ -18,9 +17,9 @@ namespace UnityEditor.UIElements
 
         public void PushItem(string label, Action clickedEvent = null);
         public void PopItem();
+
         public class UxmlFactory : UxmlFactory<ToolbarBreadcrumbs>
         {
-
             public UxmlFactory();
         }
     }

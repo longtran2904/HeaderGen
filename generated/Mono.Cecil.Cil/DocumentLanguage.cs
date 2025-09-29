@@ -6,7 +6,6 @@ namespace Mono.Cecil.Cil
 {
     public enum DocumentLanguage
     {
-
         Other = 0,
         C = 1,
         Cpp = 2,

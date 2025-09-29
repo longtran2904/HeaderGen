@@ -9,7 +9,6 @@ namespace UnityEngine
     [AttributeUsage(AttributeTargets.Class)]
     public class CustomGridBrushAttribute : Attribute
     {
-
         public CustomGridBrushAttribute();
         public CustomGridBrushAttribute(bool hideAssetInstances, bool hideDefaultInstance, bool defaultBrush, string defaultName);
 

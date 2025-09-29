@@ -9,7 +9,6 @@ namespace UnityEngine.Accessibility
     [UsedByNativeCode]
     public static class VisionUtility
     {
-
         public static int GetColorBlindSafePalette(Color[] palette, float minimumLuminance, float maximumLuminance);
     }
 }

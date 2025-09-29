@@ -9,7 +9,6 @@ namespace UnityEditor.Build
     [NativeType(Header = "Editor/Src/EditorUserBuildSettings.h")]
     public enum OverrideTextureCompression
     {
-
         NoOverride = 0,
         ForceUncompressed = 1,
         ForceFastCompressor = 2

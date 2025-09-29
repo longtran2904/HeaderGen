@@ -9,7 +9,6 @@ namespace UnityEditor.Search
 {
     public readonly struct SearchProposition : IComparable<SearchProposition>, IEquatable<SearchProposition>
     {
-
         public SearchProposition(string label, string replacement = null, string help = null, int priority = 2147483647, TextCursorPlacement moveCursor = TextCursorPlacement.MoveAutoComplete, Texture2D icon = null, Color color = null);
 
         public int CompareTo(SearchProposition other);

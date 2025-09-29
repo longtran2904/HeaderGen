@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public static class UnsafeGenericPool<T> where T : new()
     {
-
         public static T Get();
         public static ObjectPool<T>.PooledObject Get(out T value);
         public static void Release(T toRelease);

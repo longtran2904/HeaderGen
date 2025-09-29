@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public sealed class StaticBatchingUtility
     {
-
         public StaticBatchingUtility();
 
         public static void Combine(GameObject staticBatchRoot);

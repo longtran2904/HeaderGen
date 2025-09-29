@@ -14,7 +14,6 @@ namespace UnityEngine
     [StaticAccessor("AudioSourceBindings", StaticAccessorType.DoubleColon)]
     public sealed class AudioSource : AudioBehaviour
     {
-
         public AudioSource();
 
         [EditorBrowsable(EditorBrowsableState.Never)]

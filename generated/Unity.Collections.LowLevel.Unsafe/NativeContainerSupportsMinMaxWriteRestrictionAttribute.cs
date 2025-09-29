@@ -11,7 +11,6 @@ namespace Unity.Collections.LowLevel.Unsafe
     [RequiredByNativeCode]
     public sealed class NativeContainerSupportsMinMaxWriteRestrictionAttribute : Attribute
     {
-
         public NativeContainerSupportsMinMaxWriteRestrictionAttribute();
     }
 }

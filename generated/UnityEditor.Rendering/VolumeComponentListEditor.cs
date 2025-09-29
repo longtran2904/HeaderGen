@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering
 {
     public sealed class VolumeComponentListEditor
     {
-
         public VolumeComponentListEditor(Editor editor);
 
         public VolumeProfile asset { get; }

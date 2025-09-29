@@ -8,7 +8,6 @@ namespace System.Runtime.InteropServices
 {
     public sealed class PosixSignalRegistration : IDisposable
     {
-
         ~PosixSignalRegistration();
 
         [UnsupportedOSPlatform("android")]

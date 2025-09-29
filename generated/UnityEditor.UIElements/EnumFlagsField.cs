@@ -9,7 +9,6 @@ namespace UnityEditor.UIElements
 {
     public class EnumFlagsField : BaseMaskField<Enum>
     {
-
         public static readonly string ussClassName;
         public static readonly string labelUssClassName;
         public static readonly string inputUssClassName;
@@ -22,14 +21,13 @@ namespace UnityEditor.UIElements
         public EnumFlagsField(string label);
 
         public void Init(Enum defaultValue, bool includeObsoleteValues = False);
+
         public class UxmlFactory : UxmlFactory<EnumFlagsField, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : BaseField<Enum>.UxmlTraits
         {
-
             public UxmlTraits();
 
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc);

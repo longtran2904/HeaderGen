@@ -8,7 +8,6 @@ namespace UnityEngine.Assertions.Comparers
 {
     public class FloatComparer : IEqualityComparer<float>
     {
-
         public static readonly FloatComparer s_ComparerWithDefaultTolerance;
         public const float kEpsilon = 1E-05F;
 

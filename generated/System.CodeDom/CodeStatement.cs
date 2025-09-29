@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeStatement : CodeObject
     {
-
         public CodeStatement();
 
         public CodeLinePragma LinePragma { get; set; }

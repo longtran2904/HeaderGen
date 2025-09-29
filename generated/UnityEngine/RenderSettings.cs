@@ -13,7 +13,6 @@ namespace UnityEngine
     [StaticAccessor("GetRenderSettings()", StaticAccessorType.Dot)]
     public sealed class RenderSettings : Object
     {
-
         [Obsolete("Use RenderSettings.ambientIntensity instead (UnityUpgradable) -> ambientIntensity", False)]
         public static float ambientSkyboxAmount { get; set; }
         [NativeProperty("UseFog")]

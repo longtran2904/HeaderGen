@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public enum CodeBinaryOperatorType
     {
-
         Add = 0,
         Subtract = 1,
         Multiply = 2,

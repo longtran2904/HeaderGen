@@ -8,7 +8,6 @@ namespace System
 {
     public enum PlatformID
     {
-
         [EditorBrowsable(EditorBrowsableState.Never)]
         Win32S = 0,
         [EditorBrowsable(EditorBrowsableState.Never)]

@@ -6,7 +6,6 @@ namespace System
 {
     public class Random
     {
-
         public Random();
         public Random(int Seed);
 

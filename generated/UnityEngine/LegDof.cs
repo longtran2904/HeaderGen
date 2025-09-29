@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum LegDof
     {
-
         UpperLegFrontBack = 0,
         UpperLegInOut = 1,
         UpperLegRollInOut = 2,

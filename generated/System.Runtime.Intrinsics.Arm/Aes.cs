@@ -7,7 +7,6 @@ namespace System.Runtime.Intrinsics.Arm
     [CLSCompliant(False)]
     public abstract class Aes : ArmBase
     {
-
         public static bool IsSupported { get; }
 
         public static Vector128<byte> Decrypt(Vector128<byte> value, Vector128<byte> roundKey);
@@ -18,9 +17,9 @@ namespace System.Runtime.Intrinsics.Arm
         public static Vector128<ulong> PolynomialMultiplyWideningLower(Vector64<ulong> left, Vector64<ulong> right);
         public static Vector128<long> PolynomialMultiplyWideningUpper(Vector128<long> left, Vector128<long> right);
         public static Vector128<ulong> PolynomialMultiplyWideningUpper(Vector128<ulong> left, Vector128<ulong> right);
+
         public abstract class Arm64 : ArmBase.Arm64
         {
-
             public static bool IsSupported { get; }
         }
     }

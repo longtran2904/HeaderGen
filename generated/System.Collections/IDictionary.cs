@@ -9,7 +9,6 @@ namespace System.Collections
     [DefaultMember("Item")]
     public interface IDictionary : ICollection, IEnumerable
     {
-
         object this[object key] { get; set; }
         ICollection Keys { get; }
         ICollection Values { get; }

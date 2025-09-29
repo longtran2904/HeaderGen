@@ -6,7 +6,6 @@ namespace System.Reflection.Emit
 {
     public sealed class SignatureHelper
     {
-
         public static SignatureHelper GetMethodSigHelper(Module mod, Type returnType, Type[] parameterTypes);
         public static SignatureHelper GetMethodSigHelper(Module mod, CallingConventions callingConvention, Type returnType);
         public static SignatureHelper GetLocalVarSigHelper();

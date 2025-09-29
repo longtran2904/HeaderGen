@@ -9,7 +9,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class EdgeDragHelper<TEdge> : EdgeDragHelper where TEdge : Edge, new()
     {
-
         protected List<Port> m_CompatiblePorts;
         protected GraphView m_GraphView;
         protected readonly IEdgeConnectorListener m_Listener;

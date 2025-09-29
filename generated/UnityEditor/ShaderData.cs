@@ -10,7 +10,6 @@ namespace UnityEditor
 {
     public class ShaderData
     {
-
         public int ActiveSubshaderIndex { get; }
         public int SubshaderCount { get; }
         public int SerializedSubshaderCount { get; }
@@ -19,9 +18,9 @@ namespace UnityEditor
 
         public Subshader GetSubshader(int index);
         public Subshader GetSerializedSubshader(int index);
+
         public class Subshader
         {
-
             public int PassCount { get; }
             public int LevelOfDetail { get; }
 
@@ -30,7 +29,6 @@ namespace UnityEditor
         }
         public class Pass
         {
-
             public string SourceCode { get; }
             public string Name { get; }
 
@@ -51,14 +49,12 @@ namespace UnityEditor
         }
         public struct PreprocessedVariant
         {
-
             public bool Success { get; }
             public ShaderMessage[] Messages { get; }
             public string PreprocessedCode { get; }
         }
         public struct VariantCompileInfo
         {
-
             public bool Success { get; }
             public ShaderMessage[] Messages { get; }
             public byte[] ShaderData { get; }
@@ -68,14 +64,12 @@ namespace UnityEditor
         }
         public struct ConstantBufferInfo
         {
-
             public string Name { get; }
             public int Size { get; }
             public ConstantInfo[] Fields { get; }
         }
         public struct ConstantInfo
         {
-
             public string Name { get; }
             public int Index { get; }
             public ShaderConstantType ConstantType { get; }
@@ -88,7 +82,6 @@ namespace UnityEditor
         }
         public struct TextureBindingInfo
         {
-
             public string Name { get; }
             public int Index { get; }
             public int SamplerIndex { get; }

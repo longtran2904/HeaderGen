@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class UxmlDoubleAttributeDescription : TypedUxmlAttributeDescription<double>
     {
-
         public UxmlDoubleAttributeDescription();
 
         public override string defaultValueAsString { get; }

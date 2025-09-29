@@ -6,7 +6,6 @@ namespace System
 {
     public abstract class Enum : ValueType, IComparable, IConvertible, IFormattable, ISpanFormattable
     {
-
         protected Enum();
 
         public static string GetName<TEnum>(TEnum value) where TEnum : Enum, struct;

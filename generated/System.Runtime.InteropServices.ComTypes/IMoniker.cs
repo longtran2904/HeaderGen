@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public interface IMoniker
     {
-
         void GetClassID(out Guid pClassID);
         int IsDirty();
         void Load(IStream pStm);

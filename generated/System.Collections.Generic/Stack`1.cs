@@ -6,7 +6,6 @@ namespace System.Collections.Generic
 {
     public class Stack<T> : ICollection, IEnumerable, IEnumerable<T>, IReadOnlyCollection<T>
     {
-
         public Stack();
         public Stack(int capacity);
         public Stack(IEnumerable<T> collection);
@@ -25,9 +24,9 @@ namespace System.Collections.Generic
         public void Push(T item);
         public int EnsureCapacity(int capacity);
         public T[] ToArray();
+
         public struct Enumerator : IDisposable, IEnumerator, IEnumerator<T>
         {
-
             public T Current { get; }
 
             public void Dispose();

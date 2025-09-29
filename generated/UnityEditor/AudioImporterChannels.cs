@@ -9,7 +9,6 @@ namespace UnityEditor
     [Obsolete("Setting and getting import channels is not used anymore (use forceToMono instead)", True)]
     public enum AudioImporterChannels
     {
-
         Automatic = 0,
         Mono = 1,
         Stereo = 2

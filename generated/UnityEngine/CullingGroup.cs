@@ -10,7 +10,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Export/Camera/CullingGroup.bindings.h")]
     public class CullingGroup : IDisposable
     {
-
         public CullingGroup();
 
         ~CullingGroup();
@@ -37,6 +36,7 @@ namespace UnityEngine
         public void SetBoundingDistances([Unmarshalled] float[] distances);
         public void SetDistanceReferencePoint(Vector3 point);
         public void SetDistanceReferencePoint(Transform transform);
+
         public delegate void StateChanged(CullingGroupEvent sphere);
     }
 }

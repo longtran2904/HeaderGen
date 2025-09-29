@@ -7,7 +7,6 @@ namespace System.Diagnostics.CodeAnalysis
     [AttributeUsage(AttributeTargets.Parameter, Inherited = False)]
     public sealed class ConstantExpectedAttribute : Attribute
     {
-
         public ConstantExpectedAttribute();
 
         public object Min { get; set; }

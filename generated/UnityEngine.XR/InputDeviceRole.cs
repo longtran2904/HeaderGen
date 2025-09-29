@@ -6,7 +6,6 @@ namespace UnityEngine.XR
 {
     public enum InputDeviceRole
     {
-
         Unknown = 0,
         Generic = 1,
         LeftHanded = 2,

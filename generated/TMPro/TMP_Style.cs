@@ -6,7 +6,6 @@ namespace TMPro
 {
     public class TMP_Style
     {
-
         public static TMP_Style NormalStyle { get; }
         public string name { get; set; }
         public int hashCode { get; set; }

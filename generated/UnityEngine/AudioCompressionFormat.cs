@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum AudioCompressionFormat
     {
-
         PCM = 0,
         Vorbis = 1,
         ADPCM = 2,

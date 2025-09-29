@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics2D/Effector2D.h")]
     public class Effector2D : Behaviour
     {
-
         public Effector2D();
 
         public bool useColliderMask { get; set; }

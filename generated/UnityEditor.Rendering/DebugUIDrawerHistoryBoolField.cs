@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
     [DebugUIDrawer(typeof(DebugUI.HistoryBoolField))]
     public sealed class DebugUIDrawerHistoryBoolField : DebugUIDrawer
     {
-
         public DebugUIDrawerHistoryBoolField();
 
         public override bool OnGUI(DebugUI.Widget widget, DebugState state);

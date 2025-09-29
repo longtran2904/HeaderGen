@@ -9,7 +9,6 @@ namespace Microsoft.Unity.VisualStudio.Editor
     [Flags]
     public enum ProjectGenerationFlag
     {
-
         None = 0,
         Embedded = 1,
         Local = 2,

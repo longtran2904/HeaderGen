@@ -9,7 +9,6 @@ namespace Unity.IO.LowLevel.Unsafe
 {
     public struct ReadHandle : IDisposable
     {
-
         public JobHandle JobHandle { get; }
         public ReadStatus Status { get; }
         public long ReadCount { get; }

@@ -10,7 +10,6 @@ namespace UnityEditor.UI
     [CustomEditor(typeof(AspectRatioFitter), True)]
     public class AspectRatioFitterEditor : SelfControllerEditor
     {
-
         public AspectRatioFitterEditor();
 
         protected virtual void OnEnable();

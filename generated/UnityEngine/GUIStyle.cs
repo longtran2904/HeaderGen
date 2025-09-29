@@ -13,7 +13,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public sealed class GUIStyle
     {
-
         public GUIStyle();
         public GUIStyle(GUIStyle other);
 

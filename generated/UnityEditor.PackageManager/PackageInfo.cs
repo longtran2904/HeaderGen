@@ -16,7 +16,6 @@ namespace UnityEditor.PackageManager
     [StaticAccessor("PackageManager", StaticAccessorType.DoubleColon)]
     public sealed class PackageInfo
     {
-
         public string packageId { get; }
         public bool isDirectDependency { get; }
         public string version { get; }

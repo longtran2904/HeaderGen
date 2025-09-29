@@ -9,7 +9,6 @@ namespace UnityEditor.ShaderGraph
 {
     public class ColorRGBAControl : IControl
     {
-
         public ColorRGBAControl(Color value);
 
         public Color value { get; }

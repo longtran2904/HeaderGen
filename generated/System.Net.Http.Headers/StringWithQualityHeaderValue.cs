@@ -6,7 +6,6 @@ namespace System.Net.Http.Headers
 {
     public class StringWithQualityHeaderValue : ICloneable
     {
-
         public StringWithQualityHeaderValue(string value);
         public StringWithQualityHeaderValue(string value, double quality);
 

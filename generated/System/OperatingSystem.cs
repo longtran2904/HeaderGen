@@ -10,7 +10,6 @@ namespace System
 {
     public sealed class OperatingSystem : ICloneable, ISerializable
     {
-
         public OperatingSystem(PlatformID platform, Version version);
 
         public PlatformID Platform { get; }

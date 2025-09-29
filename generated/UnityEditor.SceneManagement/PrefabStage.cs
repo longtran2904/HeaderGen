@@ -11,7 +11,6 @@ namespace UnityEditor.SceneManagement
     [MovedFrom("UnityEditor.Experimental.SceneManagement")]
     public sealed class PrefabStage : PreviewSceneStage
     {
-
         public GameObject prefabContentsRoot { get; }
         public GameObject openedFromInstanceRoot { get; }
         public GameObject openedFromInstanceObject { get; }
@@ -36,9 +35,9 @@ namespace UnityEditor.SceneManagement
         protected internal override void OnFirstTimeOpenStageInSceneView(SceneView sceneView);
         protected internal override GUIContent CreateHeaderContent();
         public void ClearDirtiness();
+
         public enum Mode
         {
-
             InIsolation = 0,
             InContext = 1
         }

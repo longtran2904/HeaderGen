@@ -9,7 +9,6 @@ namespace System.IO
 {
     public sealed class BufferedStream : Stream
     {
-
         public BufferedStream(Stream stream);
         public BufferedStream(Stream stream, int bufferSize);
 

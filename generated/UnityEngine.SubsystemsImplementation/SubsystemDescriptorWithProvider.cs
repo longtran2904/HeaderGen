@@ -8,7 +8,6 @@ namespace UnityEngine.SubsystemsImplementation
 {
     public abstract class SubsystemDescriptorWithProvider : ISubsystemDescriptor
     {
-
         protected SubsystemDescriptorWithProvider();
 
         public string id { get; set; }

@@ -9,7 +9,6 @@ namespace UnityEditor
 {
     public class ScriptableWizard : EditorWindow
     {
-
         public ScriptableWizard();
 
         public string helpString { get; set; }

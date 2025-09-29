@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public static class UQueryExtensions
     {
-
         public static T Q<T>(this VisualElement e, string name = null, params string[] classes) where T : VisualElement;
         public static VisualElement Q(this VisualElement e, string name = null, params string[] classes);
         public static T Q<T>(this VisualElement e, string name = null, string className = null) where T : VisualElement;

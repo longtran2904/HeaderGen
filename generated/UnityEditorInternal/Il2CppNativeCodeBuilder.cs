@@ -9,7 +9,6 @@ namespace UnityEditorInternal
 {
     public abstract class Il2CppNativeCodeBuilder
     {
-
         public Il2CppNativeCodeBuilder(string baselibLibraryDirectory);
 
         public abstract string CompilerPlatform { get; }

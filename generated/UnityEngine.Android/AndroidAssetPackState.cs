@@ -6,7 +6,6 @@ namespace UnityEngine.Android
 {
     public class AndroidAssetPackState
     {
-
         public string name { get; }
         public AndroidAssetPackStatus status { get; }
         public AndroidAssetPackError error { get; }

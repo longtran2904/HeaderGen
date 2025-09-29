@@ -9,7 +9,6 @@ namespace UnityEngine.AI
     [NativeHeader("Modules/AI/NavMesh/NavMesh.bindings.h")]
     public sealed class NavMeshData : Object
     {
-
         public NavMeshData();
         public NavMeshData(int agentTypeID);
 

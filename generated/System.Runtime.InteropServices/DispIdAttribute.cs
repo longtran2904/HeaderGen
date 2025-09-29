@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [AttributeUsage(AttributeTargets.Method | AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Event, Inherited = False)]
     public sealed class DispIdAttribute : Attribute
     {
-
         public DispIdAttribute(int dispId);
 
         public int Value { get; }

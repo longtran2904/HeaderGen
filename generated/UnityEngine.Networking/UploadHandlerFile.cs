@@ -9,7 +9,6 @@ namespace UnityEngine.Networking
     [NativeHeader("Modules/UnityWebRequest/Public/UploadHandler/UploadHandlerFile.h")]
     public sealed class UploadHandlerFile : UploadHandler
     {
-
         public UploadHandlerFile(string filePath);
     }
 }

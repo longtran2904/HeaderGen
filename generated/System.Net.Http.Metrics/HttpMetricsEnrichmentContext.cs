@@ -6,7 +6,6 @@ namespace System.Net.Http.Metrics
 {
     public sealed class HttpMetricsEnrichmentContext
     {
-
         public HttpRequestMessage Request { get; }
         public HttpResponseMessage Response { get; }
         public Exception Exception { get; }

@@ -9,7 +9,6 @@ namespace System
 {
     public struct ValueTuple<T1, T2, T3, T4, T5, T6, T7, TRest> : IComparable, IComparable<(T1, T2, T3, T4, T5, T6, T7, TRest)>, IEquatable<(T1, T2, T3, T4, T5, T6, T7, TRest)>, IStructuralComparable, IStructuralEquatable, ITuple, IValueTupleInternal where TRest : struct
     {
-
         public T1 Item1;
         public T2 Item2;
         public T3 Item3;

@@ -12,7 +12,6 @@ namespace UnityEditor.Build.Reporting
     [NativeType(Header = "Modules/BuildReportingEditor/Public/BuildReport.h")]
     public sealed class BuildReport : UnityEngine.Object
     {
-
         public BuildFile[] files { get; }
         [NativeName("BuildSteps")]
         public BuildStep[] steps { get; }

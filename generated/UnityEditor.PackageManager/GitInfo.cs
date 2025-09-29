@@ -11,7 +11,6 @@ namespace UnityEditor.PackageManager
     [RequiredByNativeCode]
     public class GitInfo
     {
-
         public string hash { get; }
         public string revision { get; }
     }

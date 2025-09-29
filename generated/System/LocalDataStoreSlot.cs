@@ -6,7 +6,6 @@ namespace System
 {
     public sealed class LocalDataStoreSlot
     {
-
         ~LocalDataStoreSlot();
     }
 }

@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering.LookDev
 {
     public enum TargetDebugView
     {
-
         First = 0,
         Both = 1,
         Second = 2

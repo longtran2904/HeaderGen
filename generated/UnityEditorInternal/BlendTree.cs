@@ -11,7 +11,6 @@ namespace UnityEditorInternal
     [Obsolete("BlendTree is obsolete. Use UnityEditor.Animations.BlendTree instead (UnityUpgradable) -> UnityEditor.Animations.BlendTree", True)]
     public class BlendTree : Motion
     {
-
         public BlendTree();
     }
 }

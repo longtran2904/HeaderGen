@@ -6,7 +6,6 @@ namespace Unity.MemoryProfiler.Editor.MemoryProfilerModule
 {
     public enum ProfilerMemoryView
     {
-
         Simple = 0,
         Detailed = 1
     }

@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public struct WheelFrictionCurve
     {
-
         public float extremumSlip { get; set; }
         public float extremumValue { get; set; }
         public float asymptoteSlip { get; set; }

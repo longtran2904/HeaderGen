@@ -8,7 +8,6 @@ namespace System.Threading
 {
     public class EventWaitHandle : WaitHandle
     {
-
         public EventWaitHandle(bool initialState, EventResetMode mode);
         public EventWaitHandle(bool initialState, EventResetMode mode, string name);
         public EventWaitHandle(bool initialState, EventResetMode mode, string name, out bool createdNew);

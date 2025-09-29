@@ -9,7 +9,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public class TrackedReference
     {
-
         protected TrackedReference();
 
         public override bool Equals(object o);

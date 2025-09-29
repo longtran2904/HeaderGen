@@ -8,7 +8,6 @@ namespace UnityEngine.Playables
 {
     public static class ScriptPlayableBinding
     {
-
         public static PlayableBinding Create(string name, Object key, Type type);
     }
 }

@@ -8,7 +8,6 @@ namespace System.Collections.Concurrent
 {
     public class ConcurrentQueue<T> : ICollection, IEnumerable, IEnumerable<T>, IProducerConsumerCollection<T>, IReadOnlyCollection<T>
     {
-
         public ConcurrentQueue();
         public ConcurrentQueue(IEnumerable<T> collection);
 

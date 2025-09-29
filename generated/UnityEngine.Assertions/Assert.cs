@@ -11,7 +11,6 @@ namespace UnityEngine.Assertions
 {
     public static class Assert
     {
-
         [Obsolete("Future versions of Unity are expected to always throw exceptions and not have this field.")]
         public static bool raiseExceptions;
 

@@ -9,7 +9,6 @@ namespace Unity.Profiling
     [Flags]
     public enum ProfilerRecorderOptions
     {
-
         None = 0,
         StartImmediately = 1,
         KeepAliveDuringDomainReload = 2,

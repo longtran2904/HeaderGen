@@ -11,7 +11,6 @@ namespace UnityEditor
     [Obsolete("Use Screen.SetResolution APIs", True)]
     public enum iOSTargetResolution
     {
-
         Native = 0,
         ResolutionAutoPerformance = 3,
         ResolutionAutoQuality = 4,

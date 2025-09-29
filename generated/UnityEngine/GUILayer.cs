@@ -13,7 +13,6 @@ namespace UnityEngine
     [Obsolete("GUILayer has been removed.", True)]
     public sealed class GUILayer
     {
-
         public GUILayer();
 
         [Obsolete("GUILayer has been removed.", True)]

@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public sealed class PointerMoveEvent : PointerEventBase<PointerMoveEvent>
     {
-
         public PointerMoveEvent();
 
         protected override void Init();

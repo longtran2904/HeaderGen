@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodePrimitiveExpression : CodeExpression
     {
-
         public CodePrimitiveExpression();
         public CodePrimitiveExpression(object value);
 

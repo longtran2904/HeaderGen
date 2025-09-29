@@ -6,7 +6,6 @@ namespace UnityEditor.Recorder
 {
     public static class DefaultWildcard
     {
-
         public static readonly string Recorder;
         public static readonly string Time;
         public static readonly string Take;

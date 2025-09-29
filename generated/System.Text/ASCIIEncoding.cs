@@ -6,7 +6,6 @@ namespace System.Text
 {
     public class ASCIIEncoding : Encoding
     {
-
         public ASCIIEncoding();
 
         public override bool IsSingleByte { get; }

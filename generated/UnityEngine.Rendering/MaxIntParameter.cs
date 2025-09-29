@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public class MaxIntParameter : IntParameter
     {
-
         [NonSerialized]
         public int max;
 

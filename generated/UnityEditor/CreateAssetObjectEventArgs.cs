@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public struct CreateAssetObjectEventArgs
     {
-
         public CreateAssetObjectEventArgs(GUID guid, int instanceId, Scene scene);
 
         public GUID guid { get; }

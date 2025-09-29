@@ -8,7 +8,6 @@ namespace TMPro
 {
     public class MaterialReferenceManager
     {
-
         public MaterialReferenceManager();
 
         public static MaterialReferenceManager instance { get; }

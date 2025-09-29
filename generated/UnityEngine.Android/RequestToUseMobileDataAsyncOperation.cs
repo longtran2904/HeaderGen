@@ -6,7 +6,6 @@ namespace UnityEngine.Android
 {
     public class RequestToUseMobileDataAsyncOperation : CustomYieldInstruction
     {
-
         public override bool keepWaiting { get; }
         public bool isDone { get; }
         public AndroidAssetPackUseMobileDataRequestResult result { get; }

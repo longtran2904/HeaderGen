@@ -9,7 +9,6 @@ namespace System.Threading
 {
     public class LockRecursionException : Exception
     {
-
         public LockRecursionException();
         public LockRecursionException(string message);
         public LockRecursionException(string message, Exception innerException);

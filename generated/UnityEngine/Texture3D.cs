@@ -14,7 +14,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Graphics/Texture3D.h")]
     public sealed class Texture3D : Texture
     {
-
         [ExcludeFromDocs]
         public Texture3D(int width, int height, int depth, DefaultFormat format, TextureCreationFlags flags);
         [ExcludeFromDocs]

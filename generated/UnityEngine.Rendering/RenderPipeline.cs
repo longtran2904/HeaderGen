@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public abstract class RenderPipeline
     {
-
         protected RenderPipeline();
 
         public bool disposed { get; }

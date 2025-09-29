@@ -6,7 +6,6 @@ namespace Unity.Profiling
 {
     public enum ProfilerCategoryColor
     {
-
         Render = 0,
         Scripts = 1,
         BurstJobs = 2,

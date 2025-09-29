@@ -9,7 +9,6 @@ namespace UnityEngine.TestTools
     [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class | AttributeTargets.Method)]
     public class TestMustExpectAllLogsAttribute : Attribute
     {
-
         public TestMustExpectAllLogsAttribute(bool mustExpect = True);
 
         public bool MustExpect { get; }

@@ -9,7 +9,6 @@ namespace UnityEditor
     [NativeType(Header = "Editor/Src/EditorUserBuildSettings.h")]
     public enum WSAUWPBuildType
     {
-
         XAML = 0,
         D3D = 1,
         ExecutableOnly = 2

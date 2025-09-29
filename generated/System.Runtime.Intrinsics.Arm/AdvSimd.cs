@@ -7,7 +7,6 @@ namespace System.Runtime.Intrinsics.Arm
     [CLSCompliant(False)]
     public abstract class AdvSimd : ArmBase
     {
-
         public static bool IsSupported { get; }
 
         public static Vector64<ushort> Abs(Vector64<short> value);
@@ -1634,9 +1633,9 @@ namespace System.Runtime.Intrinsics.Arm
         public static Vector128<short> ZeroExtendWideningUpper(Vector128<sbyte> value);
         public static Vector128<uint> ZeroExtendWideningUpper(Vector128<ushort> value);
         public static Vector128<ulong> ZeroExtendWideningUpper(Vector128<uint> value);
+
         public abstract class Arm64 : ArmBase.Arm64
         {
-
             public static bool IsSupported { get; }
 
             public static Vector128<double> Abs(Vector128<double> value);

@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [AttributeUsage(AttributeTargets.Class, Inherited = False)]
     public sealed class ComDefaultInterfaceAttribute : Attribute
     {
-
         public ComDefaultInterfaceAttribute(Type defaultInterface);
 
         public Type Value { get; }

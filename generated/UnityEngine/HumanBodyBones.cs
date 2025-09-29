@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum HumanBodyBones
     {
-
         Hips = 0,
         LeftUpperLeg = 1,
         RightUpperLeg = 2,

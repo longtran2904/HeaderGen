@@ -11,7 +11,6 @@ namespace UnityEngine
     [StaticAccessor("CacheWrapper", StaticAccessorType.DoubleColon)]
     public struct Cache : IEquatable<Cache>
     {
-
         public bool valid { get; }
         public bool ready { get; }
         public bool readOnly { get; }

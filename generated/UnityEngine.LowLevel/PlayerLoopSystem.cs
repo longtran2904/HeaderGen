@@ -10,7 +10,6 @@ namespace UnityEngine.LowLevel
     [MovedFrom("UnityEngine.Experimental.LowLevel")]
     public struct PlayerLoopSystem
     {
-
         public Type type;
         public PlayerLoopSystem[] subSystemList;
         public UpdateFunction updateDelegate;
@@ -18,6 +17,7 @@ namespace UnityEngine.LowLevel
         public nint loopConditionFunction;
 
         public override string ToString();
+
         public delegate void UpdateFunction();
     }
 }

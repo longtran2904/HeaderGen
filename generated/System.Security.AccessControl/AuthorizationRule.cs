@@ -8,7 +8,6 @@ namespace System.Security.AccessControl
 {
     public abstract class AuthorizationRule
     {
-
         protected internal AuthorizationRule(IdentityReference identity, int accessMask, bool isInherited, InheritanceFlags inheritanceFlags, PropagationFlags propagationFlags);
 
         public IdentityReference IdentityReference { get; }

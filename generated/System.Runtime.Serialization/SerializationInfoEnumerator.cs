@@ -8,7 +8,6 @@ namespace System.Runtime.Serialization
 {
     public sealed class SerializationInfoEnumerator : IEnumerator
     {
-
         public SerializationEntry Current { get; }
         public string Name { get; }
         public object Value { get; }

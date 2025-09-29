@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
 {
     public struct FilteringSettings : IEquatable<FilteringSettings>
     {
-
         public FilteringSettings([DefaultValue("RenderQueueRange.all")] RenderQueueRange? renderQueueRange = null, int layerMask = -1, uint renderingLayerMask = 4294967295, int excludeMotionVectorObjects = 0);
 
         public static FilteringSettings defaultValue { get; }

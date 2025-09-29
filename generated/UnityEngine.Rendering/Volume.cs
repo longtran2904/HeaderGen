@@ -11,7 +11,6 @@ namespace UnityEngine.Rendering
     [ExecuteAlways]
     public class Volume : MonoBehaviour, IVolume
     {
-
         [Tooltip("When multiple Volumes affect the same settings, Unity uses this value to determine which Volume to use. A Volume with the highest Priority value takes precedence.")]
         public float priority;
         [Tooltip("Sets the outer distance to start blending from. A value of 0 means no blending and Unity applies the Volume overrides immediately upon entry.")]

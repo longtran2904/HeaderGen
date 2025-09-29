@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.Universal.Internal
 {
     public class ColorGradingLutPass : ScriptableRenderPass
     {
-
         public ColorGradingLutPass(RenderPassEvent evt, PostProcessData data);
 
         public void Setup(in RenderTargetHandle internalLut);

@@ -6,7 +6,6 @@ namespace UnityEditor.Search
 {
     public class QueryError
     {
-
         public QueryError();
         public QueryError(int index, string reason);
         public QueryError(int index, int length, string reason);

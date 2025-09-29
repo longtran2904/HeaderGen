@@ -9,7 +9,6 @@ namespace UnityEditor.Recorder
 {
     public abstract class RecorderInputSettings
     {
-
         protected RecorderInputSettings();
 
         protected internal abstract Type InputType { get; }

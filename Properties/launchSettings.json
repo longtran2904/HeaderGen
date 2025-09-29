@@ -2,7 +2,7 @@
   "profiles": {
     "HeaderGen": {
       "commandName": "Project",
-      "commandLineArgs": "..\\generated\\",
+      "commandLineArgs": "generated\\",
       "workingDirectory": "$(ProjectDir)"
     }
   }

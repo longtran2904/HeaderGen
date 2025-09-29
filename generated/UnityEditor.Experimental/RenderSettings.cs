@@ -8,7 +8,6 @@ namespace UnityEditor.Experimental
 {
     public class RenderSettings
     {
-
         public RenderSettings();
 
         [Obsolete("Use UnityEngine.Experimental.GlobalIllumination.useRadianceAmbientProbe instead. (UnityUpgradable) -> UnityEngine.Experimental.GlobalIllumination.RenderSettings.useRadianceAmbientProbe", True)]

@@ -12,7 +12,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Jobs/ScriptBindings/JobsBindingsTypes.h")]
     public struct BoxcastCommand
     {
-
         public BoxcastCommand(Vector3 center, Vector3 halfExtents, Quaternion orientation, Vector3 direction, float distance = 3.4028235E+38, int layerMask = -5);
         public BoxcastCommand(PhysicsScene physicsScene, Vector3 center, Vector3 halfExtents, Quaternion orientation, Vector3 direction, float distance = 3.4028235E+38, int layerMask = -5);
 

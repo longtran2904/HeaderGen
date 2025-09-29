@@ -9,7 +9,6 @@ namespace Mono.Cecil
     [Flags]
     public enum MethodAttributes
     {
-
         MemberAccessMask = 7,
         CompilerControlled = 0,
         Private = 1,

@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public abstract class Subsystem<TSubsystemDescriptor> : Subsystem where TSubsystemDescriptor : ISubsystemDescriptor
     {
-
         protected Subsystem();
 
         public TSubsystemDescriptor SubsystemDescriptor { get; }

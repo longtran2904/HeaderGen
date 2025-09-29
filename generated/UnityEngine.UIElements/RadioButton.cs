@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class RadioButton : BaseBoolField, IGroupBoxOption
     {
-
         public static readonly string ussClassName;
         public static readonly string labelUssClassName;
         public static readonly string inputUssClassName;
@@ -24,14 +23,13 @@ namespace UnityEngine.UIElements
         public void SetSelected(bool selected);
         public override void SetValueWithoutNotify(bool newValue);
         protected override void UpdateMixedValueContent();
+
         public class UxmlFactory : UxmlFactory<RadioButton, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : BaseFieldTraits<bool, UxmlBoolAttributeDescription>
         {
-
             public UxmlTraits();
 
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc);

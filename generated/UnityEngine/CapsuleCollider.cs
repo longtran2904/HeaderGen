@@ -11,7 +11,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public class CapsuleCollider : Collider
     {
-
         public CapsuleCollider();
 
         public Vector3 center { get; set; }

@@ -7,7 +7,6 @@ namespace System.Globalization
     [Flags]
     public enum DateTimeStyles
     {
-
         None = 0,
         AllowLeadingWhite = 1,
         AllowTrailingWhite = 2,

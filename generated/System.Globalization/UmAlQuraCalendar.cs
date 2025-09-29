@@ -6,7 +6,6 @@ namespace System.Globalization
 {
     public class UmAlQuraCalendar : Calendar
     {
-
         public const int UmAlQuraEra = 1;
 
         public UmAlQuraCalendar();

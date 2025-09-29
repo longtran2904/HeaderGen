@@ -8,7 +8,6 @@ namespace UnityEngine.Experimental.Playables
 {
     public static class TexturePlayableBinding
     {
-
         public static PlayableBinding Create(string name, Object key);
     }
 }

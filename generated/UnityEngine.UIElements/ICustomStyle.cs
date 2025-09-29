@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public interface ICustomStyle
     {
-
         bool TryGetValue(CustomStyleProperty<float> property, out float value);
         bool TryGetValue(CustomStyleProperty<int> property, out int value);
         bool TryGetValue(CustomStyleProperty<bool> property, out bool value);

@@ -6,11 +6,10 @@ namespace UnityEditor.Recorder
 {
     public class OutputPath
     {
-
         public OutputPath();
+
         public enum Root
         {
-
             Project = 0,
             AssetsFolder = 1,
             StreamingAssets = 2,

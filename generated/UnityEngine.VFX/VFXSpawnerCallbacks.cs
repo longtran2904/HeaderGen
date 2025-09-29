@@ -9,7 +9,6 @@ namespace UnityEngine.VFX
     [RequiredByNativeCode]
     public abstract class VFXSpawnerCallbacks : ScriptableObject
     {
-
         protected VFXSpawnerCallbacks();
 
         public abstract void OnPlay(VFXSpawnerState state, VFXExpressionValues vfxValues, VisualEffect vfxComponent);

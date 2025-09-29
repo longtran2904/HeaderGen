@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics2D/Public/CapsuleCollider2D.h")]
     public sealed class CapsuleCollider2D : Collider2D
     {
-
         public CapsuleCollider2D();
 
         public Vector2 size { get; set; }

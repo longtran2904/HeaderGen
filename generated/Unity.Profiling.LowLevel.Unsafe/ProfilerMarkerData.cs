@@ -6,7 +6,6 @@ namespace Unity.Profiling.LowLevel.Unsafe
 {
     public struct ProfilerMarkerData
     {
-
         public byte Type;
         public uint Size;
         public void* Ptr;

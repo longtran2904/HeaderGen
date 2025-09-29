@@ -11,7 +11,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Animation/Motion.h")]
     public class Motion : Object
     {
-
         protected Motion();
 
         public float averageDuration { get; }

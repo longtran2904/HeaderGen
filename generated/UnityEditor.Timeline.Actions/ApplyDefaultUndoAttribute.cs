@@ -9,7 +9,6 @@ namespace UnityEditor.Timeline.Actions
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = False, Inherited = False)]
     public class ApplyDefaultUndoAttribute : Attribute
     {
-
         public string UndoTitle;
 
         public ApplyDefaultUndoAttribute(string undoTitle = null);

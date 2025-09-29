@@ -10,7 +10,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [Flags]
     public enum PARAMFLAG
     {
-
         PARAMFLAG_NONE = 0,
         PARAMFLAG_FIN = 1,
         PARAMFLAG_FOUT = 2,

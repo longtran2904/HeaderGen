@@ -10,7 +10,6 @@ namespace UnityEditorInternal.Profiling
 {
     public static class NetworkingMessagesProfilerOverrides
     {
-
         public static Action<Rect, int> drawDetailsViewOverride;
         public static Func<List<NetworkCounterData>> getCustomChartCounters;
     }

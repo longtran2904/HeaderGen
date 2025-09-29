@@ -12,7 +12,6 @@ namespace UnityEditor.Searcher
     [PublicAPI]
     public class SearcherWindow : EditorWindow
     {
-
         public SearcherWindow();
 
         public static void Show(EditorWindow host, IList<SearcherItem> items, string title, Func<SearcherItem, bool> itemSelectedDelegate, Vector2 displayPosition, Alignment align = null);
@@ -22,18 +21,18 @@ namespace UnityEditor.Searcher
         public static void Show(EditorWindow host, Searcher searcher, Func<SearcherItem, bool> itemSelectedDelegate, Vector2 displayPosition, Action<Searcher.AnalyticsEvent> analyticsDataDelegate, Alignment align = null);
         public static void Show(EditorWindow host, Searcher searcher, Func<SearcherItem, bool> itemSelectedDelegate, Action<Searcher.AnalyticsEvent> analyticsDataDelegate, Rect rect);
         public static Vector2 GetPositionWithAlignment(Vector2 pos, Vector2 size, Alignment align);
+
         [PublicAPI]
         public struct Alignment
         {
-
             public readonly Vertical vertical;
             public readonly Horizontal horizontal;
 
             public Alignment(Vertical v, Horizontal h);
+
             [PublicAPI]
             public enum Horizontal
             {
-
                 Left = 0,
                 Center = 1,
                 Right = 2
@@ -41,7 +40,6 @@ namespace UnityEditor.Searcher
             [PublicAPI]
             public enum Vertical
             {
-
                 Top = 0,
                 Center = 1,
                 Bottom = 2

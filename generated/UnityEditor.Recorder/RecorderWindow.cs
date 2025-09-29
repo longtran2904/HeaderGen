@@ -6,7 +6,6 @@ namespace UnityEditor.Recorder
 {
     public class RecorderWindow : EditorWindow
     {
-
         public const string MenuRoot = "Window/General/Recorder/";
         public const int MenuRootIndex = 1000;
 

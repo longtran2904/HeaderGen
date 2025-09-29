@@ -9,7 +9,6 @@ namespace System.Threading
     [UnsupportedOSPlatform("browser")]
     public sealed class RegisteredWaitHandle : MarshalByRefObject
     {
-
         ~RegisteredWaitHandle();
 
         public bool Unregister(WaitHandle waitObject);

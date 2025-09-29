@@ -10,16 +10,15 @@ namespace UnityEngine.UI
     [AddComponentMenu("UI/Button", 30)]
     public class Button : Selectable, IPointerClickHandler, ISubmitHandler
     {
-
         protected Button();
 
         public ButtonClickedEvent onClick { get; set; }
 
         public virtual void OnPointerClick(PointerEventData eventData);
         public virtual void OnSubmit(BaseEventData eventData);
+
         public class ButtonClickedEvent : UnityEvent
         {
-
             public ButtonClickedEvent();
         }
     }

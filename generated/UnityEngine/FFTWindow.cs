@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum FFTWindow
     {
-
         Rectangular = 0,
         Triangle = 1,
         Hamming = 2,

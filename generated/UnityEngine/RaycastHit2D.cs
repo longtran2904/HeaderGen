@@ -12,7 +12,6 @@ namespace UnityEngine
     [RequiredByNativeCode(Optional = True, GenerateProxy = True)]
     public struct RaycastHit2D
     {
-
         public Vector2 centroid { get; set; }
         public Vector2 point { get; set; }
         public Vector2 normal { get; set; }

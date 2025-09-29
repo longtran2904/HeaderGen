@@ -6,7 +6,6 @@ namespace Unity.Profiling
 {
     public enum ProfilerFlowEventType
     {
-
         Begin = 0,
         ParallelNext = 1,
         End = 2,

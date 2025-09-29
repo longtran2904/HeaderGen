@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering.LookDev
 {
     public enum SidePanel
     {
-
         None = -1,
         Environment = 0,
         Debug = 1

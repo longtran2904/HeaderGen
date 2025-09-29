@@ -9,7 +9,6 @@ namespace UnityEngineInternal
     [NativeHeader("Runtime/Export/GI/GIDebugVisualisation.bindings.h")]
     public static class GIDebugVisualisation
     {
-
         public static bool cycleMode { get; }
         public static bool pauseCycleMode { get; }
         public static GITextureType texType { get; set; }

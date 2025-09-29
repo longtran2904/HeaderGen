@@ -13,7 +13,6 @@ namespace UnityEditor
     [UsedByNativeCode]
     public class EditorBuildSettingsScene : IComparable
     {
-
         public EditorBuildSettingsScene();
         public EditorBuildSettingsScene(string path, bool enabled);
         public EditorBuildSettingsScene(GUID guid, bool enabled);

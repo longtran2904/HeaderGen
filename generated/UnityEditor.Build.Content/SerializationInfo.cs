@@ -12,7 +12,6 @@ namespace UnityEditor.Build.Content
     [UsedByNativeCode]
     public class SerializationInfo
     {
-
         public SerializationInfo();
 
         public ObjectIdentifier serializationObject { get; set; }

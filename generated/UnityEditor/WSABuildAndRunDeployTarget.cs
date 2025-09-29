@@ -10,7 +10,6 @@ namespace UnityEditor
     [NativeType(Header = "Editor/Src/EditorUserBuildSettings.h")]
     public enum WSABuildAndRunDeployTarget
     {
-
         LocalMachine = 0,
         [Obsolete("UnityEditor.WSABuildAndRunDeployTarget.WindowsPhone is obsolete.", True)]
         WindowsPhone = 1,

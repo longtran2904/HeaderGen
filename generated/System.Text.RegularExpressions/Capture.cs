@@ -6,7 +6,6 @@ namespace System.Text.RegularExpressions
 {
     public class Capture
     {
-
         public int Index { get; }
         public int Length { get; }
         public string Value { get; }

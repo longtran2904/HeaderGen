@@ -9,7 +9,6 @@ namespace System.Collections.Generic
 {
     public class SortedSet<T> : ICollection, ICollection<T>, IDeserializationCallback, IEnumerable, IEnumerable<T>, IReadOnlyCollection<T>, IReadOnlySet<T>, ISerializable, ISet<T>
     {
-
         public SortedSet();
         public SortedSet(IComparer<T> comparer);
         public SortedSet(IEnumerable<T> collection);
@@ -49,9 +48,9 @@ namespace System.Collections.Generic
         protected virtual void GetObjectData(SerializationInfo info, StreamingContext context);
         protected virtual void OnDeserialization(object sender);
         public bool TryGetValue(T equalValue, out T actualValue);
+
         public struct Enumerator : IDeserializationCallback, IDisposable, IEnumerator, IEnumerator<T>, ISerializable
         {
-
             public T Current { get; }
 
             public bool MoveNext();

@@ -8,7 +8,6 @@ namespace TMPro.EditorUtilities
 {
     public class TMP_EditorCoroutine
     {
-
         public static TMP_EditorCoroutine StartCoroutine(IEnumerator routine);
         public void Stop();
     }

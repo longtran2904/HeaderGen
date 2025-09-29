@@ -16,7 +16,6 @@ namespace UnityEngine.Animations
     [StaticAccessor("AnimationLayerMixerPlayableBindings", StaticAccessorType.DoubleColon)]
     public struct AnimationLayerMixerPlayable : IEquatable<AnimationLayerMixerPlayable>, IPlayable
     {
-
         public static AnimationLayerMixerPlayable Null { get; }
 
         public static AnimationLayerMixerPlayable Create(PlayableGraph graph, int inputCount = 0);

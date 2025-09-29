@@ -9,7 +9,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Src/MenuController.h")]
     public sealed class Menu
     {
-
         public Menu();
 
         [NativeMethod("MenuController::SetChecked", True)]

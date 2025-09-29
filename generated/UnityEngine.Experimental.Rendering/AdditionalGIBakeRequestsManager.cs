@@ -8,7 +8,6 @@ namespace UnityEngine.Experimental.Rendering
 {
     public class AdditionalGIBakeRequestsManager
     {
-
         public AdditionalGIBakeRequestsManager();
 
         public static AdditionalGIBakeRequestsManager instance { get; }

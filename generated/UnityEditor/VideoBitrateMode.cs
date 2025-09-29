@@ -9,7 +9,6 @@ namespace UnityEditor
     [NativeHeader("Modules/Video/Public/Base/VideoMediaTypes.h")]
     public enum VideoBitrateMode
     {
-
         Low = 0,
         Medium = 1,
         High = 2

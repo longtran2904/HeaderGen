@@ -11,7 +11,6 @@ namespace UnityEditor
 {
     public sealed class EditorGUI
     {
-
         public EditorGUI();
 
         public static bool showMixedValue { get; set; }
@@ -418,23 +417,21 @@ namespace UnityEditor
         public static Gradient GradientField(Rect position, GUIContent label, Gradient gradient, bool hdr);
         public static Gradient GradientField(Rect position, GUIContent label, Gradient gradient, bool hdr, ColorSpace colorSpace);
         public static void DrawRect(Rect rect, Color color);
+
         public class DisabledGroupScope : GUI.Scope
         {
-
             public DisabledGroupScope(bool disabled);
 
             protected override void CloseScope();
         }
         public struct DisabledScope : IDisposable
         {
-
             public DisabledScope(bool disabled);
 
             public void Dispose();
         }
         public class ChangeCheckScope : GUI.Scope
         {
-
             public ChangeCheckScope();
 
             public bool changed { get; }
@@ -443,7 +440,6 @@ namespace UnityEditor
         }
         public class IndentLevelScope : GUI.Scope
         {
-
             public IndentLevelScope();
             public IndentLevelScope(int increment);
 
@@ -451,7 +447,6 @@ namespace UnityEditor
         }
         public class PropertyScope : GUI.Scope
         {
-
             public PropertyScope(Rect totalPosition, GUIContent label, SerializedProperty property);
 
             public GUIContent content { get; protected set; }

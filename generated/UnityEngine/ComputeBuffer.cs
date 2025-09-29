@@ -17,7 +17,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public sealed class ComputeBuffer : IDisposable
     {
-
         public ComputeBuffer(int count, int stride);
         public ComputeBuffer(int count, int stride, ComputeBufferType type);
         public ComputeBuffer(int count, int stride, ComputeBufferType type, ComputeBufferMode usage);

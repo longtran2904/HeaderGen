@@ -10,7 +10,6 @@ namespace System.IO.Pipes
 {
     public class PipeSecurity : NativeObjectSecurity
     {
-
         public PipeSecurity();
 
         public override Type AccessRightType { get; }

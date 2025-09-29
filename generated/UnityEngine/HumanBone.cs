@@ -12,7 +12,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public struct HumanBone
     {
-
         [NativeName("m_Limit")]
         public HumanLimit limit;
 

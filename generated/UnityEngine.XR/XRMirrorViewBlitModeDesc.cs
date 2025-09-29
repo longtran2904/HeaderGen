@@ -10,7 +10,6 @@ namespace UnityEngine.XR
     [NativeType(Header = "Modules/XR/Subsystems/Display/XRDisplaySubsystemDescriptor.h")]
     public struct XRMirrorViewBlitModeDesc
     {
-
         public int blitMode;
         public string blitModeDesc;
     }

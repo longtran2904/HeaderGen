@@ -13,7 +13,6 @@ namespace UnityEditor
     [StaticAccessor("GetEditorUserBuildSettings()", StaticAccessorType.Dot)]
     public class EditorUserBuildSettings : UnityEngine.Object
     {
-
         [Obsolete("UnityEditor.activeBuildTargetChanged has been deprecated.Use UnityEditor.Build.IActiveBuildTargetChanged instead.")]
         public static Action activeBuildTargetChanged;
 

@@ -8,7 +8,6 @@ namespace TMPro
 {
     public static class TMPro_EventManager
     {
-
         public static readonly FastAction<object, Compute_DT_EventArgs> COMPUTE_DT_EVENT;
         public static readonly FastAction<bool, Material> MATERIAL_PROPERTY_EVENT;
         public static readonly FastAction<bool, UnityEngine.Object> FONT_PROPERTY_EVENT;

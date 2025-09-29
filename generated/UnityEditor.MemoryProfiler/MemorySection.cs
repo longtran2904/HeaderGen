@@ -6,7 +6,6 @@ namespace UnityEditor.MemoryProfiler
 {
     public struct MemorySection
     {
-
         public MemorySection(byte[] bytes, ulong startAddress);
 
         public byte[] bytes { get; }

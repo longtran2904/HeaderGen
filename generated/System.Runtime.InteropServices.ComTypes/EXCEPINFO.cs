@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public struct EXCEPINFO
     {
-
         public short wCode;
         public short wReserved;
         public string bstrSource;

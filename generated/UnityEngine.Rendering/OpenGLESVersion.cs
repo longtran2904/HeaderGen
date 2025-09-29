@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public enum OpenGLESVersion
     {
-
         None = 0,
         OpenGLES20 = 1,
         OpenGLES30 = 2,

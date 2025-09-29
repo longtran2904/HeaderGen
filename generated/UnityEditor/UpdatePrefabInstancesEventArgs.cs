@@ -9,7 +9,6 @@ namespace UnityEditor
 {
     public struct UpdatePrefabInstancesEventArgs
     {
-
         public UpdatePrefabInstancesEventArgs(Scene scene, NativeArray<int>.ReadOnly instanceIds);
 
         public Scene scene { get; }

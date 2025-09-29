@@ -8,7 +8,6 @@ namespace TreeEditor
 {
     public class SplineNode
     {
-
         public Vector3 point;
         public Quaternion rot;
         public Vector3 normal;

@@ -9,7 +9,6 @@ namespace UnityEditor.UIElements
 {
     public class DoubleField : TextValueField<double>
     {
-
         public static readonly string ussClassName;
         public static readonly string labelUssClassName;
         public static readonly string inputUssClassName;
@@ -21,14 +20,13 @@ namespace UnityEditor.UIElements
         protected override string ValueToString(double v);
         protected override double StringToValue(string str);
         public override void ApplyInputDeviceDelta(Vector3 delta, DeltaSpeed speed, double startValue);
+
         public class UxmlFactory : UxmlFactory<DoubleField, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : TextValueFieldTraits<double, UxmlDoubleAttributeDescription>
         {
-
             public UxmlTraits();
         }
     }

@@ -10,7 +10,6 @@ namespace System.Net.Http
 {
     public class HttpMessageInvoker : IDisposable
     {
-
         public HttpMessageInvoker(HttpMessageHandler handler);
         public HttpMessageInvoker(HttpMessageHandler handler, bool disposeHandler);
 

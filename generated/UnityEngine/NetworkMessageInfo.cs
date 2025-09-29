@@ -11,7 +11,6 @@ namespace UnityEngine
     [Obsolete("The legacy networking system has been removed in Unity 2018.2. Use Unity Multiplayer and NetworkIdentity instead.", True)]
     public struct NetworkMessageInfo
     {
-
         [EditorBrowsable(EditorBrowsableState.Never)]
         [Obsolete("The legacy networking system has been removed in Unity 2018.2. Use Unity Multiplayer and NetworkIdentity instead.", True)]
         public double timestamp { get; }

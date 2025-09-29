@@ -6,7 +6,6 @@ namespace System.Reflection
 {
     public sealed class NullabilityInfo
     {
-
         public Type Type { get; }
         public NullabilityState ReadState { get; }
         public NullabilityState WriteState { get; }

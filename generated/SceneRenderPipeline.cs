@@ -8,7 +8,6 @@ using UnityEngine.Rendering;
 [ExecuteAlways]
 public class SceneRenderPipeline : MonoBehaviour
 {
-
     public RenderPipelineAsset renderPipelineAsset;
 
     public SceneRenderPipeline();

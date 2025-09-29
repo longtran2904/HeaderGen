@@ -14,7 +14,6 @@ namespace UnityEngine
     [RequiredByNativeCode(Optional = True)]
     public class Collider2D : Behaviour
     {
-
         public Collider2D();
 
         public float density { get; set; }

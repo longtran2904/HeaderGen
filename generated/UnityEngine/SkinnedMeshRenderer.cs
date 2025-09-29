@@ -11,7 +11,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public class SkinnedMeshRenderer : Renderer
     {
-
         public SkinnedMeshRenderer();
 
         public SkinQuality quality { get; set; }

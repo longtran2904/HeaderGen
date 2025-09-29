@@ -8,7 +8,6 @@ namespace System.Collections.Concurrent
 {
     public class ConcurrentBag<T> : ICollection, IEnumerable, IEnumerable<T>, IProducerConsumerCollection<T>, IReadOnlyCollection<T>
     {
-
         public ConcurrentBag();
         public ConcurrentBag(IEnumerable<T> collection);
 

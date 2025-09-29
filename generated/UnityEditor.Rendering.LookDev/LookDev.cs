@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering.LookDev
 {
     public static class LookDev
     {
-
         public static bool open { get; }
         public static bool supported { get; }
 

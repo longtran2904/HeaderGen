@@ -9,7 +9,6 @@ namespace System.Text.RegularExpressions
 {
     public class RegexMatchTimeoutException : TimeoutException
     {
-
         public RegexMatchTimeoutException(string regexInput, string regexPattern, TimeSpan matchTimeout);
         public RegexMatchTimeoutException();
         public RegexMatchTimeoutException(string message);

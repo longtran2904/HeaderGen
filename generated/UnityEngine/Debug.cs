@@ -13,7 +13,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Export/Debug/Debug.bindings.h")]
     public class Debug
     {
-
         public Debug();
 
         public static ILogger unityLogger { get; }

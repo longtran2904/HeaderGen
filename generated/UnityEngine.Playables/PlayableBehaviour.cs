@@ -10,7 +10,6 @@ namespace UnityEngine.Playables
     [RequiredByNativeCode]
     public abstract class PlayableBehaviour : ICloneable, IPlayableBehaviour
     {
-
         public PlayableBehaviour();
 
         public virtual void OnGraphStart(Playable playable);

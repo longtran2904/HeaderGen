@@ -9,7 +9,6 @@ namespace UnityEngine
     [AttributeUsage(AttributeTargets.All, AllowMultiple = False, Inherited = True)]
     public class TooltipAttribute : PropertyAttribute
     {
-
         public readonly string tooltip;
 
         public TooltipAttribute(string tooltip);

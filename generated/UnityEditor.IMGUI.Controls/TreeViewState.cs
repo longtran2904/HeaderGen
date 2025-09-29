@@ -9,7 +9,6 @@ namespace UnityEditor.IMGUI.Controls
 {
     public class TreeViewState
     {
-
         public Vector2 scrollPos;
 
         public TreeViewState();

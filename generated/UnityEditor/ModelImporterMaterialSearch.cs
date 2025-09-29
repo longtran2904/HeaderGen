@@ -9,7 +9,6 @@ namespace UnityEditor
     [NativeType(Header = "Modules/AssetPipelineEditor/Public/ModelImporting/ModelImporter.h")]
     public enum ModelImporterMaterialSearch
     {
-
         Local = 0,
         RecursiveUp = 1,
         Everywhere = 2

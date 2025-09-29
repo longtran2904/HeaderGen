@@ -12,7 +12,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Mono/GI/Lightmapping.bindings.h")]
     public static class Lightmapping
     {
-
         [Obsolete("OnCompletedFunction.completed is obsolete, please use event bakeCompleted instead. ", False)]
         public static OnCompletedFunction completed;
 
@@ -80,10 +79,10 @@ namespace UnityEditor
         public static bool BakeLightProbesOnlyAsync();
         [Obsolete("BakeLightProbesOnly has been deprecated. Use Bake instead (UnityUpgradable) -> Bake()", True)]
         public static bool BakeLightProbesOnly();
+
         [NativeHeader("Runtime/Graphics/LightmapEnums.h")]
         public enum GIWorkflowMode
         {
-
             Iterative = 0,
             OnDemand = 1,
             Legacy = 2

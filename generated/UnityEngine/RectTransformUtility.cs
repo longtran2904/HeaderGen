@@ -13,7 +13,6 @@ namespace UnityEngine
     [StaticAccessor("UI", StaticAccessorType.DoubleColon)]
     public sealed class RectTransformUtility
     {
-
         public static Vector2 PixelAdjustPoint(Vector2 point, Transform elementTransform, Canvas canvas);
         public static Rect PixelAdjustRect(RectTransform rectTransform, Canvas canvas);
         public static bool RectangleContainsScreenPoint(RectTransform rect, Vector2 screenPoint);

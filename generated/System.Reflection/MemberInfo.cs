@@ -8,7 +8,6 @@ namespace System.Reflection
 {
     public abstract class MemberInfo : ICustomAttributeProvider
     {
-
         protected MemberInfo();
 
         public abstract MemberTypes MemberType { get; }

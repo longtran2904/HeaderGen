@@ -14,7 +14,6 @@ namespace UnityEditor.Build.Content
     [UsedByNativeCode]
     public class WriteCommand
     {
-
         public WriteCommand();
 
         public string fileName { get; set; }

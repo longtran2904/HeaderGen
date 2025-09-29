@@ -8,7 +8,6 @@ namespace System.Runtime.ConstrainedExecution
     [Obsolete("The Constrained Execution Region (CER) feature is not supported.", DiagnosticId = "SYSLIB0004", UrlFormat = "https://aka.ms/dotnet-warnings/{0}")]
     public sealed class ReliabilityContractAttribute : Attribute
     {
-
         public ReliabilityContractAttribute(Consistency consistencyGuarantee, Cer cer);
 
         public Consistency ConsistencyGuarantee { get; }

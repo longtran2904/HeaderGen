@@ -25,7 +25,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public sealed class ParticleSystem : Component
     {
-
         public ParticleSystem();
 
         [Obsolete("safeCollisionEventSize has been deprecated. Use GetSafeCollisionEventSize() instead (UnityUpgradable) -> ParticlePhysicsExtensions.GetSafeCollisionEventSize(UnityEngine.ParticleSystem)", False)]
@@ -166,10 +165,10 @@ namespace UnityEngine
         public void AllocateMeshIndexAttribute();
         [NativeName("SetUsesCustomData")]
         public void AllocateCustomDataAttribute(ParticleSystemCustomData stream);
+
         [NativeType(CodegenOptions.Custom, "MonoMinMaxCurve", Header = "Runtime/Scripting/ScriptingCommonStructDefinitions.h")]
         public struct MinMaxCurve
         {
-
             public MinMaxCurve(float constant);
             public MinMaxCurve(float multiplier, AnimationCurve curve);
             public MinMaxCurve(float multiplier, AnimationCurve min, AnimationCurve max);
@@ -193,7 +192,6 @@ namespace UnityEngine
         }
         public struct MainModule
         {
-
             [Obsolete("Please use flipRotation instead. (UnityUpgradable) -> UnityEngine.ParticleSystem/MainModule.flipRotation", False)]
             public float randomizeRotationDirection { get; set; }
             public Vector3 emitterVelocity { get; set; }
@@ -247,7 +245,6 @@ namespace UnityEngine
         }
         public struct EmissionModule
         {
-
             [Obsolete("ParticleSystemEmissionType no longer does anything. Time and Distance based emission are now both always active.", False)]
             public ParticleSystemEmissionType type { get; set; }
             [Obsolete("rate property is deprecated. Use rateOverTime or rateOverDistance instead.", False)]
@@ -271,7 +268,6 @@ namespace UnityEngine
         }
         public struct ShapeModule
         {
-
             [Obsolete("Please use scale instead. (UnityUpgradable) -> UnityEngine.ParticleSystem/ShapeModule.scale", False)]
             public Vector3 box { get; set; }
             [Obsolete("meshScale property is deprecated.Please use scale instead.", False)]
@@ -326,7 +322,6 @@ namespace UnityEngine
         }
         public struct CollisionModule
         {
-
             [Obsolete("The maxPlaneCount restriction has been removed. Please use planeCount instead to find out how many planes there are. (UnityUpgradable) -> UnityEngine.ParticleSystem/CollisionModule.planeCount", False)]
             public int maxPlaneCount { get; }
             public bool enabled { get; set; }
@@ -368,7 +363,6 @@ namespace UnityEngine
         }
         public struct TriggerModule
         {
-
             [Obsolete("The maxColliderCount restriction has been removed. Please use colliderCount instead to find out how many colliders there are. (UnityUpgradable) -> UnityEngine.ParticleSystem/TriggerModule.colliderCount", False)]
             public int maxColliderCount { get; }
             public bool enabled { get; set; }
@@ -393,7 +387,6 @@ namespace UnityEngine
         }
         public struct SubEmittersModule
         {
-
             [Obsolete("birth0 property is deprecated. Use AddSubEmitter, RemoveSubEmitter, SetSubEmitterSystem and GetSubEmitterSystem instead.", False)]
             public ParticleSystem birth0 { get; set; }
             [Obsolete("birth1 property is deprecated. Use AddSubEmitter, RemoveSubEmitter, SetSubEmitterSystem and GetSubEmitterSystem instead.", False)]
@@ -434,7 +427,6 @@ namespace UnityEngine
         }
         public struct TextureSheetAnimationModule
         {
-
             [Obsolete("flipU property is deprecated. Use ParticleSystemRenderer.flip.x instead.", False)]
             public float flipU { get; set; }
             [Obsolete("flipV property is deprecated. Use ParticleSystemRenderer.flip.y instead.", False)]
@@ -471,7 +463,6 @@ namespace UnityEngine
         [RequiredByNativeCode("particleSystemParticle", Optional = True)]
         public struct Particle
         {
-
             [Obsolete("Please use Particle.remainingLifetime instead. (UnityUpgradable) -> UnityEngine.ParticleSystem/Particle.remainingLifetime", False)]
             public float lifetime { get; set; }
             [Obsolete("randomValue property is deprecated. Use randomSeed instead to control random behavior of particles.", False)]
@@ -506,7 +497,6 @@ namespace UnityEngine
         [Obsolete("ParticleSystem.CollisionEvent has been deprecated. Use ParticleCollisionEvent instead (UnityUpgradable)", True)]
         public struct CollisionEvent
         {
-
             public Vector3 intersection { get; }
             public Vector3 normal { get; }
             public Vector3 velocity { get; }
@@ -515,7 +505,6 @@ namespace UnityEngine
         [NativeType(CodegenOptions.Custom, "MonoBurst", Header = "Runtime/Scripting/ScriptingCommonStructDefinitions.h")]
         public struct Burst
         {
-
             public Burst(float _time, short _count);
             public Burst(float _time, short _minCount, short _maxCount);
             public Burst(float _time, short _minCount, short _maxCount, int _cycleCount, float _repeatInterval);
@@ -533,7 +522,6 @@ namespace UnityEngine
         [NativeType(CodegenOptions.Custom, "MonoMinMaxGradient", Header = "Runtime/Scripting/ScriptingCommonStructDefinitions.h")]
         public struct MinMaxGradient
         {
-
             public MinMaxGradient(Color color);
             public MinMaxGradient(Gradient gradient);
             public MinMaxGradient(Color min, Color max);
@@ -555,7 +543,6 @@ namespace UnityEngine
         }
         public struct EmitParams
         {
-
             public Particle particle { get; set; }
             public Vector3 position { get; set; }
             public bool applyShapeToPosition { get; set; }
@@ -589,18 +576,15 @@ namespace UnityEngine
         [NativeType(CodegenOptions.Custom, "MonoParticleTrails")]
         public struct Trails
         {
-
             public int capacity { get; set; }
         }
         public struct ColliderData
         {
-
             public int GetColliderCount(int particleIndex);
             public Component GetCollider(int particleIndex, int colliderIndex);
         }
         public struct VelocityOverLifetimeModule
         {
-
             public bool enabled { get; set; }
             public MinMaxCurve x { get; set; }
             public MinMaxCurve y { get; set; }
@@ -628,7 +612,6 @@ namespace UnityEngine
         }
         public struct LimitVelocityOverLifetimeModule
         {
-
             public bool enabled { get; set; }
             public MinMaxCurve limitX { get; set; }
             public float limitXMultiplier { get; set; }
@@ -650,7 +633,6 @@ namespace UnityEngine
         }
         public struct InheritVelocityModule
         {
-
             public bool enabled { get; set; }
             public ParticleSystemInheritVelocityMode mode { get; set; }
             public MinMaxCurve curve { get; set; }
@@ -658,7 +640,6 @@ namespace UnityEngine
         }
         public struct LifetimeByEmitterSpeedModule
         {
-
             public bool enabled { get; set; }
             public MinMaxCurve curve { get; set; }
             public float curveMultiplier { get; set; }
@@ -666,7 +647,6 @@ namespace UnityEngine
         }
         public struct ForceOverLifetimeModule
         {
-
             public bool enabled { get; set; }
             public MinMaxCurve x { get; set; }
             public MinMaxCurve y { get; set; }
@@ -679,20 +659,17 @@ namespace UnityEngine
         }
         public struct ColorOverLifetimeModule
         {
-
             public bool enabled { get; set; }
             public MinMaxGradient color { get; set; }
         }
         public struct ColorBySpeedModule
         {
-
             public bool enabled { get; set; }
             public MinMaxGradient color { get; set; }
             public Vector2 range { get; set; }
         }
         public struct SizeOverLifetimeModule
         {
-
             public bool enabled { get; set; }
             [NativeName("X")]
             public MinMaxCurve size { get; set; }
@@ -708,7 +685,6 @@ namespace UnityEngine
         }
         public struct SizeBySpeedModule
         {
-
             public bool enabled { get; set; }
             [NativeName("X")]
             public MinMaxCurve size { get; set; }
@@ -725,7 +701,6 @@ namespace UnityEngine
         }
         public struct RotationOverLifetimeModule
         {
-
             public bool enabled { get; set; }
             public MinMaxCurve x { get; set; }
             public float xMultiplier { get; set; }
@@ -737,7 +712,6 @@ namespace UnityEngine
         }
         public struct RotationBySpeedModule
         {
-
             public bool enabled { get; set; }
             public MinMaxCurve x { get; set; }
             public float xMultiplier { get; set; }
@@ -750,7 +724,6 @@ namespace UnityEngine
         }
         public struct ExternalForcesModule
         {
-
             public bool enabled { get; set; }
             public float multiplier { get; set; }
             public MinMaxCurve multiplierCurve { get; set; }
@@ -774,7 +747,6 @@ namespace UnityEngine
         }
         public struct NoiseModule
         {
-
             public bool enabled { get; set; }
             public bool separateAxes { get; set; }
             [NativeName("StrengthX")]
@@ -812,7 +784,6 @@ namespace UnityEngine
         }
         public struct LightsModule
         {
-
             public bool enabled { get; set; }
             public float ratio { get; set; }
             public bool useRandomDistribution { get; set; }
@@ -828,7 +799,6 @@ namespace UnityEngine
         }
         public struct TrailModule
         {
-
             public bool enabled { get; set; }
             public ParticleSystemTrailMode mode { get; set; }
             public float ratio { get; set; }
@@ -853,7 +823,6 @@ namespace UnityEngine
         }
         public struct CustomDataModule
         {
-
             public bool enabled { get; set; }
 
             [NativeThrows]

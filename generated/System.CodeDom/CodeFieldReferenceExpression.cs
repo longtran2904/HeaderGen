@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeFieldReferenceExpression : CodeExpression
     {
-
         public CodeFieldReferenceExpression();
         public CodeFieldReferenceExpression(CodeExpression targetObject, string fieldName);
 

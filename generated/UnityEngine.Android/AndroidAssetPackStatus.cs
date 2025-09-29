@@ -6,7 +6,6 @@ namespace UnityEngine.Android
 {
     public enum AndroidAssetPackStatus
     {
-
         Unknown = 0,
         Pending = 1,
         Downloading = 2,

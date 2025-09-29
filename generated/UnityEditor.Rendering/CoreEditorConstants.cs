@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering
 {
     public static class CoreEditorConstants
     {
-
         public static readonly float additionalPropertiesHightLightSpeed;
 
         public static float standardHorizontalSpacing { get; }

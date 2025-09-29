@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public class MetadataImporter : IMetadataImporter
     {
-
         public MetadataImporter(ModuleDefinition module);
 
         public virtual TypeReference ImportReference(TypeReference type, IGenericParameterProvider context);

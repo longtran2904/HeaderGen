@@ -9,7 +9,6 @@ namespace UnityEditor.Profiling.Memory.Experimental
     [Flags]
     public enum TypeFlags
     {
-
         kNone = 0,
         kValueType = 1,
         kArray = 2,

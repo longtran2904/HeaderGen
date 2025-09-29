@@ -9,7 +9,6 @@ namespace Unity.Collections
     [UsedByNativeCode]
     public enum Allocator
     {
-
         Invalid = 0,
         None = 1,
         Temp = 2,

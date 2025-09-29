@@ -10,7 +10,6 @@ namespace System.Collections.ObjectModel
     [DefaultMember("Item")]
     public abstract class KeyedCollection<TKey, TItem> : Collection<TItem>
     {
-
         protected KeyedCollection();
         protected KeyedCollection(IEqualityComparer<TKey> comparer);
         protected KeyedCollection(IEqualityComparer<TKey> comparer, int dictionaryCreationThreshold);

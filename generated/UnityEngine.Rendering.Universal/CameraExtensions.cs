@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.Universal
 {
     public static class CameraExtensions
     {
-
         public static UniversalAdditionalCameraData GetUniversalAdditionalCameraData(this Camera camera);
         public static VolumeFrameworkUpdateMode GetVolumeFrameworkUpdateMode(this Camera camera);
         public static void SetVolumeFrameworkUpdateMode(this Camera camera, VolumeFrameworkUpdateMode mode);

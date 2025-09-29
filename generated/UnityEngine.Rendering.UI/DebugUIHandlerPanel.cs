@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering.UI
 {
     public class DebugUIHandlerPanel : MonoBehaviour
     {
-
         public Text nameLabel;
         public ScrollRect scrollRect;
         public RectTransform viewport;

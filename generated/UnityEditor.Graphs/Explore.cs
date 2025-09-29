@@ -6,14 +6,13 @@ namespace UnityEditor.Graphs
 {
     public sealed class Explore
     {
-
         public static event SearchHandler OnDiscoverNode;
         public static event SearchHandler OnDiscoverEdge;
 
         public static void Traverse(Node v, SearchDirection direction);
+
         public struct SearchEvent
         {
-
             public Node node;
             public Edge edge;
 
@@ -22,7 +21,6 @@ namespace UnityEditor.Graphs
         public delegate void SearchHandler(SearchEvent e);
         public enum SearchDirection
         {
-
             Forward = 0,
             Backward = 1
         }

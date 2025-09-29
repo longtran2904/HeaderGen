@@ -9,7 +9,6 @@ namespace UnityEngine
     [Flags]
     public enum MaterialGlobalIlluminationFlags
     {
-
         None = 0,
         RealtimeEmissive = 1,
         BakedEmissive = 2,

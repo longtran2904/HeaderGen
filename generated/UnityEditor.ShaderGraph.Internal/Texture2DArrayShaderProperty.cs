@@ -8,7 +8,6 @@ namespace UnityEditor.ShaderGraph.Internal
     [FormerName("UnityEditor.ShaderGraph.Texture2DArrayShaderProperty")]
     public class Texture2DArrayShaderProperty : AbstractShaderProperty<SerializableTextureArray>
     {
-
         public override PropertyType propertyType { get; }
     }
 }

@@ -11,7 +11,6 @@ namespace UnityEditor.Animations
     [NativeHeader("Editor/Src/Animation/StateMachineBehaviourContext.h")]
     public class StateMachineBehaviourContext
     {
-
         [NativeName("m_AnimatorController")]
         public AnimatorController animatorController;
         [NativeName("m_AnimatorObject")]

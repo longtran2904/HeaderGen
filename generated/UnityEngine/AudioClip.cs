@@ -11,7 +11,6 @@ namespace UnityEngine
     [StaticAccessor("AudioClipBindings", StaticAccessorType.DoubleColon)]
     public sealed class AudioClip : Object
     {
-
         [NativeProperty("LengthSec")]
         public float length { get; }
         [NativeProperty("SampleCount")]
@@ -40,6 +39,7 @@ namespace UnityEngine
         public static AudioClip Create(string name, int lengthSamples, int channels, int frequency, bool stream);
         public static AudioClip Create(string name, int lengthSamples, int channels, int frequency, bool stream, PCMReaderCallback pcmreadercallback);
         public static AudioClip Create(string name, int lengthSamples, int channels, int frequency, bool stream, PCMReaderCallback pcmreadercallback, PCMSetPositionCallback pcmsetpositioncallback);
+
         public delegate void PCMReaderCallback(float[] data);
         public delegate void PCMSetPositionCallback(int position);
     }

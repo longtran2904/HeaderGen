@@ -15,7 +15,6 @@ namespace UnityEngine
     [StaticAccessor("GetPhysicsManager()", StaticAccessorType.Dot)]
     public class Physics
     {
-
         public const int IgnoreRaycastLayer = 4;
         public const int DefaultRaycastLayers = -5;
         public const int AllLayers = -1;

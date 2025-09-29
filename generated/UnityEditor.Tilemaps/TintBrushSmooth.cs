@@ -9,7 +9,6 @@ namespace UnityEditor.Tilemaps
     [CustomGridBrush(False, False, False, "Tint Brush (Smooth)")]
     public class TintBrushSmooth : GridBrushBase
     {
-
         public float m_Blend;
         public Color m_Color;
 

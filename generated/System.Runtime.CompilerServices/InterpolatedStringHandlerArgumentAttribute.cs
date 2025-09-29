@@ -7,7 +7,6 @@ namespace System.Runtime.CompilerServices
     [AttributeUsage(AttributeTargets.Parameter, AllowMultiple = False, Inherited = False)]
     public sealed class InterpolatedStringHandlerArgumentAttribute : Attribute
     {
-
         public InterpolatedStringHandlerArgumentAttribute(string argument);
         public InterpolatedStringHandlerArgumentAttribute(params string[] arguments);
 

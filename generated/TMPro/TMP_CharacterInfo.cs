@@ -8,7 +8,6 @@ namespace TMPro
 {
     public struct TMP_CharacterInfo
     {
-
         public char character;
         public int index;
         public int stringLength;

@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum PreprocessorOverride
     {
-
         UseProjectSettings = 0,
         ForcePlatformPreprocessor = 1,
         ForceCachingPreprocessor = 2

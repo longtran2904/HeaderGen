@@ -8,7 +8,6 @@ namespace System.Threading
 {
     public class ManualResetEventSlim : IDisposable
     {
-
         public ManualResetEventSlim();
         public ManualResetEventSlim(bool initialState);
         public ManualResetEventSlim(bool initialState, int spinCount);

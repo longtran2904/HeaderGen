@@ -7,7 +7,6 @@ namespace System.Reflection
     [AttributeUsage(AttributeTargets.Assembly, Inherited = False)]
     public sealed class AssemblyTitleAttribute : Attribute
     {
-
         public AssemblyTitleAttribute(string title);
 
         public string Title { get; }

@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public class DefaultAssemblyResolver : BaseAssemblyResolver
     {
-
         public DefaultAssemblyResolver();
 
         public override AssemblyDefinition Resolve(AssemblyNameReference name);

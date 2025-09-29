@@ -14,7 +14,6 @@ namespace UnityEngine.AI
     [StaticAccessor("NavMeshBindings", StaticAccessorType.DoubleColon)]
     public static class NavMesh
     {
-
         public static OnNavMeshPreUpdate onPreUpdate;
         public const int AllAreas = -1;
 
@@ -77,6 +76,7 @@ namespace UnityEngine.AI
         [NativeName("CleanupAfterCarving")]
         [StaticAccessor("GetNavMeshManager()")]
         public static void RemoveAllNavMeshData();
+
         public delegate void OnNavMeshPreUpdate();
     }
 }

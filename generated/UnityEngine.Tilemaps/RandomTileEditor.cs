@@ -9,7 +9,6 @@ namespace UnityEngine.Tilemaps
     [CustomEditor(typeof(RandomTile))]
     public class RandomTileEditor : Editor
     {
-
         public RandomTileEditor();
 
         public void OnEnable();

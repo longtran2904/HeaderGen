@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [Flags]
     public enum RegistrationClassContext
     {
-
         InProcessServer = 1,
         InProcessHandler = 2,
         LocalServer = 4,

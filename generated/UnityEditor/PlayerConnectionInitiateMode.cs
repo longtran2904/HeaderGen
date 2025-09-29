@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum PlayerConnectionInitiateMode
     {
-
         None = 0,
         PlayerConnectsToHost = 1,
         PlayerListens = 2

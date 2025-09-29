@@ -12,7 +12,6 @@ namespace UnityEngine.XR
     [UsedByNativeCode]
     public class XRMeshSubsystemDescriptor : IntegratedSubsystemDescriptor<XRMeshSubsystem>
     {
-
         public XRMeshSubsystemDescriptor();
     }
 }

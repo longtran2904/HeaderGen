@@ -6,7 +6,6 @@ namespace UnityEditor.DeviceSimulation
 {
     public enum TouchPhase
     {
-
         Began = 0,
         Moved = 1,
         Ended = 2,

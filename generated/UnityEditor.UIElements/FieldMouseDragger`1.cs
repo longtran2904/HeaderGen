@@ -9,7 +9,6 @@ namespace UnityEditor.UIElements
 {
     public class FieldMouseDragger<T> : BaseFieldMouseDragger
     {
-
         public FieldMouseDragger(IValueField<T> drivenField);
 
         public bool dragging { get; set; }

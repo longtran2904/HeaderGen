@@ -11,7 +11,6 @@ namespace UnityEditor.Experimental.Licensing
     [RequiredByNativeCode]
     public class EntitlementGroupInfo
     {
-
         public EntitlementGroupInfo();
 
         public string Expiration_ts { get; }

@@ -7,7 +7,6 @@ namespace System.Runtime.CompilerServices
     [AttributeUsage(AttributeTargets.Assembly, AllowMultiple = True)]
     public sealed class DependencyAttribute : Attribute
     {
-
         public DependencyAttribute(string dependentAssemblyArgument, LoadHint loadHintArgument);
 
         public string DependentAssembly { get; }

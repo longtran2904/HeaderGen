@@ -10,7 +10,6 @@ namespace System
 {
     public abstract class Delegate : ICloneable, ISerializable
     {
-
         protected Delegate(object target, string method);
         protected Delegate(Type target, string method);
 

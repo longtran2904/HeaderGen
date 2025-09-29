@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering.LookDev
 {
     public interface IDataProvider
     {
-
         IEnumerable<string> supportedDebugModes { get; }
 
         void FirstInitScene(StageRuntimeInterface stage);

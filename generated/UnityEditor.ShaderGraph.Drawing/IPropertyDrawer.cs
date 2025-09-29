@@ -10,7 +10,6 @@ namespace UnityEditor.ShaderGraph.Drawing
 {
     public interface IPropertyDrawer
     {
-
         Action inspectorUpdateDelegate { get; set; }
 
         VisualElement DrawProperty(PropertyInfo propertyInfo, object actualObject, InspectableAttribute attribute);

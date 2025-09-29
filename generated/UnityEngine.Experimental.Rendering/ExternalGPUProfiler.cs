@@ -9,7 +9,6 @@ namespace UnityEngine.Experimental.Rendering
     [NativeHeader("Runtime/Graphics/GraphicsScriptBindings.h")]
     public static class ExternalGPUProfiler
     {
-
         [FreeFunction("ExternalGPUProfilerBindings::BeginGPUCapture")]
         public static void BeginGPUCapture();
         [FreeFunction("ExternalGPUProfilerBindings::EndGPUCapture")]

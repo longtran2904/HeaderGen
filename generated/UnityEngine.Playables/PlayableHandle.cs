@@ -14,7 +14,6 @@ namespace UnityEngine.Playables
     [UsedByNativeCode]
     public struct PlayableHandle : IEquatable<PlayableHandle>
     {
-
         public static PlayableHandle Null { get; }
 
         public override bool Equals(object p);

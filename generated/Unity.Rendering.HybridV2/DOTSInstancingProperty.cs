@@ -6,7 +6,6 @@ namespace Unity.Rendering.HybridV2
 {
     public struct DOTSInstancingProperty
     {
-
         public int MetadataNameID;
         public int ConstantNameID;
         public int CbufferIndex;

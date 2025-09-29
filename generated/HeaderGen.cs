@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 
 public class HeaderGen
 {
-
     public static readonly string[] AccessModifierString;
     public const BindingFlags flags = 62;
     public const AccessModifier maxAccess = 3;
@@ -43,9 +42,9 @@ public class HeaderGen
     public static Type[] GenericArgumentsFromMethod(MethodBase method);
     public static Type[] GenericArgumentsFromMember(MemberInfo member);
     public static string GetNameWithoutGeneric(string name);
+
     public class NameResolver
     {
-
         public Type currentType;
         public const string delimiter = "";
 
@@ -55,9 +54,9 @@ public class HeaderGen
         public static NameResolver CollisionDataForType(Type type, bool clear);
         public static string AddTypeName(Type type, MemberNameMode mode);
         public string ParseTypeString(string text);
+
         public class CollisionEntry
         {
-
             public Type type;
             public Type targetType;
 
@@ -66,7 +65,6 @@ public class HeaderGen
     }
     public enum AccessModifier
     {
-
         None = 0,
         Public = 1,
         ProtectedInternal = 2,
@@ -77,7 +75,6 @@ public class HeaderGen
     }
     public enum MemberNameMode
     {
-
         Default = 0,
         NoGenericParameter = 1,
         NoAttributePostfix = 2,
@@ -86,7 +83,6 @@ public class HeaderGen
     }
     public class MemberData
     {
-
         public MemberNameMode mode;
         public IList<string> tupleNames;
         public int nameIdx;

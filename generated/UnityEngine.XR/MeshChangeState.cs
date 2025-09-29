@@ -11,7 +11,6 @@ namespace UnityEngine.XR
     [UsedByNativeCode]
     public enum MeshChangeState
     {
-
         Added = 0,
         Updated = 1,
         Removed = 2,

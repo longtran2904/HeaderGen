@@ -6,7 +6,6 @@ namespace UnityEngine.Networking
 {
     public enum NetworkError
     {
-
         Ok = 0,
         WrongHost = 1,
         WrongConnection = 2,

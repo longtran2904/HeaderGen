@@ -9,7 +9,6 @@ namespace System
 {
     public class PlatformNotSupportedException : NotSupportedException
     {
-
         public PlatformNotSupportedException();
         public PlatformNotSupportedException(string message);
         public PlatformNotSupportedException(string message, Exception inner);

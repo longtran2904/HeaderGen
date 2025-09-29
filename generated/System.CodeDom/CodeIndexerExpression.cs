@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeIndexerExpression : CodeExpression
     {
-
         public CodeIndexerExpression();
         public CodeIndexerExpression(CodeExpression targetObject, params CodeExpression[] indices);
 

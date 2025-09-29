@@ -8,7 +8,6 @@ namespace UnityEditor.Search
 {
     public readonly struct SearchValue
     {
-
         public readonly ValueType type;
         public readonly double number;
         public readonly string text;
@@ -27,9 +26,9 @@ namespace UnityEditor.Search
         public override string ToString();
         public static SearchValue ConvertPropertyValue(in SerializedProperty sp);
         public static void SetupEngine<T>(QueryEngine<T> queryEngine);
+
         public enum ValueType
         {
-
             Nil = 0,
             Bool = 1,
             Number = 2,

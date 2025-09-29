@@ -9,7 +9,6 @@ namespace System.Resources
 {
     public class ResourceSet : IDisposable, IEnumerable
     {
-
         protected IResourceReader Reader;
 
         protected ResourceSet();

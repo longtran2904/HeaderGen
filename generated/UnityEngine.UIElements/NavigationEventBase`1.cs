@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public abstract class NavigationEventBase<T> : EventBase<T>, INavigationEvent where T : NavigationEventBase<T>, new()
     {
-
         protected NavigationEventBase();
 
         protected override void Init();

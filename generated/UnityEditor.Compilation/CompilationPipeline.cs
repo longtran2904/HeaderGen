@@ -10,7 +10,6 @@ namespace UnityEditor.Compilation
     [NativeHeader("Editor/Src/ScriptCompilation/ScriptCompilationPipeline.h")]
     public static class CompilationPipeline
     {
-
         public static CodeOptimization codeOptimization { get; set; }
 
         public static event Action<object> compilationStarted;
@@ -41,10 +40,10 @@ namespace UnityEditor.Compilation
         public static string GetPrecompiledAssemblyPathFromAssemblyName(string assemblyName);
         public static void RequestScriptCompilation();
         public static void RequestScriptCompilation(RequestScriptCompilationOptions options);
+
         [Flags]
         public enum PrecompiledAssemblySources
         {
-
             UserAssembly = 1,
             UnityEngine = 2,
             UnityEditor = 4,

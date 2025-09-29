@@ -9,7 +9,6 @@ namespace UnityEditor
 {
     public class LightingExplorerTab
     {
-
         public LightingExplorerTab(string title, Func<UnityEngine.Object[]> objects, Func<LightingExplorerTableColumn[]> columns, bool showFilterGUI = True);
     }
 }

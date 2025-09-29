@@ -6,7 +6,6 @@ namespace System.Threading
 {
     public struct SpinWait
     {
-
         public int Count { get; }
         public bool NextSpinWillYield { get; }
 

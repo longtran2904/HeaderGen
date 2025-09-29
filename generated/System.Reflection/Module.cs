@@ -10,7 +10,6 @@ namespace System.Reflection
 {
     public abstract class Module : ICustomAttributeProvider, ISerializable
     {
-
         public static readonly TypeFilter FilterTypeName;
         public static readonly TypeFilter FilterTypeNameIgnoreCase;
 

@@ -6,7 +6,6 @@ namespace System.Diagnostics.Tracing
 {
     public class EventSourceCreatedEventArgs : EventArgs
     {
-
         public EventSourceCreatedEventArgs();
 
         public EventSource EventSource { get; }

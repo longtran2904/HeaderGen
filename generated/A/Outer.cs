@@ -6,18 +6,16 @@ namespace A
 {
     public class Outer : OG
     {
-
         public Outer();
+
         public class Inner1 : Base<float>
         {
-
             public A a;
 
             public Inner1();
         }
         public class Inner2 : Derive
         {
-
             public A a;
 
             public Inner2();

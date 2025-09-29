@@ -12,7 +12,6 @@ namespace UnityEngine.Profiling
     [UsedByNativeCode]
     public class Sampler
     {
-
         public bool isValid { get; }
         public string name { get; }
 

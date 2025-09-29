@@ -10,7 +10,6 @@ namespace UnityEditor.Timeline.Actions
     [ActiveInMode(TimelineModes.Default)]
     public abstract class TrackAction : IAction
     {
-
         protected TrackAction();
 
         public abstract bool Execute(IEnumerable<TrackAsset> tracks);

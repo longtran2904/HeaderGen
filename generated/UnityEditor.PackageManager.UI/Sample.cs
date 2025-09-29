@@ -9,7 +9,6 @@ namespace UnityEditor.PackageManager.UI
 {
     public struct Sample
     {
-
         public string displayName { get; }
         public string description { get; }
         public string resolvedPath { get; }
@@ -19,10 +18,10 @@ namespace UnityEditor.PackageManager.UI
 
         public static IEnumerable<Sample> FindByPackage(string packageName, string packageVersion);
         public bool Import(ImportOptions options = ImportOptions.None);
+
         [Flags]
         public enum ImportOptions
         {
-
             None = 0,
             OverridePreviousImports = 1,
             HideImportWindow = 2

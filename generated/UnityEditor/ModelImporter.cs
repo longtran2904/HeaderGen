@@ -13,7 +13,6 @@ namespace UnityEditor
     [NativeType(Header = "Modules/AssetPipelineEditor/Public/ModelImporting/ModelImporter.h")]
     public class ModelImporter : AssetImporter
     {
-
         public ModelImporter();
 
         [Obsolete("generateMaterials has been  removed. Use materialImportMode, materialName and materialSearch instead.", True)]

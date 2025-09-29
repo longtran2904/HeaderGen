@@ -8,7 +8,6 @@ namespace System.Security.AccessControl
 {
     public abstract class GenericSecurityDescriptor
     {
-
         public static byte Revision { get; }
         public abstract ControlFlags ControlFlags { get; }
         public abstract SecurityIdentifier Owner { get; set; }

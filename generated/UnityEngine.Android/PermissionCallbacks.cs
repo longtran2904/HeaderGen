@@ -8,7 +8,6 @@ namespace UnityEngine.Android
 {
     public class PermissionCallbacks : AndroidJavaProxy
     {
-
         public PermissionCallbacks();
 
         public event Action<string> PermissionGranted;

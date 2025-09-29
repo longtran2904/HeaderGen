@@ -6,7 +6,6 @@ namespace UnityEditor.Search
 {
     public enum TextCursorPlacement
     {
-
         None = 0,
         MoveLineEnd = 1,
         MoveLineStart = 2,

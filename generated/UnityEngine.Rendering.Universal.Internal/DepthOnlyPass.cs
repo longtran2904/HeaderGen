@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.Universal.Internal
 {
     public class DepthOnlyPass : ScriptableRenderPass
     {
-
         public DepthOnlyPass(RenderPassEvent evt, RenderQueueRange renderQueueRange, LayerMask layerMask);
 
         public void Setup(RenderTextureDescriptor baseDescriptor, RenderTargetHandle depthAttachmentHandle);

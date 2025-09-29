@@ -8,7 +8,6 @@ namespace UnityEngine.Animations
 {
     public static class AnimationPlayableBinding
     {
-
         public static PlayableBinding Create(string name, Object key);
     }
 }

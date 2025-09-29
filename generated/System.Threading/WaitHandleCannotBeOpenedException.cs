@@ -9,7 +9,6 @@ namespace System.Threading
 {
     public class WaitHandleCannotBeOpenedException : ApplicationException
     {
-
         public WaitHandleCannotBeOpenedException();
         public WaitHandleCannotBeOpenedException(string message);
         public WaitHandleCannotBeOpenedException(string message, Exception innerException);

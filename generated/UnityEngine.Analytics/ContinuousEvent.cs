@@ -15,7 +15,6 @@ namespace UnityEngine.Analytics
     [RequiredByNativeCode]
     public class ContinuousEvent
     {
-
         public ContinuousEvent();
 
         public static AnalyticsResult RegisterCollector<T>(string metricName, Func<T> del) where T : IComparable<T>, IEquatable<T>, struct;

@@ -8,7 +8,6 @@ namespace UnityEditor.Timeline
 {
     public struct TrackDrawOptions
     {
-
         public string errorText { get; set; }
         public Color trackColor { get; set; }
         public float minimumHeight { get; set; }

@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [AttributeUsage(AttributeTargets.Parameter)]
     public sealed class DefaultParameterValueAttribute : Attribute
     {
-
         public DefaultParameterValueAttribute(object value);
 
         public object Value { get; }

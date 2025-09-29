@@ -12,7 +12,6 @@ namespace UnityEngine.Analytics
     [RequiredByNativeCode]
     public static class AnalyticsSessionInfo
     {
-
         public static AnalyticsSessionState sessionState { get; }
         public static long sessionId { get; }
         public static long sessionCount { get; }
@@ -25,6 +24,7 @@ namespace UnityEngine.Analytics
 
         public static event SessionStateChanged sessionStateChanged;
         public static event IdentityTokenChanged identityTokenChanged;
+
         public delegate void SessionStateChanged(AnalyticsSessionState sessionState, long sessionId, long sessionElapsedTime, bool sessionChanged);
         public delegate void IdentityTokenChanged(string token);
     }

@@ -11,7 +11,6 @@ namespace UnityEngine.Timeline
     [Obsolete("For best performance use PlayableAsset and PlayableBehaviour.")]
     public class BasicPlayableBehaviour : ScriptableObject, IPlayableAsset, IPlayableBehaviour
     {
-
         public BasicPlayableBehaviour();
 
         public virtual double duration { get; }

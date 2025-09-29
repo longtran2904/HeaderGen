@@ -11,7 +11,6 @@ namespace UnityEngine.Tilemaps
     [RequiredByNativeCode]
     public struct TileChangeData
     {
-
         public TileChangeData(Vector3Int position, TileBase tile, Color color, Matrix4x4 transform);
 
         public Vector3Int position { get; set; }

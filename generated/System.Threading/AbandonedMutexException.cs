@@ -9,7 +9,6 @@ namespace System.Threading
 {
     public class AbandonedMutexException : SystemException
     {
-
         public AbandonedMutexException();
         public AbandonedMutexException(string message);
         public AbandonedMutexException(string message, Exception inner);

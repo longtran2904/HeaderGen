@@ -14,7 +14,6 @@ namespace UnityEditor.AssetImporters
     [RequiredByNativeCode]
     public class MaterialDescription : IDisposable
     {
-
         public MaterialDescription();
 
         ~MaterialDescription();

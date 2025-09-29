@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Modules/AssetBundle/Public/AssetBundleManifest.h")]
     public class AssetBundleManifest : Object
     {
-
         [NativeMethod("GetAllAssetBundles")]
         public string[] GetAllAssetBundles();
         [NativeMethod("GetAllAssetBundlesWithVariant")]

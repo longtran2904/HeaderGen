@@ -9,7 +9,6 @@ namespace Unity.EditorCoroutines.Editor
 {
     public static class EditorWindowCoroutineExtension
     {
-
         public static EditorCoroutine StartCoroutine(this EditorWindow window, IEnumerator routine);
         public static void StopCoroutine(this EditorWindow window, EditorCoroutine coroutine);
     }

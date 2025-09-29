@@ -6,7 +6,6 @@ namespace UnityEditor.Tilemaps
 {
     public class BasePrefabBrushEditor : GridBrushEditor
     {
-
         protected SerializedObject m_SerializedObject;
 
         public BasePrefabBrushEditor();

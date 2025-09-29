@@ -6,7 +6,6 @@ namespace Unity.Profiling
 {
     public enum ProfilerMarkerDataUnit
     {
-
         Undefined = 0,
         TimeNanoseconds = 1,
         Bytes = 2,

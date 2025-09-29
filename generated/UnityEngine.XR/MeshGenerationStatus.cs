@@ -11,7 +11,6 @@ namespace UnityEngine.XR
     [RequiredByNativeCode]
     public enum MeshGenerationStatus
     {
-
         Success = 0,
         InvalidMeshId = 1,
         GenerationAlreadyInProgress = 2,

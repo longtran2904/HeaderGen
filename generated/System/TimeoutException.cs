@@ -9,7 +9,6 @@ namespace System
 {
     public class TimeoutException : SystemException
     {
-
         public TimeoutException();
         public TimeoutException(string message);
         public TimeoutException(string message, Exception innerException);

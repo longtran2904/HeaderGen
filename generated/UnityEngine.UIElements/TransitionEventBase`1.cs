@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public abstract class TransitionEventBase<T> : EventBase<T>, ITransitionEvent where T : TransitionEventBase<T>, new()
     {
-
         protected TransitionEventBase();
 
         public StylePropertyNameCollection stylePropertyNames { get; }

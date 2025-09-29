@@ -16,7 +16,6 @@ namespace UnityEngine.Experimental.Playables
     [StaticAccessor("CameraPlayableBindings", StaticAccessorType.DoubleColon)]
     public struct CameraPlayable : IEquatable<CameraPlayable>, IPlayable
     {
-
         public static CameraPlayable Create(PlayableGraph graph, Camera camera);
         public PlayableHandle GetHandle();
         public bool Equals(CameraPlayable other);

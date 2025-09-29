@@ -6,6 +6,5 @@ using UnityEditor;
 
 public class RenderGraphViewer : EditorWindow
 {
-
     public RenderGraphViewer();
 }

@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Modules/IMGUI/GUISkin.bindings.h")]
     public sealed class GUISettings
     {
-
         public GUISettings();
 
         public bool doubleClickSelectsWord { get; set; }

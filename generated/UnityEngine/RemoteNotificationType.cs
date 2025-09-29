@@ -11,7 +11,6 @@ namespace UnityEngine
     [Obsolete("RemoteNotificationType is deprecated. Please use iOS.NotificationType instead (UnityUpgradable) -> UnityEngine.iOS.NotificationType", True)]
     public enum RemoteNotificationType
     {
-
         None = 0,
         Badge = 1,
         Sound = 2,

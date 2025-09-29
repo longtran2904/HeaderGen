@@ -6,7 +6,6 @@ namespace TMPro
 {
     public class TMP_GlyphPairAdjustmentRecord
     {
-
         public TMP_GlyphPairAdjustmentRecord(TMP_GlyphAdjustmentRecord firstAdjustmentRecord, TMP_GlyphAdjustmentRecord secondAdjustmentRecord);
 
         public TMP_GlyphAdjustmentRecord firstAdjustmentRecord { get; set; }

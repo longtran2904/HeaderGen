@@ -7,7 +7,6 @@ namespace UnityEditor.Tilemaps
     [CustomEditor(typeof(GridPalette))]
     public class GridPaletteEditor : Editor
     {
-
         public GridPaletteEditor();
 
         public override void OnInspectorGUI();

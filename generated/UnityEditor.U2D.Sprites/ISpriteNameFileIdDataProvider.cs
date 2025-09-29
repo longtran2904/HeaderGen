@@ -8,7 +8,6 @@ namespace UnityEditor.U2D.Sprites
 {
     public interface ISpriteNameFileIdDataProvider
     {
-
         IEnumerable<SpriteNameFileIdPair> GetNameFileIdPairs();
         void SetNameFileIdPairs(IEnumerable<SpriteNameFileIdPair> nameFileIdPairs);
     }

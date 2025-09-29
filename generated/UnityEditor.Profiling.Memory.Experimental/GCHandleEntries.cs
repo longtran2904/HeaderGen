@@ -6,7 +6,6 @@ namespace UnityEditor.Profiling.Memory.Experimental
 {
     public class GCHandleEntries
     {
-
         public ArrayEntries<ulong> target { get; }
 
         public uint GetNumEntries();

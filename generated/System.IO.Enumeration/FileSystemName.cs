@@ -6,7 +6,6 @@ namespace System.IO.Enumeration
 {
     public static class FileSystemName
     {
-
         public static string TranslateWin32Expression(string expression);
         public static bool MatchesWin32Expression(ReadOnlySpan<char> expression, ReadOnlySpan<char> name, bool ignoreCase = True);
         public static bool MatchesSimpleExpression(ReadOnlySpan<char> expression, ReadOnlySpan<char> name, bool ignoreCase = True);

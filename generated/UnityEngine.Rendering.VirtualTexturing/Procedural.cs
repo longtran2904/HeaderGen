@@ -15,7 +15,6 @@ namespace UnityEngine.Rendering.VirtualTexturing
     [StaticAccessor("VirtualTexturing::Procedural", StaticAccessorType.DoubleColon)]
     public static class Procedural
     {
-
         [NativeThrows]
         public static void SetCPUCacheSize(int sizeInMegabytes);
         [NativeThrows]
@@ -24,10 +23,10 @@ namespace UnityEngine.Rendering.VirtualTexturing
         public static void SetGPUCacheSettings(GPUCacheSetting[] cacheSettings);
         [NativeThrows]
         public static GPUCacheSetting[] GetGPUCacheSettings();
+
         [NativeHeader("Modules/VirtualTexturing/ScriptBindings/VirtualTexturing.bindings.h")]
         public struct CreationParameters
         {
-
             public int width;
             public int height;
             public int maxActiveRequests;
@@ -39,7 +38,6 @@ namespace UnityEngine.Rendering.VirtualTexturing
         }
         public struct TextureStackRequestHandle<T> : IEquatable<TextureStackRequestHandle<T>> where T : struct
         {
-
             public override bool Equals(object obj);
             public bool Equals(TextureStackRequestHandle<T> other);
             public override int GetHashCode();
@@ -57,7 +55,6 @@ namespace UnityEngine.Rendering.VirtualTexturing
         [UsedByNativeCode]
         public struct GPUTextureStackRequestLayerParameters
         {
-
             public int destX;
             public int destY;
             public RenderTargetIdentifier dest;
@@ -69,7 +66,6 @@ namespace UnityEngine.Rendering.VirtualTexturing
         [UsedByNativeCode]
         public struct CPUTextureStackRequestLayerParameters
         {
-
             public int scanlineSize { get; }
             public int mipScanlineSize { get; }
             public bool requiresCachedMip { get; }
@@ -81,7 +77,6 @@ namespace UnityEngine.Rendering.VirtualTexturing
         [UsedByNativeCode]
         public struct GPUTextureStackRequestParameters
         {
-
             public int level;
             public int x;
             public int y;
@@ -95,7 +90,6 @@ namespace UnityEngine.Rendering.VirtualTexturing
         [UsedByNativeCode]
         public struct CPUTextureStackRequestParameters
         {
-
             public int level;
             public int x;
             public int y;
@@ -107,13 +101,11 @@ namespace UnityEngine.Rendering.VirtualTexturing
         }
         public enum RequestStatus
         {
-
             Dropped = 65539,
             Generated = 65538
         }
         public class TextureStackBase<T> : IDisposable where T : struct
         {
-
             public static readonly int borderSize;
             public const int AllMips = 2147483647;
 
@@ -131,12 +123,10 @@ namespace UnityEngine.Rendering.VirtualTexturing
         }
         public sealed class GPUTextureStack : TextureStackBase<GPUTextureStackRequestParameters>
         {
-
             public GPUTextureStack(string _name, CreationParameters creationParams);
         }
         public sealed class CPUTextureStack : TextureStackBase<CPUTextureStackRequestParameters>
         {
-
             public CPUTextureStack(string _name, CreationParameters creationParams);
         }
     }

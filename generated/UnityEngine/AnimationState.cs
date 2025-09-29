@@ -12,7 +12,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public sealed class AnimationState : TrackedReference
     {
-
         public AnimationState();
 
         public bool enabled { get; set; }

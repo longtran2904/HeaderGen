@@ -8,7 +8,6 @@ namespace TMPro
 {
     public class FastAction<A>
     {
-
         public FastAction();
 
         public void Add(Action<A> rhs);

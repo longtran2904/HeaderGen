@@ -7,7 +7,6 @@ namespace System.Globalization
     [Flags]
     public enum CultureTypes
     {
-
         NeutralCultures = 1,
         SpecificCultures = 2,
         InstalledWin32Cultures = 4,

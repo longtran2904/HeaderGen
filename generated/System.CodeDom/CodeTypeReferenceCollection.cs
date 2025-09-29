@@ -10,7 +10,6 @@ namespace System.CodeDom
     [DefaultMember("Item")]
     public class CodeTypeReferenceCollection : CollectionBase
     {
-
         public CodeTypeReferenceCollection();
         public CodeTypeReferenceCollection(CodeTypeReferenceCollection value);
         public CodeTypeReferenceCollection(CodeTypeReference[] value);

@@ -9,7 +9,6 @@ namespace UnityEditor
     [RequiredByNativeCode]
     public struct UndoPropertyModification
     {
-
         public PropertyModification previousValue;
         public PropertyModification currentValue;
 

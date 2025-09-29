@@ -10,7 +10,6 @@ namespace System.Runtime.CompilerServices
     [CLSCompliant(False)]
     public sealed class TupleElementNamesAttribute : Attribute
     {
-
         public TupleElementNamesAttribute(string[] transformNames);
 
         public IList<string> TransformNames { get; }

@@ -6,7 +6,6 @@ namespace System
 {
     public enum TypeCode
     {
-
         Empty = 0,
         Object = 1,
         DBNull = 2,

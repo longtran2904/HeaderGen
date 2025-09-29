@@ -16,7 +16,6 @@ namespace UnityEngine.Animations
     [StaticAccessor("AnimationMixerPlayableBindings", StaticAccessorType.DoubleColon)]
     public struct AnimationMixerPlayable : IEquatable<AnimationMixerPlayable>, IPlayable
     {
-
         public static AnimationMixerPlayable Null { get; }
 
         [Obsolete("normalizeWeights is obsolete. It has no effect and will be removed.")]

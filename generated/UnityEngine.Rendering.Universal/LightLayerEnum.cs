@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering.Universal
     [Flags]
     public enum LightLayerEnum
     {
-
         Nothing = 0,
         LightLayerDefault = 1,
         LightLayer1 = 2,

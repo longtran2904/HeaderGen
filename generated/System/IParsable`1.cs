@@ -6,7 +6,6 @@ namespace System
 {
     public interface IParsable<TSelf> where TSelf : IParsable<TSelf>
     {
-
         TSelf Parse(string s, IFormatProvider provider);
         bool TryParse(string s, IFormatProvider provider, out TSelf result);
     }

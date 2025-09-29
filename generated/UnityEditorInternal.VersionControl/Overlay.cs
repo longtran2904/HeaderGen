@@ -9,7 +9,6 @@ namespace UnityEditorInternal.VersionControl
 {
     public class Overlay
     {
-
         public Overlay();
 
         public static Rect GetOverlayRect(Rect itemRect);

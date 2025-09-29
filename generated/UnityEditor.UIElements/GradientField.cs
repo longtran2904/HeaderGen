@@ -10,7 +10,6 @@ namespace UnityEditor.UIElements
 {
     public class GradientField : BaseField<Gradient>
     {
-
         public static readonly string ussClassName;
         public static readonly string labelUssClassName;
         public static readonly string inputUssClassName;
@@ -27,14 +26,13 @@ namespace UnityEditor.UIElements
         protected override void ExecuteDefaultAction(EventBase evt);
         public override void SetValueWithoutNotify(Gradient newValue);
         protected override void UpdateMixedValueContent();
+
         public class UxmlFactory : UxmlFactory<GradientField, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : BaseField<Gradient>.UxmlTraits
         {
-
             public UxmlTraits();
         }
     }

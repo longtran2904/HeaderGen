@@ -15,7 +15,6 @@ namespace UnityEditor
     [StaticAccessor("GetPhysicsVisualizationSettings()", StaticAccessorType.Dot)]
     public static class PhysicsVisualizationSettings
     {
-
         public static bool devOptions { get; set; }
         public static int dirtyCount { get; }
         [Obsolete("Enum PhysicsVisualizationSettings.FilterWorkflow has been deprecated.", True)]
@@ -127,15 +126,14 @@ namespace UnityEditor
         public static void SetShowPhysicsSceneMask(FilterWorkflow filterWorkflow, int mask);
         [Obsolete("Enum PhysicsVisualizationSettings.FilterWorkflow has been deprecated. Use APIs without this argument instead", True)]
         public static void SetShowForAllFilters(FilterWorkflow filterWorkflow, bool selected);
+
         public enum FilterWorkflow
         {
-
             HideSelectedItems = 0,
             ShowSelectedItems = 1
         }
         public enum MeshColliderType
         {
-
             Convex = 0,
             NonConvex = 1
         }

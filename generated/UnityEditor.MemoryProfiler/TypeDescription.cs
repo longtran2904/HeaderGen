@@ -6,7 +6,6 @@ namespace UnityEditor.MemoryProfiler
 {
     public struct TypeDescription
     {
-
         public TypeDescription(string name, string assembly, FieldDescription[] fields, byte[] staticFieldBytes, int baseOrElementTypeIndes, int size, ulong typeInfoAddress, int typeIndex, TypeFlags flags);
 
         public bool isValueType { get; }
@@ -20,9 +19,9 @@ namespace UnityEditor.MemoryProfiler
         public int size { get; }
         public ulong typeInfoAddress { get; }
         public int typeIndex { get; }
+
         public enum TypeFlags
         {
-
             kNone = 0,
             kValueType = 1,
             kArray = 2,

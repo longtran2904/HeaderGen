@@ -11,7 +11,6 @@ namespace System
     [DefaultMember("Item")]
     public readonly struct ArraySegment<T> : ICollection<T>, IEnumerable, IEnumerable<T>, IList<T>, IReadOnlyCollection<T>, IReadOnlyList<T>
     {
-
         public ArraySegment(T[] array);
         public ArraySegment(T[] array, int offset, int count);
 
@@ -36,9 +35,9 @@ namespace System
         public static bool operator !=(ArraySegment<T> a, ArraySegment<T> b);
 
         public static implicit operator ArraySegment<T>(T[] array);
+
         public struct Enumerator : IDisposable, IEnumerator, IEnumerator<T>
         {
-
             public T Current { get; }
 
             public bool MoveNext();

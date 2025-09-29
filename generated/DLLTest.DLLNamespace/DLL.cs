@@ -6,7 +6,6 @@ namespace DLLTest.DLLNamespace
 {
     public class DLL
     {
-
         public DLL();
     }
 }

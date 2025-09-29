@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public interface IStream
     {
-
         void Read(out byte[] pv, int cb, nint pcbRead);
         void Write(byte[] pv, int cb, nint pcbWritten);
         void Seek(long dlibMove, int dwOrigin, nint plibNewPosition);

@@ -9,7 +9,6 @@ namespace System
     [SupportedOSPlatform("windows")]
     public class __ComObject : MarshalByRefObject
     {
-
         protected __ComObject();
     }
 }

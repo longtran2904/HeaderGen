@@ -9,7 +9,6 @@ namespace JetBrains.Annotations
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = True)]
     public sealed class ContractAnnotationAttribute : Attribute
     {
-
         public ContractAnnotationAttribute([NotNull] string contract);
         public ContractAnnotationAttribute([NotNull] string contract, bool forceFullStates);
 

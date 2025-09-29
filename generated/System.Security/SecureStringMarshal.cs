@@ -6,7 +6,6 @@ namespace System.Security
 {
     public static class SecureStringMarshal
     {
-
         public static nint SecureStringToCoTaskMemAnsi(SecureString s);
         public static nint SecureStringToGlobalAllocAnsi(SecureString s);
         public static nint SecureStringToCoTaskMemUnicode(SecureString s);

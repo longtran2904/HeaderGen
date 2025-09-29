@@ -9,7 +9,6 @@ namespace Mono.Cecil
     [Flags]
     public enum ParameterAttributes
     {
-
         None = 0,
         In = 1,
         Out = 2,

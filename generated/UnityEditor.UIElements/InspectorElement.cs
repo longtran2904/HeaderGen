@@ -9,7 +9,6 @@ namespace UnityEditor.UIElements
 {
     public class InspectorElement : BindableElement
     {
-
         public static readonly string ussClassName;
         public static readonly string customInspectorUssClassName;
         public static readonly string iMGUIContainerUssClassName;
@@ -30,14 +29,13 @@ namespace UnityEditor.UIElements
 
         protected override void ExecuteDefaultActionAtTarget(EventBase evt);
         public static void FillDefaultInspector(VisualElement container, SerializedObject serializedObject, Editor editor);
+
         public class UxmlFactory : UxmlFactory<InspectorElement, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : BindableElement.UxmlTraits
         {
-
             public UxmlTraits();
         }
     }

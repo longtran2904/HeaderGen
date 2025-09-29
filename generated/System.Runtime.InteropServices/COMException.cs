@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices
 {
     public class COMException : ExternalException
     {
-
         public COMException();
         public COMException(string message);
         public COMException(string message, Exception inner);

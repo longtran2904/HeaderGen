@@ -6,7 +6,6 @@ namespace UnityEditor.Experimental
 {
     public static class BuildPipelineExperimental
     {
-
         public static string GetSessionIdForBuildTarget(BuildTarget target);
     }
 }

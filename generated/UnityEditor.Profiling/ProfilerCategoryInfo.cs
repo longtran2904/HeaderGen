@@ -11,7 +11,6 @@ namespace UnityEditor.Profiling
     [RequiredByNativeCode]
     public struct ProfilerCategoryInfo
     {
-
         public ushort id { get; }
         public Color32 color { get; }
         public string name { get; }

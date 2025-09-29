@@ -7,7 +7,6 @@ namespace UnityEngine.TextCore.Text
     [ExcludeFromObjectFactory]
     public abstract class TextAsset : ScriptableObject
     {
-
         protected TextAsset();
 
         public string version { get; }

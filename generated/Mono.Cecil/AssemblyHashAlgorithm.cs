@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public enum AssemblyHashAlgorithm
     {
-
         None = 0,
         Reserved = 32771,
         SHA1 = 32772

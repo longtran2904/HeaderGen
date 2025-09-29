@@ -10,7 +10,6 @@ namespace UnityEngine.Events
 {
     public class UnityEvent : UnityEventBase
     {
-
         [RequiredByNativeCode]
         public UnityEvent();
 

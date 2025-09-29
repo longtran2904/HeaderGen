@@ -12,7 +12,6 @@ namespace UnityEngine.AI
     [UsedByNativeCode]
     public struct NavMeshTriangulation
     {
-
         public Vector3[] vertices;
         public int[] indices;
         public int[] areas;

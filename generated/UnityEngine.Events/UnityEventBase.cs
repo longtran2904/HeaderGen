@@ -11,7 +11,6 @@ namespace UnityEngine.Events
     [UsedByNativeCode]
     public abstract class UnityEventBase : ISerializationCallbackReceiver
     {
-
         protected UnityEventBase();
 
         protected MethodInfo FindMethod_Impl(string name, object targetObj);

@@ -7,7 +7,6 @@ namespace System.Runtime.Intrinsics.X86
     [CLSCompliant(False)]
     public abstract class Aes : Sse2
     {
-
         public static bool IsSupported { get; }
 
         public static Vector128<byte> Decrypt(Vector128<byte> value, Vector128<byte> roundKey);
@@ -16,9 +15,9 @@ namespace System.Runtime.Intrinsics.X86
         public static Vector128<byte> EncryptLast(Vector128<byte> value, Vector128<byte> roundKey);
         public static Vector128<byte> InverseMixColumns(Vector128<byte> value);
         public static Vector128<byte> KeygenAssist(Vector128<byte> value, byte control);
+
         public abstract class X64 : Sse2.X64
         {
-
             public static bool IsSupported { get; }
         }
     }

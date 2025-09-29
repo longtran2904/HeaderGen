@@ -6,11 +6,10 @@ namespace UnityEditor.Rendering.Universal.ShaderGUI
 {
     public static class BakedLitGUI
     {
-
         public static void Inputs(BakedLitProperties properties, MaterialEditor materialEditor);
+
         public struct BakedLitProperties
         {
-
             public MaterialProperty bumpMapProp;
 
             public BakedLitProperties(MaterialProperty[] properties);

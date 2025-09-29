@@ -12,7 +12,6 @@ namespace UnityEditorInternal
 {
     public class ReorderableList
     {
-
         public HeaderCallbackDelegate drawHeaderCallback;
         public FooterCallbackDelegate drawFooterCallback;
         public ElementCallbackDelegate drawElementCallback;
@@ -63,6 +62,7 @@ namespace UnityEditorInternal
         public void GrabKeyboardFocus();
         public void ReleaseKeyboardFocus();
         public bool HasKeyboardControl();
+
         public delegate void HeaderCallbackDelegate(Rect rect);
         public delegate void FooterCallbackDelegate(Rect rect);
         public delegate void ElementCallbackDelegate(Rect rect, int index, bool isActive, bool isFocused);
@@ -80,7 +80,6 @@ namespace UnityEditorInternal
         public delegate void DragCallbackDelegate(ReorderableList list);
         public class Defaults
         {
-
             public GUIContent iconToolbarPlus;
             public GUIContent iconToolbarPlusMore;
             public GUIContent iconToolbarMinus;

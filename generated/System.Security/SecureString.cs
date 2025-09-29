@@ -6,7 +6,6 @@ namespace System.Security
 {
     public sealed class SecureString : IDisposable
     {
-
         public SecureString();
         [CLSCompliant(False)]
         public SecureString(char* value, int length);

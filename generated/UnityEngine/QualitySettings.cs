@@ -15,7 +15,6 @@ namespace UnityEngine
     [StaticAccessor("GetQualitySettings()", StaticAccessorType.Dot)]
     public sealed class QualitySettings : Object
     {
-
         [Obsolete("Use GetQualityLevel and SetQualityLevel", False)]
         public static QualityLevel currentLevel { get; set; }
         public static int pixelLightCount { get; set; }

@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
 {
     public struct AttachmentDescriptor : IEquatable<AttachmentDescriptor>
     {
-
         public AttachmentDescriptor(GraphicsFormat format);
         public AttachmentDescriptor(RenderTextureFormat format);
         public AttachmentDescriptor(RenderTextureFormat format, RenderTargetIdentifier target, bool loadExistingContents = False, bool storeResults = False, bool resolve = False);

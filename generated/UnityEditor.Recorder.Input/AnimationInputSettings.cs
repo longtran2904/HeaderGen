@@ -12,7 +12,6 @@ namespace UnityEditor.Recorder.Input
     [DisplayName("Animation")]
     public class AnimationInputSettings : RecorderInputSettings
     {
-
         public AnimationInputSettings();
 
         public GameObject gameObject { get; set; }
@@ -25,9 +24,9 @@ namespace UnityEditor.Recorder.Input
         protected internal override void CheckForErrors(List<string> errors);
         public void DuplicateExposedReference();
         public void ClearExposedReference();
+
         public enum CurveSimplificationOptions
         {
-
             Lossy = 0,
             Lossless = 1,
             Disabled = 2

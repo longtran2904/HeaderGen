@@ -11,7 +11,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public sealed class DisallowMultipleComponent : Attribute
     {
-
         public DisallowMultipleComponent();
     }
 }

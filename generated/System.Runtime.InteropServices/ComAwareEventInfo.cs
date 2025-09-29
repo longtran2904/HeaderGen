@@ -12,7 +12,6 @@ namespace System.Runtime.InteropServices
     [EditorBrowsable(EditorBrowsableState.Never)]
     public class ComAwareEventInfo : EventInfo
     {
-
         public ComAwareEventInfo(Type type, string eventName);
 
         public override EventAttributes Attributes { get; }

@@ -9,7 +9,6 @@ namespace UnityEngine.Tilemaps
     [CustomEditor(typeof(PipelineTile))]
     public class PipelineTileEditor : Editor
     {
-
         public PipelineTileEditor();
 
         public void OnEnable();

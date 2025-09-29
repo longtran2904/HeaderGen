@@ -6,7 +6,6 @@ namespace Unity.Collections.LowLevel.Unsafe
 {
     public enum AtomicSafetyErrorType
     {
-
         Deallocated = 0,
         DeallocatedFromJob = 1,
         NotAllocatedFromJob = 2

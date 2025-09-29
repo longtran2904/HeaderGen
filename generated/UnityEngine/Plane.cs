@@ -10,7 +10,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public struct Plane : IFormattable
     {
-
         public Plane(Vector3 inNormal, Vector3 inPoint);
         public Plane(Vector3 inNormal, float d);
         public Plane(Vector3 a, Vector3 b, Vector3 c);

@@ -9,7 +9,6 @@ namespace JetBrains.Annotations
     [AttributeUsage(AttributeTargets.All, Inherited = False)]
     public sealed class UsedImplicitlyAttribute : Attribute
     {
-
         public UsedImplicitlyAttribute();
         public UsedImplicitlyAttribute(ImplicitUseKindFlags useKindFlags);
         public UsedImplicitlyAttribute(ImplicitUseTargetFlags targetFlags);

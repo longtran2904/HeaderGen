@@ -13,7 +13,6 @@ namespace UnityEditor.AI
     [StaticAccessor("NavMeshVisualizationSettingsScriptBindings", StaticAccessorType.DoubleColon)]
     public static class NavMeshEditorHelpers
     {
-
         public static void OpenAgentSettings(int agentTypeID);
         public static void OpenAreaSettings();
         public static void DrawAgentDiagram(Rect rect, float agentRadius, float agentHeight, float agentClimb, float agentSlope);

@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public struct JointSuspension2D
     {
-
         public float dampingRatio { get; set; }
         public float frequency { get; set; }
         public float angle { get; set; }

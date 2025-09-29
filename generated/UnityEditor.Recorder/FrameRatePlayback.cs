@@ -6,7 +6,6 @@ namespace UnityEditor.Recorder
 {
     public enum FrameRatePlayback
     {
-
         Constant = 0,
         Variable = 1
     }

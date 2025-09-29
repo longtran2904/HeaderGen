@@ -10,7 +10,6 @@ namespace UnityEngine.SceneManagement
     [NativeHeader("Runtime/Export/SceneManager/Scene.bindings.h")]
     public struct Scene
     {
-
         public int handle { get; }
         public string path { get; }
         public string name { get; set; }

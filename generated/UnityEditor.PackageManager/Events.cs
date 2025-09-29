@@ -8,7 +8,6 @@ namespace UnityEditor.PackageManager
 {
     public static class Events
     {
-
         public static event Action<PackageRegistrationEventArgs> registeringPackages;
         public static event Action<PackageRegistrationEventArgs> registeredPackages;
     }

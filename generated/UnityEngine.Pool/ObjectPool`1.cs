@@ -8,7 +8,6 @@ namespace UnityEngine.Pool
 {
     public class ObjectPool<T> : IDisposable, IObjectPool<T> where T : class
     {
-
         public ObjectPool(Func<T> createFunc, Action<T> actionOnGet = null, Action<T> actionOnRelease = null, Action<T> actionOnDestroy = null, bool collectionCheck = True, int defaultCapacity = 10, int maxSize = 10000);
 
         public int CountAll { get; }

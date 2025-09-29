@@ -11,7 +11,6 @@ namespace UnityEngine.TextCore.LowLevel
     [UsedByNativeCode]
     public struct GlyphPairAdjustmentRecord : IEquatable<GlyphPairAdjustmentRecord>
     {
-
         public GlyphPairAdjustmentRecord(GlyphAdjustmentRecord firstAdjustmentRecord, GlyphAdjustmentRecord secondAdjustmentRecord);
 
         public GlyphAdjustmentRecord firstAdjustmentRecord { get; set; }

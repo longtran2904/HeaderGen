@@ -9,7 +9,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class Attacher
     {
-
         public Attacher(VisualElement anchored, VisualElement target, SpriteAlignment alignment);
 
         public VisualElement target { get; }

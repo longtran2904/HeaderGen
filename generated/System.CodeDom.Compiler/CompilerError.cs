@@ -6,7 +6,6 @@ namespace System.CodeDom.Compiler
 {
     public class CompilerError
     {
-
         public CompilerError();
         public CompilerError(string fileName, int line, int column, string errorNumber, string errorText);
 

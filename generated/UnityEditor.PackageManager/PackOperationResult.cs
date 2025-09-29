@@ -11,7 +11,6 @@ namespace UnityEditor.PackageManager
     [RequiredByNativeCode]
     public sealed class PackOperationResult
     {
-
         public string tarballPath { get; }
     }
 }

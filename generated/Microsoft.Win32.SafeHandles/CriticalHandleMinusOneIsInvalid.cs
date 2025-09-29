@@ -8,7 +8,6 @@ namespace Microsoft.Win32.SafeHandles
 {
     public abstract class CriticalHandleMinusOneIsInvalid : CriticalHandle
     {
-
         protected CriticalHandleMinusOneIsInvalid();
 
         public override bool IsInvalid { get; }

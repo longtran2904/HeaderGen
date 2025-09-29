@@ -8,7 +8,6 @@ namespace UnityEditor.PackageManager
 {
     public class PackageRegistrationEventArgs
     {
-
         public ReadOnlyCollection<PackageInfo> added { get; }
         public ReadOnlyCollection<PackageInfo> removed { get; }
         public ReadOnlyCollection<PackageInfo> changedFrom { get; }

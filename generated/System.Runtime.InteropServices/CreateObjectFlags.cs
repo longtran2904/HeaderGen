@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [Flags]
     public enum CreateObjectFlags
     {
-
         None = 0,
         TrackerObject = 1,
         UniqueInstance = 2,

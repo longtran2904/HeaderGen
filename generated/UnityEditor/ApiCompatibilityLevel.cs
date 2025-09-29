@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum ApiCompatibilityLevel
     {
-
         NET_2_0 = 1,
         NET_2_0_Subset = 2,
         NET_4_6 = 3,

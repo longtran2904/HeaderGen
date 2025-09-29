@@ -9,7 +9,6 @@ namespace System
     [AttributeUsage(AttributeTargets.All, AllowMultiple = False, Inherited = True)]
     public abstract class Attribute
     {
-
         protected Attribute();
 
         public virtual object TypeId { get; }

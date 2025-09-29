@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
     [NativeHeader("Runtime/Graphics/DrawSplashScreenAndWatermarks.h")]
     public class SplashScreen
     {
-
         public SplashScreen();
 
         public static bool isFinished { get; }
@@ -19,9 +18,9 @@ namespace UnityEngine.Rendering
         public static void Stop(StopBehavior stopBehavior);
         [FreeFunction("DrawSplashScreen_Binding")]
         public static void Draw();
+
         public enum StopBehavior
         {
-
             StopImmediate = 0,
             FadeOut = 1
         }

@@ -9,7 +9,6 @@ namespace System.Threading
 {
     public class SemaphoreSlim : IDisposable
     {
-
         public SemaphoreSlim(int initialCount);
         public SemaphoreSlim(int initialCount, int maxCount);
 

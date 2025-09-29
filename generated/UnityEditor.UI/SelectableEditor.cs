@@ -9,7 +9,6 @@ namespace UnityEditor.UI
     [CustomEditor(typeof(Selectable), True)]
     public class SelectableEditor : Editor
     {
-
         public SelectableEditor();
 
         protected virtual void OnEnable();

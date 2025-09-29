@@ -10,7 +10,6 @@ namespace System
 {
     public readonly struct Decimal : IAdditionOperators<decimal, decimal, decimal>, IAdditiveIdentity<decimal, decimal>, IComparable, IComparable<decimal>, IComparisonOperators<decimal, decimal, bool>, IConvertible, IDecrementOperators<decimal>, IDeserializationCallback, IDivisionOperators<decimal, decimal, decimal>, IEqualityOperators<decimal, decimal, bool>, IEquatable<decimal>, IFloatingPoint<decimal>, IFloatingPointConstants<decimal>, IFormattable, IIncrementOperators<decimal>, IMinMaxValue<decimal>, IModulusOperators<decimal, decimal, decimal>, IMultiplicativeIdentity<decimal, decimal>, IMultiplyOperators<decimal, decimal, decimal>, INumber<decimal>, INumberBase<decimal>, IParsable<decimal>, ISerializable, ISignedNumber<decimal>, ISpanFormattable, ISpanParsable<decimal>, ISubtractionOperators<decimal, decimal, decimal>, IUnaryNegationOperators<decimal, decimal>, IUnaryPlusOperators<decimal, decimal>, IUtf8SpanFormattable, IUtf8SpanParsable<decimal>
     {
-
         public const decimal Zero = 0;
         public const decimal One = 1;
         public const decimal MinusOne = -1;

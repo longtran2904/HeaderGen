@@ -13,7 +13,6 @@ namespace UnityEngine.XR
     [RequiredByNativeCode]
     public struct InputFeatureUsage : IEquatable<InputFeatureUsage>
     {
-
         public string name { get; }
         public Type type { get; }
 

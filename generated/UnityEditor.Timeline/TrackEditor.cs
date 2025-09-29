@@ -10,7 +10,6 @@ namespace UnityEditor.Timeline
 {
     public class TrackEditor
     {
-
         public static readonly float DefaultTrackHeight;
         public static readonly float MinimumTrackHeight;
         public static readonly float MaximumTrackHeight;

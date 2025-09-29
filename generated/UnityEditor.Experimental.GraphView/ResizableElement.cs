@@ -8,12 +8,11 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class ResizableElement : VisualElement
     {
-
         public ResizableElement();
         public ResizableElement(string uiFile);
+
         public class UxmlFactory : UxmlFactory<ResizableElement>
         {
-
             public UxmlFactory();
         }
     }

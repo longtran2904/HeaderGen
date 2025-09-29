@@ -10,7 +10,6 @@ namespace UnityEngine.Experimental.GlobalIllumination
     [StaticAccessor("GetRenderSettings()", StaticAccessorType.Dot)]
     public class RenderSettings
     {
-
         public RenderSettings();
 
         public static bool useRadianceAmbientProbe { get; set; }

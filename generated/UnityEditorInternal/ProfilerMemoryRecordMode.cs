@@ -9,7 +9,6 @@ namespace UnityEditorInternal
     [Flags]
     public enum ProfilerMemoryRecordMode
     {
-
         None = 0,
         GCAlloc = 1,
         UnsafeUtilityMalloc = 2,

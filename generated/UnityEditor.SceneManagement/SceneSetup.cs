@@ -6,7 +6,6 @@ namespace UnityEditor.SceneManagement
 {
     public class SceneSetup
     {
-
         public SceneSetup();
 
         public string path { get; set; }

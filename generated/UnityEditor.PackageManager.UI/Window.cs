@@ -6,7 +6,6 @@ namespace UnityEditor.PackageManager.UI
 {
     public static class Window
     {
-
         public static void Open(string packageToSelect);
     }
 }

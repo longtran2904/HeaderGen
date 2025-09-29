@@ -9,7 +9,6 @@ namespace UnityEditor.ShaderGraph
 {
     public class GroupData : JsonObject
     {
-
         public GroupData();
         public GroupData(string title, Vector2 position);
 

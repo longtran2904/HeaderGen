@@ -6,7 +6,6 @@ namespace System.Runtime.InteropServices.Marshalling
 {
     public sealed class ComObject : ComImportInteropInterfaceDetailsStrategy.IComImportAdapter, IDynamicInterfaceCastable, IUnmanagedVirtualMethodTableProvider
     {
-
         ~ComObject();
 
         public void FinalRelease();

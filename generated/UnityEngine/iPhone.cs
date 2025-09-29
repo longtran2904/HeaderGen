@@ -11,7 +11,6 @@ namespace UnityEngine
     [Obsolete("iPhone class is deprecated. Please use iOS.Device instead (UnityUpgradable) -> UnityEngine.iOS.Device", True)]
     public sealed class iPhone
     {
-
         public iPhone();
 
         public static iPhoneGeneration generation { get; }

@@ -14,7 +14,6 @@ namespace UnityEngine.VFX
     [RequireComponent(typeof(Transform))]
     public class VisualEffect : Behaviour
     {
-
         public Action<VFXOutputEventArgs> outputEventReceived;
 
         public VisualEffect();

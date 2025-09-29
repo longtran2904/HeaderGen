@@ -6,7 +6,6 @@ namespace UnityEditor.PackageManager
 {
     public static class BuildUtilities
     {
-
         public static void RegisterShouldIncludeInBuildCallback(IShouldIncludeInBuildCallback cb);
     }
 }

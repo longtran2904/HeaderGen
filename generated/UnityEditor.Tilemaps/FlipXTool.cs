@@ -8,7 +8,6 @@ namespace UnityEditor.Tilemaps
 {
     public sealed class FlipXTool : FlipTool
     {
-
         public FlipXTool();
 
         protected override string tooltipStringFormat { get; }

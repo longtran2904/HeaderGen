@@ -10,7 +10,6 @@ namespace UnityEditor.MPE
     [MovedFrom("Unity.MPE")]
     public enum ProcessEvent
     {
-
         [Obsolete("... (UnityUpgradable) -> Undefined")]
         UMP_EVENT_UNDEFINED = 0,
         Undefined = 0,

@@ -6,7 +6,6 @@ namespace Mono.Cecil.Cil
 {
     public enum ImportTargetKind
     {
-
         ImportNamespace = 1,
         ImportNamespaceInAssembly = 2,
         ImportType = 3,

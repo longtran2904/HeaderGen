@@ -7,7 +7,6 @@ namespace System.Reflection
     [Flags]
     public enum MemberTypes
     {
-
         Constructor = 1,
         Event = 2,
         Field = 4,

@@ -8,7 +8,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class GridBackground : ImmediateModeElement
     {
-
         public GridBackground();
 
         protected override void ImmediateRepaint();

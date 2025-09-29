@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering
 {
     public class HierarchicalBox
     {
-
         public HierarchicalBox(Color baseColor, Color[] polychromeHandleColors = null, HierarchicalBox parent = null);
 
         public bool monoHandle { get; set; }

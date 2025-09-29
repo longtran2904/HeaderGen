@@ -6,7 +6,6 @@ namespace System.Collections.Generic
 {
     public sealed class ReferenceEqualityComparer : IEqualityComparer, IEqualityComparer<object>
     {
-
         public static ReferenceEqualityComparer Instance { get; }
 
         public bool Equals(object x, object y);

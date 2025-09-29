@@ -7,7 +7,6 @@ namespace System.Security.AccessControl
     [Flags]
     public enum AccessControlSections
     {
-
         None = 0,
         Audit = 1,
         Access = 2,

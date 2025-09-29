@@ -9,7 +9,6 @@ namespace UnityEditor.ShaderGraph.Internal
 {
     public sealed class ShaderGraphVfxAsset : ScriptableObject, ISerializationCallbackReceiver
     {
-
         [SerializeField]
         public bool generatesWithShaderGraph;
         [SerializeField]

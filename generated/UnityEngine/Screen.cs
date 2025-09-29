@@ -11,7 +11,6 @@ namespace UnityEngine
 {
     public sealed class Screen
     {
-
         public Screen();
 
         public static int width { get; }

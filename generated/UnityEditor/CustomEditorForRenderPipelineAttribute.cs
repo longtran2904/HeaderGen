@@ -9,7 +9,6 @@ namespace UnityEditor
     [AttributeUsage(AttributeTargets.Class)]
     public class CustomEditorForRenderPipelineAttribute : CustomEditor
     {
-
         public CustomEditorForRenderPipelineAttribute(Type inspectedType, Type renderPipeline);
         public CustomEditorForRenderPipelineAttribute(Type inspectedType, Type renderPipeline, bool editorForChildClasses);
     }

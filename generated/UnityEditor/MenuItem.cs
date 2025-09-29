@@ -11,7 +11,6 @@ namespace UnityEditor
     [RequiredByNativeCode]
     public sealed class MenuItem : Attribute
     {
-
         public string menuItem;
         public bool validate;
         public int priority;

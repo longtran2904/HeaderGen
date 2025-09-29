@@ -8,7 +8,6 @@ namespace UnityEditor.IMGUI.Controls
 {
     public class JointAngularLimitHandle
     {
-
         public JointAngularLimitHandle();
 
         public float xMin { get; set; }

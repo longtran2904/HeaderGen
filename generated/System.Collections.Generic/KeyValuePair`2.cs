@@ -8,7 +8,6 @@ namespace System.Collections.Generic
 {
     public readonly struct KeyValuePair<TKey, TValue>
     {
-
         public KeyValuePair(TKey key, TValue value);
 
         public TKey Key { get; }

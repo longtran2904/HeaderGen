@@ -16,7 +16,6 @@ namespace UnityEngine
     [RequiredByNativeCode(Optional = True, GenerateProxy = True)]
     public struct Vector2 : IEquatable<Vector2>, IFormattable
     {
-
         public float x;
         public float y;
         public const float kEpsilon = 1E-05F;

@@ -11,7 +11,6 @@ namespace UnityEditorInternal
     [Obsolete("AnimatorController is obsolete. Use UnityEditor.Animations.AnimatorController instead (UnityUpgradable) -> UnityEditor.Animations.AnimatorController", True)]
     public class AnimatorController : RuntimeAnimatorController
     {
-
         public AnimatorController();
     }
 }

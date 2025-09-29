@@ -7,7 +7,6 @@ namespace System.Runtime.Intrinsics.X86
     [CLSCompliant(False)]
     public abstract class Avx512BW : Avx512F
     {
-
         public static bool IsSupported { get; }
 
         public static Vector512<byte> Abs(Vector512<sbyte> value);
@@ -140,9 +139,9 @@ namespace System.Runtime.Intrinsics.X86
         public static Vector512<byte> UnpackLow(Vector512<byte> left, Vector512<byte> right);
         public static Vector512<short> UnpackLow(Vector512<short> left, Vector512<short> right);
         public static Vector512<ushort> UnpackLow(Vector512<ushort> left, Vector512<ushort> right);
+
         public abstract class VL : Avx512F.VL
         {
-
             public static bool IsSupported { get; }
 
             public static Vector128<byte> CompareGreaterThan(Vector128<byte> left, Vector128<byte> right);
@@ -216,7 +215,6 @@ namespace System.Runtime.Intrinsics.X86
         }
         public abstract class X64 : Avx512F.X64
         {
-
             public static bool IsSupported { get; }
         }
     }

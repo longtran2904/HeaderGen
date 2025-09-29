@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Modules/ClusterRenderer/ClusterNetwork.h")]
     public class ClusterNetwork
     {
-
         public ClusterNetwork();
 
         public static bool isMasterOfCluster { get; }

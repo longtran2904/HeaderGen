@@ -9,7 +9,6 @@ namespace TreeEditor
 {
     public class TreeGroup
     {
-
         public int seed;
         public int distributionFrequency;
         public DistributionMode distributionMode;
@@ -55,22 +54,20 @@ namespace TreeEditor
         protected static int GetMaterialIndex(Material m, List<TreeMaterial> materials, bool tileV);
         protected static Vector4 CreateTangent(TreeNode node, Quaternion rot, Vector3 normal);
         protected static float ComputeAmbientOcclusion(Vector3 pos, Vector3 nor, List<TreeAOSphere> aoSpheres, float aoDensity);
+
         public enum LockFlag
         {
-
             LockPosition = 1,
             LockAlignment = 2,
             LockShape = 4
         }
         public enum BuildFlag
         {
-
             BuildAmbientOcclusion = 1,
             BuildWeldParts = 2
         }
         public enum DistributionMode
         {
-
             Random = 0,
             Alternate = 1,
             Opposite = 2,

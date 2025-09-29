@@ -10,7 +10,6 @@ namespace UnityEngine
     [StaticAccessor("FrameDebugger", StaticAccessorType.DoubleColon)]
     public static class FrameDebugger
     {
-
         public static bool enabled { get; }
     }
 }

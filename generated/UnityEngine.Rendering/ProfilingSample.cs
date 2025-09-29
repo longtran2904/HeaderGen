@@ -10,7 +10,6 @@ namespace UnityEngine.Rendering
     [Obsolete("Please use ProfilingScope")]
     public struct ProfilingSample : IDisposable
     {
-
         public ProfilingSample(CommandBuffer cmd, string name, CustomSampler sampler = null);
         public ProfilingSample(CommandBuffer cmd, string format, object arg);
         public ProfilingSample(CommandBuffer cmd, string format, params object[] args);

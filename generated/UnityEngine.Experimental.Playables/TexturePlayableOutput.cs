@@ -15,7 +15,6 @@ namespace UnityEngine.Experimental.Playables
     [StaticAccessor("TexturePlayableOutputBindings", StaticAccessorType.DoubleColon)]
     public struct TexturePlayableOutput : IPlayableOutput
     {
-
         public static TexturePlayableOutput Null { get; }
 
         public static TexturePlayableOutput Create(PlayableGraph graph, string name, RenderTexture target);

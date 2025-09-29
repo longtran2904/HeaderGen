@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public struct EasingFunction : IEquatable<EasingFunction>
     {
-
         public EasingFunction(EasingMode mode);
 
         public EasingMode mode { get; set; }

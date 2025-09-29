@@ -10,7 +10,6 @@ namespace UnityEditor.Overlays
 {
     public class EditorToolbarDropdownToggle : BaseField<bool>
     {
-
         public EditorToolbarDropdownToggle();
         public EditorToolbarDropdownToggle(Action dropdownClickEvent);
         public EditorToolbarDropdownToggle(string text, Action dropdownClickEvent);

@@ -9,7 +9,6 @@ namespace UnityEditor.Hardware
     [RequiredByNativeCode(GenerateProxy = True)]
     public struct UsbDevice
     {
-
         public readonly int vendorId;
         public readonly int productId;
         public readonly int revision;

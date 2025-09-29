@@ -8,7 +8,6 @@ namespace System.CodeDom.Compiler
 {
     public sealed class CompilerInfo
     {
-
         public Type CodeDomProviderType { get; }
         public bool IsCodeDomProviderTypeValid { get; }
 

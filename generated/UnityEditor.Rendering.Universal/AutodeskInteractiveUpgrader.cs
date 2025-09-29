@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering.Universal
 {
     public class AutodeskInteractiveUpgrader : MaterialUpgrader
     {
-
         public AutodeskInteractiveUpgrader(string oldShaderName);
 
         public override void Convert(Material srcMaterial, Material dstMaterial);

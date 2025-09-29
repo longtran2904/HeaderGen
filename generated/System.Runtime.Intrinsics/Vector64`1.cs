@@ -9,7 +9,6 @@ namespace System.Runtime.Intrinsics
     [DefaultMember("Item")]
     public readonly struct Vector64<T> : IEquatable<Vector64<T>>
     {
-
         public T this[int index] { get; }
         public static Vector64<T> AllBitsSet { get; }
         public static int Count { get; }

@@ -6,7 +6,6 @@ namespace JetBrains.Annotations
 {
     public enum AssertionConditionType
     {
-
         IS_TRUE = 0,
         IS_FALSE = 1,
         IS_NULL = 2,

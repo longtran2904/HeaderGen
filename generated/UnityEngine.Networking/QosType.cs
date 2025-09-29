@@ -6,7 +6,6 @@ namespace UnityEngine.Networking
 {
     public enum QosType
     {
-
         Unreliable = 0,
         UnreliableFragmented = 1,
         UnreliableSequenced = 2,

@@ -6,7 +6,6 @@ namespace UnityEditor.Animations
 {
     public enum AnimatorConditionMode
     {
-
         If = 1,
         IfNot = 2,
         Greater = 3,

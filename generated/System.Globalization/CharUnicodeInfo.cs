@@ -6,7 +6,6 @@ namespace System.Globalization
 {
     public static class CharUnicodeInfo
     {
-
         public static int GetDecimalDigitValue(char ch);
         public static int GetDecimalDigitValue(string s, int index);
         public static int GetDigitValue(char ch);

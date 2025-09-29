@@ -9,7 +9,6 @@ namespace UnityEditor
     [Flags]
     public enum VertexChannelCompressionFlags
     {
-
         None = 0,
         Position = 1,
         Normal = 2,

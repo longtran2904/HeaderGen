@@ -10,7 +10,6 @@ namespace UnityEditor.EventSystems
     [CustomEditor(typeof(EventSystem), True)]
     public class EventSystemEditor : Editor
     {
-
         public EventSystemEditor();
 
         protected GUIStyle previewLabelStyle { get; }

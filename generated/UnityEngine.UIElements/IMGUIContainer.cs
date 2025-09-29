@@ -9,7 +9,6 @@ namespace UnityEngine.UIElements
 {
     public class IMGUIContainer : VisualElement, IDisposable
     {
-
         public static readonly string ussClassName;
 
         public IMGUIContainer();
@@ -26,14 +25,13 @@ namespace UnityEngine.UIElements
         protected internal override Vector2 DoMeasure(float desiredWidth, MeasureMode widthMode, float desiredHeight, MeasureMode heightMode);
         public void Dispose();
         protected virtual void Dispose(bool disposeManaged);
+
         public class UxmlFactory : UxmlFactory<IMGUIContainer, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : VisualElement.UxmlTraits
         {
-
             public UxmlTraits();
 
             public override IEnumerable<UxmlChildElementDescription> uxmlChildElementsDescription { get; }

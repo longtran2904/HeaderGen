@@ -11,7 +11,6 @@ namespace UnityEngine.Rendering.Universal
     [ExcludeFromPreset]
     public class UniversalRenderPipelineAsset : RenderPipelineAsset, ISerializationCallbackReceiver
     {
-
         public static readonly int AdditionalLightsDefaultShadowResolutionTierLow;
         public static readonly int AdditionalLightsDefaultShadowResolutionTierMedium;
         public static readonly int AdditionalLightsDefaultShadowResolutionTierHigh;

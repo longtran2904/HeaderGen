@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public class XRGraphics
     {
-
         public XRGraphics();
 
         public static float eyeTextureResolutionScale { get; set; }
@@ -20,9 +19,9 @@ namespace UnityEngine.Rendering
         public static RenderTextureDescriptor eyeTextureDesc { get; }
         public static int eyeTextureWidth { get; }
         public static int eyeTextureHeight { get; }
+
         public enum StereoRenderingMode
         {
-
             MultiPass = 0,
             SinglePass = 1,
             SinglePassInstanced = 2,

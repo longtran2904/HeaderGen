@@ -9,7 +9,6 @@ namespace System.Runtime.CompilerServices
 {
     public sealed class SwitchExpressionException : InvalidOperationException
     {
-
         public SwitchExpressionException();
         public SwitchExpressionException(Exception innerException);
         public SwitchExpressionException(object unmatchedValue);

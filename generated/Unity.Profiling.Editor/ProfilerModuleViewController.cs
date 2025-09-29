@@ -10,7 +10,6 @@ namespace Unity.Profiling.Editor
 {
     public abstract class ProfilerModuleViewController : IDisposable
     {
-
         protected ProfilerModuleViewController(ProfilerWindow profilerWindow);
 
         public bool Disposed { get; }

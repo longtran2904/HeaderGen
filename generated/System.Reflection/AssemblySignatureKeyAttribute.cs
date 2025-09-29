@@ -7,7 +7,6 @@ namespace System.Reflection
     [AttributeUsage(AttributeTargets.Assembly, AllowMultiple = False, Inherited = False)]
     public sealed class AssemblySignatureKeyAttribute : Attribute
     {
-
         public AssemblySignatureKeyAttribute(string publicKey, string countersignature);
 
         public string PublicKey { get; }

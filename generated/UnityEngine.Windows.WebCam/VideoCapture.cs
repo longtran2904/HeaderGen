@@ -14,7 +14,6 @@ namespace UnityEngine.Windows.WebCam
     [StaticAccessor("VideoCaptureBindings", StaticAccessorType.DoubleColon)]
     public class VideoCapture : IDisposable
     {
-
         ~VideoCapture();
 
         public static IEnumerable<Resolution> SupportedResolutions { get; }
@@ -36,15 +35,14 @@ namespace UnityEngine.Windows.WebCam
         [ThreadAndSerializationSafe]
         public nint GetUnsafePointerToVideoDeviceController();
         public void Dispose();
+
         public enum CaptureResultType
         {
-
             Success = 0,
             UnknownError = 1
         }
         public enum AudioState
         {
-
             MicAudio = 0,
             ApplicationAudio = 1,
             ApplicationAndMicAudio = 2,
@@ -52,7 +50,6 @@ namespace UnityEngine.Windows.WebCam
         }
         public struct VideoCaptureResult
         {
-
             public CaptureResultType resultType;
             public long hResult;
 

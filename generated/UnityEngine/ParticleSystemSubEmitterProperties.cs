@@ -9,7 +9,6 @@ namespace UnityEngine
     [Flags]
     public enum ParticleSystemSubEmitterProperties
     {
-
         InheritNothing = 0,
         InheritEverything = 31,
         InheritColor = 1,

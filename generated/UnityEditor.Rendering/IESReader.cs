@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering
 {
     public class IESReader
     {
-
         public IESReader();
 
         public string FileFormatVersion { get; }

@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public abstract class TypeSystem
     {
-
         [Obsolete("Use CoreLibrary")]
         public IMetadataScope Corlib { get; }
         public IMetadataScope CoreLibrary { get; }

@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum RenderTextureFormat
     {
-
         ARGB32 = 0,
         Depth = 1,
         ARGBHalf = 2,

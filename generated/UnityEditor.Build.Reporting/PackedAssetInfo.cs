@@ -10,7 +10,6 @@ namespace UnityEditor.Build.Reporting
     [NativeType(Header = "Modules/BuildReportingEditor/Public/PackedAssets.h")]
     public struct PackedAssetInfo
     {
-
         [NativeName("fileID")]
         public long id { get; }
         public Type type { get; }

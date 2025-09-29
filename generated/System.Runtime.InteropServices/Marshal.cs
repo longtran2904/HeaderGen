@@ -12,7 +12,6 @@ namespace System.Runtime.InteropServices
 {
     public static class Marshal
     {
-
         public static readonly int SystemDefaultCharSize;
         public static readonly int SystemMaxDBCSCharSize;
 

@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public sealed class SafeArrayMarshalInfo : MarshalInfo
     {
-
         public SafeArrayMarshalInfo();
 
         public VariantType ElementType { get; set; }

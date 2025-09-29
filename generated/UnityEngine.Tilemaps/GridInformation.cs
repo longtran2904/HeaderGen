@@ -8,7 +8,6 @@ namespace UnityEngine.Tilemaps
     [HelpURL("https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@latest/index.html?subfolder=/manual/GridInformation.html")]
     public class GridInformation : MonoBehaviour, ISerializationCallbackReceiver
     {
-
         public GridInformation();
 
         public bool SetPositionProperty<T>(Vector3Int position, string name, T positionProperty);

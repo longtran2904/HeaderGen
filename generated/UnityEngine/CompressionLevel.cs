@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum CompressionLevel
     {
-
         None = 0,
         Fastest = 1,
         Fast = 2,

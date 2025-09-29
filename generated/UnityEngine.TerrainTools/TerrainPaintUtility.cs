@@ -10,7 +10,6 @@ namespace UnityEngine.TerrainTools
     [MovedFrom("UnityEngine.Experimental.TerrainAPI")]
     public static class TerrainPaintUtility
     {
-
         public static Material GetBuiltinPaintMaterial();
         public static void GetBrushWorldSizeLimits(out float minBrushWorldSize, out float maxBrushWorldSize, float terrainTileWorldSize, int terrainTileTextureResolutionPixels, int minBrushResolutionPixels = 1, int maxBrushResolutionPixels = 8192);
         public static BrushTransform CalculateBrushTransform(Terrain terrain, Vector2 brushCenterTerrainUV, float brushSize, float brushRotationDegrees);

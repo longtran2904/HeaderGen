@@ -11,16 +11,15 @@ namespace UnityEngine.Experimental.Rendering.Universal
     [Tooltip("Render Objects simplifies the injection of additional render passes by exposing a selection of commonly used settings.")]
     public class RenderObjects : ScriptableRendererFeature
     {
-
         public RenderObjectsSettings settings;
 
         public RenderObjects();
 
         public override void Create();
         public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData);
+
         public class RenderObjectsSettings
         {
-
             public string passTag;
             public RenderPassEvent Event;
             public FilterSettings filterSettings;
@@ -36,7 +35,6 @@ namespace UnityEngine.Experimental.Rendering.Universal
         }
         public class FilterSettings
         {
-
             public RenderQueueType RenderQueueType;
             public LayerMask LayerMask;
             public string[] PassNames;
@@ -45,7 +43,6 @@ namespace UnityEngine.Experimental.Rendering.Universal
         }
         public class CustomCameraSettings
         {
-
             public bool overrideCamera;
             public bool restoreCamera;
             public Vector4 offset;

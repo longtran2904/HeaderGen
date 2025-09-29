@@ -8,7 +8,6 @@ namespace System.Reflection.Emit
 {
     public abstract class ModuleBuilder : Module
     {
-
         protected ModuleBuilder();
 
         public void CreateGlobalFunctions();

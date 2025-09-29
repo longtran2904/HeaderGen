@@ -6,7 +6,6 @@ namespace UnityEditor.ShaderGraph
 {
     public interface IMaySupportVFX
     {
-
         bool SupportsVFX();
         bool CanSupportVFX();
     }

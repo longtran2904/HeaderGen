@@ -9,7 +9,6 @@ namespace UnityEditor.U2D.Sprites
 {
     public interface ISpritePhysicsOutlineDataProvider
     {
-
         List<Vector2[]> GetOutlines(GUID guid);
         void SetOutlines(GUID guid, List<Vector2[]> data);
         float GetTessellationDetail(GUID guid);

@@ -11,7 +11,6 @@ namespace UnityEngine
     [StaticAccessor("GizmoBindings", StaticAccessorType.DoubleColon)]
     public sealed class Gizmos
     {
-
         public Gizmos();
 
         public static Color color { get; set; }

@@ -8,7 +8,6 @@ namespace UnityEngine
 {
     public sealed class WaitWhile : CustomYieldInstruction
     {
-
         public WaitWhile(Func<bool> predicate);
 
         public override bool keepWaiting { get; }

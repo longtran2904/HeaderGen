@@ -11,7 +11,6 @@ namespace System
     [CLSCompliant(False)]
     public readonly struct UIntPtr : IAdditionOperators<nuint, nuint, nuint>, IAdditiveIdentity<nuint, nuint>, IBinaryInteger<nuint>, IBinaryNumber<nuint>, IBitwiseOperators<nuint, nuint, nuint>, IComparable, IComparable<nuint>, IComparisonOperators<nuint, nuint, bool>, IDecrementOperators<nuint>, IDivisionOperators<nuint, nuint, nuint>, IEqualityOperators<nuint, nuint, bool>, IEquatable<nuint>, IFormattable, IIncrementOperators<nuint>, IMinMaxValue<nuint>, IModulusOperators<nuint, nuint, nuint>, IMultiplicativeIdentity<nuint, nuint>, IMultiplyOperators<nuint, nuint, nuint>, INumber<nuint>, INumberBase<nuint>, IParsable<nuint>, ISerializable, IShiftOperators<nuint, int, nuint>, ISpanFormattable, ISpanParsable<nuint>, ISubtractionOperators<nuint, nuint, nuint>, IUnaryNegationOperators<nuint, nuint>, IUnaryPlusOperators<nuint, nuint>, IUnsignedNumber<nuint>, IUtf8SpanFormattable, IUtf8SpanParsable<nuint>
     {
-
         public static readonly nuint Zero;
 
         public UIntPtr(uint value);

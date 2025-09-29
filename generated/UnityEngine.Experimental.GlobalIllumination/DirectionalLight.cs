@@ -8,7 +8,6 @@ namespace UnityEngine.Experimental.GlobalIllumination
 {
     public struct DirectionalLight
     {
-
         public int instanceID;
         public bool shadow;
         public LightMode mode;

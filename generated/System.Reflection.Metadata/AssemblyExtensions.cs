@@ -6,7 +6,6 @@ namespace System.Reflection.Metadata
 {
     public static class AssemblyExtensions
     {
-
         [CLSCompliant(False)]
         public static bool TryGetRawMetadata(this Assembly assembly, out byte* blob, out int length);
     }

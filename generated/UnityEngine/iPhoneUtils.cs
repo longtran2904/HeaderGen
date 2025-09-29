@@ -10,7 +10,6 @@ namespace UnityEngine
     [EditorBrowsable(EditorBrowsableState.Never)]
     public class iPhoneUtils
     {
-
         public iPhoneUtils();
 
         [Obsolete("isApplicationGenuine property is deprecated. Please use Application.genuine instead (UnityUpgradable) -> Application.genuine")]

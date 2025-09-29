@@ -6,7 +6,6 @@ namespace UnityEditor.MemoryProfiler
 {
     public struct Connection
     {
-
         public Connection(int from, int to);
 
         public int from { get; set; }

@@ -9,7 +9,6 @@ namespace Mono.Cecil
     [Flags]
     public enum EventAttributes
     {
-
         None = 0,
         SpecialName = 512,
         RTSpecialName = 1024

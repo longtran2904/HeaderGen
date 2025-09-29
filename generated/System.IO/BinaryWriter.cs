@@ -9,7 +9,6 @@ namespace System.IO
 {
     public class BinaryWriter : IAsyncDisposable, IDisposable
     {
-
         protected Stream OutStream;
         public static readonly BinaryWriter Null;
 

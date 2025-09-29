@@ -6,7 +6,6 @@ namespace UnityEngine.TestTools
 {
     public class MonoBehaviourTest<T> : CustomYieldInstruction where T : MonoBehaviour, IMonoBehaviourTest
     {
-
         public MonoBehaviourTest(bool dontDestroyOnLoad = True);
 
         public T component { get; }

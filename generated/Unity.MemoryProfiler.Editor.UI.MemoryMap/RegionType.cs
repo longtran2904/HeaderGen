@@ -6,7 +6,6 @@ namespace Unity.MemoryProfiler.Editor.UI.MemoryMap
 {
     public enum RegionType
     {
-
         Native = 0,
         VirtualMemory = 1,
         Managed = 2,

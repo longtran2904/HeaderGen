@@ -6,13 +6,12 @@ namespace Internal
 {
     public static class Console
     {
-
         public static void WriteLine(string s);
         public static void WriteLine();
         public static void Write(string s);
+
         public static class Error
         {
-
             public static void Write(string s);
         }
     }

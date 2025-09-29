@@ -10,7 +10,6 @@ namespace UnityEditor.UIElements
 {
     public class CurveField : BaseField<AnimationCurve>
     {
-
         public static readonly string ussClassName;
         public static readonly string labelUssClassName;
         public static readonly string inputUssClassName;
@@ -28,19 +27,17 @@ namespace UnityEditor.UIElements
         public override void SetValueWithoutNotify(AnimationCurve newValue);
         protected override void ExecuteDefaultAction(EventBase evt);
         protected override void UpdateMixedValueContent();
+
         public class UxmlFactory : UxmlFactory<CurveField, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : BaseField<AnimationCurve>.UxmlTraits
         {
-
             public UxmlTraits();
         }
         public enum RenderMode
         {
-
             Texture = 0,
             Mesh = 1,
             Default = 0

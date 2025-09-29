@@ -9,7 +9,6 @@ namespace UnityEditor.Build.Content
     [UsedByNativeCode]
     public struct SerializedLocation
     {
-
         public string fileName { get; }
         public ulong offset { get; }
         public ulong size { get; }

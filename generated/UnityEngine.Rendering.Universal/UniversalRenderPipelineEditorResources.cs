@@ -6,15 +6,14 @@ namespace UnityEngine.Rendering.Universal
 {
     public class UniversalRenderPipelineEditorResources : ScriptableObject
     {
-
         public ShaderResources shaders;
         public MaterialResources materials;
 
         public UniversalRenderPipelineEditorResources();
+
         [ReloadGroup]
         public sealed class ShaderResources
         {
-
             [Reload("Shaders/Autodesk Interactive/Autodesk Interactive.shadergraph", ReloadAttribute.Package.Root)]
             public Shader autodeskInteractivePS;
             [Reload("Shaders/Autodesk Interactive/Autodesk Interactive Transparent.shadergraph", ReloadAttribute.Package.Root)]
@@ -37,7 +36,6 @@ namespace UnityEngine.Rendering.Universal
         [ReloadGroup]
         public sealed class MaterialResources
         {
-
             [Reload("Runtime/Materials/Lit.mat", ReloadAttribute.Package.Root)]
             public Material lit;
             [Reload("Runtime/Materials/ParticlesLit.mat", ReloadAttribute.Package.Root)]

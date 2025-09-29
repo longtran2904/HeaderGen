@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public struct DrawingSettings : IEquatable<DrawingSettings>
     {
-
         public static readonly int maxShaderPasses;
 
         public DrawingSettings(ShaderTagId shaderPassName, SortingSettings sortingSettings);

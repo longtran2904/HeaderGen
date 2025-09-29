@@ -8,7 +8,6 @@ namespace TMPro.EditorUtilities
 {
     public static class EditorShaderUtilities
     {
-
         public static void CopyMaterialProperties(Material source, Material destination);
     }
 }

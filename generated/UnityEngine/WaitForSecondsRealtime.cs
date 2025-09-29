@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public class WaitForSecondsRealtime : CustomYieldInstruction
     {
-
         public WaitForSecondsRealtime(float time);
 
         public float waitTime { get; set; }

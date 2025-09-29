@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class MouseUpEvent : MouseEventBase<MouseUpEvent>
     {
-
         public MouseUpEvent();
 
         protected override void Init();

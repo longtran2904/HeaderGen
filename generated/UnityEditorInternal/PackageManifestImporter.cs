@@ -10,7 +10,6 @@ namespace UnityEditorInternal
     [ExcludeFromPreset]
     public sealed class PackageManifestImporter : AssetImporter
     {
-
         public PackageManifestImporter();
     }
 }

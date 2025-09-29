@@ -10,7 +10,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Src/AssetPipeline/TextureImporting/IHVImageFormatImporter.h")]
     public sealed class IHVImageFormatImporter : AssetImporter
     {
-
         public IHVImageFormatImporter();
 
         public bool isReadable { get; set; }

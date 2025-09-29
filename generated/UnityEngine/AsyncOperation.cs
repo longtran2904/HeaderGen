@@ -13,7 +13,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public class AsyncOperation : YieldInstruction
     {
-
         public AsyncOperation();
 
         ~AsyncOperation();

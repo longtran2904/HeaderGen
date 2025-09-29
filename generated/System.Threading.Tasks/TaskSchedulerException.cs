@@ -9,7 +9,6 @@ namespace System.Threading.Tasks
 {
     public class TaskSchedulerException : Exception
     {
-
         public TaskSchedulerException();
         public TaskSchedulerException(string message);
         public TaskSchedulerException(Exception innerException);

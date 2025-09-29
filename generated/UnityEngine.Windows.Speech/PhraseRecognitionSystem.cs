@@ -8,7 +8,6 @@ namespace UnityEngine.Windows.Speech
 {
     public static class PhraseRecognitionSystem
     {
-
         public static bool isSupported { get; }
         public static SpeechSystemStatus Status { get; }
 
@@ -20,6 +19,7 @@ namespace UnityEngine.Windows.Speech
         public static void Restart();
         [NativeHeader("PlatformDependent/Win/Bindings/SpeechBindings.h")]
         public static void Shutdown();
+
         public delegate void ErrorDelegate(SpeechError errorCode);
         public delegate void StatusDelegate(SpeechSystemStatus status);
     }

@@ -7,7 +7,6 @@ namespace System.Diagnostics.CodeAnalysis
     [AttributeUsage(AttributeTargets.Parameter, Inherited = False)]
     public sealed class DoesNotReturnIfAttribute : Attribute
     {
-
         public DoesNotReturnIfAttribute(bool parameterValue);
 
         public bool ParameterValue { get; }

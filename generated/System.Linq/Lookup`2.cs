@@ -11,7 +11,6 @@ namespace System.Linq
     [DefaultMember("Item")]
     public class Lookup<TKey, TElement> : IEnumerable, IEnumerable<IGrouping<TKey, TElement>>, IIListProvider<IGrouping<TKey, TElement>>, ILookup<TKey, TElement>
     {
-
         public IEnumerable<TElement> this[TKey key] { get; }
         public int Count { get; }
 

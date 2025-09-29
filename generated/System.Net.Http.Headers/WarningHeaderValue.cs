@@ -6,7 +6,6 @@ namespace System.Net.Http.Headers
 {
     public class WarningHeaderValue : ICloneable
     {
-
         public WarningHeaderValue(int code, string agent, string text);
         public WarningHeaderValue(int code, string agent, string text, DateTimeOffset date);
 

@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public class ModuleReference : IMetadataScope, IMetadataTokenProvider
     {
-
         public ModuleReference(string name);
 
         public string Name { get; set; }

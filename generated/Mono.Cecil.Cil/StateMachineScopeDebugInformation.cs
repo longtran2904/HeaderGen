@@ -8,7 +8,6 @@ namespace Mono.Cecil.Cil
 {
     public sealed class StateMachineScopeDebugInformation : CustomDebugInformation
     {
-
         public static Guid KindIdentifier;
 
         public StateMachineScopeDebugInformation(Instruction start, Instruction end);

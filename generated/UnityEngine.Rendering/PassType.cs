@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public enum PassType
     {
-
         Normal = 0,
         Vertex = 1,
         VertexLM = 2,

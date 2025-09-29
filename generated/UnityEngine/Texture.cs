@@ -15,7 +15,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public class Texture : Object
     {
-
         public static readonly int GenerateAllMips;
 
         protected Texture();

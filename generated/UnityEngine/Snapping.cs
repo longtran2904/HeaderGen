@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public static class Snapping
     {
-
         public static float Snap(float val, float snap);
         public static Vector2 Snap(Vector2 val, Vector2 snap);
         public static Vector3 Snap(Vector3 val, Vector3 snap, SnapAxis axis = SnapAxis.All);

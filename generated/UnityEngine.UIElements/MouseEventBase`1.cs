@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEventInternal where T : MouseEventBase<T>, new()
     {
-
         protected MouseEventBase();
 
         public EventModifiers modifiers { get; protected set; }

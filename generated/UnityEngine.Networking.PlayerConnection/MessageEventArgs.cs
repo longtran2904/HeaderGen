@@ -6,7 +6,6 @@ namespace UnityEngine.Networking.PlayerConnection
 {
     public class MessageEventArgs
     {
-
         public int playerId;
         public byte[] data;
 

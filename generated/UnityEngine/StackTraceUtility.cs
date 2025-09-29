@@ -9,7 +9,6 @@ namespace UnityEngine
 {
     public static class StackTraceUtility
     {
-
         [RequiredByNativeCode]
         [SecuritySafeCritical]
         public static string ExtractStackTrace();

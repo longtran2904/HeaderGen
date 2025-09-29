@@ -6,7 +6,6 @@ namespace UnityEditor.Compilation
 {
     public class ResponseFileData
     {
-
         public string[] Defines;
         public string[] FullPathReferences;
         public string[] Errors;

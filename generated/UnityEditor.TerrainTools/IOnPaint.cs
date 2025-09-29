@@ -11,7 +11,6 @@ namespace UnityEditor.TerrainTools
     [MovedFrom("UnityEditor.Experimental.TerrainAPI")]
     public interface IOnPaint
     {
-
         Texture brushTexture { get; }
         Vector2 uv { get; }
         float brushStrength { get; }

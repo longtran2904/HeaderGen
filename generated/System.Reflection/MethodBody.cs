@@ -8,7 +8,6 @@ namespace System.Reflection
 {
     public class MethodBody
     {
-
         protected MethodBody();
 
         public virtual int LocalSignatureMetadataToken { get; }

@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Camera/OcclusionPortal.h")]
     public sealed class OcclusionPortal : Component
     {
-
         public OcclusionPortal();
 
         [NativeProperty("IsOpen")]

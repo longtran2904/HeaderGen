@@ -12,7 +12,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public sealed class GUISkin : ScriptableObject
     {
-
         public GUISkin();
 
         public Font font { get; set; }

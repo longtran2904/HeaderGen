@@ -6,7 +6,6 @@ namespace System.Globalization
 {
     public class TaiwanCalendar : Calendar
     {
-
         public TaiwanCalendar();
 
         public override DateTime MinSupportedDateTime { get; }

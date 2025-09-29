@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 public struct TestUnsafe
 {
-
     public unsafe fixed int array[16];
     public int* ptr;
     public int*[][] ptrArr;
@@ -17,9 +16,9 @@ public struct TestUnsafe
     public int*[] UnsafeFunc3();
     public async void MyFunc1();
     public async Task<int> AsyncFunc(int p);
+
     public class UnsafeClass
     {
-
         public int* Ptr;
 
         public UnsafeClass();

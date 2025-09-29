@@ -10,7 +10,6 @@ namespace UnityEditor.Profiling.Memory.Experimental
 {
     public class PackedMemorySnapshot : IDisposable
     {
-
         ~PackedMemorySnapshot();
 
         public ConnectionEntries connections { get; }

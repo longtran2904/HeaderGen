@@ -11,7 +11,6 @@ namespace UnityEditor.Build.Content
     [UsedByNativeCode]
     public struct SceneDependencyInfo
     {
-
         public string scene { get; }
         [Obsolete("processedScene has been deprecated.")]
         public string processedScene { get; }

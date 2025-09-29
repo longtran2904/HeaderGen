@@ -9,7 +9,6 @@ namespace UnityEngine.Scripting
     [AttributeUsage(AttributeTargets.Assembly)]
     public class AlwaysLinkAssemblyAttribute : Attribute
     {
-
         public AlwaysLinkAssemblyAttribute();
     }
 }

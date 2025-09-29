@@ -9,7 +9,6 @@ namespace UnityEditor
     [MovedFrom("")]
     public class AssetModificationProcessor
     {
-
         public AssetModificationProcessor();
     }
 }

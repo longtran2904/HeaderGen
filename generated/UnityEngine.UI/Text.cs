@@ -10,7 +10,6 @@ namespace UnityEngine.UI
     [RequireComponent(typeof(CanvasRenderer))]
     public class Text : MaskableGraphic, ILayoutElement
     {
-
         [SerializeField]
         [TextArea(3, 10)]
         protected string m_Text;

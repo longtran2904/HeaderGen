@@ -8,7 +8,6 @@ namespace TreeEditor
 {
     public class TreeVertex
     {
-
         public Vector3 pos;
         public Vector3 nor;
         public Vector4 tangent;

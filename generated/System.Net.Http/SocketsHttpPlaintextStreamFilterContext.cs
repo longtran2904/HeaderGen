@@ -8,7 +8,6 @@ namespace System.Net.Http
 {
     public sealed class SocketsHttpPlaintextStreamFilterContext
     {
-
         public Stream PlaintextStream { get; }
         public Version NegotiatedHttpVersion { get; }
         public HttpRequestMessage InitialRequestMessage { get; }

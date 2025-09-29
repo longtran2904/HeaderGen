@@ -8,7 +8,6 @@ namespace UnityEditor.IMGUI.Controls
 {
     public class ArcHandle
     {
-
         public ArcHandle();
 
         ~ArcHandle();

@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices
 {
     public class SafeArrayTypeMismatchException : SystemException
     {
-
         public SafeArrayTypeMismatchException();
         public SafeArrayTypeMismatchException(string message);
         public SafeArrayTypeMismatchException(string message, Exception inner);

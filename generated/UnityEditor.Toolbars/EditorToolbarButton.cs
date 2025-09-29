@@ -10,7 +10,6 @@ namespace UnityEditor.Toolbars
 {
     public class EditorToolbarButton : ToolbarButton
     {
-
         public EditorToolbarButton();
         public EditorToolbarButton(Action clickEvent);
         public EditorToolbarButton(string text, Action clickEvent);

@@ -11,7 +11,6 @@ namespace UnityEditorInternal
     [Obsolete("StateMachine is obsolete. Use UnityEditor.Animations.AnimatorStateMachine instead (UnityUpgradable) -> UnityEditor.Animations.AnimatorStateMachine", True)]
     public class StateMachine : UnityEngine.Object
     {
-
         public StateMachine();
 
         public State defaultState { get; set; }

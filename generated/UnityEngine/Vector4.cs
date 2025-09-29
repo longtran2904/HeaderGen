@@ -17,7 +17,6 @@ namespace UnityEngine
     [RequiredByNativeCode(Optional = True, GenerateProxy = True)]
     public struct Vector4 : IEquatable<Vector4>, IFormattable
     {
-
         public float x;
         public float y;
         public float z;

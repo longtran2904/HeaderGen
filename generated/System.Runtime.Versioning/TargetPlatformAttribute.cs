@@ -7,7 +7,6 @@ namespace System.Runtime.Versioning
     [AttributeUsage(AttributeTargets.Assembly, AllowMultiple = False, Inherited = False)]
     public sealed class TargetPlatformAttribute : OSPlatformAttribute
     {
-
         public TargetPlatformAttribute(string platformName);
     }
 }

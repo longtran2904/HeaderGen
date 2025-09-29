@@ -7,7 +7,6 @@ namespace System.Diagnostics.Tracing
     [Flags]
     public enum EventKeywords
     {
-
         None = 0,
         All = -1,
         MicrosoftTelemetry = 562949953421312,

@@ -12,7 +12,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public sealed class TerrainLayer : Object
     {
-
         public TerrainLayer();
 
         public Texture2D diffuseTexture { get; set; }

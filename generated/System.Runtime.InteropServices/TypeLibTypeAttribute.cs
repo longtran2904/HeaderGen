@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Interface, Inherited = False)]
     public sealed class TypeLibTypeAttribute : Attribute
     {
-
         public TypeLibTypeAttribute(TypeLibTypeFlags flags);
         public TypeLibTypeAttribute(short flags);
 

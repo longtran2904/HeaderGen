@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public abstract class GUIDrawer
     {
-
         protected GUIDrawer();
     }
 }

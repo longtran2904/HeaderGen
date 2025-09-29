@@ -9,7 +9,6 @@ namespace UnityEditor.Tilemaps
 {
     public class TileUtility
     {
-
         public TileUtility();
 
         public static Tile CreateDefaultTile();

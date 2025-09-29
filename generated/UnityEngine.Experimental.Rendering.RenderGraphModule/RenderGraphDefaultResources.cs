@@ -6,7 +6,6 @@ namespace UnityEngine.Experimental.Rendering.RenderGraphModule
 {
     public class RenderGraphDefaultResources
     {
-
         public TextureHandle blackTexture { get; }
         public TextureHandle whiteTexture { get; }
         public TextureHandle clearTextureXR { get; }

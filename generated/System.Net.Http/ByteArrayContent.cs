@@ -10,7 +10,6 @@ namespace System.Net.Http
 {
     public class ByteArrayContent : HttpContent
     {
-
         public ByteArrayContent(byte[] content);
         public ByteArrayContent(byte[] content, int offset, int count);
 

@@ -8,7 +8,6 @@ namespace UnityEditor.Recorder
 {
     public abstract class BaseRenderTextureInput : RecorderInput
     {
-
         protected BaseRenderTextureInput();
 
         protected internal RenderTexture OutputRenderTexture { get; set; }

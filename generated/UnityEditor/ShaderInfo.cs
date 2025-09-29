@@ -11,7 +11,6 @@ namespace UnityEditor
     [RequiredByNativeCode]
     public struct ShaderInfo
     {
-
         public string name { get; }
         public bool supported { get; }
         public bool hasErrors { get; }

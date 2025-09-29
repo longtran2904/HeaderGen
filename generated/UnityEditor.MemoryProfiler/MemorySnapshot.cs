@@ -8,7 +8,6 @@ namespace UnityEditor.MemoryProfiler
 {
     public static class MemorySnapshot
     {
-
         public static event Action<PackedMemorySnapshot> OnSnapshotReceived;
 
         public static void RequestNewSnapshot();

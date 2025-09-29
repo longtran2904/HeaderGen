@@ -9,7 +9,6 @@ namespace UnityEditor
 {
     public static class SceneModeUtility
     {
-
         public static T[] GetSelectedObjectsOfType<T>(out GameObject[] gameObjects, params Type[] types) where T : UnityEngine.Object;
         public static void SearchForType(Type type);
         public static Type SearchBar(params Type[] types);

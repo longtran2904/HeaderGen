@@ -14,7 +14,6 @@ namespace UnityEngine
     [StaticAccessor("TextRenderingPrivate", StaticAccessorType.DoubleColon)]
     public sealed class Font : Object
     {
-
         public Font();
         public Font(string name);
 
@@ -48,6 +47,7 @@ namespace UnityEngine
         public void RequestCharactersInTexture(string characters, int size);
         [ExcludeFromDocs]
         public void RequestCharactersInTexture(string characters);
+
         public delegate void FontTextureRebuildCallback();
     }
 }

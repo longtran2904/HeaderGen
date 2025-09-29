@@ -10,7 +10,6 @@ namespace UnityEngine.Timeline
     [TrackColor(0.25F, 0.25F, 0.25F)]
     public class SignalTrack : MarkerTrack
     {
-
         public SignalTrack();
     }
 }

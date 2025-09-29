@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public abstract class MouseCaptureEventBase<T> : PointerCaptureEventBase<T>, IMouseCaptureEvent where T : MouseCaptureEventBase<T>, new()
     {
-
         protected MouseCaptureEventBase();
 
         public IEventHandler relatedTarget { get; }

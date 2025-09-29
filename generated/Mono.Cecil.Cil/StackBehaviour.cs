@@ -6,7 +6,6 @@ namespace Mono.Cecil.Cil
 {
     public enum StackBehaviour
     {
-
         Pop0 = 0,
         Pop1 = 1,
         Pop1_pop1 = 2,

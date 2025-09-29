@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public interface IStyle
     {
-
         StyleEnum<Align> alignContent { get; set; }
         StyleEnum<Align> alignItems { get; set; }
         StyleEnum<Align> alignSelf { get; set; }

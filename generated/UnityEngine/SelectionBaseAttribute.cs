@@ -9,7 +9,6 @@ namespace UnityEngine
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = False, Inherited = True)]
     public class SelectionBaseAttribute : Attribute
     {
-
         public SelectionBaseAttribute();
     }
 }

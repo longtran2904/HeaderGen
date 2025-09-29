@@ -9,11 +9,10 @@ namespace TMPro.SpriteAssetUtilities
 {
     public class TexturePacker_JsonArray
     {
-
         public TexturePacker_JsonArray();
+
         public struct SpriteFrame
         {
-
             public float x;
             public float y;
             public float w;
@@ -23,7 +22,6 @@ namespace TMPro.SpriteAssetUtilities
         }
         public struct SpriteSize
         {
-
             public float w;
             public float h;
 
@@ -31,7 +29,6 @@ namespace TMPro.SpriteAssetUtilities
         }
         public struct Frame
         {
-
             public string filename;
             public SpriteFrame frame;
             public bool rotated;
@@ -42,7 +39,6 @@ namespace TMPro.SpriteAssetUtilities
         }
         public struct Meta
         {
-
             public string app;
             public string version;
             public string image;
@@ -53,7 +49,6 @@ namespace TMPro.SpriteAssetUtilities
         }
         public class SpriteDataObject
         {
-
             public List<Frame> frames;
             public Meta meta;
 

@@ -9,7 +9,6 @@ namespace UnityEditor.ShaderGraph.Serialization
 {
     public class JsonObject : ISerializationCallbackReceiver
     {
-
         [SerializeField]
         protected int m_SGVersion;
         protected internal VersionChange onBeforeVersionChange;
@@ -31,6 +30,7 @@ namespace UnityEditor.ShaderGraph.Serialization
         public virtual void OnAfterDeserialize();
         public virtual void OnAfterDeserialize(string json);
         public virtual void OnAfterMultiDeserialize(string json);
+
         protected internal delegate void VersionChange(int newVersion);
     }
 }

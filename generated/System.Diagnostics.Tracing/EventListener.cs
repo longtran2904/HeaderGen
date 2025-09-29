@@ -8,7 +8,6 @@ namespace System.Diagnostics.Tracing
 {
     public abstract class EventListener : IDisposable
     {
-
         protected EventListener();
 
         public event EventHandler<EventSourceCreatedEventArgs> EventSourceCreated;

@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [AttributeUsage(AttributeTargets.Delegate, AllowMultiple = False, Inherited = False)]
     public sealed class UnmanagedFunctionPointerAttribute : Attribute
     {
-
         public bool BestFitMapping;
         public bool SetLastError;
         public bool ThrowOnUnmappableChar;

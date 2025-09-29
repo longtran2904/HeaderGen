@@ -9,7 +9,6 @@ namespace UnityEditor.U2D.Sprites
 {
     public interface ISpriteBoneDataProvider
     {
-
         List<SpriteBone> GetBones(GUID guid);
         void SetBones(GUID guid, List<SpriteBone> bones);
     }

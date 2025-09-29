@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
     [DebugState(new[] {typeof(DebugUI.BoolField), typeof(DebugUI.Foldout), typeof(DebugUI.HistoryBoolField) })]
     public sealed class DebugStateBool : DebugState<bool>
     {
-
         public DebugStateBool();
     }
 }

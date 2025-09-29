@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering.Utilities
 {
     public static class EditorMaterialQualityUtilities
     {
-
         public static MaterialQuality GetMaterialQuality(this ShaderKeywordSet keywordSet);
     }
 }

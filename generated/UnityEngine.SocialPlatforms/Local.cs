@@ -8,7 +8,6 @@ namespace UnityEngine.SocialPlatforms
 {
     public class Local : ISocialPlatform
     {
-
         public Local();
 
         public ILocalUser localUser { get; }

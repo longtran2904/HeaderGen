@@ -8,7 +8,6 @@ namespace UnityEngine.Networking
 {
     public class MultipartFormFileSection : IMultipartFormSection
     {
-
         public MultipartFormFileSection(string name, byte[] data, string fileName, string contentType);
         public MultipartFormFileSection(byte[] data);
         public MultipartFormFileSection(string fileName, byte[] data);

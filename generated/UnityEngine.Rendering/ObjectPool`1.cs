@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
 {
     public class ObjectPool<T> where T : new()
     {
-
         public ObjectPool(UnityAction<T> actionOnGet, UnityAction<T> actionOnRelease, bool collectionCheck = True);
 
         public int countAll { get; }
@@ -19,6 +18,7 @@ namespace UnityEngine.Rendering
         public T Get();
         public PooledObject Get(out T v);
         public void Release(T element);
+
         public struct PooledObject : IDisposable
         {
         }

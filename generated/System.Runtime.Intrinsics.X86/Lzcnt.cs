@@ -7,13 +7,12 @@ namespace System.Runtime.Intrinsics.X86
     [CLSCompliant(False)]
     public abstract class Lzcnt : X86Base
     {
-
         public static bool IsSupported { get; }
 
         public static uint LeadingZeroCount(uint value);
+
         public abstract class X64 : X86Base.X64
         {
-
             public static bool IsSupported { get; }
 
             public static ulong LeadingZeroCount(ulong value);

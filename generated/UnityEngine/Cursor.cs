@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Export/Input/Cursor.bindings.h")]
     public class Cursor
     {
-
         public Cursor();
 
         public static bool visible { get; set; }

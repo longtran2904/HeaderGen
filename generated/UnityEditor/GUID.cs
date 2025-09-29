@@ -12,7 +12,6 @@ namespace UnityEditor
     [RequiredByNativeCode]
     public struct GUID : IComparable, IComparable<GUID>, IEquatable<GUID>
     {
-
         public GUID(string hexRepresentation);
 
         public override bool Equals(object obj);

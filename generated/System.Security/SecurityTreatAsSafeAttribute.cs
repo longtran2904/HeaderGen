@@ -8,7 +8,6 @@ namespace System.Security
     [Obsolete("SecurityTreatAsSafe is only used for .NET 2.0 transparency compatibility. Use the SecuritySafeCriticalAttribute instead.")]
     public sealed class SecurityTreatAsSafeAttribute : Attribute
     {
-
         public SecurityTreatAsSafeAttribute();
     }
 }

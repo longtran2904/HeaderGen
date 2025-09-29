@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public sealed class PointerType : TypeSpecification
     {
-
         public PointerType(TypeReference type);
 
         public override string Name { get; }

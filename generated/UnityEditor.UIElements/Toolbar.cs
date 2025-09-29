@@ -8,13 +8,12 @@ namespace UnityEditor.UIElements
 {
     public class Toolbar : VisualElement
     {
-
         public static readonly string ussClassName;
 
         public Toolbar();
+
         public class UxmlFactory : UxmlFactory<Toolbar>
         {
-
             public UxmlFactory();
         }
     }

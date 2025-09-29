@@ -10,7 +10,6 @@ namespace UnityEngine
     [NativeHeader("PhysicsScriptingClasses.h")]
     public class WheelCollider : Collider
     {
-
         public WheelCollider();
 
         public Vector3 center { get; set; }

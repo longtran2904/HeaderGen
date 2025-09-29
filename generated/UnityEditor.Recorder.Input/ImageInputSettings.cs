@@ -6,7 +6,6 @@ namespace UnityEditor.Recorder.Input
 {
     public abstract class ImageInputSettings : RecorderInputSettings
     {
-
         protected ImageInputSettings();
 
         public abstract int OutputWidth { get; set; }

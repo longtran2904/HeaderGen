@@ -6,7 +6,6 @@ namespace UnityEditor.SearchService
 {
     public interface IFilterEngine<T> : ISearchEngineBase
     {
-
         bool Filter(ISearchContext context, string query, T objectToFilter);
     }
 }

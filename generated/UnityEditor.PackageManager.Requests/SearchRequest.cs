@@ -6,7 +6,6 @@ namespace UnityEditor.PackageManager.Requests
 {
     public sealed class SearchRequest : Request<PackageInfo[]>
     {
-
         public string PackageIdOrName { get; }
 
         protected override PackageInfo[] GetResult();

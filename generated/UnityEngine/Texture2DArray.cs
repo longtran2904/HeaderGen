@@ -13,7 +13,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Graphics/Texture2DArray.h")]
     public sealed class Texture2DArray : Texture
     {
-
         [ExcludeFromDocs]
         public Texture2DArray(int width, int height, int depth, DefaultFormat format, TextureCreationFlags flags);
         [ExcludeFromDocs]

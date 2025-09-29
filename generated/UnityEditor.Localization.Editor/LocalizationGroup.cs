@@ -10,7 +10,6 @@ namespace UnityEditor.Localization.Editor
     [Obsolete("LocalizationGroup has been deprecated. Please use UnityEditor.LocalizationGroup instead", True)]
     public class LocalizationGroup : IDisposable
     {
-
         public LocalizationGroup();
         public LocalizationGroup(Behaviour behaviour);
         public LocalizationGroup(Type type);

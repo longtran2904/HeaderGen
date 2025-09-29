@@ -6,7 +6,6 @@ namespace UnityEditor.Search
 {
     public readonly struct QueryToken
     {
-
         public QueryToken(string text, int position);
         public QueryToken(string text, int position, int length);
 

@@ -13,7 +13,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics/ArticulationBody.h")]
     public class ArticulationBody : Behaviour
     {
-
         public ArticulationBody();
 
         public ArticulationJointType jointType { get; set; }

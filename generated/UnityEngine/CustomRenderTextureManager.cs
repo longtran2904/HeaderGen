@@ -11,7 +11,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Graphics/CustomRenderTextureManager.h")]
     public static class CustomRenderTextureManager
     {
-
         public static event Action<CustomRenderTexture> textureLoaded;
         public static event Action<CustomRenderTexture> textureUnloaded;
         public static event Action<CustomRenderTexture, int> updateTriggered;

@@ -10,7 +10,6 @@ namespace UnityEngine.Networking
     [NativeHeader("Modules/UnityWebRequestTexture/Public/DownloadHandlerTexture.h")]
     public sealed class DownloadHandlerTexture : DownloadHandler
     {
-
         public DownloadHandlerTexture();
         public DownloadHandlerTexture(bool readable);
 

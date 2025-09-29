@@ -6,7 +6,6 @@ namespace UnityEngine.Sprites
 {
     public sealed class DataUtility
     {
-
         public DataUtility();
 
         public static Vector4 GetInnerUV(Sprite sprite);

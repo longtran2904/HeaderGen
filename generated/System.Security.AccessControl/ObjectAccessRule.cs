@@ -8,7 +8,6 @@ namespace System.Security.AccessControl
 {
     public abstract class ObjectAccessRule : AccessRule
     {
-
         protected ObjectAccessRule(IdentityReference identity, int accessMask, bool isInherited, InheritanceFlags inheritanceFlags, PropagationFlags propagationFlags, Guid objectType, Guid inheritedObjectType, AccessControlType type);
 
         public Guid ObjectType { get; }

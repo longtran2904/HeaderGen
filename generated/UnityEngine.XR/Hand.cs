@@ -17,7 +17,6 @@ namespace UnityEngine.XR
     [StaticAccessor("XRInputDevices::Get()", StaticAccessorType.Dot)]
     public struct Hand : IEquatable<Hand>
     {
-
         public bool TryGetRootBone(out Bone boneOut);
         public bool TryGetFingerBones(HandFinger finger, List<Bone> bonesOut);
         public override bool Equals(object obj);

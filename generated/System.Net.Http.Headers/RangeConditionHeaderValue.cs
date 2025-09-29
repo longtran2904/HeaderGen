@@ -6,7 +6,6 @@ namespace System.Net.Http.Headers
 {
     public class RangeConditionHeaderValue : ICloneable
     {
-
         public RangeConditionHeaderValue(DateTimeOffset date);
         public RangeConditionHeaderValue(EntityTagHeaderValue entityTag);
         public RangeConditionHeaderValue(string entityTag);

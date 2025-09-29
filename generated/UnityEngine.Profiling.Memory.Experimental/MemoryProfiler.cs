@@ -11,7 +11,6 @@ namespace UnityEngine.Profiling.Memory.Experimental
     [NativeHeader("Modules/Profiler/Runtime/MemorySnapshotManager.h")]
     public sealed class MemoryProfiler
     {
-
         public MemoryProfiler();
 
         public static event Action<MetaData> createMetaData;

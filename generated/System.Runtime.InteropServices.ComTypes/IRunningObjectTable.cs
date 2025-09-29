@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public interface IRunningObjectTable
     {
-
         int Register(int grfFlags, object punkObject, IMoniker pmkObjectName);
         void Revoke(int dwRegister);
         int IsRunning(IMoniker pmkObjectName);

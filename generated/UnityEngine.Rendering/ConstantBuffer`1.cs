@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public class ConstantBuffer<CBType> : ConstantBufferBase where CBType : struct
     {
-
         public ConstantBuffer();
 
         public void UpdateData(CommandBuffer cmd, in CBType data);

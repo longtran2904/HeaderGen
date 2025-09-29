@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices.Marshalling
     [CLSCompliant(False)]
     public readonly struct VirtualMethodTableInfo
     {
-
         public VirtualMethodTableInfo(void* thisPointer, void** virtualMethodTable);
 
         public void* ThisPointer { get; }

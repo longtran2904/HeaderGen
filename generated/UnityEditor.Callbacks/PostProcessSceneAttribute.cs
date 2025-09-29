@@ -9,7 +9,6 @@ namespace UnityEditor.Callbacks
     [RequiredByNativeCode]
     public sealed class PostProcessSceneAttribute : CallbackOrderAttribute
     {
-
         public PostProcessSceneAttribute();
         public PostProcessSceneAttribute(int callbackOrder);
         public PostProcessSceneAttribute(int callbackOrder, int version);

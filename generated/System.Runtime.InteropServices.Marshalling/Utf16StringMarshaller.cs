@@ -8,7 +8,6 @@ namespace System.Runtime.InteropServices.Marshalling
     [CustomMarshaller(typeof(string), MarshalMode.Default, typeof(Utf16StringMarshaller))]
     public static class Utf16StringMarshaller
     {
-
         public static ushort* ConvertToUnmanaged(string managed);
         public static string ConvertToManaged(ushort* unmanaged);
         public static void Free(ushort* unmanaged);

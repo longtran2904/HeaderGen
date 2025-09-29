@@ -8,7 +8,6 @@ namespace UnityEditor.Search
 {
     public interface IQueryHandlerFactory<TData, TQueryHandler, TPayload> where TQueryHandler : IQueryHandler<TData, TPayload> where TPayload : class
     {
-
         TQueryHandler Create(QueryGraph graph, ICollection<QueryError> errors);
     }
 }

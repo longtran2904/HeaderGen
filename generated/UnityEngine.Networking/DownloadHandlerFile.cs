@@ -10,7 +10,6 @@ namespace UnityEngine.Networking
     [NativeHeader("Modules/UnityWebRequest/Public/DownloadHandler/DownloadHandlerVFS.h")]
     public sealed class DownloadHandlerFile : DownloadHandler
     {
-
         public DownloadHandlerFile(string path);
         public DownloadHandlerFile(string path, bool append);
 

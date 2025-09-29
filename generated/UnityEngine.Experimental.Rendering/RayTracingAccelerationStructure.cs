@@ -9,7 +9,6 @@ namespace UnityEngine.Experimental.Rendering
 {
     public sealed class RayTracingAccelerationStructure : IDisposable
     {
-
         public RayTracingAccelerationStructure(RASSettings settings);
         public RayTracingAccelerationStructure();
 
@@ -42,10 +41,10 @@ namespace UnityEngine.Experimental.Rendering
         public ulong GetSize();
         [FreeFunction(Name = "RayTracingAccelerationStructure_Bindings::GetInstanceCount", HasExplicitThis = True)]
         public uint GetInstanceCount();
+
         [Flags]
         public enum RayTracingModeMask
         {
-
             Nothing = 0,
             Static = 2,
             DynamicTransform = 4,
@@ -54,13 +53,11 @@ namespace UnityEngine.Experimental.Rendering
         }
         public enum ManagementMode
         {
-
             Manual = 0,
             Automatic = 1
         }
         public struct RASSettings
         {
-
             public ManagementMode managementMode;
             public RayTracingModeMask rayTracingModeMask;
             public int layerMask;

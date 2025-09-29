@@ -12,7 +12,6 @@ namespace System.Security.Claims
 {
     public class ClaimsIdentity : IIdentity
     {
-
         public const string DefaultIssuer = "LOCAL AUTHORITY";
         public const string DefaultNameClaimType = "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name";
         public const string DefaultRoleClaimType = "http://schemas.microsoft.com/ws/2008/06/identity/claims/role";

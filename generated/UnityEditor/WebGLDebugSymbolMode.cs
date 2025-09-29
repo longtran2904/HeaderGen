@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum WebGLDebugSymbolMode
     {
-
         Off = 0,
         External = 1,
         Embedded = 2

@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = False)]
     public sealed class VolumeParameterDrawerAttribute : Attribute
     {
-
         public readonly Type parameterType;
 
         public VolumeParameterDrawerAttribute(Type parameterType);

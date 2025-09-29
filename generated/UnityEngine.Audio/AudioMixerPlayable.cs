@@ -16,7 +16,6 @@ namespace UnityEngine.Audio
     [StaticAccessor("AudioMixerPlayableBindings", StaticAccessorType.DoubleColon)]
     public struct AudioMixerPlayable : IEquatable<AudioMixerPlayable>, IPlayable
     {
-
         public static AudioMixerPlayable Create(PlayableGraph graph, int inputCount = 0, bool normalizeInputVolumes = False);
         public PlayableHandle GetHandle();
         public bool Equals(AudioMixerPlayable other);

@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum GamepadSpeakerOutputType
     {
-
         Speaker = 0,
         Vibration = 1,
         SecondaryVibration = 2

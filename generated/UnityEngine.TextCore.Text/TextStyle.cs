@@ -6,7 +6,6 @@ namespace UnityEngine.TextCore.Text
 {
     public class TextStyle
     {
-
         public static TextStyle NormalStyle { get; }
         public string name { get; set; }
         public int hashCode { get; set; }

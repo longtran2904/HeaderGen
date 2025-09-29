@@ -10,7 +10,6 @@ namespace System.CodeDom
     [DefaultMember("Item")]
     public class CodeAttributeArgumentCollection : CollectionBase
     {
-
         public CodeAttributeArgumentCollection();
         public CodeAttributeArgumentCollection(CodeAttributeArgumentCollection value);
         public CodeAttributeArgumentCollection(CodeAttributeArgument[] value);

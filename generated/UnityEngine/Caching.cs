@@ -12,7 +12,6 @@ namespace UnityEngine
     [StaticAccessor("GetCachingManager()", StaticAccessorType.Dot)]
     public sealed class Caching
     {
-
         public Caching();
 
         public static bool compressionEnabled { get; set; }

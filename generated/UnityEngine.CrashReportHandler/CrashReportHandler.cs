@@ -10,7 +10,6 @@ namespace UnityEngine.CrashReportHandler
     [StaticAccessor("CrashReporting::CrashReporter::Get()", StaticAccessorType.Dot)]
     public class CrashReportHandler
     {
-
         [NativeProperty("Enabled")]
         public static bool enableCaptureExceptions { get; set; }
         [NativeThrows]

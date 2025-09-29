@@ -8,7 +8,6 @@ namespace UnityEngine.UI
 {
     public static class LayoutUtility
     {
-
         public static float GetMinSize(RectTransform rect, int axis);
         public static float GetPreferredSize(RectTransform rect, int axis);
         public static float GetFlexibleSize(RectTransform rect, int axis);

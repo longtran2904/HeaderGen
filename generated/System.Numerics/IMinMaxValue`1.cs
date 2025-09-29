@@ -6,7 +6,6 @@ namespace System.Numerics
 {
     public interface IMinMaxValue<TSelf> where TSelf : IMinMaxValue<TSelf>
     {
-
         TSelf MinValue { get; }
         TSelf MaxValue { get; }
     }

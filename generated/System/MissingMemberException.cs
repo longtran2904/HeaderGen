@@ -9,7 +9,6 @@ namespace System
 {
     public class MissingMemberException : MemberAccessException
     {
-
         protected string ClassName;
         protected string MemberName;
         protected byte[] Signature;

@@ -10,7 +10,6 @@ namespace UnityEditor.Animations
     [NativeType("Editor/Src/Animation/BlendTree.h")]
     public struct ChildMotion
     {
-
         public Motion motion { get; set; }
         public float threshold { get; set; }
         public Vector2 position { get; set; }

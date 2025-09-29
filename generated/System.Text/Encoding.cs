@@ -8,7 +8,6 @@ namespace System.Text
 {
     public abstract class Encoding : ICloneable
     {
-
         protected Encoding();
         protected Encoding(int codePage);
         protected Encoding(int codePage, EncoderFallback encoderFallback, DecoderFallback decoderFallback);

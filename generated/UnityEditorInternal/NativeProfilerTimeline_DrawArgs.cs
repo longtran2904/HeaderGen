@@ -8,7 +8,6 @@ namespace UnityEditorInternal
 {
     public struct NativeProfilerTimeline_DrawArgs
     {
-
         public int frameIndex;
         public int threadIndex;
         public float timeOffset;

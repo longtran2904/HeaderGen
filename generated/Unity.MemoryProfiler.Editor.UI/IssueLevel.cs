@@ -6,7 +6,6 @@ namespace Unity.MemoryProfiler.Editor.UI
 {
     public enum IssueLevel
     {
-
         Info = 0,
         Warning = 1,
         Error = 2

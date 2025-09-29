@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.UI
 {
     public class DebugUIHandlerVBox : DebugUIHandlerWidget
     {
-
         public DebugUIHandlerVBox();
 
         public override bool OnSelection(bool fromNext, DebugUIHandlerWidget previous);

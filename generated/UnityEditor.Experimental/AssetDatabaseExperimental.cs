@@ -15,7 +15,6 @@ namespace UnityEditor.Experimental
     [NativeHeader("Modules/AssetDatabase/Editor/Public/AssetDatabaseExperimental.h")]
     public sealed class AssetDatabaseExperimental
     {
-
         public AssetDatabaseExperimental();
 
         public static AssetDatabaseCounters counters { get; }
@@ -98,13 +97,13 @@ namespace UnityEditor.Experimental
         public static OnDemandProgress GetOnDemandArtifactProgress(string guid);
         [Obsolete("GetOnDemandArtifactProgress(string,Type) has been removed. Use GetOnDemandArtifactProgress(ArtifactKey) instead.")]
         public static OnDemandProgress GetOnDemandArtifactProgress(string guid, Type importerType);
+
         [Obsolete("AssetDatabaseExperimental.CacheServerConnectionChangedParameters has been deprecated. Use UnityEditor.CacheServerConnectionChangedParameters instead (UnityUpgradable) -> UnityEditor.CacheServerConnectionChangedParameters", False)]
         public struct CacheServerConnectionChangedParameters
         {
         }
         public enum OnDemandMode
         {
-
             Off = 0,
             Lazy = 1,
             Background = 2
@@ -112,27 +111,24 @@ namespace UnityEditor.Experimental
         [Obsolete("ImportSyncMode has been removed from the editor API", False)]
         public enum ImportSyncMode
         {
-
             Block = 0,
             Queue = 1,
             Poll = 2
         }
         public struct AssetDatabaseCounters
         {
-
             public CacheServerCounters cacheServer;
             public ImportCounters import;
 
             public void ResetDeltas();
+
             public struct Counter
             {
-
                 public long total;
                 public long delta;
             }
             public struct CacheServerCounters
             {
-
                 public Counter metadataRequested;
                 public Counter metadataDownloaded;
                 public Counter metadataFailedToDownload;
@@ -152,7 +148,6 @@ namespace UnityEditor.Experimental
             }
             public struct ImportCounters
             {
-
                 public Counter imported;
                 public Counter importedInProcess;
                 public Counter importedOutOfProcess;

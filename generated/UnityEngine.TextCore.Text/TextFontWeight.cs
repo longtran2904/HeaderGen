@@ -6,7 +6,6 @@ namespace UnityEngine.TextCore.Text
 {
     public enum TextFontWeight
     {
-
         Thin = 100,
         ExtraLight = 200,
         Light = 300,

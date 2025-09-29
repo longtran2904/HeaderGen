@@ -8,7 +8,6 @@ namespace UnityEditor.DeviceSimulation
 {
     public abstract class DeviceSimulatorPlugin
     {
-
         protected DeviceSimulatorPlugin();
 
         public DeviceSimulator deviceSimulator { get; }

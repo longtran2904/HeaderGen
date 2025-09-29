@@ -6,7 +6,6 @@ namespace System.Runtime.InteropServices
 {
     public readonly struct HandleRef
     {
-
         public HandleRef(object wrapper, nint handle);
 
         public object Wrapper { get; }

@@ -10,7 +10,6 @@ namespace UnityEditor
     [NativeType(Header = "Runtime/Serialize/BuildTarget.h")]
     public enum MobileTextureSubtarget
     {
-
         Generic = 0,
         DXT = 1,
         PVRTC = 2,

@@ -8,7 +8,6 @@ namespace System.Net.Http.Headers
 {
     public class ContentDispositionHeaderValue : ICloneable
     {
-
         protected ContentDispositionHeaderValue(ContentDispositionHeaderValue source);
         public ContentDispositionHeaderValue(string dispositionType);
 

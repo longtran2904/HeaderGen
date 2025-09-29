@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public class NoInterpVector2Parameter : VolumeParameter<Vector2>
     {
-
         public NoInterpVector2Parameter(Vector2 value, bool overrideState = False);
     }
 }

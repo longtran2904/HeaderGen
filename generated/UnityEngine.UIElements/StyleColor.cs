@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public struct StyleColor : IEquatable<StyleColor>, IStyleValue<Color>
     {
-
         public StyleColor(Color v);
         public StyleColor(StyleKeyword keyword);
 

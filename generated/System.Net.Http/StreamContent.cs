@@ -10,7 +10,6 @@ namespace System.Net.Http
 {
     public class StreamContent : HttpContent
     {
-
         public StreamContent(Stream content);
         public StreamContent(Stream content, int bufferSize);
 

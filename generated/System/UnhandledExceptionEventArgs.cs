@@ -6,7 +6,6 @@ namespace System
 {
     public class UnhandledExceptionEventArgs : EventArgs
     {
-
         public UnhandledExceptionEventArgs(object exception, bool isTerminating);
 
         public object ExceptionObject { get; }

@@ -6,7 +6,6 @@ namespace UnityEditor.Search
 {
     public enum SearchQueryErrorType
     {
-
         Error = 0,
         Warning = 1
     }

@@ -6,7 +6,6 @@ namespace UnityEngine.SubsystemsImplementation
 {
     public class SubsystemDescriptorWithProvider<TSubsystem, TProvider> : SubsystemDescriptorWithProvider where TSubsystem : SubsystemWithProvider, new() where TProvider : SubsystemProvider<TSubsystem>
     {
-
         public SubsystemDescriptorWithProvider();
 
         public TSubsystem Create();

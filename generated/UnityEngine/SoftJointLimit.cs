@@ -9,7 +9,6 @@ namespace UnityEngine
 {
     public struct SoftJointLimit
     {
-
         public float limit { get; set; }
         public float bounciness { get; set; }
         public float contactDistance { get; set; }

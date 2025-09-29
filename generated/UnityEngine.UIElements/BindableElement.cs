@@ -6,19 +6,17 @@ namespace UnityEngine.UIElements
 {
     public class BindableElement : VisualElement, IBindable
     {
-
         public BindableElement();
 
         public IBinding binding { get; set; }
         public string bindingPath { get; set; }
+
         public class UxmlFactory : UxmlFactory<BindableElement, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : VisualElement.UxmlTraits
         {
-
             public UxmlTraits();
 
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc);

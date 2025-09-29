@@ -10,7 +10,6 @@ namespace System
     [EditorBrowsable(EditorBrowsableState.Never)]
     public sealed class SerializableAttribute : Attribute
     {
-
         public SerializableAttribute();
     }
 }

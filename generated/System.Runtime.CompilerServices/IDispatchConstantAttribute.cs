@@ -10,7 +10,6 @@ namespace System.Runtime.CompilerServices
     [SupportedOSPlatform("windows")]
     public sealed class IDispatchConstantAttribute : CustomConstantAttribute
     {
-
         public IDispatchConstantAttribute();
 
         public override object Value { get; }

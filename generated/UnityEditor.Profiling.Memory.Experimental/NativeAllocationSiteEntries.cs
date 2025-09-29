@@ -6,7 +6,6 @@ namespace UnityEditor.Profiling.Memory.Experimental
 {
     public class NativeAllocationSiteEntries
     {
-
         public ArrayEntries<long> id { get; }
         public ArrayEntries<int> memoryLabelIndex { get; }
         public ArrayEntries<ulong[]> callstackSymbols { get; }

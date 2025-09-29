@@ -8,7 +8,6 @@ namespace System.CodeDom.Compiler
 {
     public class CompilerParameters
     {
-
         public CompilerParameters();
         public CompilerParameters(string[] assemblyNames);
         public CompilerParameters(string[] assemblyNames, string outputName);

@@ -9,7 +9,6 @@ namespace UnityEngine.UI
 {
     public class VertexHelper : IDisposable
     {
-
         public VertexHelper();
         public VertexHelper(Mesh m);
 

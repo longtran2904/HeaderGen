@@ -8,7 +8,6 @@ namespace System.Resources
 {
     public interface IResourceReader : IDisposable, IEnumerable
     {
-
         void Close();
         IDictionaryEnumerator GetEnumerator();
     }

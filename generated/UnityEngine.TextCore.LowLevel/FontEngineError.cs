@@ -6,7 +6,6 @@ namespace UnityEngine.TextCore.LowLevel
 {
     public enum FontEngineError
     {
-
         Success = 0,
         Invalid_File_Path = 1,
         Invalid_File_Format = 2,

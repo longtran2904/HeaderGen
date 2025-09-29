@@ -11,7 +11,6 @@ namespace UnityEngine.Rendering
     [UsedByNativeCode]
     public struct GraphicsFence
     {
-
         public bool passed { get; }
     }
 }

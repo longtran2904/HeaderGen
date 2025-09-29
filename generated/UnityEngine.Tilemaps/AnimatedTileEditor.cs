@@ -9,7 +9,6 @@ namespace UnityEngine.Tilemaps
     [CustomEditor(typeof(AnimatedTile))]
     public class AnimatedTileEditor : Editor
     {
-
         public AnimatedTileEditor();
 
         public override void OnInspectorGUI();

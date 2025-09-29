@@ -6,7 +6,6 @@ namespace Unity.Jobs.LowLevel.Unsafe
 {
     public static class JobHandleUnsafeUtility
     {
-
         public static JobHandle CombineDependencies(JobHandle* jobs, int count);
     }
 }

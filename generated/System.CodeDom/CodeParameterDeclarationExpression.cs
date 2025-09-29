@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeParameterDeclarationExpression : CodeExpression
     {
-
         public CodeParameterDeclarationExpression();
         public CodeParameterDeclarationExpression(CodeTypeReference type, string name);
         public CodeParameterDeclarationExpression(string type, string name);

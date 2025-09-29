@@ -9,7 +9,6 @@ namespace UnityEditor.Timeline
 {
     public struct ClipDrawOptions
     {
-
         public string errorText { get; set; }
         public bool displayClipName { get; set; }
         public bool hideScaleIndicator { get; set; }

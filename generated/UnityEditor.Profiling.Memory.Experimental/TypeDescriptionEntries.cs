@@ -6,7 +6,6 @@ namespace UnityEditor.Profiling.Memory.Experimental
 {
     public class TypeDescriptionEntries
     {
-
         public ArrayEntries<TypeFlags> flags { get; }
         public ArrayEntries<string> typeDescriptionName { get; }
         public ArrayEntries<string> assembly { get; }

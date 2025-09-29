@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public abstract class KeyboardEventBase<T> : EventBase<T>, IKeyboardEvent where T : KeyboardEventBase<T>, new()
     {
-
         protected KeyboardEventBase();
 
         public EventModifiers modifiers { get; protected set; }

@@ -6,7 +6,6 @@ namespace UnityEngine.EventSystems
 {
     public class BaseInput : UIBehaviour
     {
-
         public BaseInput();
 
         public virtual string compositionString { get; }

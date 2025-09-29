@@ -11,7 +11,6 @@ namespace UnityEditorInternal.Profiling.Memory.Experimental
     [NativeHeader("Modules/Profiler/Public/MemorySnapshot/MemorySnapshotFileWriter.h")]
     public class MemorySnapshotFileWriter : IDisposable
     {
-
         public MemorySnapshotFileWriter(string filepath);
         public MemorySnapshotFileWriter();
 

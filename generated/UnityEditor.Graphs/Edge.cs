@@ -8,7 +8,6 @@ namespace UnityEditor.Graphs
 {
     public sealed class Edge
     {
-
         [SerializeField]
         public Color color;
 

@@ -8,7 +8,6 @@ namespace TreeEditor
 {
     public class TreeGroupRoot : TreeGroup
     {
-
         public float adaptiveLODQuality;
         public int shadowTextureQuality;
         public bool enableWelding;

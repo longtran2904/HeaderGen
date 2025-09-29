@@ -6,7 +6,6 @@ namespace System.Runtime.InteropServices
 {
     public sealed class PosixSignalContext
     {
-
         public PosixSignalContext(PosixSignal signal);
 
         public PosixSignal Signal { get; }

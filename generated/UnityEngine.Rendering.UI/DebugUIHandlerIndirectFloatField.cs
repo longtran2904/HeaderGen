@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering.UI
 {
     public class DebugUIHandlerIndirectFloatField : DebugUIHandlerWidget
     {
-
         public Text nameLabel;
         public Text valueLabel;
         public Func<float> getter;

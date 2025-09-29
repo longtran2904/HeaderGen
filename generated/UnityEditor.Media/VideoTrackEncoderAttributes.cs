@@ -6,7 +6,6 @@ namespace UnityEditor.Media
 {
     public struct VideoTrackEncoderAttributes
     {
-
         public MediaRational frameRate;
         public uint width;
         public uint height;

@@ -9,7 +9,6 @@ namespace System.CodeDom.Compiler
 {
     public class CompilerResults
     {
-
         public CompilerResults(TempFileCollection tempFiles);
 
         public TempFileCollection TempFiles { get; set; }

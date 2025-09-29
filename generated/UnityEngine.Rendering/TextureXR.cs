@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public static class TextureXR
     {
-
         public static int maxViews { set; }
         public static int slices { get; }
         public static bool useTexArray { get; }

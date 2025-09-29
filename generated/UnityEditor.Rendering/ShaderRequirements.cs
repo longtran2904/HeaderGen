@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
     [Flags]
     public enum ShaderRequirements
     {
-
         None = 0,
         BaseShaders = 1,
         Interpolators10 = 2,

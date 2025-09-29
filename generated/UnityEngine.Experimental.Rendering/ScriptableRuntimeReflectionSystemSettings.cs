@@ -11,7 +11,6 @@ namespace UnityEngine.Experimental.Rendering
     [RequiredByNativeCode]
     public static class ScriptableRuntimeReflectionSystemSettings
     {
-
         public static IScriptableRuntimeReflectionSystem system { get; set; }
     }
 }

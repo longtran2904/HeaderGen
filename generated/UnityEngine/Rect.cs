@@ -13,7 +13,6 @@ namespace UnityEngine
     [RequiredByNativeCode(Optional = True, GenerateProxy = True)]
     public struct Rect : IEquatable<Rect>, IFormattable
     {
-
         public Rect(float x, float y, float width, float height);
         public Rect(Vector2 position, Vector2 size);
         public Rect(Rect source);

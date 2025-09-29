@@ -6,7 +6,6 @@ namespace System.Diagnostics.Contracts
 {
     public sealed class ContractFailedEventArgs : EventArgs
     {
-
         public ContractFailedEventArgs(ContractFailureKind failureKind, string message, string condition, Exception originalException);
 
         public string Message { get; }

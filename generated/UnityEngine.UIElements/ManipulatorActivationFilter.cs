@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public struct ManipulatorActivationFilter : IEquatable<ManipulatorActivationFilter>
     {
-
         public MouseButton button { get; set; }
         public EventModifiers modifiers { get; set; }
         public int clickCount { get; set; }

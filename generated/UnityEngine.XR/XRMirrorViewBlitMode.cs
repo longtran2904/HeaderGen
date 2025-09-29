@@ -6,7 +6,6 @@ namespace UnityEngine.XR
 {
     public struct XRMirrorViewBlitMode
     {
-
         public const int Default = 0;
         public const int LeftEye = -1;
         public const int RightEye = -2;

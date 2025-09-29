@@ -11,7 +11,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public class Avatar : Object
     {
-
         public bool isValid { get; }
         public bool isHuman { get; }
         public HumanDescription humanDescription { get; }

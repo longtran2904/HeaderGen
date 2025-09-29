@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public static class FSRUtils
     {
-
         public const float kDefaultSharpnessStops = 0.2F;
         public const float kDefaultSharpnessLinear = 0.92F;
 

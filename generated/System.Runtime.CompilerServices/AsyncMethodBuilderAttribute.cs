@@ -7,7 +7,6 @@ namespace System.Runtime.CompilerServices
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Method | AttributeTargets.Interface | AttributeTargets.Delegate, AllowMultiple = False, Inherited = False)]
     public sealed class AsyncMethodBuilderAttribute : Attribute
     {
-
         public AsyncMethodBuilderAttribute(Type builderType);
 
         public Type BuilderType { get; }

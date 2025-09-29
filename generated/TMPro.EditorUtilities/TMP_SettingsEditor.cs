@@ -9,7 +9,6 @@ namespace TMPro.EditorUtilities
     [CustomEditor(typeof(TMP_Settings))]
     public class TMP_SettingsEditor : Editor
     {
-
         public TMP_SettingsEditor();
 
         public void OnEnable();

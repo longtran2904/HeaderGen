@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
 {
     public sealed class PropertyFetcher<T> : IDisposable
     {
-
         public readonly SerializedObject obj;
 
         public PropertyFetcher(SerializedObject obj);

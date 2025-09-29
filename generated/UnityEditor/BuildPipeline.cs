@@ -14,7 +14,6 @@ namespace UnityEditor
     [StaticAccessor("BuildPipeline", StaticAccessorType.DoubleColon)]
     public class BuildPipeline
     {
-
         public BuildPipeline();
 
         public static bool isBuildingPlayer { get; }

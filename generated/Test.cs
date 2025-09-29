@@ -8,7 +8,6 @@ using System;
 
 public class Test
 {
-
     public X a1;
     public DLLTest.DLLNamespace.A a2;
     public DLLTest.DLLNamespace.Boolean boolean1;
@@ -62,6 +61,7 @@ public class Test
     public Int32 int3;
 
     public Test();
+
     public struct valuetype2
     {
     }
@@ -72,14 +72,12 @@ public class Test
     public delegate DLLTest.DLLNamespace.Void multicastdelegate3();
     public class Nested
     {
-
         public Char c;
 
         public Nested();
     }
     public class Char
     {
-
         public Char();
     }
 }

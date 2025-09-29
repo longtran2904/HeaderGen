@@ -7,7 +7,6 @@ namespace UnityEngine.Rendering.Universal
     [VolumeComponentMenuForRenderPipeline("Post-processing/Depth Of Field", new[] {typeof(UniversalRenderPipeline) })]
     public sealed class DepthOfField : VolumeComponent, IPostProcessComponent
     {
-
         [Tooltip("Use \"Gaussian\" for a faster but non physical depth of field; \"Bokeh\" for a more realistic but slower depth of field.")]
         public DepthOfFieldModeParameter mode;
         [Tooltip("The distance at which the blurring will start.")]

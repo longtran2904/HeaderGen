@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeGotoStatement : CodeStatement
     {
-
         public CodeGotoStatement();
         public CodeGotoStatement(string label);
 

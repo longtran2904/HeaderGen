@@ -6,7 +6,6 @@ namespace System.Threading
 {
     public struct LockCookie : IEquatable<LockCookie>
     {
-
         public override int GetHashCode();
         public override bool Equals(object obj);
         public bool Equals(LockCookie obj);

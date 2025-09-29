@@ -6,7 +6,6 @@ namespace TMPro
 {
     public struct FontAssetCreationSettings
     {
-
         public string sourceFontFileName;
         public string sourceFontFileGUID;
         public int pointSizeSamplingMode;

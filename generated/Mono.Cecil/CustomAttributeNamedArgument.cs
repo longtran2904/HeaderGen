@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public struct CustomAttributeNamedArgument
     {
-
         public CustomAttributeNamedArgument(string name, CustomAttributeArgument argument);
 
         public string Name { get; }

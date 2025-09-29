@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering
 {
     public abstract class SerializedBitArray : ISerializedBitArray
     {
-
         protected SerializedProperty m_SerializedProperty;
         protected static Action<SerializedProperty, int, bool> SetBitAtIndexForAllTargetsImmediate;
         protected static Func<SerializedProperty, int> HasMultipleDifferentValuesBitwise;

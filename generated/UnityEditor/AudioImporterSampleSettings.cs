@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public struct AudioImporterSampleSettings
     {
-
         public AudioClipLoadType loadType;
         public AudioSampleRateSetting sampleRateSetting;
         public uint sampleRateOverride;

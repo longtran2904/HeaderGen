@@ -19,7 +19,6 @@ namespace UnityEngine.Animations
     [StaticAccessor("AnimatorJobExtensionsBindings", StaticAccessorType.DoubleColon)]
     public static class AnimatorJobExtensions
     {
-
         public static void AddJobDependency(this Animator animator, JobHandle jobHandle);
         public static TransformStreamHandle BindStreamTransform(this Animator animator, Transform transform);
         public static PropertyStreamHandle BindStreamProperty(this Animator animator, Transform transform, Type type, string property);

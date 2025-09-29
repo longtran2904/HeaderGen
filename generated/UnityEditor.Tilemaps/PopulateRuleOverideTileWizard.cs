@@ -11,7 +11,6 @@ namespace UnityEditor.Tilemaps
     [MovedFrom(True, "UnityEditor", null, null)]
     public class PopulateRuleOverideTileWizard : ScriptableWizard
     {
-
         public Texture2D m_spriteSet;
 
         public PopulateRuleOverideTileWizard();

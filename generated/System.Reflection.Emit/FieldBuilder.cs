@@ -6,7 +6,6 @@ namespace System.Reflection.Emit
 {
     public abstract class FieldBuilder : FieldInfo
     {
-
         protected FieldBuilder();
 
         public void SetConstant(object defaultValue);

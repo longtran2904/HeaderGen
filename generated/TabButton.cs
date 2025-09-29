@@ -7,7 +7,6 @@ using UnityEngine.UIElements;
 
 public class TabButton : VisualElement
 {
-
     public TabButton();
     public TabButton(string text, VisualElement target);
 

@@ -6,7 +6,6 @@ namespace System.Net.Http
 {
     public enum HttpRequestError
     {
-
         Unknown = 0,
         NameResolutionError = 1,
         ConnectionError = 2,

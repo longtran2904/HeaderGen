@@ -11,7 +11,6 @@ namespace UnityEditor.Searcher
     [PublicAPI]
     public class SearcherAdapter : ISearcherAdapter
     {
-
         public SearcherAdapter(string title);
 
         public virtual string Title { get; }

@@ -9,7 +9,6 @@ namespace UnityEngine.iOS
     [NativeHeader("PlatformDependent/iPhonePlayer/IOSScriptBindings.h")]
     public sealed class Device
     {
-
         public Device();
 
         public static string systemVersion { get; }

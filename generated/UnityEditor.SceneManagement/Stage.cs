@@ -8,7 +8,6 @@ namespace UnityEditor.SceneManagement
 {
     public abstract class Stage : ScriptableObject
     {
-
         protected Stage();
 
         public virtual string assetPath { get; }

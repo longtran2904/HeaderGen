@@ -10,7 +10,6 @@ namespace UnityEditor.MPE
     [MovedFrom("Unity.MPE")]
     public enum ProcessState
     {
-
         [Obsolete("... (UnityUpgradable) -> UnknownProcess")]
         UMP_UNKNOWN_PROCESS = 0,
         UnknownProcess = 0,

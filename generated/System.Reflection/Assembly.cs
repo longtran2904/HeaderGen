@@ -14,7 +14,6 @@ namespace System.Reflection
 {
     public abstract class Assembly : ICustomAttributeProvider, ISerializable
     {
-
         protected Assembly();
 
         public virtual IEnumerable<TypeInfo> DefinedTypes { get; }

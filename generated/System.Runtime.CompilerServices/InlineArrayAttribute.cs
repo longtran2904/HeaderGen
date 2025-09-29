@@ -7,7 +7,6 @@ namespace System.Runtime.CompilerServices
     [AttributeUsage(AttributeTargets.Struct, AllowMultiple = False)]
     public sealed class InlineArrayAttribute : Attribute
     {
-
         public InlineArrayAttribute(int length);
 
         public int Length { get; }

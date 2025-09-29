@@ -8,7 +8,6 @@ namespace UnityEngine.Playables
 {
     public struct FrameData
     {
-
         public ulong frameId { get; }
         public float deltaTime { get; }
         public float weight { get; }
@@ -23,9 +22,9 @@ namespace UnityEngine.Playables
         public bool timeHeld { get; }
         public PlayableOutput output { get; }
         public PlayState effectivePlayState { get; }
+
         public enum EvaluationType
         {
-
             Evaluate = 0,
             Playback = 1
         }

@@ -11,7 +11,6 @@ namespace System.Collections.Generic
     [DefaultMember("Item")]
     public class Dictionary<TKey, TValue> : ICollection, ICollection<KeyValuePair<TKey, TValue>>, IDeserializationCallback, IDictionary, IDictionary<TKey, TValue>, IEnumerable, IEnumerable<KeyValuePair<TKey, TValue>>, IReadOnlyCollection<KeyValuePair<TKey, TValue>>, IReadOnlyDictionary<TKey, TValue>, ISerializable
     {
-
         public Dictionary();
         public Dictionary(int capacity);
         public Dictionary(IEqualityComparer<TKey> comparer);
@@ -46,9 +45,9 @@ namespace System.Collections.Generic
         public int EnsureCapacity(int capacity);
         public void TrimExcess();
         public void TrimExcess(int capacity);
+
         public struct Enumerator : IDictionaryEnumerator, IDisposable, IEnumerator, IEnumerator<KeyValuePair<TKey, TValue>>
         {
-
             public KeyValuePair<TKey, TValue> Current { get; }
 
             public bool MoveNext();
@@ -56,7 +55,6 @@ namespace System.Collections.Generic
         }
         public sealed class KeyCollection : ICollection, ICollection<TKey>, IEnumerable, IEnumerable<TKey>, IReadOnlyCollection<TKey>
         {
-
             public KeyCollection(Dictionary<TKey, TValue> dictionary);
 
             public int Count { get; }
@@ -64,9 +62,9 @@ namespace System.Collections.Generic
             public Enumerator GetEnumerator();
             public void CopyTo(TKey[] array, int index);
             public bool Contains(TKey item);
+
             public struct Enumerator : IDisposable, IEnumerator, IEnumerator<TKey>
             {
-
                 public TKey Current { get; }
 
                 public void Dispose();
@@ -75,16 +73,15 @@ namespace System.Collections.Generic
         }
         public sealed class ValueCollection : ICollection, ICollection<TValue>, IEnumerable, IEnumerable<TValue>, IReadOnlyCollection<TValue>
         {
-
             public ValueCollection(Dictionary<TKey, TValue> dictionary);
 
             public int Count { get; }
 
             public Enumerator GetEnumerator();
             public void CopyTo(TValue[] array, int index);
+
             public struct Enumerator : IDisposable, IEnumerator, IEnumerator<TValue>
             {
-
                 public TValue Current { get; }
 
                 public void Dispose();

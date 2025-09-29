@@ -11,7 +11,6 @@ namespace UnityEditor.Tilemaps
     [MovedFrom(True, "UnityEditor", "UnityEditor", null)]
     public class GridBrush : GridBrushBase
     {
-
         public GridBrush();
 
         public Vector3Int size { get; set; }
@@ -42,9 +41,9 @@ namespace UnityEditor.Tilemaps
         public int GetCellIndex(int x, int y, int z, int sizex, int sizey, int sizez);
         public int GetCellIndexWrapAround(int x, int y, int z);
         public override int GetHashCode();
+
         public class BrushCell
         {
-
             public BrushCell();
 
             public TileBase tile { get; set; }

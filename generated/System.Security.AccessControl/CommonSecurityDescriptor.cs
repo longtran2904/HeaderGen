@@ -8,7 +8,6 @@ namespace System.Security.AccessControl
 {
     public sealed class CommonSecurityDescriptor : GenericSecurityDescriptor
     {
-
         public CommonSecurityDescriptor(bool isContainer, bool isDS, ControlFlags flags, SecurityIdentifier owner, SecurityIdentifier group, SystemAcl systemAcl, DiscretionaryAcl discretionaryAcl);
         public CommonSecurityDescriptor(bool isContainer, bool isDS, RawSecurityDescriptor rawSecurityDescriptor);
         public CommonSecurityDescriptor(bool isContainer, bool isDS, string sddlForm);

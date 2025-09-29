@@ -6,7 +6,6 @@ namespace TMPro.EditorUtilities
 {
     public class TMP_SDFShaderGUI : TMP_BaseShaderGUI
     {
-
         public TMP_SDFShaderGUI();
 
         protected override void DoGUI();

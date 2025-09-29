@@ -9,7 +9,6 @@ namespace UnityEngine.UIElements
 {
     public struct CreationContext : IEquatable<CreationContext>
     {
-
         public static readonly CreationContext Default;
 
         public VisualElement target { get; }

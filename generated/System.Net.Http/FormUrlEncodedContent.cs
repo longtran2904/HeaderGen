@@ -11,7 +11,6 @@ namespace System.Net.Http
 {
     public class FormUrlEncodedContent : ByteArrayContent
     {
-
         public FormUrlEncodedContent(IEnumerable<KeyValuePair<string, string>> nameValueCollection);
 
         protected override Task SerializeToStreamAsync(Stream stream, TransportContext context, CancellationToken cancellationToken);

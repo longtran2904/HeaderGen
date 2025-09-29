@@ -6,7 +6,6 @@ namespace System.Threading
 {
     public readonly struct CancellationToken : IEquatable<CancellationToken>
     {
-
         public CancellationToken(bool canceled);
 
         public static CancellationToken None { get; }

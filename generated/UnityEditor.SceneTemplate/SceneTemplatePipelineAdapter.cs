@@ -8,7 +8,6 @@ namespace UnityEditor.SceneTemplate
 {
     public class SceneTemplatePipelineAdapter : ISceneTemplatePipeline
     {
-
         public SceneTemplatePipelineAdapter();
 
         public virtual bool IsValidTemplateForInstantiation(SceneTemplateAsset sceneTemplateAsset);

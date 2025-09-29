@@ -7,7 +7,6 @@ namespace System.Reflection
     [Flags]
     public enum GenericParameterAttributes
     {
-
         None = 0,
         VarianceMask = 3,
         Covariant = 1,

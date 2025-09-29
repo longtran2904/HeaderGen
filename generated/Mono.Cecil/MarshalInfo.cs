@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public class MarshalInfo
     {
-
         public MarshalInfo(NativeType native);
 
         public NativeType NativeType { get; set; }

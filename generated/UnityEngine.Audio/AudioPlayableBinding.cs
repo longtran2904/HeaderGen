@@ -8,7 +8,6 @@ namespace UnityEngine.Audio
 {
     public static class AudioPlayableBinding
     {
-
         public static PlayableBinding Create(string name, Object key);
     }
 }

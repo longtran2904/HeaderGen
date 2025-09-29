@@ -6,7 +6,6 @@ namespace UnityEditor.TextCore.Text
 {
     public class TextCoreShaderGUIBitmap : TextCoreShaderGUI
     {
-
         public TextCoreShaderGUIBitmap();
 
         protected override void DoGUI();

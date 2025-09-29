@@ -11,7 +11,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public struct ClothSphereColliderPair
     {
-
         public ClothSphereColliderPair(SphereCollider a);
         public ClothSphereColliderPair(SphereCollider a, SphereCollider b);
 

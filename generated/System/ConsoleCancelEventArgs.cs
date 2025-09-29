@@ -6,7 +6,6 @@ namespace System
 {
     public sealed class ConsoleCancelEventArgs : EventArgs
     {
-
         public bool Cancel { get; set; }
         public ConsoleSpecialKey SpecialKey { get; }
     }

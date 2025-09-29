@@ -14,7 +14,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Export/Handheld/Handheld.bindings.h")]
     public class Handheld
     {
-
         public Handheld();
 
         [Obsolete("Property Handheld.use32BitDisplayBuffer has been deprecated. Modifying it has no effect, use PlayerSettings instead.")]

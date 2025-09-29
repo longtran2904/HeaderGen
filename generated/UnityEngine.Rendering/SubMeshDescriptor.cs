@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public struct SubMeshDescriptor
     {
-
         public SubMeshDescriptor(int indexStart, int indexCount, MeshTopology topology = MeshTopology.Triangles);
 
         public Bounds bounds { get; set; }

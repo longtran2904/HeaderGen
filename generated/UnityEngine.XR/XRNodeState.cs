@@ -9,7 +9,6 @@ namespace UnityEngine.XR
     [UsedByNativeCode]
     public struct XRNodeState
     {
-
         public ulong uniqueID { get; set; }
         public XRNode nodeType { get; set; }
         public bool tracked { get; set; }

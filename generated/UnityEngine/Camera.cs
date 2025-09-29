@@ -23,7 +23,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public sealed class Camera : Behaviour
     {
-
         public static CameraCallback onPreCull;
         public static CameraCallback onPreRender;
         public static CameraCallback onPostRender;
@@ -220,9 +219,9 @@ namespace UnityEngine
         [EditorBrowsable(EditorBrowsableState.Never)]
         [Obsolete("Camera.GetStereoProjectionMatrices has been deprecated. Use GetStereoProjectionMatrix(StereoscopicEye eye) instead.", False)]
         public Matrix4x4[] GetStereoProjectionMatrices();
+
         public enum GateFitMode
         {
-
             Vertical = 1,
             Horizontal = 2,
             Fill = 3,
@@ -231,13 +230,11 @@ namespace UnityEngine
         }
         public enum FieldOfViewAxis
         {
-
             Vertical = 0,
             Horizontal = 1
         }
         public struct GateFitParameters
         {
-
             public GateFitParameters(GateFitMode mode, float aspect);
 
             public GateFitMode mode { get; set; }
@@ -245,26 +242,22 @@ namespace UnityEngine
         }
         public enum StereoscopicEye
         {
-
             Left = 0,
             Right = 1
         }
         public enum MonoOrStereoscopicEye
         {
-
             Left = 0,
             Right = 1,
             Mono = 2
         }
         public enum SceneViewFilterMode
         {
-
             Off = 0,
             ShowFiltered = 1
         }
         public enum RenderRequestMode
         {
-
             None = 0,
             ObjectId = 1,
             Depth = 2,
@@ -282,7 +275,6 @@ namespace UnityEngine
         }
         public enum RenderRequestOutputSpace
         {
-
             ScreenSpace = -1,
             UV0 = 0,
             UV1 = 1,
@@ -296,7 +288,6 @@ namespace UnityEngine
         }
         public struct RenderRequest
         {
-
             public RenderRequest(RenderRequestMode mode, RenderTexture rt);
             public RenderRequest(RenderRequestMode mode, RenderRequestOutputSpace space, RenderTexture rt);
 

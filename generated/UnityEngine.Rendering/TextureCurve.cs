@@ -10,7 +10,6 @@ namespace UnityEngine.Rendering
     [DefaultMember("Item")]
     public class TextureCurve : IDisposable
     {
-
         public TextureCurve(AnimationCurve baseCurve, float zeroValue, bool loop, in Vector2 bounds);
         public TextureCurve(Keyframe[] keys, float zeroValue, bool loop, in Vector2 bounds);
 

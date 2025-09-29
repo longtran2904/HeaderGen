@@ -9,7 +9,6 @@ namespace UnityEditorInternal
     [Obsolete("CanAppendBuild has been deprecated. Use UnityEditor.CanAppendBuild instead (UnityUpgradable) -> [UnityEditor] UnityEditor.CanAppendBuild", True)]
     public enum CanAppendBuild
     {
-
         Unsupported = 0,
         Yes = 1,
         No = 2

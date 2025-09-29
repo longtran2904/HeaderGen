@@ -8,42 +8,38 @@ namespace UnityEditor.Rendering
 {
     public static class CameraUI
     {
-
         public static void Drawer_Projection(ISerializedCamera p, Editor owner);
+
         public enum ProjectionType
         {
-
             Perspective = 0,
             Orthographic = 1
         }
         public enum ProjectionMatrixMode
         {
-
             Explicit = 0,
             Implicit = 1,
             PhysicalPropertiesBased = 2
         }
         public static class Environment
         {
-
             public static void Drawer_Environment_VolumeLayerMask(ISerializedCamera p, Editor owner);
+
             public static class Styles
             {
-
                 public static readonly GUIContent header;
                 public static readonly GUIContent volumeLayerMask;
             }
         }
         public static class Output
         {
-
             public static void Drawer_Output_AllowDynamicResolution(ISerializedCamera p, Editor owner);
             public static void Drawer_Output_NormalizedViewPort(ISerializedCamera p, Editor owner);
             public static void Drawer_Output_Depth(ISerializedCamera p, Editor owner);
             public static void Drawer_Output_RenderTarget(ISerializedCamera p, Editor owner);
+
             public static class Styles
             {
-
                 public static readonly GUIContent header;
                 public static readonly GUIContent targetDisplay;
                 public static readonly GUIContent viewport;
@@ -53,14 +49,13 @@ namespace UnityEditor.Rendering
         }
         public static class PhysicalCamera
         {
-
             public static void Drawer_PhysicalCamera_CameraBody_Sensor(ISerializedCamera p, Editor owner);
             public static void Drawer_PhysicalCamera_CameraBody_GateFit(ISerializedCamera p, Editor owner);
             public static void Drawer_PhysicalCamera_Lens_FocalLength(ISerializedCamera p, Editor owner);
             public static void Drawer_PhysicalCamera_Lens_Shift(ISerializedCamera p, Editor owner);
+
             public static class Styles
             {
-
                 public static readonly GUIContent cameraBody;
                 public static readonly GUIContent sensorType;
                 public static readonly string[] apertureFormatNames;
@@ -75,14 +70,13 @@ namespace UnityEditor.Rendering
         }
         public static class Rendering
         {
-
             public static void Drawer_Rendering_StopNaNs(ISerializedCamera p, Editor owner);
             public static void Drawer_Rendering_Dithering(ISerializedCamera p, Editor owner);
             public static void Drawer_Rendering_CullingMask(ISerializedCamera p, Editor owner);
             public static void Drawer_Rendering_OcclusionCulling(ISerializedCamera p, Editor owner);
+
             public static class Styles
             {
-
                 public static readonly GUIContent header;
                 public static readonly GUIContent antialiasing;
                 public static readonly GUIContent dithering;
@@ -95,7 +89,6 @@ namespace UnityEditor.Rendering
         }
         public static class Styles
         {
-
             public static GUIContent clippingPlaneMultiFieldTitle;
             public static readonly GUIContent projectionContent;
             public static readonly GUIContent sizeContent;

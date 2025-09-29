@@ -9,7 +9,6 @@ namespace UnityEditor.Search
 {
     public struct CustomObjectIndexerTarget
     {
-
         public UnityEngine.Object target;
         public SerializedObject serializedObject;
         public string id;

@@ -8,7 +8,6 @@ namespace System
 {
     public class AssemblyLoadEventArgs : EventArgs
     {
-
         public AssemblyLoadEventArgs(Assembly loadedAssembly);
 
         public Assembly LoadedAssembly { get; }

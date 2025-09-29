@@ -11,7 +11,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics2D/Public/BoxCollider2D.h")]
     public sealed class BoxCollider2D : Collider2D
     {
-
         public BoxCollider2D();
 
         public Vector2 size { get; set; }

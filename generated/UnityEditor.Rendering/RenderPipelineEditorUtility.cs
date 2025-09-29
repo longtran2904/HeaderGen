@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering
 {
     public static class RenderPipelineEditorUtility
     {
-
         public static Type FetchFirstCompatibleTypeUsingScriptableRenderPipelineExtension<TBaseClass>();
     }
 }

@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
 {
     public class MaterialHeaderScopeList
     {
-
         public MaterialHeaderScopeList(uint defaultExpandedState = 4294967295);
 
         public void RegisterHeaderScope<TEnum>(GUIContent title, TEnum expandable, Action<Material> action) where TEnum : IConvertible, struct;

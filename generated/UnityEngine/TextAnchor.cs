@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum TextAnchor
     {
-
         UpperLeft = 0,
         UpperCenter = 1,
         UpperRight = 2,

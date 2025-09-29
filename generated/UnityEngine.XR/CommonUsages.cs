@@ -8,7 +8,6 @@ namespace UnityEngine.XR
 {
     public static class CommonUsages
     {
-
         public static InputFeatureUsage<bool> isTracked;
         public static InputFeatureUsage<bool> primaryButton;
         public static InputFeatureUsage<bool> primaryTouch;

@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class UxmlStyleFactory : UxmlFactory<VisualElement, UxmlStyleTraits>
     {
-
         public UxmlStyleFactory();
 
         public override string uxmlName { get; }

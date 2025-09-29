@@ -12,7 +12,6 @@ namespace UnityEngine.UI
     [RequireComponent(typeof(RectTransform))]
     public class AspectRatioFitter : UIBehaviour, ILayoutController, ILayoutSelfController
     {
-
         protected AspectRatioFitter();
 
         public AspectMode aspectMode { get; set; }
@@ -30,9 +29,9 @@ namespace UnityEngine.UI
         public bool IsComponentValidOnObject();
         public bool IsAspectModeValid();
         protected override void OnValidate();
+
         public enum AspectMode
         {
-
             None = 0,
             WidthControlsHeight = 1,
             HeightControlsWidth = 2,

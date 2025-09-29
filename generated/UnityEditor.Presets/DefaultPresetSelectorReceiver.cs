@@ -6,7 +6,6 @@ namespace UnityEditor.Presets
 {
     public class DefaultPresetSelectorReceiver : PresetSelectorReceiver
     {
-
         public DefaultPresetSelectorReceiver();
 
         public override void OnSelectionChanged(Preset selection);

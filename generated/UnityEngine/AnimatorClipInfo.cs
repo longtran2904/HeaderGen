@@ -12,7 +12,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public struct AnimatorClipInfo
     {
-
         public AnimationClip clip { get; }
         public float weight { get; }
     }

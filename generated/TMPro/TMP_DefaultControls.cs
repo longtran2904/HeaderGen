@@ -8,15 +8,14 @@ namespace TMPro
 {
     public static class TMP_DefaultControls
     {
-
         public static GameObject CreateScrollbar(Resources resources);
         public static GameObject CreateButton(Resources resources);
         public static GameObject CreateText(Resources resources);
         public static GameObject CreateInputField(Resources resources);
         public static GameObject CreateDropdown(Resources resources);
+
         public struct Resources
         {
-
             public Sprite standard;
             public Sprite background;
             public Sprite inputField;

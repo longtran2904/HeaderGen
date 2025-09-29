@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum AndroidAutoRotationBehavior
     {
-
         User = 1,
         Sensor = 2
     }

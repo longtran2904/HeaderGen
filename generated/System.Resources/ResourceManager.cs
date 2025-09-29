@@ -10,7 +10,6 @@ namespace System.Resources
 {
     public class ResourceManager
     {
-
         protected string BaseNameField;
         protected Assembly MainAssembly;
         public static readonly int MagicNumber;

@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public enum BuiltinShaderType
     {
-
         DeferredShading = 0,
         DeferredReflections = 1,
         LegacyDeferredLighting = 2,

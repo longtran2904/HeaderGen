@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum BatteryStatus
     {
-
         Unknown = 0,
         Charging = 1,
         Discharging = 2,

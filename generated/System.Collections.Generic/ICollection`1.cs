@@ -6,7 +6,6 @@ namespace System.Collections.Generic
 {
     public interface ICollection<T> : IEnumerable, IEnumerable<T>
     {
-
         int Count { get; }
         bool IsReadOnly { get; }
 

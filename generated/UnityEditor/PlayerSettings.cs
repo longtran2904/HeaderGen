@@ -23,7 +23,6 @@ namespace UnityEditor
     [StaticAccessor("GetPlayerSettings()")]
     public sealed class PlayerSettings : UnityEngine.Object
     {
-
         public static string companyName { get; set; }
         public static string productName { get; set; }
         [Obsolete("Use PlayerSettings.SplashScreen.show instead")]
@@ -390,11 +389,11 @@ namespace UnityEditor
         public static bool GetVirtualRealitySupported(BuildTargetGroup targetGroup);
         [Obsolete("This API is deprecated and will be removed prior to shipping 2020.2", False)]
         public static void SetVirtualRealitySupported(BuildTargetGroup targetGroup, bool value);
+
         [NativeHeader("Runtime/Misc/PlayerSettings.h")]
         [StaticAccessor("GetPlayerSettings()", StaticAccessorType.Dot)]
         public class Android
         {
-
             public Android();
 
             [Obsolete("Use targetArchitectures instead. (UnityUpgradable) -> targetArchitectures", False)]
@@ -449,7 +448,6 @@ namespace UnityEditor
         [StaticAccessor("GetPlayerSettings()", StaticAccessorType.Dot)]
         public class iOS
         {
-
             public iOS();
 
             [Obsolete("exitOnSuspend is deprecated, use appInBackgroundBehavior", False)]
@@ -517,7 +515,6 @@ namespace UnityEditor
         [StaticAccessor("GetPlayerSettings()", StaticAccessorType.Dot)]
         public sealed class EmbeddedLinux
         {
-
             public EmbeddedLinux();
 
             [NativeProperty("PlayerDataPath")]
@@ -528,7 +525,6 @@ namespace UnityEditor
         [Obsolete("Facebook support was removed in 2019.3", True)]
         public class Facebook
         {
-
             public Facebook();
 
             public static string sdkVersion { get; set; }
@@ -540,7 +536,6 @@ namespace UnityEditor
         [NativeHeader("Runtime/Misc/PlayerSettings.h")]
         public sealed class Lumin
         {
-
             public Lumin();
 
             [NativeProperty("LuminIconModelFolderPath")]
@@ -562,7 +557,6 @@ namespace UnityEditor
         [StaticAccessor("GetPlayerSettings()", StaticAccessorType.Dot)]
         public class macOS
         {
-
             public macOS();
 
             public static string buildNumber { get; set; }
@@ -581,7 +575,6 @@ namespace UnityEditor
         [StaticAccessor("GetPlayerSettings().GetEditorOnlyForUpdate()", StaticAccessorType.Dot)]
         public sealed class PS4
         {
-
             public PS4();
 
             [NativeProperty("ps4NPTrophyPackPath")]
@@ -737,16 +730,15 @@ namespace UnityEditor
             public static bool allowPS5Detection { get; set; }
             [NativeProperty("ps4GPU800MHz", False, TargetType.Field)]
             public static bool gpu800MHz { get; set; }
+
             public enum PS4AppCategory
             {
-
                 Application = 0,
                 Patch = 1,
                 Remaster = 2
             }
             public enum PS4RemotePlayKeyAssignment
             {
-
                 None = -1,
                 PatternA = 0,
                 PatternB = 1,
@@ -759,14 +751,12 @@ namespace UnityEditor
             }
             public enum PS4EnterButtonAssignment
             {
-
                 CircleButton = 0,
                 CrossButton = 1,
                 SystemDefined = 2
             }
             public enum PlayStationVREyeToEyeDistanceSettings
             {
-
                 PerUser = 0,
                 ForceDefault = 1,
                 DynamicModeAtRuntime = 2
@@ -775,7 +765,6 @@ namespace UnityEditor
         [NativeHeader("Runtime/Misc/PlayerSettingsSplashScreen.h")]
         public struct SplashScreenLogo
         {
-
             public Sprite logo { get; set; }
             public static Sprite unityLogo { get; }
             public float duration { get; set; }
@@ -793,7 +782,6 @@ namespace UnityEditor
         [StaticAccessor("GetPlayerSettings().GetSplashScreenSettings()", StaticAccessorType.Dot)]
         public class SplashScreen
         {
-
             public SplashScreen();
 
             [NativeName("SplashScreenAnimation")]
@@ -819,22 +807,20 @@ namespace UnityEditor
             public static bool showUnityLogo { get; set; }
             [NativeName("SplashScreenLogoStyle")]
             public static UnityLogoStyle unityLogoStyle { get; set; }
+
             public enum AnimationMode
             {
-
                 Static = 0,
                 Dolly = 1,
                 Custom = 2
             }
             public enum DrawMode
             {
-
                 UnityLogoBelow = 0,
                 AllSequential = 1
             }
             public enum UnityLogoStyle
             {
-
                 DarkOnLight = 0,
                 LightOnDark = 1
             }
@@ -843,7 +829,6 @@ namespace UnityEditor
         [StaticAccessor("GetPlayerSettings().GetEditorOnlyForUpdate()", StaticAccessorType.Dot)]
         public sealed class Switch
         {
-
             public Switch();
 
             [NativeProperty("switchSocketMemoryPoolSize", TargetType.Field)]
@@ -994,9 +979,9 @@ namespace UnityEditor
             public static int switchRamDiskSpaceSize { get; set; }
 
             public static int GetRatingAge(RatingCategories category);
+
             public enum ScreenResolutionBehavior
             {
-
                 Manual = 0,
                 OperationMode = 1,
                 PerformanceMode = 2,
@@ -1004,7 +989,6 @@ namespace UnityEditor
             }
             public enum Languages
             {
-
                 AmericanEnglish = 0,
                 BritishEnglish = 1,
                 Japanese = 2,
@@ -1024,20 +1008,17 @@ namespace UnityEditor
             }
             public enum StartupUserAccount
             {
-
                 None = 0,
                 Required = 1,
                 RequiredWithNetworkServiceAccountAvailable = 2
             }
             public enum LogoHandling
             {
-
                 Auto = 0,
                 Manual = 1
             }
             public enum LogoType
             {
-
                 LicensedByNintendo = 0,
                 [Obsolete("This attribute is no longer available as of NintendoSDK 4.3.", True)]
                 DistributedByNintendo = 1,
@@ -1045,13 +1026,11 @@ namespace UnityEditor
             }
             public enum ApplicationAttribute
             {
-
                 None = 0,
                 Demo = 1
             }
             public enum RatingCategories
             {
-
                 CERO = 0,
                 GRACGCRB = 1,
                 GSRMR = 2,
@@ -1069,7 +1048,6 @@ namespace UnityEditor
             [Flags]
             public enum SupportedNpadStyle
             {
-
                 FullKey = 2,
                 Handheld = 4,
                 JoyDual = 16,
@@ -1082,7 +1060,6 @@ namespace UnityEditor
         [StaticAccessor("GetPlayerSettings()")]
         public class tvOS
         {
-
             public tvOS();
 
             public static tvOSSdkVersion sdkVersion { get; set; }
@@ -1095,7 +1072,6 @@ namespace UnityEditor
         [NativeHeader("Editor/Mono/PlayerSettingsWebGL.bindings.h")]
         public sealed class WebGL
         {
-
             public WebGL();
 
             [NativeProperty("webGLMemorySize", TargetType.Field)]
@@ -1140,7 +1116,6 @@ namespace UnityEditor
         }
         public enum WSAApplicationShowName
         {
-
             NotSet = 0,
             AllLogos = 1,
             NoLogos = 2,
@@ -1149,20 +1124,17 @@ namespace UnityEditor
         }
         public enum WSADefaultTileSize
         {
-
             NotSet = 0,
             Medium = 1,
             Wide = 2
         }
         public enum WSAApplicationForegroundText
         {
-
             Light = 1,
             Dark = 2
         }
         public enum WSACapability
         {
-
             EnterpriseAuthentication = 0,
             InternetClient = 1,
             InternetClientServer = 2,
@@ -1204,7 +1176,6 @@ namespace UnityEditor
         }
         public enum WSATargetFamily
         {
-
             Desktop = 0,
             Mobile = 1,
             Xbox = 2,
@@ -1215,7 +1186,6 @@ namespace UnityEditor
         }
         public enum WSAImageScale
         {
-
             _100 = 100,
             _125 = 125,
             _150 = 150,
@@ -1237,7 +1207,6 @@ namespace UnityEditor
         }
         public enum WSAImageType
         {
-
             PackageLogo = 1,
             SplashScreenImage = 2,
             UWPSquare44x44Logo = 31,
@@ -1248,7 +1217,6 @@ namespace UnityEditor
         }
         public enum WSAInputSource
         {
-
             CoreWindow = 0,
             IndependentInputSource = 1,
             SwapChainPanel = 2
@@ -1256,13 +1224,11 @@ namespace UnityEditor
         [RequiredByNativeCode]
         public struct WSASupportedFileType
         {
-
             public string contentType;
             public string fileType;
         }
         public struct WSAFileTypeAssociations
         {
-
             public string name;
             public WSASupportedFileType[] supportedFileTypes;
         }
@@ -1271,7 +1237,6 @@ namespace UnityEditor
         [StaticAccessor("PlayerSettingsBindings::WSA", StaticAccessorType.DoubleColon)]
         public sealed class WSA
         {
-
             public WSA();
 
             [NativeProperty("wsaTransparentSwapchain", TargetType.Field)]
@@ -1453,9 +1418,9 @@ namespace UnityEditor
             public static bool GetCapability(WSACapability capability);
             public static void SetTargetDeviceFamily(WSATargetFamily family, bool value);
             public static bool GetTargetDeviceFamily(WSATargetFamily family);
+
             public static class Declarations
             {
-
                 public static string protocolName { get; set; }
                 public static WSAFileTypeAssociations fileTypeAssociations { get; set; }
             }
@@ -1464,7 +1429,6 @@ namespace UnityEditor
         [StaticAccessor("GetPlayerSettings().GetEditorOnlyForUpdate()", StaticAccessorType.Dot)]
         public sealed class XboxOne
         {
-
             public XboxOne();
 
             [NativeProperty("XboxOneXTitleMemory", TargetType.Field)]
@@ -1575,15 +1539,14 @@ namespace UnityEditor
         [Obsolete("This API is deprecated and will be removed in 2020.2.", False)]
         public static class VRWindowsMixedReality
         {
-
             [Obsolete("This API is deprecated and will be removed in 2020.2.", False)]
             public static DepthBufferFormat depthBufferFormat { get; set; }
             [Obsolete("This API is deprecated and will be removed in 2020.2.", False)]
             public static bool depthBufferSharingEnabled { get; set; }
+
             [Obsolete("This API is deprecated and will be removed in 2020.2.", False)]
             public enum DepthBufferFormat
             {
-
                 DepthBufferFormat16Bit = 0,
                 DepthBufferFormat24Bit = 1
             }

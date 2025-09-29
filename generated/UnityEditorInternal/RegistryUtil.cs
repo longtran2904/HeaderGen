@@ -9,7 +9,6 @@ namespace UnityEditorInternal
     [NativeType(Header = "Editor/Mono/RegistryUtil.bindings.h")]
     public class RegistryUtil
     {
-
         public RegistryUtil();
 
         public static uint GetRegistryUInt32Value(string subKey, string valueName, uint defaultValue, RegistryView view);

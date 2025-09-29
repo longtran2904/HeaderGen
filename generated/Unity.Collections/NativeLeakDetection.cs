@@ -6,7 +6,6 @@ namespace Unity.Collections
 {
     public static class NativeLeakDetection
     {
-
         public static NativeLeakDetectionMode Mode { get; set; }
     }
 }

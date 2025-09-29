@@ -7,7 +7,6 @@ namespace System.Diagnostics.CodeAnalysis
     [AttributeUsage(AttributeTargets.All, AllowMultiple = True, Inherited = False)]
     public sealed class UnconditionalSuppressMessageAttribute : Attribute
     {
-
         public UnconditionalSuppressMessageAttribute(string category, string checkId);
 
         public string Category { get; }

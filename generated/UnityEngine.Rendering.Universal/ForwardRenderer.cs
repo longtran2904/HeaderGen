@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering.Universal
     [Obsolete("ForwardRenderer has been deprecated (UnityUpgradable) -> UniversalRenderer", True)]
     public sealed class ForwardRenderer : ScriptableRenderer
     {
-
         public ForwardRenderer(ForwardRendererData data);
 
         public override void Setup(ScriptableRenderContext context, ref RenderingData renderingData);

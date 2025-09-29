@@ -16,7 +16,6 @@ namespace UnityEditor.AI
     [StaticAccessor("NavMeshBuilderEditorBindings", StaticAccessorType.DoubleColon)]
     public sealed class NavMeshBuilder
     {
-
         public NavMeshBuilder();
 
         public static UnityEngine.Object navMeshSettingsObject { get; }

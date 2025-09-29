@@ -12,7 +12,6 @@ namespace UnityEditor
     [RequiredByNativeCode]
     public class VideoImporterTargetSettings
     {
-
         public bool enableTranscoding;
         public VideoCodec codec;
         [NativeName("resizeFormat")]

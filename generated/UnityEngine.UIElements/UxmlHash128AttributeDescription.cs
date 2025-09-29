@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class UxmlHash128AttributeDescription : TypedUxmlAttributeDescription<Hash128>
     {
-
         public UxmlHash128AttributeDescription();
 
         public override string defaultValueAsString { get; }

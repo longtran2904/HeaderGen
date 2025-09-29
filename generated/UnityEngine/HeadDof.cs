@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum HeadDof
     {
-
         NeckFrontBack = 0,
         NeckLeftRight = 1,
         NeckRollLeftRight = 2,

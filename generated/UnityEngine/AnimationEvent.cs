@@ -10,7 +10,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public sealed class AnimationEvent
     {
-
         public AnimationEvent();
 
         [Obsolete("Use stringParameter instead")]

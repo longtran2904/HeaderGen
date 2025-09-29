@@ -11,7 +11,6 @@ namespace UnityEditor
     [EditorWindowTitle(title = "Profiler", icon = "UnityEditor.ProfilerWindow")]
     public sealed class ProfilerWindow : EditorWindow, IHasCustomMenu, IProfilerWindowController, ProfilerModulesDropdownWindow.IResponder
     {
-
         [Obsolete("cpuModuleName is deprecated. Use cpuModuleIdentifier instead. (UnityUpgradable) -> cpuModuleIdentifier")]
         public const string cpuModuleName = "UnityEditorInternal.Profiling.CPUProfilerModule, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null";
         [Obsolete("gpuModuleName is deprecated. Use gpuModuleIdentifier instead. (UnityUpgradable) -> gpuModuleIdentifier")]

@@ -8,7 +8,6 @@ namespace UnityEditor.IMGUI.Controls
 {
     public class SearchField
     {
-
         public SearchField();
 
         public int searchFieldControlID { get; set; }
@@ -23,6 +22,7 @@ namespace UnityEditor.IMGUI.Controls
         public string OnGUI(string text, params GUILayoutOption[] options);
         public string OnToolbarGUI(Rect rect, string text);
         public string OnToolbarGUI(string text, params GUILayoutOption[] options);
+
         public delegate void SearchFieldCallback();
     }
 }

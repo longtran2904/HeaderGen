@@ -16,7 +16,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public class AnimatorOverrideController : RuntimeAnimatorController
     {
-
         public AnimatorOverrideController();
         public AnimatorOverrideController(RuntimeAnimatorController controller);
 

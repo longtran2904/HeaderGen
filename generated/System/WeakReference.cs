@@ -9,7 +9,6 @@ namespace System
 {
     public class WeakReference : ISerializable
     {
-
         public WeakReference(object target);
         public WeakReference(object target, bool trackResurrection);
         [EditorBrowsable(EditorBrowsableState.Never)]

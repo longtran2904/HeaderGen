@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering
 {
     public struct EditorPrefBool
     {
-
         public EditorPrefBool(string key, bool defaultValue = False);
 
         public bool value { get; set; }

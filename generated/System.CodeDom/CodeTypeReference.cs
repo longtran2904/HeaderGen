@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeTypeReference : CodeObject
     {
-
         public CodeTypeReference();
         public CodeTypeReference(Type type);
         public CodeTypeReference(Type type, CodeTypeReferenceOptions codeTypeReferenceOption);

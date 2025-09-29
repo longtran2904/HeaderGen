@@ -9,21 +9,19 @@ namespace UnityEditor.UIElements
 {
     public class Vector2Field : BaseCompositeField<Vector2, FloatField, float>
     {
-
         public static readonly string ussClassName;
         public static readonly string labelUssClassName;
         public static readonly string inputUssClassName;
 
         public Vector2Field();
         public Vector2Field(string label);
+
         public class UxmlFactory : UxmlFactory<Vector2Field, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : BaseField<Vector2>.UxmlTraits
         {
-
             public UxmlTraits();
 
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc);

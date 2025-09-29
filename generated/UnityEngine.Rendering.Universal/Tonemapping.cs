@@ -7,7 +7,6 @@ namespace UnityEngine.Rendering.Universal
     [VolumeComponentMenuForRenderPipeline("Post-processing/Tonemapping", new[] {typeof(UniversalRenderPipeline) })]
     public sealed class Tonemapping : VolumeComponent, IPostProcessComponent
     {
-
         [Tooltip("Select a tonemapping algorithm to use for the color grading process.")]
         public TonemappingModeParameter mode;
 

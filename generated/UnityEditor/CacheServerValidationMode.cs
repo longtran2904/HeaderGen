@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum CacheServerValidationMode
     {
-
         Disabled = 0,
         UploadOnly = 1,
         Enabled = 2,

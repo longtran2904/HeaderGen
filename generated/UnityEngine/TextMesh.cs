@@ -11,7 +11,6 @@ namespace UnityEngine
     [RequireComponent(typeof(Transform), typeof(MeshRenderer))]
     public sealed class TextMesh : Component
     {
-
         public TextMesh();
 
         public string text { get; set; }

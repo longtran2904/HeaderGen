@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public static class INotifyValueChangedExtensions
     {
-
         public static bool RegisterValueChangedCallback<T>(this INotifyValueChanged<T> control, EventCallback<ChangeEvent<T>> callback);
         public static bool UnregisterValueChangedCallback<T>(this INotifyValueChanged<T> control, EventCallback<ChangeEvent<T>> callback);
     }

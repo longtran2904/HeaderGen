@@ -8,7 +8,6 @@ namespace UnityEngine
 {
     public sealed class AndroidJavaException : Exception
     {
-
         public override string StackTrace { get; }
     }
 }

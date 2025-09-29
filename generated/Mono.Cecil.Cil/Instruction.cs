@@ -6,7 +6,6 @@ namespace Mono.Cecil.Cil
 {
     public sealed class Instruction
     {
-
         public int Offset { get; set; }
         public OpCode OpCode { get; set; }
         public object Operand { get; set; }

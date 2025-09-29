@@ -7,7 +7,6 @@ namespace System.Runtime.CompilerServices
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Interface, Inherited = False)]
     public sealed class CollectionBuilderAttribute : Attribute
     {
-
         public CollectionBuilderAttribute(Type builderType, string methodName);
 
         public Type BuilderType { get; }

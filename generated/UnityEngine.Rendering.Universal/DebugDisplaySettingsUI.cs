@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering.Universal
 {
     public class DebugDisplaySettingsUI : IDebugData
     {
-
         public DebugDisplaySettingsUI();
 
         public void RegisterDebug(DebugDisplaySettings settings);

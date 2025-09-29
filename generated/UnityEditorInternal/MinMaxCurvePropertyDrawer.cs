@@ -10,7 +10,6 @@ namespace UnityEditorInternal
     [CustomPropertyDrawer(typeof(ParticleSystem.MinMaxCurve))]
     public class MinMaxCurvePropertyDrawer : PropertyDrawer
     {
-
         public MinMaxCurvePropertyDrawer();
 
         public override void OnGUI(Rect position, SerializedProperty property, GUIContent label);

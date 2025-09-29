@@ -11,7 +11,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics/ArticulationBody.h")]
     public struct ArticulationReducedSpace
     {
-
         public int dofCount;
 
         public ArticulationReducedSpace(float a);

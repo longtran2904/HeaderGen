@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public struct StyleCursor : IEquatable<StyleCursor>, IStyleValue<Cursor>
     {
-
         public StyleCursor(Cursor v);
         public StyleCursor(StyleKeyword keyword);
 

@@ -6,7 +6,6 @@ namespace System.Net.Http
 {
     public sealed class HttpProtocolException : HttpIOException
     {
-
         public HttpProtocolException(long errorCode, string message, Exception innerException);
 
         public long ErrorCode { get; }

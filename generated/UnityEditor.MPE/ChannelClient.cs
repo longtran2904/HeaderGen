@@ -13,7 +13,6 @@ namespace UnityEditor.MPE
     [StaticAccessor("Unity::MPE::ChannelClient", StaticAccessorType.DoubleColon)]
     public class ChannelClient
     {
-
         public int clientId { get; }
         public string channelName { get; }
         public bool isAutoTick { get; }

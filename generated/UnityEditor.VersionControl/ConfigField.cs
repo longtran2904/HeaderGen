@@ -12,7 +12,6 @@ namespace UnityEditor.VersionControl
     [UsedByNativeCode]
     public class ConfigField
     {
-
         ~ConfigField();
 
         public string name { get; }

@@ -6,7 +6,6 @@ namespace UnityEngine.NVIDIA
 {
     public struct DLSSCommandExecutionData
     {
-
         public int reset { get; set; }
         public float sharpness { get; set; }
         public float mvScaleX { get; set; }

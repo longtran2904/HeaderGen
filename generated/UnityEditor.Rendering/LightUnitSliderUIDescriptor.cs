@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering
 {
     public struct LightUnitSliderUIDescriptor
     {
-
         public readonly float[] sliderDistribution;
         public readonly LightUnitSliderUIRange[] valueRanges;
         public readonly Vector2 sliderRange;

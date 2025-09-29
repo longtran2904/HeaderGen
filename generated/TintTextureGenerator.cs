@@ -7,7 +7,6 @@ using UnityEngine;
 [ExecuteInEditMode]
 public class TintTextureGenerator : MonoBehaviour
 {
-
     public int k_TintMapSize;
 
     public TintTextureGenerator();

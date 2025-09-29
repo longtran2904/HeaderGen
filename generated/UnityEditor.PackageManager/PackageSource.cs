@@ -6,7 +6,6 @@ namespace UnityEditor.PackageManager
 {
     public enum PackageSource
     {
-
         Unknown = 0,
         Registry = 1,
         BuiltIn = 2,

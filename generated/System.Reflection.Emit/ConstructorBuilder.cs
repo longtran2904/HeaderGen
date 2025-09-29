@@ -6,7 +6,6 @@ namespace System.Reflection.Emit
 {
     public abstract class ConstructorBuilder : ConstructorInfo
     {
-
         protected ConstructorBuilder();
 
         public bool InitLocals { get; set; }

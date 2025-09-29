@@ -8,7 +8,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class SelectionDragger : Dragger
     {
-
         public SelectionDragger();
 
         protected override void RegisterCallbacksOnTarget();

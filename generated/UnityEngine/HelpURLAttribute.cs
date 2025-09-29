@@ -11,7 +11,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public class HelpURLAttribute : Attribute
     {
-
         public HelpURLAttribute(string url);
 
         public string URL { get; }

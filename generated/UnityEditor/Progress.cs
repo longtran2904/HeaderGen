@@ -12,7 +12,6 @@ namespace UnityEditor
     [StaticAccessor("Editor::Progress", StaticAccessorType.DoubleColon)]
     public static class Progress
     {
-
         public static bool running { get; }
         public static float globalProgress { get; }
         public static TimeSpan globalRemainingTime { get; }
@@ -74,10 +73,10 @@ namespace UnityEditor
         public static IEnumerable<Item> EnumerateItems();
         public static Item GetProgressById(int id);
         public static int GetRunningProgressCount();
+
         [NativeType(Header = "Editor/Src/Progress.h")]
         public enum Status
         {
-
             Running = 0,
             Succeeded = 1,
             Failed = 2,
@@ -88,7 +87,6 @@ namespace UnityEditor
         [NativeType(Header = "Editor/Src/Progress.h")]
         public enum Options
         {
-
             None = 0,
             Sticky = 1,
             Indefinite = 2,
@@ -99,7 +97,6 @@ namespace UnityEditor
         [NativeType(Header = "Editor/Src/Progress.h")]
         public enum TimeDisplayMode
         {
-
             NoTimeShown = 0,
             ShowRunningTime = 1,
             ShowRemainingTime = 2
@@ -107,7 +104,6 @@ namespace UnityEditor
         [NativeType(Header = "Editor/Src/Progress.h")]
         public enum Priority
         {
-
             Unresponsive = 0,
             Idle = 1,
             Low = 2,
@@ -116,7 +112,6 @@ namespace UnityEditor
         }
         public class Item
         {
-
             public string name { get; }
             public string description { get; }
             public int id { get; }

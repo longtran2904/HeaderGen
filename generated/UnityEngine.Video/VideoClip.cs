@@ -11,7 +11,6 @@ namespace UnityEngine.Video
     [RequiredByNativeCode]
     public sealed class VideoClip : Object
     {
-
         public string originalPath { get; }
         public ulong frameCount { get; }
         public double frameRate { get; }

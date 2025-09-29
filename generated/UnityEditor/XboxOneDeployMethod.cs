@@ -9,7 +9,6 @@ namespace UnityEditor
     [NativeType(Header = "Runtime/Serialize/BuildTarget.h")]
     public enum XboxOneDeployMethod
     {
-
         Push = 0,
         RunFromPC = 2,
         Package = 3,

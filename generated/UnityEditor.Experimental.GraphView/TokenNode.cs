@@ -8,7 +8,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class TokenNode : Node
     {
-
         public TokenNode(Port input, Port output);
 
         public Texture icon { get; set; }

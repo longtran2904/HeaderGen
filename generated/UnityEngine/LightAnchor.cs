@@ -12,7 +12,6 @@ namespace UnityEngine
     [ExecuteInEditMode]
     public class LightAnchor : MonoBehaviour
     {
-
         public LightAnchor();
 
         public float yaw { get; set; }
@@ -27,9 +26,9 @@ namespace UnityEngine
         public static float NormalizeAngleDegree(float angle);
         public void SynchronizeOnTransform(Camera camera);
         public void UpdateTransform(Camera camera, Vector3 anchor);
+
         public enum UpDirection
         {
-
             World = 0,
             Local = 1
         }

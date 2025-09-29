@@ -10,7 +10,6 @@ namespace UnityEditorInternal
     [NativeHeader("Modules/ProfilerEditor/ProfilerHistory/ProfilerFrameData.h")]
     public class ProfilerFrameDataIterator : IDisposable
     {
-
         public ProfilerFrameDataIterator();
 
         ~ProfilerFrameDataIterator();

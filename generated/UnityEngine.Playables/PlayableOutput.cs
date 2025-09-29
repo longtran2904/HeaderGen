@@ -10,7 +10,6 @@ namespace UnityEngine.Playables
     [RequiredByNativeCode]
     public struct PlayableOutput : IEquatable<PlayableOutput>, IPlayableOutput
     {
-
         public static PlayableOutput Null { get; }
 
         public PlayableOutputHandle GetHandle();

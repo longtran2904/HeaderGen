@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public struct StylePropertyName : IEquatable<StylePropertyName>
     {
-
         public StylePropertyName(string name);
 
         public static bool IsNullOrEmpty(StylePropertyName propertyName);

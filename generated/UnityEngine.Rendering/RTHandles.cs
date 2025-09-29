@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public static class RTHandles
     {
-
         public static int maxWidth { get; }
         public static int maxHeight { get; }
         public static RTHandleProperties rtHandleProperties { get; }

@@ -14,7 +14,6 @@ namespace UnityEngine.XR
     [NativeHeader("Runtime/Interfaces/IVRDevice.h")]
     public static class XRSettings
     {
-
         public static bool enabled { get; set; }
         [StaticAccessor("GetIVRDeviceScripting()", StaticAccessorType.ArrowWithDefaultReturnIfNull)]
         public static GameViewRenderMode gameViewRenderMode { get; set; }
@@ -51,9 +50,9 @@ namespace UnityEngine.XR
 
         public static void LoadDeviceByName(string deviceName);
         public static void LoadDeviceByName(string[] prioritizedDeviceNameList);
+
         public enum StereoRenderingMode
         {
-
             MultiPass = 0,
             SinglePass = 1,
             SinglePassInstanced = 2,

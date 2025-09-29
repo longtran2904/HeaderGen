@@ -6,7 +6,6 @@ namespace System.Collections.Generic
 {
     public sealed class ObjectEqualityComparer<T> : EqualityComparer<T>
     {
-
         public ObjectEqualityComparer();
 
         public override bool Equals(T x, T y);

@@ -8,7 +8,6 @@ namespace UnityEngine
 {
     public struct RenderTargetSetup
     {
-
         public RenderBuffer[] color;
         public RenderBuffer depth;
         public int mipLevel;

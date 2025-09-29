@@ -11,7 +11,6 @@ namespace UnityEngine
     [RequireComponent(typeof(Transform))]
     public sealed class AudioReverbZone : Behaviour
     {
-
         public AudioReverbZone();
 
         public float minDistance { get; set; }

@@ -8,7 +8,6 @@ namespace UnityEngine
 {
     public enum ScreenOrientation
     {
-
         [Obsolete("Enum member Unknown has been deprecated.", False)]
         Unknown = 0,
         [Obsolete("Use LandscapeLeft instead (UnityUpgradable) -> LandscapeLeft", True)]

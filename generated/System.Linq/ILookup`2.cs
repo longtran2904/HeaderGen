@@ -11,7 +11,6 @@ namespace System.Linq
     [DefaultMember("Item")]
     public interface ILookup<TKey, TElement> : IEnumerable, IEnumerable<IGrouping<TKey, TElement>>
     {
-
         IEnumerable<TElement> this[TKey key] { get; }
         int Count { get; }
 

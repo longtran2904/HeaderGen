@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public class TypeReference : MemberReference, IGenericContext, IGenericParameterProvider
     {
-
         protected Collection<GenericParameter> generic_parameters;
 
         protected TypeReference(string namespace, string name);

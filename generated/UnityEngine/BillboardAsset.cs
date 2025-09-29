@@ -11,7 +11,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Export/Graphics/BillboardRenderer.bindings.h")]
     public sealed class BillboardAsset : Object
     {
-
         public BillboardAsset();
 
         public float width { get; set; }

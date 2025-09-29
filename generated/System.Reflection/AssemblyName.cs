@@ -11,7 +11,6 @@ namespace System.Reflection
 {
     public sealed class AssemblyName : ICloneable, IDeserializationCallback, ISerializable
     {
-
         public AssemblyName(string assemblyName);
         public AssemblyName();
 

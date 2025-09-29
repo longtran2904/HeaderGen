@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public struct IDLDESC
     {
-
         public nint dwReserved;
         public IDLFLAG wIDLFlags;
     }

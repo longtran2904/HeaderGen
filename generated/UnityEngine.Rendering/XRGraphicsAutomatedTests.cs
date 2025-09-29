@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public static class XRGraphicsAutomatedTests
     {
-
         public static bool running;
 
         public static bool enabled { get; }

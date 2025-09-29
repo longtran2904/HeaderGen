@@ -8,7 +8,6 @@ namespace UnityEditor.ShaderGraph.Internal
 {
     public sealed class SerializableCubemap : ISerializationCallbackReceiver
     {
-
         public SerializableCubemap();
 
         public Cubemap cubemap { get; set; }

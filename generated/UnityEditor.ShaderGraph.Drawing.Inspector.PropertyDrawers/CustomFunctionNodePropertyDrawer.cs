@@ -11,7 +11,6 @@ namespace UnityEditor.ShaderGraph.Drawing.Inspector.PropertyDrawers
     [SGPropertyDrawer(typeof(CustomFunctionNode))]
     public class CustomFunctionNodePropertyDrawer : IGetNodePropertyDrawerPropertyData, IPropertyDrawer
     {
-
         public CustomFunctionNodePropertyDrawer();
 
         public Action inspectorUpdateDelegate { get; set; }

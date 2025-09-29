@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering.Universal
 {
     public struct UpgradeParams
     {
-
         public UpgradeSurfaceType surfaceType { get; set; }
         public UpgradeBlendMode blendMode { get; set; }
         public bool alphaClip { get; set; }

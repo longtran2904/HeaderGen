@@ -7,7 +7,6 @@ namespace System.Runtime
     [AttributeUsage(AttributeTargets.Assembly, Inherited = False)]
     public sealed class AssemblyTargetedPatchBandAttribute : Attribute
     {
-
         public AssemblyTargetedPatchBandAttribute(string targetedPatchBand);
 
         public string TargetedPatchBand { get; }

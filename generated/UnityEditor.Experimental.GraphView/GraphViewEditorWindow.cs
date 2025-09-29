@@ -9,7 +9,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public abstract class GraphViewEditorWindow : EditorWindow
     {
-
         protected GraphViewEditorWindow();
 
         public virtual IEnumerable<GraphView> graphViews { get; }

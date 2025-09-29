@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public sealed class PInvokeInfo
     {
-
         public PInvokeInfo(PInvokeAttributes attributes, string entryPoint, ModuleReference module);
 
         public PInvokeAttributes Attributes { get; set; }

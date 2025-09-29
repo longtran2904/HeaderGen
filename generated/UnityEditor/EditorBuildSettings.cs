@@ -11,7 +11,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Src/EditorBuildSettings.h")]
     public class EditorBuildSettings : UnityEngine.Object
     {
-
         public static EditorBuildSettingsScene[] scenes { get; set; }
 
         public static event Action sceneListChanged;

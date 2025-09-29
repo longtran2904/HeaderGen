@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum MouseCursor
     {
-
         Arrow = 0,
         Text = 1,
         ResizeVertical = 2,

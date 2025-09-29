@@ -11,7 +11,6 @@ namespace System.Text.RegularExpressions
     [DefaultMember("Item")]
     public class GroupCollection : ICollection, ICollection<Group>, IEnumerable, IEnumerable<Group>, IEnumerable<KeyValuePair<string, Group>>, IList, IList<Group>, IReadOnlyCollection<Group>, IReadOnlyCollection<KeyValuePair<string, Group>>, IReadOnlyDictionary<string, Group>, IReadOnlyList<Group>
     {
-
         public Group this[int groupnum] { get; }
         public Group this[string groupname] { get; }
         public bool IsReadOnly { get; }

@@ -17,7 +17,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Mono/MonoEditorUtility.h")]
     public class EditorUtility
     {
-
         public EditorUtility();
 
         public static bool audioMasterMute { get; set; }
@@ -144,6 +143,7 @@ namespace UnityEditor
         public static void ClearDefaultParentObject(Scene scene);
         public static void ClearDefaultParentObject();
         public static void OpenPropertyEditor(UnityEngine.Object obj);
+
         public delegate void SelectMenuItemFunction(object userData, string[] options, int selected);
     }
 }

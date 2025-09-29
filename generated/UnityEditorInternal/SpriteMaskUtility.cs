@@ -9,7 +9,6 @@ namespace UnityEditorInternal
     [StaticAccessor("SpriteUtilityBindings", StaticAccessorType.DoubleColon)]
     public static class SpriteMaskUtility
     {
-
         public static void EnableDebugMode(bool enable);
     }
 }

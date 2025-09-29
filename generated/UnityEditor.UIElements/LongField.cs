@@ -9,7 +9,6 @@ namespace UnityEditor.UIElements
 {
     public class LongField : TextValueField<long>
     {
-
         public static readonly string ussClassName;
         public static readonly string labelUssClassName;
         public static readonly string inputUssClassName;
@@ -21,14 +20,13 @@ namespace UnityEditor.UIElements
         protected override string ValueToString(long v);
         protected override long StringToValue(string str);
         public override void ApplyInputDeviceDelta(Vector3 delta, DeltaSpeed speed, long startValue);
+
         public class UxmlFactory : UxmlFactory<LongField, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : TextValueFieldTraits<long, UxmlLongAttributeDescription>
         {
-
             public UxmlTraits();
         }
     }

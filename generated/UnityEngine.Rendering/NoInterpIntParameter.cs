@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public class NoInterpIntParameter : VolumeParameter<int>
     {
-
         public NoInterpIntParameter(int value, bool overrideState = False);
     }
 }

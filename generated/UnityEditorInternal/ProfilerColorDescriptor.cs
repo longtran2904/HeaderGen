@@ -8,7 +8,6 @@ namespace UnityEditorInternal
 {
     public struct ProfilerColorDescriptor
     {
-
         public readonly Color color;
         public readonly bool isBright;
 

@@ -6,7 +6,6 @@ namespace UnityEngine.TerrainTools
 {
     public enum TerrainBuiltinPaintMaterialPasses
     {
-
         RaiseLowerHeight = 0,
         StampHeight = 1,
         SetHeights = 2,

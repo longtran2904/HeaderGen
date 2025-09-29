@@ -14,7 +14,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Animation/Animation.h")]
     public sealed class Animation : Behaviour, IEnumerable
     {
-
         public Animation();
 
         public AnimationState this[string name] { get; }

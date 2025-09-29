@@ -9,7 +9,6 @@ namespace JetBrains.Annotations
     [AttributeUsage(AttributeTargets.Method | AttributeTargets.Parameter, AllowMultiple = True)]
     public sealed class MacroAttribute : Attribute
     {
-
         public MacroAttribute();
 
         [CanBeNull]

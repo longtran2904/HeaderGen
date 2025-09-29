@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class GeometryChangedEvent : EventBase<GeometryChangedEvent>
     {
-
         public GeometryChangedEvent();
 
         public Rect oldRect { get; }

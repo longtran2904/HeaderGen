@@ -6,7 +6,6 @@ namespace System.Numerics
 {
     public struct Plane : IEquatable<Plane>
     {
-
         public Vector3 Normal;
         public float D;
 

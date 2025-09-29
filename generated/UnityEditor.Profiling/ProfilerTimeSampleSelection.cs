@@ -9,7 +9,6 @@ namespace UnityEditor.Profiling
 {
     public sealed class ProfilerTimeSampleSelection
     {
-
         public ProfilerTimeSampleSelection(long frameIndex, string threadGroupName, string threadName, ulong threadId, int rawSampleIndex, string sampleName = null);
         public ProfilerTimeSampleSelection(long frameIndex, string threadGroupName, string threadName, ulong threadId, IList<int> rawSampleIndices, string sampleName = null);
         public ProfilerTimeSampleSelection(ProfilerTimeSampleSelection selection);

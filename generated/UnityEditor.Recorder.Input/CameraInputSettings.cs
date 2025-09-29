@@ -11,7 +11,6 @@ namespace UnityEditor.Recorder.Input
     [DisplayName("Targeted Camera")]
     public class CameraInputSettings : StandardImageInputSettings
     {
-
         public CameraInputSettings();
 
         public ImageSource Source { get; set; }

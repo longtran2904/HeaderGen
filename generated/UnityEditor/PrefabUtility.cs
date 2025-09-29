@@ -18,7 +18,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Src/Prefabs/PrefabCreation.h")]
     public sealed class PrefabUtility
     {
-
         public static PrefabInstanceUpdated prefabInstanceUpdated;
 
         public PrefabUtility();
@@ -161,10 +160,10 @@ namespace UnityEditor
         public static PrefabAssetType GetPrefabAssetType(UnityEngine.Object componentOrGameObject);
         public static GameObject LoadPrefabContents(string assetPath);
         public static void UnloadPrefabContents(GameObject contentsRoot);
+
         public delegate void PrefabInstanceUpdated(GameObject instance);
         public struct EditPrefabContentsScope : IDisposable
         {
-
             public readonly string assetPath;
             public readonly GameObject prefabContentsRoot;
 

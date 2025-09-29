@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Utilities/PlayerPrefs.h")]
     public class PlayerPrefs
     {
-
         public PlayerPrefs();
 
         public static void SetInt(string key, int value);

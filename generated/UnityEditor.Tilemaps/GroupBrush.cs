@@ -10,7 +10,6 @@ namespace UnityEditor.Tilemaps
     [HelpURL("https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@latest/index.html?subfolder=/manual/GroupBrush.html")]
     public class GroupBrush : GridBrush
     {
-
         public GroupBrush();
 
         public Vector3Int gap { get; set; }

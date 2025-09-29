@@ -14,7 +14,6 @@ namespace UnityEngine.SceneManagement
     [RequiredByNativeCode]
     public class SceneManager
     {
-
         public SceneManager();
 
         public static int sceneCount { get; }

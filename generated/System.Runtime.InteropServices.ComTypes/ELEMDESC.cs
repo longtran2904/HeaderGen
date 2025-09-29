@@ -9,12 +9,11 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public struct ELEMDESC
     {
-
         public TYPEDESC tdesc;
         public DESCUNION desc;
+
         public struct DESCUNION
         {
-
             public IDLDESC idldesc;
             public PARAMDESC paramdesc;
         }

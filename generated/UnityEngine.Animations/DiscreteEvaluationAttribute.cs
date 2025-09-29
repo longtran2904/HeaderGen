@@ -11,7 +11,6 @@ namespace UnityEngine.Animations
     [RequiredByNativeCode]
     public class DiscreteEvaluationAttribute : Attribute
     {
-
         public DiscreteEvaluationAttribute();
     }
 }

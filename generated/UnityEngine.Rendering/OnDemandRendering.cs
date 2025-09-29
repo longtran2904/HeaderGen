@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
     [RequiredByNativeCode]
     public class OnDemandRendering
     {
-
         public OnDemandRendering();
 
         public static bool willCurrentFrameRender { get; }

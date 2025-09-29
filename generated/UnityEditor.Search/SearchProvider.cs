@@ -10,7 +10,6 @@ namespace UnityEditor.Search
 {
     public class SearchProvider
     {
-
         public bool active;
         public string filterId;
         public bool isExplicitProvider;

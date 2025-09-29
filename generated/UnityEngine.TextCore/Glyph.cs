@@ -9,7 +9,6 @@ namespace UnityEngine.TextCore
     [UsedByNativeCode]
     public class Glyph
     {
-
         public Glyph();
         public Glyph(Glyph glyph);
         public Glyph(uint index, GlyphMetrics metrics, GlyphRect glyphRect);

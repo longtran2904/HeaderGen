@@ -11,7 +11,6 @@ namespace UnityEditor
     [NativeType(Header = "Modules/AssetPipelineEditor/Public/ModelImporting/ModelImporter.h")]
     public enum ModelImporterMaterialImportMode
     {
-
         [Tooltip("Do not import materials")]
         None = 0,
         [InspectorName("Standard (Legacy)")]

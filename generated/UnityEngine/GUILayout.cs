@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public class GUILayout
     {
-
         public GUILayout();
 
         public static void Label(Texture image, params GUILayoutOption[] options);
@@ -121,9 +120,9 @@ namespace UnityEngine
         public static GUILayoutOption MaxHeight(float maxHeight);
         public static GUILayoutOption ExpandWidth(bool expand);
         public static GUILayoutOption ExpandHeight(bool expand);
+
         public class HorizontalScope : GUI.Scope
         {
-
             public HorizontalScope(params GUILayoutOption[] options);
             public HorizontalScope(GUIStyle style, params GUILayoutOption[] options);
             public HorizontalScope(string text, GUIStyle style, params GUILayoutOption[] options);
@@ -134,7 +133,6 @@ namespace UnityEngine
         }
         public class VerticalScope : GUI.Scope
         {
-
             public VerticalScope(params GUILayoutOption[] options);
             public VerticalScope(GUIStyle style, params GUILayoutOption[] options);
             public VerticalScope(string text, GUIStyle style, params GUILayoutOption[] options);
@@ -145,7 +143,6 @@ namespace UnityEngine
         }
         public class AreaScope : GUI.Scope
         {
-
             public AreaScope(Rect screenRect);
             public AreaScope(Rect screenRect, string text);
             public AreaScope(Rect screenRect, Texture image);
@@ -158,7 +155,6 @@ namespace UnityEngine
         }
         public class ScrollViewScope : GUI.Scope
         {
-
             public ScrollViewScope(Vector2 scrollPosition, params GUILayoutOption[] options);
             public ScrollViewScope(Vector2 scrollPosition, bool alwaysShowHorizontal, bool alwaysShowVertical, params GUILayoutOption[] options);
             public ScrollViewScope(Vector2 scrollPosition, GUIStyle horizontalScrollbar, GUIStyle verticalScrollbar, params GUILayoutOption[] options);

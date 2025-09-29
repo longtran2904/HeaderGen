@@ -6,7 +6,6 @@ namespace UnityEditor.Search
 {
     public interface IFilterNode : IQueryNode
     {
-
         string filterId { get; }
         string paramValue { get; }
         string operatorId { get; }

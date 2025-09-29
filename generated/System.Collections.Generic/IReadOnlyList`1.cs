@@ -9,7 +9,6 @@ namespace System.Collections.Generic
     [DefaultMember("Item")]
     public interface IReadOnlyList<T> : IEnumerable, IEnumerable<T>, IReadOnlyCollection<T>
     {
-
         T this[int index] { get; }
     }
 }

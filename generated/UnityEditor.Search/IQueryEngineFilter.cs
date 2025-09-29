@@ -10,7 +10,6 @@ namespace UnityEditor.Search
 {
     public interface IQueryEngineFilter
     {
-
         string token { get; }
         Regex regexToken { get; }
         bool usesRegularExpressionToken { get; }

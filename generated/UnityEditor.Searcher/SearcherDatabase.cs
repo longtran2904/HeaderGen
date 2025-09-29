@@ -11,7 +11,6 @@ namespace UnityEditor.Searcher
     [PublicAPI]
     public class SearcherDatabase : SearcherDatabaseBase
     {
-
         public SearcherDatabase(IReadOnlyCollection<SearcherItem> db);
 
         public Func<string, SearcherItem, bool> MatchFilter { get; set; }

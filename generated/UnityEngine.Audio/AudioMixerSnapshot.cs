@@ -10,7 +10,6 @@ namespace UnityEngine.Audio
     [NativeHeader("Modules/Audio/Public/AudioMixerSnapshot.h")]
     public class AudioMixerSnapshot : Object, ISubAssetNotDuplicatable
     {
-
         [NativeProperty]
         public AudioMixer audioMixer { get; }
 

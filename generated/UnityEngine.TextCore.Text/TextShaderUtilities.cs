@@ -6,7 +6,6 @@ namespace UnityEngine.TextCore.Text
 {
     public static class TextShaderUtilities
     {
-
         public static int ID_MainTex;
         public static int ID_FaceTex;
         public static int ID_FaceColor;

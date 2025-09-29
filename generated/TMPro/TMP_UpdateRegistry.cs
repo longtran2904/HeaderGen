@@ -8,7 +8,6 @@ namespace TMPro
 {
     public class TMP_UpdateRegistry
     {
-
         protected TMP_UpdateRegistry();
 
         public static TMP_UpdateRegistry instance { get; }

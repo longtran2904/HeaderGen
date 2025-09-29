@@ -7,7 +7,6 @@ namespace System.Diagnostics
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Constructor | AttributeTargets.Method, Inherited = False)]
     public sealed class DebuggerStepThroughAttribute : Attribute
     {
-
         public DebuggerStepThroughAttribute();
     }
 }

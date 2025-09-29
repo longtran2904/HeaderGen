@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public enum MetadataType
     {
-
         Void = 1,
         Boolean = 2,
         Char = 3,

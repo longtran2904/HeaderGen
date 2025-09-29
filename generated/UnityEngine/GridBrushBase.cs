@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public abstract class GridBrushBase : ScriptableObject
     {
-
         protected GridBrushBase();
 
         public virtual void Paint(GridLayout gridLayout, GameObject brushTarget, Vector3Int position);
@@ -23,9 +22,9 @@ namespace UnityEngine
         public virtual void MoveEnd(GridLayout gridLayout, GameObject brushTarget, BoundsInt position);
         public virtual void ChangeZPosition(int change);
         public virtual void ResetZPosition();
+
         public enum Tool
         {
-
             Select = 0,
             Move = 1,
             Paint = 2,
@@ -36,13 +35,11 @@ namespace UnityEngine
         }
         public enum RotationDirection
         {
-
             Clockwise = 0,
             CounterClockwise = 1
         }
         public enum FlipAxis
         {
-
             X = 0,
             Y = 1
         }

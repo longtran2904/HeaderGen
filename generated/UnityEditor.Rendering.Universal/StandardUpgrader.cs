@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering.Universal
 {
     public class StandardUpgrader : MaterialUpgrader
     {
-
         public StandardUpgrader(string oldShaderName);
 
         public static void UpdateStandardMaterialKeywords(Material material);

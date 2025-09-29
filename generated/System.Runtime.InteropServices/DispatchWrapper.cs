@@ -11,7 +11,6 @@ namespace System.Runtime.InteropServices
     [SupportedOSPlatform("windows")]
     public sealed class DispatchWrapper
     {
-
         public DispatchWrapper(object obj);
 
         public object WrappedObject { get; }

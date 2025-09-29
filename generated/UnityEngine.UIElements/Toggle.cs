@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public class Toggle : BaseBoolField
     {
-
         public static readonly string ussClassName;
         public static readonly string labelUssClassName;
         public static readonly string inputUssClassName;
@@ -21,14 +20,13 @@ namespace UnityEngine.UIElements
         public Toggle(string label);
 
         protected override void InitLabel();
+
         public class UxmlFactory : UxmlFactory<Toggle, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : BaseFieldTraits<bool, UxmlBoolAttributeDescription>
         {
-
             public UxmlTraits();
 
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc);

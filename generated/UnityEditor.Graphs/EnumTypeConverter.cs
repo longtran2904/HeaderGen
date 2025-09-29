@@ -10,7 +10,6 @@ namespace UnityEditor.Graphs
 {
     public class EnumTypeConverter : GraphsTypeConverter
     {
-
         public EnumTypeConverter(Type type);
 
         public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type destinationType);

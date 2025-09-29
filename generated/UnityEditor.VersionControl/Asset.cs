@@ -14,7 +14,6 @@ namespace UnityEditor.VersionControl
     [UsedByNativeCode]
     public class Asset
     {
-
         public Asset(string clientPath);
 
         ~Asset();
@@ -50,10 +49,10 @@ namespace UnityEditor.VersionControl
         public bool IsOneOfStates(States[] states);
         public void Edit();
         public UnityEngine.Object Load();
+
         [Flags]
         public enum States
         {
-
             None = 0,
             Local = 1,
             Synced = 2,

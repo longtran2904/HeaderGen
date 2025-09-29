@@ -7,7 +7,6 @@ namespace System.Runtime.Intrinsics.Wasm
     [CLSCompliant(False)]
     public abstract class PackedSimd
     {
-
         protected PackedSimd();
 
         public static bool IsSupported { get; }

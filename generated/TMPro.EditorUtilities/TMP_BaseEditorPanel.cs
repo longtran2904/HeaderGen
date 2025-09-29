@@ -10,7 +10,6 @@ namespace TMPro.EditorUtilities
 {
     public abstract class TMP_BaseEditorPanel : Editor
     {
-
         protected Dictionary<int, int> m_TextStyleIndexLookup;
         public int selAlignGridA;
         public int selAlignGridB;
@@ -106,9 +105,9 @@ namespace TMPro.EditorUtilities
         protected void DrawPropertySlider(GUIContent label, SerializedProperty property);
         protected abstract bool IsMixSelectionTypes();
         protected abstract void OnUndoRedo();
+
         protected struct Foldout
         {
-
             public static bool extraSettings;
             public static bool materialInspector;
         }

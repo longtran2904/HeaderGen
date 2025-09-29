@@ -9,7 +9,6 @@ namespace UnityEditor.ShaderGraph
 {
     public class ColorControl : IControl
     {
-
         public ColorControl(Color value, bool hdr);
 
         public Color value { get; }

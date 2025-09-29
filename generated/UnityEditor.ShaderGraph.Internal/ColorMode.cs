@@ -6,7 +6,6 @@ namespace UnityEditor.ShaderGraph.Internal
 {
     public enum ColorMode
     {
-
         Default = 0,
         HDR = 1
     }

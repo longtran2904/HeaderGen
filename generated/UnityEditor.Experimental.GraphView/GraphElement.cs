@@ -9,7 +9,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public abstract class GraphElement : VisualElement, ISelectable
     {
-
         protected GraphElement();
 
         public Color elementTypeColor { get; set; }

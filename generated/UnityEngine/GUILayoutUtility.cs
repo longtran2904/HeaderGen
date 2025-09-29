@@ -10,7 +10,6 @@ namespace UnityEngine
     [NativeHeader("Modules/IMGUI/GUILayoutUtility.bindings.h")]
     public class GUILayoutUtility
     {
-
         public GUILayoutUtility();
 
         [Obsolete("BeginGroup has no effect and will be removed", False)]

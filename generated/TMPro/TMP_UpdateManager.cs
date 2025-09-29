@@ -6,7 +6,6 @@ namespace TMPro
 {
     public class TMP_UpdateManager
     {
-
         public static void RegisterTextElementForLayoutRebuild(TMP_Text element);
         public static void RegisterTextElementForGraphicRebuild(TMP_Text element);
         public static void RegisterTextElementForCullingUpdate(TMP_Text element);

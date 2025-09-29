@@ -6,7 +6,6 @@ namespace TMPro
 {
     public class TMP_PackageResourceImporter
     {
-
         public TMP_PackageResourceImporter();
 
         public void OnDestroy();

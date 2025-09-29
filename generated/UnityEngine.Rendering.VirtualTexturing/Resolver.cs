@@ -10,7 +10,6 @@ namespace UnityEngine.Rendering.VirtualTexturing
     [NativeHeader("Modules/VirtualTexturing/Public/VirtualTextureResolver.h")]
     public class Resolver : IDisposable
     {
-
         public Resolver();
 
         ~Resolver();

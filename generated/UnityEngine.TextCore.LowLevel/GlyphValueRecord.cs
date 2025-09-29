@@ -11,7 +11,6 @@ namespace UnityEngine.TextCore.LowLevel
     [UsedByNativeCode]
     public struct GlyphValueRecord : IEquatable<GlyphValueRecord>
     {
-
         public GlyphValueRecord(float xPlacement, float yPlacement, float xAdvance, float yAdvance);
 
         public float xPlacement { get; set; }

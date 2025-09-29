@@ -9,7 +9,6 @@ namespace UnityEditorInternal.VersionControl
 {
     public class AssetModificationHook
     {
-
         public AssetModificationHook();
 
         public static void FileModeChanged(string[] assets, FileMode mode);

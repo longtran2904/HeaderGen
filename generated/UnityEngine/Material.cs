@@ -15,7 +15,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Shaders/Material.h")]
     public class Material : Object
     {
-
         public Material(Shader shader);
         [RequiredByNativeCode]
         public Material(Material source);

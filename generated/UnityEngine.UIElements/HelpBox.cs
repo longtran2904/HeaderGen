@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class HelpBox : VisualElement
     {
-
         public static readonly string ussClassName;
         public static readonly string labelUssClassName;
         public static readonly string iconUssClassName;
@@ -19,14 +18,13 @@ namespace UnityEngine.UIElements
 
         public string text { get; set; }
         public HelpBoxMessageType messageType { get; set; }
+
         public class UxmlFactory : UxmlFactory<HelpBox, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : VisualElement.UxmlTraits
         {
-
             public UxmlTraits();
 
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc);

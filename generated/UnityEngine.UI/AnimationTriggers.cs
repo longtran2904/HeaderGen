@@ -6,7 +6,6 @@ namespace UnityEngine.UI
 {
     public class AnimationTriggers
     {
-
         public AnimationTriggers();
 
         public string normalTrigger { get; set; }

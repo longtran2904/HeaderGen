@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [AttributeUsage(AttributeTargets.Interface, AllowMultiple = False, Inherited = False)]
     public sealed class DynamicInterfaceCastableImplementationAttribute : Attribute
     {
-
         public DynamicInterfaceCastableImplementationAttribute();
     }
 }

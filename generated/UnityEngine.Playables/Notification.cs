@@ -6,7 +6,6 @@ namespace UnityEngine.Playables
 {
     public class Notification : INotification
     {
-
         public Notification(string name);
 
         public PropertyName id { get; }

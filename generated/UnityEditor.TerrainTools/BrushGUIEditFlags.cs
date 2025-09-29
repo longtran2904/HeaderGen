@@ -11,7 +11,6 @@ namespace UnityEditor.TerrainTools
     [MovedFrom("UnityEditor.Experimental.TerrainAPI")]
     public enum BrushGUIEditFlags
     {
-
         None = 0,
         Select = 1,
         Inspect = 2,

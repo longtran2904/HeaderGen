@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public struct StyleBackground : IEquatable<StyleBackground>, IStyleValue<Background>
     {
-
         public StyleBackground(Background v);
         public StyleBackground(Texture2D v);
         public StyleBackground(Sprite v);

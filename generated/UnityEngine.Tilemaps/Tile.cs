@@ -10,7 +10,6 @@ namespace UnityEngine.Tilemaps
     [RequiredByNativeCode]
     public class Tile : TileBase
     {
-
         public Tile();
 
         public Sprite sprite { get; set; }
@@ -21,9 +20,9 @@ namespace UnityEngine.Tilemaps
         public ColliderType colliderType { get; set; }
 
         public override void GetTileData(Vector3Int position, ITilemap tilemap, ref TileData tileData);
+
         public enum ColliderType
         {
-
             None = 0,
             Sprite = 1,
             Grid = 2

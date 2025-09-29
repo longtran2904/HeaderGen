@@ -9,7 +9,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class Edge : GraphElement
     {
-
         public Edge();
 
         public bool isGhostEdge { get; set; }

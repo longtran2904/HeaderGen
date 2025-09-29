@@ -6,7 +6,6 @@ namespace System.Text
 {
     public sealed class DecoderReplacementFallbackBuffer : DecoderFallbackBuffer
     {
-
         public DecoderReplacementFallbackBuffer(DecoderReplacementFallback fallback);
 
         public override int Remaining { get; }

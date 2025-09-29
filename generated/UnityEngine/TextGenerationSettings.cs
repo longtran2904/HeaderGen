@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public struct TextGenerationSettings
     {
-
         public Font font;
         public Color color;
         public int fontSize;

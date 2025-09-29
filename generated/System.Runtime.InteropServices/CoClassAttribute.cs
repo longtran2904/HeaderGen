@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [AttributeUsage(AttributeTargets.Interface, Inherited = False)]
     public sealed class CoClassAttribute : Attribute
     {
-
         public CoClassAttribute(Type coClass);
 
         public Type CoClass { get; }

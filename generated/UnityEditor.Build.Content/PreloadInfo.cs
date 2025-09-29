@@ -13,7 +13,6 @@ namespace UnityEditor.Build.Content
     [UsedByNativeCode]
     public class PreloadInfo
     {
-
         public PreloadInfo();
 
         public List<ObjectIdentifier> preloadObjects { get; set; }

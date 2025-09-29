@@ -8,7 +8,6 @@ namespace System.Threading.Tasks
 {
     public abstract class TaskScheduler
     {
-
         protected TaskScheduler();
 
         public virtual int MaximumConcurrencyLevel { get; }

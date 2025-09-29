@@ -8,7 +8,6 @@ namespace TMPro
 {
     public class KerningTable
     {
-
         public List<KerningPair> kerningPairs;
 
         public KerningTable();

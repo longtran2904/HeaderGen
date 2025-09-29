@@ -10,7 +10,6 @@ namespace UnityEngine.Rendering
 {
     public sealed class VolumeManager
     {
-
         public static VolumeManager instance { get; }
         public VolumeStack stack { get; set; }
         [Obsolete("Please use baseComponentTypeArray instead.")]

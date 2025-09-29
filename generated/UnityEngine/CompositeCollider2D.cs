@@ -11,7 +11,6 @@ namespace UnityEngine
     [RequireComponent(typeof(Rigidbody2D))]
     public sealed class CompositeCollider2D : Collider2D
     {
-
         public CompositeCollider2D();
 
         public GeometryType geometryType { get; set; }
@@ -26,15 +25,14 @@ namespace UnityEngine
         public int GetPathPointCount(int index);
         public int GetPath(int index, Vector2[] points);
         public int GetPath(int index, List<Vector2> points);
+
         public enum GeometryType
         {
-
             Outlines = 0,
             Polygons = 1
         }
         public enum GenerationType
         {
-
             Synchronous = 0,
             Manual = 1
         }

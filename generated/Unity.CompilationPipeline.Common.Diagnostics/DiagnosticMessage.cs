@@ -6,7 +6,6 @@ namespace Unity.CompilationPipeline.Common.Diagnostics
 {
     public class DiagnosticMessage
     {
-
         public DiagnosticMessage();
 
         public string File { get; set; }

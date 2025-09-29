@@ -10,7 +10,6 @@ using UnityEngine;
 [FilePath("TimelinePreferences.asset", FilePathAttribute.Location.PreferencesFolder)]
 public class TimelinePreferences : ScriptableSingleton<TimelinePreferences>
 {
-
     [SerializeField]
     public TimeFormat timeFormat;
     [NonSerialized]

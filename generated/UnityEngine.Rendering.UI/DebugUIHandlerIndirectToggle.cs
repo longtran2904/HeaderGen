@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering.UI
 {
     public class DebugUIHandlerIndirectToggle : DebugUIHandlerWidget
     {
-
         public Text nameLabel;
         public Toggle valueToggle;
         public Image checkmarkImage;

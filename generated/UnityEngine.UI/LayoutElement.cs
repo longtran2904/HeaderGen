@@ -11,7 +11,6 @@ namespace UnityEngine.UI
     [RequireComponent(typeof(RectTransform))]
     public class LayoutElement : UIBehaviour, ILayoutElement, ILayoutIgnorer
     {
-
         protected LayoutElement();
 
         public virtual bool ignoreLayout { get; set; }

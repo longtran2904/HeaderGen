@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
     [Obsolete("GPUFence has been deprecated. Use GraphicsFence instead (UnityUpgradable) -> GraphicsFence", False)]
     public struct GPUFence
     {
-
         public bool passed { get; }
     }
 }

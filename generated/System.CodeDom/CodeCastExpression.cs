@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeCastExpression : CodeExpression
     {
-
         public CodeCastExpression();
         public CodeCastExpression(CodeTypeReference targetType, CodeExpression expression);
         public CodeCastExpression(string targetType, CodeExpression expression);

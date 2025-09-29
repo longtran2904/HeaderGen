@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public class MinIntParameter : IntParameter
     {
-
         [NonSerialized]
         public int min;
 

@@ -8,7 +8,6 @@ namespace System.Buffers
 {
     public struct MemoryHandle : IDisposable
     {
-
         [CLSCompliant(False)]
         public MemoryHandle(void* pointer, GCHandle handle = null, IPinnable pinnable = null);
 

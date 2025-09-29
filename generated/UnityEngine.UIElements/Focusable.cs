@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public abstract class Focusable : CallbackEventHandler
     {
-
         protected Focusable();
 
         public abstract FocusController focusController { get; }

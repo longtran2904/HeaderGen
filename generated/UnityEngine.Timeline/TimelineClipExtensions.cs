@@ -6,7 +6,6 @@ namespace UnityEngine.Timeline
 {
     public static class TimelineClipExtensions
     {
-
         public static void MoveToTrack(this TimelineClip clip, TrackAsset destinationTrack);
         public static bool TryMoveToTrack(this TimelineClip clip, TrackAsset destinationTrack);
     }

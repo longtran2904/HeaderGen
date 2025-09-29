@@ -10,7 +10,6 @@ namespace UnityEditor.AssetImporters
     [MovedFrom("UnityEditor.Experimental.AssetImporters")]
     public struct TextureGenerationOutput
     {
-
         public Texture2D texture { get; }
         public Texture output { get; }
         public string importInspectorWarnings { get; }

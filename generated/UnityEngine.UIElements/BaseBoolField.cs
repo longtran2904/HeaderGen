@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public abstract class BaseBoolField : BaseField<bool>
     {
-
         protected Label m_Label;
         protected readonly VisualElement m_CheckMark;
 

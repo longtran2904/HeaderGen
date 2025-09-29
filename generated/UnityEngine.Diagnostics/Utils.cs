@@ -9,7 +9,6 @@ namespace UnityEngine.Diagnostics
     [NativeHeader("Runtime/Export/Diagnostics/DiagnosticsUtils.bindings.h")]
     public static class Utils
     {
-
         [FreeFunction("DiagnosticsUtils_Bindings::ForceCrash", ThrowsException = True)]
         public static void ForceCrash(ForcedCrashCategory crashCategory);
         [FreeFunction("DiagnosticsUtils_Bindings::NativeAssert")]

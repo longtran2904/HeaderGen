@@ -9,7 +9,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public sealed class SplatPrototype
     {
-
         public SplatPrototype();
 
         public Texture2D texture { get; set; }

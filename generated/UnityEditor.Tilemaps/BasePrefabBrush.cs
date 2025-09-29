@@ -9,7 +9,6 @@ namespace UnityEditor.Tilemaps
 {
     public class BasePrefabBrush : GridBrush
     {
-
         public Vector3 m_Anchor;
 
         public BasePrefabBrush();

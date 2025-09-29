@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public struct ModifiableContactPair
     {
-
         public Quaternion rotation;
         public Vector3 position;
         public Quaternion otherRotation;

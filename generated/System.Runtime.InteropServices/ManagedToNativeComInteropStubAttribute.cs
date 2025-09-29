@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = False, Inherited = False)]
     public sealed class ManagedToNativeComInteropStubAttribute : Attribute
     {
-
         public ManagedToNativeComInteropStubAttribute(Type classType, string methodName);
 
         public Type ClassType { get; }

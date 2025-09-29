@@ -14,7 +14,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Src/Selection.bindings.h")]
     public sealed class Selection
     {
-
         public static Action selectionChanged;
 
         public Selection();

@@ -7,7 +7,6 @@ namespace UnityEngine.Rendering.Universal
     [VolumeComponentMenuForRenderPipeline("Post-processing/Vignette", new[] {typeof(UniversalRenderPipeline) })]
     public sealed class Vignette : VolumeComponent, IPostProcessComponent
     {
-
         [Tooltip("Vignette color.")]
         public ColorParameter color;
         [Tooltip("Sets the vignette center point (screen center is [0.5,0.5]).")]

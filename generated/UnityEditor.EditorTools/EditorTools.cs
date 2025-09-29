@@ -11,7 +11,6 @@ namespace UnityEditor.EditorTools
     [Obsolete("EditorTools has been deprecated. Use ToolManager instead (UnityUpgradable) -> ToolManager")]
     public static class EditorTools
     {
-
         public static Type activeToolType { get; }
 
         public static event Action activeToolChanging;

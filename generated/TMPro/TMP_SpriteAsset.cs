@@ -11,7 +11,6 @@ namespace TMPro
     [ExcludeFromPreset]
     public class TMP_SpriteAsset : TMP_Asset
     {
-
         public Texture spriteSheet;
         public List<TMP_Sprite> spriteInfoList;
         [SerializeField]

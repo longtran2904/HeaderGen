@@ -10,7 +10,6 @@ namespace UnityEngine
     [RequireComponent(typeof(AudioBehaviour))]
     public sealed class AudioReverbFilter : Behaviour
     {
-
         public AudioReverbFilter();
 
         [EditorBrowsable(EditorBrowsableState.Never)]

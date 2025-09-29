@@ -11,7 +11,6 @@ namespace UnityEditor
     [NativeHeader("Modules/AssetPipelineEditor/Public/AndroidAssetPackImporter.h")]
     public class AndroidAssetPackImporter : AssetImporter
     {
-
         public AndroidAssetPackImporter();
 
         public static AndroidAssetPackImporter[] GetAllImporters();

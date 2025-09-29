@@ -8,7 +8,6 @@ namespace UnityEditorInternal
 {
     public struct NativeProfilerTimeline_GetEntryPositionInfoArgs
     {
-
         public int frameIndex;
         public int threadIndex;
         public int sampleIndex;

@@ -6,7 +6,6 @@ namespace Unity.MemoryProfiler.Editor.Format.QueriedSnapshot
 {
     public enum EntryFormat
     {
-
         Undefined = 0,
         SingleElement = 1,
         ConstantSizeElementArray = 2,

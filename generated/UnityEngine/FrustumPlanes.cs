@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public struct FrustumPlanes
     {
-
         public float left;
         public float right;
         public float bottom;

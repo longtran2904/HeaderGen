@@ -9,7 +9,6 @@ namespace UnityEditor.Search
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = True)]
     public class SearchSelectorAttribute : Attribute
     {
-
         public SearchSelectorAttribute(string pattern, int priority = 100, string provider = null, bool printable = True);
     }
 }

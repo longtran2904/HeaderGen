@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public abstract class EventBase : IDisposable
     {
-
         protected EventBase();
 
         public virtual long eventTypeId { get; }

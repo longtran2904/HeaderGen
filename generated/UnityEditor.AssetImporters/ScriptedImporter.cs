@@ -15,7 +15,6 @@ namespace UnityEditor.AssetImporters
     [UsedByNativeCode]
     public abstract class ScriptedImporter : AssetImporter
     {
-
         protected ScriptedImporter();
 
         public abstract void OnImportAsset(AssetImportContext ctx);

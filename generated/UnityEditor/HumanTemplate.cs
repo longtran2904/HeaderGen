@@ -12,7 +12,6 @@ namespace UnityEditor
     [UsedByNativeCode]
     public sealed class HumanTemplate : UnityEngine.Object
     {
-
         public HumanTemplate();
 
         public void Insert(string name, string templateName);

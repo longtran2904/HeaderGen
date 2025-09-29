@@ -8,7 +8,6 @@ namespace System.Runtime.InteropServices.Marshalling
     [CLSCompliant(False)]
     public class IUnknownDerivedAttribute<T, TImpl> : Attribute, IIUnknownDerivedDetails where T : IIUnknownInterfaceType
     {
-
         public IUnknownDerivedAttribute();
 
         public Guid Iid { get; }

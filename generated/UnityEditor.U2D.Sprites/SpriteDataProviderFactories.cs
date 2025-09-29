@@ -8,7 +8,6 @@ namespace UnityEditor.U2D.Sprites
 {
     public class SpriteDataProviderFactories
     {
-
         public SpriteDataProviderFactories();
 
         public void Init();

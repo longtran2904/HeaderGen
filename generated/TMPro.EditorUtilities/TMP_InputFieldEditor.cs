@@ -11,7 +11,6 @@ namespace TMPro.EditorUtilities
     [CustomEditor(typeof(TMP_InputField), True)]
     public class TMP_InputFieldEditor : SelectableEditor
     {
-
         public TMP_InputFieldEditor();
 
         protected override void OnEnable();

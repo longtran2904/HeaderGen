@@ -6,7 +6,6 @@ namespace UnityEditor.Recorder
 {
     public abstract class RecorderEditor : Editor
     {
-
         protected RecorderEditor();
 
         protected virtual void OnEnable();

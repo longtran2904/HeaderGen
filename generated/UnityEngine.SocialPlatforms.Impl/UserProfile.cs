@@ -8,7 +8,6 @@ namespace UnityEngine.SocialPlatforms.Impl
 {
     public class UserProfile : IUserProfile
     {
-
         protected string m_UserName;
         protected string m_ID;
         protected bool m_IsFriend;

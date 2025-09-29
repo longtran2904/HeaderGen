@@ -8,7 +8,6 @@ namespace UnityEngine
 {
     public static class WWWAudioExtensions
     {
-
         [Obsolete("WWWAudioExtensions.GetAudioClip extension method has been replaced by WWW.GetAudioClip instance method. (UnityUpgradable) -> WWW.GetAudioClip()", True)]
         public static AudioClip GetAudioClip(this WWW www);
         [Obsolete("WWWAudioExtensions.GetAudioClip extension method has been replaced by WWW.GetAudioClip instance method. (UnityUpgradable) -> WWW.GetAudioClip([mscorlib] System.Boolean)", True)]

@@ -10,7 +10,6 @@ namespace UnityEditor.UI
     [CustomPropertyDrawer(typeof(ColorBlock), True)]
     public class ColorBlockDrawer : PropertyDrawer
     {
-
         public ColorBlockDrawer();
 
         public override void OnGUI(Rect rect, SerializedProperty prop, GUIContent label);

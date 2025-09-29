@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public interface IGenericParameterProvider : IMetadataTokenProvider
     {
-
         bool HasGenericParameters { get; }
         bool IsDefinition { get; }
         ModuleDefinition Module { get; }

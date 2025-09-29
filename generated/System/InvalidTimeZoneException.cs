@@ -9,7 +9,6 @@ namespace System
 {
     public class InvalidTimeZoneException : Exception
     {
-
         public InvalidTimeZoneException();
         public InvalidTimeZoneException(string message);
         public InvalidTimeZoneException(string message, Exception innerException);

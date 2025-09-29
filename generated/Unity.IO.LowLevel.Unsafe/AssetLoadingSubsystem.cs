@@ -6,7 +6,6 @@ namespace Unity.IO.LowLevel.Unsafe
 {
     public enum AssetLoadingSubsystem
     {
-
         Other = 0,
         Texture = 1,
         VirtualTexture = 2,

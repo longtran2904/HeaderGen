@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering.Universal
     [MovedFrom("UnityEngine.Experimental.Rendering.Universal")]
     public struct Light2DBlendStyle
     {
-
         public string name;
     }
 }

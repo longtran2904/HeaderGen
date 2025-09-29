@@ -11,7 +11,6 @@ namespace UnityEditor
     [NativeType(Header = "Editor/Src/BuildPipeline/BuildTargetPlatformSpecific.h")]
     public enum BuildTargetGroup
     {
-
         Unknown = 0,
         Standalone = 1,
         [EditorBrowsable(EditorBrowsableState.Never)]

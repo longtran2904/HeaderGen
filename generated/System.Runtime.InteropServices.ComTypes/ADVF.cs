@@ -10,7 +10,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [Flags]
     public enum ADVF
     {
-
         ADVF_NODATA = 1,
         ADVF_PRIMEFIRST = 2,
         ADVF_ONLYONCE = 4,

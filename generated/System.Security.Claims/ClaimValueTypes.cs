@@ -6,7 +6,6 @@ namespace System.Security.Claims
 {
     public static class ClaimValueTypes
     {
-
         public const string Base64Binary = "http://www.w3.org/2001/XMLSchema#base64Binary";
         public const string Base64Octet = "http://www.w3.org/2001/XMLSchema#base64Octet";
         public const string Boolean = "http://www.w3.org/2001/XMLSchema#boolean";

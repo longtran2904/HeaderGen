@@ -8,7 +8,6 @@ namespace System.Net
 {
     public static class WebUtility
     {
-
         public static string HtmlEncode(string value);
         public static void HtmlEncode(string value, TextWriter output);
         public static string HtmlDecode(string value);

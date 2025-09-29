@@ -10,7 +10,6 @@ namespace UnityEditor.Searcher
     [PublicAPI]
     public static class SearcherTreeUtility
     {
-
         public static List<SearcherItem> CreateFromFlatList(List<SearcherItem> items);
     }
 }

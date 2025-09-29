@@ -8,7 +8,6 @@ namespace UnityEditor.VersionControl
 {
     public class AssetList : List<Asset>
     {
-
         public AssetList();
         public AssetList(AssetList src);
 

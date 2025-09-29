@@ -12,7 +12,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Jobs/ScriptBindings/JobsBindingsTypes.h")]
     public struct SpherecastCommand
     {
-
         public SpherecastCommand(Vector3 origin, float radius, Vector3 direction, float distance = 3.4028235E+38, int layerMask = -5);
         public SpherecastCommand(PhysicsScene physicsScene, Vector3 origin, float radius, Vector3 direction, float distance = 3.4028235E+38, int layerMask = -5);
 

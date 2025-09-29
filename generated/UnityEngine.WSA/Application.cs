@@ -10,7 +10,6 @@ namespace UnityEngine.WSA
     [StaticAccessor("WSAApplicationBindings", StaticAccessorType.DoubleColon)]
     public sealed class Application
     {
-
         public Application();
 
         public static string arguments { get; }

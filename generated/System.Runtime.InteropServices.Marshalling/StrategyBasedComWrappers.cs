@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.Marshalling
     [CLSCompliant(False)]
     public class StrategyBasedComWrappers : ComWrappers
     {
-
         public StrategyBasedComWrappers();
 
         public static IIUnknownInterfaceDetailsStrategy DefaultIUnknownInterfaceDetailsStrategy { get; }

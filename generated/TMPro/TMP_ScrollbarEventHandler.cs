@@ -9,7 +9,6 @@ namespace TMPro
 {
     public class TMP_ScrollbarEventHandler : MonoBehaviour, IDeselectHandler, IEventSystemHandler, IPointerClickHandler, ISelectHandler
     {
-
         public bool isSelected;
 
         public TMP_ScrollbarEventHandler();

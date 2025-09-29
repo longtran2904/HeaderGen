@@ -9,7 +9,6 @@ namespace UnityEditor.Timeline.Actions
     [AttributeUsage(AttributeTargets.Class)]
     public class ActiveInModeAttribute : Attribute
     {
-
         public ActiveInModeAttribute(TimelineModes timelineModes);
 
         public TimelineModes modes { get; }

@@ -10,7 +10,6 @@ namespace UnityEngine.Rendering
     [Obsolete("VolumeComponentDeprecated has been deprecated (UnityUpgradable) -> [UnityEngine] UnityEngine.HideInInspector", False)]
     public sealed class VolumeComponentDeprecated : Attribute
     {
-
         public VolumeComponentDeprecated();
     }
 }

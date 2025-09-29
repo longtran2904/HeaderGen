@@ -11,7 +11,6 @@ namespace TMPro
     [RequireComponent(typeof(CanvasRenderer))]
     public class TMP_SubMeshUI : MaskableGraphic
     {
-
         public TMP_SubMeshUI();
 
         public TMP_FontAsset fontAsset { get; set; }

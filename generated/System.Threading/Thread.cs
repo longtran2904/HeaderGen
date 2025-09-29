@@ -11,7 +11,6 @@ namespace System.Threading
 {
     public sealed class Thread : CriticalFinalizerObject
     {
-
         public Thread(ThreadStart start);
         public Thread(ThreadStart start, int maxStackSize);
         public Thread(ParameterizedThreadStart start);

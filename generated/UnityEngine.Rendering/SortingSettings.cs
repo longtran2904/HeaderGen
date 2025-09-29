@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public struct SortingSettings : IEquatable<SortingSettings>
     {
-
         public SortingSettings(Camera camera);
 
         public Matrix4x4 worldToCameraMatrix { get; set; }

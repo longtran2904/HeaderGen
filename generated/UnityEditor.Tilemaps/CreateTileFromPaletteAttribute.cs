@@ -9,7 +9,6 @@ namespace UnityEditor.Tilemaps
     [AttributeUsage(AttributeTargets.Method)]
     public class CreateTileFromPaletteAttribute : Attribute
     {
-
         public CreateTileFromPaletteAttribute();
     }
 }

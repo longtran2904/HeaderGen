@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public interface IConnectionPoint
     {
-
         void GetConnectionInterface(out Guid pIID);
         void GetConnectionPointContainer(out IConnectionPointContainer ppCPC);
         void Advise(object pUnkSink, out int pdwCookie);

@@ -9,7 +9,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class BlackboardSection : GraphElement
     {
-
         public BlackboardSection();
 
         public CanAcceptDropDelegate canAcceptDrop { get; set; }
@@ -18,6 +17,7 @@ namespace UnityEditor.Experimental.GraphView
         public bool headerVisible { get; set; }
 
         public bool CanAcceptDrop(List<ISelectable> selection);
+
         public delegate bool CanAcceptDropDelegate(ISelectable selected);
     }
 }

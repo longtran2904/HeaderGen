@@ -4,6 +4,5 @@
 
 public class Int32
 {
-
     public Int32();
 }

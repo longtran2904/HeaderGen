@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public sealed class TransitionCancelEvent : TransitionEventBase<TransitionCancelEvent>
     {
-
         public TransitionCancelEvent();
     }
 }

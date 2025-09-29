@@ -9,7 +9,6 @@ namespace TMPro
 {
     public static class TMP_MaterialManager
     {
-
         public static Material GetStencilMaterial(Material baseMaterial, int stencilID);
         public static void ReleaseStencilMaterial(Material stencilMaterial);
         public static Material GetBaseMaterial(Material stencilMaterial);

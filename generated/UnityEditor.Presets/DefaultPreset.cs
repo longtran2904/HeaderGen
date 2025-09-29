@@ -11,7 +11,6 @@ namespace UnityEditor.Presets
     [NativeType(Header = "Modules/PresetsEditor/Public/PresetManager.h")]
     public struct DefaultPreset
     {
-
         [Obsolete("Use the new getter/setter instead. (UnityUpgradable) -> filter")]
         [SerializeField]
         public string m_Filter;

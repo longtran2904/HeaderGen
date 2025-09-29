@@ -9,7 +9,6 @@ namespace UnityEditor.Build.Player
     [UsedByNativeCode]
     public struct ScriptCompilationSettings
     {
-
         public int subtarget { get; set; }
         public BuildTarget target { get; set; }
         public BuildTargetGroup group { get; set; }

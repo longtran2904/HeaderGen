@@ -6,7 +6,6 @@ namespace System.Collections.Generic
 {
     public class PriorityQueue<TElement, TPriority>
     {
-
         public PriorityQueue();
         public PriorityQueue(int initialCapacity);
         public PriorityQueue(IComparer<TPriority> comparer);
@@ -30,15 +29,15 @@ namespace System.Collections.Generic
         public void Clear();
         public int EnsureCapacity(int capacity);
         public void TrimExcess();
+
         public sealed class UnorderedItemsCollection : ICollection, IEnumerable, IEnumerable<(TElement, TPriority)>, IReadOnlyCollection<(TElement, TPriority)>
         {
-
             public int Count { get; }
 
             public Enumerator GetEnumerator();
+
             public struct Enumerator : IDisposable, IEnumerator, IEnumerator<(TElement, TPriority)>
             {
-
                 public (TElement Element, TPriority Priority) Current { get; }
 
                 public void Dispose();

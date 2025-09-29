@@ -12,7 +12,6 @@ namespace UnityEngine.Audio
     [NativeHeader("Modules/Audio/Public/AudioMixer.h")]
     public class AudioMixer : Object
     {
-
         [NativeProperty]
         public AudioMixerGroup outputAudioMixerGroup { get; set; }
         [NativeProperty]

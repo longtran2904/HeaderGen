@@ -6,7 +6,6 @@ namespace System.Reflection.Emit
 {
     public abstract class ParameterBuilder
     {
-
         protected ParameterBuilder();
 
         public virtual int Attributes { get; }

@@ -8,7 +8,6 @@ namespace UnityEditor.UIElements
 {
     public class TextValueFieldTraits<TValueType, TValueUxmlAttributeType> : BaseFieldTraits<TValueType, TValueUxmlAttributeType> where TValueUxmlAttributeType : TypedUxmlAttributeDescription<TValueType>, new()
     {
-
         public TextValueFieldTraits();
 
         public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc);

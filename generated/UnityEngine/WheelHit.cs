@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Vehicles/WheelCollider.h")]
     public struct WheelHit
     {
-
         public Collider collider { get; set; }
         public Vector3 point { get; set; }
         public Vector3 normal { get; set; }

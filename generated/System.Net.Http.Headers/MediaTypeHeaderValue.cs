@@ -8,7 +8,6 @@ namespace System.Net.Http.Headers
 {
     public class MediaTypeHeaderValue : ICloneable
     {
-
         protected MediaTypeHeaderValue(MediaTypeHeaderValue source);
         public MediaTypeHeaderValue(string mediaType);
         public MediaTypeHeaderValue(string mediaType, string charSet);

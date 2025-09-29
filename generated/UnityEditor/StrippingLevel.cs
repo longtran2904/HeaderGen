@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum StrippingLevel
     {
-
         Disabled = 0,
         StripAssemblies = 1,
         StripByteCode = 2,

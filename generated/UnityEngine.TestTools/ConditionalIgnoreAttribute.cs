@@ -10,7 +10,6 @@ namespace UnityEngine.TestTools
 {
     public class ConditionalIgnoreAttribute : NUnitAttribute, IApplyToTest
     {
-
         public ConditionalIgnoreAttribute(string conditionKey, string ignoreReason);
 
         public void ApplyToTest(NUnit.Framework.Internal.Test test);

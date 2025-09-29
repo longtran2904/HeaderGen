@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public struct JointTranslationLimits2D
     {
-
         public float min { get; set; }
         public float max { get; set; }
     }

@@ -12,7 +12,6 @@ namespace UnityEditor.Tilemaps
     [MovedFrom(True, "UnityEditor", "UnityEditor", null)]
     public class GridSelection : ScriptableObject
     {
-
         public static string kUpdateGridSelection;
 
         public GridSelection();

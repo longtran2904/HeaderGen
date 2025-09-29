@@ -9,7 +9,6 @@ namespace UnityEngine
     [AttributeUsage(AttributeTargets.Method)]
     public class BeforeRenderOrderAttribute : Attribute
     {
-
         public BeforeRenderOrderAttribute(int order);
 
         public int order { get; }

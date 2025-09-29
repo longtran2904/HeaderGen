@@ -10,7 +10,6 @@ namespace UnityEngine.Rendering
     [UsedByNativeCode]
     public struct ScriptableCullingParameters : IEquatable<ScriptableCullingParameters>
     {
-
         public static readonly int maximumCullingPlaneCount;
         public static readonly int layerCount;
 

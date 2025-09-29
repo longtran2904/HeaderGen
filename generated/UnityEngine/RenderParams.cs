@@ -8,7 +8,6 @@ namespace UnityEngine
 {
     public struct RenderParams
     {
-
         public RenderParams(Material mat);
 
         public int layer { get; set; }

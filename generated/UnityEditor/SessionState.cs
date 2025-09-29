@@ -12,7 +12,6 @@ namespace UnityEditor
     [StaticAccessor("GetInspectorExpandedState().GetSessionState()", StaticAccessorType.Dot)]
     public class SessionState
     {
-
         [ExcludeFromDocs]
         public SessionState();
 

@@ -6,9 +6,9 @@ namespace UnityEditor
 {
     public static class AssemblyReloadEvents
     {
-
         public static event AssemblyReloadCallback beforeAssemblyReload;
         public static event AssemblyReloadCallback afterAssemblyReload;
+
         public delegate void AssemblyReloadCallback();
     }
 }

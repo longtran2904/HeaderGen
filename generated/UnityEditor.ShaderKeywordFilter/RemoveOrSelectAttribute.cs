@@ -6,7 +6,6 @@ namespace UnityEditor.ShaderKeywordFilter
 {
     public class RemoveOrSelectAttribute : FilterAttribute
     {
-
         public RemoveOrSelectAttribute(object condition, bool overridePriority = False, string filePath = "", int lineNumber = 0, params string[] keywordNames);
     }
 }

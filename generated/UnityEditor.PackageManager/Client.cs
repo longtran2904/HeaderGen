@@ -10,7 +10,6 @@ namespace UnityEditor.PackageManager
     [NativeHeader("Modules/PackageManager/Editor/Public/PackageManager.h")]
     public static class Client
     {
-
         [NativeHeader("Modules/PackageManager/Editor/PackageManagerLogger.h")]
         [StaticAccessor("PackageManager", StaticAccessorType.DoubleColon)]
         public static LogLevel LogLevel { get; set; }

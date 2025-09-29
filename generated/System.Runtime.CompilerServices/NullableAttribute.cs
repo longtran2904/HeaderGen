@@ -10,7 +10,6 @@ namespace System.Runtime.CompilerServices
     [EditorBrowsable(EditorBrowsableState.Never)]
     public sealed class NullableAttribute : Attribute
     {
-
         public readonly byte[] NullableFlags;
 
         public NullableAttribute(byte value);

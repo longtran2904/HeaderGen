@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public static class CoreMatrixUtils
     {
-
         public static void MatrixTimesTranslation(ref Matrix4x4 inOutMatrix, Vector3 translation);
         public static void TranslationTimesMatrix(ref Matrix4x4 inOutMatrix, Vector3 translation);
         public static Matrix4x4 MultiplyPerspectiveMatrix(Matrix4x4 perspective, Matrix4x4 rhs);

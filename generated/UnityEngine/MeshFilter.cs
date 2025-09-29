@@ -10,7 +10,6 @@ namespace UnityEngine
     [RequireComponent(typeof(Transform))]
     public sealed class MeshFilter : Component
     {
-
         public MeshFilter();
 
         public Mesh sharedMesh { get; set; }

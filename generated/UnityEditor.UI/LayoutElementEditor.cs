@@ -10,7 +10,6 @@ namespace UnityEditor.UI
     [CustomEditor(typeof(LayoutElement), True)]
     public class LayoutElementEditor : Editor
     {
-
         public LayoutElementEditor();
 
         protected virtual void OnEnable();

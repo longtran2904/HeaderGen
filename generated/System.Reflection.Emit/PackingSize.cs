@@ -6,7 +6,6 @@ namespace System.Reflection.Emit
 {
     public enum PackingSize
     {
-
         Unspecified = 0,
         Size1 = 1,
         Size2 = 2,

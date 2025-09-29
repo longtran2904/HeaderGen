@@ -7,7 +7,6 @@ namespace UnityEngine.Rendering.Universal
     [VolumeComponentMenuForRenderPipeline("Post-processing/Chromatic Aberration", new[] {typeof(UniversalRenderPipeline) })]
     public sealed class ChromaticAberration : VolumeComponent, IPostProcessComponent
     {
-
         [Tooltip("Use the slider to set the strength of the Chromatic Aberration effect.")]
         public ClampedFloatParameter intensity;
 

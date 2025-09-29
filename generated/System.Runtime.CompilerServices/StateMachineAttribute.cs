@@ -7,7 +7,6 @@ namespace System.Runtime.CompilerServices
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = False, Inherited = False)]
     public class StateMachineAttribute : Attribute
     {
-
         public StateMachineAttribute(Type stateMachineType);
 
         public Type StateMachineType { get; }

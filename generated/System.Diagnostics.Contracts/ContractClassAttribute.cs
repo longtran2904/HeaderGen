@@ -9,7 +9,6 @@ namespace System.Diagnostics.Contracts
     [Conditional("DEBUG")]
     public sealed class ContractClassAttribute : Attribute
     {
-
         public ContractClassAttribute(Type typeContainingContracts);
 
         public Type TypeContainingContracts { get; }

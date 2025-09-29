@@ -10,7 +10,6 @@ namespace UnityEditor.U2D.Sprites
 {
     public interface ISpriteEditor
     {
-
         List<SpriteRect> spriteRects { set; }
         SpriteRect selectedSpriteRect { get; set; }
         bool enableMouseMoveEvent { set; }

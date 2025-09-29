@@ -12,7 +12,6 @@ namespace UnityEditor.Animations
     [NativeType("Editor/Src/Animation/BlendTree.h")]
     public class BlendTree : Motion
     {
-
         public BlendTree();
 
         public string blendParameter { get; set; }

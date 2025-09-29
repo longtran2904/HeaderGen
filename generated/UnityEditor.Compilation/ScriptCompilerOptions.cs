@@ -8,7 +8,6 @@ namespace UnityEditor.Compilation
 {
     public class ScriptCompilerOptions
     {
-
         public ScriptCompilerOptions();
 
         public string RoslynAnalyzerRulesetPath { get; set; }

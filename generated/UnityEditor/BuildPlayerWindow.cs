@@ -9,7 +9,6 @@ namespace UnityEditor
 {
     public class BuildPlayerWindow : EditorWindow
     {
-
         public BuildPlayerWindow();
 
         [UsedImplicitly]
@@ -17,15 +16,14 @@ namespace UnityEditor
         public static string GetPlaybackEngineDownloadURL(string moduleName);
         public static void RegisterGetBuildPlayerOptionsHandler(Func<BuildPlayerOptions, BuildPlayerOptions> func);
         public static void RegisterBuildPlayerHandler(Action<BuildPlayerOptions> func);
+
         public class BuildMethodException : Exception
         {
-
             public BuildMethodException();
             public BuildMethodException(string message);
         }
         public static class DefaultBuildMethods
         {
-
             public static void BuildPlayer(BuildPlayerOptions options);
             public static BuildPlayerOptions GetBuildPlayerOptions(BuildPlayerOptions defaultBuildPlayerOptions);
         }

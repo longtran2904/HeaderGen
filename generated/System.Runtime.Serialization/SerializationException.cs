@@ -8,7 +8,6 @@ namespace System.Runtime.Serialization
 {
     public class SerializationException : SystemException
     {
-
         public SerializationException();
         public SerializationException(string message);
         public SerializationException(string message, Exception innerException);

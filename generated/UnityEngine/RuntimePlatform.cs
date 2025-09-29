@@ -9,7 +9,6 @@ namespace UnityEngine
 {
     public enum RuntimePlatform
     {
-
         OSXEditor = 0,
         OSXPlayer = 1,
         WindowsPlayer = 2,

@@ -6,7 +6,6 @@ namespace UnityEngine.Pool
 {
     public interface IObjectPool<T> where T : class
     {
-
         int CountInactive { get; }
 
         T Get();

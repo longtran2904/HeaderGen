@@ -11,7 +11,6 @@ namespace UnityEngine.UIElements
     [HelpURL("UIE-get-started-with-runtime-ui")]
     public sealed class UIDocument : MonoBehaviour
     {
-
         public PanelSettings panelSettings { get; set; }
         public UIDocument parentUI { get; }
         public VisualTreeAsset visualTreeAsset { get; set; }

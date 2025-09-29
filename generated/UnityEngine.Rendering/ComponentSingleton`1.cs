@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public static class ComponentSingleton<TType> where TType : Component
     {
-
         public static TType instance { get; }
 
         public static void Release();

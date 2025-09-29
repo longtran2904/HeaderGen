@@ -9,7 +9,6 @@ namespace UnityEditor.U2D.Sprites
 {
     public interface ISpriteEditorDataProvider
     {
-
         SpriteImportMode spriteImportMode { get; }
         float pixelsPerUnit { get; }
         UnityEngine.Object targetObject { get; }

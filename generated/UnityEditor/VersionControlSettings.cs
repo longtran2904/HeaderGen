@@ -12,7 +12,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Src/EditorUserSettings.h")]
     public sealed class VersionControlSettings : UnityEngine.Object
     {
-
         [ExcludeFromDocs]
         [StaticAccessor("GetVersionControlSettings()", StaticAccessorType.Dot)]
         public static string mode { get; set; }

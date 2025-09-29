@@ -7,7 +7,6 @@ namespace System
     [AttributeUsage(AttributeTargets.Method)]
     public sealed class LoaderOptimizationAttribute : Attribute
     {
-
         public LoaderOptimizationAttribute(byte value);
         public LoaderOptimizationAttribute(LoaderOptimization value);
 

@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering.Universal
 {
     public enum SmoothnessSource
     {
-
         SpecularAlpha = 0,
         BaseAlpha = 1
     }

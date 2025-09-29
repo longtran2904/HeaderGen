@@ -9,7 +9,6 @@ namespace UnityEditor
     [Flags]
     public enum BuildAssetBundleOptions
     {
-
         None = 0,
         UncompressedAssetBundle = 1,
         [Obsolete("This has been made obsolete. It is always enabled in the new AssetBundle build system introduced in 5.0.")]

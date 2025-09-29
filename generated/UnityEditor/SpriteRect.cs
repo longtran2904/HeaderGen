@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public class SpriteRect
     {
-
         public SpriteRect();
 
         public string name { get; set; }

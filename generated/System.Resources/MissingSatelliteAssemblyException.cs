@@ -9,7 +9,6 @@ namespace System.Resources
 {
     public class MissingSatelliteAssemblyException : SystemException
     {
-
         public MissingSatelliteAssemblyException();
         public MissingSatelliteAssemblyException(string message);
         public MissingSatelliteAssemblyException(string message, string cultureName);

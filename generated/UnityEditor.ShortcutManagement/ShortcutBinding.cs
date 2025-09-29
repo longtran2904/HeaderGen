@@ -9,7 +9,6 @@ namespace UnityEditor.ShortcutManagement
 {
     public struct ShortcutBinding : IEquatable<ShortcutBinding>
     {
-
         public ShortcutBinding(KeyCombination keyCombination);
 
         public static ShortcutBinding empty { get; }

@@ -8,7 +8,6 @@ namespace UnityEditor.VersionControl
 {
     public interface IIconOverlayExtension
     {
-
         void DrawOverlay(string assetPath, IconOverlayType type, Rect rect);
     }
 }

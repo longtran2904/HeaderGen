@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class FocusEvent : FocusEventBase<FocusEvent>
     {
-
         public FocusEvent();
 
         protected internal override void PreDispatch(IPanel panel);

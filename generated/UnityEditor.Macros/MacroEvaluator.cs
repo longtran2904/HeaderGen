@@ -6,7 +6,6 @@ namespace UnityEditor.Macros
 {
     public static class MacroEvaluator
     {
-
         public static string Eval(string macro);
     }
 }

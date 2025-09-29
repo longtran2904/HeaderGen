@@ -9,7 +9,6 @@ namespace UnityEditor.Build.Content
     [UsedByNativeCode]
     public struct ContentBuildProfileEvent
     {
-
         public ulong TimeMicroseconds;
         public string Name;
         public string Metadata;

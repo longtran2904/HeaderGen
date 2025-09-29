@@ -10,7 +10,6 @@ namespace UnityEngine
     [EditorBrowsable(EditorBrowsableState.Never)]
     public class iPhoneSettings
     {
-
         public iPhoneSettings();
 
         [EditorBrowsable(EditorBrowsableState.Never)]

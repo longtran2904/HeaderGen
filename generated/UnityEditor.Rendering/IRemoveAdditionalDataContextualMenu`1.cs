@@ -11,7 +11,6 @@ namespace UnityEditor.Rendering
     [Obsolete("The menu items are handled automatically for components with the AdditionalComponentData attribute", False)]
     public interface IRemoveAdditionalDataContextualMenu<T> where T : Component
     {
-
         void RemoveComponent(T component, IEnumerable<Component> dependencies);
     }
 }

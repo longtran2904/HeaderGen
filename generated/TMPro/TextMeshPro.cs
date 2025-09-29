@@ -15,7 +15,6 @@ namespace TMPro
     [RequireComponent(typeof(MeshRenderer))]
     public class TextMeshPro : TMP_Text, ILayoutElement
     {
-
         public TextMeshPro();
 
         public int sortingLayerID { get; set; }

@@ -13,7 +13,6 @@ namespace UnityEngine.VFX
     [StaticAccessor("GetVFXManager()", StaticAccessorType.Dot)]
     public static class VFXManager
     {
-
         public static float fixedTimeStep { get; set; }
         public static float maxDeltaTime { get; set; }
 

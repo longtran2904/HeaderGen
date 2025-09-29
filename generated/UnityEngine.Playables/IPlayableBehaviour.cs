@@ -8,7 +8,6 @@ namespace UnityEngine.Playables
 {
     public interface IPlayableBehaviour
     {
-
         [RequiredByNativeCode]
         void OnGraphStart(Playable playable);
         [RequiredByNativeCode]

@@ -9,7 +9,6 @@ namespace UnityEngine.Scripting
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = False)]
     public class RequireAttributeUsagesAttribute : Attribute
     {
-
         public RequireAttributeUsagesAttribute();
     }
 }

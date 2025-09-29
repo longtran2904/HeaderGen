@@ -10,7 +10,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class EdgeControl : VisualElement
     {
-
         public const float k_MinEdgeWidth = 1.75F;
 
         public EdgeControl();

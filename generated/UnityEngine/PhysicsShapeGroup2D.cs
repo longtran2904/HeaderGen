@@ -10,7 +10,6 @@ namespace UnityEngine
 {
     public class PhysicsShapeGroup2D
     {
-
         public PhysicsShapeGroup2D([DefaultValue("1")] int shapeCapacity = 1, [DefaultValue("8")] int vertexCapacity = 8);
 
         public int shapeCount { get; }

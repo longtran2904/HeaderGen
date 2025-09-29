@@ -10,7 +10,6 @@ namespace UnityEngine.SearchService
     [Obsolete("ObjectSelectorHandlerWithTagsAttribute has been deprecated. Use SearchContextAttribute instead.")]
     public class ObjectSelectorHandlerWithTagsAttribute : Attribute
     {
-
         public ObjectSelectorHandlerWithTagsAttribute(params string[] tags);
 
         public string[] tags { get; }

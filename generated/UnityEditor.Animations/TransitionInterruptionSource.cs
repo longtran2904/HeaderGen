@@ -6,7 +6,6 @@ namespace UnityEditor.Animations
 {
     public enum TransitionInterruptionSource
     {
-
         None = 0,
         Source = 1,
         Destination = 2,

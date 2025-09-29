@@ -6,7 +6,6 @@ namespace UnityEngine.SubsystemsImplementation
 {
     public abstract class SubsystemWithProvider<TSubsystem, TSubsystemDescriptor, TProvider> : SubsystemWithProvider where TSubsystem : SubsystemWithProvider, new() where TSubsystemDescriptor : SubsystemDescriptorWithProvider where TProvider : SubsystemProvider<TSubsystem>
     {
-
         protected SubsystemWithProvider();
 
         public TSubsystemDescriptor subsystemDescriptor { get; }

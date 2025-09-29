@@ -8,7 +8,6 @@ namespace System.Reflection
 {
     public abstract class PropertyInfo : MemberInfo
     {
-
         protected PropertyInfo();
 
         public override MemberTypes MemberType { get; }

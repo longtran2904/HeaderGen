@@ -11,7 +11,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class Port : GraphElement
     {
-
         protected EdgeConnector m_EdgeConnector;
         protected VisualElement m_ConnectorBox;
         protected Label m_ConnectorText;
@@ -51,9 +50,9 @@ namespace UnityEditor.Experimental.GraphView
         public override bool ContainsPoint(Vector2 localPoint);
         protected override void ExecuteDefaultAction(EventBase evt);
         protected override void OnCustomStyleResolved(ICustomStyle styles);
+
         public enum Capacity
         {
-
             Single = 0,
             Multi = 1
         }

@@ -6,7 +6,6 @@ namespace System.Net.Http.Headers
 {
     public class ContentRangeHeaderValue : ICloneable
     {
-
         public ContentRangeHeaderValue(long from, long to, long length);
         public ContentRangeHeaderValue(long length);
         public ContentRangeHeaderValue(long from, long to);

@@ -10,7 +10,6 @@ namespace System.Runtime.CompilerServices
     [EditorBrowsable(EditorBrowsableState.Never)]
     public sealed class NullablePublicOnlyAttribute : Attribute
     {
-
         public readonly bool IncludesInternals;
 
         public NullablePublicOnlyAttribute(bool value);

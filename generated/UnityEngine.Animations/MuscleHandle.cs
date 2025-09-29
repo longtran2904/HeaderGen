@@ -12,7 +12,6 @@ namespace UnityEngine.Animations
     [NativeHeader("Modules/Animation/Animator.h")]
     public struct MuscleHandle
     {
-
         public MuscleHandle(BodyDof bodyDof);
         public MuscleHandle(HeadDof headDof);
         public MuscleHandle(HumanPartDof partDof, LegDof legDof);

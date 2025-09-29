@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public enum MemberAttributes
     {
-
         Abstract = 1,
         Final = 2,
         Static = 3,

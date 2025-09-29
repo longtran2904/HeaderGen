@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public interface IEnumFORMATETC
     {
-
         int Next(int celt, out FORMATETC[] rgelt, out int[] pceltFetched);
         int Skip(int celt);
         int Reset();

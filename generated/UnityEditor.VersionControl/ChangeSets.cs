@@ -8,7 +8,6 @@ namespace UnityEditor.VersionControl
 {
     public class ChangeSets : List<ChangeSet>
     {
-
         public ChangeSets();
     }
 }

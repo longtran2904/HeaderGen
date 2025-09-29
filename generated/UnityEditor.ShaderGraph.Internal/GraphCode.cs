@@ -8,7 +8,6 @@ namespace UnityEditor.ShaderGraph.Internal
 {
     public struct GraphCode
     {
-
         public IEnumerable<AbstractShaderProperty> properties;
 
         public string code { get; }

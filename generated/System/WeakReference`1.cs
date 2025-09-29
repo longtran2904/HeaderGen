@@ -9,7 +9,6 @@ namespace System
 {
     public sealed class WeakReference<T> : ISerializable where T : class
     {
-
         public WeakReference(T target);
         public WeakReference(T target, bool trackResurrection);
 

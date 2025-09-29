@@ -13,7 +13,6 @@ namespace UnityEngine.U2D
     [NativeType(Header = "Modules/SpriteShape/Public/SpriteShapeRenderer.h")]
     public class SpriteShapeRenderer : Renderer
     {
-
         public SpriteShapeRenderer();
 
         public Color color { get; set; }

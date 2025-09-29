@@ -7,7 +7,6 @@ namespace System.CodeDom.Compiler
     [AttributeUsage(AttributeTargets.All, AllowMultiple = False, Inherited = False)]
     public sealed class GeneratedCodeAttribute : Attribute
     {
-
         public GeneratedCodeAttribute(string tool, string version);
 
         public string Tool { get; }

@@ -11,7 +11,6 @@ namespace UnityEditor
     [ExcludeFromDocs]
     public class CommandHandlerAttribute : Attribute
     {
-
         public CommandHandlerAttribute(string id, string label, CommandHint hint);
         public CommandHandlerAttribute(string id);
         public CommandHandlerAttribute(string id, CommandHint hint);

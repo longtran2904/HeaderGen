@@ -8,7 +8,6 @@ namespace UnityEditor.UIElements
 {
     public class ToolbarMenu : TextElement, IToolbarMenuElement
     {
-
         public static readonly string ussClassName;
         public static readonly string popupVariantUssClassName;
         public static readonly string textUssClassName;
@@ -19,19 +18,17 @@ namespace UnityEditor.UIElements
         public DropdownMenu menu { get; }
         public override string text { get; set; }
         public Variant variant { get; set; }
+
         public class UxmlFactory : UxmlFactory<ToolbarMenu, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : TextElement.UxmlTraits
         {
-
             public UxmlTraits();
         }
         public enum Variant
         {
-
             Default = 0,
             Popup = 1
         }

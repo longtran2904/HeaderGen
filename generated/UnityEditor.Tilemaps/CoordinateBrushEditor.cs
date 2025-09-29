@@ -9,7 +9,6 @@ namespace UnityEditor.Tilemaps
     [CustomEditor(typeof(CoordinateBrush))]
     public class CoordinateBrushEditor : GridBrushEditor
     {
-
         public CoordinateBrushEditor();
 
         public override void OnPaintSceneGUI(GridLayout grid, GameObject brushTarget, BoundsInt position, GridBrushBase.Tool tool, bool executing);

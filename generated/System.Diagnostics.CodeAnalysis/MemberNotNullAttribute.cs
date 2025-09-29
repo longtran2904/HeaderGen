@@ -7,7 +7,6 @@ namespace System.Diagnostics.CodeAnalysis
     [AttributeUsage(AttributeTargets.Method | AttributeTargets.Property, AllowMultiple = True, Inherited = False)]
     public sealed class MemberNotNullAttribute : Attribute
     {
-
         public MemberNotNullAttribute(string member);
         public MemberNotNullAttribute(params string[] members);
 

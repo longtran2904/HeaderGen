@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum PrefabAssetType
     {
-
         NotAPrefab = 0,
         Regular = 1,
         Model = 2,

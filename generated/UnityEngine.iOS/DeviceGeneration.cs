@@ -6,7 +6,6 @@ namespace UnityEngine.iOS
 {
     public enum DeviceGeneration
     {
-
         Unknown = 0,
         iPhone = 1,
         iPhone3G = 2,

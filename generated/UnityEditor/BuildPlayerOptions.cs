@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public struct BuildPlayerOptions
     {
-
         public string[] scenes { get; set; }
         public string locationPathName { get; set; }
         public string assetBundleManifestPath { get; set; }

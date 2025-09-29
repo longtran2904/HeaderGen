@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public class BufferedRTHandleSystem : IDisposable
     {
-
         public BufferedRTHandleSystem();
 
         public int maxWidth { get; }

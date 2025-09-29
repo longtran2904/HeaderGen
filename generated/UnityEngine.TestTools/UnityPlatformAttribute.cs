@@ -12,7 +12,6 @@ namespace UnityEngine.TestTools
     [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = True)]
     public class UnityPlatformAttribute : NUnitAttribute, IApplyToTest
     {
-
         public UnityPlatformAttribute();
         public UnityPlatformAttribute(params RuntimePlatform[] include);
 

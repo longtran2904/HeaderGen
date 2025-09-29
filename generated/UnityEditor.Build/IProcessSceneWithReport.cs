@@ -9,7 +9,6 @@ namespace UnityEditor.Build
 {
     public interface IProcessSceneWithReport : IOrderedCallback
     {
-
         void OnProcessScene(Scene scene, BuildReport report);
     }
 }

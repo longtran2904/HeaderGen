@@ -71,7 +71,6 @@ namespace UnityEditorInternal
     [NativeHeader("Runtime/Serialize/PersistentManager.h")]
     public class InternalEditorUtility
     {
-
         public InternalEditorUtility();
 
         public static bool isHumanControllingUs { get; }

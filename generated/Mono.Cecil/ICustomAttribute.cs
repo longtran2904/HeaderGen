@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public interface ICustomAttribute
     {
-
         TypeReference AttributeType { get; }
         bool HasFields { get; }
         bool HasProperties { get; }

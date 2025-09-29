@@ -6,7 +6,6 @@ namespace UnityEditor.ShortcutManagement
 {
     public static class ShortcutManager
     {
-
         public const string defaultProfileId = "Default";
 
         public static IShortcutManager instance { get; }

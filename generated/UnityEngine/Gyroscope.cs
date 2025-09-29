@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Input/GetInput.h")]
     public class Gyroscope
     {
-
         public Vector3 rotationRate { get; }
         public Vector3 rotationRateUnbiased { get; }
         public Vector3 gravity { get; }

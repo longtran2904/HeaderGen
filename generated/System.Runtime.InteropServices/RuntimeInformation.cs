@@ -6,7 +6,6 @@ namespace System.Runtime.InteropServices
 {
     public static class RuntimeInformation
     {
-
         public static string FrameworkDescription { get; }
         public static string RuntimeIdentifier { get; }
         public static Architecture ProcessArchitecture { get; }

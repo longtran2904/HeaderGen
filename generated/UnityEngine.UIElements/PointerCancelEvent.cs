@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public sealed class PointerCancelEvent : PointerEventBase<PointerCancelEvent>
     {
-
         public PointerCancelEvent();
 
         protected override void Init();

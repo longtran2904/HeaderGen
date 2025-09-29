@@ -7,7 +7,6 @@ namespace UnityEditor.SearchService
     [InitializeOnLoad]
     public static class SceneSearch
     {
-
         public const SearchEngineScope EngineScope = 0;
 
         public static void RegisterEngine(ISceneSearchEngine engine);

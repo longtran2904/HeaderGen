@@ -8,7 +8,6 @@ namespace UnityEditor.ShaderGraph.Internal
 {
     public abstract class ShaderInput : JsonObject
     {
-
         protected ShaderInput();
 
         public string displayName { get; set; }

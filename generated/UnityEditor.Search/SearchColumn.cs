@@ -10,7 +10,6 @@ namespace UnityEditor.Search
 {
     public class SearchColumn : IEquatable<SearchColumn>, ISerializationCallbackReceiver
     {
-
         public string path;
         public string provider;
         public string selector;
@@ -32,6 +31,7 @@ namespace UnityEditor.Search
         public void OnBeforeSerialize();
         [ExcludeFromDocs]
         public void OnAfterDeserialize();
+
         public delegate object GetterEntry(SearchColumnEventArgs args);
         public delegate void SetterEntry(SearchColumnEventArgs args);
         public delegate object DrawEntry(SearchColumnEventArgs args);

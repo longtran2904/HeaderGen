@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public abstract class TextInputBaseField<TValueType> : BaseField<TValueType>
     {
-
         public static readonly string ussClassName;
         public static readonly string labelUssClassName;
         public static readonly string inputUssClassName;
@@ -41,16 +40,15 @@ namespace UnityEngine.UIElements
         public void SelectAll();
         protected override void ExecuteDefaultActionAtTarget(EventBase evt);
         protected override void UpdateMixedValueContent();
+
         public class UxmlTraits : BaseFieldTraits<string, UxmlStringAttributeDescription>
         {
-
             public UxmlTraits();
 
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc);
         }
         protected internal abstract class TextInputBase : VisualElement, ITextElement, ITextInputField
         {
-
             public int cursorIndex { get; }
             public int selectIndex { get; }
             public bool isReadOnly { get; set; }

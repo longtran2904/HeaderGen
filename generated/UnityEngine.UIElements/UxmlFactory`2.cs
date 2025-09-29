@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public class UxmlFactory<TCreatedType, TTraits> : IUxmlFactory, IUxmlFactoryInternal where TCreatedType : VisualElement, new() where TTraits : UxmlTraits, new()
     {
-
         protected UxmlFactory();
 
         public virtual string uxmlName { get; }

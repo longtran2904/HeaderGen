@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public static class TransformUtils
     {
-
         public static Vector3 GetInspectorRotation(Transform t);
         public static void SetInspectorRotation(Transform t, Vector3 r);
     }

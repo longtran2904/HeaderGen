@@ -9,7 +9,6 @@ namespace UnityEditor.UIElements
 {
     public abstract class BaseFieldMouseDragger
     {
-
         protected BaseFieldMouseDragger();
 
         public void SetDragZone(VisualElement dragElement);

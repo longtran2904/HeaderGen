@@ -16,7 +16,6 @@ namespace Unity.Collections
     [NativeContainerSupportsMinMaxWriteRestriction]
     public struct NativeSlice<T> : IEnumerable, IEnumerable<T>, IEquatable<NativeSlice<T>> where T : struct
     {
-
         public NativeSlice(NativeSlice<T> slice, int start);
         public NativeSlice(NativeSlice<T> slice, int start, int length);
         public NativeSlice(NativeArray<T> array);
@@ -46,10 +45,10 @@ namespace Unity.Collections
         public static bool operator !=(NativeSlice<T> left, NativeSlice<T> right);
 
         public static implicit operator NativeSlice<T>(NativeArray<T> array);
+
         [ExcludeFromDocs]
         public struct Enumerator : IDisposable, IEnumerator, IEnumerator<T>
         {
-
             public Enumerator(ref NativeSlice<T> array);
 
             public T Current { get; }

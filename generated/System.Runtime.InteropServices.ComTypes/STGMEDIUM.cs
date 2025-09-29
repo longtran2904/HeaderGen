@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public struct STGMEDIUM
     {
-
         public TYMED tymed;
         public nint unionmember;
         public object pUnkForRelease;

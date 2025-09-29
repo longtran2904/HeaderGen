@@ -11,7 +11,6 @@ namespace UnityEngine
     [NativeHeader("Modules/IMGUI/GUI.bindings.h")]
     public class GUI
     {
-
         public GUI();
 
         public static Color color { get; set; }
@@ -147,16 +146,15 @@ namespace UnityEngine
         public static Rect ModalWindow(int id, Rect clientRect, WindowFunction func, Texture image, GUIStyle style);
         public static Rect ModalWindow(int id, Rect clientRect, WindowFunction func, GUIContent content, GUIStyle style);
         public static void DragWindow();
+
         public enum ToolbarButtonSize
         {
-
             Fixed = 0,
             FitToContents = 1
         }
         public delegate void WindowFunction(int id);
         public abstract class Scope : IDisposable
         {
-
             protected Scope();
 
             ~Scope();
@@ -166,7 +164,6 @@ namespace UnityEngine
         }
         public class GroupScope : Scope
         {
-
             public GroupScope(Rect position);
             public GroupScope(Rect position, string text);
             public GroupScope(Rect position, Texture image);
@@ -179,7 +176,6 @@ namespace UnityEngine
         }
         public class ScrollViewScope : Scope
         {
-
             public ScrollViewScope(Rect position, Vector2 scrollPosition, Rect viewRect);
             public ScrollViewScope(Rect position, Vector2 scrollPosition, Rect viewRect, bool alwaysShowHorizontal, bool alwaysShowVertical);
             public ScrollViewScope(Rect position, Vector2 scrollPosition, Rect viewRect, GUIStyle horizontalScrollbar, GUIStyle verticalScrollbar);
@@ -192,7 +188,6 @@ namespace UnityEngine
         }
         public class ClipScope : Scope
         {
-
             public ClipScope(Rect position);
 
             protected override void CloseScope();

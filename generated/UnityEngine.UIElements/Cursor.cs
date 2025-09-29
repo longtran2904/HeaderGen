@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public struct Cursor : IEquatable<Cursor>
     {
-
         public Texture2D texture { get; set; }
         public Vector2 hotspot { get; set; }
 

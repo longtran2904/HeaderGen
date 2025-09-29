@@ -10,7 +10,6 @@ namespace UnityEditor.ShaderGraph.Internal
     [FormerName("UnityEditor.ShaderGraph.ColorShaderProperty")]
     public sealed class ColorShaderProperty : AbstractShaderProperty<Color>
     {
-
         public const int deprecatedVersion = 2;
 
         public override int latestVersion { get; }

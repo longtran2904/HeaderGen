@@ -11,7 +11,6 @@ namespace UnityEditor.Tilemaps
     [HelpURL("https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@latest/index.html?subfolder=/manual/LineBrush.html")]
     public class LineBrush : GridBrush
     {
-
         public bool lineStartActive;
         public bool fillGaps;
         public Vector3Int lineStart;

@@ -9,7 +9,6 @@ namespace UnityEditor.Search
     [Flags]
     public enum SearchFlags
     {
-
         None = 0,
         Synchronous = 1,
         Sorted = 2,

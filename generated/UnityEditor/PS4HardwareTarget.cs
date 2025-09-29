@@ -11,7 +11,6 @@ namespace UnityEditor
     [NativeType(Header = "Editor/Src/EditorUserBuildSettings.h")]
     public enum PS4HardwareTarget
     {
-
         BaseOnly = 0,
         [EditorBrowsable(EditorBrowsableState.Never)]
         [Obsolete("Enum member PS4HardwareTarget.NeoAndBase has been deprecated. Use PS4HardwareTarget.ProAndBase instead (UnityUpgradable) -> ProAndBase", True)]

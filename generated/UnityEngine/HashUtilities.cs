@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public static class HashUtilities
     {
-
         public static void AppendHash(ref Hash128 inHash, ref Hash128 outHash);
         public static void QuantisedMatrixHash(ref Matrix4x4 value, ref Hash128 hash);
         public static void QuantisedVectorHash(ref Vector3 value, ref Hash128 hash);

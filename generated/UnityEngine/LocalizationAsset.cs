@@ -14,7 +14,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Localization/Public/LocalizationAsset.h")]
     public sealed class LocalizationAsset : Object
     {
-
         public LocalizationAsset();
 
         public string localeIsoCode { get; set; }

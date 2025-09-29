@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public abstract class PointerManipulator : MouseManipulator
     {
-
         protected PointerManipulator();
 
         protected bool CanStartManipulation(IPointerEvent e);

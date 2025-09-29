@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public struct Length : IEquatable<Length>
     {
-
         public Length(float value);
         public Length(float value, LengthUnit unit);
 

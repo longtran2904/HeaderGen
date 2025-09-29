@@ -6,7 +6,6 @@ namespace System.Security.Principal
 {
     public sealed class NTAccount : IdentityReference
     {
-
         public NTAccount(string domainName, string accountName);
         public NTAccount(string name);
 

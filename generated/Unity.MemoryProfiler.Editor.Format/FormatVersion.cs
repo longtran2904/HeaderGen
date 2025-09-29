@@ -6,7 +6,6 @@ namespace Unity.MemoryProfiler.Editor.Format
 {
     public enum FormatVersion
     {
-
         SnapshotMinSupportedFormatVersion = 8,
         NativeConnectionsAsInstanceIdsVersion = 10,
         ProfileTargetInfoAndMemStatsVersion = 11,

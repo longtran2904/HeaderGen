@@ -10,7 +10,6 @@ namespace System
 {
     public class ArgumentOutOfRangeException : ArgumentException
     {
-
         public ArgumentOutOfRangeException();
         public ArgumentOutOfRangeException(string paramName);
         public ArgumentOutOfRangeException(string paramName, string message);

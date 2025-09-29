@@ -9,7 +9,6 @@ namespace UnityEngine
     [StaticAccessor("GetAudioManager()", StaticAccessorType.Dot)]
     public sealed class Microphone
     {
-
         public Microphone();
 
         public static string[] devices { get; }

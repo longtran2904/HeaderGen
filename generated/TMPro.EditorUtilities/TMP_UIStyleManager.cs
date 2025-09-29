@@ -8,7 +8,6 @@ namespace TMPro.EditorUtilities
 {
     public static class TMP_UIStyleManager
     {
-
         public static GUIStyle label;
         public static GUIStyle textAreaBoxWindow;
         public static GUIStyle boldFoldout;

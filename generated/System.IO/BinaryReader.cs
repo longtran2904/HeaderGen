@@ -8,7 +8,6 @@ namespace System.IO
 {
     public class BinaryReader : IDisposable
     {
-
         public BinaryReader(Stream input);
         public BinaryReader(Stream input, Encoding encoding);
         public BinaryReader(Stream input, Encoding encoding, bool leaveOpen);

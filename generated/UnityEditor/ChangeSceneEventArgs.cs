@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public struct ChangeSceneEventArgs
     {
-
         public ChangeSceneEventArgs(Scene scene);
 
         public Scene scene { get; }

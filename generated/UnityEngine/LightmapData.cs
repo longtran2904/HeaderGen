@@ -13,7 +13,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public sealed class LightmapData
     {
-
         public LightmapData();
 
         [Obsolete("Use lightmapColor property (UnityUpgradable) -> lightmapColor", False)]

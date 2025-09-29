@@ -10,7 +10,6 @@ namespace UnityEditor.Rendering
 {
     public class VolumeComponentEditor
     {
-
         protected Editor m_Inspector;
 
         public VolumeComponentEditor();
@@ -34,9 +33,9 @@ namespace UnityEditor.Rendering
         protected void DrawHeader(string header);
         protected bool PropertyField(SerializedDataParameter property, GUIContent title);
         protected void DrawOverrideCheckbox(SerializedDataParameter property);
+
         protected struct OverridablePropertyScope : IDisposable
         {
-
             public OverridablePropertyScope(SerializedDataParameter property, GUIContent label, VolumeComponentEditor editor);
             public OverridablePropertyScope(SerializedDataParameter property, string label, VolumeComponentEditor editor);
 
@@ -45,7 +44,6 @@ namespace UnityEditor.Rendering
         }
         protected class IndentLevelScope : GUI.Scope
         {
-
             public IndentLevelScope(int offset = 15);
 
             protected override void CloseScope();

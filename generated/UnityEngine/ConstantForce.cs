@@ -10,7 +10,6 @@ namespace UnityEngine
     [RequireComponent(typeof(Rigidbody))]
     public class ConstantForce : Behaviour
     {
-
         public ConstantForce();
 
         public Vector3 force { get; set; }

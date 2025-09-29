@@ -8,7 +8,6 @@ namespace UnityEngine.Playables
 {
     public static class PlayableExtensions
     {
-
         public static bool IsNull<U>(this U playable) where U : IPlayable, struct;
         public static bool IsValid<U>(this U playable) where U : IPlayable, struct;
         public static void Destroy<U>(this U playable) where U : IPlayable, struct;

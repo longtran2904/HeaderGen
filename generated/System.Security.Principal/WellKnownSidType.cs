@@ -8,7 +8,6 @@ namespace System.Security.Principal
 {
     public enum WellKnownSidType
     {
-
         NullSid = 0,
         WorldSid = 1,
         LocalSid = 2,

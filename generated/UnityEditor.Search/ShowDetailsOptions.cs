@@ -9,7 +9,6 @@ namespace UnityEditor.Search
     [Flags]
     public enum ShowDetailsOptions
     {
-
         None = 0,
         Preview = 1,
         Inspector = 2,

@@ -7,7 +7,6 @@ namespace System.Runtime.Intrinsics.X86
     [CLSCompliant(False)]
     public abstract class Avx512F : Avx2
     {
-
         public static bool IsSupported { get; }
 
         public static Vector512<uint> Abs(Vector512<int> value);
@@ -468,9 +467,9 @@ namespace System.Runtime.Intrinsics.X86
         public static Vector512<uint> Xor(Vector512<uint> left, Vector512<uint> right);
         public static Vector512<long> Xor(Vector512<long> left, Vector512<long> right);
         public static Vector512<ulong> Xor(Vector512<ulong> left, Vector512<ulong> right);
+
         public abstract class VL
         {
-
             public static bool IsSupported { get; }
 
             public static Vector128<ulong> Abs(Vector128<long> value);
@@ -709,7 +708,6 @@ namespace System.Runtime.Intrinsics.X86
         }
         public abstract class X64 : Avx2.X64
         {
-
             public static bool IsSupported { get; }
 
             public static Vector128<float> ConvertScalarToVector128Single(Vector128<float> upper, ulong value);

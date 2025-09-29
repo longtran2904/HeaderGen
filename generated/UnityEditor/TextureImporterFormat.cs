@@ -9,7 +9,6 @@ namespace UnityEditor
 {
     public enum TextureImporterFormat
     {
-
         Automatic = -1,
         [Obsolete("Use textureCompression property instead")]
         AutomaticCompressed = -1,

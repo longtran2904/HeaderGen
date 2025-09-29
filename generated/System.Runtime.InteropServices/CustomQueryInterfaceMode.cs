@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices
     [EditorBrowsable(EditorBrowsableState.Never)]
     public enum CustomQueryInterfaceMode
     {
-
         Ignore = 0,
         Allow = 1
     }

@@ -8,7 +8,6 @@ namespace System
 {
     public sealed class CultureAwareComparer : StringComparer, ISerializable
     {
-
         public override int Compare(string x, string y);
         public override bool Equals(string x, string y);
         public override int GetHashCode(string obj);

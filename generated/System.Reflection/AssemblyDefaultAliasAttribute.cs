@@ -7,7 +7,6 @@ namespace System.Reflection
     [AttributeUsage(AttributeTargets.Assembly, Inherited = False)]
     public sealed class AssemblyDefaultAliasAttribute : Attribute
     {
-
         public AssemblyDefaultAliasAttribute(string defaultAlias);
 
         public string DefaultAlias { get; }

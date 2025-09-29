@@ -6,7 +6,6 @@ namespace UnityEditor.SearchService
 {
     public interface ISearchEngineBase
     {
-
         string name { get; }
 
         void BeginSession(ISearchContext context);

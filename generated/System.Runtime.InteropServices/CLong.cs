@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [CLSCompliant(False)]
     public readonly struct CLong : IEquatable<CLong>
     {
-
         public CLong(int value);
         public CLong(nint value);
 

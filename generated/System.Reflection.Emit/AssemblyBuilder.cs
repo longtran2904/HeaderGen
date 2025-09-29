@@ -9,7 +9,6 @@ namespace System.Reflection.Emit
 {
     public abstract class AssemblyBuilder : Assembly
     {
-
         protected AssemblyBuilder();
 
         [Obsolete("Assembly.CodeBase and Assembly.EscapedCodeBase are only included for .NET Framework compatibility. Use Assembly.Location instead.", DiagnosticId = "SYSLIB0012", UrlFormat = "https://aka.ms/dotnet-warnings/{0}")]

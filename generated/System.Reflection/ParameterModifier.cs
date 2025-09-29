@@ -7,7 +7,6 @@ namespace System.Reflection
     [DefaultMember("Item")]
     public readonly struct ParameterModifier
     {
-
         public ParameterModifier(int parameterCount);
 
         public bool this[int index] { get; set; }

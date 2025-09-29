@@ -13,7 +13,6 @@ namespace UnityEngine
     [Obsolete("Use UnityWebRequest, a fully featured replacement which is more efficient and has additional features")]
     public class WWW : CustomYieldInstruction, IDisposable
     {
-
         public WWW(string url);
         public WWW(string url, WWWForm form);
         public WWW(string url, byte[] postData);

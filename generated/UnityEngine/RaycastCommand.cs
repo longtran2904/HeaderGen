@@ -12,7 +12,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics/BatchCommands/RaycastCommand.h")]
     public struct RaycastCommand
     {
-
         public RaycastCommand(Vector3 from, Vector3 direction, float distance = 3.4028235E+38, int layerMask = -5, int maxHits = 1);
         public RaycastCommand(PhysicsScene physicsScene, Vector3 from, Vector3 direction, float distance = 3.4028235E+38, int layerMask = -5, int maxHits = 1);
 

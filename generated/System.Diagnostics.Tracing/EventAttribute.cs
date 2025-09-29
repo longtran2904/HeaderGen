@@ -7,7 +7,6 @@ namespace System.Diagnostics.Tracing
     [AttributeUsage(AttributeTargets.Method)]
     public sealed class EventAttribute : Attribute
     {
-
         public EventAttribute(int eventId);
 
         public int EventId { get; }

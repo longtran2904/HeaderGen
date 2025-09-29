@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public struct JointMotor
     {
-
         public float targetVelocity { get; set; }
         public float force { get; set; }
         public bool freeSpin { get; set; }

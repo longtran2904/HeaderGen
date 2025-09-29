@@ -6,13 +6,12 @@ namespace A
 {
     public class Derive<T> : Base<T>.Inner2
     {
-
         public InnerInner<T> inner;
 
         public Derive();
+
         public class Derive2 : Base<float>.Inner
         {
-
             public Derive2();
         }
     }

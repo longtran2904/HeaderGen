@@ -10,7 +10,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Transform/RectTransform.h")]
     public sealed class RectTransform : Transform
     {
-
         public RectTransform();
 
         public Rect rect { get; }
@@ -32,9 +31,9 @@ namespace UnityEngine
         public void GetWorldCorners(Vector3[] fourCornersArray);
         public void SetInsetAndSizeFromParentEdge(Edge edge, float inset, float size);
         public void SetSizeWithCurrentAnchors(Axis axis, float size);
+
         public enum Edge
         {
-
             Left = 0,
             Right = 1,
             Top = 2,
@@ -42,7 +41,6 @@ namespace UnityEngine
         }
         public enum Axis
         {
-
             Horizontal = 0,
             Vertical = 1
         }

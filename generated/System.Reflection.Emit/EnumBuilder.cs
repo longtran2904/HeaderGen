@@ -6,7 +6,6 @@ namespace System.Reflection.Emit
 {
     public abstract class EnumBuilder : TypeInfo
     {
-
         protected EnumBuilder();
 
         public FieldBuilder UnderlyingField { get; }

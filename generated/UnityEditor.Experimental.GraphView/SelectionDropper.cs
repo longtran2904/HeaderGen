@@ -9,7 +9,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class SelectionDropper : Manipulator
     {
-
         public SelectionDropper();
 
         public Vector2 panSpeed { get; set; }

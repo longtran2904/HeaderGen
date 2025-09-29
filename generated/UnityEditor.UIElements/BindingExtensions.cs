@@ -9,7 +9,6 @@ namespace UnityEditor.UIElements
 {
     public static class BindingExtensions
     {
-
         public static readonly string prefabOverrideUssClassName;
 
         public static void Bind(this VisualElement element, SerializedObject obj);

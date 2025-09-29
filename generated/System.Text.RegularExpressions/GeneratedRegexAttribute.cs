@@ -7,7 +7,6 @@ namespace System.Text.RegularExpressions
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = False, Inherited = False)]
     public sealed class GeneratedRegexAttribute : Attribute
     {
-
         public GeneratedRegexAttribute(string pattern);
         public GeneratedRegexAttribute(string pattern, RegexOptions options);
         public GeneratedRegexAttribute(string pattern, RegexOptions options, string cultureName);

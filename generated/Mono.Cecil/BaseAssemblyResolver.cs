@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public abstract class BaseAssemblyResolver : IAssemblyResolver, IDisposable
     {
-
         protected BaseAssemblyResolver();
 
         public event AssemblyResolveEventHandler ResolveFailure;

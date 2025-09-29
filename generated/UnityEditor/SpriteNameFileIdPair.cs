@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public class SpriteNameFileIdPair : IEquatable<SpriteNameFileIdPair>
     {
-
         public SpriteNameFileIdPair();
         public SpriteNameFileIdPair(string name, GUID fileId);
 

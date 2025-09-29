@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public class Compass
     {
-
         public Compass();
 
         public float magneticHeading { get; }

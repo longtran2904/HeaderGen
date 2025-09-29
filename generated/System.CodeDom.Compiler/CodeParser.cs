@@ -8,7 +8,6 @@ namespace System.CodeDom.Compiler
 {
     public abstract class CodeParser : ICodeParser
     {
-
         protected CodeParser();
 
         public abstract CodeCompileUnit Parse(TextReader codeStream);

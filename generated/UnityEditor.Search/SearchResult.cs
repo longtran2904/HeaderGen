@@ -8,7 +8,6 @@ namespace UnityEditor.Search
 {
     public readonly struct SearchResult : IComparable<SearchResult>, IEquatable<SearchResult>
     {
-
         public readonly string id;
         public readonly int index;
         public readonly int score;

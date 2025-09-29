@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public class iOSDeviceRequirement
     {
-
         public iOSDeviceRequirement();
 
         public IDictionary<string, string> values { get; }

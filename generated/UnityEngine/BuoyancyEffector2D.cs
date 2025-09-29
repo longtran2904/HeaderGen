@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics2D/BuoyancyEffector2D.h")]
     public class BuoyancyEffector2D : Effector2D
     {
-
         public BuoyancyEffector2D();
 
         public float surfaceLevel { get; set; }

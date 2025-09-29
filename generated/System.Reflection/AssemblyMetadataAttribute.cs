@@ -7,7 +7,6 @@ namespace System.Reflection
     [AttributeUsage(AttributeTargets.Assembly, AllowMultiple = True, Inherited = False)]
     public sealed class AssemblyMetadataAttribute : Attribute
     {
-
         public AssemblyMetadataAttribute(string key, string value);
 
         public string Key { get; }

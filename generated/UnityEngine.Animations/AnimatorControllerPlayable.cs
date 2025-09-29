@@ -20,7 +20,6 @@ namespace UnityEngine.Animations
     [StaticAccessor("AnimatorControllerPlayableBindings", StaticAccessorType.DoubleColon)]
     public struct AnimatorControllerPlayable : IEquatable<AnimatorControllerPlayable>, IPlayable
     {
-
         public static AnimatorControllerPlayable Null { get; }
 
         public static AnimatorControllerPlayable Create(PlayableGraph graph, RuntimeAnimatorController controller);

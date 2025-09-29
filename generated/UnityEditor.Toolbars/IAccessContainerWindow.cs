@@ -6,7 +6,6 @@ namespace UnityEditor.Toolbars
 {
     public interface IAccessContainerWindow
     {
-
         EditorWindow containerWindow { get; set; }
     }
 }

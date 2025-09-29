@@ -8,7 +8,6 @@ namespace System.Collections.Generic
 {
     public sealed class NullableEqualityComparer<T> : EqualityComparer<T?>, ISerializable where T : struct
     {
-
         public NullableEqualityComparer();
 
         public void GetObjectData(SerializationInfo info, StreamingContext context);

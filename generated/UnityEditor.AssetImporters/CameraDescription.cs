@@ -14,7 +14,6 @@ namespace UnityEditor.AssetImporters
     [RequiredByNativeCode]
     public class CameraDescription : IDisposable
     {
-
         public CameraDescription();
 
         ~CameraDescription();

@@ -9,7 +9,6 @@ namespace UnityEditor
     [Obsolete("AssetsItem class is not used anymore (Asset Server has been removed)")]
     public sealed class AssetsItem
     {
-
         public string guid;
         public string pathName;
         public string message;

@@ -9,7 +9,6 @@ namespace UnityEditor.Search
     [AttributeUsage(AttributeTargets.Method)]
     public class CustomObjectIndexerAttribute : Attribute
     {
-
         public CustomObjectIndexerAttribute(Type type);
 
         public Type type { get; }

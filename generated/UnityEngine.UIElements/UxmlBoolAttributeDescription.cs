@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class UxmlBoolAttributeDescription : TypedUxmlAttributeDescription<bool>
     {
-
         public UxmlBoolAttributeDescription();
 
         public override string defaultValueAsString { get; }

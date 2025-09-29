@@ -10,7 +10,6 @@ namespace UnityEditorInternal
     [StaticAccessor("SpriteUtilityBindings", StaticAccessorType.DoubleColon)]
     public sealed class InternalSpriteUtility
     {
-
         public InternalSpriteUtility();
 
         public static Rect[] GenerateAutomaticSpriteRectangles([NotNull("ArgumentNullException")] Texture2D texture, int minRectSize, int extrudeSize);

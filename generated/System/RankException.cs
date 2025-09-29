@@ -9,7 +9,6 @@ namespace System
 {
     public class RankException : SystemException
     {
-
         public RankException();
         public RankException(string message);
         public RankException(string message, Exception innerException);

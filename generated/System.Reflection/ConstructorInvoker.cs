@@ -6,7 +6,6 @@ namespace System.Reflection
 {
     public sealed class ConstructorInvoker
     {
-
         public static ConstructorInvoker Create(ConstructorInfo constructor);
         public object Invoke();
         public object Invoke(object arg1);

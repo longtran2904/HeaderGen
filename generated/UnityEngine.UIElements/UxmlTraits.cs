@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public abstract class UxmlTraits
     {
-
         protected UxmlTraits();
 
         public bool canHaveAnyAttribute { get; protected set; }

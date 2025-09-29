@@ -6,7 +6,6 @@ namespace UnityEngine.NVIDIA
 {
     public readonly struct OptimalDLSSSettingsData
     {
-
         public uint outRenderWidth { get; }
         public uint outRenderHeight { get; }
         public float sharpness { get; }

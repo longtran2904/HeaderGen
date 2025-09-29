@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
 {
     public class RTHandleSystem : IDisposable
     {
-
         public RTHandleSystem();
 
         public RTHandleProperties rtHandleProperties { get; }

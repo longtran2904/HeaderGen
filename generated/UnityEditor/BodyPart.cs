@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum BodyPart
     {
-
         None = -1,
         Avatar = 0,
         Body = 1,

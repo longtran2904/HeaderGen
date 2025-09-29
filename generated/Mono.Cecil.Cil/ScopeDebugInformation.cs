@@ -8,7 +8,6 @@ namespace Mono.Cecil.Cil
 {
     public sealed class ScopeDebugInformation : DebugInformation
     {
-
         public ScopeDebugInformation(Instruction start, Instruction end);
 
         public InstructionOffset Start { get; set; }

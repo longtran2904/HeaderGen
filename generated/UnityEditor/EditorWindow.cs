@@ -18,7 +18,6 @@ namespace UnityEditor
     [UsedByNativeCode]
     public class EditorWindow : ScriptableObject
     {
-
         public EditorWindow();
 
         public VisualElement rootVisualElement { get; }

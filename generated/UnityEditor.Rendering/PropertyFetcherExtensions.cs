@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
 {
     public static class PropertyFetcherExtensions
     {
-
         public static SerializedProperty Find<TSource, TValue>(this SerializedObject obj, Expression<Func<TSource, TValue>> expr);
         public static SerializedProperty Find<TSource, TValue>(this SerializedProperty obj, Expression<Func<TSource, TValue>> expr);
     }

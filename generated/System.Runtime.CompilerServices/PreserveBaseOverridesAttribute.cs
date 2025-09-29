@@ -7,7 +7,6 @@ namespace System.Runtime.CompilerServices
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = False, Inherited = False)]
     public sealed class PreserveBaseOverridesAttribute : Attribute
     {
-
         public PreserveBaseOverridesAttribute();
     }
 }

@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public enum StyleKeyword
     {
-
         Undefined = 0,
         Null = 1,
         Auto = 2,

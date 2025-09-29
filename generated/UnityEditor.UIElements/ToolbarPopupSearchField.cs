@@ -8,13 +8,12 @@ namespace UnityEditor.UIElements
 {
     public class ToolbarPopupSearchField : ToolbarSearchField, IToolbarMenuElement
     {
-
         public ToolbarPopupSearchField();
 
         public DropdownMenu menu { get; }
+
         public class UxmlFactory : UxmlFactory<ToolbarPopupSearchField>
         {
-
             public UxmlFactory();
         }
     }

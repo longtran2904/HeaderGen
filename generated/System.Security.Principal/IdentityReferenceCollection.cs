@@ -11,7 +11,6 @@ namespace System.Security.Principal
     [DefaultMember("Item")]
     public class IdentityReferenceCollection : ICollection<IdentityReference>, IEnumerable, IEnumerable<IdentityReference>
     {
-
         public IdentityReferenceCollection();
         public IdentityReferenceCollection(int capacity);
 

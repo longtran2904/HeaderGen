@@ -10,7 +10,6 @@ namespace UnityEngine.UIElements
     [DefaultMember("Item")]
     public struct VisualElementStyleSheetSet : IEquatable<VisualElementStyleSheetSet>
     {
-
         public StyleSheet this[int index] { get; }
         public int count { get; }
 

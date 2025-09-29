@@ -10,7 +10,6 @@ namespace UnityEngine.EventSystems
     [RequireComponent(typeof(EventSystem))]
     public abstract class BaseInputModule : UIBehaviour
     {
-
         [NonSerialized]
         protected List<RaycastResult> m_RaycastResultCache;
         protected BaseInput m_InputOverride;

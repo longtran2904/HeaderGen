@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics2D/SpringJoint2D.h")]
     public sealed class SpringJoint2D : AnchoredJoint2D
     {
-
         public SpringJoint2D();
 
         public bool autoConfigureDistance { get; set; }

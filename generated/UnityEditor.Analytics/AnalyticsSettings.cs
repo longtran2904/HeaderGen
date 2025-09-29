@@ -11,7 +11,6 @@ namespace UnityEditor.Analytics
     [StaticAccessor("GetUnityAnalyticsSettings()", StaticAccessorType.Dot)]
     public static class AnalyticsSettings
     {
-
         public static bool enabled { get; set; }
         public static bool testMode { get; set; }
         public static bool initializeOnStartup { get; set; }
@@ -25,6 +24,7 @@ namespace UnityEditor.Analytics
         public static string dashboardUrl { get; set; }
 
         public static event RequireInBuildDelegate OnRequireInBuildHandler;
+
         public delegate bool RequireInBuildDelegate();
     }
 }

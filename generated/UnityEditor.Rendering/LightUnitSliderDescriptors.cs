@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering
 {
     public static class LightUnitSliderDescriptors
     {
-
         public static LightUnitSliderUIDescriptor LuxDescriptor;
         public static LightUnitSliderUIDescriptor LumenDescriptor;
         public static LightUnitSliderUIDescriptor ExposureDescriptor;

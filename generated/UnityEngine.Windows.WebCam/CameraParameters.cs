@@ -13,7 +13,6 @@ namespace UnityEngine.Windows.WebCam
     [UsedByNativeCode]
     public struct CameraParameters
     {
-
         public CameraParameters(WebCamMode webCamMode);
 
         public float hologramOpacity { get; set; }

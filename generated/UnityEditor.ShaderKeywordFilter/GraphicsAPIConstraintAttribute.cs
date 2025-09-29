@@ -10,7 +10,6 @@ namespace UnityEditor.ShaderKeywordFilter
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Field, AllowMultiple = False)]
     public class GraphicsAPIConstraintAttribute : Attribute
     {
-
         public GraphicsAPIConstraintAttribute(bool negate, params GraphicsDeviceType[] graphicsDeviceTypes);
     }
 }

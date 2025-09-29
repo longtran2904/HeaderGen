@@ -10,7 +10,6 @@ namespace UnityEditor.UI
     [CustomEditor(typeof(Slider), True)]
     public class SliderEditor : SelectableEditor
     {
-
         public SliderEditor();
 
         protected override void OnEnable();

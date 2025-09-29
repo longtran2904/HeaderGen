@@ -10,7 +10,6 @@ namespace UnityEditor.TerrainTools
     [MovedFrom("UnityEditor.Experimental.TerrainAPI")]
     public static class TerrainInspectorUtility
     {
-
         public static void TerrainShaderValidationGUI(Material material);
     }
 }

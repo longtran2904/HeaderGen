@@ -10,7 +10,6 @@ namespace UnityEditor
     [NativeHeader("Modules/AssetPipelineEditor/Public/AudioImporter.h")]
     public sealed class AudioImporter : AssetImporter
     {
-
         public AudioImporter();
 
         public AudioImporterSampleSettings defaultSampleSettings { get; set; }

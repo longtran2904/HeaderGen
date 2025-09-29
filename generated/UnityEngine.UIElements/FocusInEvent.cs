@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class FocusInEvent : FocusEventBase<FocusInEvent>
     {
-
         public FocusInEvent();
 
         protected override void Init();

@@ -6,7 +6,6 @@ namespace UnityEngine.WSA
 {
     public struct SecondaryTileData
     {
-
         public string arguments;
         public bool backgroundColorSet;
         public string displayName;

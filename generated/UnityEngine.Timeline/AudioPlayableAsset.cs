@@ -11,7 +11,6 @@ namespace UnityEngine.Timeline
     [DisplayName("Audio Clip")]
     public class AudioPlayableAsset : PlayableAsset, ITimelineClipAsset
     {
-
         public AudioPlayableAsset();
 
         public AudioClip clip { get; set; }

@@ -12,7 +12,6 @@ namespace UnityEngine.UI
     [RequireComponent(typeof(RectTransform))]
     public class Slider : Selectable, ICanvasElement, IDragHandler, IInitializePotentialDragHandler
     {
-
         [SerializeField]
         protected float m_Value;
 
@@ -48,9 +47,9 @@ namespace UnityEngine.UI
         public override Selectable FindSelectableOnDown();
         public virtual void OnInitializePotentialDrag(PointerEventData eventData);
         public void SetDirection(Direction direction, bool includeRectLayouts);
+
         public enum Direction
         {
-
             LeftToRight = 0,
             RightToLeft = 1,
             BottomToTop = 2,
@@ -58,7 +57,6 @@ namespace UnityEngine.UI
         }
         public class SliderEvent : UnityEvent<float>
         {
-
             public SliderEvent();
         }
     }

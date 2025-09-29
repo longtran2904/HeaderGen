@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public struct LazyLoadReference<T> where T : Object
     {
-
         public LazyLoadReference(T asset);
         public LazyLoadReference(int instanceID);
 

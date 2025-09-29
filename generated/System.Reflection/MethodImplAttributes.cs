@@ -6,7 +6,6 @@ namespace System.Reflection
 {
     public enum MethodImplAttributes
     {
-
         CodeTypeMask = 3,
         IL = 0,
         Native = 1,

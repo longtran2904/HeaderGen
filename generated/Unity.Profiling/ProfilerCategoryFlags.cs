@@ -9,7 +9,6 @@ namespace Unity.Profiling
     [Flags]
     public enum ProfilerCategoryFlags
     {
-
         None = 0,
         Builtin = 1
     }

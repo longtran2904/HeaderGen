@@ -8,7 +8,6 @@ namespace UnityEditor.Graphs
 {
     public class SerializedType
     {
-
         public SerializedType();
 
         public static Type GenericType(Type t);

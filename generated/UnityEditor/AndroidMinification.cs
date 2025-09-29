@@ -9,7 +9,6 @@ namespace UnityEditor
     [Obsolete("AndroidMinification enum is obsolete.", True)]
     public enum AndroidMinification
     {
-
         None = 0,
         Proguard = 1,
         Gradle = 2

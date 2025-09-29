@@ -11,7 +11,6 @@ namespace UnityEngine.Rendering.Universal
     [MovedFrom("UnityEngine.Experimental.Rendering.Universal")]
     public class CompositeShadowCaster2D : ShadowCasterGroup2D
     {
-
         public CompositeShadowCaster2D();
 
         protected void OnEnable();

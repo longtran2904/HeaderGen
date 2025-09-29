@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [AttributeUsage(AttributeTargets.Parameter, Inherited = False)]
     public sealed class OutAttribute : Attribute
     {
-
         public OutAttribute();
     }
 }

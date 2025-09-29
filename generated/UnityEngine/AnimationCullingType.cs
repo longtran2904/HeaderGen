@@ -8,7 +8,6 @@ namespace UnityEngine
 {
     public enum AnimationCullingType
     {
-
         AlwaysAnimate = 0,
         BasedOnRenderers = 1,
         [Obsolete("Enum member AnimatorCullingMode.BasedOnClipBounds has been deprecated. Use AnimationCullingType.AlwaysAnimate or AnimationCullingType.BasedOnRenderers instead")]

@@ -6,7 +6,6 @@ namespace UnityEngine.AI
 {
     public enum NavMeshBuildSourceShape
     {
-
         Mesh = 0,
         Terrain = 1,
         Box = 2,

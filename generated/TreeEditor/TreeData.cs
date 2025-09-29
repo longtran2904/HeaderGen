@@ -10,7 +10,6 @@ namespace TreeEditor
 {
     public class TreeData : ScriptableObject
     {
-
         public string materialHash;
         public TreeGroupRoot root;
         public TreeGroupBranch[] branchGroups;

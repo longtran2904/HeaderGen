@@ -9,7 +9,6 @@ namespace UnityEditor.Build
     [Obsolete("Use IPreprocessBuildWithReport instead")]
     public interface IPreprocessBuild : IOrderedCallback
     {
-
         void OnPreprocessBuild(BuildTarget target, string path);
     }
 }

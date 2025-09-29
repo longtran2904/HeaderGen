@@ -11,7 +11,6 @@ namespace UnityEngine.Timeline
     [TimelineHelpURL(typeof(SignalReceiver))]
     public class SignalReceiver : MonoBehaviour, INotificationReceiver
     {
-
         public SignalReceiver();
 
         public void OnNotify(Playable origin, INotification notification, object context);

@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public sealed class FixedArrayMarshalInfo : MarshalInfo
     {
-
         public FixedArrayMarshalInfo();
 
         public NativeType ElementType { get; set; }

@@ -6,7 +6,6 @@ namespace System.Runtime.Versioning
 {
     public sealed class FrameworkName : IEquatable<FrameworkName>
     {
-
         public FrameworkName(string identifier, Version version);
         public FrameworkName(string identifier, Version version, string profile);
         public FrameworkName(string frameworkName);

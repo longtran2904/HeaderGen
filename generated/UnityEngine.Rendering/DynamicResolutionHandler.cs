@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public class DynamicResolutionHandler
     {
-
         public DynamicResUpscaleFilter filter { get; }
         public Vector2Int finalViewport { get; set; }
         public bool runUpscalerFilterOnFullResolution { get; set; }
@@ -35,9 +34,9 @@ namespace UnityEngine.Rendering
         public float GetCurrentScale();
         public Vector2Int GetLastScaledSize();
         public float GetLowResMultiplier(float targetLowRes);
+
         public enum UpsamplerScheduleType
         {
-
             BeforePost = 0,
             AfterPost = 1
         }

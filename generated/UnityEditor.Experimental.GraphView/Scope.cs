@@ -10,7 +10,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class Scope : GraphElement
     {
-
         public Scope();
 
         public bool autoUpdateGeometry { get; set; }

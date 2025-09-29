@@ -24,7 +24,6 @@ namespace UnityEditor
     [StaticAccessor("AssetDatabaseBindings", StaticAccessorType.DoubleColon)]
     public sealed class AssetDatabase
     {
-
         public static Action<string[]> onImportPackageItemsCompleted;
 
         public AssetDatabase();
@@ -274,11 +273,11 @@ namespace UnityEditor
         public static bool IsAssetImportWorkerProcess();
         [FreeFunction("AssetDatabase::ForceToDesiredWorkerCount")]
         public static void ForceToDesiredWorkerCount();
+
         public delegate void ImportPackageCallback(string packageName);
         public delegate void ImportPackageFailedCallback(string packageName, string errorMessage);
         public enum RefreshImportMode
         {
-
             InProcess = 0,
             OutOfProcessPerQueue = 1
         }

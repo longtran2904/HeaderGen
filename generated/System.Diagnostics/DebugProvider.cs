@@ -6,7 +6,6 @@ namespace System.Diagnostics
 {
     public class DebugProvider
     {
-
         public DebugProvider();
 
         public virtual void Fail(string message, string detailMessage);

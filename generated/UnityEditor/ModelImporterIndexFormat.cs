@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public enum ModelImporterIndexFormat
     {
-
         Auto = 0,
         [InspectorName("16 bits")]
         UInt16 = 1,

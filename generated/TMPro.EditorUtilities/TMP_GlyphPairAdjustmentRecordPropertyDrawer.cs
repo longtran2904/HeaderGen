@@ -10,7 +10,6 @@ namespace TMPro.EditorUtilities
     [CustomPropertyDrawer(typeof(TMP_GlyphPairAdjustmentRecord))]
     public class TMP_GlyphPairAdjustmentRecordPropertyDrawer : PropertyDrawer
     {
-
         public TMP_GlyphPairAdjustmentRecordPropertyDrawer();
 
         public override void OnGUI(Rect position, SerializedProperty property, GUIContent label);

@@ -14,7 +14,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public class AnimatorControllerParameter
     {
-
         public AnimatorControllerParameter();
 
         public string name { get; set; }

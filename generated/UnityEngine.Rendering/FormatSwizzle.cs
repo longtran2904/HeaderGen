@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public enum FormatSwizzle
     {
-
         FormatSwizzleR = 0,
         FormatSwizzleG = 1,
         FormatSwizzleB = 2,

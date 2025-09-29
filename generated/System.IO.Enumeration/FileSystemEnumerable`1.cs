@@ -9,13 +9,13 @@ namespace System.IO.Enumeration
 {
     public class FileSystemEnumerable<TResult> : IEnumerable, IEnumerable<TResult>
     {
-
         public FileSystemEnumerable(string directory, FindTransform transform, EnumerationOptions options = null);
 
         public FindPredicate ShouldIncludePredicate { get; set; }
         public FindPredicate ShouldRecursePredicate { get; set; }
 
         public IEnumerator<TResult> GetEnumerator();
+
         public delegate bool FindPredicate(ref FileSystemEntry entry);
         public delegate TResult FindTransform(ref FileSystemEntry entry);
     }

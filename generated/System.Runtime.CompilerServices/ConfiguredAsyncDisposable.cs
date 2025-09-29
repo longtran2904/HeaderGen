@@ -6,7 +6,6 @@ namespace System.Runtime.CompilerServices
 {
     public readonly struct ConfiguredAsyncDisposable
     {
-
         public ConfiguredValueTaskAwaitable DisposeAsync();
     }
 }

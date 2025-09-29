@@ -8,7 +8,6 @@ namespace UnityEngine.Experimental.Rendering
 {
     public static class GraphicsDeviceSettings
     {
-
         [StaticAccessor("GetGfxDevice()", StaticAccessorType.Dot)]
         public static WaitForPresentSyncPoint waitForPresentSyncPoint { get; set; }
         [StaticAccessor("GetGfxDevice()", StaticAccessorType.Dot)]

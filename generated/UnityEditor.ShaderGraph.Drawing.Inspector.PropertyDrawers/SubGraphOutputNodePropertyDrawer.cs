@@ -11,7 +11,6 @@ namespace UnityEditor.ShaderGraph.Drawing.Inspector.PropertyDrawers
     [SGPropertyDrawer(typeof(SubGraphOutputNode))]
     public class SubGraphOutputNodePropertyDrawer : IGetNodePropertyDrawerPropertyData, IPropertyDrawer
     {
-
         public SubGraphOutputNodePropertyDrawer();
 
         public Action inspectorUpdateDelegate { get; set; }

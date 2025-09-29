@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public class MeshWriteData
     {
-
         public int vertexCount { get; }
         public int indexCount { get; }
         public Rect uvRegion { get; }

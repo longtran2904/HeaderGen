@@ -9,7 +9,6 @@ namespace UnityEditor
     [NativeType(Header = "Editor/Src/EditorUserBuildSettings.h")]
     public enum SwitchRomCompressionType
     {
-
         None = 0,
         Lz4 = 1
     }

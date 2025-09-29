@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Camera/Skybox.h")]
     public sealed class Skybox : Behaviour
     {
-
         public Skybox();
 
         public Material material { get; set; }

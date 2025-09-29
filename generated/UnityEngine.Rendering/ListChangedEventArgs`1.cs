@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public sealed class ListChangedEventArgs<T> : EventArgs
     {
-
         public readonly int index;
         public readonly T item;
 

@@ -9,7 +9,6 @@ namespace System.Collections
     [DefaultMember("Item")]
     public interface IList : ICollection, IEnumerable
     {
-
         object this[int index] { get; set; }
         bool IsReadOnly { get; }
         bool IsFixedSize { get; }

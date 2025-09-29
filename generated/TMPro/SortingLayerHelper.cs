@@ -6,7 +6,6 @@ namespace TMPro
 {
     public static class SortingLayerHelper
     {
-
         public static string[] sortingLayerNames { get; }
     }
 }

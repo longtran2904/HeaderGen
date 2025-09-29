@@ -6,7 +6,6 @@ namespace System.Reflection.Emit
 {
     public class OpCodes
     {
-
         public static readonly OpCode Nop;
         public static readonly OpCode Break;
         public static readonly OpCode Ldarg_0;

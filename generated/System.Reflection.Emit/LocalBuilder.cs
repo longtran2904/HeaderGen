@@ -6,7 +6,6 @@ namespace System.Reflection.Emit
 {
     public sealed class LocalBuilder : LocalVariableInfo
     {
-
         public override bool IsPinned { get; }
         public override Type LocalType { get; }
         public override int LocalIndex { get; }

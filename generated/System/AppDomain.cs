@@ -14,7 +14,6 @@ namespace System
 {
     public sealed class AppDomain : MarshalByRefObject
     {
-
         public static AppDomain CurrentDomain { get; }
         public string BaseDirectory { get; }
         public string RelativeSearchPath { get; }

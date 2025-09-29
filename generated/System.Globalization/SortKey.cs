@@ -6,7 +6,6 @@ namespace System.Globalization
 {
     public sealed class SortKey
     {
-
         public string OriginalString { get; }
         public byte[] KeyData { get; }
 

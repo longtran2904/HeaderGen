@@ -8,7 +8,6 @@ namespace System.Text
 {
     public static class Ascii
     {
-
         public static bool IsValid(ReadOnlySpan<byte> value);
         public static bool IsValid(ReadOnlySpan<char> value);
         public static bool IsValid(byte value);

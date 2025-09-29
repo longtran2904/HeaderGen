@@ -12,7 +12,6 @@ namespace UnityEngine.iOS
     [UsedByNativeCode]
     public sealed class OnDemandResourcesRequest : AsyncOperation, IDisposable
     {
-
         ~OnDemandResourcesRequest();
 
         public string error { get; }

@@ -12,7 +12,6 @@ namespace UnityEngine.Timeline
     [TrackClipType(typeof(ActivationPlayableAsset))]
     public class ActivationTrack : TrackAsset
     {
-
         public ActivationTrack();
 
         public PostPlaybackState postPlaybackState { get; set; }
@@ -20,9 +19,9 @@ namespace UnityEngine.Timeline
         public override Playable CreateTrackMixer(PlayableGraph graph, GameObject go, int inputCount);
         public override void GatherProperties(PlayableDirector director, IPropertyCollector driver);
         protected override void OnCreateClip(TimelineClip clip);
+
         public enum PostPlaybackState
         {
-
             Active = 0,
             Inactive = 1,
             Revert = 2,

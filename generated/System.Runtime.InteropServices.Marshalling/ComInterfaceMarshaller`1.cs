@@ -14,7 +14,6 @@ namespace System.Runtime.InteropServices.Marshalling
     [UnsupportedOSPlatform("tvos")]
     public static class ComInterfaceMarshaller<T>
     {
-
         public static void* ConvertToUnmanaged(T managed);
         public static T ConvertToManaged(void* unmanaged);
         public static void Free(void* unmanaged);

@@ -8,7 +8,6 @@ namespace UnityEditor.ShaderGraph.Internal
 {
     public struct ShaderGraphRequirements
     {
-
         public List<NeededTransform> requiresTransforms { get; }
         public NeededCoordinateSpace requiresNormal { get; }
         public NeededCoordinateSpace requiresBitangent { get; }

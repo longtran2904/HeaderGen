@@ -8,7 +8,6 @@ namespace System.Diagnostics.Tracing
 {
     public class EventCommandEventArgs : EventArgs
     {
-
         public EventCommand Command { get; }
         public IDictionary<string, string> Arguments { get; }
 

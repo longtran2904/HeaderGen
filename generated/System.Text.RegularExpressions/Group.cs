@@ -6,7 +6,6 @@ namespace System.Text.RegularExpressions
 {
     public class Group : Capture
     {
-
         public bool Success { get; }
         public string Name { get; }
         public CaptureCollection Captures { get; }

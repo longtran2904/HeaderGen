@@ -7,7 +7,6 @@ namespace System.Runtime.Intrinsics.X86
     [CLSCompliant(False)]
     public abstract class Bmi2 : X86Base
     {
-
         public static bool IsSupported { get; }
 
         public static uint ZeroHighBits(uint value, uint index);
@@ -15,9 +14,9 @@ namespace System.Runtime.Intrinsics.X86
         public static uint MultiplyNoFlags(uint left, uint right, uint* low);
         public static uint ParallelBitDeposit(uint value, uint mask);
         public static uint ParallelBitExtract(uint value, uint mask);
+
         public abstract class X64 : X86Base.X64
         {
-
             public static bool IsSupported { get; }
 
             public static ulong ZeroHighBits(ulong value, ulong index);

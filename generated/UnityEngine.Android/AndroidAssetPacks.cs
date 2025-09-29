@@ -11,7 +11,6 @@ namespace UnityEngine.Android
     [StaticAccessor("AndroidAssetPacksBindingsHelpers", StaticAccessorType.DoubleColon)]
     public static class AndroidAssetPacks
     {
-
         public static bool coreUnityAssetPacksDownloaded { get; }
 
         public static string[] GetCoreUnityAssetPackNames();

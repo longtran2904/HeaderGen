@@ -8,13 +8,12 @@ namespace System.Runtime.CompilerServices
 {
     public readonly struct ConfiguredCancelableAsyncEnumerable<T>
     {
-
         public ConfiguredCancelableAsyncEnumerable<T> ConfigureAwait(bool continueOnCapturedContext);
         public ConfiguredCancelableAsyncEnumerable<T> WithCancellation(CancellationToken cancellationToken);
         public Enumerator GetAsyncEnumerator();
+
         public readonly struct Enumerator
         {
-
             public T Current { get; }
 
             public ConfiguredValueTaskAwaitable<bool> MoveNextAsync();

@@ -10,7 +10,6 @@ namespace System
     [CLSCompliant(False)]
     public readonly struct UInt16 : IAdditionOperators<ushort, ushort, ushort>, IAdditiveIdentity<ushort, ushort>, IBinaryInteger<ushort>, IBinaryIntegerParseAndFormatInfo<ushort>, IBinaryNumber<ushort>, IBitwiseOperators<ushort, ushort, ushort>, IComparable, IComparable<ushort>, IComparisonOperators<ushort, ushort, bool>, IConvertible, IDecrementOperators<ushort>, IDivisionOperators<ushort, ushort, ushort>, IEqualityOperators<ushort, ushort, bool>, IEquatable<ushort>, IFormattable, IIncrementOperators<ushort>, IMinMaxValue<ushort>, IModulusOperators<ushort, ushort, ushort>, IMultiplicativeIdentity<ushort, ushort>, IMultiplyOperators<ushort, ushort, ushort>, INumber<ushort>, INumberBase<ushort>, IParsable<ushort>, IShiftOperators<ushort, int, ushort>, ISpanFormattable, ISpanParsable<ushort>, ISubtractionOperators<ushort, ushort, ushort>, IUnaryNegationOperators<ushort, ushort>, IUnaryPlusOperators<ushort, ushort>, IUnsignedNumber<ushort>, IUtf8SpanFormattable, IUtf8SpanParsable<ushort>
     {
-
         public const ushort MaxValue = 65535;
         public const ushort MinValue = 0;
 

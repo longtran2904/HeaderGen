@@ -11,7 +11,6 @@ namespace UnityEngine.TextCore.LowLevel
     [UsedByNativeCode]
     public enum GlyphLoadFlags
     {
-
         LOAD_DEFAULT = 0,
         LOAD_NO_SCALE = 1,
         LOAD_NO_HINTING = 2,

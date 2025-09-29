@@ -7,7 +7,6 @@ namespace System.Runtime.CompilerServices
     [AttributeUsage(AttributeTargets.Assembly, Inherited = False)]
     public sealed class StringFreezingAttribute : Attribute
     {
-
         public StringFreezingAttribute();
     }
 }

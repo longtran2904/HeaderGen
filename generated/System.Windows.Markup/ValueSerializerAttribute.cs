@@ -7,7 +7,6 @@ namespace System.Windows.Markup
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Method | AttributeTargets.Property | AttributeTargets.Interface, AllowMultiple = False, Inherited = True)]
     public sealed class ValueSerializerAttribute : Attribute
     {
-
         public ValueSerializerAttribute(Type valueSerializerType);
         public ValueSerializerAttribute(string valueSerializerTypeName);
 

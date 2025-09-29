@@ -10,7 +10,6 @@ namespace UnityEngine
     [StaticAccessor("GetTimeManager()", StaticAccessorType.Dot)]
     public class Time
     {
-
         public Time();
 
         [NativeProperty("CurTime")]

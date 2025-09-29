@@ -6,7 +6,6 @@ namespace UnityEngine.Networking
 {
     public enum NetworkEventType
     {
-
         DataEvent = 0,
         ConnectEvent = 1,
         DisconnectEvent = 2,

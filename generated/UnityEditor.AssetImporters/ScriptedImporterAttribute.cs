@@ -11,7 +11,6 @@ namespace UnityEditor.AssetImporters
     [MovedFrom("UnityEditor.Experimental.AssetImporters")]
     public class ScriptedImporterAttribute : Attribute
     {
-
         [Obsolete("Use overrideFileExtensions instead to specify this importer is an override for those file extensions")]
         public bool AutoSelect;
         public bool AllowCaching;

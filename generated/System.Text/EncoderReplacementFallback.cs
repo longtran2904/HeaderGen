@@ -6,7 +6,6 @@ namespace System.Text
 {
     public sealed class EncoderReplacementFallback : EncoderFallback
     {
-
         public EncoderReplacementFallback();
         public EncoderReplacementFallback(string replacement);
 

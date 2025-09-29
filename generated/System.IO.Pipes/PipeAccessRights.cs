@@ -7,7 +7,6 @@ namespace System.IO.Pipes
     [Flags]
     public enum PipeAccessRights
     {
-
         ReadData = 1,
         WriteData = 2,
         ReadAttributes = 128,

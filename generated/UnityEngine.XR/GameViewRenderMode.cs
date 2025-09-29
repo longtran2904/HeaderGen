@@ -6,7 +6,6 @@ namespace UnityEngine.XR
 {
     public enum GameViewRenderMode
     {
-
         None = 0,
         LeftEye = 1,
         RightEye = 2,

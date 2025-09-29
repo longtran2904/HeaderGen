@@ -10,7 +10,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class ShortcutHandler : Manipulator
     {
-
         public ShortcutHandler(Dictionary<Event, ShortcutDelegate> dictionary);
 
         protected override void RegisterCallbacksOnTarget();

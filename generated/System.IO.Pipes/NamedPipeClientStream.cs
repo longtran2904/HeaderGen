@@ -12,7 +12,6 @@ namespace System.IO.Pipes
 {
     public sealed class NamedPipeClientStream : PipeStream
     {
-
         public NamedPipeClientStream(string pipeName);
         public NamedPipeClientStream(string serverName, string pipeName);
         public NamedPipeClientStream(string serverName, string pipeName, PipeDirection direction);

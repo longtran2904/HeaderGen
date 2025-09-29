@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering
 {
     public enum IESLightType
     {
-
         Point = 0,
         Spot = 1
     }

@@ -6,7 +6,6 @@ namespace System
 {
     public static class AppContext
     {
-
         public static string BaseDirectory { get; }
         public static string TargetFrameworkName { get; }
 

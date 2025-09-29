@@ -8,7 +8,6 @@ namespace TMPro.EditorUtilities
 {
     public static class TMP_SpriteAssetMenu
     {
-
         [MenuItem("Assets/Create/TextMeshPro/Sprite Asset", False, 110)]
         public static void CreateSpriteAsset();
     }

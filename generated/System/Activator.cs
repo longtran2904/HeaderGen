@@ -10,7 +10,6 @@ namespace System
 {
     public static class Activator
     {
-
         public static object CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, object[] args, CultureInfo culture);
         public static object CreateInstance(Type type, params object[] args);
         public static object CreateInstance(Type type, object[] args, object[] activationAttributes);

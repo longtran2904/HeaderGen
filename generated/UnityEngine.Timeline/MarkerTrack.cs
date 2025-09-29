@@ -13,7 +13,6 @@ namespace UnityEngine.Timeline
     [TrackBindingType(typeof(GameObject))]
     public class MarkerTrack : TrackAsset
     {
-
         public MarkerTrack();
 
         public override IEnumerable<PlayableBinding> outputs { get; }

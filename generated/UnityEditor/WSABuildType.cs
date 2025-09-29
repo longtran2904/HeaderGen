@@ -9,7 +9,6 @@ namespace UnityEditor
     [NativeType(Header = "Editor/Src/EditorUserBuildSettings.h")]
     public enum WSABuildType
     {
-
         Debug = 0,
         Release = 1,
         Master = 2

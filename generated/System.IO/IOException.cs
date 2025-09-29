@@ -9,7 +9,6 @@ namespace System.IO
 {
     public class IOException : SystemException
     {
-
         public IOException();
         public IOException(string message);
         public IOException(string message, int hresult);

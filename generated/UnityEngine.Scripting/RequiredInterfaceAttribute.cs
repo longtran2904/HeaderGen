@@ -9,7 +9,6 @@ namespace UnityEngine.Scripting
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Interface, AllowMultiple = True)]
     public class RequiredInterfaceAttribute : Attribute
     {
-
         public RequiredInterfaceAttribute(Type interfaceType);
     }
 }

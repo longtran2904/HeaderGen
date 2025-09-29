@@ -9,7 +9,6 @@ namespace UnityEditor
 {
     public static class ArrayUtility
     {
-
         public static void Add<T>(ref T[] array, T item);
         public static bool ArrayEquals<T>(T[] lhs, T[] rhs);
         public static bool ArrayReferenceEquals<T>(T[] lhs, T[] rhs);

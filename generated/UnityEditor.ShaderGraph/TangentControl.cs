@@ -8,7 +8,6 @@ namespace UnityEditor.ShaderGraph
 {
     public class TangentControl : IControl
     {
-
         public TangentControl(CoordinateSpace space);
 
         public CoordinateSpace space { get; }

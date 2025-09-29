@@ -12,7 +12,6 @@ namespace UnityEngine
     [Obsolete("LocalNotification is deprecated. Please use iOS.LocalNotification instead (UnityUpgradable) -> UnityEngine.iOS.LocalNotification", True)]
     public sealed class LocalNotification
     {
-
         public LocalNotification();
 
         public DateTime fireDate { get; set; }

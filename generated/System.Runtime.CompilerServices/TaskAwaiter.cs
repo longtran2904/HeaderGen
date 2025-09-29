@@ -6,7 +6,6 @@ namespace System.Runtime.CompilerServices
 {
     public readonly struct TaskAwaiter : ICriticalNotifyCompletion, INotifyCompletion, ITaskAwaiter
     {
-
         public bool IsCompleted { get; }
 
         public void OnCompleted(Action continuation);

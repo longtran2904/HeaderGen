@@ -9,7 +9,6 @@ namespace System.Security.Principal
 {
     public class WindowsPrincipal : ClaimsPrincipal
     {
-
         public WindowsPrincipal(WindowsIdentity ntIdentity);
 
         public override IIdentity Identity { get; }

@@ -13,7 +13,6 @@ namespace UnityEngine
     [RequireComponent(typeof(Transform))]
     public class Rigidbody : Component
     {
-
         public Rigidbody();
 
         public Vector3 velocity { get; set; }

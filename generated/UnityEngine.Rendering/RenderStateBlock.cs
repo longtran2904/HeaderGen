@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public struct RenderStateBlock : IEquatable<RenderStateBlock>
     {
-
         public RenderStateBlock(RenderStateMask mask);
 
         public BlendState blendState { get; set; }

@@ -12,7 +12,6 @@ namespace UnityEngine.Rendering.VirtualTexturing
     [UsedByNativeCode]
     public struct GPUCacheSetting
     {
-
         public GraphicsFormat format;
         public uint sizeInMegaBytes;
     }

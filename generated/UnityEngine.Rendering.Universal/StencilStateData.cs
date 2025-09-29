@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.Universal
 {
     public class StencilStateData
     {
-
         public bool overrideStencilState;
         public int stencilReference;
         public CompareFunction stencilCompareFunction;

@@ -15,7 +15,6 @@ namespace UnityEditor.Profiling
     [NativeHeader("Modules/ProfilerEditor/ProfilerHistory/FrameDataView.h")]
     public abstract class FrameDataView : IDisposable
     {
-
         protected nint m_Ptr;
         public const int invalidMarkerId = -1;
         public const int invalidThreadIndex = -1;
@@ -76,10 +75,10 @@ namespace UnityEditor.Profiling
         public float GetCounterValueAsFloat(int markerId);
         [NativeMethod(IsThreadSafe = True)]
         public double GetCounterValueAsDouble(int markerId);
+
         [RequiredByNativeCode]
         public struct MarkerMetadataInfo
         {
-
             public ProfilerMarkerDataType type;
             public ProfilerMarkerDataUnit unit;
             public string name;
@@ -87,7 +86,6 @@ namespace UnityEditor.Profiling
         [RequiredByNativeCode]
         public struct MarkerInfo
         {
-
             public int id;
             public ushort category;
             public MarkerFlags flags;
@@ -97,7 +95,6 @@ namespace UnityEditor.Profiling
         [RequiredByNativeCode]
         public struct MethodInfo
         {
-
             public string methodName;
             public string sourceFileName;
             public uint sourceFileLine;

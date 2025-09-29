@@ -9,7 +9,6 @@ namespace UnityEngine.Analytics
     [NativeHeader("Modules/UnityAnalyticsCommon/Public/UnityAnalyticsCommon.h")]
     public static class AnalyticsCommon
     {
-
         public static bool ugsAnalyticsEnabled { get; set; }
     }
 }

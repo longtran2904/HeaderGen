@@ -7,7 +7,6 @@ namespace UnityEngine.Tilemaps
     [CreateAssetMenu(menuName = "2D/Tiles/Pipeline Tile", fileName = "New Pipeline Tile", order = 82)]
     public class PipelineTile : TileBase
     {
-
         [SerializeField]
         public Sprite[] m_Sprites;
 

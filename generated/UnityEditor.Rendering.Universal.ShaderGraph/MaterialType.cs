@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering.Universal.ShaderGraph
 {
     public enum MaterialType
     {
-
         Lit = 0,
         Unlit = 1,
         SpriteLit = 2,

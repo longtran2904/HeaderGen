@@ -9,7 +9,6 @@ namespace Mono.Cecil
     [Flags]
     public enum MethodSemanticsAttributes
     {
-
         None = 0,
         Setter = 1,
         Getter = 2,

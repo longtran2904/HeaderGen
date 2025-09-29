@@ -9,7 +9,6 @@ namespace UnityEditor.ShaderGraph.Internal
     [Flags]
     public enum NeededCoordinateSpace
     {
-
         None = 0,
         Object = 1,
         View = 2,

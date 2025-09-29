@@ -8,7 +8,6 @@ namespace UnityEditor.Graphs
 {
     public interface IEdgeGUI
     {
-
         GraphGUI host { get; set; }
         List<int> edgeSelection { get; set; }
 

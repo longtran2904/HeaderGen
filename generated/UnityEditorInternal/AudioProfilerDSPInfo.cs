@@ -9,7 +9,6 @@ namespace UnityEditorInternal
     [UsedByNativeCode]
     public struct AudioProfilerDSPInfo
     {
-
         public int id;
         public int target;
         public int targetPort;

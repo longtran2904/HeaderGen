@@ -6,7 +6,6 @@ namespace System.Threading
 {
     public class Overlapped
     {
-
         public Overlapped();
         public Overlapped(int offsetLo, int offsetHi, nint hEvent, IAsyncResult ar);
         [Obsolete("This constructor is not 64-bit compatible and has been deprecated. Use the constructor that accepts an IntPtr for the event handle instead.")]

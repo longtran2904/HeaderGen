@@ -18,7 +18,6 @@ namespace UnityEditor
     [StaticAccessor("EditorBindings", StaticAccessorType.DoubleColon)]
     public class Editor : ScriptableObject, IPreviewable, IToolModeOwner
     {
-
         public Editor();
 
         public UnityEngine.Object target { get; set; }

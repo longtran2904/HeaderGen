@@ -9,7 +9,6 @@ namespace UnityEditor.ShortcutManagement
 {
     public interface IShortcutManager
     {
-
         string activeProfileId { get; set; }
 
         event Action<ActiveProfileChangedEventArgs> activeProfileChanged;

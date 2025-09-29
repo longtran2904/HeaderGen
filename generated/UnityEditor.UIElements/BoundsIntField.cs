@@ -9,7 +9,6 @@ namespace UnityEditor.UIElements
 {
     public class BoundsIntField : BaseField<BoundsInt>
     {
-
         public static readonly string ussClassName;
         public static readonly string labelUssClassName;
         public static readonly string inputUssClassName;
@@ -21,14 +20,13 @@ namespace UnityEditor.UIElements
 
         public override void SetValueWithoutNotify(BoundsInt newValue);
         protected override void UpdateMixedValueContent();
+
         public class UxmlFactory : UxmlFactory<BoundsIntField, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : BaseField<BoundsInt>.UxmlTraits
         {
-
             public UxmlTraits();
 
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc);

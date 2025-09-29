@@ -8,7 +8,6 @@ namespace UnityEditor.Presets
 {
     public abstract class PresetSelectorReceiver : ScriptableObject
     {
-
         protected PresetSelectorReceiver();
 
         public virtual void OnSelectionChanged(Preset selection);

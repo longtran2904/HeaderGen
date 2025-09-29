@@ -10,7 +10,6 @@ namespace System.Security.AccessControl
     [DefaultMember("Item")]
     public abstract class CommonAcl : GenericAcl
     {
-
         public sealed override GenericAce this[int index] { get; set; }
         public sealed override byte Revision { get; }
         public sealed override int Count { get; }

@@ -12,7 +12,6 @@ namespace UnityEditor
     [PreventReadOnlyInstanceModification]
     public sealed class LightmapParameters : UnityEngine.Object
     {
-
         public LightmapParameters();
 
         public float resolution { get; set; }

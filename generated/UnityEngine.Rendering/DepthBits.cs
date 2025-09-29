@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public enum DepthBits
     {
-
         None = 0,
         Depth8 = 8,
         Depth16 = 16,

@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public struct Translate : IEquatable<Translate>
     {
-
         public Translate(Length x, Length y, float z);
         public Translate(Length x, Length y);
 

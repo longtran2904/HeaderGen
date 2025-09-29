@@ -13,7 +13,6 @@ namespace UnityEditor.Experimental
 {
     public sealed class Lightmapping
     {
-
         public Lightmapping();
 
         [StaticAccessor("ProgressiveRuntimeManager::Get()", StaticAccessorType.Arrow)]

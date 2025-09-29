@@ -10,7 +10,6 @@ namespace UnityEngine.Rendering
     [CoreRPHelpURL("Volume-Profile", "com.unity.render-pipelines.high-definition")]
     public sealed class VolumeProfile : ScriptableObject
     {
-
         public List<VolumeComponent> components;
         [NonSerialized]
         public bool isDirty;

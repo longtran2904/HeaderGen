@@ -11,7 +11,6 @@ namespace Microsoft.Unity.VisualStudio.Editor
 {
     public class AssemblyNameProvider : IAssemblyNameProvider
     {
-
         public AssemblyNameProvider();
 
         public string[] ProjectSupportedExtensions { get; }

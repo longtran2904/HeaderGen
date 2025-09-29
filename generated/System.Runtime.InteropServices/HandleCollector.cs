@@ -6,7 +6,6 @@ namespace System.Runtime.InteropServices
 {
     public sealed class HandleCollector
     {
-
         public HandleCollector(string name, int initialThreshold);
         public HandleCollector(string name, int initialThreshold, int maximumThreshold);
 

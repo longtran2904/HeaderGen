@@ -10,7 +10,6 @@ namespace UnityEngine.XR
     [NativeConditional("ENABLE_VR")]
     public static class XRDevice
     {
-
         [Obsolete("This is obsolete, and should no longer be used. Instead, find the active XRDisplaySubsystem and check that the running property is true (for details, see XRDevice.isPresent documentation).", True)]
         public static bool isPresent { get; }
         [NativeName("DeviceRefreshRate")]

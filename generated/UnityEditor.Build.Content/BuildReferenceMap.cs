@@ -14,7 +14,6 @@ namespace UnityEditor.Build.Content
     [UsedByNativeCode]
     public class BuildReferenceMap : IDisposable, ISerializable
     {
-
         public BuildReferenceMap();
         protected BuildReferenceMap(System.Runtime.Serialization.SerializationInfo info, StreamingContext context);
 

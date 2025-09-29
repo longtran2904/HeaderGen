@@ -14,7 +14,6 @@ namespace UnityEngine.Experimental.Video
     [StaticAccessor("VideoPlayerExtensionsBindings", StaticAccessorType.DoubleColon)]
     public static class VideoPlayerExtensions
     {
-
         public static AudioSampleProvider GetAudioSampleProvider(this VideoPlayer vp, ushort trackIndex);
     }
 }

@@ -11,7 +11,6 @@ namespace System
 {
     public abstract class Type : MemberInfo, IReflect
     {
-
         public static readonly char Delimiter;
         public static readonly Type[] EmptyTypes;
         public static readonly object Missing;

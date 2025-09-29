@@ -9,7 +9,6 @@ namespace UnityEditor.Timeline.Actions
 {
     public static class Invoker
     {
-
         public static bool Invoke<T>(this ActionContext context) where T : TimelineAction;
         public static bool Invoke<T>(this IEnumerable<TrackAsset> tracks) where T : TrackAction;
         public static bool Invoke<T>(this IEnumerable<TimelineClip> clips) where T : ClipAction;

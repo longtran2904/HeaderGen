@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
     [DefaultMember("Item")]
     public interface IBitArray
     {
-
         bool this[uint index] { get; set; }
         uint capacity { get; }
         bool allFalse { get; }

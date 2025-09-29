@@ -9,7 +9,6 @@ namespace UnityEditor.AnimatedValues
 {
     public class AnimVector3 : BaseAnimValueNonAlloc<Vector3>
     {
-
         public AnimVector3();
         public AnimVector3(Vector3 value);
         public AnimVector3(Vector3 value, UnityAction callback);

@@ -8,7 +8,6 @@ namespace UnityEditor.SceneManagement
 {
     public class RemovedComponent : PrefabOverride
     {
-
         public RemovedComponent();
 
         public GameObject containingInstanceGameObject { get; set; }

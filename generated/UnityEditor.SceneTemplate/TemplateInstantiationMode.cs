@@ -6,7 +6,6 @@ namespace UnityEditor.SceneTemplate
 {
     public enum TemplateInstantiationMode
     {
-
         Clone = 0,
         Reference = 1
     }

@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeMemberProperty : CodeTypeMember
     {
-
         public CodeMemberProperty();
 
         public CodeTypeReference PrivateImplementationType { get; set; }

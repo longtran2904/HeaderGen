@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum tvOSSdkVersion
     {
-
         Device = 0,
         Simulator = 1
     }

@@ -11,7 +11,6 @@ namespace System.Text.RegularExpressions
     [DefaultMember("Item")]
     public class MatchCollection : ICollection, ICollection<Match>, IEnumerable, IEnumerable<Match>, IList, IList<Match>, IReadOnlyCollection<Match>, IReadOnlyList<Match>
     {
-
         public virtual Match this[int i] { get; }
         public bool IsReadOnly { get; }
         public int Count { get; }

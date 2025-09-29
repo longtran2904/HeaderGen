@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public class InputManagerEntry
     {
-
         public string name;
         public string desc;
         public string btnNegative;
@@ -23,16 +22,15 @@ namespace UnityEngine
         public Joy joystick;
 
         public InputManagerEntry();
+
         public enum Kind
         {
-
             KeyOrButton = 0,
             Mouse = 1,
             Axis = 2
         }
         public enum Axis
         {
-
             X = 0,
             Y = 1,
             Third = 2,
@@ -44,7 +42,6 @@ namespace UnityEngine
         }
         public enum Joy
         {
-
             All = 0,
             First = 1,
             Second = 2

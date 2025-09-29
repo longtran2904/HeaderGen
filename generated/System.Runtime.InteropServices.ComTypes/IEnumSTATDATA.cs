@@ -6,7 +6,6 @@ namespace System.Runtime.InteropServices.ComTypes
 {
     public interface IEnumSTATDATA
     {
-
         int Next(int celt, out STATDATA[] rgelt, out int[] pceltFetched);
         int Skip(int celt);
         int Reset();

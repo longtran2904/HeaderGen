@@ -6,7 +6,6 @@ namespace System.Threading
 {
     public class HostExecutionContextManager
     {
-
         public HostExecutionContextManager();
 
         public virtual HostExecutionContext Capture();

@@ -6,7 +6,6 @@ namespace UnityEditor.PackageManager.Requests
 {
     public abstract class Request<T> : Request
     {
-
         public T Result { get; }
 
         protected abstract T GetResult();

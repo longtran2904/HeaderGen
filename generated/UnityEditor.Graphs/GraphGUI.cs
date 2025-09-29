@@ -9,7 +9,6 @@ namespace UnityEditor.Graphs
 {
     public abstract class GraphGUI : ScriptableObject
     {
-
         [SerializeField]
         protected Vector2 m_ScrollPosition;
         protected bool m_CenterGraph;
@@ -69,15 +68,16 @@ namespace UnityEditor.Graphs
         public virtual void ClearSelection();
         public virtual void SyncGraphToUnitySelection(bool force = False);
         public virtual void DoBackgroundClickAction();
+
         public class NodeTool
         {
-
             public string category;
             public GUIContent content;
             public bool visible;
             public CreateNodeFuncDelegate createNodeFunc;
 
             public NodeTool(string category, string title, CreateNodeFuncDelegate createNodeFunc);
+
             public delegate Node CreateNodeFuncDelegate();
         }
         public delegate void DrawSelectionRectCallback(Rect selectionRect);

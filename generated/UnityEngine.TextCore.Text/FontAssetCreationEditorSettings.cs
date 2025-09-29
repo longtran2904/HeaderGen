@@ -6,7 +6,6 @@ namespace UnityEngine.TextCore.Text
 {
     public struct FontAssetCreationEditorSettings
     {
-
         public string sourceFontFileGUID;
         public int faceIndex;
         public int pointSizeSamplingMode;

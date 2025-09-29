@@ -6,7 +6,6 @@ namespace UnityEngine.SubsystemsImplementation
 {
     public abstract class SubsystemProvider<TSubsystem> : SubsystemProvider where TSubsystem : SubsystemWithProvider, new()
     {
-
         protected SubsystemProvider();
 
         protected internal virtual bool TryInitialize();

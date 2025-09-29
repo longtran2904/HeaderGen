@@ -11,7 +11,6 @@ namespace UnityEditor.Build.Player
     [NativeHeader("Modules/BuildPipeline/Editor/Public/PlayerBuildInterface.h")]
     public static class PlayerBuildInterface
     {
-
         public static Func<IEnumerable<string>> ExtraTypesProvider;
 
         public static ScriptCompilationResult CompilePlayerScripts(ScriptCompilationSettings input, string outputFolder);

@@ -10,7 +10,6 @@ namespace TreeEditor
     [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field)]
     public class TreeAttribute : Attribute
     {
-
         public string uiLabel;
         public string uiGadget;
         public string uiCurve;

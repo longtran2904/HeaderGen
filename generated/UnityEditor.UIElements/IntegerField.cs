@@ -9,7 +9,6 @@ namespace UnityEditor.UIElements
 {
     public class IntegerField : TextValueField<int>
     {
-
         public static readonly string ussClassName;
         public static readonly string labelUssClassName;
         public static readonly string inputUssClassName;
@@ -21,14 +20,13 @@ namespace UnityEditor.UIElements
         protected override string ValueToString(int v);
         protected override int StringToValue(string str);
         public override void ApplyInputDeviceDelta(Vector3 delta, DeltaSpeed speed, int startValue);
+
         public class UxmlFactory : UxmlFactory<IntegerField, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : TextValueFieldTraits<int, UxmlIntAttributeDescription>
         {
-
             public UxmlTraits();
         }
     }

@@ -6,7 +6,6 @@ namespace System.Reflection.Emit
 {
     public readonly struct Label : IEquatable<Label>
     {
-
         public override int GetHashCode();
         public override bool Equals(object obj);
         public bool Equals(Label obj);

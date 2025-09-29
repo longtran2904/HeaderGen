@@ -8,7 +8,6 @@ namespace UnityEditor.Tilemaps
 {
     public sealed class EraseTool : TilemapEditorTool
     {
-
         public EraseTool();
 
         protected override string tooltipStringFormat { get; }

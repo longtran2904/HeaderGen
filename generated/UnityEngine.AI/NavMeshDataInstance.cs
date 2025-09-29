@@ -6,7 +6,6 @@ namespace UnityEngine.AI
 {
     public struct NavMeshDataInstance
     {
-
         public bool valid { get; }
         public Object owner { get; set; }
 

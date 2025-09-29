@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class DragUpdatedEvent : DragAndDropEventBase<DragUpdatedEvent>
     {
-
         public DragUpdatedEvent();
 
         public static DragUpdatedEvent GetPooled(Event systemEvent);

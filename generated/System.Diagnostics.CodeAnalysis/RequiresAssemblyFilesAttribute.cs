@@ -7,7 +7,6 @@ namespace System.Diagnostics.CodeAnalysis
     [AttributeUsage(AttributeTargets.Constructor | AttributeTargets.Method | AttributeTargets.Property | AttributeTargets.Event, AllowMultiple = False, Inherited = False)]
     public sealed class RequiresAssemblyFilesAttribute : Attribute
     {
-
         public RequiresAssemblyFilesAttribute();
         public RequiresAssemblyFilesAttribute(string message);
 

@@ -6,7 +6,6 @@ namespace System.Threading
 {
     public class ThreadExceptionEventArgs : EventArgs
     {
-
         public ThreadExceptionEventArgs(Exception t);
 
         public Exception Exception { get; }

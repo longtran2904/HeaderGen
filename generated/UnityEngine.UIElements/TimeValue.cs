@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public struct TimeValue : IEquatable<TimeValue>
     {
-
         public TimeValue(float value);
         public TimeValue(float value, TimeUnit unit);
 

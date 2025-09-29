@@ -12,7 +12,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Src/ObjectFactory.h")]
     public static class ObjectFactory
     {
-
         public static event Action<Component> componentWasAdded;
 
         public static T CreateInstance<T>() where T : UnityEngine.Object;

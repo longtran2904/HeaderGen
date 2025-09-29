@@ -13,7 +13,6 @@ namespace UnityEditor
     [UsedByNativeCode]
     public struct ClipAnimationInfoCurve
     {
-
         public string name;
         public AnimationCurve curve;
     }

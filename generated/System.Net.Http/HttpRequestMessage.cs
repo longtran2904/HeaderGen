@@ -9,7 +9,6 @@ namespace System.Net.Http
 {
     public class HttpRequestMessage : IDisposable
     {
-
         public HttpRequestMessage();
         public HttpRequestMessage(HttpMethod method, Uri requestUri);
         public HttpRequestMessage(HttpMethod method, string requestUri);

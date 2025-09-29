@@ -6,7 +6,6 @@ namespace System.Threading.Tasks
 {
     public class ConcurrentExclusiveSchedulerPair
     {
-
         public ConcurrentExclusiveSchedulerPair();
         public ConcurrentExclusiveSchedulerPair(TaskScheduler taskScheduler);
         public ConcurrentExclusiveSchedulerPair(TaskScheduler taskScheduler, int maxConcurrencyLevel);

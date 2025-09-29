@@ -13,7 +13,6 @@ namespace UnityEditor.ShaderGraph.Internal
     [FormerName("UnityEditor.ShaderGraph.Vector1ShaderProperty")]
     public sealed class Vector1ShaderProperty : AbstractShaderProperty<float>
     {
-
         public override PropertyType propertyType { get; }
         public override float value { get; set; }
         public FloatType floatType { get; set; }

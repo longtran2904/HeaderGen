@@ -12,7 +12,6 @@ namespace UnityEngine.SocialPlatforms.GameCenter
     [RequiredByNativeCode]
     public class GameCenterPlatform : ISocialPlatform
     {
-
         public GameCenterPlatform();
 
         public ILocalUser localUser { get; }

@@ -10,7 +10,6 @@ namespace UnityEditor.AnimatedValues
 {
     public abstract class BaseAnimValue<T> : ISerializationCallbackReceiver
     {
-
         public float speed;
         [NonSerialized]
         public UnityEvent valueChanged;

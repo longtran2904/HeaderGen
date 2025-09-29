@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
     [Obsolete("Use TierSettings instead (UnityUpgradable) -> UnityEditor.Rendering.TierSettings", False)]
     public struct PlatformShaderSettings
     {
-
         public bool cascadedShadowMaps;
         public bool reflectionProbeBoxProjection;
         public bool reflectionProbeBlending;

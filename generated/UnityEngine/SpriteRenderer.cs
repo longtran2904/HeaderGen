@@ -11,7 +11,6 @@ namespace UnityEngine
     [RequireComponent(typeof(Transform))]
     public sealed class SpriteRenderer : Renderer
     {
-
         public SpriteRenderer();
 
         public Sprite sprite { get; set; }

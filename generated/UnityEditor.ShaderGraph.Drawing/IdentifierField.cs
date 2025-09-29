@@ -10,7 +10,6 @@ namespace UnityEditor.ShaderGraph.Drawing
 {
     public class IdentifierField : TextValueField<string>
     {
-
         public static readonly string ussClassName;
         public static readonly string labelUssClassName;
         public static readonly string inputUssClassName;
@@ -21,14 +20,13 @@ namespace UnityEditor.ShaderGraph.Drawing
         protected override string ValueToString(string v);
         protected override string StringToValue(string str);
         public override void ApplyInputDeviceDelta(Vector3 delta, DeltaSpeed speed, string startValue);
+
         public class UxmlFactory : UxmlFactory<IdentifierField, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : TextValueFieldTraits<string, UxmlStringAttributeDescription>
         {
-
             public UxmlTraits();
         }
     }

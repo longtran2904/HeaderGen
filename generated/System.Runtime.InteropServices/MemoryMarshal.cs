@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices
 {
     public static class MemoryMarshal
     {
-
         public static ref T GetArrayDataReference<T>(T[] array);
         public static ref byte GetArrayDataReference(Array array);
         public static Span<byte> AsBytes<T>(Span<T> span) where T : struct;

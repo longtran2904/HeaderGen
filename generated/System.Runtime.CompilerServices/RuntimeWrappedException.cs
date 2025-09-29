@@ -9,7 +9,6 @@ namespace System.Runtime.CompilerServices
 {
     public sealed class RuntimeWrappedException : Exception
     {
-
         public RuntimeWrappedException(object thrownObject);
 
         public object WrappedException { get; }

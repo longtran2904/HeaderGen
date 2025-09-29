@@ -13,7 +13,6 @@ namespace UnityEngine.Profiling
     [UsedByNativeCode]
     public sealed class CustomSampler : Sampler
     {
-
         public static CustomSampler Create(string name, bool collectGpuData = False);
         [Conditional("ENABLE_PROFILER")]
         public void Begin();

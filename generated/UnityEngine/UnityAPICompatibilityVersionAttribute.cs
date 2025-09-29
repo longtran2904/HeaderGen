@@ -9,7 +9,6 @@ namespace UnityEngine
     [AttributeUsage(AttributeTargets.Assembly, AllowMultiple = False)]
     public class UnityAPICompatibilityVersionAttribute : Attribute
     {
-
         [Obsolete("This overload of the attribute has been deprecated. Use the constructor that takes the version and a boolean", True)]
         public UnityAPICompatibilityVersionAttribute(string version);
         public UnityAPICompatibilityVersionAttribute(string version, bool checkOnlyUnityVersion);

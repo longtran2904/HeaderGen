@@ -11,7 +11,6 @@ namespace UnityEngine.UI
     [Obsolete("Not supported anymore.", True)]
     public interface IMask
     {
-
         RectTransform rectTransform { get; }
 
         bool Enabled();

@@ -12,7 +12,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public class RectOffset : IFormattable
     {
-
         public RectOffset();
         public RectOffset(int left, int right, int top, int bottom);
 

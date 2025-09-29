@@ -8,7 +8,6 @@ namespace TMPro
 {
     public struct VertexGradient
     {
-
         public Color topLeft;
         public Color topRight;
         public Color bottomLeft;

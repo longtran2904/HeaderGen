@@ -6,7 +6,6 @@ namespace Unity.Jobs.LowLevel.Unsafe
 {
     public struct BatchQueryJobStruct<T> where T : struct
     {
-
         public static nint Initialize();
     }
 }

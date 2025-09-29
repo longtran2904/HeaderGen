@@ -6,7 +6,6 @@ namespace UnityEditor.Recorder
 {
     public abstract class InputSettingsSelector
     {
-
         protected internal InputSettingsSelector();
 
         public RecorderInputSettings Selected { get; protected set; }

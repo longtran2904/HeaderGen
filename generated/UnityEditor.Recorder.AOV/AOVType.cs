@@ -6,7 +6,6 @@ namespace UnityEditor.Recorder.AOV
 {
     public enum AOVType
     {
-
         Beauty = 0,
         Albedo = 1,
         Normal = 2,

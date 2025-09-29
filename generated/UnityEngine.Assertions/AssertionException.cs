@@ -8,7 +8,6 @@ namespace UnityEngine.Assertions
 {
     public class AssertionException : Exception
     {
-
         public AssertionException(string message, string userMessage);
 
         public override string Message { get; }

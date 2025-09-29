@@ -9,7 +9,6 @@ namespace System.Runtime.CompilerServices
 {
     public sealed class ConditionalWeakTable<TKey, TValue> : IEnumerable, IEnumerable<KeyValuePair<TKey, TValue>> where TKey : class where TValue : class
     {
-
         public ConditionalWeakTable();
 
         public bool TryGetValue(TKey key, out TValue value);
@@ -20,6 +19,7 @@ namespace System.Runtime.CompilerServices
         public void Clear();
         public TValue GetValue(TKey key, CreateValueCallback createValueCallback);
         public TValue GetOrCreateValue(TKey key);
+
         public delegate TValue CreateValueCallback(TKey key);
     }
 }

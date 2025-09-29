@@ -16,7 +16,6 @@ namespace TMPro
     [RequireComponent(typeof(CanvasRenderer))]
     public class TextMeshProUGUI : TMP_Text, ILayoutElement
     {
-
         protected TMP_SubMeshUI[] m_subTextObjects;
 
         public TextMeshProUGUI();

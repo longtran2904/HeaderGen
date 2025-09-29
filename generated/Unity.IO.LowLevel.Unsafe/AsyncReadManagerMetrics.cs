@@ -11,7 +11,6 @@ namespace Unity.IO.LowLevel.Unsafe
     [NativeConditional("ENABLE_PROFILER")]
     public static class AsyncReadManagerMetrics
     {
-
         [FreeFunction("AreMetricsEnabled_Internal")]
         public static bool IsEnabled();
         public static void ClearCompletedMetrics();
@@ -32,10 +31,10 @@ namespace Unity.IO.LowLevel.Unsafe
         [FreeFunction("GetAsyncReadManagerMetrics()->GetTotalSizeNonASRMReadsBytes")]
         [ThreadSafe]
         public static ulong GetTotalSizeOfNonASRMReadsBytes(bool emptyAfterRead);
+
         [Flags]
         public enum Flags
         {
-
             None = 0,
             ClearOnRead = 1
         }

@@ -6,7 +6,6 @@ namespace Mono.Collections.Generic
 {
     public sealed class ReadOnlyCollection<T> : Collection<T>
     {
-
         public ReadOnlyCollection(T[] array);
         public ReadOnlyCollection(Collection<T> collection);
 

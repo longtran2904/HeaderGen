@@ -12,7 +12,6 @@ namespace UnityEditor.Recorder.Input
     [DisplayName("Render Texture Asset")]
     public class RenderTextureInputSettings : ImageInputSettings
     {
-
         public RenderTextureInputSettings();
 
         public RenderTexture RenderTexture { get; set; }

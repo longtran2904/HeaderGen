@@ -9,7 +9,6 @@ namespace System.Numerics
     [DefaultMember("Item")]
     public struct Quaternion : IEquatable<Quaternion>
     {
-
         public float X;
         public float Y;
         public float Z;

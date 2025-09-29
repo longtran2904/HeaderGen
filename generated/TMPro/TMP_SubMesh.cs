@@ -10,7 +10,6 @@ namespace TMPro
     [RequireComponent(typeof(MeshRenderer))]
     public class TMP_SubMesh : MonoBehaviour
     {
-
         public TMP_SubMesh();
 
         public TMP_FontAsset fontAsset { get; set; }

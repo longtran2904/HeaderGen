@@ -22,7 +22,6 @@ namespace UnityEngine.Profiling
     [UsedByNativeCode]
     public sealed class Profiler
     {
-
         public static bool supported { get; }
         [StaticAccessor("ProfilerBindings", StaticAccessorType.DoubleColon)]
         public static string logFile { get; set; }

@@ -9,7 +9,6 @@ namespace UnityEngine.iOS
     [NativeHeader("Runtime/Export/iOS/OnDemandResources.h")]
     public static class OnDemandResources
     {
-
         public static bool enabled { get; }
 
         public static OnDemandResourcesRequest PreloadAsync(string[] tags);

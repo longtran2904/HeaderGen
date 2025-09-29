@@ -8,7 +8,6 @@ namespace System.Security.AccessControl
 {
     public abstract class KnownAce : GenericAce
     {
-
         public int AccessMask { get; set; }
         public SecurityIdentifier SecurityIdentifier { get; set; }
     }

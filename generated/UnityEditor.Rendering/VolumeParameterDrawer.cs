@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering
 {
     public abstract class VolumeParameterDrawer
     {
-
         protected VolumeParameterDrawer();
 
         public virtual bool IsAutoProperty();

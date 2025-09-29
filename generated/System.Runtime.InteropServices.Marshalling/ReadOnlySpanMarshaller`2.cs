@@ -12,7 +12,6 @@ namespace System.Runtime.InteropServices.Marshalling
     {
         public static class UnmanagedToManagedOut
         {
-
             public static TUnmanagedElement* AllocateContainerForUnmanagedElements(ReadOnlySpan<T> managed, out int numElements);
             public static ReadOnlySpan<T> GetManagedValuesSource(ReadOnlySpan<T> managed);
             public static Span<TUnmanagedElement> GetUnmanagedValuesDestination(TUnmanagedElement* unmanaged, int numElements);
@@ -20,7 +19,6 @@ namespace System.Runtime.InteropServices.Marshalling
         [Obsolete("Types with embedded references are not supported in this version of your compiler.", True)]
         public ref struct ManagedToUnmanagedIn
         {
-
             public static int BufferSize { get; }
 
             public void FromManaged(ReadOnlySpan<T> managed, Span<TUnmanagedElement> buffer);

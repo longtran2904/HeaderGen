@@ -6,7 +6,6 @@ namespace UnityEngine.UI
 {
     public static class FontUpdateTracker
     {
-
         public static void TrackText(Text t);
         public static void UntrackText(Text t);
     }

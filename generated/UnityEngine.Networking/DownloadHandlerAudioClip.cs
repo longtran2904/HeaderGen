@@ -11,7 +11,6 @@ namespace UnityEngine.Networking
     [NativeHeader("Modules/UnityWebRequestAudio/Public/DownloadHandlerAudioClip.h")]
     public sealed class DownloadHandlerAudioClip : DownloadHandler
     {
-
         public DownloadHandlerAudioClip(string url, AudioType audioType);
         public DownloadHandlerAudioClip(Uri uri, AudioType audioType);
 

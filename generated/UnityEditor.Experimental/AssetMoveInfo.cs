@@ -8,7 +8,6 @@ namespace UnityEditor.Experimental
 {
     public struct AssetMoveInfo : IEquatable<AssetMoveInfo>
     {
-
         public AssetMoveInfo(string sourceAssetPath, string destinationAssetPath);
 
         public string sourceAssetPath { get; }

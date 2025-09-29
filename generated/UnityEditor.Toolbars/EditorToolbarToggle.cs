@@ -9,7 +9,6 @@ namespace UnityEditor.Toolbars
 {
     public class EditorToolbarToggle : ToolbarToggle
     {
-
         public const string ussClassName = "unity-editor-toolbar-toggle";
 
         public EditorToolbarToggle();

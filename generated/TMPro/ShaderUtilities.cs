@@ -8,7 +8,6 @@ namespace TMPro
 {
     public static class ShaderUtilities
     {
-
         public static int ID_MainTex;
         public static int ID_FaceTex;
         public static int ID_FaceColor;

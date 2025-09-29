@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Export/ETW/EventProvider.bindings.h")]
     public sealed class EventProvider
     {
-
         public EventProvider();
 
         [FreeFunction("EventProvider_Bindings::WriteCustomEvent")]

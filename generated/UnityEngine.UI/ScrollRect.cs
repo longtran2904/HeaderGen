@@ -14,7 +14,6 @@ namespace UnityEngine.UI
     [SelectionBase]
     public class ScrollRect : UIBehaviour, IBeginDragHandler, ICanvasElement, IDragHandler, IEndDragHandler, IEventSystemHandler, IInitializePotentialDragHandler, ILayoutController, ILayoutElement, ILayoutGroup, IScrollHandler
     {
-
         protected Vector2 m_ContentStartPosition;
         protected Bounds m_ContentBounds;
 
@@ -74,23 +73,21 @@ namespace UnityEngine.UI
         protected void SetDirty();
         protected void SetDirtyCaching();
         protected override void OnValidate();
+
         public enum MovementType
         {
-
             Unrestricted = 0,
             Elastic = 1,
             Clamped = 2
         }
         public enum ScrollbarVisibility
         {
-
             Permanent = 0,
             AutoHide = 1,
             AutoHideAndExpandViewport = 2
         }
         public class ScrollRectEvent : UnityEvent<Vector2>
         {
-
             public ScrollRectEvent();
         }
     }

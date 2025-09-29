@@ -8,7 +8,6 @@ namespace System.Threading
 {
     public class CancellationTokenSource : IDisposable
     {
-
         public CancellationTokenSource();
         public CancellationTokenSource(TimeSpan delay);
         public CancellationTokenSource(TimeSpan delay, TimeProvider timeProvider);

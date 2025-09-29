@@ -6,7 +6,6 @@ namespace UnityEditor.Build.Content
 {
     public struct WriteSceneParameters
     {
-
         public string scenePath;
         public WriteCommand writeCommand;
         public BuildSettings settings;

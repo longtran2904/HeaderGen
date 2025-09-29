@@ -15,7 +15,6 @@ namespace UnityEngine.iOS
     [RequiredByNativeCode]
     public sealed class RemoteNotification
     {
-
         ~RemoteNotification();
 
         public string alertBody { get; }

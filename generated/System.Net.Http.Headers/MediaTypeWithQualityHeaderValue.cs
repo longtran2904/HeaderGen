@@ -6,7 +6,6 @@ namespace System.Net.Http.Headers
 {
     public sealed class MediaTypeWithQualityHeaderValue : MediaTypeHeaderValue
     {
-
         public MediaTypeWithQualityHeaderValue(string mediaType);
         public MediaTypeWithQualityHeaderValue(string mediaType, double quality);
 

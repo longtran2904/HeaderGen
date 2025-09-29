@@ -12,7 +12,6 @@ namespace UnityEngine.Experimental.Audio
     [StaticAccessor("AudioSampleProviderBindings", StaticAccessorType.DoubleColon)]
     public class AudioSampleProvider : IDisposable
     {
-
         ~AudioSampleProvider();
 
         public uint id { get; }
@@ -38,6 +37,7 @@ namespace UnityEngine.Experimental.Audio
         public void ClearSampleFramesAvailableNativeHandler();
         public void SetSampleFramesOverflowNativeHandler(SampleFramesEventNativeFunction handler, nint userData);
         public void ClearSampleFramesOverflowNativeHandler();
+
         public delegate uint ConsumeSampleFramesNativeFunction(uint providerId, nint interleavedSampleFrames, uint sampleFrameCount);
         public delegate void SampleFramesHandler(AudioSampleProvider provider, uint sampleFrameCount);
         public delegate void SampleFramesEventNativeFunction(nint userData, uint providerId, uint sampleFrameCount);

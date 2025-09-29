@@ -9,11 +9,10 @@ namespace UnityEditor
     [AttributeUsage(AttributeTargets.Class)]
     public class FilePathAttribute : Attribute
     {
-
         public FilePathAttribute(string relativePath, Location location);
+
         public enum Location
         {
-
             PreferencesFolder = 0,
             ProjectFolder = 1
         }

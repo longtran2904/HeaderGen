@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public struct RenderQueueRange : IEquatable<RenderQueueRange>
     {
-
         public static readonly int minimumBound;
         public static readonly int maximumBound;
 

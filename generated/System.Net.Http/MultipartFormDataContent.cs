@@ -10,7 +10,6 @@ namespace System.Net.Http
 {
     public class MultipartFormDataContent : MultipartContent
     {
-
         public MultipartFormDataContent();
         public MultipartFormDataContent(string boundary);
 

@@ -14,7 +14,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Mono/Unsupported.bindings.h")]
     public static class Unsupported
     {
-
         [StaticAccessor("GetRenderManager()", StaticAccessorType.Dot)]
         public static bool useScriptableRenderPipeline { get; set; }
         public static bool IsRegistryValidationDisabled { get; set; }

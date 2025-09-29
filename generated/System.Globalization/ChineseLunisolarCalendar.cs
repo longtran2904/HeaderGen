@@ -6,7 +6,6 @@ namespace System.Globalization
 {
     public class ChineseLunisolarCalendar : EastAsianLunisolarCalendar
     {
-
         public const int ChineseEra = 1;
 
         public ChineseLunisolarCalendar();

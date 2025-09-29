@@ -9,7 +9,6 @@ namespace UnityEngine.Profiling.Memory.Experimental
     [Flags]
     public enum CaptureFlags
     {
-
         ManagedObjects = 1,
         NativeObjects = 2,
         NativeAllocations = 4,

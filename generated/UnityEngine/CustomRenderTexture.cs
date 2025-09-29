@@ -14,7 +14,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public sealed class CustomRenderTexture : RenderTexture
     {
-
         public CustomRenderTexture(int width, int height, RenderTextureFormat format, [DefaultValue("RenderTextureReadWrite.Default")] RenderTextureReadWrite readWrite);
         [ExcludeFromDocs]
         public CustomRenderTexture(int width, int height, RenderTextureFormat format);

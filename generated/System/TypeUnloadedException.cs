@@ -9,7 +9,6 @@ namespace System
 {
     public class TypeUnloadedException : SystemException
     {
-
         public TypeUnloadedException();
         public TypeUnloadedException(string message);
         public TypeUnloadedException(string message, Exception innerException);

@@ -6,7 +6,6 @@ namespace UnityEngine.EventSystems
 {
     public class AxisEventData : BaseEventData
     {
-
         public AxisEventData(EventSystem eventSystem);
 
         public Vector2 moveVector { get; set; }

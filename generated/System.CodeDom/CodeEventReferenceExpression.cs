@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeEventReferenceExpression : CodeExpression
     {
-
         public CodeEventReferenceExpression();
         public CodeEventReferenceExpression(CodeExpression targetObject, string eventName);
 

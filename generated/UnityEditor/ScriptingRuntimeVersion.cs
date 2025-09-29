@@ -9,7 +9,6 @@ namespace UnityEditor
     [Obsolete("ScriptingRuntimeVersion has been deprecated in 2019.3 now that legacy mono has been removed")]
     public enum ScriptingRuntimeVersion
     {
-
         Legacy = 0,
         Latest = 1
     }

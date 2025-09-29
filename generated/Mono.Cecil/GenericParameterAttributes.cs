@@ -9,7 +9,6 @@ namespace Mono.Cecil
     [Flags]
     public enum GenericParameterAttributes
     {
-
         VarianceMask = 3,
         NonVariant = 0,
         Covariant = 1,

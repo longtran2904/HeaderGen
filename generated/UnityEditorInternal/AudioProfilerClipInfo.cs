@@ -9,7 +9,6 @@ namespace UnityEditorInternal
     [UsedByNativeCode]
     public struct AudioProfilerClipInfo
     {
-
         public int assetInstanceId;
         public int assetNameOffset;
         public int loadState;

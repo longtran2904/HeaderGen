@@ -8,7 +8,6 @@ namespace System.Security.AccessControl
 {
     public sealed class SystemAcl : CommonAcl
     {
-
         public SystemAcl(bool isContainer, bool isDS, int capacity);
         public SystemAcl(bool isContainer, bool isDS, byte revision, int capacity);
         public SystemAcl(bool isContainer, bool isDS, RawAcl rawAcl);

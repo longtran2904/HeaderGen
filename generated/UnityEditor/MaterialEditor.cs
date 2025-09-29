@@ -11,7 +11,6 @@ namespace UnityEditor
     [CustomEditor(typeof(Material))]
     public class MaterialEditor : Editor
     {
-
         public const int kMiniTextureFieldLabelIndentLevel = 2;
 
         public MaterialEditor();

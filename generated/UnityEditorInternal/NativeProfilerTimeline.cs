@@ -9,7 +9,6 @@ namespace UnityEditorInternal
     [NativeHeader("Modules/ProfilerEditor/Timeline/NativeProfilerTimeline.h")]
     public class NativeProfilerTimeline
     {
-
         public NativeProfilerTimeline();
 
         [FreeFunction]

@@ -9,7 +9,6 @@ namespace UnityEngine.tvOS
     [NativeHeader("PlatformDependent/iPhonePlayer/IOSScriptBindings.h")]
     public sealed class Remote
     {
-
         public Remote();
 
         public static bool allowExitToHome { get; set; }

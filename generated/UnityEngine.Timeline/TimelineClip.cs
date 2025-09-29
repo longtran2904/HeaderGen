@@ -9,7 +9,6 @@ namespace UnityEngine.Timeline
 {
     public class TimelineClip : ICurvesOwner, ISerializationCallbackReceiver
     {
-
         public static readonly ClipCaps kDefaultClipCaps;
         public static readonly float kDefaultClipDurationInSeconds;
         public static readonly double kTimeScaleMin;
@@ -70,9 +69,9 @@ namespace UnityEngine.Timeline
         public void CreateCurves(string curvesClipName);
         public override string ToString();
         public void ConformEaseValues();
+
         public enum ClipExtrapolation
         {
-
             None = 0,
             Hold = 1,
             Loop = 2,
@@ -81,7 +80,6 @@ namespace UnityEngine.Timeline
         }
         public enum BlendCurveMode
         {
-
             Auto = 0,
             Manual = 1
         }

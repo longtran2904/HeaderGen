@@ -11,7 +11,6 @@ namespace UnityEngine.TestTools
     [UsedByNativeCode]
     public class ExcludeFromCoverageAttribute : Attribute
     {
-
         public ExcludeFromCoverageAttribute();
     }
 }

@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices
     [EditorBrowsable(EditorBrowsableState.Never)]
     public sealed class VariantWrapper
     {
-
         public VariantWrapper(object obj);
 
         public object WrappedObject { get; }

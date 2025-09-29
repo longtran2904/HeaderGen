@@ -9,7 +9,6 @@ namespace System.Security.Claims
 {
     public class Claim
     {
-
         public Claim(BinaryReader reader);
         public Claim(BinaryReader reader, ClaimsIdentity subject);
         public Claim(string type, string value);

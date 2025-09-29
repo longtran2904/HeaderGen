@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum WebGLExceptionSupport
     {
-
         None = 0,
         ExplicitlyThrownExceptionsOnly = 1,
         FullWithoutStacktrace = 2,

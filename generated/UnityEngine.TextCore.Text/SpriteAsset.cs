@@ -10,7 +10,6 @@ namespace UnityEngine.TextCore.Text
     [HelpURL("https://docs.unity3d.com/2021.3/Documentation/Manual/UIE-sprite.html")]
     public class SpriteAsset : TextAsset
     {
-
         [SerializeField]
         public List<SpriteAsset> fallbackSpriteAssets;
 

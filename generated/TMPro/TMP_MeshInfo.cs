@@ -9,7 +9,6 @@ namespace TMPro
 {
     public struct TMP_MeshInfo
     {
-
         public Mesh mesh;
         public int vertexCount;
         public Vector3[] vertices;

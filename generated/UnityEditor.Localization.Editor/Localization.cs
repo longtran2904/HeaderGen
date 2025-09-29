@@ -9,7 +9,6 @@ namespace UnityEditor.Localization.Editor
     [Obsolete("Localization has been deprecated. Please use UnityEditor.L10n instead", True)]
     public static class Localization
     {
-
         [Obsolete("Obsolete msg (UnityUpgradable) -> UnityEditor.L10n.Tr(*)", True)]
         public static string Tr(string str);
     }

@@ -9,7 +9,6 @@ namespace System
 {
     public class DuplicateWaitObjectException : ArgumentException
     {
-
         public DuplicateWaitObjectException();
         public DuplicateWaitObjectException(string parameterName);
         public DuplicateWaitObjectException(string parameterName, string message);

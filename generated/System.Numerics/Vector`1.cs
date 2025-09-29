@@ -9,7 +9,6 @@ namespace System.Numerics
     [DefaultMember("Item")]
     public readonly struct Vector<T> : IEquatable<Vector<T>>, IFormattable
     {
-
         public Vector(T value);
         public Vector(T[] values);
         public Vector(T[] values, int index);

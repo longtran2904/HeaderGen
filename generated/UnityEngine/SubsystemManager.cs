@@ -11,7 +11,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Subsystems/SubsystemManager.h")]
     public static class SubsystemManager
     {
-
         public static event Action beforeReloadSubsystems;
         public static event Action afterReloadSubsystems;
         public static event Action reloadSubsytemsStarted;

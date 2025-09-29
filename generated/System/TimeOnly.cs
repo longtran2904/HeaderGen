@@ -9,7 +9,6 @@ namespace System
 {
     public readonly struct TimeOnly : IComparable, IComparable<TimeOnly>, IEquatable<TimeOnly>, IFormattable, IParsable<TimeOnly>, ISpanFormattable, ISpanParsable<TimeOnly>, IUtf8SpanFormattable
     {
-
         public TimeOnly(int hour, int minute);
         public TimeOnly(int hour, int minute, int second);
         public TimeOnly(int hour, int minute, int second, int millisecond);

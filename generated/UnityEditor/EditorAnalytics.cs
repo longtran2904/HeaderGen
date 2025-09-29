@@ -14,7 +14,6 @@ namespace UnityEditor
     [RequiredByNativeCode]
     public static class EditorAnalytics
     {
-
         public static bool enabled { get; set; }
 
         public static AnalyticsResult RegisterEventWithLimit(string eventName, int maxEventPerHour, int maxItems, string vendorKey);

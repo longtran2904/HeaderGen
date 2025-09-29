@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.Universal
 {
     public static class ShaderKeywordStrings
     {
-
         public const string MainLightShadows = "_MAIN_LIGHT_SHADOWS";
         public const string MainLightShadowCascades = "_MAIN_LIGHT_SHADOWS_CASCADE";
         public const string MainLightShadowScreen = "_MAIN_LIGHT_SHADOWS_SCREEN";

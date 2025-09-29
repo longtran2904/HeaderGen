@@ -9,7 +9,6 @@ namespace UnityEngine
     [AttributeUsage(AttributeTargets.Field, AllowMultiple = False, Inherited = True)]
     public sealed class MinAttribute : PropertyAttribute
     {
-
         public readonly float min;
 
         public MinAttribute(float min);

@@ -6,7 +6,6 @@ namespace TMPro
 {
     public enum FontWeight
     {
-
         Thin = 100,
         ExtraLight = 200,
         Light = 300,

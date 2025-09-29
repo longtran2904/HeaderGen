@@ -6,7 +6,6 @@ namespace UnityEditor.ShortcutManagement
 {
     public struct ShortcutArguments
     {
-
         public object context;
         public ShortcutStage stage;
     }

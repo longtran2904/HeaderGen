@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
     [NativeHeader("Runtime/Graphics/GraphicsScriptBindings.h")]
     public class PIX
     {
-
         public PIX();
 
         [FreeFunction("PIX::BeginGPUCapture")]

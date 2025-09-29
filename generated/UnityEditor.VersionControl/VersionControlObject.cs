@@ -8,7 +8,6 @@ namespace UnityEditor.VersionControl
 {
     public abstract class VersionControlObject : ScriptableObject
     {
-
         protected VersionControlObject();
 
         public virtual bool isConnected { get; }

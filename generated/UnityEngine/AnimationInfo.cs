@@ -11,7 +11,6 @@ namespace UnityEngine
     [Obsolete("Use AnimatorClipInfo instead (UnityUpgradable) -> AnimatorClipInfo", True)]
     public struct AnimationInfo
     {
-
         public AnimationClip clip { get; }
         public float weight { get; }
     }

@@ -15,7 +15,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Math/FloatConversion.h")]
     public struct Mathf
     {
-
         public static readonly float Epsilon;
         public const float PI = 3.1415927F;
         public const float Infinity = ∞F;

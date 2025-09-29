@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public struct SoftJointLimitSpring
     {
-
         public float spring { get; set; }
         public float damper { get; set; }
     }

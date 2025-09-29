@@ -9,7 +9,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public class ResourceRequest : AsyncOperation
     {
-
         public ResourceRequest();
 
         public Object asset { get; }

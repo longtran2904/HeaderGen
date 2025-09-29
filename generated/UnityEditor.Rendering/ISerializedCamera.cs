@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering
 {
     public interface ISerializedCamera
     {
-
         SerializedObject serializedObject { get; }
         SerializedObject serializedAdditionalDataObject { get; }
         CameraEditor.Settings baseCameraSettings { get; }

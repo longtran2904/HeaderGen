@@ -9,7 +9,6 @@ namespace UnityEditorInternal
     [Flags]
     public enum InstrumentedAssemblyTypes
     {
-
         None = 0,
         System = 1,
         Unity = 2,

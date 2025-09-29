@@ -13,7 +13,6 @@ namespace UnityEngine
     [Obsolete("GUIText has been removed. Use UI.Text instead.", True)]
     public sealed class GUIText
     {
-
         public GUIText();
 
         [Obsolete("GUIText has been removed. Use UI.Text instead.", True)]

@@ -9,7 +9,6 @@ namespace UnityEditor.TextCore.Text
 {
     public class FontAssetCreatorWindow : EditorWindow
     {
-
         public FontAssetCreatorWindow();
 
         public static void ShowFontAtlasCreatorWindow(Font font);

@@ -9,7 +9,6 @@ namespace System.Text.RegularExpressions
 {
     public sealed class RegexParseException : ArgumentException
     {
-
         public RegexParseError Error { get; }
         public int Offset { get; }
 

@@ -11,7 +11,6 @@ namespace UnityEngine
     [Obsolete("iPhoneKeyboardType enumeration is deprecated. Please use TouchScreenKeyboardType instead (UnityUpgradable) -> TouchScreenKeyboardType", True)]
     public enum iPhoneKeyboardType
     {
-
         Default = 0,
         ASCIICapable = 1,
         NumbersAndPunctuation = 2,

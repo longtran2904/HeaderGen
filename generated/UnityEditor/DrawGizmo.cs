@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public sealed class DrawGizmo : Attribute
     {
-
         public Type drawnType;
         public GizmoType drawOptions;
 

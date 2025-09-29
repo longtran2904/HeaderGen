@@ -10,7 +10,6 @@ namespace UnityEngine.U2D
     [NativeType(Header = "Runtime/2D/SpriteAtlas/SpriteAtlas.h")]
     public class SpriteAtlas : Object
     {
-
         public SpriteAtlas();
 
         public bool isVariant { get; }

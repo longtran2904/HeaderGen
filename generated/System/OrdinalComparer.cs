@@ -6,7 +6,6 @@ namespace System
 {
     public class OrdinalComparer : StringComparer
     {
-
         public override int Compare(string x, string y);
         public override bool Equals(string x, string y);
         public override int GetHashCode(string obj);

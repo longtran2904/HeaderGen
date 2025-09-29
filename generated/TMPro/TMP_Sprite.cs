@@ -8,7 +8,6 @@ namespace TMPro
 {
     public class TMP_Sprite : TMP_TextElement_Legacy
     {
-
         public string name;
         public int hashCode;
         public int unicode;

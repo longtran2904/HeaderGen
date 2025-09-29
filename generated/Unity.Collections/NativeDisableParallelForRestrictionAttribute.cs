@@ -11,7 +11,6 @@ namespace Unity.Collections
     [RequiredByNativeCode]
     public sealed class NativeDisableParallelForRestrictionAttribute : Attribute
     {
-
         public NativeDisableParallelForRestrictionAttribute();
     }
 }

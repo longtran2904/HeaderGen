@@ -9,7 +9,6 @@ namespace UnityEngine.Playables
     [RequiredByNativeCode]
     public struct ScriptPlayableOutput : IPlayableOutput
     {
-
         public static ScriptPlayableOutput Null { get; }
 
         public static ScriptPlayableOutput Create(PlayableGraph graph, string name);

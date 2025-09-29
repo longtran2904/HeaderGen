@@ -6,7 +6,6 @@ namespace Unity.EditorCoroutines.Editor
 {
     public class EditorWaitForSeconds
     {
-
         public EditorWaitForSeconds(float time);
 
         public float WaitTime { get; }

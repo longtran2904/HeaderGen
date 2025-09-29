@@ -15,7 +15,6 @@ namespace UnityEngine.XR
     [UsedByNativeCode]
     public class XRDisplaySubsystem : IntegratedSubsystem<XRDisplaySubsystemDescriptor>
     {
-
         public XRDisplaySubsystem();
 
         [Obsolete("singlePassRenderingDisabled{get;set;} is deprecated. Use textureLayout and supportedTextureLayouts instead.", False)]
@@ -78,9 +77,9 @@ namespace UnityEngine.XR
         [NativeHeader("Runtime/Graphics/CommandBuffer/RenderingCommandBuffer.h")]
         [NativeMethod(Name = "AddGraphicsThreadMirrorViewBlit", IsThreadSafe = False)]
         public bool AddGraphicsThreadMirrorViewBlit(CommandBuffer cmd, bool allowGraphicsStateInvalidate, int mode);
+
         public enum LateLatchNode
         {
-
             Head = 0,
             LeftHand = 1,
             RightHand = 2
@@ -88,14 +87,12 @@ namespace UnityEngine.XR
         [Flags]
         public enum TextureLayout
         {
-
             Texture2DArray = 1,
             SingleTexture2D = 2,
             SeparateTexture2Ds = 4
         }
         public enum ReprojectionMode
         {
-
             Unspecified = 0,
             PositionAndOrientation = 1,
             OrientationOnly = 2,
@@ -104,7 +101,6 @@ namespace UnityEngine.XR
         [NativeHeader("Modules/XR/Subsystems/Display/XRDisplaySubsystem.bindings.h")]
         public struct XRRenderParameter
         {
-
             public Matrix4x4 view;
             public Matrix4x4 projection;
             public Rect viewport;
@@ -118,7 +114,6 @@ namespace UnityEngine.XR
         [NativeHeader("Modules/XR/Subsystems/Display/XRDisplaySubsystem.bindings.h")]
         public struct XRRenderPass
         {
-
             public int renderPassIndex;
             public RenderTargetIdentifier renderTarget;
             public RenderTextureDescriptor renderTargetDesc;
@@ -139,7 +134,6 @@ namespace UnityEngine.XR
         [NativeHeader("Runtime/Graphics/RenderTexture.h")]
         public struct XRBlitParams
         {
-
             public RenderTexture srcTex;
             public int srcTexArraySlice;
             public Rect srcRect;
@@ -148,7 +142,6 @@ namespace UnityEngine.XR
         [NativeHeader("Modules/XR/Subsystems/Display/XRDisplaySubsystem.bindings.h")]
         public struct XRMirrorViewBlitDesc
         {
-
             public bool nativeBlitAvailable;
             public bool nativeBlitInvalidStates;
             public int blitParamsCount;

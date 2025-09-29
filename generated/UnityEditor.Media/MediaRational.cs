@@ -9,7 +9,6 @@ namespace UnityEditor.Media
     [NativeHeader("Editor/Mono/Media/Bindings/MediaEncoder.bindings.h")]
     public struct MediaRational
     {
-
         public int numerator;
         public int denominator;
         public static readonly MediaRational Invalid;

@@ -6,7 +6,6 @@ namespace Unity.IO.LowLevel.Unsafe
 {
     public struct ReadCommandArray
     {
-
         public ReadCommand* ReadCommands;
         public int CommandCount;
     }

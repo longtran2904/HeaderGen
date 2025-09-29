@@ -6,7 +6,6 @@ namespace UnityEditor.MemoryProfiler
 {
     public struct PackedGCHandle
     {
-
         public PackedGCHandle(ulong target);
 
         public ulong target { get; }

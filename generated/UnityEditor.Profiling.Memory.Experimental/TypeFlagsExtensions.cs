@@ -6,7 +6,6 @@ namespace UnityEditor.Profiling.Memory.Experimental
 {
     public static class TypeFlagsExtensions
     {
-
         public static bool IsValueType(this TypeFlags flags);
         public static bool IsArray(this TypeFlags flags);
         public static int ArrayRank(this TypeFlags flags);

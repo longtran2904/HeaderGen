@@ -11,7 +11,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public class IntegratedSubsystem : ISubsystem
     {
-
         public IntegratedSubsystem();
 
         public bool running { get; }

@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public struct RasterState : IEquatable<RasterState>
     {
-
         public static readonly RasterState defaultValue;
 
         public RasterState(CullMode cullingMode = CullMode.Back, int offsetUnits = 0, float offsetFactor = 0, bool depthClip = True);

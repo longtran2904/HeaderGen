@@ -15,7 +15,6 @@ namespace UnityEditor.SceneManagement
     [NativeHeader("Modules/AssetPipelineEditor/Public/DefaultImporter.h")]
     public sealed class EditorSceneManager : SceneManager
     {
-
         public const ulong DefaultSceneCullingMask = 16140901064495857664;
 
         public EditorSceneManager();
@@ -120,6 +119,7 @@ namespace UnityEditor.SceneManagement
         public static bool SaveScene(Scene scene, [DefaultValue("\"\"")] string dstScenePath, [DefaultValue("false")] bool saveAsCopy);
         public static Scene LoadSceneInPlayMode(string path, LoadSceneParameters parameters);
         public static AsyncOperation LoadSceneAsyncInPlayMode(string path, LoadSceneParameters parameters);
+
         public delegate void NewSceneCreatedCallback(Scene scene, NewSceneSetup setup, NewSceneMode mode);
         public delegate void SceneOpeningCallback(string path, OpenSceneMode mode);
         public delegate void SceneOpenedCallback(Scene scene, OpenSceneMode mode);

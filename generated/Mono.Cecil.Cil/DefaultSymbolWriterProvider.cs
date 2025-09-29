@@ -8,7 +8,6 @@ namespace Mono.Cecil.Cil
 {
     public class DefaultSymbolWriterProvider : ISymbolWriterProvider
     {
-
         public DefaultSymbolWriterProvider();
 
         public ISymbolWriter GetSymbolWriter(ModuleDefinition module, string fileName);

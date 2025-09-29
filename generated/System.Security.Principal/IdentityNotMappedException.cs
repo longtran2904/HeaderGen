@@ -9,7 +9,6 @@ namespace System.Security.Principal
 {
     public sealed class IdentityNotMappedException : SystemException
     {
-
         public IdentityNotMappedException();
         public IdentityNotMappedException(string message);
         public IdentityNotMappedException(string message, Exception inner);

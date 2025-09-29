@@ -10,7 +10,6 @@ namespace UnityEditor.Recorder.AOV
     [RecorderSettings(typeof(AOVRecorder), "AOV Image Sequence", "aovimagesequence_16")]
     public class AOVRecorderSettings : RecorderSettings
     {
-
         public AOVRecorderSettings();
 
         protected internal override string Extension { get; }

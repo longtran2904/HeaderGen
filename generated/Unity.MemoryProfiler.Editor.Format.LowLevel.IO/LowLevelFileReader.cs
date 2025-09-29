@@ -9,7 +9,6 @@ namespace Unity.MemoryProfiler.Editor.Format.LowLevel.IO
 {
     public struct LowLevelFileReader : IDisposable
     {
-
         public LowLevelFileReader(string filePath);
 
         public long FileLength { get; }

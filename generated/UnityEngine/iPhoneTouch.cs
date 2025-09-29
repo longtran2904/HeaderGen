@@ -11,7 +11,6 @@ namespace UnityEngine
     [Obsolete("iPhoneTouch struct is deprecated. Please use Touch instead (UnityUpgradable) -> Touch", True)]
     public struct iPhoneTouch
     {
-
         [EditorBrowsable(EditorBrowsableState.Never)]
         [Obsolete("positionDelta property is deprecated. Please use Touch.deltaPosition instead (UnityUpgradable) -> Touch.deltaPosition", True)]
         public Vector2 positionDelta { get; }

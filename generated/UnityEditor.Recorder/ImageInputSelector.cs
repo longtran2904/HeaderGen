@@ -9,7 +9,6 @@ namespace UnityEditor.Recorder
 {
     public class ImageInputSelector : InputSettingsSelector
     {
-
         [SerializeField]
         public GameViewInputSettings gameViewInputSettings;
         [SerializeField]

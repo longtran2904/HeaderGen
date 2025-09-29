@@ -6,7 +6,6 @@ namespace System.Runtime.CompilerServices
 {
     public static class RuntimeFeature
     {
-
         public const string PortablePdb = "PortablePdb";
         public const string DefaultImplementationsOfInterfaces = "DefaultImplementationsOfInterfaces";
         public const string UnmanagedSignatureCallingConvention = "UnmanagedSignatureCallingConvention";

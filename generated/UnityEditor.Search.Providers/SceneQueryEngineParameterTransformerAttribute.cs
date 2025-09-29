@@ -9,7 +9,6 @@ namespace UnityEditor.Search.Providers
     [AttributeUsage(AttributeTargets.Method)]
     public class SceneQueryEngineParameterTransformerAttribute : QueryEngineParameterTransformerAttribute
     {
-
         public SceneQueryEngineParameterTransformerAttribute();
     }
 }

@@ -6,7 +6,6 @@ namespace UnityEditor.Experimental.Licensing
 {
     public enum EntitlementStatus
     {
-
         Unknown = 0,
         Granted = 1,
         NotGranted = 2,

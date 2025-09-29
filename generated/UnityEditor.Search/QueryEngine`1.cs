@@ -10,7 +10,6 @@ namespace UnityEditor.Search
 {
     public class QueryEngine<TData>
     {
-
         public QueryEngine();
         public QueryEngine(bool validateFilters);
         public QueryEngine(QueryValidationOptions validationOptions);

@@ -14,7 +14,6 @@ namespace UnityEditor.AssetImporters
     [RequiredByNativeCode]
     public class LightDescription : IDisposable
     {
-
         public LightDescription();
 
         ~LightDescription();

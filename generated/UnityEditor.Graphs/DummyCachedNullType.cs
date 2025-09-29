@@ -6,7 +6,6 @@ namespace UnityEditor.Graphs
 {
     public enum DummyCachedNullType
     {
-
         Nothing = 0
     }
 }

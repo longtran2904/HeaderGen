@@ -6,7 +6,6 @@ namespace System
 {
     public enum ConsoleColor
     {
-
         Black = 0,
         DarkBlue = 1,
         DarkGreen = 2,

@@ -9,7 +9,6 @@ namespace Unity.CodeEditor
 {
     public class CodeEditor
     {
-
         public CodeEditor();
 
         public IExternalCodeEditor CurrentCodeEditor { get; }
@@ -32,9 +31,9 @@ namespace Unity.CodeEditor
         public static bool OSOpenFile(string appPath, string arguments);
         public static string ParseArgument(string arguments, string path, int line, int column);
         public static string QuoteForProcessStart(string argument);
+
         public struct Installation
         {
-
             public string Name;
             public string Path;
         }

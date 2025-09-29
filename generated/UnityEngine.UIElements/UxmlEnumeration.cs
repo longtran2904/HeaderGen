@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public class UxmlEnumeration : UxmlTypeRestriction
     {
-
         public UxmlEnumeration();
 
         public IEnumerable<string> values { get; set; }

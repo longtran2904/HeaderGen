@@ -9,7 +9,6 @@ namespace System.Net.Http
 {
     public abstract class HttpMessageHandler : IDisposable
     {
-
         protected HttpMessageHandler();
 
         protected internal virtual HttpResponseMessage Send(HttpRequestMessage request, CancellationToken cancellationToken);

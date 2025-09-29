@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Input/InputBindings.h")]
     public struct Touch
     {
-
         public int fingerId { get; set; }
         public Vector2 position { get; set; }
         public Vector2 rawPosition { get; set; }

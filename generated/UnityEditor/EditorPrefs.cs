@@ -10,7 +10,6 @@ namespace UnityEditor
     [NativeHeader("Runtime/Utilities/PlayerPrefs.h")]
     public sealed class EditorPrefs
     {
-
         public EditorPrefs();
 
         public static void SetInt(string key, int value);

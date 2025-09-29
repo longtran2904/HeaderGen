@@ -9,7 +9,6 @@ namespace UnityEditor.Recorder
     [AttributeUsage(AttributeTargets.Class, Inherited = False)]
     public class RecorderSettingsAttribute : Attribute
     {
-
         public RecorderSettingsAttribute(Type recorderType, string displayName);
         public RecorderSettingsAttribute(Type recorderType, string displayName, bool deprecated);
         public RecorderSettingsAttribute(Type recorderType, string displayName, string iconName);

@@ -6,7 +6,6 @@ namespace UnityEditor.Build.Content
 {
     public struct WriteParameters
     {
-
         public WriteCommand writeCommand;
         public BuildSettings settings;
         public BuildUsageTagGlobal globalUsage;

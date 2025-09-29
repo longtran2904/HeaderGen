@@ -9,7 +9,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public struct WebCamDevice
     {
-
         public string name { get; }
         public bool isFrontFacing { get; }
         public WebCamKind kind { get; }

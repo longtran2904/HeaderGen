@@ -12,7 +12,6 @@ namespace UnityEditor
     [StaticAccessor("GetOcclusionCullingVisualization()", StaticAccessorType.Arrow)]
     public static class StaticOcclusionCullingVisualization
     {
-
         public static bool showOcclusionCulling { get; set; }
         [NativeName("ShowPreVis")]
         public static bool showPreVisualization { get; set; }

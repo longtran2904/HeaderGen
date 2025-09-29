@@ -9,7 +9,6 @@ namespace System
     [CLSCompliant(False)]
     public ref struct TypedReference
     {
-
         public static object ToObject(TypedReference value);
         public static TypedReference MakeTypedReference(object target, FieldInfo[] flds);
         public override int GetHashCode();

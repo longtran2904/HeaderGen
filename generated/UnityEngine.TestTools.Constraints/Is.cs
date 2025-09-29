@@ -8,7 +8,6 @@ namespace UnityEngine.TestTools.Constraints
 {
     public class Is : NUnit.Framework.Is
     {
-
         public Is();
 
         public static AllocatingGCMemoryConstraint AllocatingGCMemory();

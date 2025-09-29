@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum SerializedPropertyType
     {
-
         Generic = -1,
         Integer = 0,
         Boolean = 1,

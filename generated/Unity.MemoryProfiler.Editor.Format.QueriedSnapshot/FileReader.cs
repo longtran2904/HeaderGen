@@ -10,7 +10,6 @@ namespace Unity.MemoryProfiler.Editor.Format.QueriedSnapshot
 {
     public struct FileReader : IDisposable, IFileReader, IReader
     {
-
         public bool HasOpenFile { get; }
         public string FullPath { get; }
         public FormatVersion FormatVersion { get; }

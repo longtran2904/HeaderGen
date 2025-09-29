@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public struct CullingGroupEvent
     {
-
         public int index { get; }
         public bool isVisible { get; }
         public bool wasVisible { get; }

@@ -10,7 +10,6 @@ namespace UnityEngine.UIElements
 {
     public abstract class BaseVerticalCollectionView : BindableElement, ISerializationCallbackReceiver
     {
-
         public static readonly string ussClassName;
         public static readonly string borderUssClassName;
         public static readonly string itemUssClassName;

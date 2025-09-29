@@ -6,7 +6,6 @@ namespace System.Runtime.CompilerServices
 {
     public readonly struct ValueTaskAwaiter : ICriticalNotifyCompletion, INotifyCompletion, IStateMachineBoxAwareAwaiter
     {
-
         public bool IsCompleted { get; }
 
         public void GetResult();

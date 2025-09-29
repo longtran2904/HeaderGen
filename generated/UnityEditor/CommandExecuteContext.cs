@@ -9,7 +9,6 @@ namespace UnityEditor
     [ExcludeFromDocs]
     public class CommandExecuteContext
     {
-
         public object[] args;
         public object result;
         public CommandHint hint;

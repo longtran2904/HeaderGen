@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeDirective : CodeObject
     {
-
         public CodeDirective();
     }
 }

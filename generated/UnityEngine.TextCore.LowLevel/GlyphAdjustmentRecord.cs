@@ -11,7 +11,6 @@ namespace UnityEngine.TextCore.LowLevel
     [UsedByNativeCode]
     public struct GlyphAdjustmentRecord : IEquatable<GlyphAdjustmentRecord>
     {
-
         public GlyphAdjustmentRecord(uint glyphIndex, GlyphValueRecord glyphValueRecord);
 
         public uint glyphIndex { get; set; }

@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.Universal
 {
     public static class ShaderUtils
     {
-
         public static string GetShaderPath(ShaderPathID id);
         public static ShaderPathID GetEnumFromPath(string path);
         public static bool IsLWShader(Shader shader);

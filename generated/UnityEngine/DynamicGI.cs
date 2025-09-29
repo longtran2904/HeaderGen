@@ -11,7 +11,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/GI/DynamicGI.h")]
     public sealed class DynamicGI
     {
-
         public DynamicGI();
 
         public static float indirectScale { get; set; }

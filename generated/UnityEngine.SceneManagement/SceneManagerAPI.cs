@@ -6,7 +6,6 @@ namespace UnityEngine.SceneManagement
 {
     public class SceneManagerAPI
     {
-
         protected internal SceneManagerAPI();
 
         public static SceneManagerAPI overrideAPI { get; set; }

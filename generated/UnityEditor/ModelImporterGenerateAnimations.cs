@@ -9,7 +9,6 @@ namespace UnityEditor
     [NativeType(Header = "Modules/AssetPipelineEditor/Public/ModelImporting/ModelImporter.h")]
     public enum ModelImporterGenerateAnimations
     {
-
         None = 0,
         GenerateAnimations = 4,
         InRoot = 3,

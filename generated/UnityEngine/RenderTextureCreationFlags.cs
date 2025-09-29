@@ -9,7 +9,6 @@ namespace UnityEngine
     [Flags]
     public enum RenderTextureCreationFlags
     {
-
         MipMap = 1,
         AutoGenerateMips = 2,
         SRGB = 4,

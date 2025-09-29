@@ -10,7 +10,6 @@ namespace System
     [CLSCompliant(False)]
     public readonly struct UInt128 : IAdditionOperators<UInt128, UInt128, UInt128>, IAdditiveIdentity<UInt128, UInt128>, IBinaryInteger<UInt128>, IBinaryIntegerParseAndFormatInfo<UInt128>, IBinaryNumber<UInt128>, IBitwiseOperators<UInt128, UInt128, UInt128>, IComparable, IComparable<UInt128>, IComparisonOperators<UInt128, UInt128, bool>, IDecrementOperators<UInt128>, IDivisionOperators<UInt128, UInt128, UInt128>, IEqualityOperators<UInt128, UInt128, bool>, IEquatable<UInt128>, IFormattable, IIncrementOperators<UInt128>, IMinMaxValue<UInt128>, IModulusOperators<UInt128, UInt128, UInt128>, IMultiplicativeIdentity<UInt128, UInt128>, IMultiplyOperators<UInt128, UInt128, UInt128>, INumber<UInt128>, INumberBase<UInt128>, IParsable<UInt128>, IShiftOperators<UInt128, int, UInt128>, ISpanFormattable, ISpanParsable<UInt128>, ISubtractionOperators<UInt128, UInt128, UInt128>, IUnaryNegationOperators<UInt128, UInt128>, IUnaryPlusOperators<UInt128, UInt128>, IUnsignedNumber<UInt128>, IUtf8SpanFormattable, IUtf8SpanParsable<UInt128>
     {
-
         [CLSCompliant(False)]
         public UInt128(ulong upper, ulong lower);
 

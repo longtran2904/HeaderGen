@@ -9,7 +9,6 @@ namespace System.Diagnostics.Tracing
     [UnsupportedOSPlatform("browser")]
     public class EventCounter : DiagnosticCounter
     {
-
         public EventCounter(string name, EventSource eventSource);
 
         public void WriteMetric(float value);

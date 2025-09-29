@@ -8,7 +8,6 @@ namespace UnityEngine.Experimental.Rendering
     [ExecuteAlways]
     public class ProbeVolume : MonoBehaviour
     {
-
         public bool globalVolume;
         public Vector3 size;
         [HideInInspector]

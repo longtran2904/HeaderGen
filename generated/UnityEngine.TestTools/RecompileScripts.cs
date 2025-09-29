@@ -8,7 +8,6 @@ namespace UnityEngine.TestTools
 {
     public class RecompileScripts : IEditModeTestYieldInstruction
     {
-
         public RecompileScripts();
         public RecompileScripts(bool expectScriptCompilation);
         public RecompileScripts(bool expectScriptCompilation, bool expectScriptCompilationSuccess);

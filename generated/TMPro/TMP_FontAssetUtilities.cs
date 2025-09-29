@@ -8,7 +8,6 @@ namespace TMPro
 {
     public class TMP_FontAssetUtilities
     {
-
         public TMP_FontAssetUtilities();
 
         public static TMP_FontAssetUtilities instance { get; }

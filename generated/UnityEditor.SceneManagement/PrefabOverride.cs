@@ -8,7 +8,6 @@ namespace UnityEditor.SceneManagement
 {
     public abstract class PrefabOverride
     {
-
         protected PrefabOverride();
 
         public abstract void Apply(string prefabAssetPath, InteractionMode mode);

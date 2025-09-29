@@ -10,7 +10,6 @@ namespace UnityEditor
     [NativeType(Header = "Modules/AssetPipelineEditor/Public/ModelImporting/ImportMesh.h")]
     public enum ModelImporterTangents
     {
-
         Import = 0,
         CalculateLegacy = 1,
         CalculateLegacyWithSplitTangents = 4,

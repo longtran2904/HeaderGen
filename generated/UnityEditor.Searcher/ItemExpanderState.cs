@@ -6,7 +6,6 @@ namespace UnityEditor.Searcher
 {
     public enum ItemExpanderState
     {
-
         Hidden = 0,
         Collapsed = 1,
         Expanded = 2

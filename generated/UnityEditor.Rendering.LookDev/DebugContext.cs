@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering.LookDev
 {
     public class DebugContext
     {
-
         public bool shadow;
         public int viewMode;
 

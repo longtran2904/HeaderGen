@@ -9,7 +9,6 @@ namespace UnityEditor.VersionControl
     [NativeType("Editor/Src/VersionControl/VCEnums.h")]
     public enum CompletionAction
     {
-
         UpdatePendingWindow = 1,
         OnChangeContentsPendingWindow = 2,
         OnIncomingPendingWindow = 3,

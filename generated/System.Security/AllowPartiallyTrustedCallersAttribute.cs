@@ -7,7 +7,6 @@ namespace System.Security
     [AttributeUsage(AttributeTargets.Assembly, AllowMultiple = False, Inherited = False)]
     public sealed class AllowPartiallyTrustedCallersAttribute : Attribute
     {
-
         public AllowPartiallyTrustedCallersAttribute();
 
         public PartialTrustVisibilityLevel PartialTrustVisibilityLevel { get; set; }

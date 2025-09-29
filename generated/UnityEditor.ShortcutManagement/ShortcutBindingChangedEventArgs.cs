@@ -6,7 +6,6 @@ namespace UnityEditor.ShortcutManagement
 {
     public struct ShortcutBindingChangedEventArgs
     {
-
         public ShortcutBindingChangedEventArgs(string shortcutId, ShortcutBinding oldBinding, ShortcutBinding newBinding);
 
         public string shortcutId { get; }

@@ -9,7 +9,6 @@ namespace UnityEngine.Experimental.Rendering.RenderGraphModule
 {
     public struct RenderGraphProfilingScope : IDisposable
     {
-
         public RenderGraphProfilingScope(RenderGraph renderGraph, ProfilingSampler sampler);
 
         public void Dispose();

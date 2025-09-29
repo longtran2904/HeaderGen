@@ -12,7 +12,6 @@ namespace UnityEditor.Rendering
     [RequiredByNativeCode]
     public static class EditorCameraUtils
     {
-
         public static bool RenderToCubemap(this Camera camera, Texture target, int faceMask, StaticEditorFlags culledFlags);
     }
 }

@@ -6,7 +6,6 @@ namespace System.Buffers
 {
     public readonly struct StandardFormat : IEquatable<StandardFormat>
     {
-
         public const byte NoPrecision = 255;
         public const byte MaxPrecision = 99;
 

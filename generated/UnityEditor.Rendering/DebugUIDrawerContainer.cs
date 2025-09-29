@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
     [DebugUIDrawer(typeof(DebugUI.Container))]
     public sealed class DebugUIDrawerContainer : DebugUIDrawer
     {
-
         public DebugUIDrawerContainer();
 
         public override void Begin(DebugUI.Widget widget, DebugState state);

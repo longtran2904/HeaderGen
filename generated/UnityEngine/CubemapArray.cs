@@ -14,7 +14,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Graphics/CubemapArrayTexture.h")]
     public sealed class CubemapArray : Texture
     {
-
         [ExcludeFromDocs]
         public CubemapArray(int width, int cubemapCount, DefaultFormat format, TextureCreationFlags flags);
         [ExcludeFromDocs]

@@ -8,7 +8,6 @@ using System.Text;
 
 public static class Utils
 {
-
     public const int indent = 4;
 
     public static StringBuilder AppendIndent(this StringBuilder builder, string str, int indentLevel);

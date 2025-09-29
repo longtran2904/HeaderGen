@@ -9,7 +9,6 @@ namespace UnityEditor.Timeline
 {
     public abstract class TimelineEditorWindow : EditorWindow
     {
-
         protected TimelineEditorWindow();
 
         public abstract TimelineNavigator navigator { get; }

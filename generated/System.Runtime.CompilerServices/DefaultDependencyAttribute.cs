@@ -7,7 +7,6 @@ namespace System.Runtime.CompilerServices
     [AttributeUsage(AttributeTargets.Assembly)]
     public sealed class DefaultDependencyAttribute : Attribute
     {
-
         public DefaultDependencyAttribute(LoadHint loadHintArgument);
 
         public LoadHint LoadHint { get; }

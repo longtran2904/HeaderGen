@@ -11,7 +11,6 @@ namespace UnityEngine.Animations
     [MovedFrom("UnityEngine.Experimental.Animations")]
     public interface IAnimationJob
     {
-
         void ProcessAnimation(AnimationStream stream);
         void ProcessRootMotion(AnimationStream stream);
     }

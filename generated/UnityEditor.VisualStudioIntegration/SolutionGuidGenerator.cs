@@ -9,7 +9,6 @@ namespace UnityEditor.VisualStudioIntegration
     [EditorBrowsable(EditorBrowsableState.Never)]
     public static class SolutionGuidGenerator
     {
-
         public static string GuidForProject(string projectName);
         public static string GuidForSolution(string projectName, string sourceFileExtension);
     }

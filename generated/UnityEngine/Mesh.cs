@@ -19,7 +19,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public sealed class Mesh : Object
     {
-
         [RequiredByNativeCode]
         public Mesh();
 
@@ -292,11 +291,11 @@ namespace UnityEngine
         public void CombineMeshes(CombineInstance[] combine, bool mergeSubMeshes);
         [ExcludeFromDocs]
         public void CombineMeshes(CombineInstance[] combine);
+
         [NativeHeader("Runtime/Graphics/Mesh/MeshScriptBindings.h")]
         [StaticAccessor("MeshDataBindings", StaticAccessorType.DoubleColon)]
         public struct MeshData
         {
-
             public int vertexCount { get; }
             public int vertexBufferCount { get; }
             public IndexFormat indexFormat { get; }
@@ -332,7 +331,6 @@ namespace UnityEngine
         [StaticAccessor("MeshDataArrayBindings", StaticAccessorType.DoubleColon)]
         public struct MeshDataArray : IDisposable
         {
-
             public MeshData this[int index] { get; }
             public int Length { get; }
 

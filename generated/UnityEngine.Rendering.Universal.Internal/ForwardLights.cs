@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.Universal.Internal
 {
     public class ForwardLights
     {
-
         public ForwardLights();
 
         public void Setup(ScriptableRenderContext context, ref RenderingData renderingData);

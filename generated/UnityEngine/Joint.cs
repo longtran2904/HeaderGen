@@ -11,7 +11,6 @@ namespace UnityEngine
     [RequireComponent(typeof(Rigidbody))]
     public class Joint : Component
     {
-
         public Joint();
 
         public Rigidbody connectedBody { get; set; }

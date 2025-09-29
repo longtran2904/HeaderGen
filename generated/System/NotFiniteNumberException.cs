@@ -9,7 +9,6 @@ namespace System
 {
     public class NotFiniteNumberException : ArithmeticException
     {
-
         public NotFiniteNumberException();
         public NotFiniteNumberException(double offendingNumber);
         public NotFiniteNumberException(string message);

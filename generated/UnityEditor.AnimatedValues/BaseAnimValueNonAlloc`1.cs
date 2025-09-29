@@ -9,7 +9,6 @@ namespace UnityEditor.AnimatedValues
 {
     public abstract class BaseAnimValueNonAlloc<T> : BaseAnimValue<T> where T : IEquatable<T>
     {
-
         protected BaseAnimValueNonAlloc(T value);
         protected BaseAnimValueNonAlloc(T value, UnityAction callback);
 

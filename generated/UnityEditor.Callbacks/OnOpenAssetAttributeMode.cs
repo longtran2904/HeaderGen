@@ -6,7 +6,6 @@ namespace UnityEditor.Callbacks
 {
     public enum OnOpenAssetAttributeMode
     {
-
         Execute = 0,
         Validate = 1
     }

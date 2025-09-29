@@ -8,7 +8,6 @@ namespace System.Runtime.CompilerServices
 {
     public struct PoolingAsyncValueTaskMethodBuilder
     {
-
         public ValueTask Task { get; }
 
         public static PoolingAsyncValueTaskMethodBuilder Create();

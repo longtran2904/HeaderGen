@@ -8,7 +8,6 @@ namespace UnityEngine
 {
     public struct Ray2D : IFormattable
     {
-
         public Ray2D(Vector2 origin, Vector2 direction);
 
         public Vector2 origin { get; set; }

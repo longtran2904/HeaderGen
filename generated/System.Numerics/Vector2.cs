@@ -9,7 +9,6 @@ namespace System.Numerics
     [DefaultMember("Item")]
     public struct Vector2 : IEquatable<Vector2>, IFormattable
     {
-
         public float X;
         public float Y;
 

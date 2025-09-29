@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics2D/RelativeJoint2D.h")]
     public sealed class RelativeJoint2D : Joint2D
     {
-
         public RelativeJoint2D();
 
         public float maxForce { get; set; }

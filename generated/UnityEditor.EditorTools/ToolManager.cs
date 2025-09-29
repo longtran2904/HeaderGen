@@ -8,7 +8,6 @@ namespace UnityEditor.EditorTools
 {
     public static class ToolManager
     {
-
         public static Type activeContextType { get; }
         public static Type activeToolType { get; }
 

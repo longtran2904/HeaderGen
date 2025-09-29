@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Animation/HumanTrait.h")]
     public class HumanTrait
     {
-
         public HumanTrait();
 
         public static int MuscleCount { get; }

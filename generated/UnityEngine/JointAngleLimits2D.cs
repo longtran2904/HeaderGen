@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public struct JointAngleLimits2D
     {
-
         public float min { get; set; }
         public float max { get; set; }
     }

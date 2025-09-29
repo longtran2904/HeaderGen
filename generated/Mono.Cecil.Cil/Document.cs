@@ -6,7 +6,6 @@ namespace Mono.Cecil.Cil
 {
     public sealed class Document : DebugInformation
     {
-
         public Document(string url);
 
         public string Url { get; set; }

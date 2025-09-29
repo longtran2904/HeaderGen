@@ -9,7 +9,6 @@ namespace System
 {
     public readonly struct Half : IAdditionOperators<Half, Half, Half>, IAdditiveIdentity<Half, Half>, IBinaryFloatingPointIeee754<Half>, IBinaryFloatParseAndFormatInfo<Half>, IBinaryNumber<Half>, IBitwiseOperators<Half, Half, Half>, IComparable, IComparable<Half>, IComparisonOperators<Half, Half, bool>, IDecrementOperators<Half>, IDivisionOperators<Half, Half, Half>, IEqualityOperators<Half, Half, bool>, IEquatable<Half>, IExponentialFunctions<Half>, IFloatingPoint<Half>, IFloatingPointConstants<Half>, IFloatingPointIeee754<Half>, IFormattable, IHyperbolicFunctions<Half>, IIncrementOperators<Half>, ILogarithmicFunctions<Half>, IMinMaxValue<Half>, IModulusOperators<Half, Half, Half>, IMultiplicativeIdentity<Half, Half>, IMultiplyOperators<Half, Half, Half>, INumber<Half>, INumberBase<Half>, IParsable<Half>, IPowerFunctions<Half>, IRootFunctions<Half>, ISignedNumber<Half>, ISpanFormattable, ISpanParsable<Half>, ISubtractionOperators<Half, Half, Half>, ITrigonometricFunctions<Half>, IUnaryNegationOperators<Half, Half>, IUnaryPlusOperators<Half, Half>, IUtf8SpanFormattable, IUtf8SpanParsable<Half>
     {
-
         public static Half Epsilon { get; }
         public static Half PositiveInfinity { get; }
         public static Half NegativeInfinity { get; }

@@ -7,7 +7,6 @@ namespace System.Security
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method | AttributeTargets.Interface | AttributeTargets.Delegate, AllowMultiple = True, Inherited = False)]
     public sealed class SuppressUnmanagedCodeSecurityAttribute : Attribute
     {
-
         public SuppressUnmanagedCodeSecurityAttribute();
     }
 }

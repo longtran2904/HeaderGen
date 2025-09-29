@@ -10,7 +10,6 @@ namespace UnityEngine.Rendering
     [DefaultMember("Item")]
     public struct BitArray128 : IBitArray
     {
-
         public BitArray128(ulong initValue1, ulong initValue2);
         public BitArray128(IEnumerable<uint> bitIndexTrue);
 

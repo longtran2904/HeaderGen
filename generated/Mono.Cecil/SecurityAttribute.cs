@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public sealed class SecurityAttribute : ICustomAttribute
     {
-
         public SecurityAttribute(TypeReference attributeType);
 
         public TypeReference AttributeType { get; set; }

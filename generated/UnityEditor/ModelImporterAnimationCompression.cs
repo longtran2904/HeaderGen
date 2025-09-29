@@ -9,7 +9,6 @@ namespace UnityEditor
     [NativeType(Header = "Modules/AssetPipelineEditor/Public/ModelImporting/ModelImporter.h")]
     public enum ModelImporterAnimationCompression
     {
-
         Off = 0,
         KeyframeReduction = 1,
         KeyframeReductionAndCompression = 2,

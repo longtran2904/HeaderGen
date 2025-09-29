@@ -8,7 +8,6 @@ namespace UnityEngine.Experimental.AI
 {
     public struct PolygonId : IEquatable<PolygonId>
     {
-
         public bool IsNull();
         public override int GetHashCode();
         public bool Equals(PolygonId rhs);

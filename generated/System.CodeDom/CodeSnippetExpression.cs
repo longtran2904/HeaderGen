@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeSnippetExpression : CodeExpression
     {
-
         public CodeSnippetExpression();
         public CodeSnippetExpression(string value);
 

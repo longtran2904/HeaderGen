@@ -10,7 +10,6 @@ namespace UnityEditor
 {
     public sealed class EditorStyles
     {
-
         public EditorStyles();
 
         public static GUIStyle label { get; }

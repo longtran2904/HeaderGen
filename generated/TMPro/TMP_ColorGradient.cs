@@ -9,7 +9,6 @@ namespace TMPro
     [ExcludeFromPreset]
     public class TMP_ColorGradient : ScriptableObject
     {
-
         public ColorMode colorMode;
         public Color topLeft;
         public Color topRight;

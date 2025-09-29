@@ -8,7 +8,6 @@ namespace UnityEditor.UIElements
 {
     public abstract class SearchFieldBase<TextInputType, T> : VisualElement, INotifyValueChanged<T> where TextInputType : TextInputBaseField<T>, new()
     {
-
         public static readonly string ussClassName;
         public static readonly string textUssClassName;
         public static readonly string textInputUssClassName;

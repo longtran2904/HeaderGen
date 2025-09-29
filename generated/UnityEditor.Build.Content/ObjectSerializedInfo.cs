@@ -9,7 +9,6 @@ namespace UnityEditor.Build.Content
     [UsedByNativeCode]
     public struct ObjectSerializedInfo
     {
-
         public ObjectIdentifier serializedObject { get; }
         public SerializedLocation header { get; }
         public SerializedLocation rawData { get; }

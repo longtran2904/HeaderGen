@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public class GridPalette : ScriptableObject
     {
-
         [SerializeField]
         public CellSizing cellSizing;
 
@@ -16,9 +15,9 @@ namespace UnityEditor
 
         public TransparencySortMode transparencySortMode { get; set; }
         public Vector3 transparencySortAxis { get; set; }
+
         public enum CellSizing
         {
-
             Automatic = 0,
             Manual = 100
         }

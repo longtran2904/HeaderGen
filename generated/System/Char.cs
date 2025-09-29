@@ -9,7 +9,6 @@ namespace System
 {
     public readonly struct Char : IAdditionOperators<char, char, char>, IAdditiveIdentity<char, char>, IBinaryInteger<char>, IBinaryIntegerParseAndFormatInfo<char>, IBinaryNumber<char>, IBitwiseOperators<char, char, char>, IComparable, IComparable<char>, IComparisonOperators<char, char, bool>, IConvertible, IDecrementOperators<char>, IDivisionOperators<char, char, char>, IEqualityOperators<char, char, bool>, IEquatable<char>, IFormattable, IIncrementOperators<char>, IMinMaxValue<char>, IModulusOperators<char, char, char>, IMultiplicativeIdentity<char, char>, IMultiplyOperators<char, char, char>, INumber<char>, INumberBase<char>, IParsable<char>, IShiftOperators<char, int, char>, ISpanFormattable, ISpanParsable<char>, ISubtractionOperators<char, char, char>, IUnaryNegationOperators<char, char>, IUnaryPlusOperators<char, char>, IUnsignedNumber<char>, IUtf8SpanFormattable, IUtf8SpanParsable<char>, IUtfChar<char>
     {
-
         public const char MaxValue = '￿';
         public const char MinValue = '\0';
 

@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices.Marshalling
     [AttributeUsage(AttributeTargets.Parameter | AttributeTargets.ReturnValue, AllowMultiple = True)]
     public sealed class MarshalUsingAttribute : Attribute
     {
-
         public const string ReturnsCountValue = "return-value";
 
         public MarshalUsingAttribute();

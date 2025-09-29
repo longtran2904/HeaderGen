@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public abstract class SerializedDictionary<K, V, SK, SV> : Dictionary<K, V>, ISerializationCallbackReceiver
     {
-
         protected SerializedDictionary();
 
         public abstract SK SerializeKey(K key);

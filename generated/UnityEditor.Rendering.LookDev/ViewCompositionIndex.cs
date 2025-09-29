@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering.LookDev
 {
     public enum ViewCompositionIndex
     {
-
         First = 0,
         Second = 1,
         Composite = 2

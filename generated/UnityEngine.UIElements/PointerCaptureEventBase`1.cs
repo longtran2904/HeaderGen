@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public abstract class PointerCaptureEventBase<T> : EventBase<T>, IPointerCaptureEvent, IPointerCaptureEventInternal where T : PointerCaptureEventBase<T>, new()
     {
-
         protected PointerCaptureEventBase();
 
         public IEventHandler relatedTarget { get; }

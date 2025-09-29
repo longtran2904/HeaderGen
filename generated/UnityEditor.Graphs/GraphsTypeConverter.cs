@@ -9,7 +9,6 @@ namespace UnityEditor.Graphs
 {
     public class GraphsTypeConverter : TypeConverter
     {
-
         public GraphsTypeConverter();
 
         public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType);

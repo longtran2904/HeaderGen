@@ -6,7 +6,6 @@ namespace UnityEditor.WindowsStandalone
 {
     public static class UserBuildSettings
     {
-
         public static bool copyPDBFiles { get; set; }
         public static bool createSolution { get; set; }
     }

@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public interface IResolvedStyle
     {
-
         Align alignContent { get; }
         Align alignItems { get; }
         Align alignSelf { get; }

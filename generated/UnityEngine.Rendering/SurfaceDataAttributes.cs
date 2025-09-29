@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
     [AttributeUsage(AttributeTargets.Field)]
     public class SurfaceDataAttributes : Attribute
     {
-
         public string[] displayNames;
         public bool isDirection;
         public bool sRGBDisplay;

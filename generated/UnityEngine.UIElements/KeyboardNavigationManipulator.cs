@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public class KeyboardNavigationManipulator : Manipulator
     {
-
         public KeyboardNavigationManipulator(Action<KeyboardNavigationOperation, EventBase> action);
 
         protected override void RegisterCallbacksOnTarget();

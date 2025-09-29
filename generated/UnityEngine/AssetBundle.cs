@@ -25,7 +25,6 @@ namespace UnityEngine
     [NativeHeader("Modules/AssetBundle/Public/AssetBundleLoadFromFileAsyncOperation.h")]
     public class AssetBundle : Object
     {
-
         [Obsolete("mainAsset has been made obsolete. Please use the new AssetBundle build system introduced in 5.0 and check BuildAssetBundles documentation for details.")]
         public Object mainAsset { get; }
         public bool isStreamedSceneAssetBundle { get; }

@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum AndroidShowActivityIndicatorOnLoading
     {
-
         Large = 0,
         InversedLarge = 1,
         Small = 2,

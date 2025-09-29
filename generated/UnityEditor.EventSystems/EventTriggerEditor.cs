@@ -9,7 +9,6 @@ namespace UnityEditor.EventSystems
     [CustomEditor(typeof(EventTrigger), True)]
     public class EventTriggerEditor : Editor
     {
-
         public EventTriggerEditor();
 
         protected virtual void OnEnable();

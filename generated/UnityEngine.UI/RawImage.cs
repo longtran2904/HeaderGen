@@ -8,7 +8,6 @@ namespace UnityEngine.UI
     [RequireComponent(typeof(CanvasRenderer))]
     public class RawImage : MaskableGraphic
     {
-
         protected RawImage();
 
         public override Texture mainTexture { get; }

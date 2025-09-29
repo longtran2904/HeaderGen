@@ -11,7 +11,6 @@ namespace UnityEditor
     [Obsolete("UnityEditor.AudioImporterFormat has been deprecated. Use UnityEngine.AudioCompressionFormat instead.")]
     public enum AudioImporterFormat
     {
-
         Native = -1,
         Compressed = 0
     }

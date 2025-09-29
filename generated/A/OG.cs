@@ -6,21 +6,18 @@ namespace A
 {
     public class OG
     {
-
         public OG();
+
         public class A
         {
-
             public A();
         }
         public class Inner
         {
-
             public Inner();
         }
         public class Inner1
         {
-
             public Inner1();
         }
     }

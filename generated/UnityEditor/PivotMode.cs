@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum PivotMode
     {
-
         Center = 0,
         Pivot = 1
     }

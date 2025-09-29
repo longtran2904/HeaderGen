@@ -12,7 +12,6 @@ namespace UnityEditor.Sprites
     [StaticAccessor("SpriteUtilityBindings", StaticAccessorType.DoubleColon)]
     public sealed class SpriteUtility
     {
-
         public SpriteUtility();
 
         [NativeThrows]

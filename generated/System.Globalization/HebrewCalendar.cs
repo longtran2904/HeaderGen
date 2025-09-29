@@ -6,7 +6,6 @@ namespace System.Globalization
 {
     public class HebrewCalendar : Calendar
     {
-
         public static readonly int HebrewEra;
 
         public HebrewCalendar();

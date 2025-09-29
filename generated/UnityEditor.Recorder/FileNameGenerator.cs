@@ -8,7 +8,6 @@ namespace UnityEditor.Recorder
 {
     public class FileNameGenerator
     {
-
         public string FileName { get; set; }
         public OutputPath.Root Root { get; set; }
         public string Leaf { get; set; }

@@ -14,7 +14,6 @@ namespace UnityEngine.Animations
     [UsedByNativeCode]
     public sealed class AimConstraint : Behaviour, IConstraint, IConstraintInternal
     {
-
         public float weight { get; set; }
         public bool constraintActive { get; set; }
         public bool locked { get; set; }
@@ -35,9 +34,9 @@ namespace UnityEngine.Animations
         public void RemoveSource(int index);
         public ConstraintSource GetSource(int index);
         public void SetSource(int index, ConstraintSource source);
+
         public enum WorldUpType
         {
-
             SceneUp = 0,
             ObjectUp = 1,
             ObjectRotationUp = 2,

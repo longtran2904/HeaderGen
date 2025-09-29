@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum BoneState
     {
-
         None = 0,
         NotFound = 1,
         Duplicate = 2,

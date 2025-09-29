@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public struct RenderTargetIdentifier : IEquatable<RenderTargetIdentifier>
     {
-
         public const int AllDepthSlices = -1;
 
         public RenderTargetIdentifier(BuiltinRenderTextureType type);

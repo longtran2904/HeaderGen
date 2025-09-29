@@ -10,7 +10,6 @@ namespace System.Resources
     [EditorBrowsable(EditorBrowsableState.Never)]
     public class MissingManifestResourceException : SystemException
     {
-
         public MissingManifestResourceException();
         public MissingManifestResourceException(string message);
         public MissingManifestResourceException(string message, Exception inner);

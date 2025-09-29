@@ -9,7 +9,6 @@ namespace UnityEditor.Callbacks
     [RequiredByNativeCode]
     public sealed class OnOpenAssetAttribute : CallbackOrderAttribute
     {
-
         public OnOpenAssetAttribute();
         public OnOpenAssetAttribute(OnOpenAssetAttributeMode attributeMode);
         public OnOpenAssetAttribute(int callbackOrder);

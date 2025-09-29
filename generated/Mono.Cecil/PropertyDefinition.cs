@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public sealed class PropertyDefinition : PropertyReference, IConstantProvider, ICustomAttributeProvider, IMemberDefinition
     {
-
         public PropertyDefinition(string name, PropertyAttributes attributes, TypeReference propertyType);
 
         public PropertyAttributes Attributes { get; set; }

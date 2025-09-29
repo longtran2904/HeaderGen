@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [Flags]
     public enum DllImportSearchPath
     {
-
         UseDllDirectoryForDependencies = 256,
         ApplicationDirectory = 512,
         UserDirectories = 1024,

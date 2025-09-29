@@ -6,7 +6,6 @@ namespace System.Security.Principal
 {
     public enum WindowsBuiltInRole
     {
-
         Administrator = 544,
         User = 545,
         Guest = 546,

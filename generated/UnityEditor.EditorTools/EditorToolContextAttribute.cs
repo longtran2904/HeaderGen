@@ -9,7 +9,6 @@ namespace UnityEditor.EditorTools
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = False, Inherited = False)]
     public class EditorToolContextAttribute : ToolAttribute
     {
-
         public EditorToolContextAttribute(string displayName = "", Type targetType = null);
     }
 }

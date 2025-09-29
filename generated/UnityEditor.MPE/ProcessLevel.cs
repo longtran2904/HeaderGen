@@ -10,7 +10,6 @@ namespace UnityEditor.MPE
     [MovedFrom("Unity.MPE")]
     public enum ProcessLevel
     {
-
         [Obsolete("... (UnityUpgradable) -> Undefined")]
         UMP_UNDEFINED = 0,
         Undefined = 0,

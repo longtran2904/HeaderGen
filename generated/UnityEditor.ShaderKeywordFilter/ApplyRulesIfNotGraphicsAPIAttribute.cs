@@ -8,7 +8,6 @@ namespace UnityEditor.ShaderKeywordFilter
 {
     public class ApplyRulesIfNotGraphicsAPIAttribute : GraphicsAPIConstraintAttribute
     {
-
         public ApplyRulesIfNotGraphicsAPIAttribute(params GraphicsDeviceType[] graphicsDeviceTypes);
     }
 }

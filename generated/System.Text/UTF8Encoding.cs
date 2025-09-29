@@ -6,7 +6,6 @@ namespace System.Text
 {
     public class UTF8Encoding : Encoding
     {
-
         public UTF8Encoding();
         public UTF8Encoding(bool encoderShouldEmitUTF8Identifier);
         public UTF8Encoding(bool encoderShouldEmitUTF8Identifier, bool throwOnInvalidBytes);

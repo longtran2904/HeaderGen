@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering
 {
     public enum IESResolution
     {
-
         IESResolution16 = 16,
         IESResolution32 = 32,
         IESResolution64 = 64,

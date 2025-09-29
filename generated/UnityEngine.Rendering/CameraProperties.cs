@@ -10,7 +10,6 @@ namespace UnityEngine.Rendering
     [UsedByNativeCode]
     public struct CameraProperties : IEquatable<CameraProperties>
     {
-
         public Plane GetShadowCullingPlane(int index);
         public void SetShadowCullingPlane(int index, Plane plane);
         public Plane GetCameraCullingPlane(int index);

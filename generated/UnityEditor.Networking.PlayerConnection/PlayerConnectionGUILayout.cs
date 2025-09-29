@@ -9,7 +9,6 @@ namespace UnityEditor.Networking.PlayerConnection
 {
     public static class PlayerConnectionGUILayout
     {
-
         public static void ConnectionTargetSelectionDropdown(IConnectionState state, GUIStyle style = null);
     }
 }

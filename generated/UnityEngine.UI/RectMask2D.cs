@@ -12,7 +12,6 @@ namespace UnityEngine.UI
     [RequireComponent(typeof(RectTransform))]
     public class RectMask2D : UIBehaviour, ICanvasRaycastFilter, IClipper
     {
-
         protected RectMask2D();
 
         public Vector4 padding { get; set; }

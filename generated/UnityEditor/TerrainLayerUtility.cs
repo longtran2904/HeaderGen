@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public static class TerrainLayerUtility
     {
-
         public static int ShowTerrainLayersSelectionHelper(Terrain terrain, int activeTerrainLayer);
         public static void ShowTerrainLayerGUI(Terrain terrain, TerrainLayer terrainLayer, ref Editor terrainLayerEditor, ITerrainLayerCustomUI customGUI);
         public static void ValidateDiffuseTextureUI(Texture2D texture);

@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public static class PointerType
     {
-
         public static readonly string mouse;
         public static readonly string touch;
         public static readonly string pen;

@@ -13,7 +13,6 @@ namespace UnityEngine.Rendering
     [UsedByNativeCode]
     public readonly struct LocalKeyword : IEquatable<LocalKeyword>
     {
-
         public LocalKeyword(Shader shader, string name);
         public LocalKeyword(ComputeShader shader, string name);
 

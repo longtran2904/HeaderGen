@@ -12,7 +12,6 @@ namespace UnityEngine.XR
     [UsedByNativeCode]
     public struct MeshId : IEquatable<MeshId>
     {
-
         public static MeshId InvalidId { get; }
 
         public override string ToString();

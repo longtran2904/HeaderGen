@@ -9,7 +9,6 @@ namespace System.Threading
 {
     public class SemaphoreFullException : SystemException
     {
-
         public SemaphoreFullException();
         public SemaphoreFullException(string message);
         public SemaphoreFullException(string message, Exception innerException);

@@ -9,7 +9,6 @@ namespace UnityEditor.TerrainTools
     [MovedFrom("UnityEditor.Experimental.TerrainAPI")]
     public interface IOnInspectorGUI
     {
-
         void ShowBrushesGUI(int spacing = 5, BrushGUIEditFlags flags = BrushGUIEditFlags.All, int textureResolutionPerTile = 0);
         void Repaint(RepaintFlags flags = RepaintFlags.UI);
     }

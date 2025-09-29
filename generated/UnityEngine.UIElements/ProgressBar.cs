@@ -9,11 +9,10 @@ namespace UnityEngine.UIElements
     [MovedFrom(True, "UnityEditor.UIElements", "UnityEditor.UIElementsModule", null)]
     public class ProgressBar : AbstractProgressBar
     {
-
         public ProgressBar();
+
         public class UxmlFactory : UxmlFactory<ProgressBar, UxmlTraits>
         {
-
             public UxmlFactory();
         }
     }

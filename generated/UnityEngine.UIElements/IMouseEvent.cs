@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public interface IMouseEvent
     {
-
         EventModifiers modifiers { get; }
         Vector2 mousePosition { get; }
         Vector2 localMousePosition { get; }

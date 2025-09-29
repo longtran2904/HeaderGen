@@ -10,7 +10,6 @@ namespace System
 {
     public readonly struct DateTimeOffset : IComparable, IComparable<DateTimeOffset>, IDeserializationCallback, IEquatable<DateTimeOffset>, IFormattable, IParsable<DateTimeOffset>, ISerializable, ISpanFormattable, ISpanParsable<DateTimeOffset>, IUtf8SpanFormattable
     {
-
         public static readonly DateTimeOffset MinValue;
         public static readonly DateTimeOffset MaxValue;
         public static readonly DateTimeOffset UnixEpoch;

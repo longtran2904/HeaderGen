@@ -9,7 +9,6 @@ namespace UnityEditorInternal
     [RequiredByNativeCode]
     public struct EventMarker
     {
-
         public int objectInstanceId;
         public int nameOffset;
         public int frame;

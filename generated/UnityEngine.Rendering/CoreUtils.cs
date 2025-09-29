@@ -11,7 +11,6 @@ namespace UnityEngine.Rendering
 {
     public static class CoreUtils
     {
-
         public static readonly Vector3[] lookAtList;
         public static readonly Vector3[] upVectorList;
         [Obsolete("Use CoreUtils.Priorities instead", False)]
@@ -101,9 +100,9 @@ namespace UnityEngine.Rendering
         public static T GetLastEnumValue<T>() where T : Enum;
         public static IEnumerable<T> LoadAllAssets<T>(string extension = "asset", bool allowSubTypes = True) where T : class;
         public static void EnsureFolderTreeInAssetFilePath(string filePath);
+
         public static class Sections
         {
-
             public const int section1 = 10000;
             public const int section2 = 20000;
             public const int section3 = 30000;
@@ -115,7 +114,6 @@ namespace UnityEngine.Rendering
         }
         public static class Priorities
         {
-
             public const int assetsCreateShaderMenuPriority = 83;
             public const int assetsCreateRenderingMenuPriority = 308;
             public const int editMenuPriority = 320;

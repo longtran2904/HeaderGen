@@ -8,7 +8,6 @@ namespace Mono.Cecil.Cil
 {
     public sealed class ImportDebugInformation : DebugInformation
     {
-
         public ImportDebugInformation();
 
         public bool HasTargets { get; }

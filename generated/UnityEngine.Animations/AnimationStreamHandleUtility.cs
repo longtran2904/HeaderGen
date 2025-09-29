@@ -12,7 +12,6 @@ namespace UnityEngine.Animations
     [NativeHeader("Modules/Animation/ScriptBindings/AnimationStreamHandles.bindings.h")]
     public static class AnimationStreamHandleUtility
     {
-
         public static void WriteInts(AnimationStream stream, NativeArray<PropertyStreamHandle> handles, NativeArray<int> buffer, bool useMask);
         public static void WriteFloats(AnimationStream stream, NativeArray<PropertyStreamHandle> handles, NativeArray<float> buffer, bool useMask);
         public static void ReadInts(AnimationStream stream, NativeArray<PropertyStreamHandle> handles, NativeArray<int> buffer);

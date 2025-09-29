@@ -10,7 +10,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class MiniMap : GraphElement
     {
-
         protected readonly Color m_SelectedChildrenColor;
         public Action<string> zoomFactorTextChanged;
 

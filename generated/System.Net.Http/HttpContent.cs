@@ -11,7 +11,6 @@ namespace System.Net.Http
 {
     public abstract class HttpContent : IDisposable
     {
-
         protected HttpContent();
 
         public HttpContentHeaders Headers { get; }

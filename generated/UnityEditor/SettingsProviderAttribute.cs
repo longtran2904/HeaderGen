@@ -9,7 +9,6 @@ namespace UnityEditor
     [AttributeUsage(AttributeTargets.Method)]
     public sealed class SettingsProviderAttribute : Attribute
     {
-
         public SettingsProviderAttribute();
     }
 }

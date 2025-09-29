@@ -9,7 +9,6 @@ namespace UnityEditor.ShaderGraph.Internal
 {
     public struct TextureInfo
     {
-
         public string name;
         public Texture texture;
         public TextureDimension dimension;

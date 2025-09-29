@@ -6,7 +6,6 @@ namespace Mono.Cecil.Cil
 {
     public struct ImageDebugDirectory
     {
-
         public int Characteristics;
         public int TimeDateStamp;
         public short MajorVersion;

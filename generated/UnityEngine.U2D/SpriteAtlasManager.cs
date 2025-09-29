@@ -12,7 +12,6 @@ namespace UnityEngine.U2D
     [StaticAccessor("GetSpriteAtlasManager()", StaticAccessorType.Dot)]
     public class SpriteAtlasManager
     {
-
         public SpriteAtlasManager();
 
         public static event Action<string, Action<SpriteAtlas>> atlasRequested;

@@ -14,7 +14,6 @@ namespace UnityEditor.Build.Player
     [UsedByNativeCode]
     public class TypeDB : IDisposable, ISerializable
     {
-
         protected TypeDB(SerializationInfo info, StreamingContext context);
 
         ~TypeDB();

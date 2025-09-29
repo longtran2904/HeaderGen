@@ -6,7 +6,6 @@ namespace UnityEngine.Android
 {
     public class AndroidAssetPackInfo
     {
-
         public string name { get; }
         public AndroidAssetPackStatus status { get; }
         public ulong size { get; }

@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics2D/TargetJoint2D.h")]
     public sealed class TargetJoint2D : Joint2D
     {
-
         public TargetJoint2D();
 
         public Vector2 anchor { get; set; }

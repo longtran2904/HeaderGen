@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class MouseEnterWindowEvent : MouseEventBase<MouseEnterWindowEvent>
     {
-
         public MouseEnterWindowEvent();
 
         protected override void Init();

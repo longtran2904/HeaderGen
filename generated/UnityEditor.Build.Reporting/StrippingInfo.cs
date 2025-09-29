@@ -9,7 +9,6 @@ namespace UnityEditor.Build.Reporting
 {
     public class StrippingInfo : ScriptableObject, ISerializationCallbackReceiver
     {
-
         public StrippingInfo();
 
         public IEnumerable<string> includedModules { get; }

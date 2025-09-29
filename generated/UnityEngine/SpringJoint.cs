@@ -10,7 +10,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics/SpringJoint.h")]
     public class SpringJoint : Joint
     {
-
         public SpringJoint();
 
         public float spring { get; set; }

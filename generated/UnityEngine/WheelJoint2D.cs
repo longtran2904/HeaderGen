@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics2D/WheelJoint2D.h")]
     public sealed class WheelJoint2D : AnchoredJoint2D
     {
-
         public WheelJoint2D();
 
         public JointSuspension2D suspension { get; set; }

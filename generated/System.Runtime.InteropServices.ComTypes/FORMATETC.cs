@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public struct FORMATETC
     {
-
         public short cfFormat;
         public nint ptd;
         public DVASPECT dwAspect;

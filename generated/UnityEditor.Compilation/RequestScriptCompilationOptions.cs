@@ -9,7 +9,6 @@ namespace UnityEditor.Compilation
     [Flags]
     public enum RequestScriptCompilationOptions
     {
-
         None = 0,
         CleanBuildCache = 1
     }

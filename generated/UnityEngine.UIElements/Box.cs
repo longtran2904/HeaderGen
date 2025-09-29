@@ -6,13 +6,12 @@ namespace UnityEngine.UIElements
 {
     public class Box : VisualElement
     {
-
         public static readonly string ussClassName;
 
         public Box();
+
         public class UxmlFactory : UxmlFactory<Box>
         {
-
             public UxmlFactory();
         }
     }

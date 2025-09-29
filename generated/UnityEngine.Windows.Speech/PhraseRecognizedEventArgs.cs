@@ -8,7 +8,6 @@ namespace UnityEngine.Windows.Speech
 {
     public struct PhraseRecognizedEventArgs
     {
-
         public readonly ConfidenceLevel confidence;
         public readonly SemanticMeaning[] semanticMeanings;
         public readonly string text;

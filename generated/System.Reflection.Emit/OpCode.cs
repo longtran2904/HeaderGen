@@ -6,7 +6,6 @@ namespace System.Reflection.Emit
 {
     public readonly struct OpCode : IEquatable<OpCode>
     {
-
         public OperandType OperandType { get; }
         public FlowControl FlowControl { get; }
         public OpCodeType OpCodeType { get; }

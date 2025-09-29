@@ -6,7 +6,6 @@ namespace System.Runtime.CompilerServices
 {
     public struct AsyncIteratorMethodBuilder
     {
-
         public static AsyncIteratorMethodBuilder Create();
         public void MoveNext<TStateMachine>(ref TStateMachine stateMachine) where TStateMachine : IAsyncStateMachine;
         public void AwaitOnCompleted<TAwaiter, TStateMachine>(ref TAwaiter awaiter, ref TStateMachine stateMachine) where TAwaiter : INotifyCompletion where TStateMachine : IAsyncStateMachine;

@@ -10,7 +10,6 @@ namespace UnityEditor.Recorder
     [RecorderSettings(typeof(AnimationRecorder), "Animation Clip", "animation_recorder")]
     public class AnimationRecorderSettings : RecorderSettings
     {
-
         public AnimationRecorderSettings();
 
         public AnimationInputSettings AnimationInputSettings { get; set; }

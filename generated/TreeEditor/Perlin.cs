@@ -6,7 +6,6 @@ namespace TreeEditor
 {
     public class Perlin
     {
-
         public Perlin();
 
         public float Noise(float arg);

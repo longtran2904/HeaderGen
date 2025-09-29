@@ -9,7 +9,6 @@ namespace UnityEditor.EditorTools
     [AttributeUsage(AttributeTargets.Class, Inherited = False)]
     public sealed class EditorToolAttribute : ToolAttribute
     {
-
         public EditorToolAttribute(string displayName, Type componentToolTarget = null);
         public EditorToolAttribute(string displayName, Type componentToolTarget, Type editorToolContext);
     }

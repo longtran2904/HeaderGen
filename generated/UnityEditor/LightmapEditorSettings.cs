@@ -13,7 +13,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Src/LightmapEditorSettings.h")]
     public static class LightmapEditorSettings
     {
-
         [Obsolete("LightmapEditorSettings.lightmapper is obsolete, use Lightmapping.lightingSettings.lightmapper instead. ", False)]
         public static Lightmapper lightmapper { get; set; }
         [Obsolete("LightmapEditorSettings.lightmapsMode is obsolete, use Lightmapping.lightingSettings.directionalityMode instead. ", False)]
@@ -121,10 +120,10 @@ namespace UnityEditor
         public static int maxAtlasWidth { get; set; }
         [Obsolete("LightmapEditorSettings.maxAtlasHeight has been deprecated. Only square atlases are supported, please use the maxAtlasSize instead. ")]
         public static int maxAtlasHeight { get; set; }
+
         [Obsolete("LightmapEditorSettings.Lightmapper is obsolete. Use LightingSettings.Lightmapper instead. ", False)]
         public enum Lightmapper
         {
-
             [EditorBrowsable(EditorBrowsableState.Never)]
             [Obsolete("Use Lightmapper.Enlighten instead. (UnityUpgradable) -> UnityEditor.LightmapEditorSettings/Lightmapper.Enlighten", True)]
             Radiosity = 0,
@@ -138,14 +137,12 @@ namespace UnityEditor
         [Obsolete("LightmapEditorSettings.Sampling is obsolete. Use LightingSettings.Sampling instead. ", False)]
         public enum Sampling
         {
-
             Auto = 0,
             Fixed = 1
         }
         [Obsolete("LightmapEditorSettings.FilterMode is obsolete. Use LightingSettings.FilterMode instead. ", False)]
         public enum FilterMode
         {
-
             None = 0,
             Auto = 1,
             Advanced = 2
@@ -153,7 +150,6 @@ namespace UnityEditor
         [Obsolete("LightmapEditorSettings.DenoiserType is obsolete. Use LightingSettings.DenoiserType instead. ", False)]
         public enum DenoiserType
         {
-
             None = 0,
             Optix = 1,
             OpenImage = 2,
@@ -162,7 +158,6 @@ namespace UnityEditor
         [Obsolete("LightmapEditorSettings.FilterType is obsolete. Use LightingSettings.FilterType instead. ", False)]
         public enum FilterType
         {
-
             Gaussian = 0,
             ATrous = 1,
             None = 2
@@ -170,21 +165,18 @@ namespace UnityEditor
         [Obsolete("GIBakeBackend has been renamed to Lightmapper. (UnityUpgradable)", True)]
         public enum GIBakeBackend
         {
-
             Radiosity = 0,
             PathTracer = 1
         }
         [Obsolete("PathTracerSampling has been renamed to Sampling. (UnityUpgradable) -> UnityEditor.LightmapEditorSettings/Sampling", False)]
         public enum PathTracerSampling
         {
-
             Auto = 0,
             Fixed = 1
         }
         [Obsolete("PathTracerFilter has been renamed to FilterType. (UnityUpgradable) -> UnityEditor.LightmapEditorSettings/FilterType", False)]
         public enum PathTracerFilter
         {
-
             Gaussian = 0,
             ATrous = 1
         }

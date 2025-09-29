@@ -10,7 +10,6 @@ namespace UnityEngine.Scripting
     [RequiredByNativeCode]
     public class PreserveAttribute : Attribute
     {
-
         public PreserveAttribute();
     }
 }

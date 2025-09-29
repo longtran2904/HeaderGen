@@ -9,7 +9,6 @@ namespace Mono.Cecil.Cil
     [Flags]
     public enum VariableAttributes
     {
-
         None = 0,
         DebuggerHidden = 1
     }

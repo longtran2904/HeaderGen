@@ -10,15 +10,14 @@ namespace UnityEditor.Tilemaps
     [CustomGridBrush(False, True, False, "Prefab Random Brush")]
     public class PrefabRandomBrush : BasePrefabBrush
     {
-
         public PrefabRandomBrush();
 
         public override void Paint(GridLayout grid, GameObject brushTarget, Vector3Int position);
         public override void Erase(GridLayout grid, GameObject brushTarget, Vector3Int position);
+
         [CustomEditor(typeof(PrefabRandomBrush))]
         public class PrefabRandomBrushEditor : BasePrefabBrushEditor
         {
-
             public PrefabRandomBrushEditor();
 
             protected override void OnEnable();

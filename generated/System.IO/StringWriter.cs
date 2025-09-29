@@ -10,7 +10,6 @@ namespace System.IO
 {
     public class StringWriter : TextWriter
     {
-
         public StringWriter();
         public StringWriter(IFormatProvider formatProvider);
         public StringWriter(StringBuilder sb);

@@ -9,7 +9,6 @@ namespace System.Threading
 {
     public class BarrierPostPhaseException : Exception
     {
-
         public BarrierPostPhaseException();
         public BarrierPostPhaseException(Exception innerException);
         public BarrierPostPhaseException(string message);

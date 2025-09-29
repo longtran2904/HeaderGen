@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public sealed class AssetStoreAsset
     {
-
         public int id;
         public string name;
         public string displayName;

@@ -9,7 +9,6 @@ namespace UnityEditor
     [Obsolete("TargetGlesGraphics is ignored, use SetGraphicsAPIs/GetGraphicsAPIs APIs", False)]
     public enum TargetGlesGraphics
     {
-
         OpenGLES_1_x = 0,
         OpenGLES_2_0 = 1,
         OpenGLES_3_0 = 2,

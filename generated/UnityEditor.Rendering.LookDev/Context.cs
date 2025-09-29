@@ -11,7 +11,6 @@ namespace UnityEditor.Rendering.LookDev
 {
     public class Context : ScriptableObject, IDisposable
     {
-
         public Context();
 
         public EnvironmentLibrary environmentLibrary { get; }
@@ -23,6 +22,7 @@ namespace UnityEditor.Rendering.LookDev
         public void UpdateEnvironmentLibrary(EnvironmentLibrary library);
         public void SynchronizeCameraStates(ViewIndex baseCameraState);
         public void SetFocusedCamera(ViewIndex index);
+
         public struct ViewIterator : IEnumerable, IEnumerable<ViewContext>
         {
         }

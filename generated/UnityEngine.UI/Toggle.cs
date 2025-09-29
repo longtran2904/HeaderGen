@@ -11,7 +11,6 @@ namespace UnityEngine.UI
     [RequireComponent(typeof(RectTransform))]
     public class Toggle : Selectable, ICanvasElement, IPointerClickHandler, ISubmitHandler
     {
-
         public ToggleTransition toggleTransition;
         public Graphic graphic;
         public ToggleEvent onValueChanged;
@@ -33,15 +32,14 @@ namespace UnityEngine.UI
         protected override void Start();
         public virtual void OnPointerClick(PointerEventData eventData);
         public virtual void OnSubmit(BaseEventData eventData);
+
         public enum ToggleTransition
         {
-
             None = 0,
             Fade = 1
         }
         public class ToggleEvent : UnityEvent<bool>
         {
-
             public ToggleEvent();
         }
     }

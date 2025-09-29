@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public struct StyleFloat : IEquatable<StyleFloat>, IStyleValue<float>
     {
-
         public StyleFloat(float v);
         public StyleFloat(StyleKeyword keyword);
 

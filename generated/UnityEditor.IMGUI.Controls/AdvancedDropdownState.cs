@@ -6,7 +6,6 @@ namespace UnityEditor.IMGUI.Controls
 {
     public class AdvancedDropdownState
     {
-
         public AdvancedDropdownState();
     }
 }

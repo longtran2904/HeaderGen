@@ -9,7 +9,6 @@ namespace UnityEngine.Experimental.Rendering
 {
     public class ProbeReferenceVolume
     {
-
         public Action<ExtraDataActionInput> retrieveExtraDataAction;
 
         public ProbeVolumeSHBands shBands { get; }
@@ -28,9 +27,9 @@ namespace UnityEngine.Experimental.Rendering
         public bool DataHasBeenLoaded();
         public void UpdateConstantBuffer(CommandBuffer cmd, ProbeVolumeShadingParameters parameters);
         public void RenderDebug(Camera camera);
+
         public struct RuntimeResources
         {
-
             public ComputeBuffer index;
             public ComputeBuffer cellIndices;
             public Texture3D L0_L1rx;

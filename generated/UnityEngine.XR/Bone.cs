@@ -17,7 +17,6 @@ namespace UnityEngine.XR
     [StaticAccessor("XRInputDevices::Get()", StaticAccessorType.Dot)]
     public struct Bone : IEquatable<Bone>
     {
-
         public bool TryGetPosition(out Vector3 position);
         public bool TryGetRotation(out Quaternion rotation);
         public bool TryGetParentBone(out Bone parentBone);

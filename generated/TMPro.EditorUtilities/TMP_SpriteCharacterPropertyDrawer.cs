@@ -10,7 +10,6 @@ namespace TMPro.EditorUtilities
     [CustomPropertyDrawer(typeof(TMP_SpriteCharacter))]
     public class TMP_SpriteCharacterPropertyDrawer : PropertyDrawer
     {
-
         public TMP_SpriteCharacterPropertyDrawer();
 
         public override void OnGUI(Rect position, SerializedProperty property, GUIContent label);

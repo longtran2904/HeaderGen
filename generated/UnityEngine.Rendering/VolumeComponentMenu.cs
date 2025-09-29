@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = False)]
     public class VolumeComponentMenu : Attribute
     {
-
         public readonly string menu;
 
         public VolumeComponentMenu(string menu);

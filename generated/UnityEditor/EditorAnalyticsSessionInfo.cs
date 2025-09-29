@@ -11,7 +11,6 @@ namespace UnityEditor
     [RequiredByNativeCode]
     public static class EditorAnalyticsSessionInfo
     {
-
         public static long id { get; }
         public static long sessionCount { get; }
         public static long elapsedTime { get; }

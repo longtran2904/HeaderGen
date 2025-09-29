@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum AspectRatio
     {
-
         AspectOthers = 0,
         Aspect4by3 = 1,
         Aspect5by4 = 2,

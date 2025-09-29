@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
     [NativeHeader("Runtime/GfxDevice/GfxDeviceTypes.h")]
     public enum BlendOp
     {
-
         Add = 0,
         Subtract = 1,
         ReverseSubtract = 2,

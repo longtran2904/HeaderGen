@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum AndroidActivityIndicatorStyle
     {
-
         DontShow = -1,
         Large = 0,
         InversedLarge = 1,

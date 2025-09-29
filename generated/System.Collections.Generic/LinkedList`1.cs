@@ -9,7 +9,6 @@ namespace System.Collections.Generic
 {
     public class LinkedList<T> : ICollection, ICollection<T>, IDeserializationCallback, IEnumerable, IEnumerable<T>, IReadOnlyCollection<T>, ISerializable
     {
-
         public LinkedList();
         public LinkedList(IEnumerable<T> collection);
         [EditorBrowsable(EditorBrowsableState.Never)]
@@ -42,9 +41,9 @@ namespace System.Collections.Generic
         [Obsolete("This API supports obsolete formatter-based serialization. It should not be called or extended by application code.", DiagnosticId = "SYSLIB0051", UrlFormat = "https://aka.ms/dotnet-warnings/{0}")]
         public virtual void GetObjectData(SerializationInfo info, StreamingContext context);
         public virtual void OnDeserialization(object sender);
+
         public struct Enumerator : IDeserializationCallback, IDisposable, IEnumerator, IEnumerator<T>, ISerializable
         {
-
             public T Current { get; }
 
             public bool MoveNext();

@@ -12,7 +12,6 @@ namespace UnityEngine.UI
     [RequireComponent(typeof(RectTransform))]
     public class Dropdown : Selectable, ICancelHandler, IPointerClickHandler, ISubmitHandler
     {
-
         protected Dropdown();
 
         public RectTransform template { get; set; }
@@ -46,9 +45,9 @@ namespace UnityEngine.UI
         protected virtual DropdownItem CreateItem(DropdownItem itemTemplate);
         protected virtual void DestroyItem(DropdownItem item);
         public void Hide();
+
         protected internal class DropdownItem : MonoBehaviour, ICancelHandler, IEventSystemHandler, IPointerEnterHandler
         {
-
             public DropdownItem();
 
             public Text text { get; set; }
@@ -61,7 +60,6 @@ namespace UnityEngine.UI
         }
         public class OptionData
         {
-
             public OptionData();
             public OptionData(string text);
             public OptionData(Sprite image);
@@ -72,14 +70,12 @@ namespace UnityEngine.UI
         }
         public class OptionDataList
         {
-
             public OptionDataList();
 
             public List<OptionData> options { get; set; }
         }
         public class DropdownEvent : UnityEvent<int>
         {
-
             public DropdownEvent();
         }
     }

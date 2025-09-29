@@ -11,7 +11,6 @@ namespace UnityEngine
     [RequiredByNativeCode(Optional = True, GenerateProxy = True)]
     public class GUIContent
     {
-
         public static GUIContent none;
 
         public GUIContent();

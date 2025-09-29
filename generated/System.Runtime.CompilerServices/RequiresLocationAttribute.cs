@@ -10,7 +10,6 @@ namespace System.Runtime.CompilerServices
     [EditorBrowsable(EditorBrowsableState.Never)]
     public sealed class RequiresLocationAttribute : Attribute
     {
-
         public RequiresLocationAttribute();
     }
 }

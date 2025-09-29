@@ -7,7 +7,6 @@ namespace System.Runtime.Intrinsics.Arm
     [CLSCompliant(False)]
     public abstract class Crc32 : ArmBase
     {
-
         public static bool IsSupported { get; }
 
         public static uint ComputeCrc32(uint crc, byte data);
@@ -16,9 +15,9 @@ namespace System.Runtime.Intrinsics.Arm
         public static uint ComputeCrc32C(uint crc, byte data);
         public static uint ComputeCrc32C(uint crc, ushort data);
         public static uint ComputeCrc32C(uint crc, uint data);
+
         public abstract class Arm64 : ArmBase.Arm64
         {
-
             public static bool IsSupported { get; }
 
             public static uint ComputeCrc32(uint crc, ulong data);

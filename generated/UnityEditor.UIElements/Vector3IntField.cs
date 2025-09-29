@@ -9,21 +9,19 @@ namespace UnityEditor.UIElements
 {
     public class Vector3IntField : BaseCompositeField<Vector3Int, IntegerField, int>
     {
-
         public static readonly string ussClassName;
         public static readonly string labelUssClassName;
         public static readonly string inputUssClassName;
 
         public Vector3IntField();
         public Vector3IntField(string label);
+
         public class UxmlFactory : UxmlFactory<Vector3IntField, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : BaseField<Vector3Int>.UxmlTraits
         {
-
             public UxmlTraits();
 
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc);

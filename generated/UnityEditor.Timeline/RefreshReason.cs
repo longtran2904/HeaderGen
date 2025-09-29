@@ -9,7 +9,6 @@ namespace UnityEditor.Timeline
     [Flags]
     public enum RefreshReason
     {
-
         WindowNeedsRedraw = 1,
         SceneNeedsUpdate = 2,
         ContentsModified = 4,

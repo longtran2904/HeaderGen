@@ -12,7 +12,6 @@ namespace UnityEngine
     [StaticAccessor("GetAudioManager()", StaticAccessorType.Dot)]
     public sealed class AudioSettings
     {
-
         public AudioSettings();
 
         [EditorBrowsable(EditorBrowsableState.Never)]
@@ -36,10 +35,10 @@ namespace UnityEngine
         public static void SetSpatializerPluginName(string pluginName);
         public static AudioConfiguration GetConfiguration();
         public static bool Reset(AudioConfiguration config);
+
         public delegate void AudioConfigurationChangeHandler(bool deviceWasChanged);
         public static class Mobile
         {
-
             public static bool muteState { get; }
             public static bool stopAudioOutputOnMute { get; set; }
             public static bool audioOutputStarted { get; }

@@ -11,7 +11,6 @@ namespace UnityEngine.Experimental.Rendering
     [NativeHeader("Runtime/Graphics/ShaderScriptBindings.h")]
     public sealed class RayTracingShader : Object
     {
-
         public float maxRecursionDepth { get; }
 
         [FreeFunction(Name = "RayTracingShaderScripting::SetFloat", HasExplicitThis = True)]

@@ -13,7 +13,6 @@ namespace UnityEditor.AssetImporters
     [RequiredByNativeCode]
     public class CollectImportedDependenciesAttribute : Attribute
     {
-
         public CollectImportedDependenciesAttribute(Type importerType, uint version);
 
         public Type importerType { get; }

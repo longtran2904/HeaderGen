@@ -10,7 +10,6 @@ namespace UnityEditor.Timeline.Actions
     [ActiveInMode(TimelineModes.Default)]
     public abstract class ClipAction : IAction
     {
-
         protected ClipAction();
 
         public abstract bool Execute(IEnumerable<TimelineClip> clips);

@@ -10,7 +10,6 @@ namespace System.CodeDom
     [DefaultMember("Item")]
     public class CodeExpressionCollection : CollectionBase
     {
-
         public CodeExpressionCollection();
         public CodeExpressionCollection(CodeExpressionCollection value);
         public CodeExpressionCollection(CodeExpression[] value);

@@ -6,7 +6,6 @@ using UnityEngine.UIElements;
 
 public class TabbedView : VisualElement
 {
-
     public TabbedView();
 
     public override VisualElement contentContainer { get; }
@@ -14,9 +13,9 @@ public class TabbedView : VisualElement
     public void AddTab(TabButton tabButton, bool activate);
     public void RemoveTab(TabButton tabButton);
     public void Activate(TabButton button);
+
     public class UxmlFactory : UxmlFactory<TabbedView, UxmlTraits>
     {
-
         public UxmlFactory();
     }
 }

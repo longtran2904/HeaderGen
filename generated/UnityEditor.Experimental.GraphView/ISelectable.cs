@@ -9,7 +9,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public interface ISelectable
     {
-
         bool IsSelectable();
         bool HitTest(Vector2 localPoint);
         bool Overlaps(Rect rectangle);

@@ -6,7 +6,6 @@ namespace Mono.Cecil.Cil
 {
     public enum CustomDebugInformationKind
     {
-
         Binary = 0,
         StateMachineScope = 1,
         DynamicVariable = 2,

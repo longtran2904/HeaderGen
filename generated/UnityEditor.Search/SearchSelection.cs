@@ -9,7 +9,6 @@ namespace UnityEditor.Search
 {
     public class SearchSelection : IEnumerable, IEnumerable<SearchItem>, IReadOnlyCollection<SearchItem>
     {
-
         public SearchSelection(IList<int> selection, ISearchList filteredItems);
         public SearchSelection(IEnumerable<SearchItem> items);
 

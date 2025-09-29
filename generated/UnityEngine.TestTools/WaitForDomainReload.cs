@@ -8,7 +8,6 @@ namespace UnityEngine.TestTools
 {
     public class WaitForDomainReload : IEditModeTestYieldInstruction
     {
-
         public WaitForDomainReload();
 
         public bool ExpectDomainReload { get; }

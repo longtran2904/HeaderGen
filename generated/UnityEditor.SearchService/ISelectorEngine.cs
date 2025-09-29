@@ -9,7 +9,6 @@ namespace UnityEditor.SearchService
 {
     public interface ISelectorEngine : ISearchEngineBase
     {
-
         bool SelectObject(ISearchContext context, Action<UnityEngine.Object, bool> onObjectSelectorClosed, Action<UnityEngine.Object> onObjectSelectedUpdated);
         void SetSearchFilter(ISearchContext context, string searchFilter);
     }

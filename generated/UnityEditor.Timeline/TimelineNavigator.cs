@@ -8,7 +8,6 @@ namespace UnityEditor.Timeline
 {
     public sealed class TimelineNavigator
     {
-
         public SequenceContext GetCurrentContext();
         public SequenceContext GetParentContext();
         public SequenceContext GetRootContext();

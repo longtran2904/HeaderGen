@@ -8,7 +8,6 @@ namespace Mono.Cecil.Cil
 {
     public sealed class PortablePdbReader : IDisposable, ISymbolReader
     {
-
         public ISymbolWriterProvider GetWriterProvider();
         public bool ProcessDebugHeader(ImageDebugHeader header);
         public MethodDebugInformation Read(MethodDefinition method);

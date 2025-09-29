@@ -7,7 +7,6 @@ namespace System.Runtime.Intrinsics.X86
     [CLSCompliant(False)]
     public abstract class Avx : Sse42
     {
-
         public static bool IsSupported { get; }
 
         public static Vector256<float> Add(Vector256<float> left, Vector256<float> right);
@@ -253,9 +252,9 @@ namespace System.Runtime.Intrinsics.X86
         public static Vector256<double> UnpackLow(Vector256<double> left, Vector256<double> right);
         public static Vector256<float> Xor(Vector256<float> left, Vector256<float> right);
         public static Vector256<double> Xor(Vector256<double> left, Vector256<double> right);
+
         public abstract class X64 : Sse42.X64
         {
-
             public static bool IsSupported { get; }
         }
     }

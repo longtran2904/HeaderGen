@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering
 {
     public interface ISerializedLight
     {
-
         LightEditor.Settings settings { get; }
         SerializedObject serializedObject { get; }
         SerializedObject serializedAdditionalDataObject { get; }

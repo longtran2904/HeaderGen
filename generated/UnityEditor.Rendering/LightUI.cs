@@ -8,13 +8,12 @@ namespace UnityEditor.Rendering
 {
     public class LightUI
     {
-
         public LightUI();
 
         public static void DrawColor(ISerializedLight serialized, Editor owner);
+
         public static class Styles
         {
-
             public static readonly GUIContent generalHeader;
             public static readonly GUIContent shapeHeader;
             public static readonly GUIContent renderingHeader;

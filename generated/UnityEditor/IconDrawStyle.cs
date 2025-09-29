@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum IconDrawStyle
     {
-
         NonTexture = 0,
         Texture = 1
     }

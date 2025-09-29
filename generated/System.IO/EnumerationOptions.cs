@@ -6,7 +6,6 @@ namespace System.IO
 {
     public class EnumerationOptions
     {
-
         public EnumerationOptions();
 
         public bool RecurseSubdirectories { get; set; }

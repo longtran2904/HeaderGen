@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public abstract class RenderPipelineResources : ScriptableObject
     {
-
         protected RenderPipelineResources();
 
         protected virtual string packagePath { get; }

@@ -10,7 +10,6 @@ namespace UnityEditor.Build
     [RequiredByNativeCode]
     public class BuildFailedException : Exception
     {
-
         public BuildFailedException(string message);
         public BuildFailedException(Exception innerException);
     }

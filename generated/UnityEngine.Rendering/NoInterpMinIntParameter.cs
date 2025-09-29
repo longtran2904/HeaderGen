@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public class NoInterpMinIntParameter : VolumeParameter<int>
     {
-
         [NonSerialized]
         public int min;
 

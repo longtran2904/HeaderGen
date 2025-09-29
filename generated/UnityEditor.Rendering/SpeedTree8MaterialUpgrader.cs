@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering
 {
     public class SpeedTree8MaterialUpgrader : MaterialUpgrader
     {
-
         public SpeedTree8MaterialUpgrader(string sourceShaderName, string destShaderName, MaterialFinalizer finalizer = null);
 
         public static void PostprocessSpeedTree8Materials(GameObject speedtree, SpeedTreeImporter stImporter, MaterialFinalizer finalizer = null);

@@ -13,7 +13,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Src/Animation/AnimationMode.bindings.h")]
     public class AnimationMode
     {
-
         public AnimationMode();
 
         public static Color animatedPropertyColor { get; }

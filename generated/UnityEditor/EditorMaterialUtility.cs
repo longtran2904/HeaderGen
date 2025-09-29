@@ -13,7 +13,6 @@ namespace UnityEditor
     [StaticAccessor("Material", StaticAccessorType.DoubleColon)]
     public sealed class EditorMaterialUtility
     {
-
         public EditorMaterialUtility();
 
         [FreeFunction("EditorMaterialUtilityBindings::ResetDefaultTextures")]

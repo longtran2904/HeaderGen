@@ -9,7 +9,6 @@ namespace UnityEditor.UIElements
 {
     public class FloatField : TextValueField<float>
     {
-
         public static readonly string ussClassName;
         public static readonly string labelUssClassName;
         public static readonly string inputUssClassName;
@@ -21,14 +20,13 @@ namespace UnityEditor.UIElements
         protected override string ValueToString(float v);
         protected override float StringToValue(string str);
         public override void ApplyInputDeviceDelta(Vector3 delta, DeltaSpeed speed, float startValue);
+
         public class UxmlFactory : UxmlFactory<FloatField, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : TextValueFieldTraits<float, UxmlFloatAttributeDescription>
         {
-
             public UxmlTraits();
         }
     }

@@ -6,7 +6,6 @@ namespace UnityEngine.TestTools.Utils
 {
     public static class Utils
     {
-
         public static bool AreFloatsEqual(float expected, float actual, float epsilon);
         public static bool AreFloatsEqualAbsoluteError(float expected, float actual, float allowedAbsoluteError);
         public static GameObject CreatePrimitive(PrimitiveType type);

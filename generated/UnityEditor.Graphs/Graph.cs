@@ -11,7 +11,6 @@ namespace UnityEditor.Graphs
     [DefaultMember("Item")]
     public class Graph : ScriptableObject
     {
-
         [SerializeField]
         public List<Node> nodes;
         [SerializeField]

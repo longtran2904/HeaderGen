@@ -9,7 +9,6 @@ namespace System
 {
     public class TimeZoneNotFoundException : Exception
     {
-
         public TimeZoneNotFoundException();
         public TimeZoneNotFoundException(string message);
         public TimeZoneNotFoundException(string message, Exception innerException);

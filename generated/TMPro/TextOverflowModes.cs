@@ -6,7 +6,6 @@ namespace TMPro
 {
     public enum TextOverflowModes
     {
-
         Overflow = 0,
         Ellipsis = 1,
         Masking = 2,

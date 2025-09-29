@@ -11,7 +11,6 @@ namespace UnityEditor.PackageManager.Requests
     [StaticAccessor("PackageManager", StaticAccessorType.DoubleColon)]
     public abstract class Request : ISerializationCallbackReceiver
     {
-
         ~Request();
 
         public StatusCode Status { get; }

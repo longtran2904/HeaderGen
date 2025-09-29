@@ -6,11 +6,10 @@ namespace TMPro
 {
     public static class TMP_Compatibility
     {
-
         public static TextAlignmentOptions ConvertTextAlignmentEnumValues(TextAlignmentOptions oldValue);
+
         public enum AnchorPositions
         {
-
             TopLeft = 0,
             Top = 1,
             TopRight = 2,

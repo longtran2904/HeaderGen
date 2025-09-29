@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
 {
     public static class MaterialEditorExtension
     {
-
         public static void IntShaderProperty(this MaterialEditor editor, MaterialProperty prop, GUIContent label, Func<int, int> transform = null);
         public static void IntSliderShaderProperty(this MaterialEditor editor, MaterialProperty prop, GUIContent label);
         public static void IntSliderShaderProperty(this MaterialEditor editor, MaterialProperty prop, int min, int max, GUIContent label);

@@ -9,7 +9,6 @@ namespace UnityEditor.Experimental.Rendering
     [RequiredByNativeCode]
     public static class ScriptableBakedReflectionSystemSettings
     {
-
         public static IScriptableBakedReflectionSystem system { get; set; }
     }
 }

@@ -7,7 +7,6 @@ namespace System.Diagnostics
     [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class | AttributeTargets.Struct, AllowMultiple = True)]
     public sealed class DebuggerVisualizerAttribute : Attribute
     {
-
         public DebuggerVisualizerAttribute(string visualizerTypeName);
         public DebuggerVisualizerAttribute(string visualizerTypeName, string visualizerObjectSourceTypeName);
         public DebuggerVisualizerAttribute(string visualizerTypeName, Type visualizerObjectSource);

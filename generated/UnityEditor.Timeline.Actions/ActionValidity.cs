@@ -6,7 +6,6 @@ namespace UnityEditor.Timeline.Actions
 {
     public enum ActionValidity
     {
-
         Valid = 0,
         NotApplicable = 1,
         Invalid = 2

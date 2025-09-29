@@ -9,7 +9,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Src/AssetPipeline/ComputeShaderImporter.h")]
     public sealed class ComputeShaderImporter : AssetImporter
     {
-
         public ComputeShaderImporter();
 
         [NativeProperty("PreprocessorOverride")]

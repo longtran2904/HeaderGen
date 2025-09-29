@@ -9,7 +9,6 @@ namespace UnityEditor
     [CustomEditor(typeof(LightAnchor))]
     public class LightAnchorEditor : Editor
     {
-
         public LightAnchorEditor();
 
         public override void OnInspectorGUI();

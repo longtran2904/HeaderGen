@@ -12,7 +12,6 @@ namespace UnityEngine.VFX
     [RequiredByNativeCode]
     public sealed class VFXSpawnerState : IDisposable
     {
-
         public VFXSpawnerState();
 
         ~VFXSpawnerState();

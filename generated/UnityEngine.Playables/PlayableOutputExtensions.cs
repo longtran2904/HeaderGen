@@ -8,7 +8,6 @@ namespace UnityEngine.Playables
 {
     public static class PlayableOutputExtensions
     {
-
         public static bool IsOutputNull<U>(this U output) where U : IPlayableOutput, struct;
         public static bool IsOutputValid<U>(this U output) where U : IPlayableOutput, struct;
         public static Object GetReferenceObject<U>(this U output) where U : IPlayableOutput, struct;

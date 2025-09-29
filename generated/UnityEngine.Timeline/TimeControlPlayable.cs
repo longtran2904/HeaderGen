@@ -8,7 +8,6 @@ namespace UnityEngine.Timeline
 {
     public class TimeControlPlayable : PlayableBehaviour
     {
-
         public TimeControlPlayable();
 
         public static ScriptPlayable<TimeControlPlayable> Create(PlayableGraph graph, ITimeControl timeControl);

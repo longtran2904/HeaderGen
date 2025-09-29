@@ -9,7 +9,6 @@ namespace System.Text
 {
     public readonly struct Rune : IComparable, IComparable<Rune>, IEquatable<Rune>, IFormattable, ISpanFormattable, IUtf8SpanFormattable
     {
-
         public Rune(char ch);
         public Rune(char highSurrogate, char lowSurrogate);
         public Rune(int value);

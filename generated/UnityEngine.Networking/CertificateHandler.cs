@@ -10,7 +10,6 @@ namespace UnityEngine.Networking
     [NativeHeader("Modules/UnityWebRequest/Public/CertificateHandler/CertificateHandlerScript.h")]
     public class CertificateHandler : IDisposable
     {
-
         protected CertificateHandler();
 
         ~CertificateHandler();

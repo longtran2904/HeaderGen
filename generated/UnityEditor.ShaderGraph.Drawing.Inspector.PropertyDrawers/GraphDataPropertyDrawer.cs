@@ -12,13 +12,13 @@ namespace UnityEditor.ShaderGraph.Drawing.Inspector.PropertyDrawers
     [SGPropertyDrawer(typeof(GraphData))]
     public class GraphDataPropertyDrawer : IPropertyDrawer
     {
-
         public GraphDataPropertyDrawer();
 
         public Action inspectorUpdateDelegate { get; set; }
 
         public void GetPropertyData(PostTargetSettingsChangedCallback postChangeValueCallback, ChangeGraphDefaultPrecisionCallback changeGraphDefaultPrecisionCallback);
         public VisualElement DrawProperty(PropertyInfo propertyInfo, object actualObject, InspectableAttribute attribute);
+
         public delegate void ChangeGraphDefaultPrecisionCallback(GraphPrecision newDefaultGraphPrecision);
         public delegate void PostTargetSettingsChangedCallback();
     }

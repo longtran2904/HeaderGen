@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public class FloatParameter : VolumeParameter<float>
     {
-
         public FloatParameter(float value, bool overrideState = False);
 
         public sealed override void Interp(float from, float to, float t);

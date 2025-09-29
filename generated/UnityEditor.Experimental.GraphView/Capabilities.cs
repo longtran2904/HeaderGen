@@ -9,7 +9,6 @@ namespace UnityEditor.Experimental.GraphView
     [Flags]
     public enum Capabilities
     {
-
         Selectable = 1,
         Collapsible = 2,
         Resizable = 4,

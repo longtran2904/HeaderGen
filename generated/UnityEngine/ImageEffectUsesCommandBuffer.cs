@@ -11,7 +11,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public sealed class ImageEffectUsesCommandBuffer : Attribute
     {
-
         public ImageEffectUsesCommandBuffer();
     }
 }

@@ -6,7 +6,6 @@ namespace System.Globalization
 {
     public class KoreanCalendar : Calendar
     {
-
         public const int KoreanEra = 1;
 
         public KoreanCalendar();

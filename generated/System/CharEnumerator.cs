@@ -9,7 +9,6 @@ namespace System
 {
     public sealed class CharEnumerator : ICloneable, IDisposable, IEnumerator, IEnumerator<char>
     {
-
         public char Current { get; }
 
         public object Clone();

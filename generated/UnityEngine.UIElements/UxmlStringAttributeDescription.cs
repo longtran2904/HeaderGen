@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class UxmlStringAttributeDescription : TypedUxmlAttributeDescription<string>
     {
-
         public UxmlStringAttributeDescription();
 
         public override string defaultValueAsString { get; }

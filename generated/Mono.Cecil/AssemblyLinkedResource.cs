@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public sealed class AssemblyLinkedResource : Resource
     {
-
         public AssemblyLinkedResource(string name, ManifestResourceAttributes flags);
         public AssemblyLinkedResource(string name, ManifestResourceAttributes flags, AssemblyNameReference reference);
 

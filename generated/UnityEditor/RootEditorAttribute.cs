@@ -11,10 +11,10 @@ namespace UnityEditor
     [ExcludeFromDocs]
     public class RootEditorAttribute : Attribute
     {
-
         public bool supportsAddComponent;
 
         public RootEditorAttribute(bool supportsAddComponent = False);
+
         public delegate Type RootEditorHandler(UnityEngine.Object[] objects);
     }
 }

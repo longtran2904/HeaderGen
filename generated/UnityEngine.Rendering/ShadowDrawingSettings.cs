@@ -10,7 +10,6 @@ namespace UnityEngine.Rendering
     [UsedByNativeCode]
     public struct ShadowDrawingSettings : IEquatable<ShadowDrawingSettings>
     {
-
         public ShadowDrawingSettings(CullingResults cullingResults, int lightIndex);
 
         public CullingResults cullingResults { get; set; }

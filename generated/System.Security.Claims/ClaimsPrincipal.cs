@@ -12,7 +12,6 @@ namespace System.Security.Claims
 {
     public class ClaimsPrincipal : IPrincipal
     {
-
         [EditorBrowsable(EditorBrowsableState.Never)]
         [Obsolete("This API supports obsolete formatter-based serialization. It should not be called or extended by application code.", DiagnosticId = "SYSLIB0051", UrlFormat = "https://aka.ms/dotnet-warnings/{0}")]
         protected ClaimsPrincipal(SerializationInfo info, StreamingContext context);

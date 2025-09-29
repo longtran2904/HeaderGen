@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class DragExitedEvent : DragAndDropEventBase<DragExitedEvent>
     {
-
         public DragExitedEvent();
 
         protected override void Init();

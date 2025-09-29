@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
     [Flags]
     public enum ShadowMapPass
     {
-
         PointlightPositiveX = 1,
         PointlightNegativeX = 2,
         PointlightPositiveY = 4,

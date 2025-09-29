@@ -15,7 +15,6 @@ namespace UnityEngine.U2D
     [RequiredByNativeCode]
     public struct SpriteBone
     {
-
         public string name { get; set; }
         public string guid { get; set; }
         public Vector3 position { get; set; }

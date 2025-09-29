@@ -9,7 +9,6 @@ namespace UnityEngine
     [UsedByNativeCode(Name = "ExposedReference")]
     public struct ExposedReference<T> where T : Object
     {
-
         [SerializeField]
         public PropertyName exposedName;
         [SerializeField]

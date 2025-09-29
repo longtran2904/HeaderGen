@@ -11,7 +11,6 @@ namespace UnityEditor
     [RequiredByNativeCode]
     public abstract class PostProcessAttribute : CallbackOrderAttribute
     {
-
         [Obsolete("PostProcessAttribute has been renamed. Use m_CallbackOrder of CallbackOrderAttribute.")]
         protected int m_PostprocessOrder;
 

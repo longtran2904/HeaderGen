@@ -6,7 +6,6 @@ namespace UnityEditor.Profiling.Memory.Experimental
 {
     public class NativeMemoryRegionEntries
     {
-
         public ArrayEntries<string> memoryRegionName { get; }
         public ArrayEntries<int> parentIndex { get; }
         public ArrayEntries<ulong> addressBase { get; }

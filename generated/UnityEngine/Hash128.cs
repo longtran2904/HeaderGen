@@ -15,7 +15,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public struct Hash128 : IComparable, IComparable<Hash128>, IEquatable<Hash128>
     {
-
         public Hash128(uint u32_0, uint u32_1, uint u32_2, uint u32_3);
         public Hash128(ulong u64_0, ulong u64_1);
 

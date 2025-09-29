@@ -10,7 +10,6 @@ namespace UnityEditor.Recorder.Timeline
     [TrackColor(0, 0.53F, 0.08F)]
     public class RecorderTrack : TrackAsset
     {
-
         public RecorderTrack();
     }
 }

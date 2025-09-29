@@ -9,7 +9,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public enum ParticleSystemVertexStream
     {
-
         Position = 0,
         Normal = 1,
         Tangent = 2,

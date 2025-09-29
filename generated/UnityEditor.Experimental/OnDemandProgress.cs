@@ -11,7 +11,6 @@ namespace UnityEditor.Experimental
     [RequiredByNativeCode]
     public struct OnDemandProgress
     {
-
         public OnDemandState state;
         public float progress;
     }

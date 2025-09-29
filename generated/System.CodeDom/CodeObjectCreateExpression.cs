@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeObjectCreateExpression : CodeExpression
     {
-
         public CodeObjectCreateExpression();
         public CodeObjectCreateExpression(CodeTypeReference createType, params CodeExpression[] parameters);
         public CodeObjectCreateExpression(string createType, params CodeExpression[] parameters);

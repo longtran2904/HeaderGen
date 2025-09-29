@@ -9,7 +9,6 @@ namespace UnityEngine.TextCore
     [UsedByNativeCode]
     public struct FaceInfo
     {
-
         public string familyName { get; set; }
         public string styleName { get; set; }
         public int pointSize { get; set; }

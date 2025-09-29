@@ -9,7 +9,6 @@ namespace UnityEngine.UIElements
 {
     public struct StyleFontDefinition : IEquatable<StyleFontDefinition>, IStyleValue<FontDefinition>
     {
-
         public StyleFontDefinition(FontDefinition f);
         public StyleFontDefinition(FontAsset f);
         public StyleFontDefinition(Font f);

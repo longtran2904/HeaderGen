@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices
 {
     public class SafeArrayRankMismatchException : SystemException
     {
-
         public SafeArrayRankMismatchException();
         public SafeArrayRankMismatchException(string message);
         public SafeArrayRankMismatchException(string message, Exception inner);

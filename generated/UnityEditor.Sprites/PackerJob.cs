@@ -10,7 +10,6 @@ namespace UnityEditor.Sprites
     [NativeHeader("Editor/Src/SpritePacker/SpritePacker.h")]
     public sealed class PackerJob
     {
-
         public void AddAtlas(string atlasName, AtlasSettings settings);
         public void AssignToAtlas(string atlasName, Sprite sprite, SpritePackingMode packingMode, SpritePackingRotation packingRotation);
     }

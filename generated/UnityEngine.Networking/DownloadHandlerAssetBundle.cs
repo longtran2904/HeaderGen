@@ -9,7 +9,6 @@ namespace UnityEngine.Networking
     [NativeHeader("Modules/UnityWebRequestAssetBundle/Public/DownloadHandlerAssetBundle.h")]
     public sealed class DownloadHandlerAssetBundle : DownloadHandler
     {
-
         public DownloadHandlerAssetBundle(string url, uint crc);
         public DownloadHandlerAssetBundle(string url, uint version, uint crc);
         public DownloadHandlerAssetBundle(string url, Hash128 hash, uint crc);

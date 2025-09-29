@@ -9,7 +9,6 @@ namespace System.Security.AccessControl
 {
     public sealed class PrivilegeNotHeldException : UnauthorizedAccessException
     {
-
         public PrivilegeNotHeldException();
         public PrivilegeNotHeldException(string privilege);
         public PrivilegeNotHeldException(string privilege, Exception inner);

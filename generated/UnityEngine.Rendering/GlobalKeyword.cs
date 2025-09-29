@@ -12,7 +12,6 @@ namespace UnityEngine.Rendering
     [UsedByNativeCode]
     public readonly struct GlobalKeyword
     {
-
         public GlobalKeyword(string name);
 
         public string name { get; }

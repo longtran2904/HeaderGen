@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public sealed class ArrayType : TypeSpecification
     {
-
         public ArrayType(TypeReference type);
         public ArrayType(TypeReference type, int rank);
 

@@ -10,7 +10,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public abstract class GraphViewToolWindow : EditorWindow
     {
-
         protected VisualElement m_ToolbarContainer;
         protected GraphView m_SelectedGraphView;
 

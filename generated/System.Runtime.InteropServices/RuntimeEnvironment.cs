@@ -8,7 +8,6 @@ namespace System.Runtime.InteropServices
 {
     public static class RuntimeEnvironment
     {
-
         [Obsolete("RuntimeEnvironment members SystemConfigurationFile, GetRuntimeInterfaceAsIntPtr, and GetRuntimeInterfaceAsObject are not supported and throw PlatformNotSupportedException.", DiagnosticId = "SYSLIB0019", UrlFormat = "https://aka.ms/dotnet-warnings/{0}")]
         public static string SystemConfigurationFile { get; }
 

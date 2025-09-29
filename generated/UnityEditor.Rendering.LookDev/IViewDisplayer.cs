@@ -10,7 +10,6 @@ namespace UnityEditor.Rendering.LookDev
 {
     public interface IViewDisplayer
     {
-
         event Action<Layout, SidePanel> OnLayoutChanged;
         event Action OnRenderDocAcquisitionTriggered;
         event Action<IMouseEvent> OnMouseEventInView;

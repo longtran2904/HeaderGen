@@ -9,7 +9,6 @@ namespace UnityEngine.Experimental.Rendering
 {
     public enum GraphicsFormat
     {
-
         None = 0,
         R8_SRGB = 1,
         R8G8_SRGB = 2,

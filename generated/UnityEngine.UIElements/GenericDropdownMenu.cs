@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public class GenericDropdownMenu : IGenericMenu
     {
-
         public static readonly string ussClassName;
         public static readonly string itemUssClassName;
         public static readonly string labelUssClassName;

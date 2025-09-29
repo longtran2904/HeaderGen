@@ -9,7 +9,6 @@ namespace System
 {
     public readonly struct Double : IAdditionOperators<double, double, double>, IAdditiveIdentity<double, double>, IBinaryFloatingPointIeee754<double>, IBinaryFloatParseAndFormatInfo<double>, IBinaryNumber<double>, IBitwiseOperators<double, double, double>, IComparable, IComparable<double>, IComparisonOperators<double, double, bool>, IConvertible, IDecrementOperators<double>, IDivisionOperators<double, double, double>, IEqualityOperators<double, double, bool>, IEquatable<double>, IExponentialFunctions<double>, IFloatingPoint<double>, IFloatingPointConstants<double>, IFloatingPointIeee754<double>, IFormattable, IHyperbolicFunctions<double>, IIncrementOperators<double>, ILogarithmicFunctions<double>, IMinMaxValue<double>, IModulusOperators<double, double, double>, IMultiplicativeIdentity<double, double>, IMultiplyOperators<double, double, double>, INumber<double>, INumberBase<double>, IParsable<double>, IPowerFunctions<double>, IRootFunctions<double>, ISignedNumber<double>, ISpanFormattable, ISpanParsable<double>, ISubtractionOperators<double, double, double>, ITrigonometricFunctions<double>, IUnaryNegationOperators<double, double>, IUnaryPlusOperators<double, double>, IUtf8SpanFormattable, IUtf8SpanParsable<double>
     {
-
         public const double MinValue = -1.7976931348623157E+308;
         public const double MaxValue = 1.7976931348623157E+308;
         public const double Epsilon = 5E-324;

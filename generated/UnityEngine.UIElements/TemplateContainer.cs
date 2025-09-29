@@ -8,16 +8,15 @@ namespace UnityEngine.UIElements
 {
     public class TemplateContainer : BindableElement
     {
-
         public TemplateContainer();
         public TemplateContainer(string templateId);
 
         public string templateId { get; }
         public VisualTreeAsset templateSource { get; }
         public override VisualElement contentContainer { get; }
+
         public class UxmlFactory : UxmlFactory<TemplateContainer, UxmlTraits>
         {
-
             public UxmlFactory();
 
             public override string uxmlName { get; }
@@ -25,7 +24,6 @@ namespace UnityEngine.UIElements
         }
         public class UxmlTraits : BindableElement.UxmlTraits
         {
-
             public UxmlTraits();
 
             public override IEnumerable<UxmlChildElementDescription> uxmlChildElementsDescription { get; }

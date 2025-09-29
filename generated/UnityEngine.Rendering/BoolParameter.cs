@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public class BoolParameter : VolumeParameter<bool>
     {
-
         public BoolParameter(bool value, bool overrideState = False);
     }
 }

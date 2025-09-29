@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public class NoInterpCubemapParameter : VolumeParameter<Cubemap>
     {
-
         public NoInterpCubemapParameter(Cubemap value, bool overrideState = False);
 
         public override int GetHashCode();

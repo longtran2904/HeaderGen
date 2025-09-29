@@ -9,7 +9,6 @@ namespace TreeEditor
 {
     public class TextureAtlas
     {
-
         public int atlasWidth;
         public int atlasHeight;
         public int atlasPadding;
@@ -22,9 +21,9 @@ namespace TreeEditor
         public Vector2 GetTexTiling(string name);
         public Rect GetUVRect(string name);
         public void Pack(ref int targetWidth, int targetHeight, int padding, bool correctPow2);
+
         public class TextureNode
         {
-
             public string name;
             public Texture2D diffuseTexture;
             public Color diffuseColor;

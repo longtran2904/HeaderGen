@@ -9,7 +9,6 @@ namespace UnityEngine.AI
     [NativeHeader("Modules/AI/Public/NavMeshBuildDebugSettings.h")]
     public struct NavMeshBuildDebugSettings
     {
-
         public NavMeshBuildDebugFlags flags { get; set; }
     }
 }

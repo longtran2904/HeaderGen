@@ -10,7 +10,6 @@ namespace System
 {
     public abstract class Array : ICloneable, ICollection, IEnumerable, IList, IStructuralComparable, IStructuralEquatable
     {
-
         public int Length { get; }
         public long LongLength { get; }
         public int Rank { get; }

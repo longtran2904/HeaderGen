@@ -7,7 +7,6 @@ namespace System.Runtime.CompilerServices
     [AttributeUsage(AttributeTargets.All, AllowMultiple = True, Inherited = False)]
     public sealed class CompilerFeatureRequiredAttribute : Attribute
     {
-
         public const string RefStructs = "RefStructs";
         public const string RequiredMembers = "RequiredMembers";
 

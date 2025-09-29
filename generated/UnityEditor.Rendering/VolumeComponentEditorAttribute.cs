@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = False)]
     public sealed class VolumeComponentEditorAttribute : Attribute
     {
-
         public readonly Type componentType;
 
         public VolumeComponentEditorAttribute(Type componentType);

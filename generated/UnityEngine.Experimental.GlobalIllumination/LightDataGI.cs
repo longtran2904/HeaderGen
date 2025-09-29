@@ -9,7 +9,6 @@ namespace UnityEngine.Experimental.GlobalIllumination
     [UsedByNativeCode]
     public struct LightDataGI
     {
-
         public int instanceID;
         public int cookieID;
         public float cookieScale;

@@ -14,7 +14,6 @@ namespace UnityEngine.Windows.WebCam
     [NativeHeader("PlatformDependent/Win/Webcam/PhotoCaptureFrame.h")]
     public sealed class PhotoCaptureFrame : IDisposable
     {
-
         ~PhotoCaptureFrame();
 
         public int dataLength { get; }

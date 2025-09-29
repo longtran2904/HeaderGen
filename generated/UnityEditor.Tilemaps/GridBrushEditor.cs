@@ -11,7 +11,6 @@ namespace UnityEditor.Tilemaps
     [MovedFrom(True, "UnityEditor", "UnityEditor", null)]
     public class GridBrushEditor : GridBrushEditorBase
     {
-
         public GridBrushEditor();
 
         public GridBrush brush { get; }
@@ -30,9 +29,9 @@ namespace UnityEditor.Tilemaps
         public virtual void BoxFillPreview(GridLayout gridLayout, GameObject brushTarget, BoundsInt position);
         public virtual void FloodFillPreview(GridLayout gridLayout, GameObject brushTarget, Vector3Int position);
         public virtual void ClearPreview();
+
         public enum ModifyCells
         {
-
             InsertRow = 0,
             InsertColumn = 1,
             InsertRowBefore = 2,

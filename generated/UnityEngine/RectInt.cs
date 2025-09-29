@@ -12,7 +12,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public struct RectInt : IEquatable<RectInt>, IFormattable
     {
-
         public RectInt(int xMin, int yMin, int width, int height);
         public RectInt(Vector2Int position, Vector2Int size);
 
@@ -39,9 +38,9 @@ namespace UnityEngine
         public string ToString(string format);
         public string ToString(string format, IFormatProvider formatProvider);
         public bool Equals(RectInt other);
+
         public struct PositionEnumerator : IDisposable, IEnumerator, IEnumerator<Vector2Int>
         {
-
             public PositionEnumerator(Vector2Int min, Vector2Int max);
 
             public Vector2Int Current { get; }

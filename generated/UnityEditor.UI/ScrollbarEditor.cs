@@ -10,7 +10,6 @@ namespace UnityEditor.UI
     [CustomEditor(typeof(Scrollbar), True)]
     public class ScrollbarEditor : SelectableEditor
     {
-
         public ScrollbarEditor();
 
         protected override void OnEnable();

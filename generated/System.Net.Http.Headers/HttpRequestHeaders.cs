@@ -6,7 +6,6 @@ namespace System.Net.Http.Headers
 {
     public sealed class HttpRequestHeaders : HttpHeaders
     {
-
         public HttpHeaderValueCollection<MediaTypeWithQualityHeaderValue> Accept { get; }
         public HttpHeaderValueCollection<StringWithQualityHeaderValue> AcceptCharset { get; }
         public HttpHeaderValueCollection<StringWithQualityHeaderValue> AcceptEncoding { get; }

@@ -9,7 +9,6 @@ namespace TMPro
 {
     public struct MaterialReference
     {
-
         public int index;
         public TMP_FontAsset fontAsset;
         public TMP_SpriteAsset spriteAsset;

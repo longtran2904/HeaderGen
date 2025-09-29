@@ -7,7 +7,6 @@ namespace UnityEditor.Experimental.GraphView
     [EditorWindowTitle(title = "MiniMap")]
     public class GraphViewMinimapWindow : GraphViewToolWindow
     {
-
         public GraphViewMinimapWindow();
 
         protected override string ToolName { get; }

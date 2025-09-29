@@ -12,7 +12,6 @@ namespace System.IO
 {
     public class FileStream : Stream
     {
-
         [EditorBrowsable(EditorBrowsableState.Never)]
         [Obsolete("This constructor has been deprecated. Use FileStream(SafeFileHandle handle, FileAccess access) instead.")]
         public FileStream(nint handle, FileAccess access);

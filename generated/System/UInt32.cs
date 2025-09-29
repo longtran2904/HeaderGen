@@ -10,7 +10,6 @@ namespace System
     [CLSCompliant(False)]
     public readonly struct UInt32 : IAdditionOperators<uint, uint, uint>, IAdditiveIdentity<uint, uint>, IBinaryInteger<uint>, IBinaryIntegerParseAndFormatInfo<uint>, IBinaryNumber<uint>, IBitwiseOperators<uint, uint, uint>, IComparable, IComparable<uint>, IComparisonOperators<uint, uint, bool>, IConvertible, IDecrementOperators<uint>, IDivisionOperators<uint, uint, uint>, IEqualityOperators<uint, uint, bool>, IEquatable<uint>, IFormattable, IIncrementOperators<uint>, IMinMaxValue<uint>, IModulusOperators<uint, uint, uint>, IMultiplicativeIdentity<uint, uint>, IMultiplyOperators<uint, uint, uint>, INumber<uint>, INumberBase<uint>, IParsable<uint>, IShiftOperators<uint, int, uint>, ISpanFormattable, ISpanParsable<uint>, ISubtractionOperators<uint, uint, uint>, IUnaryNegationOperators<uint, uint>, IUnaryPlusOperators<uint, uint>, IUnsignedNumber<uint>, IUtf8SpanFormattable, IUtf8SpanParsable<uint>
     {
-
         public const uint MaxValue = 4294967295;
         public const uint MinValue = 0;
 

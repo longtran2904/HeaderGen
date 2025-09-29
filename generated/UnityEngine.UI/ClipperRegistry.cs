@@ -6,7 +6,6 @@ namespace UnityEngine.UI
 {
     public class ClipperRegistry
     {
-
         protected ClipperRegistry();
 
         public static ClipperRegistry instance { get; }

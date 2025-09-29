@@ -8,7 +8,6 @@ namespace Mono.Cecil.Cil
 {
     public abstract class DebugInformation : ICustomDebugInformationProvider, IMetadataTokenProvider
     {
-
         public MetadataToken MetadataToken { get; set; }
         public bool HasCustomDebugInformations { get; }
         public Collection<CustomDebugInformation> CustomDebugInformations { get; }

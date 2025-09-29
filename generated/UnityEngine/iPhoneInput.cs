@@ -11,7 +11,6 @@ namespace UnityEngine
     [Obsolete("iPhoneInput class is deprecated. Please use Input instead (UnityUpgradable) -> Input", True)]
     public class iPhoneInput
     {
-
         public iPhoneInput();
 
         [EditorBrowsable(EditorBrowsableState.Never)]

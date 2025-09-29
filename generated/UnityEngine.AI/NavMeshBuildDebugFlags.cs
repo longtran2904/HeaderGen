@@ -9,7 +9,6 @@ namespace UnityEngine.AI
     [Flags]
     public enum NavMeshBuildDebugFlags
     {
-
         None = 0,
         InputGeometry = 1,
         Voxels = 2,

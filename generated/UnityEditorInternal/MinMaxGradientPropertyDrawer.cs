@@ -10,7 +10,6 @@ namespace UnityEditorInternal
     [CustomPropertyDrawer(typeof(ParticleSystem.MinMaxGradient))]
     public class MinMaxGradientPropertyDrawer : PropertyDrawer
     {
-
         public MinMaxGradientPropertyDrawer();
 
         public override float GetPropertyHeight(SerializedProperty property, GUIContent label);

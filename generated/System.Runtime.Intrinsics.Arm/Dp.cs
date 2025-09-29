@@ -7,7 +7,6 @@ namespace System.Runtime.Intrinsics.Arm
     [CLSCompliant(False)]
     public abstract class Dp : AdvSimd
     {
-
         public static bool IsSupported { get; }
 
         public static Vector64<int> DotProduct(Vector64<int> addend, Vector64<sbyte> left, Vector64<sbyte> right);
@@ -22,9 +21,9 @@ namespace System.Runtime.Intrinsics.Arm
         public static Vector128<int> DotProductBySelectedQuadruplet(Vector128<int> addend, Vector128<sbyte> left, Vector64<sbyte> right, byte rightScaledIndex);
         public static Vector128<uint> DotProductBySelectedQuadruplet(Vector128<uint> addend, Vector128<byte> left, Vector128<byte> right, byte rightScaledIndex);
         public static Vector128<uint> DotProductBySelectedQuadruplet(Vector128<uint> addend, Vector128<byte> left, Vector64<byte> right, byte rightScaledIndex);
+
         public abstract class Arm64 : AdvSimd.Arm64
         {
-
             public static bool IsSupported { get; }
         }
     }

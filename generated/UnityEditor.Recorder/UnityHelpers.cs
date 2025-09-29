@@ -8,7 +8,6 @@ namespace UnityEditor.Recorder
 {
     public static class UnityHelpers
     {
-
         public static void Destroy(UnityEngine.Object obj, bool allowDestroyingAssets = False);
     }
 }

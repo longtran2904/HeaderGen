@@ -18,7 +18,6 @@ namespace UnityEngine.Animations
     [StaticAccessor("AnimationScriptPlayableBindings", StaticAccessorType.DoubleColon)]
     public struct AnimationScriptPlayable : IAnimationJobPlayable, IEquatable<AnimationScriptPlayable>, IPlayable
     {
-
         public static AnimationScriptPlayable Null { get; }
 
         public static AnimationScriptPlayable Create<T>(PlayableGraph graph, T jobData, int inputCount = 0) where T : IAnimationJob, struct;

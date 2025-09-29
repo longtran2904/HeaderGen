@@ -8,7 +8,6 @@ namespace System.Net.Http.Headers
 {
     public class NameValueWithParametersHeaderValue : NameValueHeaderValue
     {
-
         public NameValueWithParametersHeaderValue(string name);
         public NameValueWithParametersHeaderValue(string name, string value);
         protected NameValueWithParametersHeaderValue(NameValueWithParametersHeaderValue source);

@@ -9,7 +9,6 @@ namespace UnityEngine.Search
     [AttributeUsage(AttributeTargets.Field)]
     public class SearchContextAttribute : PropertyAttribute
     {
-
         public SearchContextAttribute(string query);
         public SearchContextAttribute(string query, SearchViewFlags flags);
         public SearchContextAttribute(string query, string providerIdsCommaSeparated);

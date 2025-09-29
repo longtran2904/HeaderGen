@@ -11,7 +11,6 @@ namespace UnityEngine
     [RequireComponent(typeof(Transform))]
     public sealed class Grid : GridLayout
     {
-
         public Grid();
 
         public Vector3 cellSize { get; set; }

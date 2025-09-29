@@ -10,7 +10,6 @@ namespace UnityEditor.Media
 {
     public class MediaEncoder : IDisposable
     {
-
         [Obsolete("Was made public by mistake. Not meant to be used by user code.", True)]
         public nint m_Ptr;
 

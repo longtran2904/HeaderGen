@@ -10,7 +10,6 @@ namespace System.CodeDom
     [DefaultMember("Item")]
     public class CodeStatementCollection : CollectionBase
     {
-
         public CodeStatementCollection();
         public CodeStatementCollection(CodeStatementCollection value);
         public CodeStatementCollection(CodeStatement[] value);

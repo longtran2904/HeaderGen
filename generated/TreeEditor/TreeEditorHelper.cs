@@ -8,7 +8,6 @@ namespace TreeEditor
 {
     public class TreeEditorHelper
     {
-
         public TreeEditorHelper();
 
         public void OnEnable(TreeData treeData);
@@ -23,9 +22,9 @@ namespace TreeEditor
         public static GUIContent GetGUIContent(string id);
         public static string ExtractLabel(string uiString);
         public static string ExtractTooltip(string uiString);
+
         public enum NodeType
         {
-
             BarkNode = 0,
             LeafNode = 1
         }

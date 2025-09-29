@@ -8,7 +8,6 @@ namespace UnityEditor.ShaderGraph.Internal
     [FormerName("UnityEditor.ShaderGraph.Vector3ShaderProperty")]
     public sealed class Vector3ShaderProperty : VectorShaderProperty
     {
-
         public override PropertyType propertyType { get; }
         public override int latestVersion { get; }
 

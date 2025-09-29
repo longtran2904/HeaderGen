@@ -10,7 +10,6 @@ namespace UnityEditor.UI
     [CustomEditor(typeof(Button), True)]
     public class ButtonEditor : SelectableEditor
     {
-
         public ButtonEditor();
 
         protected override void OnEnable();

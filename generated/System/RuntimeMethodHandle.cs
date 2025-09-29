@@ -9,7 +9,6 @@ namespace System
 {
     public struct RuntimeMethodHandle : IEquatable<RuntimeMethodHandle>, ISerializable
     {
-
         public nint Value { get; }
 
         [EditorBrowsable(EditorBrowsableState.Never)]

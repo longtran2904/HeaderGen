@@ -8,7 +8,6 @@ namespace System
 {
     public class Lazy<T>
     {
-
         public Lazy();
         public Lazy(T value);
         public Lazy(Func<T> valueFactory);

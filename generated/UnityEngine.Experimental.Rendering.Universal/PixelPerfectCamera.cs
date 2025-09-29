@@ -16,7 +16,6 @@ namespace UnityEngine.Experimental.Rendering.Universal
     [RequireComponent(typeof(Camera))]
     public class PixelPerfectCamera : MonoBehaviour, IPixelPerfectCamera, ISerializationCallbackReceiver
     {
-
         public PixelPerfectCamera();
 
         public CropFrame cropFrame { get; set; }
@@ -41,9 +40,9 @@ namespace UnityEngine.Experimental.Rendering.Universal
         public float CorrectCinemachineOrthoSize(float targetOrthoSize);
         public void OnBeforeSerialize();
         public void OnAfterDeserialize();
+
         public enum CropFrame
         {
-
             None = 0,
             Pillarbox = 1,
             Letterbox = 2,
@@ -52,7 +51,6 @@ namespace UnityEngine.Experimental.Rendering.Universal
         }
         public enum GridSnapping
         {
-
             None = 0,
             PixelSnapping = 1,
             UpscaleRenderTexture = 2

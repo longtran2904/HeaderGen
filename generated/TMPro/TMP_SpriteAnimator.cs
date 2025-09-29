@@ -9,7 +9,6 @@ namespace TMPro
     [DisallowMultipleComponent]
     public class TMP_SpriteAnimator : MonoBehaviour
     {
-
         public TMP_SpriteAnimator();
 
         public void StopAllAnimations();

@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public class ColorParameter : VolumeParameter<Color>
     {
-
         [NonSerialized]
         public bool hdr;
         [NonSerialized]

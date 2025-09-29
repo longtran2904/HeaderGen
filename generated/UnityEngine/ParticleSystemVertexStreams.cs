@@ -10,7 +10,6 @@ namespace UnityEngine
     [Obsolete("ParticleSystemVertexStreams is deprecated. Please use ParticleSystemVertexStream instead.", False)]
     public enum ParticleSystemVertexStreams
     {
-
         Position = 1,
         Normal = 2,
         Tangent = 4,

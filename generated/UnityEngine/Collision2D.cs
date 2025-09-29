@@ -10,7 +10,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public class Collision2D
     {
-
         public Collision2D();
 
         public Collider2D collider { get; }

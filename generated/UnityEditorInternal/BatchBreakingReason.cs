@@ -9,7 +9,6 @@ namespace UnityEditorInternal
     [Flags]
     public enum BatchBreakingReason
     {
-
         NoBreaking = 0,
         NotCoplanarWithCanvas = 1,
         CanvasInjectionIndex = 2,

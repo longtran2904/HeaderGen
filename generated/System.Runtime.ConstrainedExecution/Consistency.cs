@@ -7,7 +7,6 @@ namespace System.Runtime.ConstrainedExecution
     [Obsolete("The Constrained Execution Region (CER) feature is not supported.", DiagnosticId = "SYSLIB0004", UrlFormat = "https://aka.ms/dotnet-warnings/{0}")]
     public enum Consistency
     {
-
         MayCorruptProcess = 0,
         MayCorruptAppDomain = 1,
         MayCorruptInstance = 2,

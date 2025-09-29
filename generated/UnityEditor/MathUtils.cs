@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public class MathUtils
     {
-
         public MathUtils();
 
         public static float GetQuatLength(Quaternion q);

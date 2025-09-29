@@ -9,7 +9,6 @@ namespace UnityEditor.Experimental.GraphView
     [InitializeOnLoad]
     public class SearchWindow : EditorWindow
     {
-
         public SearchWindow();
 
         public static bool Open<T>(SearchWindowContext context, T provider) where T : ScriptableObject, ISearchWindowProvider;

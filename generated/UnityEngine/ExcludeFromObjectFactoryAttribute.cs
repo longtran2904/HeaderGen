@@ -11,7 +11,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public class ExcludeFromObjectFactoryAttribute : Attribute
     {
-
         public ExcludeFromObjectFactoryAttribute();
     }
 }

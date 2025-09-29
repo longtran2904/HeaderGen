@@ -8,7 +8,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public interface IEdgeConnectorListener
     {
-
         void OnDropOutsidePort(Edge edge, Vector2 position);
         void OnDrop(GraphView graphView, Edge edge);
     }

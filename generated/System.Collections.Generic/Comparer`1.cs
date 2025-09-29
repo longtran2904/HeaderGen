@@ -6,7 +6,6 @@ namespace System.Collections.Generic
 {
     public abstract class Comparer<T> : IComparer, IComparer<T>
     {
-
         protected Comparer();
 
         public static Comparer<T> Default { get; }

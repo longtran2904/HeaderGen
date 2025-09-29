@@ -6,11 +6,10 @@ namespace System.Runtime.CompilerServices
 {
     public readonly struct YieldAwaitable
     {
-
         public YieldAwaiter GetAwaiter();
+
         public readonly struct YieldAwaiter : ICriticalNotifyCompletion, INotifyCompletion, IStateMachineBoxAwareAwaiter
         {
-
             public bool IsCompleted { get; }
 
             public void OnCompleted(Action continuation);

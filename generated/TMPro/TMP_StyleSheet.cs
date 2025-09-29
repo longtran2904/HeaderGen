@@ -9,7 +9,6 @@ namespace TMPro
     [ExcludeFromPreset]
     public class TMP_StyleSheet : ScriptableObject
     {
-
         public TMP_StyleSheet();
 
         public TMP_Style GetStyle(int hashCode);

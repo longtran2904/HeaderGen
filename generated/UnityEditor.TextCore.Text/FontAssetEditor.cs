@@ -9,7 +9,6 @@ namespace UnityEditor.TextCore.Text
     [CustomEditor(typeof(FontAsset))]
     public class FontAssetEditor : Editor
     {
-
         public FontAssetEditor();
 
         public void OnEnable();

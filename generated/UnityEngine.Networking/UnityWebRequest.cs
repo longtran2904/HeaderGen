@@ -13,7 +13,6 @@ namespace UnityEngine.Networking
     [NativeHeader("Modules/UnityWebRequest/Public/UnityWebRequest.h")]
     public class UnityWebRequest : IDisposable
     {
-
         public const string kHttpVerbGET = "GET";
         public const string kHttpVerbHEAD = "HEAD";
         public const string kHttpVerbPOST = "POST";
@@ -124,9 +123,9 @@ namespace UnityEngine.Networking
         public static byte[] SerializeFormSections(List<IMultipartFormSection> multipartFormSections, byte[] boundary);
         public static byte[] GenerateBoundary();
         public static byte[] SerializeSimpleForm(Dictionary<string, string> formFields);
+
         public enum Result
         {
-
             InProgress = 0,
             Success = 1,
             ConnectionError = 2,

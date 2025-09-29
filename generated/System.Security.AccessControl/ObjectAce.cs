@@ -8,7 +8,6 @@ namespace System.Security.AccessControl
 {
     public sealed class ObjectAce : QualifiedAce
     {
-
         public ObjectAce(AceFlags aceFlags, AceQualifier qualifier, int accessMask, SecurityIdentifier sid, ObjectAceFlags flags, Guid type, Guid inheritedType, bool isCallback, byte[] opaque);
 
         public ObjectAceFlags ObjectAceFlags { get; set; }

@@ -6,7 +6,6 @@ namespace UnityEngine.UI
 {
     public static class GraphicRebuildTracker
     {
-
         public static void TrackGraphic(Graphic g);
         public static void UnTrackGraphic(Graphic g);
         public static void DisableTrackGraphic(Graphic g);

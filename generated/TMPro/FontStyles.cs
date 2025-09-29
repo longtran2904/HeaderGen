@@ -9,7 +9,6 @@ namespace TMPro
     [Flags]
     public enum FontStyles
     {
-
         Normal = 0,
         Bold = 1,
         Italic = 2,

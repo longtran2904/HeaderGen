@@ -8,7 +8,6 @@ namespace UnityEngine.Experimental.Rendering.RenderGraphModule
 {
     public struct RendererListHandle
     {
-
         public bool IsValid();
 
         public static implicit operator int(RendererListHandle handle);

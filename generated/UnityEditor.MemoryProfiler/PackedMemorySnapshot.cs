@@ -8,7 +8,6 @@ namespace UnityEditor.MemoryProfiler
 {
     public class PackedMemorySnapshot
     {
-
         public PackedMemorySnapshot(UnityEditor.Profiling.Memory.Experimental.PackedMemorySnapshot snapshot);
 
         public PackedNativeType[] nativeTypes { get; }

@@ -9,7 +9,6 @@ namespace UnityEditor
     [Obsolete("PrefabType no longer tells everything about Prefab instance.")]
     public enum PrefabType
     {
-
         None = 0,
         Prefab = 1,
         ModelPrefab = 2,

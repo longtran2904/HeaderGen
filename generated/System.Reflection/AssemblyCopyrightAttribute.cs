@@ -7,7 +7,6 @@ namespace System.Reflection
     [AttributeUsage(AttributeTargets.Assembly, Inherited = False)]
     public sealed class AssemblyCopyrightAttribute : Attribute
     {
-
         public AssemblyCopyrightAttribute(string copyright);
 
         public string Copyright { get; }

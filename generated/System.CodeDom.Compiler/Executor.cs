@@ -6,7 +6,6 @@ namespace System.CodeDom.Compiler
 {
     public static class Executor
     {
-
         public static void ExecWait(string cmd, TempFileCollection tempFiles);
         public static int ExecWaitWithCapture(nint userToken, string cmd, TempFileCollection tempFiles, ref string outputName, ref string errorName);
         public static int ExecWaitWithCapture(string cmd, string currentDir, TempFileCollection tempFiles, ref string outputName, ref string errorName);

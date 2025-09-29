@@ -9,7 +9,6 @@ namespace Mono.Cecil
     [Flags]
     public enum ManifestResourceAttributes
     {
-
         VisibilityMask = 7,
         Public = 1,
         Private = 2

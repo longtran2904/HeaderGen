@@ -8,7 +8,6 @@ namespace UnityEditor.Search
 {
     public static class FuzzySearch
     {
-
         public static bool FuzzyMatch(string pattern, string origin, ref long outScore, List<int> matches = null);
     }
 }

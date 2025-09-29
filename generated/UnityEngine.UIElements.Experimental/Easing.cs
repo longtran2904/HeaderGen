@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements.Experimental
 {
     public static class Easing
     {
-
         public static float Step(float t);
         public static float Linear(float t);
         public static float InSine(float t);

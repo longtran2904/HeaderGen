@@ -9,7 +9,6 @@ namespace TMPro.EditorUtilities
     [CustomEditor(typeof(TMP_FontAsset))]
     public class TMP_FontAssetEditor : Editor
     {
-
         public TMP_FontAssetEditor();
 
         public void OnEnable();

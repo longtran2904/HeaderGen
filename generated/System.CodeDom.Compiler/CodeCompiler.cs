@@ -6,7 +6,6 @@ namespace System.CodeDom.Compiler
 {
     public abstract class CodeCompiler : CodeGenerator, ICodeCompiler
     {
-
         protected CodeCompiler();
 
         protected abstract string FileExtension { get; }

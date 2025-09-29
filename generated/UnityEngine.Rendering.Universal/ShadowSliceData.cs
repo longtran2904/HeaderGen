@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.Universal
 {
     public struct ShadowSliceData
     {
-
         public Matrix4x4 viewMatrix;
         public Matrix4x4 projectionMatrix;
         public Matrix4x4 shadowTransform;

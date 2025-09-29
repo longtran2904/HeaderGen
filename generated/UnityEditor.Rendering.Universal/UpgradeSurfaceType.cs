@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering.Universal
 {
     public enum UpgradeSurfaceType
     {
-
         Opaque = 0,
         Transparent = 1
     }

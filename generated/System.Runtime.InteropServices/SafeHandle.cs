@@ -8,7 +8,6 @@ namespace System.Runtime.InteropServices
 {
     public abstract class SafeHandle : CriticalFinalizerObject, IDisposable
     {
-
         protected nint handle;
 
         protected SafeHandle(nint invalidHandleValue, bool ownsHandle);

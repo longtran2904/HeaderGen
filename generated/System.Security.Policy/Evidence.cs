@@ -8,7 +8,6 @@ namespace System.Security.Policy
 {
     public sealed class Evidence : ICollection, IEnumerable
     {
-
         public Evidence();
         [Obsolete("This constructor is obsolete. Use the constructor which accepts arrays of EvidenceBase instead.")]
         public Evidence(object[] hostEvidence, object[] assemblyEvidence);

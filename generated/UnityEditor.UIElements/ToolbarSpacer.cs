@@ -9,7 +9,6 @@ namespace UnityEditor.UIElements
 {
     public class ToolbarSpacer : VisualElement
     {
-
         public static readonly string ussClassName;
         [Obsolete("The `fixedSpacerVariantUssClassName` style has been deprecated as is it now the default style.")]
         public static readonly string fixedSpacerVariantUssClassName;
@@ -18,9 +17,9 @@ namespace UnityEditor.UIElements
         public ToolbarSpacer();
 
         public bool flex { get; set; }
+
         public class UxmlFactory : UxmlFactory<ToolbarSpacer>
         {
-
             public UxmlFactory();
         }
     }

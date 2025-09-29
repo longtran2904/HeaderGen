@@ -10,7 +10,6 @@ namespace UnityEditor.Search
 {
     public static class SearchUtils
     {
-
         public static readonly char[] entrySeparators;
 
         public static string[] FindShiftLeftVariations(string word);

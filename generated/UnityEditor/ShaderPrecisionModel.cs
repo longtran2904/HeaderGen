@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum ShaderPrecisionModel
     {
-
         PlatformDefault = 0,
         Unified = 1
     }

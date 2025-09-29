@@ -7,7 +7,6 @@ namespace UnityEngine.Rendering.Universal
     [VolumeComponentMenuForRenderPipeline("Post-processing/Bloom", new[] {typeof(UniversalRenderPipeline) })]
     public sealed class Bloom : VolumeComponent, IPostProcessComponent
     {
-
         [Header("Bloom")]
         [Tooltip("Filters out pixels under this level of brightness. Value is in gamma-space.")]
         public MinFloatParameter threshold;

@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public static class CommandBufferPool
     {
-
         public static CommandBuffer Get();
         public static CommandBuffer Get(string name);
         public static void Release(CommandBuffer buffer);

@@ -9,7 +9,6 @@ namespace UnityEditor.Build.Content
     [UsedByNativeCode]
     public struct BuildUsageTagGlobal
     {
-
         public static BuildUsageTagGlobal operator |(BuildUsageTagGlobal x, BuildUsageTagGlobal y);
     }
 }

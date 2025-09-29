@@ -6,7 +6,6 @@ namespace UnityEditor.Timeline
 {
     public enum TimeFormat
     {
-
         Frames = 0,
         Timecode = 1,
         Seconds = 2

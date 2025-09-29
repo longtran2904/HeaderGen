@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering
 {
     public class DebugUIDrawerAttribute : Attribute
     {
-
         public DebugUIDrawerAttribute(Type type);
     }
 }

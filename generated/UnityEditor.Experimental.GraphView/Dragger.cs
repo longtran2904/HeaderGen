@@ -9,7 +9,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class Dragger : MouseManipulator
     {
-
         protected bool m_Active;
 
         public Dragger();

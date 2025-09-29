@@ -6,7 +6,6 @@ namespace System.CodeDom.Compiler
 {
     public interface ICodeCompiler
     {
-
         CompilerResults CompileAssemblyFromDom(CompilerParameters options, CodeCompileUnit compilationUnit);
         CompilerResults CompileAssemblyFromFile(CompilerParameters options, string fileName);
         CompilerResults CompileAssemblyFromSource(CompilerParameters options, string source);

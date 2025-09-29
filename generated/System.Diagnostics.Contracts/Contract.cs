@@ -8,7 +8,6 @@ namespace System.Diagnostics.Contracts
 {
     public static class Contract
     {
-
         public static event EventHandler<ContractFailedEventArgs> ContractFailed;
 
         [Conditional("DEBUG")]

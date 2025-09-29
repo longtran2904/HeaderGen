@@ -19,7 +19,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public sealed class Terrain : Behaviour
     {
-
         public Terrain();
 
         public TerrainData terrainData { get; set; }
@@ -112,10 +111,10 @@ namespace UnityEngine
         public static GameObject CreateTerrainGameObject(TerrainData assignTerrain);
         [Obsolete("Use TerrainData.SyncHeightmap to notify all Terrain instances using the TerrainData.", False)]
         public void ApplyDelayedHeightmapModification();
+
         [Obsolete("Enum type MaterialType is not used any more.", False)]
         public enum MaterialType
         {
-
             BuiltInStandard = 0,
             BuiltInLegacyDiffuse = 1,
             BuiltInLegacySpecular = 2,

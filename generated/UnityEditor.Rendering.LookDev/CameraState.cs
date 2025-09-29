@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering.LookDev
 {
     public class CameraState : ICameraUpdater
     {
-
         public CameraState();
 
         public Vector3 pivot { get; set; }

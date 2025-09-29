@@ -9,7 +9,6 @@ namespace UnityEngine.Tilemaps
     [CustomEditor(typeof(WeightedRandomTile))]
     public class WeightedRandomTileEditor : Editor
     {
-
         public WeightedRandomTileEditor();
 
         public void OnEnable();

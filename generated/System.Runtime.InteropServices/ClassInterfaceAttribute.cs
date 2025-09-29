@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class, Inherited = False)]
     public sealed class ClassInterfaceAttribute : Attribute
     {
-
         public ClassInterfaceAttribute(ClassInterfaceType classInterfaceType);
         public ClassInterfaceAttribute(short classInterfaceType);
 

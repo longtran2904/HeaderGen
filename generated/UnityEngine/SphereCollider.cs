@@ -11,7 +11,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public class SphereCollider : Collider
     {
-
         public SphereCollider();
 
         public Vector3 center { get; set; }

@@ -11,7 +11,6 @@ namespace UnityEditor.Experimental.Rendering
     [RequiredByNativeCode]
     public struct SceneStateHash : IEquatable<SceneStateHash>
     {
-
         public SceneStateHash(Hash128 sceneObjectsHash, Hash128 skySettingsHash, Hash128 ambientProbeHash);
 
         public Hash128 sceneObjectsHash { get; }

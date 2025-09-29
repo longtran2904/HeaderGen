@@ -11,7 +11,6 @@ namespace UnityEditor
     [UsedByNativeCode]
     public struct TakeInfo
     {
-
         public string name;
         public string defaultClipName;
         public float startTime;

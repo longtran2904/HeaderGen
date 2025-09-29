@@ -6,7 +6,6 @@ namespace A.B.C
 {
     public class Int32
     {
-
         public Int32();
     }
 }

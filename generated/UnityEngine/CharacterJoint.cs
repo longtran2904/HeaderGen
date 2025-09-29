@@ -12,7 +12,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics/CharacterJoint.h")]
     public class CharacterJoint : Joint
     {
-
         [EditorBrowsable(EditorBrowsableState.Never)]
         [Obsolete("TargetRotation not in use for Unity 5 and assumed disabled.", True)]
         public Quaternion targetRotation;

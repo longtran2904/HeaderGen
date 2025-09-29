@@ -13,7 +13,6 @@ namespace UnityEditor.AssetImporters
     [NativeHeader("Modules/AssetPipelineEditor/ImportSettings/AssetImporterEditorUtility.h")]
     public abstract class AssetImporterEditor : Editor
     {
-
         protected AssetImporterEditor();
 
         protected internal UnityEngine.Object[] assetTargets { get; }
@@ -42,9 +41,9 @@ namespace UnityEditor.AssetImporters
         protected bool ApplyButton();
         protected virtual bool OnApplyRevertGUI();
         protected void ApplyRevertGUI();
+
         protected sealed class ExtraDataSerializedObject : SerializedObject
         {
-
             public void Update();
             public void UpdateIfRequiredOrScript();
             public void ApplyModifiedProperties();

@@ -9,7 +9,6 @@ namespace UnityEngine.TestTools
     [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class | AttributeTargets.Method)]
     public class PrebuildSetupAttribute : Attribute
     {
-
         public PrebuildSetupAttribute(Type targetClass);
         public PrebuildSetupAttribute(string targetClassName);
     }

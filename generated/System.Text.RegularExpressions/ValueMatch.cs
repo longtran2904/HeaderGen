@@ -7,7 +7,6 @@ namespace System.Text.RegularExpressions
     [Obsolete("Types with embedded references are not supported in this version of your compiler.", True)]
     public ref readonly struct ValueMatch
     {
-
         public int Index { get; }
         public int Length { get; }
     }

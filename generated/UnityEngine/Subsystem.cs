@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public abstract class Subsystem : ISubsystem
     {
-
         protected Subsystem();
 
         public abstract bool running { get; }

@@ -9,7 +9,6 @@ namespace UnityEditor.TestTools
     [AttributeUsage(AttributeTargets.Assembly)]
     public class TestPlayerBuildModifierAttribute : Attribute
     {
-
         public TestPlayerBuildModifierAttribute(Type type);
     }
 }

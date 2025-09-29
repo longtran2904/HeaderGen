@@ -8,7 +8,6 @@ namespace UnityEngine
 {
     public interface ILogger : ILogHandler
     {
-
         ILogHandler logHandler { get; set; }
         bool logEnabled { get; set; }
         LogType filterLogType { get; set; }

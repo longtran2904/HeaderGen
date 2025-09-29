@@ -8,7 +8,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class EdgeConnector<TEdge> : EdgeConnector where TEdge : Edge, new()
     {
-
         public EdgeConnector(IEdgeConnectorListener listener);
 
         public override EdgeDragHelper edgeDragHelper { get; }

@@ -9,7 +9,6 @@ namespace UnityEngine.TestTools
     [Flags]
     public enum TestPlatform
     {
-
         All = 255,
         EditMode = 2,
         PlayMode = 4

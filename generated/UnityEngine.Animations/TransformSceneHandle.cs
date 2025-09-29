@@ -13,7 +13,6 @@ namespace UnityEngine.Animations
     [NativeHeader("Modules/Animation/ScriptBindings/AnimationStreamHandles.bindings.h")]
     public struct TransformSceneHandle
     {
-
         public bool IsValid(AnimationStream stream);
         public Vector3 GetPosition(AnimationStream stream);
         [Obsolete("SceneHandle is now read-only; it was problematic with the engine multithreading and determinism", True)]

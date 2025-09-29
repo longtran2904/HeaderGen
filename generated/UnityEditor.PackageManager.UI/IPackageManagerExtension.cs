@@ -8,7 +8,6 @@ namespace UnityEditor.PackageManager.UI
 {
     public interface IPackageManagerExtension
     {
-
         VisualElement CreateExtensionUI();
         void OnPackageSelectionChange(PackageInfo packageInfo);
         void OnPackageAddedOrUpdated(PackageInfo packageInfo);

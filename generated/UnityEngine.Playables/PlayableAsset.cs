@@ -11,7 +11,6 @@ namespace UnityEngine.Playables
     [RequiredByNativeCode]
     public abstract class PlayableAsset : ScriptableObject, IPlayableAsset
     {
-
         protected PlayableAsset();
 
         public virtual double duration { get; }

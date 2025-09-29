@@ -11,7 +11,6 @@ namespace UnityEditor.UI
     [CustomEditor(typeof(RawImage), True)]
     public class RawImageEditor : GraphicEditor
     {
-
         public RawImageEditor();
 
         protected override void OnEnable();

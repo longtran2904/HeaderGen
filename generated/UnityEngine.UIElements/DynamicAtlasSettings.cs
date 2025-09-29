@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class DynamicAtlasSettings
     {
-
         public DynamicAtlasSettings();
 
         public int minAtlasSize { get; set; }

@@ -10,7 +10,6 @@ namespace UnityEditor.Experimental
     [NativeHeader("Modules/AssetDatabase/Editor/Public/AssetDatabaseExperimental.h")]
     public struct ArtifactKey
     {
-
         public GUID guid;
         public Type importerType;
 

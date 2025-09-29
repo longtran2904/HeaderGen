@@ -12,7 +12,6 @@ namespace UnityEditor.Searcher
     [PublicAPI]
     public abstract class SearcherDatabaseBase
     {
-
         [SerializeField]
         protected List<SearcherItem> m_ItemList;
         protected const string k_SerializedJsonFile = "/SerializedDatabase.json";

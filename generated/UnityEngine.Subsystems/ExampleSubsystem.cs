@@ -11,7 +11,6 @@ namespace UnityEngine.Subsystems
     [UsedByNativeCode]
     public class ExampleSubsystem : IntegratedSubsystem<ExampleSubsystemDescriptor>
     {
-
         public ExampleSubsystem();
 
         public void PrintExample();

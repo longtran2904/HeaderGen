@@ -9,7 +9,6 @@ namespace UnityEngine.Tilemaps
     [RequiredByNativeCode]
     public class ITilemap
     {
-
         public Vector3Int origin { get; }
         public Vector3Int size { get; }
         public Bounds localBounds { get; }

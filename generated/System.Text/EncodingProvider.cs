@@ -8,7 +8,6 @@ namespace System.Text
 {
     public abstract class EncodingProvider
     {
-
         public EncodingProvider();
 
         public abstract Encoding GetEncoding(string name);

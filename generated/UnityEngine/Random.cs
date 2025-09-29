@@ -10,7 +10,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Export/Random/Random.bindings.h")]
     public static class Random
     {
-
         [StaticAccessor("GetScriptingRand()", StaticAccessorType.Dot)]
         public static State state { get; set; }
         public static float value { get; }
@@ -38,6 +37,7 @@ namespace UnityEngine
         public static Color ColorHSV(float hueMin, float hueMax, float saturationMin, float saturationMax);
         public static Color ColorHSV(float hueMin, float hueMax, float saturationMin, float saturationMax, float valueMin, float valueMax);
         public static Color ColorHSV(float hueMin, float hueMax, float saturationMin, float saturationMax, float valueMin, float valueMax, float alphaMin, float alphaMax);
+
         public struct State
         {
         }

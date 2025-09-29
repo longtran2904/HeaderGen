@@ -11,7 +11,6 @@ namespace Unity.IO.LowLevel.Unsafe
     [NativeHeader("Runtime/File/AsyncReadManagerManagedApi.h")]
     public static class AsyncReadManager
     {
-
         public static ReadHandle Read(string filename, ReadCommand* readCmds, uint readCmdCount, string assetName = "", ulong typeID = 0, AssetLoadingSubsystem subsystem = AssetLoadingSubsystem.Scripts);
         public static ReadHandle GetFileInfo(string filename, FileInfoResult* result);
         public static ReadHandle ReadDeferred(in FileHandle fileHandle, ReadCommandArray* readCmdArray, JobHandle dependency);

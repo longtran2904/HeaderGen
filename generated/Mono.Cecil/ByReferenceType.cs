@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public sealed class ByReferenceType : TypeSpecification
     {
-
         public ByReferenceType(TypeReference type);
 
         public override string Name { get; }

@@ -7,7 +7,6 @@ namespace System.Reflection
     [AttributeUsage(AttributeTargets.Assembly, Inherited = False)]
     public sealed class AssemblyCompanyAttribute : Attribute
     {
-
         public AssemblyCompanyAttribute(string company);
 
         public string Company { get; }

@@ -6,7 +6,6 @@ namespace UnityEngine.Pool
 {
     public class GenericPool<T> where T : class, new()
     {
-
         public GenericPool();
 
         public static T Get();

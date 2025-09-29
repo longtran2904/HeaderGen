@@ -6,7 +6,6 @@ namespace System.Numerics
 {
     public interface IAdditiveIdentity<TSelf, TResult> where TSelf : IAdditiveIdentity<TSelf, TResult>
     {
-
         TResult AdditiveIdentity { get; }
     }
 }

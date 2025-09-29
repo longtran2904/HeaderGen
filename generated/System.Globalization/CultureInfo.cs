@@ -6,7 +6,6 @@ namespace System.Globalization
 {
     public class CultureInfo : ICloneable, IFormatProvider
     {
-
         public CultureInfo(string name);
         public CultureInfo(string name, bool useUserOverride);
         public CultureInfo(int culture);

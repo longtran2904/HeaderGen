@@ -11,7 +11,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Src/Utility/ObjectNames.bindings.h")]
     public sealed class ObjectNames
     {
-
         public ObjectNames();
 
         [FreeFunction("NicifyVariableName_Internal")]

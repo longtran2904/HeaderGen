@@ -6,7 +6,6 @@ namespace UnityEditor.Profiling.Memory.Experimental
 {
     public class NativeCallstackSymbolEntries
     {
-
         public ArrayEntries<ulong> symbol { get; }
         public ArrayEntries<string> readableStackTrace { get; }
 

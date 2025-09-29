@@ -11,7 +11,6 @@ namespace System.Collections
     [DefaultMember("Item")]
     public class Hashtable : ICloneable, ICollection, IDeserializationCallback, IDictionary, IEnumerable, ISerializable
     {
-
         public Hashtable();
         public Hashtable(int capacity);
         public Hashtable(int capacity, float loadFactor);

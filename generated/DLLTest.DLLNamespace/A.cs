@@ -6,7 +6,6 @@ namespace DLLTest.DLLNamespace
 {
     public class A
     {
-
         public DLL dll1;
         public DLLNamespace.DLL dll2;
         public DLLTest.DLL dll3;
@@ -38,9 +37,9 @@ namespace DLLTest.DLLNamespace
         public Array arrayField;
 
         public A();
+
         public class DLL
         {
-
             public DLL();
         }
     }

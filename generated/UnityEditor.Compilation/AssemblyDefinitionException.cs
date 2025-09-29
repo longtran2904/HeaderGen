@@ -8,7 +8,6 @@ namespace UnityEditor.Compilation
 {
     public class AssemblyDefinitionException : Exception
     {
-
         public AssemblyDefinitionException(string message, params string[] filePaths);
 
         public string[] filePaths { get; }

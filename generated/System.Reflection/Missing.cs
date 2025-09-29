@@ -8,7 +8,6 @@ namespace System.Reflection
 {
     public sealed class Missing : ISerializable
     {
-
         public static readonly Missing Value;
     }
 }

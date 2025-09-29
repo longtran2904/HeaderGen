@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public sealed class VolumeStack : IDisposable
     {
-
         public T GetComponent<T>() where T : VolumeComponent;
         public VolumeComponent GetComponent(Type type);
         public void Dispose();

@@ -6,7 +6,6 @@ namespace System.Numerics
 {
     public static class BitOperations
     {
-
         public static bool IsPow2(int value);
         [CLSCompliant(False)]
         public static bool IsPow2(uint value);

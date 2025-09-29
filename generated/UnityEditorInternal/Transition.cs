@@ -11,7 +11,6 @@ namespace UnityEditorInternal
     [Obsolete("Transition is obsolete. Use UnityEditor.Animations.AnimatorTransition instead (UnityUpgradable) -> UnityEditor.Animations.AnimatorTransition", True)]
     public class Transition : UnityEngine.Object
     {
-
         public Transition();
     }
 }

@@ -6,7 +6,6 @@ namespace UnityEditor.Search
 {
     public struct QueryGraphOptimizationOptions
     {
-
         public bool propagateNotToLeaves;
         public bool swapNotToRightHandSide;
         public bool swapFilterFunctionsToRightHandSide;

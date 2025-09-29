@@ -8,7 +8,6 @@ namespace UnityEditor.Timeline
 {
     public struct ClipBackgroundRegion
     {
-
         public ClipBackgroundRegion(Rect _position, double _startTime, double _endTime);
 
         public Rect position { get; }

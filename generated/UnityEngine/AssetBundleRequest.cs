@@ -11,7 +11,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public class AssetBundleRequest : ResourceRequest
     {
-
         public AssetBundleRequest();
 
         public Object asset { get; }

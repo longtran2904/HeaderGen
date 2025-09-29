@@ -7,7 +7,6 @@ namespace System.Runtime.Intrinsics.Arm
     [CLSCompliant(False)]
     public abstract class ArmBase
     {
-
         public static bool IsSupported { get; }
 
         public static int LeadingZeroCount(int value);
@@ -15,9 +14,9 @@ namespace System.Runtime.Intrinsics.Arm
         public static int ReverseElementBits(int value);
         public static uint ReverseElementBits(uint value);
         public static void Yield();
+
         public abstract class Arm64
         {
-
             public static bool IsSupported { get; }
 
             public static int LeadingSignCount(int value);

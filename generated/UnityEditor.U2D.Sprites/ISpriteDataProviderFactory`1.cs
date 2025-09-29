@@ -6,7 +6,6 @@ namespace UnityEditor.U2D.Sprites
 {
     public interface ISpriteDataProviderFactory<T>
     {
-
         ISpriteEditorDataProvider CreateDataProvider(T obj);
     }
 }

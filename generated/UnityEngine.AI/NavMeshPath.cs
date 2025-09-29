@@ -11,7 +11,6 @@ namespace UnityEngine.AI
     [NativeHeader("Modules/AI/NavMeshPath.bindings.h")]
     public sealed class NavMeshPath
     {
-
         public NavMeshPath();
 
         ~NavMeshPath();

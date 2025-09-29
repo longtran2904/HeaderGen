@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public static class CoreRenderPipelinePreferences
     {
-
         [Obsolete("Use VolumePreferences", False)]
         public static Color volumeGizmoColor { get; }
         public static Color previewBackgroundColor { get; }

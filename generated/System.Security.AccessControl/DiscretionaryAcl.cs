@@ -8,7 +8,6 @@ namespace System.Security.AccessControl
 {
     public sealed class DiscretionaryAcl : CommonAcl
     {
-
         public DiscretionaryAcl(bool isContainer, bool isDS, int capacity);
         public DiscretionaryAcl(bool isContainer, bool isDS, byte revision, int capacity);
         public DiscretionaryAcl(bool isContainer, bool isDS, RawAcl rawAcl);

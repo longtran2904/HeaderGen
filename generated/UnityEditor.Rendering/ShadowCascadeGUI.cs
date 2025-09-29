@@ -6,18 +6,16 @@ namespace UnityEditor.Rendering
 {
     public static class ShadowCascadeGUI
     {
-
         public static void DrawCascades(ref Cascade[] cascades, bool useMetric, float baseMetric);
+
         public enum HandleState
         {
-
             Hidden = 0,
             Disabled = 1,
             Enabled = 2
         }
         public struct Cascade
         {
-
             public float size;
             public float borderSize;
             public HandleState cascadeHandleState;

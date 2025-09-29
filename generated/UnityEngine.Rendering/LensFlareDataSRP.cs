@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public sealed class LensFlareDataSRP : ScriptableObject
     {
-
         public LensFlareDataElementSRP[] elements;
 
         public LensFlareDataSRP();

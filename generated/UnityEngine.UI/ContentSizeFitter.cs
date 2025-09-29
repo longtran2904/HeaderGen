@@ -11,7 +11,6 @@ namespace UnityEngine.UI
     [RequireComponent(typeof(RectTransform))]
     public class ContentSizeFitter : UIBehaviour, ILayoutController, ILayoutSelfController
     {
-
         [SerializeField]
         protected FitMode m_HorizontalFit;
         [SerializeField]
@@ -29,9 +28,9 @@ namespace UnityEngine.UI
         public virtual void SetLayoutVertical();
         protected void SetDirty();
         protected override void OnValidate();
+
         public enum FitMode
         {
-
             Unconstrained = 0,
             MinSize = 1,
             PreferredSize = 2

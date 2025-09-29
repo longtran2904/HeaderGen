@@ -6,7 +6,6 @@ namespace UnityEditor.ShaderGraph.Internal
 {
     public enum FloatType
     {
-
         Default = 0,
         Slider = 1,
         Integer = 2,

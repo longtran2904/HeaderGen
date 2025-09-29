@@ -6,7 +6,6 @@ namespace UnityEngine.EventSystems
 {
     public enum EventTriggerType
     {
-
         PointerEnter = 0,
         PointerExit = 1,
         PointerDown = 2,

@@ -8,7 +8,6 @@ namespace UnityEditor.Timeline
 {
     public struct MarkerOverlayRegion
     {
-
         public MarkerOverlayRegion(Rect _markerRegion, Rect _timelineRegion, double _startTime, double _endTime);
         public MarkerOverlayRegion(Rect _markerRegion, Rect _timelineRegion, double _startTime, double _endTime, float _trackOffset);
 

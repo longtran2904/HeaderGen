@@ -6,7 +6,6 @@ namespace TreeEditor
 {
     public class TreeTriangle
     {
-
         public bool tileV;
         public bool isBillboard;
         public bool isCutout;

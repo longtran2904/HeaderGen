@@ -9,7 +9,6 @@ namespace System
 {
     public readonly struct Byte : IAdditionOperators<byte, byte, byte>, IAdditiveIdentity<byte, byte>, IBinaryInteger<byte>, IBinaryIntegerParseAndFormatInfo<byte>, IBinaryNumber<byte>, IBitwiseOperators<byte, byte, byte>, IComparable, IComparable<byte>, IComparisonOperators<byte, byte, bool>, IConvertible, IDecrementOperators<byte>, IDivisionOperators<byte, byte, byte>, IEqualityOperators<byte, byte, bool>, IEquatable<byte>, IFormattable, IIncrementOperators<byte>, IMinMaxValue<byte>, IModulusOperators<byte, byte, byte>, IMultiplicativeIdentity<byte, byte>, IMultiplyOperators<byte, byte, byte>, INumber<byte>, INumberBase<byte>, IParsable<byte>, IShiftOperators<byte, int, byte>, ISpanFormattable, ISpanParsable<byte>, ISubtractionOperators<byte, byte, byte>, IUnaryNegationOperators<byte, byte>, IUnaryPlusOperators<byte, byte>, IUnsignedNumber<byte>, IUtf8SpanFormattable, IUtf8SpanParsable<byte>, IUtfChar<byte>
     {
-
         public const byte MaxValue = 255;
         public const byte MinValue = 0;
 

@@ -9,7 +9,6 @@ namespace TMPro.EditorUtilities
 {
     public class TMPro_FontAssetCreatorWindow : EditorWindow
     {
-
         public TMPro_FontAssetCreatorWindow();
 
         [MenuItem("Window/TextMeshPro/Font Asset Creator", False, 2025)]

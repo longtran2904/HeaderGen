@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public enum VARKIND
     {
-
         VAR_PERINSTANCE = 0,
         VAR_STATIC = 1,
         VAR_CONST = 2,

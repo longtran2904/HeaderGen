@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public enum EasingMode
     {
-
         Ease = 0,
         EaseIn = 1,
         EaseOut = 2,

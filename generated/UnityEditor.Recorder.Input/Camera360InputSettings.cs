@@ -11,7 +11,6 @@ namespace UnityEditor.Recorder.Input
     [DisplayName("360 View")]
     public class Camera360InputSettings : ImageInputSettings
     {
-
         public Camera360InputSettings();
 
         public ImageSource Source { get; set; }

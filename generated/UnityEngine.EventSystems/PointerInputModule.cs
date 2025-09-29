@@ -8,7 +8,6 @@ namespace UnityEngine.EventSystems
 {
     public abstract class PointerInputModule : BaseInputModule
     {
-
         protected Dictionary<int, PointerEventData> m_PointerData;
         public const int kMouseLeftId = -1;
         public const int kMouseRightId = -2;
@@ -31,9 +30,9 @@ namespace UnityEngine.EventSystems
         protected void ClearSelection();
         public override string ToString();
         protected void DeselectIfSelectionChanged(GameObject currentOverGo, BaseEventData pointerEvent);
+
         protected class ButtonState
         {
-
             public ButtonState();
 
             public MouseButtonEventData eventData { get; set; }
@@ -41,7 +40,6 @@ namespace UnityEngine.EventSystems
         }
         protected class MouseState
         {
-
             public MouseState();
 
             public bool AnyPressesThisFrame();
@@ -51,7 +49,6 @@ namespace UnityEngine.EventSystems
         }
         public class MouseButtonEventData
         {
-
             public PointerEventData.FramePressState buttonState;
             public PointerEventData buttonData;
 

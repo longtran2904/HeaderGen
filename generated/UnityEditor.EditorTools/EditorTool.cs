@@ -9,7 +9,6 @@ namespace UnityEditor.EditorTools
 {
     public abstract class EditorTool : ScriptableObject, IEditor
     {
-
         protected EditorTool();
 
         public IEnumerable<UnityEngine.Object> targets { get; }

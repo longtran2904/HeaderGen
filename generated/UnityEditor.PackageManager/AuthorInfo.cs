@@ -11,7 +11,6 @@ namespace UnityEditor.PackageManager
     [RequiredByNativeCode]
     public class AuthorInfo
     {
-
         public string name { get; }
         public string email { get; }
         public string url { get; }

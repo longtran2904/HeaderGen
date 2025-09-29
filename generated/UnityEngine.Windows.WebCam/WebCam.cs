@@ -12,7 +12,6 @@ namespace UnityEngine.Windows.WebCam
     [StaticAccessor("WebCam::GetInstance()", StaticAccessorType.Dot)]
     public class WebCam
     {
-
         public WebCam();
 
         public static WebCamMode Mode { get; }

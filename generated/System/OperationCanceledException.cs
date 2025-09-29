@@ -10,7 +10,6 @@ namespace System
 {
     public class OperationCanceledException : SystemException
     {
-
         public OperationCanceledException();
         public OperationCanceledException(string message);
         public OperationCanceledException(string message, Exception innerException);

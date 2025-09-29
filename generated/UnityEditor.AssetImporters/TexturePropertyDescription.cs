@@ -10,7 +10,6 @@ namespace UnityEditor.AssetImporters
     [NativeType(Header = "Editor/Src/AssetPipeline/ModelImporting/MaterialDescription.h")]
     public struct TexturePropertyDescription
     {
-
         public Vector2 offset;
         public Vector2 scale;
         public Texture texture;

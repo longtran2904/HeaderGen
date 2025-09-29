@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [AttributeUsage(AttributeTargets.Interface, Inherited = False)]
     public sealed class TypeLibImportClassAttribute : Attribute
     {
-
         public TypeLibImportClassAttribute(Type importClass);
 
         public string Value { get; }

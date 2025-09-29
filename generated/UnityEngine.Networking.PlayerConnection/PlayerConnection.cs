@@ -9,7 +9,6 @@ namespace UnityEngine.Networking.PlayerConnection
 {
     public class PlayerConnection : ScriptableObject, IEditorPlayerConnection
     {
-
         public PlayerConnection();
 
         public static PlayerConnection instance { get; }

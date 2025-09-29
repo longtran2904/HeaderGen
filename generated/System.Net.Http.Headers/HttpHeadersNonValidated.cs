@@ -11,16 +11,15 @@ namespace System.Net.Http.Headers
     [DefaultMember("Item")]
     public readonly struct HttpHeadersNonValidated : IEnumerable, IEnumerable<KeyValuePair<string, HeaderStringValues>>, IReadOnlyCollection<KeyValuePair<string, HeaderStringValues>>, IReadOnlyDictionary<string, HeaderStringValues>
     {
-
         public HeaderStringValues this[string headerName] { get; }
         public int Count { get; }
 
         public bool Contains(string headerName);
         public bool TryGetValues(string headerName, out HeaderStringValues values);
         public Enumerator GetEnumerator();
+
         public struct Enumerator : IDisposable, IEnumerator, IEnumerator<KeyValuePair<string, HeaderStringValues>>
         {
-
             public KeyValuePair<string, HeaderStringValues> Current { get; }
 
             public bool MoveNext();

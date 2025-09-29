@@ -6,7 +6,6 @@ namespace System
 {
     public readonly struct ConsoleKeyInfo : IEquatable<ConsoleKeyInfo>
     {
-
         public ConsoleKeyInfo(char keyChar, ConsoleKey key, bool shift, bool alt, bool control);
 
         public char KeyChar { get; }

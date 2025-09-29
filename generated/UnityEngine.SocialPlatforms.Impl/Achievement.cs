@@ -8,7 +8,6 @@ namespace UnityEngine.SocialPlatforms.Impl
 {
     public class Achievement : IAchievement
     {
-
         public Achievement(string id, double percentCompleted, bool completed, bool hidden, DateTime lastReportedDate);
         public Achievement(string id, double percent);
         public Achievement();

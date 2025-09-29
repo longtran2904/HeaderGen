@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
     [MovedFrom("Utilities")]
     public static class MaterialQualityUtilities
     {
-
         public static string[] KeywordNames;
         public static string[] EnumNames;
         public static ShaderKeyword[] Keywords;

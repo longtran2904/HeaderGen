@@ -6,7 +6,6 @@ namespace System
 {
     public sealed class AppDomainSetup
     {
-
         public string ApplicationBase { get; }
         public string TargetFrameworkName { get; }
     }

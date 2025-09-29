@@ -8,7 +8,6 @@ namespace UnityEngine.TestTools
 {
     public static class LogAssert
     {
-
         public static bool ignoreFailingMessages { get; set; }
 
         public static void Expect(LogType type, string message);

@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public abstract class UxmlTypeRestriction : IEquatable<UxmlTypeRestriction>
     {
-
         protected UxmlTypeRestriction();
 
         public virtual bool Equals(UxmlTypeRestriction other);

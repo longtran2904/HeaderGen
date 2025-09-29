@@ -9,7 +9,6 @@ namespace UnityEngine.Internal
     [AttributeUsage(AttributeTargets.Parameter | AttributeTargets.GenericParameter)]
     public class DefaultValueAttribute : Attribute
     {
-
         public DefaultValueAttribute(string value);
 
         public object Value { get; }

@@ -6,7 +6,6 @@ namespace UnityEditor.UI
 {
     public class SelfControllerEditor : Editor
     {
-
         public SelfControllerEditor();
 
         public override void OnInspectorGUI();

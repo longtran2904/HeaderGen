@@ -8,7 +8,6 @@ namespace UnityEditor.Compilation
 {
     public class AssemblyBuilder
     {
-
         public AssemblyBuilder(string assemblyPath, params string[] scriptPaths);
 
         public string[] scriptPaths { get; }

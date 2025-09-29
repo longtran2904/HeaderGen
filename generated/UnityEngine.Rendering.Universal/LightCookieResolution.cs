@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.Universal
 {
     public enum LightCookieResolution
     {
-
         _256 = 256,
         _512 = 512,
         _1024 = 1024,

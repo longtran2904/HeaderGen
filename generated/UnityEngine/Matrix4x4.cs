@@ -18,7 +18,6 @@ namespace UnityEngine
     [RequiredByNativeCode(Optional = True, GenerateProxy = True)]
     public struct Matrix4x4 : IEquatable<Matrix4x4>, IFormattable
     {
-
         [NativeName("m_Data[0]")]
         public float m00;
         [NativeName("m_Data[1]")]

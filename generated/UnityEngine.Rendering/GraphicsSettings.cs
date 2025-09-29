@@ -10,7 +10,6 @@ namespace UnityEngine.Rendering
     [StaticAccessor("GetGraphicsSettings()", StaticAccessorType.Dot)]
     public sealed class GraphicsSettings : Object
     {
-
         public static TransparencySortMode transparencySortMode { get; set; }
         public static Vector3 transparencySortAxis { get; set; }
         public static bool realtimeDirectRectangularAreaLights { get; set; }

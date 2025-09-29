@@ -11,7 +11,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public struct PhysicsShape2D
     {
-
         public PhysicsShapeType2D shapeType { get; set; }
         public float radius { get; set; }
         public int vertexStartIndex { get; set; }

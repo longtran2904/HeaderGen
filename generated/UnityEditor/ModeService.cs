@@ -11,7 +11,6 @@ namespace UnityEditor
     [ExcludeFromDocs]
     public static class ModeService
     {
-
         public static string[] modeNames { get; }
         public static int modeCount { get; }
         public static string currentId { get; }
@@ -24,9 +23,9 @@ namespace UnityEditor
         public static void Update();
         public static bool HasContextMenu(string menuId);
         public static void PopupContextMenu(string menuId);
+
         public struct ModeChangedArgs
         {
-
             public int prevIndex;
             public int nextIndex;
         }

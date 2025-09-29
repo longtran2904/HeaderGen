@@ -7,7 +7,6 @@ namespace System.Runtime.Intrinsics.X86
     [CLSCompliant(False)]
     public abstract class Bmi1 : X86Base
     {
-
         public static bool IsSupported { get; }
 
         public static uint AndNot(uint left, uint right);
@@ -17,9 +16,9 @@ namespace System.Runtime.Intrinsics.X86
         public static uint GetMaskUpToLowestSetBit(uint value);
         public static uint ResetLowestSetBit(uint value);
         public static uint TrailingZeroCount(uint value);
+
         public abstract class X64 : X86Base.X64
         {
-
             public static bool IsSupported { get; }
 
             public static ulong AndNot(ulong left, ulong right);

@@ -6,7 +6,6 @@ namespace Unity.Jobs
 {
     public static class IJobExtensions
     {
-
         public static JobHandle Schedule<T>(this T jobData, JobHandle dependsOn = null) where T : IJob, struct;
         public static void Run<T>(this T jobData) where T : IJob, struct;
     }

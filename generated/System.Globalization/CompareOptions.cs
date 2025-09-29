@@ -7,7 +7,6 @@ namespace System.Globalization
     [Flags]
     public enum CompareOptions
     {
-
         None = 0,
         IgnoreCase = 1,
         IgnoreNonSpace = 2,

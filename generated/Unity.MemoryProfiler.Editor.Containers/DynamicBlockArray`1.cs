@@ -10,7 +10,6 @@ namespace Unity.MemoryProfiler.Editor.Containers
     [DefaultMember("Item")]
     public struct DynamicBlockArray<T> : IDisposable where T : struct
     {
-
         public const int k_InitialBlockSlots = 8;
 
         public DynamicBlockArray(int blockSize, int initialCapacity);

@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public struct SphericalHarmonicsL1
     {
-
         public Vector4 shAr;
         public Vector4 shAg;
         public Vector4 shAb;

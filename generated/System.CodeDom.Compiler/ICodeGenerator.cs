@@ -8,7 +8,6 @@ namespace System.CodeDom.Compiler
 {
     public interface ICodeGenerator
     {
-
         bool IsValidIdentifier(string value);
         void ValidateIdentifier(string value);
         string CreateEscapedIdentifier(string value);

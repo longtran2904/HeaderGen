@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public class PopupWindow : EditorWindow
     {
-
         public static void Show(Rect activatorRect, PopupWindowContent windowContent);
         protected virtual void OnEnable();
         protected virtual void OnDisable();

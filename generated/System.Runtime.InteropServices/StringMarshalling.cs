@@ -6,7 +6,6 @@ namespace System.Runtime.InteropServices
 {
     public enum StringMarshalling
     {
-
         Custom = 0,
         Utf8 = 1,
         Utf16 = 2

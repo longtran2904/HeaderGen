@@ -9,7 +9,6 @@ namespace UnityEditor
 {
     public class AnimationClipCurveData
     {
-
         public string path;
         public Type type;
         public string propertyName;

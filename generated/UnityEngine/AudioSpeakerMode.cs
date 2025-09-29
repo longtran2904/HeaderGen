@@ -8,7 +8,6 @@ namespace UnityEngine
 {
     public enum AudioSpeakerMode
     {
-
         [Obsolete("Raw speaker mode is not supported. Do not use.", True)]
         Raw = 0,
         Mono = 1,

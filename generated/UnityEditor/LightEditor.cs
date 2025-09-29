@@ -12,7 +12,6 @@ namespace UnityEditor
     [CustomEditor(typeof(Light))]
     public class LightEditor : Editor
     {
-
         protected static readonly Color kGizmoLight;
         protected static readonly Color kGizmoDisabledLight;
 
@@ -24,9 +23,9 @@ namespace UnityEditor
         protected virtual void OnDestroy();
         public override void OnInspectorGUI();
         protected virtual void OnSceneGUI();
+
         public sealed class Settings
         {
-
             public Settings(SerializedObject so);
 
             public SerializedProperty lightType { get; }

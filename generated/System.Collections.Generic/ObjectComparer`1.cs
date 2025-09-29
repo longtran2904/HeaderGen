@@ -6,7 +6,6 @@ namespace System.Collections.Generic
 {
     public sealed class ObjectComparer<T> : Comparer<T>
     {
-
         public ObjectComparer();
 
         public override int Compare(T x, T y);

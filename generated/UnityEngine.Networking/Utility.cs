@@ -10,7 +10,6 @@ namespace UnityEngine.Networking
 {
     public class Utility
     {
-
         [Obsolete("This property is unused and should not be referenced in code.", True)]
         public static bool useRandomSourceID { get; set; }
 

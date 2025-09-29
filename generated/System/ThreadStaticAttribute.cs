@@ -7,7 +7,6 @@ namespace System
     [AttributeUsage(AttributeTargets.Field, Inherited = False)]
     public class ThreadStaticAttribute : Attribute
     {
-
         public ThreadStaticAttribute();
     }
 }

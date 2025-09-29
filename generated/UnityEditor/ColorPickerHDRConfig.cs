@@ -9,7 +9,6 @@ namespace UnityEditor
     [Obsolete]
     public class ColorPickerHDRConfig
     {
-
         public float minBrightness;
         public float maxBrightness;
         public float minExposureValue;

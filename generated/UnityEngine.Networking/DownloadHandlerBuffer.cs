@@ -10,7 +10,6 @@ namespace UnityEngine.Networking
     [NativeHeader("Modules/UnityWebRequest/Public/DownloadHandler/DownloadHandlerBuffer.h")]
     public sealed class DownloadHandlerBuffer : DownloadHandler
     {
-
         public DownloadHandlerBuffer();
 
         protected override NativeArray<byte> GetNativeData();

@@ -6,7 +6,6 @@ namespace UnityEngine.EventSystems
 {
     public enum MoveDirection
     {
-
         Left = 0,
         Up = 1,
         Right = 2,

@@ -8,7 +8,6 @@ namespace UnityEditor.SceneManagement
 {
     public class ObjectOverride : PrefabOverride
     {
-
         public ObjectOverride();
 
         public UnityEngine.Object instanceObject { get; set; }

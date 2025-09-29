@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering.UI
 {
     public class DebugUIHandlerBitField : DebugUIHandlerWidget
     {
-
         public Text nameLabel;
         public UIFoldout valueToggle;
         public List<DebugUIHandlerIndirectToggle> toggles;

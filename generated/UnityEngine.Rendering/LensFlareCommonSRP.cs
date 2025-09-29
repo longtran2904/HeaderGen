@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
 {
     public sealed class LensFlareCommonSRP
     {
-
         public static int maxLensFlareWithOcclusion;
         public static int maxLensFlareWithOcclusionTemporalSample;
         public static int mergeNeeded;

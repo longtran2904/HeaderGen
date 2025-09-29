@@ -8,7 +8,6 @@ namespace Microsoft.Unity.VisualStudio.Editor
 {
     public interface IGenerator
     {
-
         string ProjectDirectory { get; }
         IAssemblyNameProvider AssemblyNameProvider { get; }
 

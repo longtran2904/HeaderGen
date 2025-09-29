@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.Universal
 {
     public enum UpscalingFilterSelection
     {
-
         [InspectorName("Automatic")]
         Auto = 0,
         [InspectorName("Bilinear")]

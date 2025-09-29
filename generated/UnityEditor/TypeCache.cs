@@ -13,7 +13,6 @@ namespace UnityEditor
     [NativeHeader("Runtime/Mono/TypeCache.h")]
     public static class TypeCache
     {
-
         [ThreadSafe]
         public static TypeCollection GetTypesWithAttribute(Type attrType);
         [ThreadSafe]
@@ -25,10 +24,10 @@ namespace UnityEditor
         public static FieldInfoCollection GetFieldsWithAttribute<T>() where T : Attribute;
         public static TypeCollection GetTypesDerivedFrom<T>();
         public static TypeCollection GetTypesDerivedFrom(Type parentType);
+
         [DefaultMember("Item")]
         public struct TypeCollection : ICollection, ICollection<Type>, IEnumerable, IEnumerable<Type>, IList, IList<Type>
         {
-
             public Type this[int index] { get; set; }
             public int Count { get; }
             public bool IsReadOnly { get; }
@@ -42,9 +41,9 @@ namespace UnityEditor
             public void CopyTo(Array array, int arrayIndex);
             public int IndexOf(Type item);
             public int IndexOf(object item);
+
             public struct Enumerator : IDisposable, IEnumerator, IEnumerator<Type>
             {
-
                 public Type Current { get; }
 
                 public void Dispose();
@@ -54,7 +53,6 @@ namespace UnityEditor
         [DefaultMember("Item")]
         public struct MethodCollection : ICollection, ICollection<MethodInfo>, IEnumerable, IEnumerable<MethodInfo>, IList, IList<MethodInfo>
         {
-
             public MethodInfo this[int index] { get; set; }
             public int Count { get; }
             public bool IsReadOnly { get; }
@@ -68,9 +66,9 @@ namespace UnityEditor
             public void CopyTo(Array array, int arrayIndex);
             public int IndexOf(MethodInfo item);
             public int IndexOf(object item);
+
             public struct Enumerator : IDisposable, IEnumerator, IEnumerator<MethodInfo>
             {
-
                 public MethodInfo Current { get; }
 
                 public void Dispose();
@@ -80,7 +78,6 @@ namespace UnityEditor
         [DefaultMember("Item")]
         public struct FieldInfoCollection : ICollection, ICollection<FieldInfo>, IEnumerable, IEnumerable<FieldInfo>, IList, IList<FieldInfo>
         {
-
             public FieldInfo this[int index] { get; set; }
             public int Count { get; }
             public bool IsReadOnly { get; }
@@ -94,9 +91,9 @@ namespace UnityEditor
             public void CopyTo(Array array, int arrayIndex);
             public int IndexOf(FieldInfo item);
             public int IndexOf(object item);
+
             public struct Enumerator : IDisposable, IEnumerator, IEnumerator<FieldInfo>
             {
-
                 public FieldInfo Current { get; }
 
                 public void Dispose();

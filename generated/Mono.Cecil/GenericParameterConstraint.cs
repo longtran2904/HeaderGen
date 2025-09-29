@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public sealed class GenericParameterConstraint : ICustomAttributeProvider, IMetadataTokenProvider
     {
-
         public GenericParameterConstraint(TypeReference constraintType);
 
         public TypeReference ConstraintType { get; set; }

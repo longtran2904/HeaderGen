@@ -9,7 +9,6 @@ namespace UnityEngine
 {
     public static class Social
     {
-
         public static ISocialPlatform Active { get; set; }
         public static ILocalUser localUser { get; }
 

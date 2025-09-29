@@ -9,7 +9,6 @@ namespace System.Resources
 {
     public sealed class ResourceReader : IDisposable, IEnumerable, IResourceReader
     {
-
         public ResourceReader(string fileName);
         public ResourceReader(Stream stream);
 

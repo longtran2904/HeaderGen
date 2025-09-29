@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public class MousePositionDebug
     {
-
         public MousePositionDebug();
 
         public static MousePositionDebug instance { get; }

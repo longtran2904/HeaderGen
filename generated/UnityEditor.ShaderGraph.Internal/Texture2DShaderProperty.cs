@@ -8,12 +8,11 @@ namespace UnityEditor.ShaderGraph.Internal
     [FormerName("UnityEditor.ShaderGraph.TextureShaderProperty")]
     public sealed class Texture2DShaderProperty : AbstractShaderProperty<SerializableTexture>
     {
-
         public override PropertyType propertyType { get; }
         public DefaultType defaultType { get; set; }
+
         public enum DefaultType
         {
-
             White = 0,
             Black = 1,
             Grey = 2,

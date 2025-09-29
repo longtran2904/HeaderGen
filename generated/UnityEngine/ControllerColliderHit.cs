@@ -9,7 +9,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public class ControllerColliderHit
     {
-
         public ControllerColliderHit();
 
         public CharacterController controller { get; }

@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public static class PointerId
     {
-
         public static readonly int maxPointers;
         public static readonly int invalidPointerId;
         public static readonly int mousePointerId;

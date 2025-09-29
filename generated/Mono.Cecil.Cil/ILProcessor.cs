@@ -6,7 +6,6 @@ namespace Mono.Cecil.Cil
 {
     public sealed class ILProcessor
     {
-
         public MethodBody Body { get; }
 
         public Instruction Create(OpCode opcode);

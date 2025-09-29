@@ -10,7 +10,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class Resizer : VisualElement
     {
-
         public Resizer();
         public Resizer(Action onResizedCallback);
         public Resizer(Vector2 minimumSize, Action onResizedCallback = null);

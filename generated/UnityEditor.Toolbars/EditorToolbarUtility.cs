@@ -8,7 +8,6 @@ namespace UnityEditor.Toolbars
 {
     public static class EditorToolbarUtility
     {
-
         public static void SetupChildrenAsButtonStrip(VisualElement root);
     }
 }

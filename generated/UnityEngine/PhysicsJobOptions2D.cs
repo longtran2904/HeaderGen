@@ -12,7 +12,6 @@ namespace UnityEngine
     [RequiredByNativeCode(Optional = True, GenerateProxy = True)]
     public struct PhysicsJobOptions2D
     {
-
         public bool useMultithreading { get; set; }
         public bool useConsistencySorting { get; set; }
         public int interpolationPosesPerJob { get; set; }

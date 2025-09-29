@@ -6,7 +6,6 @@ namespace UnityEditor.VersionControl
 {
     public interface IInspectorWindowExtension
     {
-
         void OnVersionControlBar(Editor editor);
         void InvalidateVersionControlBarState();
     }

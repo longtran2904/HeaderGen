@@ -13,7 +13,6 @@ namespace Unity.Mathematics
     [Il2CppEagerStaticClassConstruction]
     public struct uint2 : IEquatable<uint2>, IFormattable
     {
-
         public uint x;
         public uint y;
         public static readonly uint2 zero;

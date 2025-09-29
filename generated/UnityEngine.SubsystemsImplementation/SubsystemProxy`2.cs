@@ -6,7 +6,6 @@ namespace UnityEngine.SubsystemsImplementation
 {
     public class SubsystemProxy<TSubsystem, TProvider> where TSubsystem : SubsystemWithProvider, new() where TProvider : SubsystemProvider<TSubsystem>
     {
-
         public TProvider provider { get; }
         public bool running { get; set; }
     }

@@ -11,7 +11,6 @@ namespace UnityEditor.SceneManagement
 {
     public static class SceneHierarchyHooks
     {
-
         public static Func<SubSceneInfo[]> provideSubScenes;
         public static Func<SubSceneInfo, string> provideSubSceneName;
 
@@ -23,10 +22,10 @@ namespace UnityEditor.SceneManagement
         public static void ReloadAllSceneHierarchies();
         public static bool CanSetNewParent(Transform transform, Transform newParent);
         public static bool CanMoveTransformToScene(Transform transform, Scene scene);
+
         [NativeType(IntermediateScriptingStructName = "SceneHierarchyHooks_SubSceneInfo")]
         public struct SubSceneInfo
         {
-
             public Transform transform;
             public Scene scene;
             [Ignore]

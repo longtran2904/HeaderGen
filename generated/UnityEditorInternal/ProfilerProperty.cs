@@ -12,7 +12,6 @@ namespace UnityEditorInternal
     [NativeHeader("Runtime/Interfaces/IUISystem.h")]
     public class ProfilerProperty : IDisposable
     {
-
         public ProfilerProperty();
 
         ~ProfilerProperty();

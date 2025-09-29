@@ -12,7 +12,6 @@ namespace UnityEngine
     [Obsolete("RemoteNotification is deprecated. Please use iOS.RemoteNotification instead (UnityUpgradable) -> UnityEngine.iOS.RemoteNotification", True)]
     public sealed class RemoteNotification
     {
-
         public RemoteNotification();
 
         public string alertBody { get; }

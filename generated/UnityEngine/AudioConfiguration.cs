@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public struct AudioConfiguration
     {
-
         public AudioSpeakerMode speakerMode;
         public int dspBufferSize;
         public int sampleRate;

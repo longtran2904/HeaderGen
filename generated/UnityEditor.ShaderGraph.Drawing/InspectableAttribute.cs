@@ -9,7 +9,6 @@ namespace UnityEditor.ShaderGraph.Drawing
     [AttributeUsage(AttributeTargets.Property)]
     public class InspectableAttribute : Attribute
     {
-
         public InspectableAttribute(string labelName, object defaultValue, string customStyleName = "");
 
         public string labelName { get; }

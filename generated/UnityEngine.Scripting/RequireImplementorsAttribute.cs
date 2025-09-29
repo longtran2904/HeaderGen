@@ -9,7 +9,6 @@ namespace UnityEngine.Scripting
     [AttributeUsage(AttributeTargets.Interface, AllowMultiple = False)]
     public class RequireImplementorsAttribute : Attribute
     {
-
         public RequireImplementorsAttribute();
     }
 }

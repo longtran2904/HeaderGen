@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public struct EventDispatcherGate : IDisposable, IEquatable<EventDispatcherGate>
     {
-
         public EventDispatcherGate(EventDispatcher d);
 
         public void Dispose();

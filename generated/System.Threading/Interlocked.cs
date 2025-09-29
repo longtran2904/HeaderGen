@@ -6,7 +6,6 @@ namespace System.Threading
 {
     public static class Interlocked
     {
-
         public static int Increment(ref int location);
         public static long Increment(ref long location);
         public static int Decrement(ref int location);

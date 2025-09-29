@@ -8,7 +8,6 @@ namespace UnityEditor.Search
 {
     public interface IQueryNode
     {
-
         IQueryNode parent { get; set; }
         QueryNodeType type { get; }
         List<IQueryNode> children { get; }

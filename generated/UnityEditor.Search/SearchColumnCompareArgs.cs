@@ -6,7 +6,6 @@ namespace UnityEditor.Search
 {
     public readonly struct SearchColumnCompareArgs
     {
-
         public readonly SearchColumnEventArgs lhs;
         public readonly SearchColumnEventArgs rhs;
         public readonly bool sortAscending;

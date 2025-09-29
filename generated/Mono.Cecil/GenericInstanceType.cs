@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public sealed class GenericInstanceType : TypeSpecification, IGenericInstance
     {
-
         public GenericInstanceType(TypeReference type);
 
         public bool HasGenericArguments { get; }

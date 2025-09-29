@@ -9,7 +9,6 @@ namespace UnityEditor.TestTools.TestRunner.Api
 {
     public class TestRunnerApi : ScriptableObject, ITestRunnerApi
     {
-
         public TestRunnerApi();
 
         public string Execute(ExecutionSettings executionSettings);

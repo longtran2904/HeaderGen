@@ -6,7 +6,6 @@ namespace System.Globalization
 {
     public class PersianCalendar : Calendar
     {
-
         public static readonly int PersianEra;
 
         public PersianCalendar();

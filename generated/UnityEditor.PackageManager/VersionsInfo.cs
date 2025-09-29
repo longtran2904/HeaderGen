@@ -12,7 +12,6 @@ namespace UnityEditor.PackageManager
     [RequiredByNativeCode]
     public class VersionsInfo
     {
-
         public string[] all { get; }
         public string[] compatible { get; }
         public string verified { get; }

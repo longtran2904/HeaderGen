@@ -6,7 +6,6 @@ namespace UnityEditor.ShaderGraph.Internal
 {
     public enum CoordinateSpace
     {
-
         Object = 0,
         View = 1,
         World = 2,

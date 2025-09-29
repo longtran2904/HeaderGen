@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public sealed class OptionalModifierType : TypeSpecification, IModifierType
     {
-
         public OptionalModifierType(TypeReference modifierType, TypeReference type);
 
         public TypeReference ModifierType { get; set; }

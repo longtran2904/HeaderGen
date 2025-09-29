@@ -10,7 +10,6 @@ namespace UnityEditor.TextCore.Text
     [CustomEditor(typeof(TextStyleSheet))]
     public class TextStyleSheetEditor : Editor
     {
-
         public TextStyleSheetEditor();
 
         public override void OnInspectorGUI();

@@ -6,7 +6,6 @@ namespace UnityEditor.Profiling.Memory.Experimental
 {
     public class NativeMemoryLabelEntries
     {
-
         public ArrayEntries<string> memoryLabelName { get; }
 
         public uint GetNumEntries();

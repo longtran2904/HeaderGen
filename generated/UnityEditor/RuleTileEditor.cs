@@ -13,7 +13,6 @@ namespace UnityEditor
     [CustomEditor(typeof(RuleTile), True)]
     public class RuleTileEditor : Editor
     {
-
         public bool extendNeighbor;
         public PreviewRenderUtility m_PreviewUtility;
         public Grid m_PreviewGrid;

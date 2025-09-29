@@ -12,7 +12,6 @@ namespace System.Text
     [DefaultMember("Chars")]
     public sealed class StringBuilder : ISerializable
     {
-
         public StringBuilder();
         public StringBuilder(int capacity);
         public StringBuilder(string value);
@@ -116,9 +115,9 @@ namespace System.Text
         public StringBuilder Replace(char oldChar, char newChar, int startIndex, int count);
         [CLSCompliant(False)]
         public StringBuilder Append(char* value, int valueCount);
+
         public struct ChunkEnumerator
         {
-
             public ReadOnlyMemory<char> Current { get; }
 
             [EditorBrowsable(EditorBrowsableState.Never)]
@@ -128,7 +127,6 @@ namespace System.Text
         [EditorBrowsable(EditorBrowsableState.Never)]
         public struct AppendInterpolatedStringHandler
         {
-
             public AppendInterpolatedStringHandler(int literalLength, int formattedCount, StringBuilder stringBuilder);
             public AppendInterpolatedStringHandler(int literalLength, int formattedCount, StringBuilder stringBuilder, IFormatProvider provider);
 

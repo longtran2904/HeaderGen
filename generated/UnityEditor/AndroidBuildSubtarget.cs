@@ -13,7 +13,6 @@ namespace UnityEditor
     [Obsolete("UnityEditor.AndroidBuildSubtarget has been deprecated. Use UnityEditor.MobileTextureSubtarget instead (UnityUpgradable)", True)]
     public enum AndroidBuildSubtarget
     {
-
         Generic = -1,
         DXT = -1,
         PVRTC = -1,

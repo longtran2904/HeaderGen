@@ -9,7 +9,6 @@ namespace UnityEngine.Networking
     [Obsolete("MovieTexture is deprecated. Use VideoPlayer instead.", True)]
     public sealed class DownloadHandlerMovieTexture : DownloadHandler
     {
-
         public DownloadHandlerMovieTexture();
 
         public MovieTexture movieTexture { get; }

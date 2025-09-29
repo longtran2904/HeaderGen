@@ -8,7 +8,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class EdgeManipulator : MouseManipulator
     {
-
         public EdgeManipulator();
 
         protected override void RegisterCallbacksOnTarget();

@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public struct BoundingSphere
     {
-
         public Vector3 position;
         public float radius;
 

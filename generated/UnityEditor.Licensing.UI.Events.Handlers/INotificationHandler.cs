@@ -9,7 +9,6 @@ namespace UnityEditor.Licensing.UI.Events.Handlers
     [ExcludeFromDocs]
     public abstract class INotificationHandler
     {
-
         protected INotificationHandler();
 
         public virtual void Handle(bool isHumanControllingUs);

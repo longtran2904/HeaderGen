@@ -14,7 +14,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public struct SkeletonBone
     {
-
         [NativeName("m_Name")]
         public string name;
         [NativeName("m_Position")]

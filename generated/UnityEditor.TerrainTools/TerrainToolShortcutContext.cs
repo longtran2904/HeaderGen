@@ -10,7 +10,6 @@ namespace UnityEditor.TerrainTools
     [MovedFrom("UnityEditor.Experimental.TerrainAPI")]
     public class TerrainToolShortcutContext : IShortcutToolContext
     {
-
         public void SelectPaintTool<T>() where T : TerrainPaintTool<T>;
     }
 }

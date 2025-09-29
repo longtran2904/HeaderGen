@@ -6,7 +6,6 @@ namespace Unity.MemoryProfiler.Editor.Format.QueriedSnapshot
 {
     public enum ReadError
     {
-
         None = 0,
         Success = 1,
         InProgress = 2,

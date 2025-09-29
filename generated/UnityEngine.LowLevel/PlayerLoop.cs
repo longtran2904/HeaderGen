@@ -9,7 +9,6 @@ namespace UnityEngine.LowLevel
     [MovedFrom("UnityEngine.Experimental.LowLevel")]
     public class PlayerLoop
     {
-
         public PlayerLoop();
 
         public static PlayerLoopSystem GetDefaultPlayerLoop();

@@ -6,7 +6,6 @@ namespace UnityEditor.TestTools.TestRunner.Api
 {
     public enum TestStatus
     {
-
         Inconclusive = 0,
         Skipped = 1,
         Passed = 2,

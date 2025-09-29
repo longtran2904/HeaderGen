@@ -10,7 +10,6 @@ namespace UnityEngine.TextCore.Text
     [ExcludeFromPreset]
     public class FontAsset : TextAsset
     {
-
         public FontAsset();
 
         public Font sourceFontFile { get; }

@@ -8,7 +8,6 @@ namespace UnityEditor.UIElements
 {
     public class PropertyField : VisualElement, IBindable
     {
-
         public static readonly string ussClassName;
         public static readonly string labelUssClassName;
         public static readonly string inputUssClassName;
@@ -23,14 +22,13 @@ namespace UnityEditor.UIElements
 
         protected override void ExecuteDefaultActionAtTarget(EventBase evt);
         public void RegisterValueChangeCallback(EventCallback<SerializedPropertyChangeEvent> callback);
+
         public class UxmlFactory : UxmlFactory<PropertyField, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : VisualElement.UxmlTraits
         {
-
             public UxmlTraits();
 
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc);

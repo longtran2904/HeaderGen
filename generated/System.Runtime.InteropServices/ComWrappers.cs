@@ -14,7 +14,6 @@ namespace System.Runtime.InteropServices
     [UnsupportedOSPlatform("tvos")]
     public abstract class ComWrappers
     {
-
         protected ComWrappers();
 
         public static bool TryGetComInstance(object obj, out nint unknown);
@@ -30,16 +29,15 @@ namespace System.Runtime.InteropServices
         protected abstract ComInterfaceEntry* ComputeVtables(object obj, CreateComInterfaceFlags flags, out int count);
         protected abstract object CreateObject(nint externalComObject, CreateObjectFlags flags);
         protected abstract void ReleaseObjects(IEnumerable objects);
+
         public struct ComInterfaceDispatch
         {
-
             public nint Vtable;
 
             public static T GetInstance<T>(ComInterfaceDispatch* dispatchPtr) where T : class;
         }
         public struct ComInterfaceEntry
         {
-
             public Guid IID;
             public nint Vtable;
         }

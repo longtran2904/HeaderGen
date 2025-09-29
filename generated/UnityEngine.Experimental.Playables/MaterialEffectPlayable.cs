@@ -16,7 +16,6 @@ namespace UnityEngine.Experimental.Playables
     [StaticAccessor("MaterialEffectPlayableBindings", StaticAccessorType.DoubleColon)]
     public struct MaterialEffectPlayable : IEquatable<MaterialEffectPlayable>, IPlayable
     {
-
         public static MaterialEffectPlayable Create(PlayableGraph graph, Material material, int pass = -1);
         public PlayableHandle GetHandle();
         public bool Equals(MaterialEffectPlayable other);

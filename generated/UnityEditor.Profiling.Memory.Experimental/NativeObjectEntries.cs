@@ -8,7 +8,6 @@ namespace UnityEditor.Profiling.Memory.Experimental
 {
     public class NativeObjectEntries
     {
-
         public ArrayEntries<string> objectName { get; }
         public ArrayEntries<int> instanceId { get; }
         public ArrayEntries<ulong> size { get; }

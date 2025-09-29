@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public enum SecurityAction
     {
-
         Request = 1,
         Demand = 2,
         Assert = 3,

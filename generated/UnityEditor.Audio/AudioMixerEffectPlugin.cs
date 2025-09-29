@@ -6,7 +6,6 @@ namespace UnityEditor.Audio
 {
     public class AudioMixerEffectPlugin : IAudioEffectPlugin
     {
-
         public AudioMixerEffectPlugin();
 
         public override bool SetFloatParameter(string name, float value);

@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public struct ColliderDistance2D
     {
-
         public Vector2 pointA { get; set; }
         public Vector2 pointB { get; set; }
         public Vector2 normal { get; }

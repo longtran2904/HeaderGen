@@ -9,7 +9,6 @@ namespace UnityEngine
 {
     public class TextEditor
     {
-
         public TouchScreenKeyboard keyboardOnScreen;
         public int controlID;
         public GUIStyle style;
@@ -99,9 +98,9 @@ namespace UnityEngine
         public void Copy();
         public bool Paste();
         public void DetectFocusChange();
+
         public enum DblClickSnapping
         {
-
             WORDS = 0,
             PARAGRAPHS = 1
         }

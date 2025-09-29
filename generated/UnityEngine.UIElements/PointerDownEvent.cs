@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public sealed class PointerDownEvent : PointerEventBase<PointerDownEvent>
     {
-
         public PointerDownEvent();
 
         protected override void Init();

@@ -8,7 +8,6 @@ namespace UnityEngine
 {
     public enum SystemLanguage
     {
-
         Afrikaans = 0,
         Arabic = 1,
         Basque = 2,

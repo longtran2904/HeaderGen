@@ -18,7 +18,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public struct Quaternion : IEquatable<Quaternion>, IFormattable
     {
-
         public float x;
         public float y;
         public float z;

@@ -7,7 +7,6 @@ namespace UnityEngine.Tilemaps
     [CreateAssetMenu(menuName = "2D/Tiles/Weighted Random Tile", fileName = "New Weighted Random Tile", order = 82)]
     public class WeightedRandomTile : Tile
     {
-
         [SerializeField]
         public WeightedSprite[] Sprites;
 

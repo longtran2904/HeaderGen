@@ -8,7 +8,6 @@ namespace System.Threading
 {
     public static class Monitor
     {
-
         public static long LockContentionCount { get; }
 
         public static void Enter(object obj);

@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public interface IPersistFile
     {
-
         void GetClassID(out Guid pClassID);
         int IsDirty();
         void Load(string pszFileName, int dwMode);

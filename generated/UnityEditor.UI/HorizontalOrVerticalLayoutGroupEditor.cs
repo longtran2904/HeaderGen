@@ -10,7 +10,6 @@ namespace UnityEditor.UI
     [CustomEditor(typeof(HorizontalOrVerticalLayoutGroup), True)]
     public class HorizontalOrVerticalLayoutGroupEditor : Editor
     {
-
         public HorizontalOrVerticalLayoutGroupEditor();
 
         protected virtual void OnEnable();

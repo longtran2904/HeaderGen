@@ -15,7 +15,6 @@ namespace UnityEngine
     [RequiredByNativeCode(Optional = True, GenerateProxy = True)]
     public struct Color : IEquatable<Color>, IFormattable
     {
-
         public float r;
         public float g;
         public float b;

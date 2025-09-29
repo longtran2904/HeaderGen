@@ -9,7 +9,6 @@ namespace System.IO
 {
     public abstract class Stream : MarshalByRefObject, IAsyncDisposable, IDisposable
     {
-
         public static readonly Stream Null;
 
         protected Stream();

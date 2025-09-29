@@ -10,7 +10,6 @@ namespace System.Collections.ObjectModel
     [DefaultMember("Item")]
     public class Collection<T> : ICollection, ICollection<T>, IEnumerable, IEnumerable<T>, IList, IList<T>, IReadOnlyCollection<T>, IReadOnlyList<T>
     {
-
         public Collection();
         public Collection(IList<T> list);
 

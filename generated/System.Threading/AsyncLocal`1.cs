@@ -6,7 +6,6 @@ namespace System.Threading
 {
     public sealed class AsyncLocal<T> : IAsyncLocal
     {
-
         public AsyncLocal();
         public AsyncLocal(Action<AsyncLocalValueChangedArgs<T>> valueChangedHandler);
 

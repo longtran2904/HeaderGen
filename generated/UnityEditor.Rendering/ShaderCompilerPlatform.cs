@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering
 {
     public enum ShaderCompilerPlatform
     {
-
         None = 0,
         D3D = 4,
         GLES20 = 5,

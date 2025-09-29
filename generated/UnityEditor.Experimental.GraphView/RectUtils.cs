@@ -8,7 +8,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class RectUtils
     {
-
         public RectUtils();
 
         public static bool IntersectsSegment(Rect rect, Vector2 p1, Vector2 p2);

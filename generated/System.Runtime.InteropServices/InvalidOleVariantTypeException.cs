@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices
 {
     public class InvalidOleVariantTypeException : SystemException
     {
-
         public InvalidOleVariantTypeException();
         public InvalidOleVariantTypeException(string message);
         public InvalidOleVariantTypeException(string message, Exception inner);

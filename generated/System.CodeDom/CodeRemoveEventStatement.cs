@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeRemoveEventStatement : CodeStatement
     {
-
         public CodeRemoveEventStatement();
         public CodeRemoveEventStatement(CodeEventReferenceExpression eventRef, CodeExpression listener);
         public CodeRemoveEventStatement(CodeExpression targetObject, string eventName, CodeExpression listener);

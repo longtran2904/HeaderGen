@@ -9,7 +9,6 @@ namespace UnityEditor.SearchService
     [Obsolete("ObjectSelector has been deprecated. Use ObjectSelectorSearch instead (UnityUpgradable) -> ObjectSelectorSearch", False)]
     public static class ObjectSelector
     {
-
         public const SearchEngineScope EngineScope = 2;
 
         public static void RegisterEngine(IObjectSelectorEngine engine);

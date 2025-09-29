@@ -6,7 +6,6 @@ namespace System.IO
 {
     public enum FileMode
     {
-
         CreateNew = 1,
         Create = 2,
         Open = 3,

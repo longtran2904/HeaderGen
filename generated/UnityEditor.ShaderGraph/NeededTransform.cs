@@ -8,7 +8,6 @@ namespace UnityEditor.ShaderGraph
 {
     public struct NeededTransform
     {
-
         public NeededCoordinateSpace from;
         public NeededCoordinateSpace to;
 

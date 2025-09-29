@@ -15,7 +15,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Src/AssetPipeline/SpeedTreeImporter.bindings.h")]
     public class SpeedTreeImporter : AssetImporter
     {
-
         public static readonly string[] windQualityNames;
 
         public SpeedTreeImporter();
@@ -54,9 +53,9 @@ namespace UnityEditor
 
         public void GenerateMaterials();
         public bool SearchAndRemapMaterials(string materialFolderPath);
+
         public enum MaterialLocation
         {
-
             External = 0,
             InPrefab = 1
         }

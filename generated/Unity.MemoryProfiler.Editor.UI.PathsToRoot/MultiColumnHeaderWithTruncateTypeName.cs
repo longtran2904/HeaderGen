@@ -10,7 +10,6 @@ namespace Unity.MemoryProfiler.Editor.UI.PathsToRoot
 {
     public class MultiColumnHeaderWithTruncateTypeName : MultiColumnHeader
     {
-
         public MultiColumnHeaderWithTruncateTypeName(MultiColumnHeaderState state);
 
         public event Action<bool> TruncationChangedViaThisHeader;

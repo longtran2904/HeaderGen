@@ -13,7 +13,6 @@ namespace UnityEditor.MPE
     [StaticAccessor("Unity::MPE::ChannelService", StaticAccessorType.DoubleColon)]
     public static class ChannelService
     {
-
         public static Action GetOrCreateChannel(string channelName, Action<int, byte[]> handler);
         public static Action RegisterMessageHandler(string channelName, Action<int, byte[]> handler);
         public static void UnregisterMessageHandler(string channelName, Action<int, byte[]> handler);

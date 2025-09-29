@@ -13,7 +13,6 @@ namespace UnityEngine.XR
     [UsedByNativeCode]
     public class XRInputSubsystemDescriptor : IntegratedSubsystemDescriptor<XRInputSubsystem>
     {
-
         public XRInputSubsystemDescriptor();
 
         [NativeConditional("ENABLE_XR")]

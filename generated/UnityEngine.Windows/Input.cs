@@ -9,7 +9,6 @@ namespace UnityEngine.Windows
     [NativeHeader("PlatformDependent/Win/Bindings/InputBindings.h")]
     public static class Input
     {
-
         public static void ForwardRawInput(nint rawInputHeaderIndices, nint rawInputDataIndices, uint indicesCount, nint rawInputData, uint rawInputDataSize);
         public static void ForwardRawInput(uint* rawInputHeaderIndices, uint* rawInputDataIndices, uint indicesCount, byte* rawInputData, uint rawInputDataSize);
     }

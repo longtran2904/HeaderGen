@@ -9,7 +9,6 @@ namespace TreeEditor
 {
     public class RingLoop
     {
-
         public float radius;
         public float baseOffset;
 

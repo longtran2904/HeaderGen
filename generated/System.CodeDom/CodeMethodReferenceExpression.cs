@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeMethodReferenceExpression : CodeExpression
     {
-
         public CodeMethodReferenceExpression();
         public CodeMethodReferenceExpression(CodeExpression targetObject, string methodName);
         public CodeMethodReferenceExpression(CodeExpression targetObject, string methodName, params CodeTypeReference[] typeParameters);

@@ -7,7 +7,6 @@ namespace System.Diagnostics.CodeAnalysis
     [AttributeUsage(AttributeTargets.Property | AttributeTargets.Parameter | AttributeTargets.ReturnValue, AllowMultiple = True, Inherited = False)]
     public sealed class NotNullIfNotNullAttribute : Attribute
     {
-
         public NotNullIfNotNullAttribute(string parameterName);
 
         public string ParameterName { get; }

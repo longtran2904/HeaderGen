@@ -6,7 +6,6 @@ namespace Unity.Collections
 {
     public static class NativeSliceExtensions
     {
-
         public static NativeSlice<T> Slice<T>(this NativeArray<T> thisArray) where T : struct;
         public static NativeSlice<T> Slice<T>(this NativeArray<T> thisArray, int start) where T : struct;
         public static NativeSlice<T> Slice<T>(this NativeArray<T> thisArray, int start, int length) where T : struct;

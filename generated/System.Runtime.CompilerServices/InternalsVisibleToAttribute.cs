@@ -7,7 +7,6 @@ namespace System.Runtime.CompilerServices
     [AttributeUsage(AttributeTargets.Assembly, AllowMultiple = True, Inherited = False)]
     public sealed class InternalsVisibleToAttribute : Attribute
     {
-
         public InternalsVisibleToAttribute(string assemblyName);
 
         public string AssemblyName { get; }

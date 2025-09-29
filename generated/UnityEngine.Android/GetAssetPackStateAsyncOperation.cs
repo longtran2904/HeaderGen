@@ -6,7 +6,6 @@ namespace UnityEngine.Android
 {
     public class GetAssetPackStateAsyncOperation : CustomYieldInstruction
     {
-
         public override bool keepWaiting { get; }
         public bool isDone { get; }
         public ulong size { get; }

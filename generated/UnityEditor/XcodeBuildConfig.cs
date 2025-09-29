@@ -9,7 +9,6 @@ namespace UnityEditor
     [NativeType(Header = "Editor/Src/EditorUserBuildSettings.h")]
     public enum XcodeBuildConfig
     {
-
         Debug = 0,
         Release = 1
     }

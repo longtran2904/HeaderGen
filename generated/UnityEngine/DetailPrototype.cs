@@ -13,7 +13,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public sealed class DetailPrototype
     {
-
         public DetailPrototype();
         public DetailPrototype(DetailPrototype other);
 

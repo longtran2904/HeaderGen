@@ -9,7 +9,6 @@ namespace UnityEditorInternal
     [RequiredByNativeCode]
     public sealed class ObjectMemoryStackInfo
     {
-
         public bool expanded;
         public bool sorted;
         public int allocated;

@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics2D/DistanceJoint2D.h")]
     public sealed class DistanceJoint2D : AnchoredJoint2D
     {
-
         public DistanceJoint2D();
 
         public bool autoConfigureDistance { get; set; }

@@ -6,7 +6,6 @@ namespace DLLTest.DLLNamespace
 {
     public class Boolean
     {
-
         public Boolean();
     }
 }

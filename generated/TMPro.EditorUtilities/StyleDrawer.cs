@@ -10,7 +10,6 @@ namespace TMPro.EditorUtilities
     [CustomPropertyDrawer(typeof(TMP_Style))]
     public class StyleDrawer : PropertyDrawer
     {
-
         public static readonly float height;
 
         public StyleDrawer();

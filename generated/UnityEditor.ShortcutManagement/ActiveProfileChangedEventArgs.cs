@@ -6,7 +6,6 @@ namespace UnityEditor.ShortcutManagement
 {
     public struct ActiveProfileChangedEventArgs
     {
-
         public ActiveProfileChangedEventArgs(string previousActiveProfileId, string currentActiveProfileId);
 
         public string previousActiveProfileId { get; }

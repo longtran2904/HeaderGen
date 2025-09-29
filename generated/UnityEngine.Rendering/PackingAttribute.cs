@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
     [AttributeUsage(AttributeTargets.Field, AllowMultiple = True)]
     public class PackingAttribute : Attribute
     {
-
         public string[] displayNames;
         public float[] range;
         public FieldPacking packingScheme;

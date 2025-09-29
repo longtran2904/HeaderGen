@@ -6,7 +6,6 @@ namespace UnityEngine.XR
 {
     public enum XRNode
     {
-
         LeftEye = 0,
         RightEye = 1,
         CenterEye = 2,

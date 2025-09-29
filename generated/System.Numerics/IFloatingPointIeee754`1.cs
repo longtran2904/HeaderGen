@@ -6,7 +6,6 @@ namespace System.Numerics
 {
     public interface IFloatingPointIeee754<TSelf> : IAdditionOperators<TSelf, TSelf, TSelf>, IAdditiveIdentity<TSelf, TSelf>, IComparable, IComparable<TSelf>, IComparisonOperators<TSelf, TSelf, bool>, IDecrementOperators<TSelf>, IDivisionOperators<TSelf, TSelf, TSelf>, IEqualityOperators<TSelf, TSelf, bool>, IEquatable<TSelf>, IExponentialFunctions<TSelf>, IFloatingPoint<TSelf>, IFloatingPointConstants<TSelf>, IFormattable, IHyperbolicFunctions<TSelf>, IIncrementOperators<TSelf>, ILogarithmicFunctions<TSelf>, IModulusOperators<TSelf, TSelf, TSelf>, IMultiplicativeIdentity<TSelf, TSelf>, IMultiplyOperators<TSelf, TSelf, TSelf>, INumber<TSelf>, INumberBase<TSelf>, IParsable<TSelf>, IPowerFunctions<TSelf>, IRootFunctions<TSelf>, ISignedNumber<TSelf>, ISpanFormattable, ISpanParsable<TSelf>, ISubtractionOperators<TSelf, TSelf, TSelf>, ITrigonometricFunctions<TSelf>, IUnaryNegationOperators<TSelf, TSelf>, IUnaryPlusOperators<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable<TSelf> where TSelf : IFloatingPointIeee754<TSelf>
     {
-
         TSelf Epsilon { get; }
         TSelf NaN { get; }
         TSelf NegativeInfinity { get; }

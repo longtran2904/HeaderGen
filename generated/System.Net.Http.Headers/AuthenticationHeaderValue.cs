@@ -6,7 +6,6 @@ namespace System.Net.Http.Headers
 {
     public class AuthenticationHeaderValue : ICloneable
     {
-
         public AuthenticationHeaderValue(string scheme);
         public AuthenticationHeaderValue(string scheme, string parameter);
 

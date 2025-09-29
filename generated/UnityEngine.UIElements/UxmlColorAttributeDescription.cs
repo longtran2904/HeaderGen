@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class UxmlColorAttributeDescription : TypedUxmlAttributeDescription<Color>
     {
-
         public UxmlColorAttributeDescription();
 
         public override string defaultValueAsString { get; }

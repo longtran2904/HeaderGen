@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum Tool
     {
-
         View = 0,
         Move = 1,
         Rotate = 2,

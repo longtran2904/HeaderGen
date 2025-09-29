@@ -9,7 +9,6 @@ namespace UnityEditor.Callbacks
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = True)]
     public class RunAfterClassAttribute : Attribute
     {
-
         public RunAfterClassAttribute(Type type);
         public RunAfterClassAttribute(string assemblyQualifiedName);
 

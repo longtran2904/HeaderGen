@@ -9,7 +9,6 @@ namespace UnityEditor.Networking.PlayerConnection
 {
     public static class PlayerConnectionGUIUtility
     {
-
         public static IConnectionState GetConnectionState(EditorWindow parentWindow, Action<string> connectedCallback = null);
     }
 }

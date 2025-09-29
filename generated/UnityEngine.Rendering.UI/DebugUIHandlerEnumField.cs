@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering.UI
 {
     public class DebugUIHandlerEnumField : DebugUIHandlerWidget
     {
-
         public Text nextButtonText;
         public Text previousButtonText;
         public Text nameLabel;

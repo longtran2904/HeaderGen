@@ -9,7 +9,6 @@ namespace UnityEditor
     [NativeType(Header = "Editor/Src/EditorUserBuildSettings.h")]
     public enum PS4BuildSubtarget
     {
-
         PCHosted = 0,
         Package = 1,
         Iso = 2,

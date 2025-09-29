@@ -10,7 +10,6 @@ namespace UnityEditor
     [RequiredByNativeCode]
     public abstract class CallbackOrderAttribute : Attribute
     {
-
         protected int m_CallbackOrder;
 
         protected CallbackOrderAttribute();

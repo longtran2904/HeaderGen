@@ -8,7 +8,6 @@ namespace UnityEditor.IMGUI.Controls
 {
     public class MultiColumnHeaderState
     {
-
         public MultiColumnHeaderState(Column[] columns);
 
         public int sortedColumnIndex { get; set; }
@@ -20,9 +19,9 @@ namespace UnityEditor.IMGUI.Controls
 
         public static bool CanOverwriteSerializedFields(MultiColumnHeaderState source, MultiColumnHeaderState destination);
         public static void OverwriteSerializedFields(MultiColumnHeaderState source, MultiColumnHeaderState destination);
+
         public class Column
         {
-
             [SerializeField]
             public float width;
             [SerializeField]

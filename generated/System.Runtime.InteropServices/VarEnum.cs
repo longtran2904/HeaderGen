@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices
     [EditorBrowsable(EditorBrowsableState.Never)]
     public enum VarEnum
     {
-
         VT_EMPTY = 0,
         VT_NULL = 1,
         VT_I2 = 2,

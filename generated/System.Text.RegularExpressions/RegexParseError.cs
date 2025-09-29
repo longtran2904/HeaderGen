@@ -6,7 +6,6 @@ namespace System.Text.RegularExpressions
 {
     public enum RegexParseError
     {
-
         Unknown = 0,
         AlternationHasTooManyConditions = 1,
         AlternationHasMalformedCondition = 2,

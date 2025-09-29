@@ -6,7 +6,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class PortSource<T>
     {
-
         public PortSource();
     }
 }

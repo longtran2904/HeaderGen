@@ -8,7 +8,6 @@ namespace UnityEngine.Animations
 {
     public interface IConstraint
     {
-
         float weight { get; set; }
         bool constraintActive { get; set; }
         bool locked { get; set; }

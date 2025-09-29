@@ -11,7 +11,6 @@ namespace UnityEditor.ShaderGraph.Drawing.Inspector.PropertyDrawers
     [SGPropertyDrawer(typeof(AbstractMaterialNode))]
     public class AbstractMaterialNodePropertyDrawer : IGetNodePropertyDrawerPropertyData, IPropertyDrawer
     {
-
         public AbstractMaterialNodePropertyDrawer();
 
         public Action inspectorUpdateDelegate { get; set; }

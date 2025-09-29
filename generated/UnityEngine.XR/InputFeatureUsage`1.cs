@@ -8,7 +8,6 @@ namespace UnityEngine.XR
 {
     public struct InputFeatureUsage<T> : IEquatable<InputFeatureUsage<T>>
     {
-
         public InputFeatureUsage(string usageName);
 
         public string name { get; set; }

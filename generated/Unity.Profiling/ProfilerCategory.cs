@@ -10,7 +10,6 @@ namespace Unity.Profiling
     [UsedByNativeCode]
     public readonly struct ProfilerCategory
     {
-
         public ProfilerCategory(string categoryName);
         public ProfilerCategory(string categoryName, ProfilerCategoryColor color);
 

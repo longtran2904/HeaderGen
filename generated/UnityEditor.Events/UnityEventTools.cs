@@ -9,7 +9,6 @@ namespace UnityEditor.Events
 {
     public static class UnityEventTools
     {
-
         public static void AddPersistentListener(UnityEventBase unityEvent);
         public static void RemovePersistentListener(UnityEventBase unityEvent, int index);
         public static void AddPersistentListener(UnityEvent unityEvent, UnityAction call);

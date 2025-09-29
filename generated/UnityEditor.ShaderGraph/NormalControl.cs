@@ -8,7 +8,6 @@ namespace UnityEditor.ShaderGraph
 {
     public class NormalControl : IControl
     {
-
         public NormalControl(CoordinateSpace space);
 
         public CoordinateSpace space { get; }

@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public abstract class MemberReference : IMetadataTokenProvider
     {
-
         public virtual string Name { get; set; }
         public abstract string FullName { get; }
         public virtual TypeReference DeclaringType { get; set; }

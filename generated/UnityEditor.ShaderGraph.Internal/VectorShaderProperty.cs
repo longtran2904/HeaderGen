@@ -8,7 +8,6 @@ namespace UnityEditor.ShaderGraph.Internal
 {
     public abstract class VectorShaderProperty : AbstractShaderProperty<Vector4>
     {
-
         protected VectorShaderProperty();
     }
 }

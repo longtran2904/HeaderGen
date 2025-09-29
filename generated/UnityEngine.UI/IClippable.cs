@@ -6,7 +6,6 @@ namespace UnityEngine.UI
 {
     public interface IClippable
     {
-
         GameObject gameObject { get; }
         RectTransform rectTransform { get; }
 

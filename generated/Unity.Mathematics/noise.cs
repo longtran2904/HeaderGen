@@ -9,7 +9,6 @@ namespace Unity.Mathematics
     [Il2CppEagerStaticClassConstruction]
     public static class noise
     {
-
         public static float2 cellular(float2 P);
         public static float2 cellular2x2(float2 P);
         public static float2 cellular2x2x2(float3 P);

@@ -7,7 +7,6 @@ namespace System.Runtime.CompilerServices
     [AttributeUsage(AttributeTargets.Constructor | AttributeTargets.Method, Inherited = False)]
     public sealed class MethodImplAttribute : Attribute
     {
-
         public MethodCodeType MethodCodeType;
 
         public MethodImplAttribute(MethodImplOptions methodImplOptions);

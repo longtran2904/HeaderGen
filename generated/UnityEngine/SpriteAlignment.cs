@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum SpriteAlignment
     {
-
         Center = 0,
         TopLeft = 1,
         TopCenter = 2,

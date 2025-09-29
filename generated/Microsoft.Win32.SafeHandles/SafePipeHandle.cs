@@ -6,7 +6,6 @@ namespace Microsoft.Win32.SafeHandles
 {
     public sealed class SafePipeHandle : SafeHandleZeroOrMinusOneIsInvalid
     {
-
         public SafePipeHandle();
         public SafePipeHandle(nint preexistingHandle, bool ownsHandle);
 

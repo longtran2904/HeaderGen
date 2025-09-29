@@ -8,7 +8,6 @@ namespace System.Globalization
 {
     public class TextElementEnumerator : IEnumerator
     {
-
         public object Current { get; }
         public int ElementIndex { get; }
 

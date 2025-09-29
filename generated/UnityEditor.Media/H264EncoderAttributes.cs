@@ -6,7 +6,6 @@ namespace UnityEditor.Media
 {
     public struct H264EncoderAttributes
     {
-
         public uint gopSize;
         public uint numConsecutiveBFrames;
         public VideoEncodingProfile profile;

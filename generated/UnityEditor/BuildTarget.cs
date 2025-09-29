@@ -10,7 +10,6 @@ namespace UnityEditor
     [NativeType("Runtime/Serialize/SerializationMetaFlags.h")]
     public enum BuildTarget
     {
-
         StandaloneOSX = 2,
         [Obsolete("Use StandaloneOSX instead (UnityUpgradable) -> StandaloneOSX", True)]
         StandaloneOSXUniversal = 3,

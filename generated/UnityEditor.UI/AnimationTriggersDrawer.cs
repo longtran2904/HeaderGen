@@ -10,7 +10,6 @@ namespace UnityEditor.UI
     [CustomPropertyDrawer(typeof(AnimationTriggers), True)]
     public class AnimationTriggersDrawer : PropertyDrawer
     {
-
         public AnimationTriggersDrawer();
 
         public override void OnGUI(Rect rect, SerializedProperty prop, GUIContent label);

@@ -6,7 +6,6 @@ namespace UnityEngine.EventSystems
 {
     public abstract class AbstractEventData
     {
-
         protected bool m_Used;
 
         protected AbstractEventData();

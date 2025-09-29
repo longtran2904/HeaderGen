@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public enum DynamicResUpscaleFilter
     {
-
         [Obsolete("Bilinear upscale filter is considered obsolete and is not supported anymore, please use CatmullRom for a very cheap, but blurry filter.", False)]
         Bilinear = 0,
         CatmullRom = 1,

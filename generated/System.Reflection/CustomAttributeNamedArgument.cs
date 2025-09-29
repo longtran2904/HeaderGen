@@ -6,7 +6,6 @@ namespace System.Reflection
 {
     public readonly struct CustomAttributeNamedArgument : IEquatable<CustomAttributeNamedArgument>
     {
-
         public CustomAttributeNamedArgument(MemberInfo memberInfo, object value);
         public CustomAttributeNamedArgument(MemberInfo memberInfo, CustomAttributeTypedArgument typedArgument);
 

@@ -8,7 +8,6 @@ namespace System.Globalization
 {
     public sealed class TextInfo : ICloneable, IDeserializationCallback
     {
-
         public int ANSICodePage { get; }
         public int OEMCodePage { get; }
         public int MacCodePage { get; }

@@ -18,7 +18,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public class Component : Object
     {
-
         public Component();
 
         public Transform transform { get; }

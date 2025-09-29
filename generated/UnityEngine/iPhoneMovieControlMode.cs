@@ -11,7 +11,6 @@ namespace UnityEngine
     [Obsolete("iPhoneMovieControlMode enumeration is deprecated. Please use FullScreenMovieControlMode instead (UnityUpgradable) -> FullScreenMovieControlMode", True)]
     public enum iPhoneMovieControlMode
     {
-
         Full = 0,
         Minimal = 1,
         [Obsolete]

@@ -16,7 +16,6 @@ namespace UnityEditor.AssetImporters
     [NativeHeader("Editor/Src/AssetPipeline/TextureImporting/TextureImporter.bindings.h")]
     public static class TextureGenerator
     {
-
         public static TextureGenerationOutput GenerateTexture(TextureGenerationSettings settings, NativeArray<Color32> colorBuffer);
     }
 }

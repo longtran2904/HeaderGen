@@ -6,7 +6,6 @@ namespace UnityEngine.Experimental.Rendering.RenderGraphModule
 {
     public struct ComputeBufferHandle
     {
-
         public static ComputeBufferHandle nullHandle { get; }
 
         public bool IsValid();

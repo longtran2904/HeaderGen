@@ -6,7 +6,6 @@ namespace System.Collections.Generic
 {
     public class Queue<T> : ICollection, IEnumerable, IEnumerable<T>, IReadOnlyCollection<T>
     {
-
         public Queue();
         public Queue(int capacity);
         public Queue(IEnumerable<T> collection);
@@ -25,9 +24,9 @@ namespace System.Collections.Generic
         public T[] ToArray();
         public void TrimExcess();
         public int EnsureCapacity(int capacity);
+
         public struct Enumerator : IDisposable, IEnumerator, IEnumerator<T>
         {
-
             public T Current { get; }
 
             public void Dispose();

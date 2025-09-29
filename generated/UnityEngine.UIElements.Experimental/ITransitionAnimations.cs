@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements.Experimental
 {
     public interface ITransitionAnimations
     {
-
         ValueAnimation<float> Start(float from, float to, int durationMs, Action<VisualElement, float> onValueChanged);
         ValueAnimation<Rect> Start(Rect from, Rect to, int durationMs, Action<VisualElement, Rect> onValueChanged);
         ValueAnimation<Color> Start(Color from, Color to, int durationMs, Action<VisualElement, Color> onValueChanged);

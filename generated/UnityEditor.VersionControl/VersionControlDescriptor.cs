@@ -6,7 +6,6 @@ namespace UnityEditor.VersionControl
 {
     public class VersionControlDescriptor
     {
-
         public string name { get; }
         public string displayName { get; }
     }

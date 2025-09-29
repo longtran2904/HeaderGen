@@ -6,8 +6,8 @@ namespace UnityEditor
 {
     public static class ObjectChangeEvents
     {
-
         public static event ObjectChangeEventsHandler changesPublished;
+
         public delegate void ObjectChangeEventsHandler(ref ObjectChangeEventStream stream);
     }
 }

@@ -10,7 +10,6 @@ namespace UnityEngine.Rendering
     [RequireComponent(typeof(Transform))]
     public sealed class SortingGroup : Behaviour
     {
-
         public SortingGroup();
 
         public string sortingLayerName { get; set; }

@@ -6,7 +6,6 @@ namespace UnityEngine.Experimental.GlobalIllumination
 {
     public struct PointLight
     {
-
         public int instanceID;
         public bool shadow;
         public LightMode mode;

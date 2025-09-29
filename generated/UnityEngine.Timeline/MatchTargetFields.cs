@@ -9,7 +9,6 @@ namespace UnityEngine.Timeline
     [Flags]
     public enum MatchTargetFields
     {
-
         PositionX = 1,
         PositionY = 2,
         PositionZ = 4,

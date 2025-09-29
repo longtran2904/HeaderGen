@@ -11,7 +11,6 @@ namespace UnityEditor.Presets
     [NativeType(Header = "Modules/PresetsEditor/Public/PresetType.h")]
     public struct PresetType : IEquatable<PresetType>
     {
-
         public PresetType(UnityEngine.Object o);
 
         public override bool Equals(object obj);

@@ -7,7 +7,6 @@ namespace System.Reflection
     [AttributeUsage(AttributeTargets.Assembly, Inherited = False)]
     public sealed class AssemblyFileVersionAttribute : Attribute
     {
-
         public AssemblyFileVersionAttribute(string version);
 
         public string Version { get; }

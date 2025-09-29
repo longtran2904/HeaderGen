@@ -8,7 +8,6 @@ namespace Microsoft.Win32.SafeHandles
 {
     public sealed class SafeAccessTokenHandle : SafeHandle
     {
-
         public SafeAccessTokenHandle();
         public SafeAccessTokenHandle(nint handle);
 

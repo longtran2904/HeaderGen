@@ -9,21 +9,19 @@ namespace UnityEditor.UIElements
 {
     public class RectField : BaseCompositeField<Rect, FloatField, float>
     {
-
         public static readonly string ussClassName;
         public static readonly string labelUssClassName;
         public static readonly string inputUssClassName;
 
         public RectField();
         public RectField(string label);
+
         public class UxmlFactory : UxmlFactory<RectField, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : BaseField<Rect>.UxmlTraits
         {
-
             public UxmlTraits();
 
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc);

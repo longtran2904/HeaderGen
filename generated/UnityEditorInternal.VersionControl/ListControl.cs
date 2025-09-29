@@ -10,7 +10,6 @@ namespace UnityEditorInternal.VersionControl
 {
     public class ListControl
     {
-
         public ListControl();
 
         ~ListControl();
@@ -41,16 +40,15 @@ namespace UnityEditorInternal.VersionControl
         public void SelectedSet(ListItem item);
         public void SelectedAll();
         public void SelectedAdd(ListItem item);
+
         public enum SelectDirection
         {
-
             Up = 0,
             Down = 1,
             Current = 2
         }
         public class ListState
         {
-
             [SerializeField]
             public float Scroll;
             [SerializeField]

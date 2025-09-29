@@ -9,7 +9,6 @@ namespace UnityEditor.Networking.PlayerConnection
 {
     public class ConnectedPlayer
     {
-
         public ConnectedPlayer();
         public ConnectedPlayer(int playerId);
         public ConnectedPlayer(int playerId, string name);

@@ -9,7 +9,6 @@ namespace UnityEngine
     [RequireComponent(typeof(AudioBehaviour))]
     public sealed class AudioChorusFilter : Behaviour
     {
-
         public AudioChorusFilter();
 
         public float dryMix { get; set; }

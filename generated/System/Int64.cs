@@ -9,7 +9,6 @@ namespace System
 {
     public readonly struct Int64 : IAdditionOperators<long, long, long>, IAdditiveIdentity<long, long>, IBinaryInteger<long>, IBinaryIntegerParseAndFormatInfo<long>, IBinaryNumber<long>, IBitwiseOperators<long, long, long>, IComparable, IComparable<long>, IComparisonOperators<long, long, bool>, IConvertible, IDecrementOperators<long>, IDivisionOperators<long, long, long>, IEqualityOperators<long, long, bool>, IEquatable<long>, IFormattable, IIncrementOperators<long>, IMinMaxValue<long>, IModulusOperators<long, long, long>, IMultiplicativeIdentity<long, long>, IMultiplyOperators<long, long, long>, INumber<long>, INumberBase<long>, IParsable<long>, IShiftOperators<long, int, long>, ISignedNumber<long>, ISpanFormattable, ISpanParsable<long>, ISubtractionOperators<long, long, long>, IUnaryNegationOperators<long, long>, IUnaryPlusOperators<long, long>, IUtf8SpanFormattable, IUtf8SpanParsable<long>
     {
-
         public const long MaxValue = 9223372036854775807;
         public const long MinValue = -9223372036854775808;
 

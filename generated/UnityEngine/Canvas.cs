@@ -14,7 +14,6 @@ namespace UnityEngine
     [RequireComponent(typeof(RectTransform))]
     public sealed class Canvas : Behaviour
     {
-
         public Canvas();
 
         public RenderMode renderMode { get; set; }
@@ -55,6 +54,7 @@ namespace UnityEngine
         [FreeFunction("UI::GetETC1SupportedCanvasMaterial")]
         public static Material GetETC1SupportedCanvasMaterial();
         public static void ForceUpdateCanvases();
+
         public delegate void WillRenderCanvases();
     }
 }

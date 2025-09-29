@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
     [MovedFrom("UnityEngine.Experimental.Rendering")]
     public enum VertexAttribute
     {
-
         Position = 0,
         Normal = 1,
         Tangent = 2,

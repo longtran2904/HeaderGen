@@ -6,7 +6,6 @@ namespace UnityEditor.Build
 {
     public sealed class BuildPlayerContext
     {
-
         public BuildPlayerOptions BuildPlayerOptions { get; }
 
         public void AddAdditionalPathToStreamingAssets(string directoryOrFile, string pathInStreamingAssets = null);

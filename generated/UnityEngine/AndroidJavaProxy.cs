@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public class AndroidJavaProxy
     {
-
         public readonly AndroidJavaClass javaInterface;
 
         public AndroidJavaProxy(string javaInterface);

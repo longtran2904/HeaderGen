@@ -8,7 +8,6 @@ namespace System.Diagnostics.Contracts
     [Conditional("CONTRACTS_FULL")]
     public sealed class ContractInvariantMethodAttribute : Attribute
     {
-
         public ContractInvariantMethodAttribute();
     }
 }

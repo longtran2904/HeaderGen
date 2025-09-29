@@ -9,7 +9,6 @@ namespace UnityEngine
     [Flags]
     public enum RigidbodyConstraints2D
     {
-
         None = 0,
         FreezePositionX = 1,
         FreezePositionY = 2,

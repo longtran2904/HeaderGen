@@ -11,7 +11,6 @@ namespace UnityEngine.Rendering.Universal
     [ReloadGroup]
     public class ForwardRendererData : ScriptableRendererData
     {
-
         public ShaderResources shaders;
         public PostProcessData postProcessData;
         [Reload("Runtime/Data/XRSystemData.asset", ReloadAttribute.Package.Root)]
@@ -27,10 +26,10 @@ namespace UnityEngine.Rendering.Universal
         public bool accurateGbufferNormals { get; set; }
 
         protected override ScriptableRenderer Create();
+
         [ReloadGroup]
         public sealed class ShaderResources
         {
-
             [Reload("Shaders/Utils/Blit.shader", ReloadAttribute.Package.Root)]
             public Shader blitPS;
             [Reload("Shaders/Utils/CopyDepth.shader", ReloadAttribute.Package.Root)]

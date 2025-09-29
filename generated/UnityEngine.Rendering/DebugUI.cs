@@ -10,11 +10,10 @@ namespace UnityEngine.Rendering
 {
     public class DebugUI
     {
-
         public DebugUI();
+
         public class Container : Widget, IContainer
         {
-
             public Container();
             public Container(string displayName, ObservableList<Widget> children);
 
@@ -27,7 +26,6 @@ namespace UnityEngine.Rendering
         }
         public class Foldout : Container, IValueField
         {
-
             public bool opened;
             public bool isHeader;
             public List<ContextMenuItem> contextMenuItems;
@@ -43,26 +41,23 @@ namespace UnityEngine.Rendering
             public void SetValue(object value);
             public object ValidateValue(object value);
             public void SetValue(bool value);
+
             public struct ContextMenuItem
             {
-
                 public string displayName;
                 public Action action;
             }
         }
         public class HBox : Container
         {
-
             public HBox();
         }
         public class VBox : Container
         {
-
             public VBox();
         }
         public class Table : Container
         {
-
             public bool isReadOnly;
             public Vector2 scroll;
 
@@ -74,16 +69,15 @@ namespace UnityEngine.Rendering
             public bool GetColumnVisibility(int index);
             protected override void OnItemAdded(ObservableList<Widget> sender, ListChangedEventArgs<Widget> e);
             protected override void OnItemRemoved(ObservableList<Widget> sender, ListChangedEventArgs<Widget> e);
+
             public class Row : Foldout
             {
-
                 public Row();
             }
         }
         [Flags]
         public enum Flags
         {
-
             None = 0,
             EditorOnly = 2,
             RuntimeOnly = 4,
@@ -91,7 +85,6 @@ namespace UnityEngine.Rendering
         }
         public abstract class Widget
         {
-
             protected Panel m_Panel;
             protected IContainer m_Parent;
             public Func<bool> isHiddenCallback;
@@ -111,37 +104,33 @@ namespace UnityEngine.Rendering
             public NameAndTooltip nameAndTooltip { set; }
 
             public override int GetHashCode();
+
             public struct NameAndTooltip
             {
-
                 public string name;
                 public string tooltip;
             }
         }
         public interface IContainer
         {
-
             ObservableList<Widget> children { get; }
             string displayName { get; set; }
             string queryPath { get; }
         }
         public interface IValueField
         {
-
             object GetValue();
             void SetValue(object value);
             object ValidateValue(object value);
         }
         public class Button : Widget
         {
-
             public Button();
 
             public Action action { get; set; }
         }
         public class Value : Widget
         {
-
             public float refreshRate;
 
             public Value();
@@ -152,7 +141,6 @@ namespace UnityEngine.Rendering
         }
         public abstract class Field<T> : Widget, IValueField
         {
-
             public Action<Field<T>, T> onValueChanged;
 
             protected Field();
@@ -167,12 +155,10 @@ namespace UnityEngine.Rendering
         }
         public class BoolField : Field<bool>
         {
-
             public BoolField();
         }
         public class HistoryBoolField : BoolField
         {
-
             public HistoryBoolField();
 
             public Func<bool>[] historyGetter { get; set; }
@@ -182,7 +168,6 @@ namespace UnityEngine.Rendering
         }
         public class IntField : Field<int>
         {
-
             public Func<int> min;
             public Func<int> max;
             public int incStep;
@@ -194,7 +179,6 @@ namespace UnityEngine.Rendering
         }
         public class UIntField : Field<uint>
         {
-
             public Func<uint> min;
             public Func<uint> max;
             public uint incStep;
@@ -206,7 +190,6 @@ namespace UnityEngine.Rendering
         }
         public class FloatField : Field<float>
         {
-
             public Func<float> min;
             public Func<float> max;
             public float incStep;
@@ -219,7 +202,6 @@ namespace UnityEngine.Rendering
         }
         public class EnumField : Field<int>
         {
-
             public GUIContent[] enumNames;
             public int[] enumValues;
 
@@ -232,7 +214,6 @@ namespace UnityEngine.Rendering
         }
         public class HistoryEnumField : EnumField
         {
-
             public HistoryEnumField();
 
             public Func<int>[] historyIndexGetter { get; set; }
@@ -242,7 +223,6 @@ namespace UnityEngine.Rendering
         }
         public class BitField : Field<Enum>
         {
-
             public BitField();
 
             public GUIContent[] enumNames { get; }
@@ -251,7 +231,6 @@ namespace UnityEngine.Rendering
         }
         public class ColorField : Field<Color>
         {
-
             public bool hdr;
             public bool showAlpha;
             public bool showPicker;
@@ -265,7 +244,6 @@ namespace UnityEngine.Rendering
         }
         public class Vector2Field : Field<Vector2>
         {
-
             public float incStep;
             public float incStepMult;
             public int decimals;
@@ -274,7 +252,6 @@ namespace UnityEngine.Rendering
         }
         public class Vector3Field : Field<Vector3>
         {
-
             public float incStep;
             public float incStepMult;
             public int decimals;
@@ -283,7 +260,6 @@ namespace UnityEngine.Rendering
         }
         public class Vector4Field : Field<Vector4>
         {
-
             public float incStep;
             public float incStepMult;
             public int decimals;
@@ -292,13 +268,12 @@ namespace UnityEngine.Rendering
         }
         public class MessageBox : Widget
         {
-
             public Style style;
 
             public MessageBox();
+
             public enum Style
             {
-
                 Info = 0,
                 Warning = 1,
                 Error = 2
@@ -306,7 +281,6 @@ namespace UnityEngine.Rendering
         }
         public class Panel : IComparable<Panel>, IContainer
         {
-
             public Panel();
 
             public Flags flags { get; set; }

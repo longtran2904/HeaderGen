@@ -10,7 +10,6 @@ namespace UnityEngine.Tilemaps
     [RequireComponent(typeof(Tilemap))]
     public sealed class TilemapCollider2D : Collider2D
     {
-
         public TilemapCollider2D();
 
         public uint maximumTileChangeCount { get; set; }

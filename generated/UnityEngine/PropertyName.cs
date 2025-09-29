@@ -10,7 +10,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public struct PropertyName : IEquatable<PropertyName>
     {
-
         public PropertyName(string name);
         public PropertyName(PropertyName other);
         public PropertyName(int id);

@@ -9,7 +9,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public struct CachedAssetBundle
     {
-
         public CachedAssetBundle(string name, Hash128 hash);
 
         public string name { get; set; }

@@ -7,14 +7,13 @@ namespace System.Runtime.Intrinsics.X86
     [CLSCompliant(False)]
     public abstract class Pclmulqdq : Sse2
     {
-
         public static bool IsSupported { get; }
 
         public static Vector128<long> CarrylessMultiply(Vector128<long> left, Vector128<long> right, byte control);
         public static Vector128<ulong> CarrylessMultiply(Vector128<ulong> left, Vector128<ulong> right, byte control);
+
         public abstract class X64 : Sse2.X64
         {
-
             public static bool IsSupported { get; }
         }
     }

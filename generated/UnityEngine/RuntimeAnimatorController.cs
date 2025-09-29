@@ -12,7 +12,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public class RuntimeAnimatorController : Object
     {
-
         protected RuntimeAnimatorController();
 
         public AnimationClip[] animationClips { get; }

@@ -10,7 +10,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public struct BoneWeight : IEquatable<BoneWeight>
     {
-
         public float weight0 { get; set; }
         public float weight1 { get; set; }
         public float weight2 { get; set; }

@@ -6,7 +6,6 @@ namespace System
 {
     public enum LoaderOptimization
     {
-
         [Obsolete("LoaderOptimization.DisallowBindings has been deprecated and is not supported.")]
         DisallowBindings = 4,
         [Obsolete("LoaderOptimization.DomainMask has been deprecated and is not supported.")]

@@ -9,7 +9,6 @@ namespace UnityEditor.Callbacks
     [RequiredByNativeCode]
     public sealed class PostProcessBuildAttribute : CallbackOrderAttribute
     {
-
         public PostProcessBuildAttribute();
         public PostProcessBuildAttribute(int callbackOrder);
     }

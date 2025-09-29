@@ -6,7 +6,6 @@ namespace System.Threading
 {
     public class HostExecutionContext : IDisposable
     {
-
         public HostExecutionContext();
         public HostExecutionContext(object state);
 

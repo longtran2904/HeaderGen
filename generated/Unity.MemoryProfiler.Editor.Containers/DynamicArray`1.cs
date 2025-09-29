@@ -11,7 +11,6 @@ namespace Unity.MemoryProfiler.Editor.Containers
     [DefaultMember("Item")]
     public struct DynamicArray<T> : IDisposable where T : unmanaged
     {
-
         public DynamicArray(Allocator label);
         public DynamicArray(long initialSize, Allocator label, bool memClear = False);
 

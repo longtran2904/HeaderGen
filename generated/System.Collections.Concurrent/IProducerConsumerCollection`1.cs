@@ -8,7 +8,6 @@ namespace System.Collections.Concurrent
 {
     public interface IProducerConsumerCollection<T> : ICollection, IEnumerable, IEnumerable<T>
     {
-
         void CopyTo(T[] array, int index);
         bool TryAdd(T item);
         bool TryTake(out T item);

@@ -9,7 +9,6 @@ namespace UnityEditor.Tilemaps
     [CustomGridBrush(True, False, False, "Coordinate Brush")]
     public class CoordinateBrush : GridBrush
     {
-
         public CoordinateBrush();
     }
 }

@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.Universal
 {
     public enum AntialiasingMode
     {
-
         [InspectorName("No Anti-aliasing")]
         None = 0,
         [InspectorName("Fast Approximate Anti-aliasing (FXAA)")]

@@ -14,7 +14,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public struct Vector3Int : IEquatable<Vector3Int>, IFormattable
     {
-
         public Vector3Int(int x, int y);
         public Vector3Int(int x, int y, int z);
 

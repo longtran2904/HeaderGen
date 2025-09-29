@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering.Universal
     [CustomEditor(typeof(PostProcessData), True)]
     public class PostProcessDataEditor : Editor
     {
-
         public PostProcessDataEditor();
 
         public override void OnInspectorGUI();

@@ -11,7 +11,6 @@ namespace UnityEditor
     [StaticAccessor("HandleUtilityBindings", StaticAccessorType.DoubleColon)]
     public sealed class HandleUtility
     {
-
         public HandleUtility();
 
         public static float acceleration { get; }
@@ -68,6 +67,7 @@ namespace UnityEditor
         public static object RaySnap(Ray ray);
         public static bool PlaceObject(Vector2 guiPosition, out Vector3 position, out Vector3 normal);
         public static void Repaint();
+
         public delegate GameObject PickGameObjectCallback(Camera cam, int layers, Vector2 position, GameObject[] ignore, GameObject[] filter, out int materialIndex);
         public delegate bool PlaceObjectDelegate(Vector2 guiPosition, out Vector3 position, out Vector3 normal);
     }

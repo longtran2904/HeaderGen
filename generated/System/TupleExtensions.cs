@@ -8,7 +8,6 @@ namespace System
 {
     public static class TupleExtensions
     {
-
         [EditorBrowsable(EditorBrowsableState.Never)]
         public static void Deconstruct<T1>(this Tuple<T1> value, out T1 item1);
         [EditorBrowsable(EditorBrowsableState.Never)]

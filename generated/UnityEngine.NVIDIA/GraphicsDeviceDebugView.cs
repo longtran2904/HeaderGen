@@ -8,7 +8,6 @@ namespace UnityEngine.NVIDIA
 {
     public class GraphicsDeviceDebugView
     {
-
         public uint deviceVersion { get; }
         public uint ngxVersion { get; }
         public IEnumerable<DLSSDebugFeatureInfos> dlssFeatureInfos { get; }

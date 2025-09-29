@@ -9,7 +9,6 @@ namespace UnityEngine
 {
     public struct JointLimits
     {
-
         [EditorBrowsable(EditorBrowsableState.Never)]
         [Obsolete("minBounce and maxBounce are replaced by a single JointLimits.bounciness for both limit ends.", True)]
         public float minBounce;

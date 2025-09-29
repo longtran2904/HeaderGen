@@ -7,7 +7,6 @@ namespace System.Diagnostics.Tracing
     [AttributeUsage(AttributeTargets.Class)]
     public sealed class EventSourceAttribute : Attribute
     {
-
         public EventSourceAttribute();
 
         public string Name { get; set; }

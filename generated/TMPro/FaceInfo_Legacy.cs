@@ -6,7 +6,6 @@ namespace TMPro
 {
     public class FaceInfo_Legacy
     {
-
         public string Name;
         public float PointSize;
         public float Scale;

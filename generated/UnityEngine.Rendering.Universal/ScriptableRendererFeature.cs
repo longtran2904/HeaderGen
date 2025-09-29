@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering.Universal
     [ExcludeFromPreset]
     public abstract class ScriptableRendererFeature : ScriptableObject, IDisposable
     {
-
         protected ScriptableRendererFeature();
 
         public bool isActive { get; }

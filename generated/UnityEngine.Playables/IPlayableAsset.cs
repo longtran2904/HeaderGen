@@ -8,7 +8,6 @@ namespace UnityEngine.Playables
 {
     public interface IPlayableAsset
     {
-
         double duration { get; }
         IEnumerable<PlayableBinding> outputs { get; }
 

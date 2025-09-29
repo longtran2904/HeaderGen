@@ -10,7 +10,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Export/CrashReport/CrashReport.bindings.h")]
     public sealed class CrashReport
     {
-
         public readonly DateTime time;
         public readonly string text;
 

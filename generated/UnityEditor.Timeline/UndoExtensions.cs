@@ -11,7 +11,6 @@ namespace UnityEditor.Timeline
 {
     public static class UndoExtensions
     {
-
         public static void RegisterContext(ActionContext context, string undoTitle);
         public static void RegisterTimeline(TimelineAsset asset, string undoTitle);
         public static void RegisterCompleteTimeline(TimelineAsset asset, string undoTitle);

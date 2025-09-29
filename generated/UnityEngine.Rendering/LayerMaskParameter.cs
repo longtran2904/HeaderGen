@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public class LayerMaskParameter : VolumeParameter<LayerMask>
     {
-
         public LayerMaskParameter(LayerMask value, bool overrideState = False);
     }
 }

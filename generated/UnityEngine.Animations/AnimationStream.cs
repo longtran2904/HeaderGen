@@ -14,7 +14,6 @@ namespace UnityEngine.Animations
     [RequiredByNativeCode]
     public struct AnimationStream
     {
-
         public bool isValid { get; }
         public float deltaTime { get; }
         public Vector3 velocity { get; set; }

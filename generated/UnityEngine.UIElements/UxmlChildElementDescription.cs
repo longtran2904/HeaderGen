@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public class UxmlChildElementDescription
     {
-
         public UxmlChildElementDescription(Type t);
 
         public string elementName { get; protected set; }

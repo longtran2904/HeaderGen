@@ -8,7 +8,6 @@ namespace UnityEngine.Experimental.Rendering.RenderGraphModule
 {
     public class RenderGraphContext
     {
-
         public ScriptableRenderContext renderContext;
         public CommandBuffer cmd;
         public RenderGraphObjectPool renderGraphPool;

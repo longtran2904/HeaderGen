@@ -11,7 +11,6 @@ namespace UnityEditor.Playables
     [NativeHeader("Editor/Src/Playables/Playables.bindings.h")]
     public static class Utility
     {
-
         public static event Action<PlayableGraph> graphCreated;
         public static event Action<PlayableGraph> destroyingGraph;
 

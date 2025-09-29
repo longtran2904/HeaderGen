@@ -6,7 +6,6 @@ namespace Unity.CompilationPipeline.Common.ILPostProcessing
 {
     public abstract class ILPostProcessor
     {
-
         protected ILPostProcessor();
 
         public abstract ILPostProcessor GetInstance();

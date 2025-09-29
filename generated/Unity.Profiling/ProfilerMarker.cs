@@ -14,7 +14,6 @@ namespace Unity.Profiling
     [UsedByNativeCode]
     public struct ProfilerMarker
     {
-
         public ProfilerMarker(string name);
         public ProfilerMarker(char* name, int nameLen);
         public ProfilerMarker(ProfilerCategory category, string name);
@@ -34,10 +33,10 @@ namespace Unity.Profiling
         public void End();
         [Pure]
         public AutoScope Auto();
+
         [UsedByNativeCode]
         public struct AutoScope : IDisposable
         {
-
             public void Dispose();
         }
     }

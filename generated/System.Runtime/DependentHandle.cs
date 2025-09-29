@@ -6,7 +6,6 @@ namespace System.Runtime
 {
     public struct DependentHandle : IDisposable
     {
-
         public DependentHandle(object target, object dependent);
 
         public bool IsAllocated { get; }

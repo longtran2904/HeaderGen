@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public struct StyleLength : IEquatable<StyleLength>, IStyleValue<Length>
     {
-
         public StyleLength(float v);
         public StyleLength(Length v);
         public StyleLength(StyleKeyword keyword);

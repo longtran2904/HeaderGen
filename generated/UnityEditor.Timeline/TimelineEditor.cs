@@ -10,7 +10,6 @@ namespace UnityEditor.Timeline
 {
     public static class TimelineEditor
     {
-
         public static PlayableDirector inspectedDirector { get; }
         public static PlayableDirector masterDirector { get; }
         public static TimelineAsset inspectedAsset { get; }

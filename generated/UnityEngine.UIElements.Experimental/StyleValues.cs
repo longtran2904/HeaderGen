@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements.Experimental
 {
     public struct StyleValues
     {
-
         public float top { get; set; }
         public float left { get; set; }
         public float width { get; set; }

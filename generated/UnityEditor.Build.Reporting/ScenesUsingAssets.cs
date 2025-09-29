@@ -11,7 +11,6 @@ namespace UnityEditor.Build.Reporting
     [NativeType(Header = "Modules/BuildReportingEditor/Public/ScenesUsingAssets.h")]
     public sealed class ScenesUsingAssets : UnityEngine.Object
     {
-
         public ScenesUsingAssets();
 
         public ScenesUsingAsset[] list { get; }

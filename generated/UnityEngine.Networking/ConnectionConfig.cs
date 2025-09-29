@@ -10,7 +10,6 @@ namespace UnityEngine.Networking
     [Obsolete("The UNET transport will be removed in the future as soon a replacement is ready.")]
     public class ConnectionConfig
     {
-
         public ConnectionConfig();
         public ConnectionConfig(ConnectionConfig config);
 

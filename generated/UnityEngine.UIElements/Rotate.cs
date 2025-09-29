@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public struct Rotate : IEquatable<Rotate>
     {
-
         public Rotate(Angle angle);
 
         public Angle angle { get; set; }

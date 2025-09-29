@@ -11,7 +11,6 @@ namespace UnityEngine.WSA
     [StaticAccessor("WSATilesBindings::Toast", StaticAccessorType.DoubleColon)]
     public sealed class Toast
     {
-
         public string arguments { get; set; }
         public bool activated { get; }
         public bool dismissed { get; }

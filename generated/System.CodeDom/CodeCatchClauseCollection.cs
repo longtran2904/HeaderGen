@@ -10,7 +10,6 @@ namespace System.CodeDom
     [DefaultMember("Item")]
     public class CodeCatchClauseCollection : CollectionBase
     {
-
         public CodeCatchClauseCollection();
         public CodeCatchClauseCollection(CodeCatchClauseCollection value);
         public CodeCatchClauseCollection(CodeCatchClause[] value);

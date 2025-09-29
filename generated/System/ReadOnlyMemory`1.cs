@@ -9,7 +9,6 @@ namespace System
 {
     public readonly struct ReadOnlyMemory<T> : IEquatable<ReadOnlyMemory<T>>
     {
-
         public ReadOnlyMemory(T[] array);
         public ReadOnlyMemory(T[] array, int start, int length);
 

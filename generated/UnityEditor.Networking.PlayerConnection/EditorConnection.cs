@@ -11,7 +11,6 @@ namespace UnityEditor.Networking.PlayerConnection
 {
     public class EditorConnection : ScriptableSingleton<EditorConnection>, IEditorPlayerConnection
     {
-
         public EditorConnection();
 
         public List<ConnectedPlayer> ConnectedPlayers { get; }

@@ -6,7 +6,6 @@ namespace DLLTest.DLLNamespace
 {
     public class Exception
     {
-
         public Exception();
     }
 }

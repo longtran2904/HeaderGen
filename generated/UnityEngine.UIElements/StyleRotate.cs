@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public struct StyleRotate : IEquatable<StyleRotate>, IStyleValue<Rotate>
     {
-
         public StyleRotate(Rotate v);
         public StyleRotate(StyleKeyword keyword);
 

@@ -10,7 +10,6 @@ namespace UnityEditor
 {
     public abstract class PropertyDrawer : GUIDrawer
     {
-
         protected PropertyDrawer();
 
         public PropertyAttribute attribute { get; }

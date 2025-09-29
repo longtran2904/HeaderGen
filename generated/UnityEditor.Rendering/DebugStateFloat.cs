@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
     [DebugState(new[] {typeof(DebugUI.FloatField) })]
     public sealed class DebugStateFloat : DebugState<float>
     {
-
         public DebugStateFloat();
     }
 }

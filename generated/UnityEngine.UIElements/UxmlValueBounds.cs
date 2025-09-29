@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class UxmlValueBounds : UxmlTypeRestriction
     {
-
         public UxmlValueBounds();
 
         public string min { get; set; }

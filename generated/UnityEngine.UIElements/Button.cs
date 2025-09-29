@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public class Button : TextElement
     {
-
         public static readonly string ussClassName;
 
         public Button();
@@ -21,14 +20,13 @@ namespace UnityEngine.UIElements
         public event Action clicked;
 
         protected internal override Vector2 DoMeasure(float desiredWidth, MeasureMode widthMode, float desiredHeight, MeasureMode heightMode);
+
         public class UxmlFactory : UxmlFactory<Button, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : TextElement.UxmlTraits
         {
-
             public UxmlTraits();
         }
     }

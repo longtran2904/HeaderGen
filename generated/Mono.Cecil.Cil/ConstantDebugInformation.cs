@@ -6,7 +6,6 @@ namespace Mono.Cecil.Cil
 {
     public sealed class ConstantDebugInformation : DebugInformation
     {
-
         public ConstantDebugInformation(string name, TypeReference constant_type, object value);
 
         public string Name { get; set; }

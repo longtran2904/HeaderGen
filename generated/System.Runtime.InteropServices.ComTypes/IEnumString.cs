@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public interface IEnumString
     {
-
         int Next(int celt, out string[] rgelt, nint pceltFetched);
         int Skip(int celt);
         void Reset();

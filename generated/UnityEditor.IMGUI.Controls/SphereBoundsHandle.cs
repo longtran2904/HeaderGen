@@ -9,7 +9,6 @@ namespace UnityEditor.IMGUI.Controls
 {
     public class SphereBoundsHandle : PrimitiveBoundsHandle
     {
-
         [Obsolete("Use parameterless constructor instead.")]
         public SphereBoundsHandle(int controlIDHint);
         public SphereBoundsHandle();

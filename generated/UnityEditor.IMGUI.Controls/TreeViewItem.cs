@@ -10,7 +10,6 @@ namespace UnityEditor.IMGUI.Controls
 {
     public class TreeViewItem : IComparable<TreeViewItem>
     {
-
         public TreeViewItem();
         public TreeViewItem(int id);
         public TreeViewItem(int id, int depth);

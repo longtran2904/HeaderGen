@@ -14,7 +14,6 @@ namespace UnityEngine.Animations
     [RequiredByNativeCode]
     public struct AnimationHumanStream
     {
-
         public bool isValid { get; }
         public float humanScale { get; }
         public float leftFootHeight { get; }

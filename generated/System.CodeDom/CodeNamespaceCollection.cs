@@ -10,7 +10,6 @@ namespace System.CodeDom
     [DefaultMember("Item")]
     public class CodeNamespaceCollection : CollectionBase
     {
-
         public CodeNamespaceCollection();
         public CodeNamespaceCollection(CodeNamespaceCollection value);
         public CodeNamespaceCollection(CodeNamespace[] value);

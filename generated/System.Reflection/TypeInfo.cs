@@ -8,7 +8,6 @@ namespace System.Reflection
 {
     public abstract class TypeInfo : Type, IReflectableType
     {
-
         protected TypeInfo();
 
         public virtual Type[] GenericTypeParameters { get; }

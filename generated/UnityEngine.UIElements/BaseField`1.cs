@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public abstract class BaseField<TValueType> : BindableElement, IMixedValueSupport, INotifyValueChanged<TValueType>, IPrefixLabel
     {
-
         public static readonly string ussClassName;
         public static readonly string labelUssClassName;
         public static readonly string inputUssClassName;
@@ -28,9 +27,9 @@ namespace UnityEngine.UIElements
 
         protected virtual void UpdateMixedValueContent();
         public virtual void SetValueWithoutNotify(TValueType newValue);
+
         public class UxmlTraits : BindableElement.UxmlTraits
         {
-
             public UxmlTraits();
 
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc);

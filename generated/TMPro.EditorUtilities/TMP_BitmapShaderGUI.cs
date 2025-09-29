@@ -6,7 +6,6 @@ namespace TMPro.EditorUtilities
 {
     public class TMP_BitmapShaderGUI : TMP_BaseShaderGUI
     {
-
         public TMP_BitmapShaderGUI();
 
         protected override void DoGUI();

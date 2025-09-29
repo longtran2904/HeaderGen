@@ -11,7 +11,6 @@ namespace UnityEditor.Searcher
     [PublicAPI]
     public class Searcher
     {
-
         public Searcher(SearcherDatabaseBase database, string title);
         public Searcher(IEnumerable<SearcherDatabaseBase> databases, string title);
         public Searcher(SearcherDatabaseBase database, ISearcherAdapter adapter = null);
@@ -22,18 +21,18 @@ namespace UnityEditor.Searcher
 
         public void BuildIndices();
         public IEnumerable<SearcherItem> Search(string query);
+
         [PublicAPI]
         public class AnalyticsEvent
         {
-
             public readonly EventType eventType;
             public readonly string currentSearchFieldText;
 
             public AnalyticsEvent(EventType eventType, string currentSearchFieldText);
+
             [PublicAPI]
             public enum EventType
             {
-
                 Pending = 0,
                 Picked = 1,
                 Cancelled = 2

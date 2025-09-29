@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public enum MethodCallingConvention
     {
-
         Default = 0,
         C = 1,
         StdCall = 2,

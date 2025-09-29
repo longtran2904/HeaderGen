@@ -7,7 +7,6 @@ namespace System.Diagnostics.CodeAnalysis
     [AttributeUsage(AttributeTargets.Method | AttributeTargets.Property | AttributeTargets.Parameter, AllowMultiple = False, Inherited = False)]
     public sealed class UnscopedRefAttribute : Attribute
     {
-
         public UnscopedRefAttribute();
     }
 }

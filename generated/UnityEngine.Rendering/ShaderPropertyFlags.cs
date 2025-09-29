@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
     [Flags]
     public enum ShaderPropertyFlags
     {
-
         None = 0,
         HideInInspector = 1,
         PerRendererData = 2,

@@ -10,7 +10,6 @@ namespace UnityEditor.Graphs.AnimationBlendTree
 {
     public class Node : UnityEditor.Graphs.Node
     {
-
         public List<Node> children;
         public Motion motion;
         public float weight;

@@ -6,7 +6,6 @@ namespace UnityEditorInternal
 {
     public struct NativeProfilerTimeline_GetEntryTimingInfoArgs
     {
-
         public int frameIndex;
         public int threadIndex;
         public int entryIndex;

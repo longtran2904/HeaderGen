@@ -8,7 +8,6 @@ namespace Mono.Cecil.Cil
 {
     public sealed class SourceLinkDebugInformation : CustomDebugInformation
     {
-
         public static Guid KindIdentifier;
 
         public SourceLinkDebugInformation(string content);

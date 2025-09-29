@@ -11,7 +11,6 @@ namespace UnityEngine.TerrainTools
     [MovedFrom("UnityEngine.Experimental.TerrainAPI")]
     public class PaintContext
     {
-
         public PaintContext(Terrain terrain, RectInt pixelRect, int targetTextureWidth, int targetTextureHeight, [DefaultValue("true")] bool sharedBoundaryTexel = True, [DefaultValue("true")] bool fillOutsideTerrain = True);
 
         public Terrain originTerrain { get; }
@@ -43,9 +42,9 @@ namespace UnityEngine.TerrainTools
         public void GatherAlphamap(TerrainLayer inputLayer, bool addLayerIfDoesntExist = True);
         public void ScatterAlphamap(string editorUndoName);
         public static void ApplyDelayedActions();
+
         public interface ITerrainInfo
         {
-
             Terrain terrain { get; }
             RectInt clippedTerrainPixels { get; }
             RectInt clippedPCPixels { get; }

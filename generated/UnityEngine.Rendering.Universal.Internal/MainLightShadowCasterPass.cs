@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.Universal.Internal
 {
     public class MainLightShadowCasterPass : ScriptableRenderPass
     {
-
         public MainLightShadowCasterPass(RenderPassEvent evt);
 
         public bool Setup(ref RenderingData renderingData);

@@ -9,7 +9,6 @@ namespace TMPro
 {
     public class TMP_TextElement
     {
-
         [SerializeField]
         protected TextElementType m_ElementType;
 

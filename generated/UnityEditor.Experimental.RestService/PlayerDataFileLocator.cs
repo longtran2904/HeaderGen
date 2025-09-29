@@ -9,10 +9,10 @@ namespace UnityEditor.Experimental.RestService
     [Obsolete("This type is obsolete and will be deleted.", True)]
     public class PlayerDataFileLocator
     {
-
         public PlayerDataFileLocator();
 
         public static void Register(Locator locator);
+
         public delegate bool Locator(ref string path);
     }
 }

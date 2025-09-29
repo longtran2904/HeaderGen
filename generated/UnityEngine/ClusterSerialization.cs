@@ -12,7 +12,6 @@ namespace UnityEngine
     [NativeHeader("Modules/ClusterRenderer/ClusterSerialization.h")]
     public static class ClusterSerialization
     {
-
         public static int SaveTimeManagerState(NativeArray<byte> buffer);
         public static bool RestoreTimeManagerState(NativeArray<byte> buffer);
         public static int SaveInputManagerState(NativeArray<byte> buffer);

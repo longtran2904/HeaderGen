@@ -10,7 +10,6 @@ namespace Unity.IO.LowLevel.Unsafe
     [NativeConditional("ENABLE_PROFILER")]
     public class AsyncReadManagerSummaryMetrics
     {
-
         public AsyncReadManagerSummaryMetrics();
 
         [NativeName("totalBytesRead")]

@@ -9,7 +9,6 @@ namespace UnityEngine.Device
 {
     public static class Screen
     {
-
         public static bool autorotateToLandscapeLeft { get; set; }
         public static bool autorotateToLandscapeRight { get; set; }
         public static bool autorotateToPortrait { get; set; }

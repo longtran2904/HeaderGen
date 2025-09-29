@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeDirectionExpression : CodeExpression
     {
-
         public CodeDirectionExpression();
         public CodeDirectionExpression(FieldDirection direction, CodeExpression expression);
 

@@ -8,7 +8,6 @@ namespace TMPro
 {
     public class Compute_DT_EventArgs
     {
-
         public Compute_DistanceTransform_EventTypes EventType;
         public float ProgressPercentage;
         public Color[] Colors;

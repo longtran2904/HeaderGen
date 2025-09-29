@@ -10,7 +10,6 @@ namespace System
     [CLSCompliant(False)]
     public readonly struct UInt64 : IAdditionOperators<ulong, ulong, ulong>, IAdditiveIdentity<ulong, ulong>, IBinaryInteger<ulong>, IBinaryIntegerParseAndFormatInfo<ulong>, IBinaryNumber<ulong>, IBitwiseOperators<ulong, ulong, ulong>, IComparable, IComparable<ulong>, IComparisonOperators<ulong, ulong, bool>, IConvertible, IDecrementOperators<ulong>, IDivisionOperators<ulong, ulong, ulong>, IEqualityOperators<ulong, ulong, bool>, IEquatable<ulong>, IFormattable, IIncrementOperators<ulong>, IMinMaxValue<ulong>, IModulusOperators<ulong, ulong, ulong>, IMultiplicativeIdentity<ulong, ulong>, IMultiplyOperators<ulong, ulong, ulong>, INumber<ulong>, INumberBase<ulong>, IParsable<ulong>, IShiftOperators<ulong, int, ulong>, ISpanFormattable, ISpanParsable<ulong>, ISubtractionOperators<ulong, ulong, ulong>, IUnaryNegationOperators<ulong, ulong>, IUnaryPlusOperators<ulong, ulong>, IUnsignedNumber<ulong>, IUtf8SpanFormattable, IUtf8SpanParsable<ulong>
     {
-
         public const ulong MaxValue = 18446744073709551615;
         public const ulong MinValue = 0;
 

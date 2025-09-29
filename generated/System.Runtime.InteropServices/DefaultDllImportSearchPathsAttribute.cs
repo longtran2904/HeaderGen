@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Method, AllowMultiple = False)]
     public sealed class DefaultDllImportSearchPathsAttribute : Attribute
     {
-
         public DefaultDllImportSearchPathsAttribute(DllImportSearchPath paths);
 
         public DllImportSearchPath Paths { get; }

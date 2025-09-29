@@ -12,7 +12,6 @@ namespace UnityEngine.Animations
     [NativeHeader("Modules/Animation/Director/AnimationPlayableExtensions.h")]
     public static class AnimationPlayableExtensions
     {
-
         public static void SetAnimatedProperties<U>(this U playable, AnimationClip clip) where U : IPlayable, struct;
     }
 }

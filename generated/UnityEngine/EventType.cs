@@ -9,7 +9,6 @@ namespace UnityEngine
 {
     public enum EventType
     {
-
         MouseDown = 0,
         MouseUp = 1,
         MouseMove = 2,

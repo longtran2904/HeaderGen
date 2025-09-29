@@ -11,7 +11,6 @@ namespace UnityEngine.Animations
     [NativeType("Modules/Animation/Constraints/ConstraintEnums.h")]
     public enum Axis
     {
-
         None = 0,
         X = 1,
         Y = 2,

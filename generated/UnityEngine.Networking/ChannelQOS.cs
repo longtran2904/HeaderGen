@@ -9,7 +9,6 @@ namespace UnityEngine.Networking
     [Obsolete("The UNET transport will be removed in the future as soon a replacement is ready.")]
     public class ChannelQOS
     {
-
         public ChannelQOS(QosType value);
         public ChannelQOS();
         public ChannelQOS(ChannelQOS channel);

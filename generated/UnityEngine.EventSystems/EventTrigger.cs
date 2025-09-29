@@ -12,7 +12,6 @@ namespace UnityEngine.EventSystems
     [AddComponentMenu("Event/Event Trigger")]
     public class EventTrigger : MonoBehaviour, IBeginDragHandler, ICancelHandler, IDeselectHandler, IDragHandler, IDropHandler, IEndDragHandler, IEventSystemHandler, IInitializePotentialDragHandler, IMoveHandler, IPointerClickHandler, IPointerDownHandler, IPointerEnterHandler, IPointerExitHandler, IPointerUpHandler, IScrollHandler, ISelectHandler, ISubmitHandler, IUpdateSelectedHandler
     {
-
         protected EventTrigger();
 
         [EditorBrowsable(EditorBrowsableState.Never)]
@@ -37,14 +36,13 @@ namespace UnityEngine.EventSystems
         public virtual void OnEndDrag(PointerEventData eventData);
         public virtual void OnSubmit(BaseEventData eventData);
         public virtual void OnCancel(BaseEventData eventData);
+
         public class TriggerEvent : UnityEvent<BaseEventData>
         {
-
             public TriggerEvent();
         }
         public class Entry
         {
-
             public EventTriggerType eventID;
             public TriggerEvent callback;
 

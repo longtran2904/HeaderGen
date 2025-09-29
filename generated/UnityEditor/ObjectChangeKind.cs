@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum ObjectChangeKind
     {
-
         None = 0,
         ChangeScene = 1,
         CreateGameObjectHierarchy = 2,

@@ -6,7 +6,6 @@ namespace System.Threading
 {
     public struct SpinLock
     {
-
         public SpinLock(bool enableThreadOwnerTracking);
 
         public bool IsHeld { get; }

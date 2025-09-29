@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeArrayCreateExpression : CodeExpression
     {
-
         public CodeArrayCreateExpression();
         public CodeArrayCreateExpression(CodeTypeReference createType, params CodeExpression[] initializers);
         public CodeArrayCreateExpression(string createType, params CodeExpression[] initializers);

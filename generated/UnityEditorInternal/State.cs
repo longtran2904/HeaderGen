@@ -11,7 +11,6 @@ namespace UnityEditorInternal
     [Obsolete("State is obsolete. Use UnityEditor.Animations.AnimatorState instead (UnityUpgradable) -> UnityEditor.Animations.AnimatorState", True)]
     public class State : UnityEngine.Object
     {
-
         public State();
 
         public string uniqueName { get; }

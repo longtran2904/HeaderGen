@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public static class VisualElementExtensions
     {
-
         public static void StretchToParentSize(this VisualElement elem);
         public static void StretchToParentWidth(this VisualElement elem);
         public static void AddManipulator(this VisualElement ele, IManipulator manipulator);

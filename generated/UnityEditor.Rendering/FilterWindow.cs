@@ -11,14 +11,13 @@ namespace UnityEditor.Rendering
     [InitializeOnLoad]
     public class FilterWindow : EditorWindow
     {
-
         public static readonly float DefaultWidth;
         public static readonly float DefaultHeight;
 
         public FilterWindow();
+
         public interface IProvider
         {
-
             Vector2 position { get; set; }
 
             void CreateComponentTree(List<Element> tree);
@@ -26,7 +25,6 @@ namespace UnityEditor.Rendering
         }
         public class Element : IComparable
         {
-
             public int level;
             public GUIContent content;
 
@@ -38,7 +36,6 @@ namespace UnityEditor.Rendering
         }
         public class GroupElement : Element
         {
-
             public Vector2 scroll;
             public int selectedIndex;
 

@@ -11,7 +11,6 @@ namespace UnityEngine.iOS
     [Obsolete("iOS.ADInterstitialAd class is obsolete, Apple iAD service discontinued", True)]
     public sealed class ADInterstitialAd
     {
-
         public ADInterstitialAd(bool autoReload);
         public ADInterstitialAd();
 
@@ -23,6 +22,7 @@ namespace UnityEngine.iOS
 
         public void Show();
         public void ReloadAd();
+
         public delegate void InterstitialWasLoadedDelegate();
         public delegate void InterstitialWasViewedDelegate();
     }

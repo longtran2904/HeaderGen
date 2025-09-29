@@ -6,7 +6,6 @@ namespace UnityEditor.TextCore.Text
 {
     public class TextCoreShaderGUISDF : TextCoreShaderGUI
     {
-
         public TextCoreShaderGUISDF();
 
         protected override void DoGUI();

@@ -8,7 +8,6 @@ namespace System.Threading.Tasks
 {
     public class Task<TResult> : Task
     {
-
         public Task(Func<TResult> function);
         public Task(Func<TResult> function, CancellationToken cancellationToken);
         public Task(Func<TResult> function, TaskCreationOptions creationOptions);

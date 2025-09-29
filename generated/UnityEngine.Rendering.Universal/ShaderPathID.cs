@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.Universal
 {
     public enum ShaderPathID
     {
-
         Lit = 0,
         SimpleLit = 1,
         Unlit = 2,

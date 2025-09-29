@@ -10,7 +10,6 @@ namespace UnityEditor.UI
     [CustomEditor(typeof(CanvasScaler), True)]
     public class CanvasScalerEditor : Editor
     {
-
         public CanvasScalerEditor();
 
         protected virtual void OnEnable();

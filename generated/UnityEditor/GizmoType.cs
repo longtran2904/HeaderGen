@@ -9,7 +9,6 @@ namespace UnityEditor
     [Flags]
     public enum GizmoType
     {
-
         Pickable = 1,
         NotInSelectionHierarchy = 2,
         NonSelected = 32,

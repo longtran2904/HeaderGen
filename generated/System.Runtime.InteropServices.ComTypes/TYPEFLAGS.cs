@@ -10,7 +10,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [Flags]
     public enum TYPEFLAGS
     {
-
         TYPEFLAG_FAPPOBJECT = 1,
         TYPEFLAG_FCANCREATE = 2,
         TYPEFLAG_FLICENSED = 4,

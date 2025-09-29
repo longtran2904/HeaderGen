@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum ParticleSystemRenderMode
     {
-
         Billboard = 0,
         Stretch = 1,
         HorizontalBillboard = 2,

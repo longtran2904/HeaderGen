@@ -12,7 +12,6 @@ namespace UnityEditor.VersionControl
     [UsedByNativeCode]
     public class Message
     {
-
         ~Message();
 
         [NativeMethod(IsThreadSafe = True)]
@@ -22,10 +21,10 @@ namespace UnityEditor.VersionControl
 
         public void Dispose();
         public void Show();
+
         [NativeType("Editor/Src/VersionControl/VCMessage.h")]
         public enum Severity
         {
-
             Data = 0,
             Verbose = 1,
             Info = 2,

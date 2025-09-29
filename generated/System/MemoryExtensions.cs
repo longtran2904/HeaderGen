@@ -12,7 +12,6 @@ namespace System
 {
     public static class MemoryExtensions
     {
-
         public static Span<T> AsSpan<T>(this T[] array, int start);
         public static Span<T> AsSpan<T>(this T[] array, Index startIndex);
         public static Span<T> AsSpan<T>(this T[] array, Range range);
@@ -225,11 +224,11 @@ namespace System
         public static Span<char> Trim(this Span<char> span);
         public static Span<char> TrimStart(this Span<char> span);
         public static Span<char> TrimEnd(this Span<char> span);
+
         [EditorBrowsable(EditorBrowsableState.Never)]
         [Obsolete("Types with embedded references are not supported in this version of your compiler.", True)]
         public ref struct TryWriteInterpolatedStringHandler
         {
-
             public TryWriteInterpolatedStringHandler(int literalLength, int formattedCount, Span<char> destination, out bool shouldAppend);
             public TryWriteInterpolatedStringHandler(int literalLength, int formattedCount, Span<char> destination, IFormatProvider provider, out bool shouldAppend);
 

@@ -6,7 +6,6 @@ namespace DLLTest.DLLNamespace
 {
     public class Decimal
     {
-
         public Decimal();
     }
 }

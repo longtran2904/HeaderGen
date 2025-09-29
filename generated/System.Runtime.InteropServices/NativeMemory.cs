@@ -6,7 +6,6 @@ namespace System.Runtime.InteropServices
 {
     public static class NativeMemory
     {
-
         [CLSCompliant(False)]
         public static void* Alloc(nuint elementCount, nuint elementSize);
         [CLSCompliant(False)]

@@ -9,7 +9,6 @@ namespace Microsoft.Unity.VisualStudio.Editor
 {
     public class ProjectGeneration : IGenerator
     {
-
         public static readonly string MSBuildNamespaceUri;
 
         public ProjectGeneration();

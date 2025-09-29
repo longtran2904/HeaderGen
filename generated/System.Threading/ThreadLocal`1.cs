@@ -8,7 +8,6 @@ namespace System.Threading
 {
     public class ThreadLocal<T> : IDisposable
     {
-
         public ThreadLocal();
         public ThreadLocal(bool trackAllValues);
         public ThreadLocal(Func<T> valueFactory);

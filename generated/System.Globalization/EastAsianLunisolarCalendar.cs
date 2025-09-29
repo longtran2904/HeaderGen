@@ -6,7 +6,6 @@ namespace System.Globalization
 {
     public abstract class EastAsianLunisolarCalendar : Calendar
     {
-
         public override CalendarAlgorithmType AlgorithmType { get; }
         public override int TwoDigitYearMax { get; set; }
 

@@ -7,7 +7,6 @@ namespace System.Runtime.CompilerServices
     [Flags]
     public enum MethodImplOptions
     {
-
         Unmanaged = 4,
         NoInlining = 8,
         ForwardRef = 16,

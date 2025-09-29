@@ -10,7 +10,6 @@ namespace System.CodeDom
     [DefaultMember("Item")]
     public class CodeParameterDeclarationExpressionCollection : CollectionBase
     {
-
         public CodeParameterDeclarationExpressionCollection();
         public CodeParameterDeclarationExpressionCollection(CodeParameterDeclarationExpressionCollection value);
         public CodeParameterDeclarationExpressionCollection(CodeParameterDeclarationExpression[] value);

@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
     [UsedByNativeCode]
     public struct PlatformKeywordSet
     {
-
         public bool IsEnabled(BuiltinShaderDefine define);
         public void Enable(BuiltinShaderDefine define);
         public void Disable(BuiltinShaderDefine define);

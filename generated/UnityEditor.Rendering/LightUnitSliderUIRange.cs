@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering
 {
     public struct LightUnitSliderUIRange
     {
-
         public GUIContent content;
         public Vector2 value;
         public float presetValue;

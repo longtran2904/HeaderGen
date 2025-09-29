@@ -11,7 +11,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class StackNode : Node, IDropTarget
     {
-
         public StackNode();
 
         public VisualElement headerContainer { get; }

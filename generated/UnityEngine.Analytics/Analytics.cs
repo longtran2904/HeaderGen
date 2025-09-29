@@ -13,7 +13,6 @@ namespace UnityEngine.Analytics
     [NativeHeader("Modules/UnityAnalytics/Public/Events/UserCustomEvent.h")]
     public static class Analytics
     {
-
         public static bool initializeOnStartup { get; set; }
         public static bool playerOptedOut { get; }
         public static string eventUrl { get; }

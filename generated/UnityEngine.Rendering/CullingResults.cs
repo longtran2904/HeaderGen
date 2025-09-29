@@ -13,7 +13,6 @@ namespace UnityEngine.Rendering
     [NativeHeader("Runtime/Graphics/ScriptableRenderLoop/ScriptableCulling.h")]
     public struct CullingResults : IEquatable<CullingResults>
     {
-
         public NativeArray<VisibleLight> visibleLights { get; }
         public NativeArray<VisibleLight> visibleOffscreenVertexLights { get; }
         public NativeArray<VisibleReflectionProbe> visibleReflectionProbes { get; }

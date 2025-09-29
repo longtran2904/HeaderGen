@@ -10,7 +10,6 @@ namespace UnityEngine
     [RequireComponent(typeof(Rigidbody2D))]
     public sealed class ConstantForce2D : PhysicsUpdateBehaviour2D
     {
-
         public ConstantForce2D();
 
         public Vector2 force { get; set; }

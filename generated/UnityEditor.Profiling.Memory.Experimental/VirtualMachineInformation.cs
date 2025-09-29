@@ -6,7 +6,6 @@ namespace UnityEditor.Profiling.Memory.Experimental
 {
     public struct VirtualMachineInformation
     {
-
         public int pointerSize { get; }
         public int objectHeaderSize { get; }
         public int arrayHeaderSize { get; }

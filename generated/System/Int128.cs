@@ -9,7 +9,6 @@ namespace System
 {
     public readonly struct Int128 : IAdditionOperators<Int128, Int128, Int128>, IAdditiveIdentity<Int128, Int128>, IBinaryInteger<Int128>, IBinaryIntegerParseAndFormatInfo<Int128>, IBinaryNumber<Int128>, IBitwiseOperators<Int128, Int128, Int128>, IComparable, IComparable<Int128>, IComparisonOperators<Int128, Int128, bool>, IDecrementOperators<Int128>, IDivisionOperators<Int128, Int128, Int128>, IEqualityOperators<Int128, Int128, bool>, IEquatable<Int128>, IFormattable, IIncrementOperators<Int128>, IMinMaxValue<Int128>, IModulusOperators<Int128, Int128, Int128>, IMultiplicativeIdentity<Int128, Int128>, IMultiplyOperators<Int128, Int128, Int128>, INumber<Int128>, INumberBase<Int128>, IParsable<Int128>, IShiftOperators<Int128, int, Int128>, ISignedNumber<Int128>, ISpanFormattable, ISpanParsable<Int128>, ISubtractionOperators<Int128, Int128, Int128>, IUnaryNegationOperators<Int128, Int128>, IUnaryPlusOperators<Int128, Int128>, IUtf8SpanFormattable, IUtf8SpanParsable<Int128>
     {
-
         [CLSCompliant(False)]
         public Int128(ulong upper, ulong lower);
 

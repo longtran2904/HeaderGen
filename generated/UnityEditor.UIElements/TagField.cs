@@ -9,7 +9,6 @@ namespace UnityEditor.UIElements
 {
     public class TagField : PopupField<string>
     {
-
         public static readonly string ussClassName;
         public static readonly string labelUssClassName;
         public static readonly string inputUssClassName;
@@ -22,14 +21,13 @@ namespace UnityEditor.UIElements
         public override Func<string, string> formatListItemCallback { get; set; }
 
         public override void SetValueWithoutNotify(string newValue);
+
         public class UxmlFactory : UxmlFactory<TagField, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : BaseField<string>.UxmlTraits
         {
-
             public UxmlTraits();
 
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc);

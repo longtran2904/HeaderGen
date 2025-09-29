@@ -17,7 +17,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public sealed class Texture2D : Texture
     {
-
         [ExcludeFromDocs]
         public Texture2D(int width, int height, DefaultFormat format, TextureCreationFlags flags);
         [ExcludeFromDocs]
@@ -132,10 +131,10 @@ namespace UnityEngine
         public Color[] GetPixels([DefaultValue("0")] int miplevel);
         [ExcludeFromDocs]
         public Color[] GetPixels();
+
         [Flags]
         public enum EXRFlags
         {
-
             None = 0,
             OutputAsFloat = 1,
             CompressZIP = 2,

@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public interface IEnumConnectionPoints
     {
-
         int Next(int celt, out IConnectionPoint[] rgelt, nint pceltFetched);
         int Skip(int celt);
         void Reset();

@@ -9,7 +9,6 @@ namespace UnityEngine.Experimental.AssetBundlePatching
     [NativeHeader("Modules/AssetBundle/Public/AssetBundlePatching.h")]
     public static class AssetBundleUtility
     {
-
         [FreeFunction]
         public static void PatchAssetBundles(AssetBundle[] bundles, string[] filenames);
     }

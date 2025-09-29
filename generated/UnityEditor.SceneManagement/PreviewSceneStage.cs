@@ -8,7 +8,6 @@ namespace UnityEditor.SceneManagement
 {
     public abstract class PreviewSceneStage : Stage
     {
-
         protected PreviewSceneStage();
 
         public Scene scene { get; protected set; }

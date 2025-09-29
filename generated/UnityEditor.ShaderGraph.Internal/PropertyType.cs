@@ -7,7 +7,6 @@ namespace UnityEditor.ShaderGraph.Internal
     [GenerationAPI]
     public enum PropertyType
     {
-
         Color = 0,
         Texture2D = 1,
         Texture2DArray = 2,

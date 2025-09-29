@@ -9,7 +9,6 @@ namespace UnityEngine.EventSystems
     [AddComponentMenu("Event/Standalone Input Module")]
     public class StandaloneInputModule : PointerInputModule
     {
-
         protected StandaloneInputModule();
 
         [Obsolete("Mode is no longer needed on input module as it handles both mouse and keyboard simultaneously.", False)]
@@ -40,10 +39,10 @@ namespace UnityEngine.EventSystems
         protected bool SendUpdateEventToSelectedObject();
         protected void ProcessMousePress(MouseButtonEventData data);
         protected GameObject GetCurrentFocusedGameObject();
+
         [Obsolete("Mode is no longer needed on input module as it handles both mouse and keyboard simultaneously.", False)]
         public enum InputMode
         {
-
             Mouse = 0,
             Buttons = 1
         }

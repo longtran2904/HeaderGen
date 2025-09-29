@@ -9,7 +9,6 @@ namespace UnityEngine.UIElements
 {
     public class DropdownField : BaseField<string>
     {
-
         public DropdownField();
         public DropdownField(string label);
         public DropdownField(List<string> choices, string defaultValue, Func<string, string> formatSelectedValueCallback = null, Func<string, string> formatListItemCallback = null);
@@ -26,14 +25,13 @@ namespace UnityEngine.UIElements
         public override void SetValueWithoutNotify(string newValue);
         protected override void ExecuteDefaultActionAtTarget(EventBase evt);
         protected override void UpdateMixedValueContent();
+
         public class UxmlFactory : UxmlFactory<DropdownField, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : BaseField<string>.UxmlTraits
         {
-
             public UxmlTraits();
 
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc);

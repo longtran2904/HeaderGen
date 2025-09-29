@@ -9,7 +9,6 @@ namespace UnityEditor.Build.Reporting
     [NativeType(Header = "Modules/BuildReportingEditor/Public/CommonRoles.h")]
     public static class CommonRoles
     {
-
         [NativeProperty("BuildReporting::CommonRoles::scene", True, TargetType.Field)]
         public static string scene { get; }
         [NativeProperty("BuildReporting::CommonRoles::sharedAssets", True, TargetType.Field)]

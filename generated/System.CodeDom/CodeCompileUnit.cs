@@ -8,7 +8,6 @@ namespace System.CodeDom
 {
     public class CodeCompileUnit : CodeObject
     {
-
         public CodeCompileUnit();
 
         public CodeNamespaceCollection Namespaces { get; }

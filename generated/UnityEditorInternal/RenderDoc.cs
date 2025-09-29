@@ -11,7 +11,6 @@ namespace UnityEditorInternal
     [StaticAccessor("RenderDoc", StaticAccessorType.DoubleColon)]
     public static class RenderDoc
     {
-
         public static bool IsInstalled();
         public static bool IsLoaded();
         public static bool IsSupported();

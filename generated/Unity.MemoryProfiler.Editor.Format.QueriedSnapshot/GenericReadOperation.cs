@@ -9,7 +9,6 @@ namespace Unity.MemoryProfiler.Editor.Format.QueriedSnapshot
 {
     public class GenericReadOperation : CustomYieldInstruction
     {
-
         public override bool keepWaiting { get; }
         public ReadError Error { get; }
         public DynamicArray<byte> Result { get; }

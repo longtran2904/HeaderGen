@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public class PanelTextSettings : TextSettings
     {
-
         public PanelTextSettings();
     }
 }

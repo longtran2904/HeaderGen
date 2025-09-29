@@ -9,7 +9,6 @@ namespace System.Runtime.CompilerServices
     [DefaultMember("Item")]
     public interface ITuple
     {
-
         object this[int index] { get; }
         int Length { get; }
     }

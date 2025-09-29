@@ -7,7 +7,6 @@ namespace System.Reflection
     [AttributeUsage(AttributeTargets.Assembly, Inherited = False)]
     public sealed class AssemblyDescriptionAttribute : Attribute
     {
-
         public AssemblyDescriptionAttribute(string description);
 
         public string Description { get; }

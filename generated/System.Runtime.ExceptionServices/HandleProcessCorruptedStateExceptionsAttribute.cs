@@ -8,7 +8,6 @@ namespace System.Runtime.ExceptionServices
     [Obsolete("Recovery from corrupted process state exceptions is not supported; HandleProcessCorruptedStateExceptionsAttribute is ignored.", DiagnosticId = "SYSLIB0032", UrlFormat = "https://aka.ms/dotnet-warnings/{0}")]
     public sealed class HandleProcessCorruptedStateExceptionsAttribute : Attribute
     {
-
         public HandleProcessCorruptedStateExceptionsAttribute();
     }
 }

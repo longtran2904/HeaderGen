@@ -7,7 +7,6 @@ namespace System.Runtime.CompilerServices
     [AttributeUsage(AttributeTargets.Field, Inherited = False)]
     public sealed class FixedBufferAttribute : Attribute
     {
-
         public FixedBufferAttribute(Type elementType, int length);
 
         public Type ElementType { get; }

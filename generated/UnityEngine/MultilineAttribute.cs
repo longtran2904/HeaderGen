@@ -9,7 +9,6 @@ namespace UnityEngine
     [AttributeUsage(AttributeTargets.Field, AllowMultiple = False, Inherited = True)]
     public sealed class MultilineAttribute : PropertyAttribute
     {
-
         public readonly int lines;
 
         public MultilineAttribute();

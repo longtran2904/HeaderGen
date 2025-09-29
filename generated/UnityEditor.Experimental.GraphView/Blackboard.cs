@@ -10,7 +10,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class Blackboard : GraphElement, ISelection
     {
-
         public Blackboard(GraphView associatedGraphView = null);
 
         public GraphView graphView { get; set; }

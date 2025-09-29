@@ -13,7 +13,6 @@ namespace TMPro
 {
     public abstract class TMP_Text : MaskableGraphic
     {
-
         [SerializeField]
         [TextArea(5, 10)]
         protected string m_text;
@@ -477,9 +476,9 @@ namespace TMPro
         protected Color32 HexCharsToColor(char[] hexChars, int startIndex, int length);
         protected float ConvertToFloat(char[] chars, int startIndex, int length);
         protected float ConvertToFloat(char[] chars, int startIndex, int length, out int lastIndex);
+
         protected struct CharacterSubstitution
         {
-
             public int index;
             public uint unicode;
 
@@ -487,7 +486,6 @@ namespace TMPro
         }
         protected struct SpecialCharacter
         {
-
             public TMP_Character character;
             public TMP_FontAsset fontAsset;
             public Material material;

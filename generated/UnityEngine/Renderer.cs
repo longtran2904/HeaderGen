@@ -18,7 +18,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public class Renderer : Component
     {
-
         public Renderer();
 
         [EditorBrowsable(EditorBrowsableState.Never)]

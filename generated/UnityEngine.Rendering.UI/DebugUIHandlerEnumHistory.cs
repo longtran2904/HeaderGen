@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.UI
 {
     public class DebugUIHandlerEnumHistory : DebugUIHandlerEnumField
     {
-
         public DebugUIHandlerEnumHistory();
 
         protected override void UpdateValueLabel();

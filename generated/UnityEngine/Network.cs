@@ -11,7 +11,6 @@ namespace UnityEngine
     [Obsolete("The legacy networking system has been removed in Unity 2018.2. Use Unity Multiplayer and NetworkIdentity instead.", True)]
     public class Network
     {
-
         public Network();
 
         [EditorBrowsable(EditorBrowsableState.Never)]

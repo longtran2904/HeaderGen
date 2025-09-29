@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering.LookDev
 {
     public enum ViewIndex
     {
-
         First = 0,
         Second = 1
     }

@@ -9,7 +9,6 @@ namespace UnityEditor
     [Obsolete("LightmapBakeQuality has been deprecated.", False)]
     public enum LightmapBakeQuality
     {
-
         High = 0,
         Low = 1
     }

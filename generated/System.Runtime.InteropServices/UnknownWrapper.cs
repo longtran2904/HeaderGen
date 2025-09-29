@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices
     [EditorBrowsable(EditorBrowsableState.Never)]
     public sealed class UnknownWrapper
     {
-
         public UnknownWrapper(object obj);
 
         public object WrappedObject { get; }

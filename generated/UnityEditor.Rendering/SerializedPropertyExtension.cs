@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering
 {
     public static class SerializedPropertyExtension
     {
-
         public static bool IsTargetAlive(this SerializedProperty property);
         public static T GetEnumValue<T>(this SerializedProperty property) where T : Enum;
         public static string GetEnumName<T>(this SerializedProperty property) where T : Enum;

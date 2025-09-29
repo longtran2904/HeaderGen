@@ -7,7 +7,6 @@ namespace System.Reflection
     [AttributeUsage(AttributeTargets.Assembly, Inherited = False)]
     public sealed class AssemblyFlagsAttribute : Attribute
     {
-
         [CLSCompliant(False)]
         [Obsolete("This constructor has been deprecated. Use AssemblyFlagsAttribute(AssemblyNameFlags) instead.")]
         public AssemblyFlagsAttribute(uint flags);

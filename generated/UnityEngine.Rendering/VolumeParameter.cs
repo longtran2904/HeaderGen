@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public abstract class VolumeParameter
     {
-
         [SerializeField]
         protected bool m_OverrideState;
         public const string k_DebuggerDisplay = "{m_Value} ({m_OverrideState})";

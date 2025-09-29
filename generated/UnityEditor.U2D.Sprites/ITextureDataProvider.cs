@@ -8,7 +8,6 @@ namespace UnityEditor.U2D.Sprites
 {
     public interface ITextureDataProvider
     {
-
         Texture2D texture { get; }
         Texture2D previewTexture { get; }
 

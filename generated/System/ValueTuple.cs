@@ -9,7 +9,6 @@ namespace System
 {
     public struct ValueTuple : IComparable, IComparable<ValueTuple>, IEquatable<ValueTuple>, IStructuralComparable, IStructuralEquatable, ITuple, IValueTupleInternal
     {
-
         public override bool Equals(object obj);
         public bool Equals(ValueTuple other);
         public int CompareTo(ValueTuple other);

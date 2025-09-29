@@ -10,7 +10,6 @@ namespace UnityEngine.UIElements
 {
     public struct UQueryState<T> : IEnumerable, IEnumerable<T>, IEquatable<UQueryState<T>> where T : VisualElement
     {
-
         public UQueryState<T> RebuildOn(VisualElement element);
         public T First();
         public T Last();
@@ -27,9 +26,9 @@ namespace UnityEngine.UIElements
 
         public static bool operator ==(UQueryState<T> state1, UQueryState<T> state2);
         public static bool operator !=(UQueryState<T> state1, UQueryState<T> state2);
+
         public struct Enumerator : IDisposable, IEnumerator, IEnumerator<T>
         {
-
             public T Current { get; }
 
             public bool MoveNext();

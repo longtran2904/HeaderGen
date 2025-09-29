@@ -8,7 +8,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public struct SearchWindowContext
     {
-
         public SearchWindowContext(Vector2 screenMousePosition, float requestedWidth = 0, float requestedHeight = 0);
 
         public Vector2 screenMousePosition { get; }

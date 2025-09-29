@@ -12,7 +12,6 @@ namespace Unity.Mathematics
     [Il2CppEagerStaticClassConstruction]
     public struct float2x2 : IEquatable<float2x2>, IFormattable
     {
-
         public float2 c0;
         public float2 c1;
         public static readonly float2x2 identity;

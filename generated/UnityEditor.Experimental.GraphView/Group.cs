@@ -9,7 +9,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class Group : Scope, ICollectibleElement
     {
-
         public Group();
 
         public override string title { get; set; }

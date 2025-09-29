@@ -10,7 +10,6 @@ namespace TMPro
     [ExcludeFromPreset]
     public class TMP_Settings : ScriptableObject
     {
-
         public TMP_Settings();
 
         public static string version { get; }
@@ -53,9 +52,9 @@ namespace TMPro
         public static TMP_SpriteAsset GetSpriteAsset();
         public static TMP_StyleSheet GetStyleSheet();
         public static void LoadLinebreakingRules();
+
         public class LineBreakingTable
         {
-
             public Dictionary<int, char> leadingCharacters;
             public Dictionary<int, char> followingCharacters;
 

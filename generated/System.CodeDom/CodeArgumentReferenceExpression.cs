@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeArgumentReferenceExpression : CodeExpression
     {
-
         public CodeArgumentReferenceExpression();
         public CodeArgumentReferenceExpression(string parameterName);
 

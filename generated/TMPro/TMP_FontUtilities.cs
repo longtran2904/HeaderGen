@@ -8,7 +8,6 @@ namespace TMPro
 {
     public static class TMP_FontUtilities
     {
-
         public static TMP_FontAsset SearchForCharacter(TMP_FontAsset font, uint unicode, out TMP_Character character);
         public static TMP_FontAsset SearchForCharacter(List<TMP_FontAsset> fonts, uint unicode, out TMP_Character character);
     }

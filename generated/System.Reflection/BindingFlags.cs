@@ -7,7 +7,6 @@ namespace System.Reflection
     [Flags]
     public enum BindingFlags
     {
-
         Default = 0,
         IgnoreCase = 1,
         DeclaredOnly = 2,

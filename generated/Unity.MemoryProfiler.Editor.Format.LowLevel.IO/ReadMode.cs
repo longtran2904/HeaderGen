@@ -6,7 +6,6 @@ namespace Unity.MemoryProfiler.Editor.Format.LowLevel.IO
 {
     public enum ReadMode
     {
-
         Async = 0,
         Blocking = 1
     }

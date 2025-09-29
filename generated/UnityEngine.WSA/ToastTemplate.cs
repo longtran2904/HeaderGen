@@ -6,7 +6,6 @@ namespace UnityEngine.WSA
 {
     public enum ToastTemplate
     {
-
         ToastImageAndText01 = 0,
         ToastImageAndText02 = 1,
         ToastImageAndText03 = 2,

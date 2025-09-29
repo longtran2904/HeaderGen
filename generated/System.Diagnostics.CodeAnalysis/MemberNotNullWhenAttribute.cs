@@ -7,7 +7,6 @@ namespace System.Diagnostics.CodeAnalysis
     [AttributeUsage(AttributeTargets.Method | AttributeTargets.Property, AllowMultiple = True, Inherited = False)]
     public sealed class MemberNotNullWhenAttribute : Attribute
     {
-
         public MemberNotNullWhenAttribute(bool returnValue, string member);
         public MemberNotNullWhenAttribute(bool returnValue, params string[] members);
 

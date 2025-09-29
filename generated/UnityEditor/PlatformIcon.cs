@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public class PlatformIcon
     {
-
         public int layerCount { get; set; }
         public int maxLayerCount { get; }
         public int minLayerCount { get; }

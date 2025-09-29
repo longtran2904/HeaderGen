@@ -8,7 +8,6 @@ namespace UnityEditor.AnimatedValues
 {
     public class AnimBool : BaseAnimValueNonAlloc<bool>
     {
-
         public AnimBool();
         public AnimBool(bool value);
         public AnimBool(UnityAction callback);

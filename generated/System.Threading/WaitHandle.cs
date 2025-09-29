@@ -8,7 +8,6 @@ namespace System.Threading
 {
     public abstract class WaitHandle : MarshalByRefObject, IDisposable
     {
-
         protected static readonly nint InvalidHandle;
         public const int WaitTimeout = 258;
 

@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public struct LODParameters : IEquatable<LODParameters>
     {
-
         public bool isOrthographic { get; set; }
         public Vector3 cameraPosition { get; set; }
         public float fieldOfView { get; set; }

@@ -11,7 +11,6 @@ namespace UnityEditor.ShaderGraph.Drawing.Inspector.PropertyDrawers
     [SGPropertyDrawer(typeof(SampleVirtualTextureNode))]
     public class SampleVirtualTextureNodePropertyDrawer : IPropertyDrawer
     {
-
         public SampleVirtualTextureNodePropertyDrawer();
 
         public Action inspectorUpdateDelegate { get; set; }

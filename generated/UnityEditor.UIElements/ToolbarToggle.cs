@@ -8,18 +8,16 @@ namespace UnityEditor.UIElements
 {
     public class ToolbarToggle : Toggle
     {
-
         public static readonly string ussClassName;
 
         public ToolbarToggle();
+
         public class UxmlFactory : UxmlFactory<ToolbarToggle, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : Toggle.UxmlTraits
         {
-
             public UxmlTraits();
         }
     }

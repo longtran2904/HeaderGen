@@ -9,7 +9,6 @@ namespace UnityEngine
     [UsedByNativeCode("SubsystemDescriptorBase")]
     public abstract class IntegratedSubsystemDescriptor : ISubsystemDescriptor, ISubsystemDescriptorImpl
     {
-
         protected IntegratedSubsystemDescriptor();
 
         public string id { get; }

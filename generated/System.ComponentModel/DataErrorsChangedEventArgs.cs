@@ -6,7 +6,6 @@ namespace System.ComponentModel
 {
     public class DataErrorsChangedEventArgs : EventArgs
     {
-
         public DataErrorsChangedEventArgs(string propertyName);
 
         public virtual string PropertyName { get; }

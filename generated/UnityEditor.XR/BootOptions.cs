@@ -11,7 +11,6 @@ namespace UnityEditor.XR
     [NativeType(Header = "Modules/XREditor/Boot/XRBoot.h")]
     public class BootOptions
     {
-
         public BootOptions();
 
         [ExcludeFromDocs]

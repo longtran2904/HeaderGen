@@ -6,7 +6,6 @@ namespace System.Reflection
 {
     public class ExceptionHandlingClause
     {
-
         protected ExceptionHandlingClause();
 
         public virtual ExceptionHandlingClauseOptions Flags { get; }

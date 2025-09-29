@@ -8,7 +8,6 @@ namespace UnityEditor.ProjectWindowCallback
 {
     public abstract class EndNameEditAction : ScriptableObject
     {
-
         protected EndNameEditAction();
 
         public virtual void OnEnable();

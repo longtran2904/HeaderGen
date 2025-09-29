@@ -6,7 +6,6 @@ namespace System.Security.Claims
 {
     public static class ClaimTypes
     {
-
         public const string AuthenticationInstant = "http://schemas.microsoft.com/ws/2008/06/identity/claims/authenticationinstant";
         public const string AuthenticationMethod = "http://schemas.microsoft.com/ws/2008/06/identity/claims/authenticationmethod";
         public const string CookiePath = "http://schemas.microsoft.com/ws/2008/06/identity/claims/cookiepath";

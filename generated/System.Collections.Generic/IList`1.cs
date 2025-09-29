@@ -9,7 +9,6 @@ namespace System.Collections.Generic
     [DefaultMember("Item")]
     public interface IList<T> : ICollection<T>, IEnumerable, IEnumerable<T>
     {
-
         T this[int index] { get; set; }
 
         int IndexOf(T item);

@@ -9,7 +9,6 @@ namespace System
 {
     public class MissingFieldException : MissingMemberException
     {
-
         public MissingFieldException();
         public MissingFieldException(string message);
         public MissingFieldException(string message, Exception inner);

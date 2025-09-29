@@ -10,7 +10,6 @@ namespace System.Runtime.InteropServices
     [EditorBrowsable(EditorBrowsableState.Never)]
     public sealed class ComSourceInterfacesAttribute : Attribute
     {
-
         public ComSourceInterfacesAttribute(string sourceInterfaces);
         public ComSourceInterfacesAttribute(Type sourceInterface);
         public ComSourceInterfacesAttribute(Type sourceInterface1, Type sourceInterface2);

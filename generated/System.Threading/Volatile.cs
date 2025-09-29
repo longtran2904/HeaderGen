@@ -6,7 +6,6 @@ namespace System.Threading
 {
     public static class Volatile
     {
-
         public static bool Read(in bool location);
         public static void Write(ref bool location, bool value);
         public static byte Read(in byte location);

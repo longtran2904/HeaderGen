@@ -8,28 +8,25 @@ namespace UnityEditor.Rendering.Universal.ShaderGUI
 {
     public static class LitGUI
     {
-
         public static void Inputs(LitProperties properties, MaterialEditor materialEditor, Material material);
         public static void DoClearCoat(LitProperties properties, MaterialEditor materialEditor, Material material);
         public static void DoMetallicSpecularArea(LitProperties properties, MaterialEditor materialEditor, Material material);
         public static void DoSmoothness(MaterialEditor materialEditor, Material material, MaterialProperty smoothness, MaterialProperty smoothnessMapChannel, string[] smoothnessChannelNames);
         public static SmoothnessMapChannel GetSmoothnessMapChannel(Material material);
         public static void SetMaterialKeywords(Material material);
+
         public enum WorkflowMode
         {
-
             Specular = 0,
             Metallic = 1
         }
         public enum SmoothnessMapChannel
         {
-
             SpecularMetallicAlpha = 0,
             AlbedoAlpha = 1
         }
         public static class Styles
         {
-
             public static GUIContent workflowModeText;
             public static GUIContent specularMapText;
             public static GUIContent metallicMapText;
@@ -47,7 +44,6 @@ namespace UnityEditor.Rendering.Universal.ShaderGUI
         }
         public struct LitProperties
         {
-
             public MaterialProperty workflowMode;
             public MaterialProperty metallic;
             public MaterialProperty specColor;

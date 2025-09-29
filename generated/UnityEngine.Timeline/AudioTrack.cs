@@ -13,7 +13,6 @@ namespace UnityEngine.Timeline
     [TrackClipType(typeof(AudioPlayableAsset), False)]
     public class AudioTrack : TrackAsset
     {
-
         public AudioTrack();
 
         public override IEnumerable<PlayableBinding> outputs { get; }

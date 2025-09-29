@@ -8,7 +8,6 @@ namespace UnityEditor.Presets
 {
     public class PresetSelector : EditorWindow
     {
-
         public PresetSelector();
 
         [EditorHeaderItem(typeof(UnityEngine.Object), -1001)]

@@ -9,7 +9,6 @@ namespace UnityEngine.Timeline
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = True)]
     public class TrackClipTypeAttribute : Attribute
     {
-
         public readonly Type inspectedType;
         public readonly bool allowAutoCreate;
 

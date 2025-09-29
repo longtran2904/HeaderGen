@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public struct StyleScale : IEquatable<StyleScale>, IStyleValue<Scale>
     {
-
         public StyleScale(Scale v);
         public StyleScale(StyleKeyword keyword);
 

@@ -9,7 +9,6 @@ namespace System
 {
     public readonly struct Single : IAdditionOperators<float, float, float>, IAdditiveIdentity<float, float>, IBinaryFloatingPointIeee754<float>, IBinaryFloatParseAndFormatInfo<float>, IBinaryNumber<float>, IBitwiseOperators<float, float, float>, IComparable, IComparable<float>, IComparisonOperators<float, float, bool>, IConvertible, IDecrementOperators<float>, IDivisionOperators<float, float, float>, IEqualityOperators<float, float, bool>, IEquatable<float>, IExponentialFunctions<float>, IFloatingPoint<float>, IFloatingPointConstants<float>, IFloatingPointIeee754<float>, IFormattable, IHyperbolicFunctions<float>, IIncrementOperators<float>, ILogarithmicFunctions<float>, IMinMaxValue<float>, IModulusOperators<float, float, float>, IMultiplicativeIdentity<float, float>, IMultiplyOperators<float, float, float>, INumber<float>, INumberBase<float>, IParsable<float>, IPowerFunctions<float>, IRootFunctions<float>, ISignedNumber<float>, ISpanFormattable, ISpanParsable<float>, ISubtractionOperators<float, float, float>, ITrigonometricFunctions<float>, IUnaryNegationOperators<float, float>, IUnaryPlusOperators<float, float>, IUtf8SpanFormattable, IUtf8SpanParsable<float>
     {
-
         public const float MinValue = -3.4028235E+38;
         public const float MaxValue = 3.4028235E+38;
         public const float Epsilon = 1E-45;

@@ -10,7 +10,6 @@ namespace UnityEngine
     [RejectDragAndDropMaterial]
     public sealed class SpriteMask : Renderer
     {
-
         public SpriteMask();
 
         public int frontSortingLayerID { get; set; }

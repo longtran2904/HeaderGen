@@ -9,7 +9,6 @@ namespace UnityEditor.IMGUI.Controls
 {
     public abstract class PrimitiveBoundsHandle
     {
-
         [Obsolete("Use parameterless constructor instead.")]
         public PrimitiveBoundsHandle(int controlIDHint);
         public PrimitiveBoundsHandle();
@@ -30,10 +29,10 @@ namespace UnityEditor.IMGUI.Controls
         protected void SetSize(Vector3 size);
         protected bool IsAxisEnabled(Axes axis);
         protected bool IsAxisEnabled(int vector3Axis);
+
         [Flags]
         public enum Axes
         {
-
             None = 0,
             X = 1,
             Y = 2,
@@ -42,7 +41,6 @@ namespace UnityEditor.IMGUI.Controls
         }
         protected enum HandleDirection
         {
-
             PositiveX = 0,
             NegativeX = 1,
             PositiveY = 2,

@@ -9,7 +9,6 @@ namespace UnityEditor.ShortcutManagement
 {
     public struct KeyCombination : IEquatable<KeyCombination>
     {
-
         public KeyCombination(KeyCode keyCode, ShortcutModifiers shortcutModifiers = ShortcutModifiers.None);
 
         public KeyCode keyCode { get; }

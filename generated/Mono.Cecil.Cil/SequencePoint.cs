@@ -6,7 +6,6 @@ namespace Mono.Cecil.Cil
 {
     public sealed class SequencePoint
     {
-
         public SequencePoint(Instruction instruction, Document document);
 
         public int Offset { get; }

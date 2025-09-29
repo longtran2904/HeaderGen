@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.Marshalling
     [CustomMarshaller(typeof(Exception), MarshalMode.UnmanagedToManagedOut, typeof(ExceptionAsNaNMarshaller<>))]
     public static class ExceptionAsNaNMarshaller<T> where T : IFloatingPointIeee754<T>, unmanaged
     {
-
         public static T ConvertToUnmanaged(Exception e);
     }
 }

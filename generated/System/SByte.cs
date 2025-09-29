@@ -10,7 +10,6 @@ namespace System
     [CLSCompliant(False)]
     public readonly struct SByte : IAdditionOperators<sbyte, sbyte, sbyte>, IAdditiveIdentity<sbyte, sbyte>, IBinaryInteger<sbyte>, IBinaryIntegerParseAndFormatInfo<sbyte>, IBinaryNumber<sbyte>, IBitwiseOperators<sbyte, sbyte, sbyte>, IComparable, IComparable<sbyte>, IComparisonOperators<sbyte, sbyte, bool>, IConvertible, IDecrementOperators<sbyte>, IDivisionOperators<sbyte, sbyte, sbyte>, IEqualityOperators<sbyte, sbyte, bool>, IEquatable<sbyte>, IFormattable, IIncrementOperators<sbyte>, IMinMaxValue<sbyte>, IModulusOperators<sbyte, sbyte, sbyte>, IMultiplicativeIdentity<sbyte, sbyte>, IMultiplyOperators<sbyte, sbyte, sbyte>, INumber<sbyte>, INumberBase<sbyte>, IParsable<sbyte>, IShiftOperators<sbyte, int, sbyte>, ISignedNumber<sbyte>, ISpanFormattable, ISpanParsable<sbyte>, ISubtractionOperators<sbyte, sbyte, sbyte>, IUnaryNegationOperators<sbyte, sbyte>, IUnaryPlusOperators<sbyte, sbyte>, IUtf8SpanFormattable, IUtf8SpanParsable<sbyte>
     {
-
         public const sbyte MaxValue = 127;
         public const sbyte MinValue = -128;
 

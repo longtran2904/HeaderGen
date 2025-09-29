@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
 {
     public interface ICoreRenderPipelinePreferencesProvider
     {
-
         List<string> keywords { get; }
         GUIContent header { get; }
 

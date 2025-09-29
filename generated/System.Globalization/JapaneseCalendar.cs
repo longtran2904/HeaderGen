@@ -6,7 +6,6 @@ namespace System.Globalization
 {
     public class JapaneseCalendar : Calendar
     {
-
         public JapaneseCalendar();
 
         public override DateTime MinSupportedDateTime { get; }

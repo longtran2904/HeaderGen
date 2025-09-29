@@ -10,7 +10,6 @@ namespace UnityEditor.Rendering
     [DebugState(new[] {typeof(DebugUI.EnumField), typeof(DebugUI.HistoryEnumField) })]
     public sealed class DebugStateEnum : DebugState<int>, ISerializationCallbackReceiver
     {
-
         public DebugStateEnum();
 
         public override void SetValue(object value, DebugUI.IValueField field);

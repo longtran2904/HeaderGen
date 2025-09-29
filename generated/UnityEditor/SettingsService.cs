@@ -7,7 +7,6 @@ namespace UnityEditor
     [InitializeOnLoad]
     public static class SettingsService
     {
-
         public static EditorWindow OpenProjectSettings(string settingsPath = null);
         public static EditorWindow OpenUserPreferences(string settingsPath = null);
         public static void NotifySettingsProviderChanged();

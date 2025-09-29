@@ -6,19 +6,17 @@ namespace UnityEngine.UIElements
 {
     public class Label : TextElement
     {
-
         public static readonly string ussClassName;
 
         public Label();
         public Label(string text);
+
         public class UxmlFactory : UxmlFactory<Label, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : TextElement.UxmlTraits
         {
-
             public UxmlTraits();
         }
     }

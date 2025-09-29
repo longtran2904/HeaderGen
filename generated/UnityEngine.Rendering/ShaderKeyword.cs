@@ -13,7 +13,6 @@ namespace UnityEngine.Rendering
     [UsedByNativeCode]
     public struct ShaderKeyword
     {
-
         public ShaderKeyword(string keywordName);
         public ShaderKeyword(Shader shader, string keywordName);
         public ShaderKeyword(ComputeShader shader, string keywordName);

@@ -9,7 +9,6 @@ namespace UnityEditor
     [NativeType(Header = "Modules/AssetPipelineEditor/Public/ModelImporting/ImportMesh.h")]
     public enum ModelImporterNormalSmoothingSource
     {
-
         PreferSmoothingGroups = 0,
         FromSmoothingGroups = 1,
         FromAngle = 2,

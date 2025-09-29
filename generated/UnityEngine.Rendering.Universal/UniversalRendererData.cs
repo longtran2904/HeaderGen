@@ -10,7 +10,6 @@ namespace UnityEngine.Rendering.Universal
     [ReloadGroup]
     public class UniversalRendererData : ScriptableRendererData, ISerializationCallbackReceiver
     {
-
         public PostProcessData postProcessData;
         [Reload("Runtime/Data/XRSystemData.asset", ReloadAttribute.Package.Root)]
         public XRSystemData xrSystemData;
@@ -31,10 +30,10 @@ namespace UnityEngine.Rendering.Universal
         protected override ScriptableRenderer Create();
         protected override void OnValidate();
         protected override void OnEnable();
+
         [ReloadGroup]
         public sealed class ShaderResources
         {
-
             [Reload("Shaders/Utils/Blit.shader", ReloadAttribute.Package.Root)]
             public Shader blitPS;
             [Reload("Shaders/Utils/CopyDepth.shader", ReloadAttribute.Package.Root)]

@@ -7,7 +7,6 @@ namespace System.Runtime.CompilerServices
     [AttributeUsage(AttributeTargets.Assembly, AllowMultiple = False)]
     public sealed class ReferenceAssemblyAttribute : Attribute
     {
-
         public ReferenceAssemblyAttribute();
         public ReferenceAssemblyAttribute(string description);
 

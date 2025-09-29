@@ -8,7 +8,6 @@ namespace UnityEditor.Recorder
 {
     public static class BindingManager
     {
-
         public static UnityEngine.Object Get(string id);
         public static void Duplicate(string id, string newId);
         public static void Set(string id, UnityEngine.Object obj);

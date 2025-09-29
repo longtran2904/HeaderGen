@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [AttributeUsage(AttributeTargets.All, Inherited = False)]
     public sealed class ComConversionLossAttribute : Attribute
     {
-
         public ComConversionLossAttribute();
     }
 }

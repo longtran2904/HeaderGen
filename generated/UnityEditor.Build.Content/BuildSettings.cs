@@ -10,7 +10,6 @@ namespace UnityEditor.Build.Content
     [UsedByNativeCode]
     public struct BuildSettings
     {
-
         public TypeDB typeDB { get; set; }
         public BuildTarget target { get; set; }
         public BuildTargetGroup group { get; set; }

@@ -16,7 +16,6 @@ namespace System.Net.Http
     [UnsupportedOSPlatform("browser")]
     public sealed class SocketsHttpHandler : HttpMessageHandler
     {
-
         public SocketsHttpHandler();
 
         [UnsupportedOSPlatformGuard("browser")]

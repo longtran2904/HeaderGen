@@ -13,7 +13,6 @@ namespace UnityEngine.Rendering
     [UsedByNativeCode]
     public struct BatchCullingContext
     {
-
         public readonly NativeArray<Plane> cullingPlanes;
         public NativeArray<BatchVisibility> batchVisibility;
         public NativeArray<int> visibleIndices;

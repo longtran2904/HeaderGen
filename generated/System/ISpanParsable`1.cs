@@ -6,7 +6,6 @@ namespace System
 {
     public interface ISpanParsable<TSelf> : IParsable<TSelf> where TSelf : ISpanParsable<TSelf>
     {
-
         TSelf Parse(ReadOnlySpan<char> s, IFormatProvider provider);
         bool TryParse(ReadOnlySpan<char> s, IFormatProvider provider, out TSelf result);
     }

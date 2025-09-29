@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices
 {
     public class InvalidComObjectException : SystemException
     {
-
         public InvalidComObjectException();
         public InvalidComObjectException(string message);
         public InvalidComObjectException(string message, Exception inner);

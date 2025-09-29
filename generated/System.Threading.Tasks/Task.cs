@@ -10,7 +10,6 @@ namespace System.Threading.Tasks
 {
     public class Task : IAsyncResult, IDisposable
     {
-
         public Task(Action action);
         public Task(Action action, CancellationToken cancellationToken);
         public Task(Action action, TaskCreationOptions creationOptions);

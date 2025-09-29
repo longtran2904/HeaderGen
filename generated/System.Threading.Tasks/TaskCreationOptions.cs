@@ -7,7 +7,6 @@ namespace System.Threading.Tasks
     [Flags]
     public enum TaskCreationOptions
     {
-
         None = 0,
         PreferFairness = 1,
         LongRunning = 2,

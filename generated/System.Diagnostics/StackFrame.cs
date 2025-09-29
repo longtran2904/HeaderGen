@@ -8,7 +8,6 @@ namespace System.Diagnostics
 {
     public class StackFrame
     {
-
         public const int OFFSET_UNKNOWN = -1;
 
         public StackFrame();

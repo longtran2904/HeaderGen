@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [AttributeUsage(AttributeTargets.Module, Inherited = False)]
     public sealed class DefaultCharSetAttribute : Attribute
     {
-
         public DefaultCharSetAttribute(CharSet charSet);
 
         public CharSet CharSet { get; }

@@ -10,7 +10,6 @@ namespace UnityEditor.U2D
     [NativeHeader("Editor/Src/2D/SpriteEditorExtension.h")]
     public static class SpriteEditorExtension
     {
-
         public static GUID GetSpriteID(this Sprite sprite);
         public static void SetSpriteID(this Sprite sprite, GUID guid);
     }

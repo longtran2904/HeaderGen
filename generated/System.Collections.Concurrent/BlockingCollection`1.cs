@@ -11,7 +11,6 @@ namespace System.Collections.Concurrent
     [UnsupportedOSPlatform("browser")]
     public class BlockingCollection<T> : ICollection, IDisposable, IEnumerable, IEnumerable<T>, IReadOnlyCollection<T>
     {
-
         public BlockingCollection();
         public BlockingCollection(int boundedCapacity);
         public BlockingCollection(IProducerConsumerCollection<T> collection, int boundedCapacity);

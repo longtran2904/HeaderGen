@@ -9,7 +9,6 @@ namespace UnityEngine.Windows
     [NativeHeader("PlatformDependent/MetroPlayer/Bindings/ApplicationTrialBindings.h")]
     public static class LicenseInformation
     {
-
         public static bool isOnAppTrial { get; }
 
         public static string PurchaseApp();

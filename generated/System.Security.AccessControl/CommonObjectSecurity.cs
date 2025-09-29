@@ -6,7 +6,6 @@ namespace System.Security.AccessControl
 {
     public abstract class CommonObjectSecurity : ObjectSecurity
     {
-
         protected CommonObjectSecurity(bool isContainer);
 
         protected override bool ModifyAccess(AccessControlModification modification, AccessRule rule, out bool modified);

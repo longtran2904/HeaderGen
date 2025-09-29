@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public class AssemblyNameReference : IMetadataScope, IMetadataTokenProvider
     {
-
         public AssemblyNameReference(string name, Version version);
 
         public string Name { get; set; }

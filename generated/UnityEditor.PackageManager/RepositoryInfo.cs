@@ -11,7 +11,6 @@ namespace UnityEditor.PackageManager
     [RequiredByNativeCode]
     public class RepositoryInfo
     {
-
         public string type { get; }
         public string url { get; }
         public string revision { get; }

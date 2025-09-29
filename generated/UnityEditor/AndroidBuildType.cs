@@ -9,7 +9,6 @@ namespace UnityEditor
     [NativeType(Header = "Editor/Src/EditorUserBuildSettings.h")]
     public enum AndroidBuildType
     {
-
         Debug = 0,
         Development = 1,
         Release = 2

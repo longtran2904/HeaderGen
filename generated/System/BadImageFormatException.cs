@@ -9,7 +9,6 @@ namespace System
 {
     public class BadImageFormatException : SystemException
     {
-
         public BadImageFormatException();
         public BadImageFormatException(string message);
         public BadImageFormatException(string message, Exception inner);

@@ -7,7 +7,6 @@ namespace UnityEngine.Rendering.Universal
     [VolumeComponentMenuForRenderPipeline("Post-processing/Color Curves", new[] {typeof(UniversalRenderPipeline) })]
     public sealed class ColorCurves : VolumeComponent, IPostProcessComponent
     {
-
         public TextureCurveParameter master;
         public TextureCurveParameter red;
         public TextureCurveParameter green;

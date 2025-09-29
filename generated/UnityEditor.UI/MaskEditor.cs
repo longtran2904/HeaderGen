@@ -10,7 +10,6 @@ namespace UnityEditor.UI
     [CustomEditor(typeof(Mask), True)]
     public class MaskEditor : Editor
     {
-
         public MaskEditor();
 
         protected virtual void OnEnable();

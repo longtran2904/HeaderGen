@@ -9,7 +9,6 @@ namespace UnityEditor.Experimental.Licensing
     [NativeHeader("Modules/Licensing/Public/LicensingUtility.bindings.h")]
     public static class LicensingUtility
     {
-
         [NativeMethod("HasEntitlement")]
         public static bool HasEntitlement(string entitlement);
         [NativeMethod("HasEntitlements")]

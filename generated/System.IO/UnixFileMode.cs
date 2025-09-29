@@ -7,7 +7,6 @@ namespace System.IO
     [Flags]
     public enum UnixFileMode
     {
-
         None = 0,
         OtherExecute = 1,
         OtherWrite = 2,

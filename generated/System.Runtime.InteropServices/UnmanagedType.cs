@@ -8,7 +8,6 @@ namespace System.Runtime.InteropServices
 {
     public enum UnmanagedType
     {
-
         Bool = 2,
         I1 = 3,
         U1 = 4,

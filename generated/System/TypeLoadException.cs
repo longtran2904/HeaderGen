@@ -9,7 +9,6 @@ namespace System
 {
     public class TypeLoadException : SystemException
     {
-
         public TypeLoadException();
         public TypeLoadException(string message);
         public TypeLoadException(string message, Exception inner);

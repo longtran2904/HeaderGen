@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [AttributeUsage(AttributeTargets.Interface, Inherited = False)]
     public sealed class InterfaceTypeAttribute : Attribute
     {
-
         public InterfaceTypeAttribute(ComInterfaceType interfaceType);
         public InterfaceTypeAttribute(short interfaceType);
 

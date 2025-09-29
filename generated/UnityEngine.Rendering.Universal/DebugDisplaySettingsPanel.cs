@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering.Universal
 {
     public abstract class DebugDisplaySettingsPanel : IDebugDisplaySettingsPanel, IDebugDisplaySettingsPanelDisposable, IDisposable
     {
-
         protected DebugDisplaySettingsPanel();
 
         public abstract string PanelName { get; }

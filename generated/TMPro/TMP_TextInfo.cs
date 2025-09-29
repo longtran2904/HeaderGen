@@ -6,7 +6,6 @@ namespace TMPro
 {
     public class TMP_TextInfo
     {
-
         public TMP_Text textComponent;
         public int characterCount;
         public int spriteCount;

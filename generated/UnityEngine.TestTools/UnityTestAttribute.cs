@@ -12,7 +12,6 @@ namespace UnityEngine.TestTools
     [AttributeUsage(AttributeTargets.Method)]
     public class UnityTestAttribute : CombiningStrategyAttribute, IImplyFixture, ISimpleTestBuilder
     {
-
         public UnityTestAttribute();
 
         public void ApplyToTest(NUnit.Framework.Internal.Test test);

@@ -8,7 +8,6 @@ namespace UnityEditor.Graphs
 {
     public sealed class TopologicalSort
     {
-
         public static List<Node> SortedNodes { get; }
         public static IEnumerable<Node> deadNodes { get; }
 

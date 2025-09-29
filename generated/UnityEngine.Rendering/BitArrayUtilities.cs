@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public static class BitArrayUtilities
     {
-
         public static bool Get8(uint index, byte data);
         public static bool Get16(uint index, ushort data);
         public static bool Get32(uint index, uint data);

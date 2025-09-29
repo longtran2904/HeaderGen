@@ -13,7 +13,6 @@ namespace UnityEngine.VFX
     [UsedByNativeCode]
     public abstract class VisualEffectObject : Object
     {
-
         protected VisualEffectObject();
     }
 }

@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public class AnimationModeDriver : ScriptableObject
     {
-
         public AnimationModeDriver();
     }
 }

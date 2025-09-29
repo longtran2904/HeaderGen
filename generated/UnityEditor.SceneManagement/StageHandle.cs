@@ -9,7 +9,6 @@ namespace UnityEditor.SceneManagement
 {
     public struct StageHandle : IEquatable<StageHandle>
     {
-
         public bool Contains(GameObject gameObject);
         public T FindComponentOfType<T>() where T : Component;
         public T[] FindComponentsOfType<T>() where T : Component;

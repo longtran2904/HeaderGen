@@ -10,7 +10,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [Flags]
     public enum IDLFLAG
     {
-
         IDLFLAG_NONE = 0,
         IDLFLAG_FIN = 1,
         IDLFLAG_FOUT = 2,

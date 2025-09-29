@@ -6,7 +6,6 @@ namespace System.Text
 {
     public abstract class EncoderFallbackBuffer
     {
-
         protected EncoderFallbackBuffer();
 
         public abstract int Remaining { get; }

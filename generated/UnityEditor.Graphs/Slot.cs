@@ -9,7 +9,6 @@ namespace UnityEditor.Graphs
 {
     public class Slot
     {
-
         public SlotType type;
         [NonSerialized]
         public List<Edge> edges;

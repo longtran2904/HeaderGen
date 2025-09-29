@@ -11,7 +11,6 @@ namespace UnityEngine
     [NativeType(CodegenOptions.Custom, "MonoHumanLimit")]
     public struct HumanLimit
     {
-
         public bool useDefaultValues { get; set; }
         public Vector3 min { get; set; }
         public Vector3 max { get; set; }

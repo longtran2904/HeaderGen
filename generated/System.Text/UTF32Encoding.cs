@@ -6,7 +6,6 @@ namespace System.Text
 {
     public sealed class UTF32Encoding : Encoding
     {
-
         public UTF32Encoding();
         public UTF32Encoding(bool bigEndian, bool byteOrderMark);
         public UTF32Encoding(bool bigEndian, bool byteOrderMark, bool throwOnInvalidCharacters);

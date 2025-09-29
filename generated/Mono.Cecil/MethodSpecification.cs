@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public abstract class MethodSpecification : MethodReference
     {
-
         public MethodReference ElementMethod { get; }
         public override string Name { get; set; }
         public override MethodCallingConvention CallingConvention { get; set; }

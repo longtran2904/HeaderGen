@@ -6,7 +6,6 @@ namespace System.Text
 {
     public sealed class EncoderFallbackException : ArgumentException
     {
-
         public EncoderFallbackException();
         public EncoderFallbackException(string message);
         public EncoderFallbackException(string message, Exception innerException);

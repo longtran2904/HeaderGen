@@ -8,7 +8,6 @@ namespace Unity.IO.LowLevel.Unsafe
 {
     public readonly struct FileHandle
     {
-
         public FileStatus Status { get; }
         public JobHandle JobHandle { get; }
 

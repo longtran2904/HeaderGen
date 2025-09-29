@@ -13,7 +13,6 @@ namespace UnityEngine.Timeline
     [TrackClipType(typeof(TrackAsset))]
     public class GroupTrack : TrackAsset
     {
-
         public GroupTrack();
 
         public override IEnumerable<PlayableBinding> outputs { get; }

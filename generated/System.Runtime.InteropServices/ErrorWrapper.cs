@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices
     [EditorBrowsable(EditorBrowsableState.Never)]
     public sealed class ErrorWrapper
     {
-
         public ErrorWrapper(int errorCode);
         public ErrorWrapper(object errorCode);
         public ErrorWrapper(Exception e);

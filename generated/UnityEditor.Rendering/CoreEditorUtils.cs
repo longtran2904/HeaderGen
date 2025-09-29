@@ -11,7 +11,6 @@ namespace UnityEditor.Rendering
 {
     public static class CoreEditorUtils
     {
-
         public static GraphicsDeviceType[] buildTargets { get; }
 
         public static string FindProperty<T, TValue>(Expression<Func<T, TValue>> expr);

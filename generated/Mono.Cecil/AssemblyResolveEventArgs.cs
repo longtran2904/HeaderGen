@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public sealed class AssemblyResolveEventArgs : EventArgs
     {
-
         public AssemblyResolveEventArgs(AssemblyNameReference reference);
 
         public AssemblyNameReference AssemblyReference { get; }

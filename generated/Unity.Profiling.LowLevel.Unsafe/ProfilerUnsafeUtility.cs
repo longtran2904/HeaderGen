@@ -12,7 +12,6 @@ namespace Unity.Profiling.LowLevel.Unsafe
     [UsedByNativeCode]
     public static class ProfilerUnsafeUtility
     {
-
         public const ushort CategoryRender = 0;
         public const ushort CategoryScripts = 1;
         public const ushort CategoryGUI = 4;
@@ -65,9 +64,9 @@ namespace Unity.Profiling.LowLevel.Unsafe
         public static uint CreateFlow(ushort categoryId);
         [ThreadSafe]
         public static void FlowEvent(uint flowId, ProfilerFlowEventType flowEventType);
+
         public struct TimestampConversionRatio
         {
-
             public long Numerator;
             public long Denominator;
         }

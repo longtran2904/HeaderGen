@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public class Vector4Parameter : VolumeParameter<Vector4>
     {
-
         public Vector4Parameter(Vector4 value, bool overrideState = False);
 
         public override void Interp(Vector4 from, Vector4 to, float t);

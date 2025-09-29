@@ -10,7 +10,6 @@ namespace UnityEditor
 {
     public class ProjectWindowUtil
     {
-
         public ProjectWindowUtil();
 
         [MenuItem("Assets/Create/GUI Skin", False, 601)]

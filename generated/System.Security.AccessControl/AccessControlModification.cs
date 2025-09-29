@@ -6,7 +6,6 @@ namespace System.Security.AccessControl
 {
     public enum AccessControlModification
     {
-
         Add = 0,
         Set = 1,
         Reset = 2,

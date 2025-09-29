@@ -12,7 +12,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Graphics/GraphicsScriptBindings.h")]
     public sealed class TrailRenderer : Renderer
     {
-
         public TrailRenderer();
 
         [Obsolete("Use positionCount instead (UnityUpgradable) -> positionCount", False)]

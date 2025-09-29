@@ -9,7 +9,6 @@ namespace UnityEditor.Search
     [Flags]
     public enum SearchItemOptions
     {
-
         None = 0,
         Ellipsis = 1,
         RightToLeft = 2,

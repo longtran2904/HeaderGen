@@ -6,7 +6,6 @@ namespace System.Globalization
 {
     public class RegionInfo
     {
-
         public RegionInfo(string name);
         public RegionInfo(int culture);
 

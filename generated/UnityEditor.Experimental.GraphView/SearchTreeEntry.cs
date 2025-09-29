@@ -9,7 +9,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class SearchTreeEntry : IComparable<SearchTreeEntry>
     {
-
         public int level;
         public GUIContent content;
         public object userData;

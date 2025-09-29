@@ -8,7 +8,6 @@ namespace UnityEngine.Experimental.Rendering.RenderGraphModule
 {
     public struct RenderGraphBuilder : IDisposable
     {
-
         public TextureHandle UseColorBuffer(in TextureHandle input, int index);
         public TextureHandle UseDepthBuffer(in TextureHandle input, DepthAccess flags);
         public TextureHandle ReadTexture(in TextureHandle input);

@@ -6,7 +6,6 @@ namespace UnityEditor.Profiling.Memory.Experimental
 {
     public class ArrayEntries<T>
     {
-
         public uint GetNumEntries();
         public virtual void GetEntries(uint indexStart, uint numEntries, ref T[] dataOut);
     }

@@ -8,7 +8,6 @@ namespace UnityEngine.UI
 {
     public class GraphicRegistry
     {
-
         protected GraphicRegistry();
 
         public static GraphicRegistry instance { get; }

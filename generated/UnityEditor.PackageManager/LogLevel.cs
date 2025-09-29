@@ -6,7 +6,6 @@ namespace UnityEditor.PackageManager
 {
     public enum LogLevel
     {
-
         Error = 0,
         Warn = 1,
         Info = 2,

@@ -8,7 +8,6 @@ namespace UnityEditor.U2D.Sprites
 {
     public interface ISecondaryTextureDataProvider
     {
-
         SecondarySpriteTexture[] textures { get; set; }
     }
 }

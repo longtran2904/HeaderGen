@@ -8,7 +8,6 @@ namespace Mono.Cecil.Cil
 {
     public class DefaultSymbolReaderProvider : ISymbolReaderProvider
     {
-
         public DefaultSymbolReaderProvider();
         public DefaultSymbolReaderProvider(bool throwIfNoSymbol);
 

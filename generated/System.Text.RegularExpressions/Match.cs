@@ -6,7 +6,6 @@ namespace System.Text.RegularExpressions
 {
     public class Match : Group
     {
-
         public static Match Empty { get; }
         public virtual GroupCollection Groups { get; }
 

@@ -11,7 +11,6 @@ namespace UnityEngine.Rendering
     [UsedByNativeCode]
     public struct ShaderKeywordSet
     {
-
         public bool IsEnabled(ShaderKeyword keyword);
         public bool IsEnabled(GlobalKeyword keyword);
         public bool IsEnabled(LocalKeyword keyword);

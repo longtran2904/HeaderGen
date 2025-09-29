@@ -9,7 +9,6 @@ namespace UnityEditor.Search
     [Flags]
     public enum FetchPreviewOptions
     {
-
         None = 0,
         Preview2D = 1,
         Preview3D = 2,

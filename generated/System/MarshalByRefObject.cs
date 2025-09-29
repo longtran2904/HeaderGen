@@ -6,7 +6,6 @@ namespace System
 {
     public abstract class MarshalByRefObject
     {
-
         protected MarshalByRefObject();
 
         [Obsolete("This Remoting API is not supported and throws PlatformNotSupportedException.", DiagnosticId = "SYSLIB0010", UrlFormat = "https://aka.ms/dotnet-warnings/{0}")]

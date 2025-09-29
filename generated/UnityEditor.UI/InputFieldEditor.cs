@@ -10,7 +10,6 @@ namespace UnityEditor.UI
     [CustomEditor(typeof(InputField), True)]
     public class InputFieldEditor : SelectableEditor
     {
-
         public InputFieldEditor();
 
         protected override void OnEnable();

@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering
 {
     public enum ShaderType
     {
-
         Vertex = 1,
         Fragment = 2,
         Geometry = 3,

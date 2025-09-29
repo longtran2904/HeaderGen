@@ -7,7 +7,6 @@ namespace System.Reflection
     [Flags]
     public enum AssemblyNameFlags
     {
-
         None = 0,
         PublicKey = 1,
         EnableJITcompileOptimizer = 16384,

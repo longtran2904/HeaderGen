@@ -6,7 +6,6 @@ namespace System.Globalization
 {
     public class GregorianCalendar : Calendar
     {
-
         public const int ADEra = 1;
 
         public GregorianCalendar();

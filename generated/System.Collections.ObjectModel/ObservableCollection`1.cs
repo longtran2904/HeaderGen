@@ -10,7 +10,6 @@ namespace System.Collections.ObjectModel
 {
     public class ObservableCollection<T> : Collection<T>, INotifyCollectionChanged, INotifyPropertyChanged
     {
-
         public ObservableCollection();
         public ObservableCollection(IEnumerable<T> collection);
         public ObservableCollection(List<T> list);

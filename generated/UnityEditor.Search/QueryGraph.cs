@@ -6,7 +6,6 @@ namespace UnityEditor.Search
 {
     public class QueryGraph
     {
-
         public QueryGraph(IQueryNode root);
 
         public IQueryNode root { get; }

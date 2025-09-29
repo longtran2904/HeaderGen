@@ -9,7 +9,6 @@ namespace UnityEngine.Experimental.AI
     [Flags]
     public enum PathQueryStatus
     {
-
         Failure = -2147483648,
         Success = 1073741824,
         InProgress = 536870912,

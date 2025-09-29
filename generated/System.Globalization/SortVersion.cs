@@ -6,7 +6,6 @@ namespace System.Globalization
 {
     public sealed class SortVersion : IEquatable<SortVersion>
     {
-
         public SortVersion(int fullVersion, Guid sortId);
 
         public int FullVersion { get; }

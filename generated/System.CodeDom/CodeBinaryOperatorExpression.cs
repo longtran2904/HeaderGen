@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeBinaryOperatorExpression : CodeExpression
     {
-
         public CodeBinaryOperatorExpression();
         public CodeBinaryOperatorExpression(CodeExpression left, CodeBinaryOperatorType op, CodeExpression right);
 

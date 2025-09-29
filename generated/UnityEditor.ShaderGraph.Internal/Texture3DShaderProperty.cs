@@ -8,7 +8,6 @@ namespace UnityEditor.ShaderGraph.Internal
     [FormerName("UnityEditor.ShaderGraph.Texture3DShaderProperty")]
     public sealed class Texture3DShaderProperty : AbstractShaderProperty<SerializableTexture>
     {
-
         public override PropertyType propertyType { get; }
         public bool modifiable { get; set; }
     }

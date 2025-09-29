@@ -6,7 +6,6 @@ namespace UnityEditorInternal
 {
     public struct NativeProfilerTimeline_InitializeArgs
     {
-
         public float ghostAlpha;
         public float nonSelectedAlpha;
         public float lineHeight;

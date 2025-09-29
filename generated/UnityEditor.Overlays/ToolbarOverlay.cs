@@ -8,7 +8,6 @@ namespace UnityEditor.Overlays
 {
     public abstract class ToolbarOverlay : Overlay, ICreateHorizontalToolbar, ICreateVerticalToolbar
     {
-
         protected ToolbarOverlay(params string[] toolbarElementIds);
 
         public VisualElement CreateHorizontalToolbarContent();

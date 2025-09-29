@@ -10,7 +10,6 @@ namespace UnityEditor.VersionControl
     [Obsolete("MergeMethod is no longer used.")]
     public enum MergeMethod
     {
-
         MergeNone = 0,
         MergeAll = 1,
         [Obsolete("This member is no longer supported (UnityUpgradable) -> MergeNone", True)]

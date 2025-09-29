@@ -6,7 +6,6 @@ namespace System.Reflection.Emit
 {
     public class DynamicILInfo
     {
-
         public DynamicMethod DynamicMethod { get; }
 
         public void SetCode(byte[] code, int maxStackSize);

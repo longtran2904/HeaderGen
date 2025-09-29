@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.Marshalling
     [Flags]
     public enum ComInterfaceOptions
     {
-
         [EditorBrowsable(EditorBrowsableState.Never)]
         None = 0,
         ManagedObjectWrapper = 1,

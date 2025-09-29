@@ -10,7 +10,6 @@ namespace TMPro.EditorUtilities
     [CustomEditor(typeof(TMP_StyleSheet))]
     public class TMP_StyleEditor : Editor
     {
-
         public TMP_StyleEditor();
 
         public override void OnInspectorGUI();

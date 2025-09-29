@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public interface IAdviseSink
     {
-
         void OnDataChange(in FORMATETC format, in STGMEDIUM stgmedium);
         void OnViewChange(int aspect, int index);
         void OnRename(IMoniker moniker);

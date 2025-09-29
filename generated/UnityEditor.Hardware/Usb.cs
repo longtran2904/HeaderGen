@@ -8,13 +8,13 @@ namespace UnityEditor.Hardware
 {
     public sealed class Usb
     {
-
         public Usb();
 
         public static event OnDevicesChangedHandler DevicesChanged;
 
         [RequiredByNativeCode]
         public static void OnDevicesChanged(UsbDevice[] devices);
+
         public delegate void OnDevicesChangedHandler(UsbDevice[] devices);
     }
 }

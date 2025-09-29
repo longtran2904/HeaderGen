@@ -10,7 +10,6 @@ namespace System.IO.Enumeration
 {
     public abstract class FileSystemEnumerator<TResult> : CriticalFinalizerObject, IDisposable, IEnumerator, IEnumerator<TResult>
     {
-
         public FileSystemEnumerator(string directory, EnumerationOptions options = null);
 
         ~FileSystemEnumerator();

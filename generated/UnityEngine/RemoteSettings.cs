@@ -14,7 +14,6 @@ namespace UnityEngine
     [NativeHeader("Modules/UnityAnalytics/RemoteSettings/RemoteSettings.h")]
     public static class RemoteSettings
     {
-
         public static event UpdatedEventHandler Updated;
         public static event Action BeforeFetchFromServer;
         public static event Action<bool, bool, int> Completed;
@@ -46,6 +45,7 @@ namespace UnityEngine
         public static object GetObject(Type type, string key = "");
         public static object GetObject(string key, object defaultValue);
         public static IDictionary<string, object> GetDictionary(string key = "");
+
         public delegate void UpdatedEventHandler();
     }
 }

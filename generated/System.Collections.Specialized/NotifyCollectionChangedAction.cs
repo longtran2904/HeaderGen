@@ -6,7 +6,6 @@ namespace System.Collections.Specialized
 {
     public enum NotifyCollectionChangedAction
     {
-
         Add = 0,
         Remove = 1,
         Replace = 2,

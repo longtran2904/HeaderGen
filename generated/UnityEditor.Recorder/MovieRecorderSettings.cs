@@ -10,7 +10,6 @@ namespace UnityEditor.Recorder
     [RecorderSettings(typeof(MovieRecorder), "Movie", "movie_16")]
     public class MovieRecorderSettings : RecorderSettings, IAccumulation
     {
-
         public MovieRecorderSettings();
 
         public VideoRecorderOutputFormat OutputFormat { get; set; }
@@ -27,9 +26,9 @@ namespace UnityEditor.Recorder
         public override bool IsAccumulationSupported();
         protected internal override void GetWarnings(List<string> warnings);
         protected internal override void GetErrors(List<string> errors);
+
         public enum VideoRecorderOutputFormat
         {
-
             MP4 = 0,
             WebM = 1,
             MOV = 2

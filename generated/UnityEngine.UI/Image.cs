@@ -10,7 +10,6 @@ namespace UnityEngine.UI
     [RequireComponent(typeof(CanvasRenderer))]
     public class Image : MaskableGraphic, ICanvasRaycastFilter, ILayoutElement, ISerializationCallbackReceiver
     {
-
         protected static Material s_ETC1DefaultUI;
 
         protected Image();
@@ -57,9 +56,9 @@ namespace UnityEngine.UI
         public virtual bool IsRaycastLocationValid(Vector2 screenPoint, Camera eventCamera);
         protected override void OnDidApplyAnimationProperties();
         protected override void OnValidate();
+
         public enum Type
         {
-
             Simple = 0,
             Sliced = 1,
             Tiled = 2,
@@ -67,7 +66,6 @@ namespace UnityEngine.UI
         }
         public enum FillMethod
         {
-
             Horizontal = 0,
             Vertical = 1,
             Radial90 = 2,
@@ -76,19 +74,16 @@ namespace UnityEngine.UI
         }
         public enum OriginHorizontal
         {
-
             Left = 0,
             Right = 1
         }
         public enum OriginVertical
         {
-
             Bottom = 0,
             Top = 1
         }
         public enum Origin90
         {
-
             BottomLeft = 0,
             TopLeft = 1,
             TopRight = 2,
@@ -96,7 +91,6 @@ namespace UnityEngine.UI
         }
         public enum Origin180
         {
-
             Bottom = 0,
             Left = 1,
             Top = 2,
@@ -104,7 +98,6 @@ namespace UnityEngine.UI
         }
         public enum Origin360
         {
-
             Bottom = 0,
             Right = 1,
             Top = 2,

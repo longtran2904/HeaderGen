@@ -10,7 +10,6 @@ namespace UnityEditor
     [ExcludeFromDocs]
     public struct ExternalVersionControl
     {
-
         public static readonly string Disabled;
         public static readonly string AutoDetect;
         public static readonly string Generic;

@@ -9,7 +9,6 @@ namespace UnityEngine.TerrainTools
     [MovedFrom("UnityEngine.Experimental.TerrainAPI")]
     public struct BrushTransform
     {
-
         public BrushTransform(Vector2 brushOrigin, Vector2 brushU, Vector2 brushV);
 
         public Vector2 brushOrigin { get; }

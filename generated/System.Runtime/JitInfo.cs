@@ -6,7 +6,6 @@ namespace System.Runtime
 {
     public static class JitInfo
     {
-
         public static long GetCompiledILBytes(bool currentThread = False);
         public static long GetCompiledMethodCount(bool currentThread = False);
         public static TimeSpan GetCompilationTime(bool currentThread = False);

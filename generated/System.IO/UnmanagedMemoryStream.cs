@@ -10,7 +10,6 @@ namespace System.IO
 {
     public class UnmanagedMemoryStream : Stream
     {
-
         protected UnmanagedMemoryStream();
         public UnmanagedMemoryStream(SafeBuffer buffer, long offset, long length);
         public UnmanagedMemoryStream(SafeBuffer buffer, long offset, long length, FileAccess access);

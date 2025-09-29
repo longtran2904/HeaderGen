@@ -6,7 +6,6 @@ namespace System.Numerics
 {
     public interface IUnaryNegationOperators<TSelf, TResult> where TSelf : IUnaryNegationOperators<TSelf, TResult>
     {
-
         TResult operator -(TSelf value);
         TResult operator checked -(TSelf value);
     }

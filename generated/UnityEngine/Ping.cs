@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Export/Networking/Ping.bindings.h")]
     public sealed class Ping
     {
-
         public Ping(string address);
 
         ~Ping();

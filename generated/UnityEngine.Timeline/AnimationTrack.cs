@@ -15,7 +15,6 @@ namespace UnityEngine.Timeline
     [TrackClipType(typeof(AnimationPlayableAsset), False)]
     public class AnimationTrack : TrackAsset, ILayerable
     {
-
         public AnimationTrack();
 
         public Vector3 position { get; set; }

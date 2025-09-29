@@ -11,7 +11,6 @@ namespace UnityEngine
 {
     public sealed class Security
     {
-
         public Security();
 
         [EditorBrowsable(EditorBrowsableState.Never)]

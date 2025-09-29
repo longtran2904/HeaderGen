@@ -12,7 +12,6 @@ namespace UnityEngine.Rendering
     [StaticAccessor("AsyncGPUReadbackManager::GetInstance()", StaticAccessorType.Dot)]
     public static class AsyncGPUReadback
     {
-
         public static void WaitAllRequests();
         public static AsyncGPUReadbackRequest Request(ComputeBuffer src, Action<AsyncGPUReadbackRequest> callback = null);
         public static AsyncGPUReadbackRequest Request(ComputeBuffer src, int size, int offset, Action<AsyncGPUReadbackRequest> callback = null);

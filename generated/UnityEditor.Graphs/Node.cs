@@ -12,7 +12,6 @@ namespace UnityEditor.Graphs
     [DefaultMember("Item")]
     public class Node : ScriptableObject
     {
-
         [SerializeField]
         protected List<Slot> m_Slots;
         [SerializeField]

@@ -12,7 +12,6 @@ namespace UnityEditor.Build.Content
     [UsedByNativeCode]
     public class BuildUsageCache : IDisposable
     {
-
         public BuildUsageCache();
 
         ~BuildUsageCache();

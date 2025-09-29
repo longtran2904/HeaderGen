@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeMethodInvokeExpression : CodeExpression
     {
-
         public CodeMethodInvokeExpression();
         public CodeMethodInvokeExpression(CodeMethodReferenceExpression method, params CodeExpression[] parameters);
         public CodeMethodInvokeExpression(CodeExpression targetObject, string methodName, params CodeExpression[] parameters);

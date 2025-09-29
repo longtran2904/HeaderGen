@@ -9,7 +9,6 @@ namespace Mono.Cecil
 {
     public sealed class MethodDefinition : MethodReference, ICustomAttributeProvider, ICustomDebugInformationProvider, IMemberDefinition, ISecurityDeclarationProvider
     {
-
         public MethodDefinition(string name, MethodAttributes attributes, TypeReference returnType);
 
         public override string Name { get; set; }

@@ -10,7 +10,6 @@ namespace UnityEditor.Timeline.Actions
 {
     public struct ActionContext
     {
-
         public TimelineAsset timeline;
         public PlayableDirector director;
         public double? invocationTime;

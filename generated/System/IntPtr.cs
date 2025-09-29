@@ -10,7 +10,6 @@ namespace System
 {
     public readonly struct IntPtr : IAdditionOperators<nint, nint, nint>, IAdditiveIdentity<nint, nint>, IBinaryInteger<nint>, IBinaryNumber<nint>, IBitwiseOperators<nint, nint, nint>, IComparable, IComparable<nint>, IComparisonOperators<nint, nint, bool>, IDecrementOperators<nint>, IDivisionOperators<nint, nint, nint>, IEqualityOperators<nint, nint, bool>, IEquatable<nint>, IFormattable, IIncrementOperators<nint>, IMinMaxValue<nint>, IModulusOperators<nint, nint, nint>, IMultiplicativeIdentity<nint, nint>, IMultiplyOperators<nint, nint, nint>, INumber<nint>, INumberBase<nint>, IParsable<nint>, ISerializable, IShiftOperators<nint, int, nint>, ISignedNumber<nint>, ISpanFormattable, ISpanParsable<nint>, ISubtractionOperators<nint, nint, nint>, IUnaryNegationOperators<nint, nint>, IUnaryPlusOperators<nint, nint>, IUtf8SpanFormattable, IUtf8SpanParsable<nint>
     {
-
         public static readonly nint Zero;
 
         public IntPtr(int value);

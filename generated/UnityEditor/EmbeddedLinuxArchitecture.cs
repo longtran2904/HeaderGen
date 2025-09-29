@@ -10,7 +10,6 @@ namespace UnityEditor
     [NativeType(Header = "Editor/Src/EditorUserBuildSettings.h")]
     public enum EmbeddedLinuxArchitecture
     {
-
         [InspectorName("Arm64")]
         Arm64 = 0,
         [InspectorName("Arm32")]

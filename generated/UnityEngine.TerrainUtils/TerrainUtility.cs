@@ -10,7 +10,6 @@ namespace UnityEngine.TerrainUtils
     [MovedFrom("UnityEngine.Experimental.TerrainAPI")]
     public static class TerrainUtility
     {
-
         [RequiredByNativeCode]
         public static void AutoConnect();
     }

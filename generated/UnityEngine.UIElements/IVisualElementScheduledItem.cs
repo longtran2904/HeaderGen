@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public interface IVisualElementScheduledItem
     {
-
         VisualElement element { get; }
         bool isActive { get; }
 

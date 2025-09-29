@@ -17,7 +17,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Graphics/Mesh/MeshScriptBindings.h")]
     public sealed class SystemInfo
     {
-
         public const string unsupportedIdentifier = "n/a";
 
         public SystemInfo();

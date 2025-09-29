@@ -10,7 +10,6 @@ namespace System.CodeDom.Compiler
     [DefaultMember("Item")]
     public class CompilerErrorCollection : CollectionBase
     {
-
         public CompilerErrorCollection();
         public CompilerErrorCollection(CompilerErrorCollection value);
         public CompilerErrorCollection(CompilerError[] value);

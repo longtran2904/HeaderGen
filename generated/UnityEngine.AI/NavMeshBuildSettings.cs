@@ -9,7 +9,6 @@ namespace UnityEngine.AI
     [NativeHeader("Modules/AI/Public/NavMeshBuildSettings.h")]
     public struct NavMeshBuildSettings
     {
-
         public int agentTypeID { get; set; }
         public float agentRadius { get; set; }
         public float agentHeight { get; set; }

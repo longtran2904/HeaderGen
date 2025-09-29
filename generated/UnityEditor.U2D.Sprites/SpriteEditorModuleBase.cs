@@ -8,7 +8,6 @@ namespace UnityEditor.U2D.Sprites
 {
     public abstract class SpriteEditorModuleBase
     {
-
         protected SpriteEditorModuleBase();
 
         public ISpriteEditor spriteEditor { get; }

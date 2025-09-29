@@ -13,7 +13,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public sealed class TerrainData : Object
     {
-
         public TerrainData();
 
         [Obsolete("Please use heightmapResolution instead. (UnityUpgradable) -> heightmapResolution", False)]

@@ -10,7 +10,6 @@ namespace UnityEngine
     [NativeHeader("Modules/ClusterInput/ClusterInput.h")]
     public class ClusterInput
     {
-
         public ClusterInput();
 
         public static float GetAxis(string name);

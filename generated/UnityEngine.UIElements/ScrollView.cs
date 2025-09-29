@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public class ScrollView : VisualElement
     {
-
         public static readonly string ussClassName;
         public static readonly string viewportUssClassName;
         public static readonly string contentAndVerticalScrollUssClassName;
@@ -45,28 +44,25 @@ namespace UnityEngine.UIElements
         public ScrollViewMode mode { get; set; }
 
         public void ScrollTo(VisualElement child);
+
         public class UxmlFactory : UxmlFactory<ScrollView, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : VisualElement.UxmlTraits
         {
-
             public UxmlTraits();
 
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc);
         }
         public enum TouchScrollBehavior
         {
-
             Unrestricted = 0,
             Elastic = 1,
             Clamped = 2
         }
         public enum NestedInteractionKind
         {
-
             Default = 0,
             StopScrolling = 1,
             ForwardScrolling = 2

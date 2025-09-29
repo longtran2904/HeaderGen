@@ -9,7 +9,6 @@ namespace UnityEngine
     [AttributeUsage(AttributeTargets.Field, AllowMultiple = True, Inherited = True)]
     public class HeaderAttribute : PropertyAttribute
     {
-
         public readonly string header;
 
         public HeaderAttribute(string header);

@@ -6,7 +6,6 @@ namespace UnityEditor.ShaderKeywordFilter
 {
     public class ApplyRulesIfTagsNotEqualAttribute : TagConstraintAttribute
     {
-
         public ApplyRulesIfTagsNotEqualAttribute(params string[] tags);
     }
 }

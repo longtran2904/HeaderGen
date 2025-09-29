@@ -10,7 +10,6 @@ namespace UnityEditor.UIElements
 {
     public class ObjectField : BaseField<UnityEngine.Object>
     {
-
         public static readonly string ussClassName;
         public static readonly string labelUssClassName;
         public static readonly string inputUssClassName;
@@ -25,14 +24,13 @@ namespace UnityEditor.UIElements
 
         public override void SetValueWithoutNotify(UnityEngine.Object newValue);
         protected override void UpdateMixedValueContent();
+
         public class UxmlFactory : UxmlFactory<ObjectField, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : BaseField<UnityEngine.Object>.UxmlTraits
         {
-
             public UxmlTraits();
 
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc);

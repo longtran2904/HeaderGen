@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics2D/SliderJoint2D.h")]
     public sealed class SliderJoint2D : AnchoredJoint2D
     {
-
         public SliderJoint2D();
 
         public bool autoConfigureAngle { get; set; }

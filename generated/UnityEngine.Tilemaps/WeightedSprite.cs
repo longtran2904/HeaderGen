@@ -6,7 +6,6 @@ namespace UnityEngine.Tilemaps
 {
     public struct WeightedSprite
     {
-
         public Sprite Sprite;
         public int Weight;
     }

@@ -8,7 +8,6 @@ namespace System.Diagnostics.Contracts
     [Conditional("CONTRACTS_FULL")]
     public sealed class ContractOptionAttribute : Attribute
     {
-
         public ContractOptionAttribute(string category, string setting, bool enabled);
         public ContractOptionAttribute(string category, string setting, string value);
 

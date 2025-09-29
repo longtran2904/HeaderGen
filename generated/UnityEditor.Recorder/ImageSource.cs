@@ -9,7 +9,6 @@ namespace UnityEditor.Recorder
     [Flags]
     public enum ImageSource
     {
-
         ActiveCamera = 1,
         MainCamera = 2,
         TaggedCamera = 4

@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum SpritePackingRotation
     {
-
         None = 0,
         FlipHorizontal = 1,
         FlipVertical = 2,

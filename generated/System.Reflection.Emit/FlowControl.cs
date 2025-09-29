@@ -6,7 +6,6 @@ namespace System.Reflection.Emit
 {
     public enum FlowControl
     {
-
         Branch = 0,
         Break = 1,
         Call = 2,

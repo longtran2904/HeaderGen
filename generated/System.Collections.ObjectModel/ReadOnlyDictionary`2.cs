@@ -10,7 +10,6 @@ namespace System.Collections.ObjectModel
     [DefaultMember("Item")]
     public class ReadOnlyDictionary<TKey, TValue> : ICollection, ICollection<KeyValuePair<TKey, TValue>>, IDictionary, IDictionary<TKey, TValue>, IEnumerable, IEnumerable<KeyValuePair<TKey, TValue>>, IReadOnlyCollection<KeyValuePair<TKey, TValue>>, IReadOnlyDictionary<TKey, TValue>
     {
-
         public ReadOnlyDictionary(IDictionary<TKey, TValue> dictionary);
 
         public TValue this[TKey key] { get; }
@@ -23,9 +22,9 @@ namespace System.Collections.ObjectModel
         public bool ContainsKey(TKey key);
         public bool TryGetValue(TKey key, out TValue value);
         public IEnumerator<KeyValuePair<TKey, TValue>> GetEnumerator();
+
         public sealed class KeyCollection : ICollection, ICollection<TKey>, IEnumerable, IEnumerable<TKey>, IReadOnlyCollection<TKey>
         {
-
             public int Count { get; }
 
             public bool Contains(TKey item);
@@ -34,7 +33,6 @@ namespace System.Collections.ObjectModel
         }
         public sealed class ValueCollection : ICollection, ICollection<TValue>, IEnumerable, IEnumerable<TValue>, IReadOnlyCollection<TValue>
         {
-
             public int Count { get; }
 
             public void CopyTo(TValue[] array, int arrayIndex);

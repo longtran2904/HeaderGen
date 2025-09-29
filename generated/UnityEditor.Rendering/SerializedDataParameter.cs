@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering
 {
     public sealed class SerializedDataParameter
     {
-
         public SerializedProperty overrideState { get; }
         public SerializedProperty value { get; }
         public Attribute[] attributes { get; }

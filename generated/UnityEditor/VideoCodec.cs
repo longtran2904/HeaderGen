@@ -9,7 +9,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Src/Video/VideoClipTranscode.h")]
     public enum VideoCodec
     {
-
         Auto = 0,
         H264 = 1,
         H265 = 3,

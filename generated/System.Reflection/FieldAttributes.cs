@@ -7,7 +7,6 @@ namespace System.Reflection
     [Flags]
     public enum FieldAttributes
     {
-
         FieldAccessMask = 7,
         PrivateScope = 0,
         Private = 1,

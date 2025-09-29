@@ -10,7 +10,6 @@ namespace UnityEditorInternal.VR
     [NativeHeader("Modules/VREditor/VREditor.bindings.h")]
     public sealed class VREditor
     {
-
         public VREditor();
 
         public static bool GetVREnabledOnTargetGroup(BuildTargetGroup targetGroup);

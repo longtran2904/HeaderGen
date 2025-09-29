@@ -9,7 +9,6 @@ namespace System
 {
     public class EntryPointNotFoundException : TypeLoadException
     {
-
         public EntryPointNotFoundException();
         public EntryPointNotFoundException(string message);
         public EntryPointNotFoundException(string message, Exception inner);

@@ -6,7 +6,6 @@ namespace System
 {
     public readonly struct Boolean : IComparable, IComparable<bool>, IConvertible, IEquatable<bool>, IParsable<bool>, ISpanParsable<bool>
     {
-
         public static readonly string TrueString;
         public static readonly string FalseString;
 

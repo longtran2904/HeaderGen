@@ -10,7 +10,6 @@ namespace TMPro.EditorUtilities
     [CustomPropertyDrawer(typeof(VerticalAlignmentOptions))]
     public class TMP_VerticalAlignmentDrawer : PropertyDrawer
     {
-
         public TMP_VerticalAlignmentDrawer();
 
         public override float GetPropertyHeight(SerializedProperty property, GUIContent label);

@@ -12,7 +12,6 @@ namespace UnityEngine.Networking
     [NativeHeader("Modules/UnityWebRequest/Public/DownloadHandler/DownloadHandler.h")]
     public class DownloadHandler : IDisposable
     {
-
         ~DownloadHandler();
 
         public bool isDone { get; }

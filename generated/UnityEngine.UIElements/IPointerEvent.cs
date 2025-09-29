@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public interface IPointerEvent
     {
-
         int pointerId { get; }
         string pointerType { get; }
         bool isPrimary { get; }

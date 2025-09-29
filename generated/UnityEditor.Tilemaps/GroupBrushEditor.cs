@@ -7,7 +7,6 @@ namespace UnityEditor.Tilemaps
     [CustomEditor(typeof(GroupBrush))]
     public class GroupBrushEditor : GridBrushEditor
     {
-
         public GroupBrushEditor();
     }
 }

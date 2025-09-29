@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class InputEvent : EventBase<InputEvent>
     {
-
         public InputEvent();
 
         public string previousData { get; protected set; }

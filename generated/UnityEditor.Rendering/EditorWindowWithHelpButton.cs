@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering
 {
     public class EditorWindowWithHelpButton : EditorWindow
     {
-
         public EditorWindowWithHelpButton();
 
         protected virtual void ShowButton(Rect r);

@@ -14,7 +14,6 @@ namespace UnityEngine.Rendering
     [UsedByNativeCode]
     public struct SphericalHarmonicsL2 : IEquatable<SphericalHarmonicsL2>
     {
-
         public float this[int rgb, int coefficient] { get; set; }
 
         public void Clear();

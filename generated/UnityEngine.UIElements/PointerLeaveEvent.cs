@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public sealed class PointerLeaveEvent : PointerEventBase<PointerLeaveEvent>
     {
-
         public PointerLeaveEvent();
 
         protected override void Init();

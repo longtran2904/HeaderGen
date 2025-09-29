@@ -9,7 +9,6 @@ namespace Mono.Cecil
 {
     public sealed class ReaderParameters
     {
-
         public ReaderParameters();
         public ReaderParameters(ReadingMode readingMode);
 

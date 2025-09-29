@@ -8,7 +8,6 @@ namespace UnityEngine.UI
 {
     public class MaskUtilities
     {
-
         public MaskUtilities();
 
         public static void Notify2DMaskStateChanged(Component mask);

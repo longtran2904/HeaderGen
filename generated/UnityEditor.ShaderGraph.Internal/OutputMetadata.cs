@@ -6,7 +6,6 @@ namespace UnityEditor.ShaderGraph.Internal
 {
     public struct OutputMetadata
     {
-
         public int index { get; }
         public int id { get; }
         public string referenceName { get; }

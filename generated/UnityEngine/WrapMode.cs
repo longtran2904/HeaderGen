@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum WrapMode
     {
-
         Once = 1,
         Loop = 2,
         PingPong = 4,

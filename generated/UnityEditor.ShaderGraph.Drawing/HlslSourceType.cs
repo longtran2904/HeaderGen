@@ -6,7 +6,6 @@ namespace UnityEditor.ShaderGraph.Drawing
 {
     public enum HlslSourceType
     {
-
         File = 0,
         String = 1
     }

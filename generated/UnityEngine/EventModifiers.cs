@@ -9,7 +9,6 @@ namespace UnityEngine
     [Flags]
     public enum EventModifiers
     {
-
         None = 0,
         Shift = 1,
         Control = 2,

@@ -8,7 +8,6 @@ using System.Collections.Generic;
 
 public class TestInterface : ICloneable, IDisposable, IEnumerator, IEnumerator<TestInterface>
 {
-
     public TestInterface();
 
     public TestInterface Current { get; }
@@ -17,9 +16,9 @@ public class TestInterface : ICloneable, IDisposable, IEnumerator, IEnumerator<T
     public bool MoveNext();
     public void Dispose();
     public void Reset();
+
     public interface IA
     {
-
         int Do();
     }
     public interface IB : IA
@@ -30,35 +29,30 @@ public class TestInterface : ICloneable, IDisposable, IEnumerator, IEnumerator<T
     }
     public class CA : IA
     {
-
         public CA();
 
         public int Do();
     }
     public class CB : CA
     {
-
         public CB();
 
         public int Do();
     }
     public class CC : CB
     {
-
         public CC();
     }
     public class Outer
     {
-
         public Outer();
+
         public class D1 : Hidden
         {
-
             public D1();
         }
         public class D2 : Hidden.InnerPublic
         {
-
             public D2();
         }
     }

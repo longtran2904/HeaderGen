@@ -7,7 +7,6 @@ namespace System.Reflection
     [AttributeUsage(AttributeTargets.Assembly, Inherited = False)]
     public sealed class AssemblyTrademarkAttribute : Attribute
     {
-
         public AssemblyTrademarkAttribute(string trademark);
 
         public string Trademark { get; }

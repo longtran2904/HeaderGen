@@ -6,7 +6,6 @@ namespace System
 {
     public class Object
     {
-
         public Object();
 
         protected virtual void Finalize();

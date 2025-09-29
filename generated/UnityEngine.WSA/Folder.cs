@@ -6,7 +6,6 @@ namespace UnityEngine.WSA
 {
     public enum Folder
     {
-
         Installation = 0,
         Temporary = 1,
         Local = 2,

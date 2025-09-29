@@ -6,7 +6,6 @@ namespace System
 {
     public struct ModuleHandle : IEquatable<ModuleHandle>
     {
-
         public static readonly ModuleHandle EmptyHandle;
 
         public int MDStreamVersion { get; }

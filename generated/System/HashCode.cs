@@ -9,7 +9,6 @@ namespace System
 {
     public struct HashCode
     {
-
         public static int Combine<T1>(T1 value1);
         public static int Combine<T1, T2>(T1 value1, T2 value2);
         public static int Combine<T1, T2, T3>(T1 value1, T2 value2, T3 value3);

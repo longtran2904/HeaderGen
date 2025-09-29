@@ -8,7 +8,6 @@ namespace Unity.Collections.LowLevel.Unsafe
 {
     public sealed class DisposeSentinel
     {
-
         ~DisposeSentinel();
 
         public static void Dispose(ref AtomicSafetyHandle safety, ref DisposeSentinel sentinel);

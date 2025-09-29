@@ -10,7 +10,6 @@ namespace UnityEditor.TextCore.Text
     [CustomPropertyDrawer(typeof(TextStyle))]
     public class TextStylePropertyDrawer : PropertyDrawer
     {
-
         public static readonly float height;
 
         public TextStylePropertyDrawer();

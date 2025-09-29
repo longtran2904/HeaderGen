@@ -8,7 +8,6 @@ namespace System.CodeDom.Compiler
 {
     public class TempFileCollection : ICollection, IDisposable, IEnumerable
     {
-
         public TempFileCollection();
         public TempFileCollection(string tempDir);
         public TempFileCollection(string tempDir, bool keepFiles);

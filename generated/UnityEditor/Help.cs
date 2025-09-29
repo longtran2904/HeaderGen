@@ -12,7 +12,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Src/Utility/DocUtilities.h")]
     public class Help
     {
-
         public Help();
 
         public static bool HasHelpForObject(UnityEngine.Object obj);

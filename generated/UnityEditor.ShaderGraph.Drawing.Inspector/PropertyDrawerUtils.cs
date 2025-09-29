@@ -9,7 +9,6 @@ namespace UnityEditor.ShaderGraph.Drawing.Inspector
 {
     public static class PropertyDrawerUtils
     {
-
         public static Label CreateLabel(string text, int indentLevel = 0, FontStyle fontStyle = FontStyle.Normal);
         public static Label CreateLabel(string text, int indentLevel = 0);
     }

@@ -9,7 +9,6 @@ namespace UnityEditor
     [Flags]
     public enum AndroidArchitecture
     {
-
         None = 0,
         ARMv7 = 1,
         ARM64 = 2,

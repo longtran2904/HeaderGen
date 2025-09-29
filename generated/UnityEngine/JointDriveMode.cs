@@ -10,7 +10,6 @@ namespace UnityEngine
     [Obsolete("JointDriveMode is no longer supported")]
     public enum JointDriveMode
     {
-
         [Obsolete("JointDriveMode.None is no longer supported")]
         None = 0,
         [Obsolete("JointDriveMode.Position is no longer supported")]

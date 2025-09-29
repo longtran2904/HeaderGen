@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class FocusOutEvent : FocusEventBase<FocusOutEvent>
     {
-
         public FocusOutEvent();
 
         protected override void Init();

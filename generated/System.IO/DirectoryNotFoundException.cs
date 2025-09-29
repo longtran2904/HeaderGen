@@ -9,7 +9,6 @@ namespace System.IO
 {
     public class DirectoryNotFoundException : IOException
     {
-
         public DirectoryNotFoundException();
         public DirectoryNotFoundException(string message);
         public DirectoryNotFoundException(string message, Exception innerException);

@@ -12,7 +12,6 @@ namespace UnityEngine.Animations
     [NativeHeader("Modules/Animation/Director/AnimationStreamHandles.h")]
     public struct TransformStreamHandle
     {
-
         public bool IsValid(AnimationStream stream);
         public void Resolve(AnimationStream stream);
         public bool IsResolved(AnimationStream stream);

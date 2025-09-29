@@ -11,7 +11,6 @@ namespace UnityEditor.PackageManager
     [RequiredByNativeCode]
     public class Error
     {
-
         public ErrorCode errorCode { get; }
         public string message { get; }
     }

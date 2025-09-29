@@ -7,7 +7,6 @@ namespace System.Security.AccessControl
     [Flags]
     public enum AceFlags
     {
-
         None = 0,
         ObjectInherit = 1,
         ContainerInherit = 2,

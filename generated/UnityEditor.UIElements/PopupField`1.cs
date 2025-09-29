@@ -9,7 +9,6 @@ namespace UnityEditor.UIElements
 {
     public class PopupField<T> : BasePopupField<T, T>
     {
-
         public static readonly string ussClassName;
         public static readonly string labelUssClassName;
         public static readonly string inputUssClassName;

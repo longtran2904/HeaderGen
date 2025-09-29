@@ -9,7 +9,6 @@ namespace UnityEditor
     [LightingExplorerExtension(typeof(UniversalRenderPipelineAsset))]
     public class LightExplorer : DefaultLightingExplorerExtension
     {
-
         public LightExplorer();
 
         protected override LightingExplorerTableColumn[] GetReflectionProbeColumns();

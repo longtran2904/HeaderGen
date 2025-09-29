@@ -17,7 +17,6 @@ namespace UnityEditor.VersionControl
     [NativeHeader("Editor/Src/VersionControl/VCCache.h")]
     public class Provider
     {
-
         public static PreSubmitCallback preSubmitCallback;
         public static PreCheckoutCallback preCheckoutCallback;
 
@@ -129,6 +128,7 @@ namespace UnityEditor.VersionControl
         public static Task ChangeSetMove(AssetList assets, string changesetID);
         public static Task ChangeSetMove(Asset asset, string changesetID);
         public static AssetList GetAssetListFromSelection();
+
         public delegate bool PreSubmitCallback(AssetList list, ref string changesetID, ref string changesetDescription);
         public delegate bool PreCheckoutCallback(AssetList list, ref string changesetID, ref string changesetDescription);
     }

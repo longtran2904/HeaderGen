@@ -7,7 +7,6 @@ namespace System.ComponentModel
     [AttributeUsage(AttributeTargets.Class, Inherited = True)]
     public sealed class TypeDescriptionProviderAttribute : Attribute
     {
-
         public TypeDescriptionProviderAttribute(string typeName);
         public TypeDescriptionProviderAttribute(Type type);
 

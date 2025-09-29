@@ -8,7 +8,6 @@ namespace UnityEngine.Pool
 {
     public class HashSetPool<T> : CollectionPool<HashSet<T>, T>
     {
-
         public HashSetPool();
     }
 }

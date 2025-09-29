@@ -11,7 +11,6 @@ namespace UnityEditor.AssetImporters
     [MovedFrom("UnityEditor.Experimental.AssetImporters")]
     public struct SpriteImportData
     {
-
         public string name { get; set; }
         public Rect rect { get; set; }
         public SpriteAlignment alignment { get; set; }

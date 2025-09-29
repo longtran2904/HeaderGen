@@ -7,7 +7,6 @@ namespace System.Runtime.CompilerServices
     [AttributeUsage(AttributeTargets.Assembly, AllowMultiple = False, Inherited = False)]
     public sealed class RuntimeCompatibilityAttribute : Attribute
     {
-
         public RuntimeCompatibilityAttribute();
 
         public bool WrapNonExceptionThrows { get; set; }

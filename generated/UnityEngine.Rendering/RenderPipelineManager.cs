@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
 {
     public static class RenderPipelineManager
     {
-
         public static RenderPipeline currentPipeline { get; }
         public static bool pipelineSwitchCompleted { get; }
 

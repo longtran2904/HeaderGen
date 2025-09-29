@@ -12,7 +12,6 @@ namespace Unity.Mathematics
     [Il2CppEagerStaticClassConstruction]
     public struct int3x4 : IEquatable<int3x4>, IFormattable
     {
-
         public int3 c0;
         public int3 c1;
         public int3 c2;

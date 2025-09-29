@@ -6,7 +6,6 @@ namespace Microsoft.Win32.SafeHandles
 {
     public sealed class SafeWaitHandle : SafeHandleZeroOrMinusOneIsInvalid
     {
-
         public SafeWaitHandle();
         public SafeWaitHandle(nint existingHandle, bool ownsHandle);
 

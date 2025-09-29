@@ -9,7 +9,6 @@ namespace System.IO
 {
     public class StringReader : TextReader
     {
-
         public StringReader(string s);
 
         public override void Close();

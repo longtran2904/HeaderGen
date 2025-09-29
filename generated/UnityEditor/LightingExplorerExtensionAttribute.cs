@@ -10,7 +10,6 @@ namespace UnityEditor
     [AttributeUsage(AttributeTargets.Class)]
     public class LightingExplorerExtensionAttribute : ScriptableRenderPipelineExtensionAttribute
     {
-
         public LightingExplorerExtensionAttribute(Type renderPipeline);
     }
 }

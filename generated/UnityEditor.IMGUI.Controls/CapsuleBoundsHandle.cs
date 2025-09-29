@@ -9,7 +9,6 @@ namespace UnityEditor.IMGUI.Controls
 {
     public class CapsuleBoundsHandle : PrimitiveBoundsHandle
     {
-
         [Obsolete("Use parameterless constructor instead.")]
         public CapsuleBoundsHandle(int controlIDHint);
         public CapsuleBoundsHandle();
@@ -20,9 +19,9 @@ namespace UnityEditor.IMGUI.Controls
 
         protected override void DrawWireframe();
         protected override Bounds OnHandleChanged(HandleDirection handle, Bounds boundsOnClick, Bounds newBounds);
+
         public enum HeightAxis
         {
-
             X = 0,
             Y = 1,
             Z = 2

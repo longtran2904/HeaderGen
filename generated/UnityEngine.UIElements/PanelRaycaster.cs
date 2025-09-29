@@ -10,7 +10,6 @@ namespace UnityEngine.UIElements
     [AddComponentMenu("UI Toolkit/Panel Raycaster (UI Toolkit)")]
     public class PanelRaycaster : BaseRaycaster, IRuntimePanelComponent
     {
-
         public PanelRaycaster();
 
         public IPanel panel { get; set; }

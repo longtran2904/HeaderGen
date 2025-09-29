@@ -9,7 +9,6 @@ namespace UnityEditor
     [Flags]
     public enum SelectionMode
     {
-
         Unfiltered = 0,
         TopLevel = 1,
         Deep = 2,

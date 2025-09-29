@@ -8,7 +8,6 @@ namespace UnityEngine.Playables
 {
     public static class AnimationPlayableUtilities
     {
-
         public static void Play(Animator animator, Playable playable, PlayableGraph graph);
         public static AnimationClipPlayable PlayClip(Animator animator, AnimationClip clip, out PlayableGraph graph);
         public static AnimationMixerPlayable PlayMixer(Animator animator, int inputCount, out PlayableGraph graph);

@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public interface ILightingExplorerExtension
     {
-
         LightingExplorerTab[] GetContentTabs();
         void OnEnable();
         void OnDisable();

@@ -9,7 +9,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public struct TreeInstance
     {
-
         public Vector3 position;
         public float widthScale;
         public float heightScale;

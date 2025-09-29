@@ -6,7 +6,6 @@ namespace System
 {
     public static class BitConverter
     {
-
         public static readonly bool IsLittleEndian;
 
         public static byte[] GetBytes(bool value);

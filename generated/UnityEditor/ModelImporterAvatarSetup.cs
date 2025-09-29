@@ -10,7 +10,6 @@ namespace UnityEditor
     [NativeType(Header = "Modules/AssetPipelineEditor/Public/ModelImporting/ModelImporter.h")]
     public enum ModelImporterAvatarSetup
     {
-
         NoAvatar = 0,
         [Tooltip("Create an Avatar based on the model from this file.")]
         CreateFromThisModel = 1,

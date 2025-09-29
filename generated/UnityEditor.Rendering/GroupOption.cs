@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
     [Flags]
     public enum GroupOption
     {
-
         None = 0,
         Indent = 1
     }

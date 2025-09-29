@@ -8,7 +8,6 @@ namespace UnityEngine
 {
     public struct Ray : IFormattable
     {
-
         public Ray(Vector3 origin, Vector3 direction);
 
         public Vector3 origin { get; set; }

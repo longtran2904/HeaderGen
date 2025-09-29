@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class VisualElementFocusChangeDirection : FocusChangeDirection
     {
-
         protected VisualElementFocusChangeDirection(int value);
 
         public static FocusChangeDirection left { get; }

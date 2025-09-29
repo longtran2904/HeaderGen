@@ -9,7 +9,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class StickyNote : GraphElement, IResizable
     {
-
         public static readonly Vector2 defaultSize;
 
         public StickyNote();
@@ -28,9 +27,9 @@ namespace UnityEditor.Experimental.GraphView
         public override void UpdatePresenterPosition();
         public virtual void OnStartResize();
         public virtual void OnResized();
+
         public class UxmlFactory : UxmlFactory<StickyNote>
         {
-
             public UxmlFactory();
         }
     }

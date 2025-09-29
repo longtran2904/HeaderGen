@@ -11,7 +11,6 @@ namespace UnityEditor.Build.Content
     [UsedByNativeCode]
     public struct WriteResult
     {
-
         public ReadOnlyCollection<ObjectSerializedInfo> serializedObjects { get; }
         public ReadOnlyCollection<ResourceFile> resourceFiles { get; }
         public ReadOnlyCollection<Type> includedTypes { get; }

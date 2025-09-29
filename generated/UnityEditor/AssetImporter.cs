@@ -17,7 +17,6 @@ namespace UnityEditor
     [UsedByNativeCode]
     public class AssetImporter : UnityEngine.Object
     {
-
         public AssetImporter();
 
         [NativeName("AssetPathName")]
@@ -38,10 +37,10 @@ namespace UnityEditor
         public Dictionary<SourceAssetIdentifier, UnityEngine.Object> GetExternalObjectMap();
         [FreeFunction("AssetImporterBindings::SupportsRemappedAssetType", IsThreadSafe = True, HasExplicitThis = True)]
         public bool SupportsRemappedAssetType(Type type);
+
         [NativeType(CodegenOptions.Custom, "MonoSourceAssetIdentifier")]
         public struct SourceAssetIdentifier
         {
-
             public Type type;
             public string name;
 

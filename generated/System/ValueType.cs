@@ -6,7 +6,6 @@ namespace System
 {
     public abstract class ValueType
     {
-
         protected ValueType();
 
         public override bool Equals(object obj);

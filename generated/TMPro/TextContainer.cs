@@ -10,7 +10,6 @@ namespace TMPro
     [RequireComponent(typeof(RectTransform))]
     public class TextContainer : UIBehaviour
     {
-
         public TextContainer();
 
         public bool hasChanged { get; set; }

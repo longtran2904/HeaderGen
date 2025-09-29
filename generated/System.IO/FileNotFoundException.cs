@@ -9,7 +9,6 @@ namespace System.IO
 {
     public class FileNotFoundException : IOException
     {
-
         public FileNotFoundException();
         public FileNotFoundException(string message);
         public FileNotFoundException(string message, Exception innerException);

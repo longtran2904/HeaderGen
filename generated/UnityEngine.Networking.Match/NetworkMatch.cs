@@ -12,7 +12,6 @@ namespace UnityEngine.Networking.Match
     [Obsolete("The matchmaker and relay feature will be removed in the future, minimal support will continue until this can be safely done.")]
     public class NetworkMatch : MonoBehaviour
     {
-
         public NetworkMatch();
 
         public Uri baseUri { get; set; }
@@ -26,6 +25,7 @@ namespace UnityEngine.Networking.Match
         public Coroutine DropConnection(NetworkID netId, NodeID dropNodeId, int requestDomain, BasicResponseDelegate callback);
         public Coroutine ListMatches(int startPageNumber, int resultPageSize, string matchNameFilter, bool filterOutPrivateMatchesFromResults, int eloScoreTarget, int requestDomain, DataResponseDelegate<List<MatchInfoSnapshot>> callback);
         public Coroutine SetMatchAttributes(NetworkID networkId, bool isListed, int requestDomain, BasicResponseDelegate callback);
+
         public delegate void BasicResponseDelegate(bool success, string extendedInfo);
         public delegate void DataResponseDelegate<T>(bool success, string extendedInfo, T responseData);
     }

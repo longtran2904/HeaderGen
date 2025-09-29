@@ -9,7 +9,6 @@ namespace UnityEngine
     [MovedFrom(True, "UnityEditor.Animations", "UnityEditor", null)]
     public enum AvatarMaskBodyPart
     {
-
         Root = 0,
         Body = 1,
         Head = 2,

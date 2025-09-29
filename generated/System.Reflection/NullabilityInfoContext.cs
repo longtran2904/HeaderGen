@@ -6,7 +6,6 @@ namespace System.Reflection
 {
     public sealed class NullabilityInfoContext
     {
-
         public NullabilityInfoContext();
 
         public NullabilityInfo Create(ParameterInfo parameterInfo);

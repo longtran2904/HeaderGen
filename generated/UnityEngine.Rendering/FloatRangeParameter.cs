@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public class FloatRangeParameter : VolumeParameter<Vector2>
     {
-
         [NonSerialized]
         public float min;
         [NonSerialized]

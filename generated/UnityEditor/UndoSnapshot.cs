@@ -10,7 +10,6 @@ namespace UnityEditor
     [Obsolete("Use Undo.RecordObject before modifying the object instead")]
     public class UndoSnapshot
     {
-
         public UndoSnapshot(UnityEngine.Object[] objectsToUndo);
 
         public void Restore();

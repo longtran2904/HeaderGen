@@ -14,7 +14,6 @@ namespace UnityEditor
     [StaticAccessor("GfxDeviceStats::Get().GetLegacyFrameStats()", StaticAccessorType.Dot)]
     public sealed class UnityStats
     {
-
         public UnityStats();
 
         public static int batches { get; }

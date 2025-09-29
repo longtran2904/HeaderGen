@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public abstract class EventBase<T> : EventBase where T : EventBase<T>, new()
     {
-
         protected EventBase();
 
         public override long eventTypeId { get; }

@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeNamespace : CodeObject
     {
-
         public CodeNamespace();
         public CodeNamespace(string name);
 

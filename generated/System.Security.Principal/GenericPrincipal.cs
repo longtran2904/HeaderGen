@@ -8,7 +8,6 @@ namespace System.Security.Principal
 {
     public class GenericPrincipal : ClaimsPrincipal
     {
-
         public GenericPrincipal(IIdentity identity, string[] roles);
 
         public override IIdentity Identity { get; }

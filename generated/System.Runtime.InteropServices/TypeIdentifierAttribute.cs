@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [AttributeUsage(AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Interface | AttributeTargets.Delegate, AllowMultiple = False, Inherited = False)]
     public sealed class TypeIdentifierAttribute : Attribute
     {
-
         public TypeIdentifierAttribute();
         public TypeIdentifierAttribute(string scope, string identifier);
 

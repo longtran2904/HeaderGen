@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public struct CustomStyleProperty<T> : IEquatable<CustomStyleProperty<T>>
     {
-
         public CustomStyleProperty(string propertyName);
 
         public string name { get; }

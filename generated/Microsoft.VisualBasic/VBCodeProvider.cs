@@ -13,7 +13,6 @@ namespace Microsoft.VisualBasic
 {
     public class VBCodeProvider : CodeDomProvider
     {
-
         public VBCodeProvider();
         public VBCodeProvider(IDictionary<string, string> providerOptions);
 

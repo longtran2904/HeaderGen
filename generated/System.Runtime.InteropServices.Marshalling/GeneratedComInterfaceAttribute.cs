@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices.Marshalling
     [AttributeUsage(AttributeTargets.Interface)]
     public class GeneratedComInterfaceAttribute : Attribute
     {
-
         public GeneratedComInterfaceAttribute();
 
         public ComInterfaceOptions Options { get; set; }

@@ -6,7 +6,6 @@ namespace UnityEditor.TerrainTools
 {
     public enum TerrainBrushPreviewMode
     {
-
         SourceRenderTexture = 0,
         DestinationRenderTexture = 1
     }

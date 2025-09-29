@@ -10,7 +10,6 @@ namespace System.IO.Pipes
 {
     public sealed class NamedPipeServerStream : PipeStream
     {
-
         public const int MaxAllowedServerInstances = -1;
 
         public NamedPipeServerStream(string pipeName);

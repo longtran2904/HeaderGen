@@ -6,7 +6,6 @@ namespace UnityEngine.Android
 {
     public class AndroidAssetPackUseMobileDataRequestResult
     {
-
         public bool allowed { get; }
     }
 }

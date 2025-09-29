@@ -11,7 +11,6 @@ namespace UnityEngine.Rendering.VirtualTexturing
     [StaticAccessor("VirtualTexturing::Debugging", StaticAccessorType.DoubleColon)]
     public static class Debugging
     {
-
         [NativeThrows]
         public static bool debugTilesEnabled { get; set; }
         [NativeThrows]
@@ -25,11 +24,11 @@ namespace UnityEngine.Rendering.VirtualTexturing
         public static void GrabHandleInfo(out Handle debugHandle, int index);
         [NativeThrows]
         public static string GetInfoDump();
+
         [NativeHeader("Modules/VirtualTexturing/Public/VirtualTexturingDebugHandle.h")]
         [UsedByNativeCode]
         public struct Handle
         {
-
             public long handle;
             public string group;
             public string name;

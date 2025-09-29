@@ -9,7 +9,6 @@ namespace UnityEngine.AI
     [MovedFrom("UnityEngine")]
     public enum ObstacleAvoidanceType
     {
-
         NoObstacleAvoidance = 0,
         LowQualityObstacleAvoidance = 1,
         MedQualityObstacleAvoidance = 2,

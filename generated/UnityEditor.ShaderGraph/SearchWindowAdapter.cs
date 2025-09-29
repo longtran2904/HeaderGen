@@ -9,7 +9,6 @@ namespace UnityEditor.ShaderGraph
 {
     public class SearchWindowAdapter : SearcherAdapter
     {
-
         public SearchWindowAdapter(string title);
 
         public override bool HasDetailsPanel { get; }

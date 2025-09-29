@@ -8,7 +8,6 @@ namespace UnityEngine.Timeline
 {
     public class ActivationControlPlayable : PlayableBehaviour
     {
-
         public GameObject gameObject;
         public PostPlaybackState postPlayback;
 
@@ -20,9 +19,9 @@ namespace UnityEngine.Timeline
         public override void ProcessFrame(Playable playable, FrameData info, object userData);
         public override void OnGraphStart(Playable playable);
         public override void OnPlayableDestroy(Playable playable);
+
         public enum PostPlaybackState
         {
-
             Active = 0,
             Inactive = 1,
             Revert = 2

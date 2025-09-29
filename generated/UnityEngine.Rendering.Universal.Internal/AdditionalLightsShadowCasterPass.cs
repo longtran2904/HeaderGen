@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering.Universal.Internal
 {
     public class AdditionalLightsShadowCasterPass : ScriptableRenderPass
     {
-
         [Obsolete("AdditionalLightsShadowCasterPass.m_AdditionalShadowsBufferId was deprecated. Shadow slice matrix is now passed to the GPU using an entry in buffer m_AdditionalLightsWorldToShadow_SSBO", False)]
         public static int m_AdditionalShadowsBufferId;
         [Obsolete("AdditionalLightsShadowCasterPass.m_AdditionalShadowsIndicesId was deprecated. Shadow slice index is now passed to the GPU using last member of an entry in buffer m_AdditionalShadowParams_SSBO", False)]

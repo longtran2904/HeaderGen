@@ -6,7 +6,6 @@ namespace System
 {
     public struct Nullable<T> where T : struct
     {
-
         public Nullable(T value);
 
         public bool HasValue { get; }

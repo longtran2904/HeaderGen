@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public static class PointerCaptureHelper
     {
-
         public static bool HasPointerCapture(this IEventHandler handler, int pointerId);
         public static void CapturePointer(this IEventHandler handler, int pointerId);
         public static void ReleasePointer(this IEventHandler handler, int pointerId);

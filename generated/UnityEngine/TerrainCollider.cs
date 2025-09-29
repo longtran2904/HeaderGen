@@ -10,7 +10,6 @@ namespace UnityEngine
     [NativeHeader("Modules/TerrainPhysics/TerrainCollider.h")]
     public class TerrainCollider : Collider
     {
-
         public TerrainCollider();
 
         public TerrainData terrainData { get; set; }

@@ -9,7 +9,6 @@ namespace System.Reflection
 {
     public sealed class ReflectionTypeLoadException : SystemException
     {
-
         public ReflectionTypeLoadException(Type[] classes, Exception[] exceptions);
         public ReflectionTypeLoadException(Type[] classes, Exception[] exceptions, string message);
 

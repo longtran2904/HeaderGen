@@ -10,7 +10,6 @@ namespace UnityEditor.Rendering
 {
     public class MaterialUpgrader
     {
-
         public MaterialUpgrader();
 
         public string NewShaderPath { get; }
@@ -35,10 +34,10 @@ namespace UnityEditor.Rendering
         public static bool Upgrade(Material material, List<MaterialUpgrader> upgraders, UpgradeFlags flags, ref string message);
         public static void UpgradeSelection(List<MaterialUpgrader> upgraders, string progressBarName, UpgradeFlags flags = UpgradeFlags.None);
         public static void UpgradeSelection(List<MaterialUpgrader> upgraders, HashSet<string> shaderNamesToIgnore, string progressBarName, UpgradeFlags flags = UpgradeFlags.None);
+
         public delegate void MaterialFinalizer(Material mat);
         public enum MaterialPropertyType
         {
-
             Texture = 0,
             Float = 1,
             Color = 2
@@ -46,7 +45,6 @@ namespace UnityEditor.Rendering
         [Flags]
         public enum UpgradeFlags
         {
-
             None = 0,
             LogErrorOnNonExistingProperty = 1,
             CleanupNonUpgradedProperties = 2,

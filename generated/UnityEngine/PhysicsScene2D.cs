@@ -12,7 +12,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics2D/Public/PhysicsSceneHandle2D.h")]
     public struct PhysicsScene2D : IEquatable<PhysicsScene2D>
     {
-
         public override string ToString();
         public override int GetHashCode();
         public override bool Equals(object other);

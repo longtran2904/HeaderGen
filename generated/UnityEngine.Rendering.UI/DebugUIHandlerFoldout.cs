@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering.UI
 {
     public class DebugUIHandlerFoldout : DebugUIHandlerWidget
     {
-
         public Text nameLabel;
         public UIFoldout valueToggle;
 

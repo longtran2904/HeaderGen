@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Camera/SharedLightData.h")]
     public struct LightBakingOutput
     {
-
         public int probeOcclusionLightIndex;
         public int occlusionMaskChannel;
         [NativeName("lightmapBakeMode.lightmapBakeType")]

@@ -12,7 +12,6 @@ namespace UnityEngine.VFX
     [RequiredByNativeCode]
     public sealed class VFXEventAttribute : IDisposable
     {
-
         public VFXEventAttribute(VFXEventAttribute original);
 
         ~VFXEventAttribute();

@@ -10,7 +10,6 @@ namespace UnityEditor
     [Flags]
     public enum BuildOptions
     {
-
         None = 0,
         Development = 1,
         AutoRunPlayer = 4,

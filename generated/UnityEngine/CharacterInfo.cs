@@ -11,7 +11,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public struct CharacterInfo
     {
-
         public int index;
         [Obsolete("CharacterInfo.uv is deprecated. Use uvBottomLeft, uvBottomRight, uvTopRight or uvTopLeft instead.")]
         public Rect uv;

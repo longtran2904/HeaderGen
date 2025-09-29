@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public class ProfilingSampler
     {
-
         public ProfilingSampler(string name);
 
         public string name { get; }

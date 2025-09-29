@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class ContextualMenuPopulateEvent : MouseEventBase<ContextualMenuPopulateEvent>
     {
-
         public ContextualMenuPopulateEvent();
 
         public DropdownMenu menu { get; }

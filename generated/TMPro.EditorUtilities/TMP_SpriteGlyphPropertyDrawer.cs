@@ -10,7 +10,6 @@ namespace TMPro.EditorUtilities
     [CustomPropertyDrawer(typeof(TMP_SpriteGlyph))]
     public class TMP_SpriteGlyphPropertyDrawer : PropertyDrawer
     {
-
         public TMP_SpriteGlyphPropertyDrawer();
 
         public override void OnGUI(Rect position, SerializedProperty property, GUIContent label);

@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public abstract class TypeSpecification : TypeReference
     {
-
         public TypeReference ElementType { get; }
         public override string Name { get; set; }
         public override string Namespace { get; set; }

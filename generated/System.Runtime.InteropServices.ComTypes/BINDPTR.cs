@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public struct BINDPTR
     {
-
         public nint lpfuncdesc;
         public nint lpvardesc;
         public nint lptcomp;

@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public class NoInterpTextureParameter : VolumeParameter<Texture>
     {
-
         public NoInterpTextureParameter(Texture value, bool overrideState = False);
 
         public override int GetHashCode();

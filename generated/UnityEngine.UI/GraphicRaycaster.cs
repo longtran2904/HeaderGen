@@ -11,7 +11,6 @@ namespace UnityEngine.UI
     [RequireComponent(typeof(Canvas))]
     public class GraphicRaycaster : BaseRaycaster
     {
-
         [SerializeField]
         protected LayerMask m_BlockingMask;
         protected const int kNoEventMaskSet = -1;
@@ -26,9 +25,9 @@ namespace UnityEngine.UI
         public override Camera eventCamera { get; }
 
         public override void Raycast(PointerEventData eventData, List<RaycastResult> resultAppendList);
+
         public enum BlockingObjects
         {
-
             None = 0,
             TwoD = 1,
             ThreeD = 2,

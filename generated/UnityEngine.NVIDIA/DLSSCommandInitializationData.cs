@@ -6,7 +6,6 @@ namespace UnityEngine.NVIDIA
 {
     public struct DLSSCommandInitializationData
     {
-
         public uint inputRTWidth { get; set; }
         public uint inputRTHeight { get; set; }
         public uint outputRTWidth { get; set; }

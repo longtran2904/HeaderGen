@@ -8,7 +8,6 @@ namespace UnityEditor.TestTools.TestRunner.Api
 {
     public class Filter
     {
-
         [SerializeField]
         public TestMode testMode;
         [SerializeField]

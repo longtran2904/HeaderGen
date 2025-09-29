@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public class Foldout : BindableElement, INotifyValueChanged<bool>
     {
-
         public static readonly string ussClassName;
         public static readonly string toggleUssClassName;
         public static readonly string contentUssClassName;
@@ -21,14 +20,13 @@ namespace UnityEngine.UIElements
         public bool value { get; set; }
 
         public void SetValueWithoutNotify(bool newValue);
+
         public class UxmlFactory : UxmlFactory<Foldout, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : BindableElement.UxmlTraits
         {
-
             public UxmlTraits();
 
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc);

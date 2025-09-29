@@ -9,7 +9,6 @@ namespace System.IO
 {
     public abstract class FileSystemInfo : MarshalByRefObject, ISerializable
     {
-
         protected string FullPath;
         protected string OriginalPath;
 

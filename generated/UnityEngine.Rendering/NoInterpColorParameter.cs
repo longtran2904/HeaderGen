@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public class NoInterpColorParameter : VolumeParameter<Color>
     {
-
         public bool hdr;
         [NonSerialized]
         public bool showAlpha;

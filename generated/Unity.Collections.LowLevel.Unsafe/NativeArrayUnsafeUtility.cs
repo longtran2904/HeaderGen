@@ -6,7 +6,6 @@ namespace Unity.Collections.LowLevel.Unsafe
 {
     public static class NativeArrayUnsafeUtility
     {
-
         public static AtomicSafetyHandle GetAtomicSafetyHandle<T>(NativeArray<T> array) where T : struct;
         public static void SetAtomicSafetyHandle<T>(ref NativeArray<T> array, AtomicSafetyHandle safety) where T : struct;
         public static NativeArray<T> ConvertExistingDataToNativeArray<T>(void* dataPointer, int length, Allocator allocator) where T : struct;

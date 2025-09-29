@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering.Universal
 {
     public struct LightData
     {
-
         public int mainLightIndex;
         public int additionalLightsCount;
         public int maxPerObjectAdditionalLightsCount;

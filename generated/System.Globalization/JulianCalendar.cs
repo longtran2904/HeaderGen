@@ -6,7 +6,6 @@ namespace System.Globalization
 {
     public class JulianCalendar : Calendar
     {
-
         public static readonly int JulianEra;
 
         public JulianCalendar();

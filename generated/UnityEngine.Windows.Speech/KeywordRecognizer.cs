@@ -8,7 +8,6 @@ namespace UnityEngine.Windows.Speech
 {
     public sealed class KeywordRecognizer : PhraseRecognizer
     {
-
         public KeywordRecognizer(string[] keywords);
         public KeywordRecognizer(string[] keywords, ConfidenceLevel minimumConfidence);
 

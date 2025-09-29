@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
 {
     public static class CameraCaptureBridge
     {
-
         public static bool enabled { get; set; }
 
         public static IEnumerator<Action<RenderTargetIdentifier, CommandBuffer>> GetCaptureActions(Camera camera);

@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
 {
     public class IESImporterEditor
     {
-
         protected SerializedProperty m_LightAimAxisRotationProp;
         protected PreviewRenderUtility m_PreviewRenderUtility;
 
@@ -22,6 +21,7 @@ namespace UnityEditor.Rendering
         public GUIContent CommonGetPreviewTitle();
         public void CommonOnPreviewGUI(Rect r, GUIStyle background, ScriptedImporter target, SetupRenderPipelinePreviewLightIntensity setupRenderPipelinePreviewLightIntensity);
         public void CommonOnDisable();
+
         public delegate void LayoutRenderPipelineUseIesMaximumIntensity();
         public delegate void SetupRenderPipelinePreviewCamera(Camera camera);
         public delegate void SetupRenderPipelinePreviewLight(Light light);

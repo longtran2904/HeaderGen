@@ -12,7 +12,6 @@ namespace UnityEngine.Rendering.Universal
     [URPHelpURL("universal-additional-camera-data")]
     public class UniversalAdditionalCameraData : MonoBehaviour, IAdditionalData, ISerializationCallbackReceiver
     {
-
         public UniversalAdditionalCameraData();
 
         public float version { get; }

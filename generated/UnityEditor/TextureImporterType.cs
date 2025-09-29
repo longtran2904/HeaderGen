@@ -10,7 +10,6 @@ namespace UnityEditor
     [RequiredByNativeCode]
     public enum TextureImporterType
     {
-
         Default = 0,
         NormalMap = 1,
         GUI = 2,

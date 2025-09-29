@@ -9,7 +9,6 @@ namespace System
 {
     public class ContextMarshalException : SystemException
     {
-
         public ContextMarshalException();
         public ContextMarshalException(string message);
         public ContextMarshalException(string message, Exception inner);

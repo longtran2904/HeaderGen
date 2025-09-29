@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public struct TYPEATTR
     {
-
         public Guid guid;
         public int lcid;
         public int dwReserved;

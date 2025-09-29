@@ -9,7 +9,6 @@ namespace System.IO
 {
     public static class Directory
     {
-
         public static DirectoryInfo GetParent(string path);
         public static DirectoryInfo CreateDirectory(string path);
         [UnsupportedOSPlatform("windows")]

@@ -8,7 +8,6 @@ namespace System.Threading
 {
     public sealed class ThreadPoolBoundHandle : IDeferredDisposable, IDisposable
     {
-
         ~ThreadPoolBoundHandle();
 
         public SafeHandle Handle { get; }

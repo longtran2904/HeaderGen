@@ -8,7 +8,6 @@ namespace System
 {
     public static class StringNormalizationExtensions
     {
-
         public static bool IsNormalized(this string strInput);
         public static bool IsNormalized(this string strInput, NormalizationForm normalizationForm);
         public static string Normalize(this string strInput);

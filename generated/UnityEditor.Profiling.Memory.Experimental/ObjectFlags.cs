@@ -9,7 +9,6 @@ namespace UnityEditor.Profiling.Memory.Experimental
     [Flags]
     public enum ObjectFlags
     {
-
         IsDontDestroyOnLoad = 1,
         IsPersistent = 2,
         IsManager = 4

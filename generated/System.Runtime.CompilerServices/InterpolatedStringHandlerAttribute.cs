@@ -7,7 +7,6 @@ namespace System.Runtime.CompilerServices
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct, AllowMultiple = False, Inherited = False)]
     public sealed class InterpolatedStringHandlerAttribute : Attribute
     {
-
         public InterpolatedStringHandlerAttribute();
     }
 }

@@ -11,7 +11,6 @@ namespace UnityEditor
     [NativeHeader("Runtime/Camera/RendererScene.h")]
     public static class StaticOcclusionCulling
     {
-
         public static bool isRunning { get; }
         [NativeProperty(TargetType = TargetType.Field)]
         [StaticAccessor("GetOcclusionCullingSettings()", StaticAccessorType.Dot)]

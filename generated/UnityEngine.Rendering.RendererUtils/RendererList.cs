@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering.RendererUtils
     [NativeHeader("Runtime/Graphics/ScriptableRenderLoop/RendererList.h")]
     public struct RendererList
     {
-
         public static readonly RendererList nullRendererList;
 
         public bool isValid { get; }

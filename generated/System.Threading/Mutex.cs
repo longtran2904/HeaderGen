@@ -6,7 +6,6 @@ namespace System.Threading
 {
     public sealed class Mutex : WaitHandle
     {
-
         public Mutex(bool initiallyOwned, string name, out bool createdNew);
         public Mutex(bool initiallyOwned, string name);
         public Mutex(bool initiallyOwned);

@@ -8,7 +8,6 @@ namespace System.Diagnostics
 {
     public static class Debug
     {
-
         public static bool AutoFlush { get; set; }
         public static int IndentLevel { get; set; }
         public static int IndentSize { get; set; }
@@ -84,10 +83,10 @@ namespace System.Diagnostics
         public static void WriteLineIf(bool condition, string message, string category);
         [Conditional("DEBUG")]
         public static void WriteLineIf(bool condition, ref WriteIfInterpolatedStringHandler message, string category);
+
         [EditorBrowsable(EditorBrowsableState.Never)]
         public struct AssertInterpolatedStringHandler
         {
-
             public AssertInterpolatedStringHandler(int literalLength, int formattedCount, bool condition, out bool shouldAppend);
 
             public void AppendLiteral(string value);
@@ -104,7 +103,6 @@ namespace System.Diagnostics
         [EditorBrowsable(EditorBrowsableState.Never)]
         public struct WriteIfInterpolatedStringHandler
         {
-
             public WriteIfInterpolatedStringHandler(int literalLength, int formattedCount, bool condition, out bool shouldAppend);
 
             public void AppendLiteral(string value);

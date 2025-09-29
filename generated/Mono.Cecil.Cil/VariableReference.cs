@@ -6,7 +6,6 @@ namespace Mono.Cecil.Cil
 {
     public abstract class VariableReference
     {
-
         protected TypeReference variable_type;
 
         public TypeReference VariableType { get; set; }

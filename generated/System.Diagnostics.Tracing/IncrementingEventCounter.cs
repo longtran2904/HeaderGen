@@ -9,7 +9,6 @@ namespace System.Diagnostics.Tracing
     [UnsupportedOSPlatform("browser")]
     public class IncrementingEventCounter : DiagnosticCounter
     {
-
         public IncrementingEventCounter(string name, EventSource eventSource);
 
         public TimeSpan DisplayRateTimeScale { get; set; }

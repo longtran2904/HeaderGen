@@ -9,7 +9,6 @@ namespace UnityEditor
     [NativeHeader("Modules/JSONSerializeEditor/EditorJsonUtility.bindings.h")]
     public static class EditorJsonUtility
     {
-
         public static string ToJson(object obj);
         public static string ToJson(object obj, bool prettyPrint);
         public static void FromJsonOverwrite(string json, object objectToOverwrite);

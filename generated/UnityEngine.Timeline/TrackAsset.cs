@@ -11,7 +11,6 @@ namespace UnityEngine.Timeline
     [IgnoreOnPlayableTrack]
     public abstract class TrackAsset : PlayableAsset, ICurvesOwner, IPropertyPreview, ISerializationCallbackReceiver
     {
-
         [HideInInspector]
         [SerializeField]
         protected internal List<TimelineClip> m_Clips;

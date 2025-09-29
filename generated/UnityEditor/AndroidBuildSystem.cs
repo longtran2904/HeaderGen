@@ -11,7 +11,6 @@ namespace UnityEditor
     [NativeType(Header = "Editor/Src/EditorUserBuildSettings.h")]
     public enum AndroidBuildSystem
     {
-
         [EditorBrowsable(EditorBrowsableState.Never)]
         [Obsolete("Internal build system has been deprecated. Use Gradle instead (UnityUpgradable) -> UnityEditor.AndroidBuildSystem.Gradle", True)]
         Internal = 0,

@@ -9,7 +9,6 @@ namespace System.Threading
 {
     public sealed class ReaderWriterLock : CriticalFinalizerObject
     {
-
         public ReaderWriterLock();
 
         public bool IsReaderLockHeld { get; }

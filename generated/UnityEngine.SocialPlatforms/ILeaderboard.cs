@@ -8,7 +8,6 @@ namespace UnityEngine.SocialPlatforms
 {
     public interface ILeaderboard
     {
-
         bool loading { get; }
         string id { get; set; }
         UserScope userScope { get; set; }

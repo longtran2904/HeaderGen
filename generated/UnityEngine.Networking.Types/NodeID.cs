@@ -9,7 +9,6 @@ namespace UnityEngine.Networking.Types
     [DefaultValue(NodeID.Invalid)]
     public enum NodeID
     {
-
         Invalid = 0
     }
 }

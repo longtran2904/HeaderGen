@@ -9,7 +9,6 @@ namespace A.B
 {
     public class X
     {
-
         public int int1;
         public Int32 int2;
         public A.B.C.Int32 int3;

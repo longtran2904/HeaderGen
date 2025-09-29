@@ -11,7 +11,6 @@ namespace UnityEditor.Experimental.Build.AssetBundle
     [Obsolete("UnityEditor.Experimental.Build.AssetBundle.CompressionLevel has been deprecated. Use UnityEngine.CompressionLevel instead (UnityUpgradable) -> [UnityEngine] UnityEngine.CompressionLevel", True)]
     public enum CompressionLevel
     {
-
         None = 0,
         Fastest = 1,
         Fast = 2,

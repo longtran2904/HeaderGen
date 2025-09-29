@@ -11,7 +11,6 @@ namespace UnityEditor
     [StaticAccessor("GetEditorUserSettings()", StaticAccessorType.Dot)]
     public sealed class EditorUserSettings : UnityEngine.Object
     {
-
         [NativeProperty("VCAutomaticAdd")]
         public static bool AutomaticAdd { get; set; }
         [NativeProperty("VCWorkOffline")]

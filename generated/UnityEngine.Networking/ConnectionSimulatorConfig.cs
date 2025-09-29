@@ -9,7 +9,6 @@ namespace UnityEngine.Networking
     [Obsolete("The UNET transport will be removed in the future as soon a replacement is ready.")]
     public class ConnectionSimulatorConfig : IDisposable
     {
-
         public ConnectionSimulatorConfig(int outMinDelay, int outAvgDelay, int inMinDelay, int inAvgDelay, float packetLossPercentage);
 
         ~ConnectionSimulatorConfig();

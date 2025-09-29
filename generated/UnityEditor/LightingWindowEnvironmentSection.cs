@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public abstract class LightingWindowEnvironmentSection
     {
-
         protected LightingWindowEnvironmentSection();
 
         public virtual void OnEnable();

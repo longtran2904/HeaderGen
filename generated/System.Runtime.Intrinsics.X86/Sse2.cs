@@ -7,7 +7,6 @@ namespace System.Runtime.Intrinsics.X86
     [CLSCompliant(False)]
     public abstract class Sse2 : Sse
     {
-
         public static bool IsSupported { get; }
 
         public static Vector128<byte> Add(Vector128<byte> left, Vector128<byte> right);
@@ -309,9 +308,9 @@ namespace System.Runtime.Intrinsics.X86
         public static Vector128<long> Xor(Vector128<long> left, Vector128<long> right);
         public static Vector128<ulong> Xor(Vector128<ulong> left, Vector128<ulong> right);
         public static Vector128<double> Xor(Vector128<double> left, Vector128<double> right);
+
         public abstract class X64 : Sse.X64
         {
-
             public static bool IsSupported { get; }
 
             public static Vector128<double> ConvertScalarToVector128Double(Vector128<double> upper, long value);

@@ -11,7 +11,6 @@ namespace UnityEditor.Experimental.Licensing
     [RequiredByNativeCode]
     public class EntitlementInfo
     {
-
         public EntitlementInfo();
 
         public string EntitlementId { get; }

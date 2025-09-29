@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public static class Blitter
     {
-
         public static void Initialize(Shader blitPS, Shader blitColorAndDepthPS);
         public static void Cleanup();
         public static Material GetBlitMaterial(TextureDimension dimension, bool singleSlice = False);

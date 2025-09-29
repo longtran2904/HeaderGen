@@ -8,7 +8,6 @@ namespace System.Threading
 {
     public sealed class Semaphore : WaitHandle
     {
-
         public Semaphore(int initialCount, int maximumCount);
         public Semaphore(int initialCount, int maximumCount, string name);
         public Semaphore(int initialCount, int maximumCount, string name, out bool createdNew);

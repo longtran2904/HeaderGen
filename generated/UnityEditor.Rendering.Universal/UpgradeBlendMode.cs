@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering.Universal
 {
     public enum UpgradeBlendMode
     {
-
         Alpha = 0,
         Premultiply = 1,
         Additive = 2,

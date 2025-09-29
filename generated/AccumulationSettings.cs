@@ -6,7 +6,6 @@ using UnityEngine;
 
 public class AccumulationSettings
 {
-
     public AccumulationSettings();
 
     public bool CaptureAccumulation { get; set; }
@@ -16,9 +15,9 @@ public class AccumulationSettings
     public AnimationCurve ShutterProfileCurve { get; set; }
     public float ShutterFullyOpen { get; set; }
     public float ShutterBeginsClosing { get; set; }
+
     public enum ShutterProfileType
     {
-
         Range = 0,
         Curve = 1
     }

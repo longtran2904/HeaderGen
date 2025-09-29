@@ -8,7 +8,6 @@ namespace UnityEngine
 {
     public class Logger : ILogger, ILogHandler
     {
-
         public Logger(ILogHandler logHandler);
 
         public ILogHandler logHandler { get; set; }

@@ -11,7 +11,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public class ExcludeFromPresetAttribute : Attribute
     {
-
         public ExcludeFromPresetAttribute();
     }
 }

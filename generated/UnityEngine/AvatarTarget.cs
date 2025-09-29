@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum AvatarTarget
     {
-
         Root = 0,
         Body = 1,
         LeftFoot = 2,

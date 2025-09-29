@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public class CloudProjectSettings
     {
-
         public CloudProjectSettings();
 
         public static string userId { get; }

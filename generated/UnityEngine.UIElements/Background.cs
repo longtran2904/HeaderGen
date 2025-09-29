@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public struct Background : IEquatable<Background>
     {
-
         [Obsolete("Use Background.FromTexture2D instead")]
         public Background(Texture2D t);
 

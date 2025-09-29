@@ -8,7 +8,6 @@ namespace UnityEditor.SceneManagement
 {
     public sealed class MainStage : Stage
     {
-
         public MainStage();
 
         protected internal override bool OnOpenStage();

@@ -10,7 +10,6 @@ namespace UnityEditor
     [RequiredByNativeCode]
     public sealed class MenuCommand
     {
-
         public UnityEngine.Object context;
         public int userData;
 

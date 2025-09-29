@@ -9,7 +9,6 @@ namespace UnityEngineInternal
     [NativeHeader("Runtime/Misc/PlayerSettings.h")]
     public class MemorylessManager
     {
-
         public MemorylessManager();
 
         public static MemorylessMode depthMemorylessMode { get; set; }

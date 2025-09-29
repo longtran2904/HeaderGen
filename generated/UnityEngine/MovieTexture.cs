@@ -13,7 +13,6 @@ namespace UnityEngine
     [Obsolete("MovieTexture is removed. Use VideoPlayer instead.", True)]
     public sealed class MovieTexture : Texture
     {
-
         [Obsolete("MovieTexture is removed. Use VideoPlayer instead.", True)]
         public AudioClip audioClip { get; }
         [Obsolete("MovieTexture is removed. Use VideoPlayer instead.", True)]

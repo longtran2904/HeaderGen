@@ -9,7 +9,6 @@ namespace UnityEditor.PackageManager
 {
     public class PackageCollection : IEnumerable, IEnumerable<PackageInfo>
     {
-
         public Error error { get; }
     }
 }

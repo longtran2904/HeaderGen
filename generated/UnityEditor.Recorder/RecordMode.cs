@@ -6,7 +6,6 @@ namespace UnityEditor.Recorder
 {
     public enum RecordMode
     {
-
         Manual = 0,
         SingleFrame = 1,
         FrameInterval = 2,

@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public class MetadataResolver : IMetadataResolver
     {
-
         public MetadataResolver(IAssemblyResolver assemblyResolver);
 
         public IAssemblyResolver AssemblyResolver { get; }

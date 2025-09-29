@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public readonly struct TreeViewItemData<T>
     {
-
         public TreeViewItemData(int id, T data, List<TreeViewItemData<T>> children = null);
 
         public int id { get; }

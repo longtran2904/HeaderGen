@@ -6,7 +6,6 @@ namespace System.Net.Http
 {
     public readonly struct HttpRequestOptionsKey<TValue>
     {
-
         public HttpRequestOptionsKey(string key);
 
         public string Key { get; }

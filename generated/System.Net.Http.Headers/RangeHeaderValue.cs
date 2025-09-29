@@ -8,7 +8,6 @@ namespace System.Net.Http.Headers
 {
     public class RangeHeaderValue : ICloneable
     {
-
         public RangeHeaderValue();
         public RangeHeaderValue(long? from, long? to);
 

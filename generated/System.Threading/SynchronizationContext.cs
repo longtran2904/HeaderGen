@@ -6,7 +6,6 @@ namespace System.Threading
 {
     public class SynchronizationContext
     {
-
         public SynchronizationContext();
 
         public static SynchronizationContext Current { get; }

@@ -8,7 +8,6 @@ namespace UnityEditor.Recorder.Input
 {
     public class CameraInput : BaseRenderTextureInput
     {
-
         public CameraInput();
 
         protected Camera TargetCamera { get; set; }

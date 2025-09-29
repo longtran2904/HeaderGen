@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
     [Flags]
     public enum CopyTextureSupport
     {
-
         None = 0,
         Basic = 1,
         Copy3D = 2,

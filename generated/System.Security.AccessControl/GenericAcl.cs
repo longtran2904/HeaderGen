@@ -10,7 +10,6 @@ namespace System.Security.AccessControl
     [DefaultMember("Item")]
     public abstract class GenericAcl : ICollection, IEnumerable
     {
-
         public static readonly byte AclRevision;
         public static readonly byte AclRevisionDS;
         public static readonly int MaxBinaryLength;

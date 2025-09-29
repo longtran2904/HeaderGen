@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public struct TimerState : IEquatable<TimerState>
     {
-
         public long start { get; set; }
         public long now { get; set; }
         public long deltaTime { get; }

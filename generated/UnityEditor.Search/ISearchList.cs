@@ -10,7 +10,6 @@ namespace UnityEditor.Search
 {
     public interface ISearchList : ICollection<SearchItem>, IDisposable, IEnumerable, IEnumerable<SearchItem>, IList<SearchItem>
     {
-
         bool pending { get; }
         SearchContext context { get; }
 

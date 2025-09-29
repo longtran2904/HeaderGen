@@ -8,7 +8,6 @@ namespace UnityEditor.Search
 {
     public struct SearchColumnEventArgs
     {
-
         public readonly SearchItem item;
         public readonly SearchContext context;
         public readonly SearchColumn column;

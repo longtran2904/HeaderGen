@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum AudioType
     {
-
         UNKNOWN = 0,
         ACC = 1,
         AIFF = 2,

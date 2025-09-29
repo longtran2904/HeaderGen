@@ -6,7 +6,6 @@ namespace UnityEngine.TextCore.Text
 {
     public class Character : TextElement
     {
-
         public Character();
         public Character(uint unicode, Glyph glyph);
         public Character(uint unicode, FontAsset fontAsset, Glyph glyph);

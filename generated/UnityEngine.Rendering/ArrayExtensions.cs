@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
 {
     public static class ArrayExtensions
     {
-
         public static void ResizeArray<T>(ref this NativeArray<T> array, int capacity) where T : struct;
         public static void ResizeArray(ref this TransformAccessArray array, int capacity);
         public static void ResizeArray<T>(ref T[] array, int capacity);

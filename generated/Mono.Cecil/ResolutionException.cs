@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public sealed class ResolutionException : Exception
     {
-
         public ResolutionException(MemberReference member);
 
         public MemberReference Member { get; }

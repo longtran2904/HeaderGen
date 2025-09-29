@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public struct TYPEDESC
     {
-
         public nint lpValue;
         public short vt;
     }

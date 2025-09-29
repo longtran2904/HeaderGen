@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public class ExpressionEvaluator
     {
-
         public ExpressionEvaluator();
 
         public static bool Evaluate<T>(string expression, out T value);

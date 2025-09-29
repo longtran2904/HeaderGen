@@ -11,7 +11,6 @@ namespace UnityEditor.Searcher
     [PublicAPI]
     public interface ISearcherAdapter
     {
-
         string Title { get; }
         bool HasDetailsPanel { get; }
         bool AddAllChildResults { get; }

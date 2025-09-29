@@ -11,7 +11,6 @@ namespace UnityEditor.ShortcutManagement
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = True)]
     public class ShortcutAttribute : ShortcutBaseAttribute
     {
-
         public ShortcutAttribute(string id, [DefaultValue("null")] Type context = null);
         public ShortcutAttribute(string id, Type context, KeyCode defaultKeyCode, [DefaultValue("None")] ShortcutModifiers defaultShortcutModifiers = ShortcutModifiers.None);
         public ShortcutAttribute(string id, KeyCode defaultKeyCode, [DefaultValue("None")] ShortcutModifiers defaultShortcutModifiers = ShortcutModifiers.None);

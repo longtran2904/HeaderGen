@@ -9,7 +9,6 @@ namespace System
 {
     public sealed class TimeZoneInfo : IDeserializationCallback, IEquatable<TimeZoneInfo>, ISerializable
     {
-
         public string Id { get; }
         public bool HasIanaId { get; }
         public string DisplayName { get; }
@@ -57,9 +56,9 @@ namespace System
         public static bool TryConvertWindowsIdToIanaId(string windowsId, out string ianaId);
         public static bool TryConvertWindowsIdToIanaId(string windowsId, string region, out string ianaId);
         public AdjustmentRule[] GetAdjustmentRules();
+
         public sealed class AdjustmentRule : IDeserializationCallback, IEquatable<AdjustmentRule>, ISerializable
         {
-
             public DateTime DateStart { get; }
             public DateTime DateEnd { get; }
             public TimeSpan DaylightDelta { get; }
@@ -75,7 +74,6 @@ namespace System
         }
         public readonly struct TransitionTime : IDeserializationCallback, IEquatable<TransitionTime>, ISerializable
         {
-
             public DateTime TimeOfDay { get; }
             public int Month { get; }
             public int Week { get; }

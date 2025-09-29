@@ -6,7 +6,6 @@ namespace System.Reflection.Emit
 {
     public abstract class GenericTypeParameterBuilder : TypeInfo
     {
-
         protected GenericTypeParameterBuilder();
 
         public void SetCustomAttribute(ConstructorInfo con, byte[] binaryAttribute);

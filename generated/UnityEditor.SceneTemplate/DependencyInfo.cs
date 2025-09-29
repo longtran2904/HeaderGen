@@ -8,7 +8,6 @@ namespace UnityEditor.SceneTemplate
 {
     public sealed class DependencyInfo
     {
-
         public UnityEngine.Object dependency;
         public TemplateInstantiationMode instantiationMode;
 

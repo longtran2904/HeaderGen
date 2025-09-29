@@ -10,7 +10,6 @@ namespace UnityEditor.UI
     [CustomEditor(typeof(RectMask2D), True)]
     public class RectMask2DEditor : Editor
     {
-
         public RectMask2DEditor();
 
         protected virtual void OnEnable();

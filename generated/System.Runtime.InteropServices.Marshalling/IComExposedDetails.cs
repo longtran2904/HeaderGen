@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices.Marshalling
     [CLSCompliant(False)]
     public interface IComExposedDetails
     {
-
         ComWrappers.ComInterfaceEntry* GetComInterfaceEntries(out int count);
     }
 }

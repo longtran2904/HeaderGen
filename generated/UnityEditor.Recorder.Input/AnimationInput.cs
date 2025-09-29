@@ -8,7 +8,6 @@ namespace UnityEditor.Recorder.Input
 {
     public class AnimationInput : RecorderInput
     {
-
         public AnimationInput();
 
         public GameObjectRecorder GameObjectRecorder { get; }

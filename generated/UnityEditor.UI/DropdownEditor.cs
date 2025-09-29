@@ -10,7 +10,6 @@ namespace UnityEditor.UI
     [CustomEditor(typeof(Dropdown), True)]
     public class DropdownEditor : SelectableEditor
     {
-
         public DropdownEditor();
 
         protected override void OnEnable();

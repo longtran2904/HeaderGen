@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum ParticleSystemGameObjectFilter
     {
-
         LayerMask = 0,
         List = 1,
         LayerMaskAndList = 2

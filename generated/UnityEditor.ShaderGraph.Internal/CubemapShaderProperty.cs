@@ -8,7 +8,6 @@ namespace UnityEditor.ShaderGraph.Internal
     [FormerName("UnityEditor.ShaderGraph.CubemapShaderProperty")]
     public sealed class CubemapShaderProperty : AbstractShaderProperty<SerializableCubemap>
     {
-
         public override PropertyType propertyType { get; }
     }
 }

@@ -9,7 +9,6 @@ namespace UnityEditor.Recorder
 {
     public abstract class BaseTextureRecorder<T> : GenericRecorder<T> where T : RecorderSettings
     {
-
         protected bool UseAsyncGPUReadback;
 
         protected BaseTextureRecorder();

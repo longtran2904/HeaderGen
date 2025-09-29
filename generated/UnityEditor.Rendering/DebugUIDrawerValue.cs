@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
     [DebugUIDrawer(typeof(DebugUI.Value))]
     public sealed class DebugUIDrawerValue : DebugUIDrawer
     {
-
         public DebugUIDrawerValue();
 
         public override bool OnGUI(DebugUI.Widget widget, DebugState state);

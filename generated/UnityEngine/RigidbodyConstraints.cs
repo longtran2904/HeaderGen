@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public enum RigidbodyConstraints
     {
-
         None = 0,
         FreezePositionX = 2,
         FreezePositionY = 4,

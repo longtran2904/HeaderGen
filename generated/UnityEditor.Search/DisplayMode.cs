@@ -8,7 +8,6 @@ namespace UnityEditor.Search
 {
     public enum DisplayMode
     {
-
         None = 0,
         List = 32,
         Grid = 96,

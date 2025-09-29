@@ -9,7 +9,6 @@ namespace UnityEngine.Device
 {
     public static class Application
     {
-
         public static string absoluteURL { get; }
         public static ThreadPriority backgroundLoadingPriority { get; set; }
         public static string buildGUID { get; }

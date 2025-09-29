@@ -8,7 +8,6 @@ namespace UnityEditor.Recorder
 {
     public class RecordingSession : IDisposable
     {
-
         public Recorder recorder;
 
         public RecordingSession();

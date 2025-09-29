@@ -6,7 +6,6 @@ namespace UnityEngine.TextCore.Text
 {
     public static class TextEventManager
     {
-
         public static readonly FastAction<bool, Material> MATERIAL_PROPERTY_EVENT;
         public static readonly FastAction<bool, Object> FONT_PROPERTY_EVENT;
         public static readonly FastAction<bool, Object> SPRITE_ASSET_PROPERTY_EVENT;

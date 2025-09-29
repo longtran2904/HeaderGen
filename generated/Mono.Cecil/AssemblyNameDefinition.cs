@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public sealed class AssemblyNameDefinition : AssemblyNameReference
     {
-
         public AssemblyNameDefinition(string name, Version version);
 
         public override byte[] Hash { get; }

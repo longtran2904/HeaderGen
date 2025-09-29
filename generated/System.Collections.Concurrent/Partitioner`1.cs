@@ -8,7 +8,6 @@ namespace System.Collections.Concurrent
 {
     public abstract class Partitioner<TSource>
     {
-
         protected Partitioner();
 
         public virtual bool SupportsDynamicPartitions { get; }

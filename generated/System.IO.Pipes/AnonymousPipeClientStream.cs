@@ -8,7 +8,6 @@ namespace System.IO.Pipes
 {
     public sealed class AnonymousPipeClientStream : PipeStream
     {
-
         public AnonymousPipeClientStream(string pipeHandleAsString);
         public AnonymousPipeClientStream(PipeDirection direction, string pipeHandleAsString);
         public AnonymousPipeClientStream(PipeDirection direction, SafePipeHandle safePipeHandle);

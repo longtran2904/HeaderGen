@@ -8,7 +8,6 @@ namespace UnityEditorInternal
 {
     public static class MonoScripts
     {
-
         public static MonoScript CreateMonoScript(string scriptContents, string className, string nameSpace, string assemblyName, bool isEditorScript);
     }
 }

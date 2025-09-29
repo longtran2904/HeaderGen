@@ -8,7 +8,6 @@ namespace UnityEngine.TestTools.Utils
 {
     public class Vector2EqualityComparer : IEqualityComparer<Vector2>
     {
-
         public Vector2EqualityComparer(float error);
 
         public static Vector2EqualityComparer Instance { get; }

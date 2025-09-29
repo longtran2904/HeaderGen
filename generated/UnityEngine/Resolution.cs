@@ -9,7 +9,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public struct Resolution
     {
-
         public int width { get; set; }
         public int height { get; set; }
         public int refreshRate { get; set; }

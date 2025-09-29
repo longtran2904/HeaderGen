@@ -10,7 +10,6 @@ namespace System
 {
     public abstract class StringComparer : IComparer, IComparer<string>, IEqualityComparer, IEqualityComparer<string>
     {
-
         protected StringComparer();
 
         public static StringComparer InvariantCulture { get; }

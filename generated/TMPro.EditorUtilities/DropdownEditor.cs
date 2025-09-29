@@ -11,7 +11,6 @@ namespace TMPro.EditorUtilities
     [CustomEditor(typeof(TMP_Dropdown), True)]
     public class DropdownEditor : SelectableEditor
     {
-
         public DropdownEditor();
 
         protected override void OnEnable();

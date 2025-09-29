@@ -9,7 +9,6 @@ namespace UnityEngine.Device
 {
     public static class SystemInfo
     {
-
         public const string unsupportedIdentifier = "n/a";
 
         public static float batteryLevel { get; }

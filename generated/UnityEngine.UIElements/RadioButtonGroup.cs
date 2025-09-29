@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public class RadioButtonGroup : BaseField<int>, IGroupBox
     {
-
         public static readonly string ussClassName;
 
         public RadioButtonGroup();
@@ -17,14 +16,13 @@ namespace UnityEngine.UIElements
         public IEnumerable<string> choices { get; set; }
 
         public override void SetValueWithoutNotify(int newValue);
+
         public class UxmlFactory : UxmlFactory<RadioButtonGroup, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : BaseFieldTraits<int, UxmlIntAttributeDescription>
         {
-
             public UxmlTraits();
 
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc);

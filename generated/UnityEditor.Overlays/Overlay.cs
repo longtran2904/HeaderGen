@@ -11,7 +11,6 @@ namespace UnityEditor.Overlays
 {
     public abstract class Overlay
     {
-
         public static readonly string ussClassName;
 
         protected Overlay();

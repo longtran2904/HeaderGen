@@ -8,7 +8,6 @@ using System.Collections.Generic;
 
 public class TupleTest
 {
-
     public (int, float) tuple;
     public (int x1, int x2, int x3, int x4, int x5, int x6, int x7, int, int) tuple0_1;
     public (int x1, int x2, int x3, int x4, int x5, int x6, int x7, int x8, int x9) tuple0_2;
@@ -37,9 +36,9 @@ public class TupleTest
 
     [Tuple(new[] {typeof((int, int, int, int, int, int, int, int, int)), typeof((int, int, int, int, int, int, int, int, int)), typeof((int, int, int, int, int, int, int, int, int)) })]
     public (int a, (int d, ((int h, (int j, int k) i) f, int g) e) b, (int l, ((int p, int q) n, int o) m) c) TupleFunc<T, U>((int a, float b, (string f, bool g) c, (object h, double i) d, (decimal j, char k) e) arg1, List<(IList a, Array, (Dictionary<int, (float c, string)>, (byte, int d, List<(bool, (int, (T, (char f, U g))))>[][] e)[] b))> arg2);
+
     public class TupleAttribute : Attribute
     {
-
         public TupleAttribute(params Type[] types);
     }
 }

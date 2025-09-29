@@ -7,7 +7,6 @@ namespace System.Runtime.CompilerServices
     [Obsolete("Types with embedded references are not supported in this version of your compiler.", True)]
     public ref struct DefaultInterpolatedStringHandler
     {
-
         public DefaultInterpolatedStringHandler(int literalLength, int formattedCount);
         public DefaultInterpolatedStringHandler(int literalLength, int formattedCount, IFormatProvider provider);
         public DefaultInterpolatedStringHandler(int literalLength, int formattedCount, IFormatProvider provider, Span<char> initialBuffer);

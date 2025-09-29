@@ -12,7 +12,6 @@ namespace UnityEditor.Build.Reporting
     [NativeType(Header = "Modules/BuildReportingEditor/Public/PackedAssets.h")]
     public sealed class PackedAssets : UnityEngine.Object
     {
-
         public PackedAssets();
 
         [Obsolete("Report file index is no longer available. To find the matching report file for a particular asset the recommended way is to do a filename lookup in the report.", True)]

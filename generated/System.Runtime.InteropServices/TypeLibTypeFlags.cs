@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [Flags]
     public enum TypeLibTypeFlags
     {
-
         FAppObject = 1,
         FCanCreate = 2,
         FLicensed = 4,

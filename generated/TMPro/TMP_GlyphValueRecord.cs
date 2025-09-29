@@ -6,7 +6,6 @@ namespace TMPro
 {
     public struct TMP_GlyphValueRecord
     {
-
         public TMP_GlyphValueRecord(float xPlacement, float yPlacement, float xAdvance, float yAdvance);
 
         public float xPlacement { get; set; }

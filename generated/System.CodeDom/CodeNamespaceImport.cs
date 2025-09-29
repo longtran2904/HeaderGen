@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeNamespaceImport : CodeObject
     {
-
         public CodeNamespaceImport();
         public CodeNamespaceImport(string nameSpace);
 

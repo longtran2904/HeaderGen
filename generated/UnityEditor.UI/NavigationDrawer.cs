@@ -10,7 +10,6 @@ namespace UnityEditor.UI
     [CustomPropertyDrawer(typeof(Navigation), True)]
     public class NavigationDrawer : PropertyDrawer
     {
-
         public NavigationDrawer();
 
         public override void OnGUI(Rect pos, SerializedProperty prop, GUIContent label);

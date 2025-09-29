@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
 {
     public class DebugState<T> : DebugState
     {
-
         [SerializeField]
         protected T m_Value;
 

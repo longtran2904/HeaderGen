@@ -7,7 +7,6 @@ namespace System.Diagnostics
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Constructor | AttributeTargets.Method | AttributeTargets.Property, Inherited = False)]
     public sealed class DebuggerNonUserCodeAttribute : Attribute
     {
-
         public DebuggerNonUserCodeAttribute();
     }
 }

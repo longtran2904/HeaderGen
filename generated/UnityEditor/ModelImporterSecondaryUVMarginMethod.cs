@@ -9,7 +9,6 @@ namespace UnityEditor
     [NativeType(Header = "Modules/AssetPipelineEditor/Public/ModelImporting/ModelImporter.h")]
     public enum ModelImporterSecondaryUVMarginMethod
     {
-
         Manual = 0,
         Calculate = 1
     }

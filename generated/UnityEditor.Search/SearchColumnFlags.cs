@@ -9,7 +9,6 @@ namespace UnityEditor.Search
     [Flags]
     public enum SearchColumnFlags
     {
-
         None = 0,
         Hidden = 1,
         Sorted = 2,

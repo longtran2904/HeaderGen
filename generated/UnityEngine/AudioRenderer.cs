@@ -10,7 +10,6 @@ namespace UnityEngine
     [NativeType(Header = "Modules/Audio/Public/ScriptBindings/AudioRenderer.bindings.h")]
     public class AudioRenderer
     {
-
         public AudioRenderer();
 
         public static bool Start();

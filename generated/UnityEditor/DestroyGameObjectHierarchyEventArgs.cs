@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public struct DestroyGameObjectHierarchyEventArgs
     {
-
         public DestroyGameObjectHierarchyEventArgs(int instanceId, Scene scene);
         public DestroyGameObjectHierarchyEventArgs(int instanceId, int parentInstanceId, Scene scene);
 

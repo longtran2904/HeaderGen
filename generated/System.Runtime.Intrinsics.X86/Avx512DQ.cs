@@ -7,7 +7,6 @@ namespace System.Runtime.Intrinsics.X86
     [CLSCompliant(False)]
     public abstract class Avx512DQ : Avx512F
     {
-
         public static bool IsSupported { get; }
 
         public static Vector512<float> And(Vector512<float> left, Vector512<float> right);
@@ -63,9 +62,9 @@ namespace System.Runtime.Intrinsics.X86
         public static Vector128<double> ReduceScalar(Vector128<double> upper, Vector128<double> value, byte control);
         public static Vector512<float> Xor(Vector512<float> left, Vector512<float> right);
         public static Vector512<double> Xor(Vector512<double> left, Vector512<double> right);
+
         public abstract class VL : Avx512F.VL
         {
-
             public static bool IsSupported { get; }
 
             public static Vector128<int> BroadcastPairScalarToVector128(Vector128<int> value);
@@ -112,7 +111,6 @@ namespace System.Runtime.Intrinsics.X86
         }
         public abstract class X64 : Avx512F.X64
         {
-
             public static bool IsSupported { get; }
         }
     }

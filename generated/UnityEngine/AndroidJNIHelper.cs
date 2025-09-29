@@ -15,7 +15,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public static class AndroidJNIHelper
     {
-
         public static bool debug { get; set; }
 
         public static nint GetConstructorID(nint javaClass);

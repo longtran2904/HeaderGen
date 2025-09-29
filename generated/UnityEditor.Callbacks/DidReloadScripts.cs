@@ -9,7 +9,6 @@ namespace UnityEditor.Callbacks
     [RequiredByNativeCode]
     public sealed class DidReloadScripts : CallbackOrderAttribute
     {
-
         public DidReloadScripts();
         public DidReloadScripts(int callbackOrder);
     }

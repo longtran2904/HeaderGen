@@ -9,7 +9,6 @@ namespace System
     [Obsolete("System.TimeZone has been deprecated. Investigate the use of System.TimeZoneInfo instead.")]
     public abstract class TimeZone
     {
-
         protected TimeZone();
 
         public static TimeZone CurrentTimeZone { get; }

@@ -9,7 +9,6 @@ namespace UnityEditor.UIElements
 {
     public abstract class TextValueField<TValueType> : TextInputBaseField<TValueType>, IValueField<TValueType>
     {
-
         protected TextValueField(int maxLength, TextValueInput textValueInput);
         protected TextValueField(string label, int maxLength, TextValueInput textValueInput);
 
@@ -21,9 +20,9 @@ namespace UnityEditor.UIElements
         public void StopDragging();
         protected void AddLabelDragger<TDraggerType>();
         public override void SetValueWithoutNotify(TValueType newValue);
+
         protected abstract class TextValueInput : TextInputBaseField<TValueType>.TextInputBase
         {
-
             protected TextValueInput();
 
             protected abstract string allowedCharacters { get; }

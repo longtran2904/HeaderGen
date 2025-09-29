@@ -12,7 +12,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public class Collider : Component
     {
-
         public Collider();
 
         public bool enabled { get; set; }

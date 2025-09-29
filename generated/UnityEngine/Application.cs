@@ -29,7 +29,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Network/NetworkUtility.h")]
     public class Application
     {
-
         public Application();
 
         [Obsolete("This property is deprecated, please use LoadLevelAsync to detect if a specific scene is currently loading.")]
@@ -163,6 +162,7 @@ namespace UnityEngine
         public static bool UnloadLevel(int index);
         [Obsolete("Use SceneManager.UnloadScene")]
         public static bool UnloadLevel(string scenePath);
+
         public delegate void AdvertisingIdentifierCallback(string advertisingId, bool trackingEnabled, string errorMsg);
         public delegate void LowMemoryCallback();
         public delegate void LogCallback(string condition, string stackTrace, LogType type);

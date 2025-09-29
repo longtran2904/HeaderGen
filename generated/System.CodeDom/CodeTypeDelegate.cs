@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeTypeDelegate : CodeTypeDeclaration
     {
-
         public CodeTypeDelegate();
         public CodeTypeDelegate(string name);
 

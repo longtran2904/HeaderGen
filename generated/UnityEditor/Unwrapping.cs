@@ -10,7 +10,6 @@ namespace UnityEditor
     [NativeHeader("Editor/Mono/Unwrapping.bindings.h")]
     public static class Unwrapping
     {
-
         public static Vector2[] GeneratePerTriangleUV(Mesh src);
         public static Vector2[] GeneratePerTriangleUV(Mesh src, UnwrapParam settings);
         public static void GenerateSecondaryUVSet(Mesh src);

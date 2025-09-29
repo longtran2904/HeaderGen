@@ -8,7 +8,6 @@ namespace UnityEngine.TestTools.Utils
 {
     public class Vector3ComparerWithEqualsOperator : IEqualityComparer<Vector3>
     {
-
         public static Vector3ComparerWithEqualsOperator Instance { get; }
 
         public bool Equals(Vector3 expected, Vector3 actual);

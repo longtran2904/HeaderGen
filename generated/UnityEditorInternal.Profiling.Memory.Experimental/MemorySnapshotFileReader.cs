@@ -9,7 +9,6 @@ namespace UnityEditorInternal.Profiling.Memory.Experimental
 {
     public class MemorySnapshotFileReader : ISerializationCallbackReceiver
     {
-
         public MemorySnapshotFileReader(string filePath);
         public MemorySnapshotFileReader();
 

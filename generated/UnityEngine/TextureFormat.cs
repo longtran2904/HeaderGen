@@ -9,7 +9,6 @@ namespace UnityEngine
 {
     public enum TextureFormat
     {
-
         Alpha8 = 1,
         ARGB4444 = 2,
         RGB24 = 3,

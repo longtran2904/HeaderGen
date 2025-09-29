@@ -13,7 +13,6 @@ namespace UnityEngine.UI
     [AddComponentMenu("UI/Legacy/Input Field", 103)]
     public class InputField : Selectable, IBeginDragHandler, ICanvasElement, IDragHandler, IEndDragHandler, ILayoutElement, IPointerClickHandler, ISubmitHandler, IUpdateSelectedHandler
     {
-
         protected TouchScreenKeyboard m_Keyboard;
         [FormerlySerializedAs("text")]
         [SerializeField]
@@ -121,9 +120,9 @@ namespace UnityEngine.UI
         protected override void DoStateTransition(SelectionState state, bool instant);
         public virtual void CalculateLayoutInputHorizontal();
         public virtual void CalculateLayoutInputVertical();
+
         public enum ContentType
         {
-
             Standard = 0,
             Autocorrected = 1,
             IntegerNumber = 2,
@@ -137,14 +136,12 @@ namespace UnityEngine.UI
         }
         public enum InputType
         {
-
             Standard = 0,
             AutoCorrect = 1,
             Password = 2
         }
         public enum CharacterValidation
         {
-
             None = 0,
             Integer = 1,
             Decimal = 2,
@@ -154,7 +151,6 @@ namespace UnityEngine.UI
         }
         public enum LineType
         {
-
             SingleLine = 0,
             MultiLineSubmit = 1,
             MultiLineNewline = 2
@@ -162,22 +158,18 @@ namespace UnityEngine.UI
         public delegate char OnValidateInput(string text, int charIndex, char addedChar);
         public class SubmitEvent : UnityEvent<string>
         {
-
             public SubmitEvent();
         }
         public class EndEditEvent : UnityEvent<string>
         {
-
             public EndEditEvent();
         }
         public class OnChangeEvent : UnityEvent<string>
         {
-
             public OnChangeEvent();
         }
         protected enum EditState
         {
-
             Continue = 0,
             Finish = 1
         }

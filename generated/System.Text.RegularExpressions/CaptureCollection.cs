@@ -11,7 +11,6 @@ namespace System.Text.RegularExpressions
     [DefaultMember("Item")]
     public class CaptureCollection : ICollection, ICollection<Capture>, IEnumerable, IEnumerable<Capture>, IList, IList<Capture>, IReadOnlyCollection<Capture>, IReadOnlyList<Capture>
     {
-
         public Capture this[int i] { get; }
         public bool IsReadOnly { get; }
         public int Count { get; }

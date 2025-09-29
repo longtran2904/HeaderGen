@@ -884,7 +884,7 @@ public class HeaderGen
                     }
                     
                     valueBuilder.Append('\n');
-                    valueBuilder.AppendIndent("{\n", indent);
+                    valueBuilder.AppendIndent("{", indent);
                     
                     // NOTE(long): Members order (newline):
                     // fields -> constructors -> finalizers -> properties -> events -> methods
@@ -904,6 +904,7 @@ public class HeaderGen
                     };
                     
                     // NOTE(long): After some profiling, iterating through the array multiple times is slightly faster than sorting
+                    int startLength = valueBuilder.Length;
                     for (int i = 0; i < table.Length; ++i)
                     {
                         int length = valueBuilder.Length;
@@ -917,10 +918,12 @@ public class HeaderGen
                                 data.currentType = type; // restore the current scoped type
                         }
                         
-                        if (valueBuilder.Length > length && i < table.Length - 1)
+                        if (valueBuilder.Length > length)
                             valueBuilder.Insert(length, '\n');
                     }
                     
+                    if (valueBuilder.Length == startLength) // the type is empty
+                        valueBuilder.Append("\n");
                     valueBuilder.AppendIndent("}", indent);
                     
                     static bool IsMethodSpecial(MemberInfo member, bool special, bool equal, params string[] names)

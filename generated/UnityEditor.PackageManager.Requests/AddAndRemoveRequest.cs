@@ -6,7 +6,6 @@ namespace UnityEditor.PackageManager.Requests
 {
     public sealed class AddAndRemoveRequest : Request<PackageCollection>
     {
-
         protected override PackageCollection GetResult();
     }
 }

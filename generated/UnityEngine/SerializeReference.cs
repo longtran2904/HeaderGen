@@ -12,7 +12,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public sealed class SerializeReference : Attribute
     {
-
         [ExcludeFromDocs]
         public SerializeReference();
     }

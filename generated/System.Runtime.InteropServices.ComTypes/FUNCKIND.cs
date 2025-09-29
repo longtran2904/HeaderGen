@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public enum FUNCKIND
     {
-
         FUNC_VIRTUAL = 0,
         FUNC_PUREVIRTUAL = 1,
         FUNC_NONVIRTUAL = 2,

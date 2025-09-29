@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering.Universal
 {
     public struct CameraData
     {
-
         public Camera camera;
         public CameraRenderType renderType;
         public RenderTexture targetTexture;

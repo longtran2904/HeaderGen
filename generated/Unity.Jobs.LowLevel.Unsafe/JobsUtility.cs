@@ -12,7 +12,6 @@ namespace Unity.Jobs.LowLevel.Unsafe
     [NativeType(Header = "Runtime/Jobs/ScriptBindings/JobsBindings.h")]
     public static class JobsUtility
     {
-
         public const int MaxJobThreadCount = 128;
         public const int CacheLineSize = 64;
 
@@ -46,9 +45,9 @@ namespace Unity.Jobs.LowLevel.Unsafe
         public static nint CreateJobReflectionData(Type wrapperJobType, Type userJobType, object managedJobFunction0);
         [FreeFunction("JobSystem::ResetJobQueueWorkerThreadCount")]
         public static void ResetJobWorkerCount();
+
         public struct JobScheduleParameters
         {
-
             public JobHandle Dependency;
             public int ScheduleMode;
             public nint ReflectionData;

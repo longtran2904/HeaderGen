@@ -10,7 +10,6 @@ namespace UnityEngine.Rendering.Universal
 {
     public sealed class UniversalRenderPipeline : RenderPipeline
     {
-
         public const string k_ShaderTagName = "UniversalPipeline";
 
         public UniversalRenderPipeline(UniversalRenderPipelineAsset asset);

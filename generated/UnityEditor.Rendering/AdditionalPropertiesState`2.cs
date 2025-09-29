@@ -10,7 +10,6 @@ namespace UnityEditor.Rendering
     [DefaultMember("Item")]
     public class AdditionalPropertiesState<TState, TTarget> where TState : IConvertible, struct
     {
-
         public AdditionalPropertiesState(TState defaultValue, string prefix = "CoreRP");
 
         public bool this[TState mask] { get; set; }

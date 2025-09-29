@@ -8,7 +8,6 @@ namespace UnityEngine.UI
 {
     public struct SpriteState : IEquatable<SpriteState>
     {
-
         public Sprite highlightedSprite { get; set; }
         public Sprite pressedSprite { get; set; }
         public Sprite selectedSprite { get; set; }

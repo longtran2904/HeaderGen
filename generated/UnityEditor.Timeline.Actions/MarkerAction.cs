@@ -10,7 +10,6 @@ namespace UnityEditor.Timeline.Actions
     [ActiveInMode(TimelineModes.Default)]
     public abstract class MarkerAction : IAction
     {
-
         protected MarkerAction();
 
         public abstract bool Execute(IEnumerable<IMarker> markers);

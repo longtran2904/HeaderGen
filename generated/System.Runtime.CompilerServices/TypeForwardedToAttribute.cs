@@ -7,7 +7,6 @@ namespace System.Runtime.CompilerServices
     [AttributeUsage(AttributeTargets.Assembly, AllowMultiple = True, Inherited = False)]
     public sealed class TypeForwardedToAttribute : Attribute
     {
-
         public TypeForwardedToAttribute(Type destination);
 
         public Type Destination { get; }

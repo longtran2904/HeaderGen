@@ -6,7 +6,6 @@ namespace System.Numerics
 {
     public static class Vector
     {
-
         public static bool IsHardwareAccelerated { get; }
 
         public static Vector<T> Abs<T>(Vector<T> value);

@@ -7,7 +7,6 @@ namespace System.Reflection
     [AttributeUsage(AttributeTargets.Assembly, Inherited = False)]
     public sealed class AssemblyConfigurationAttribute : Attribute
     {
-
         public AssemblyConfigurationAttribute(string configuration);
 
         public string Configuration { get; }

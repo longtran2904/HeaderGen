@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices.Marshalling
     [CLSCompliant(False)]
     public interface IIUnknownDerivedDetails
     {
-
         Guid Iid { get; }
         Type Implementation { get; }
         void** ManagedVirtualMethodTable { get; }

@@ -8,7 +8,6 @@ namespace UnityEditor.Timeline
 {
     public class MarkerEditor
     {
-
         public MarkerEditor();
 
         public virtual MarkerDrawOptions GetMarkerOptions(IMarker marker);

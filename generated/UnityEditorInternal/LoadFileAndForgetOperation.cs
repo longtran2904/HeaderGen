@@ -10,7 +10,6 @@ namespace UnityEditorInternal
     [RequiredByNativeCode]
     public class LoadFileAndForgetOperation : AsyncOperation
     {
-
         public LoadFileAndForgetOperation();
 
         public UnityEngine.Object Result { get; }

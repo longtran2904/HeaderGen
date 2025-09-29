@@ -13,7 +13,6 @@ namespace UnityEditor.Profiling
     [NativeHeader("Modules/ProfilerEditor/ProfilerHistory/RawFrameDataView.h")]
     public class RawFrameDataView : FrameDataView
     {
-
         public const int invalidSampleIndex = -1;
 
         [NativeMethod(IsThreadSafe = True, ThrowsException = True)]
@@ -55,10 +54,10 @@ namespace UnityEditor.Profiling
         public void GetFlowEvents(List<FlowEvent> outFlowEvents);
         public override bool Equals(object obj);
         public override int GetHashCode();
+
         [RequiredByNativeCode]
         public struct FlowEvent
         {
-
             public int ParentSampleIndex;
             public uint FlowId;
             public ProfilerFlowEventType FlowEventType;

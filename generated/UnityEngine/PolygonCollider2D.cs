@@ -11,7 +11,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics2D/Public/PolygonCollider2D.h")]
     public sealed class PolygonCollider2D : Collider2D
     {
-
         public PolygonCollider2D();
 
         public bool autoTiling { get; set; }

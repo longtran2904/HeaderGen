@@ -12,7 +12,6 @@ namespace UnityEngine.UI
     [RequireComponent(typeof(Canvas))]
     public class CanvasScaler : UIBehaviour
     {
-
         [SerializeField]
         [Tooltip("If a sprite has this 'Pixels Per Unit' setting, then one pixel in the sprite will cover one unit in the UI.")]
         protected float m_ReferencePixelsPerUnit;
@@ -67,23 +66,21 @@ namespace UnityEngine.UI
         protected void SetScaleFactor(float scaleFactor);
         protected void SetReferencePixelsPerUnit(float referencePixelsPerUnit);
         protected override void OnValidate();
+
         public enum ScaleMode
         {
-
             ConstantPixelSize = 0,
             ScaleWithScreenSize = 1,
             ConstantPhysicalSize = 2
         }
         public enum ScreenMatchMode
         {
-
             MatchWidthOrHeight = 0,
             Expand = 1,
             Shrink = 2
         }
         public enum Unit
         {
-
             Centimeters = 0,
             Millimeters = 1,
             Inches = 2,

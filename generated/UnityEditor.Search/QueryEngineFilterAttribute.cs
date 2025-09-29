@@ -9,7 +9,6 @@ namespace UnityEditor.Search
     [AttributeUsage(AttributeTargets.Method)]
     public class QueryEngineFilterAttribute : Attribute
     {
-
         public string token;
         public StringComparison comparisonOptions;
         public bool overridesStringComparison;

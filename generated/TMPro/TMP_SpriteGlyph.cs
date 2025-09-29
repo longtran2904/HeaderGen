@@ -9,7 +9,6 @@ namespace TMPro
 {
     public class TMP_SpriteGlyph : Glyph
     {
-
         public Sprite sprite;
 
         public TMP_SpriteGlyph();

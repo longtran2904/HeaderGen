@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public struct ChangeGameObjectStructureHierarchyEventArgs
     {
-
         public ChangeGameObjectStructureHierarchyEventArgs(int instanceId, Scene scene);
 
         public int instanceId { get; }

@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.UI
 {
     public class DebugUIHandlerRow : DebugUIHandlerFoldout
     {
-
         public DebugUIHandlerRow();
 
         protected override void OnEnable();

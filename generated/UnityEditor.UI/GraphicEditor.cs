@@ -11,7 +11,6 @@ namespace UnityEditor.UI
     [CustomEditor(typeof(MaskableGraphic), False)]
     public class GraphicEditor : Editor
     {
-
         protected SerializedProperty m_Script;
         protected SerializedProperty m_Color;
         protected SerializedProperty m_Material;

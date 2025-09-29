@@ -8,7 +8,6 @@ namespace System.CodeDom
 {
     public class CodeObject
     {
-
         public CodeObject();
 
         public IDictionary UserData { get; }

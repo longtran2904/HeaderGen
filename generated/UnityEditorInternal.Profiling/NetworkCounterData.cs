@@ -6,7 +6,6 @@ namespace UnityEditorInternal.Profiling
 {
     public struct NetworkCounterData
     {
-
         public string category;
         public string name;
     }

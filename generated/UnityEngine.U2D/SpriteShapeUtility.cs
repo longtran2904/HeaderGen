@@ -11,7 +11,6 @@ namespace UnityEngine.U2D
     [NativeHeader("Modules/SpriteShape/Public/SpriteShapeUtility.h")]
     public class SpriteShapeUtility
     {
-
         public SpriteShapeUtility();
 
         [FreeFunction("SpriteShapeUtility::Generate")]

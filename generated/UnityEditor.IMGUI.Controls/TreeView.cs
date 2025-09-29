@@ -9,7 +9,6 @@ namespace UnityEditor.IMGUI.Controls
 {
     public abstract class TreeView
     {
-
         public TreeView(TreeViewState state);
         public TreeView(TreeViewState state, MultiColumnHeader multiColumnHeader);
 
@@ -107,11 +106,11 @@ namespace UnityEditor.IMGUI.Controls
         protected static void SetupDepthsFromParentsAndChildren(TreeViewItem root);
         protected static List<TreeViewItem> CreateChildListForCollapsedParent();
         protected static bool IsChildListForACollapsedParent(IList<TreeViewItem> childList);
+
         public delegate bool DoFoldoutCallback(Rect position, bool expandedState, GUIStyle style);
         public delegate List<int> GetNewSelectionFunction(TreeViewItem clickedItem, bool keepMultiSelection, bool useActionKeyAsShift);
         protected struct RowGUIArgs
         {
-
             public TreeViewItem item;
             public string label;
             public Rect rowRect;
@@ -126,7 +125,6 @@ namespace UnityEditor.IMGUI.Controls
         }
         protected struct DragAndDropArgs
         {
-
             public DragAndDropPosition dragAndDropPosition;
             public TreeViewItem parentItem;
             public int insertAtIndex;
@@ -134,18 +132,15 @@ namespace UnityEditor.IMGUI.Controls
         }
         protected struct SetupDragAndDropArgs
         {
-
             public IList<int> draggedItemIDs;
         }
         protected struct CanStartDragArgs
         {
-
             public TreeViewItem draggedItem;
             public IList<int> draggedItemIDs;
         }
         protected struct RenameEndedArgs
         {
-
             public bool acceptedRename;
             public int itemID;
             public string originalName;
@@ -153,14 +148,12 @@ namespace UnityEditor.IMGUI.Controls
         }
         protected enum DragAndDropPosition
         {
-
             UponItem = 0,
             BetweenItems = 1,
             OutsideItems = 2
         }
         public static class DefaultGUI
         {
-
             public static void FoldoutLabel(Rect rect, string label, bool selected, bool focused);
             public static void Label(Rect rect, string label, bool selected, bool focused);
             public static void LabelRightAligned(Rect rect, string label, bool selected, bool focused);
@@ -169,7 +162,6 @@ namespace UnityEditor.IMGUI.Controls
         }
         public static class DefaultStyles
         {
-
             public static GUIStyle foldoutLabel;
             public static GUIStyle label;
             public static GUIStyle labelRightAligned;

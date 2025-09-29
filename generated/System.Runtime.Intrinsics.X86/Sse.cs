@@ -7,7 +7,6 @@ namespace System.Runtime.Intrinsics.X86
     [CLSCompliant(False)]
     public abstract class Sse : X86Base
     {
-
         public static bool IsSupported { get; }
 
         public static Vector128<float> Add(Vector128<float> left, Vector128<float> right);
@@ -97,9 +96,9 @@ namespace System.Runtime.Intrinsics.X86
         public static Vector128<float> UnpackHigh(Vector128<float> left, Vector128<float> right);
         public static Vector128<float> UnpackLow(Vector128<float> left, Vector128<float> right);
         public static Vector128<float> Xor(Vector128<float> left, Vector128<float> right);
+
         public abstract class X64 : X86Base.X64
         {
-
             public static bool IsSupported { get; }
 
             public static Vector128<float> ConvertScalarToVector128Single(Vector128<float> upper, long value);

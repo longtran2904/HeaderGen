@@ -10,7 +10,6 @@ namespace UnityEditorInternal
     [ExcludeFromPreset]
     public sealed class AssemblyDefinitionReferenceImporter : AssetImporter
     {
-
         public AssemblyDefinitionReferenceImporter();
     }
 }

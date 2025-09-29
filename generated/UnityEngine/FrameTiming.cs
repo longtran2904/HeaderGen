@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/GfxDevice/FrameTiming.h")]
     public struct FrameTiming
     {
-
         [NativeName("m_CPUTimePresentCalled")]
         public ulong cpuTimePresentCalled;
         [NativeName("m_CPUFrameTime")]

@@ -13,7 +13,6 @@ namespace UnityEditor
     [UsedByNativeCode]
     public sealed class ModelImporterClipAnimation
     {
-
         public ModelImporterClipAnimation();
 
         public string takeName { get; set; }

@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
     [Flags]
     public enum PerObjectData
     {
-
         None = 0,
         LightProbe = 1,
         ReflectionProbes = 2,

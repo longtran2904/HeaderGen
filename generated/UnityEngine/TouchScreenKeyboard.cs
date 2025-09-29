@@ -13,7 +13,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Input/KeyboardOnScreen.h")]
     public class TouchScreenKeyboard
     {
-
         public TouchScreenKeyboard(string text, TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure, bool alert, string textPlaceholder, int characterLimit);
 
         ~TouchScreenKeyboard();
@@ -53,9 +52,9 @@ namespace UnityEngine
         public static TouchScreenKeyboard Open(string text, TouchScreenKeyboardType keyboardType);
         [ExcludeFromDocs]
         public static TouchScreenKeyboard Open(string text);
+
         public enum Status
         {
-
             Visible = 0,
             Done = 1,
             Canceled = 2,
@@ -63,7 +62,6 @@ namespace UnityEngine
         }
         public class Android
         {
-
             public Android();
 
             [Obsolete("TouchScreenKeyboard.Android.closeKeyboardOnOutsideTap is obsolete. Use TouchScreenKeyboard.Android.consumesOutsideTouches instead (UnityUpgradable) -> UnityEngine.TouchScreenKeyboard/Android.consumesOutsideTouches")]

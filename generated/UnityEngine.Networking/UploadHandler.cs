@@ -10,7 +10,6 @@ namespace UnityEngine.Networking
     [NativeHeader("Modules/UnityWebRequest/Public/UploadHandler/UploadHandler.h")]
     public class UploadHandler : IDisposable
     {
-
         ~UploadHandler();
 
         public byte[] data { get; }

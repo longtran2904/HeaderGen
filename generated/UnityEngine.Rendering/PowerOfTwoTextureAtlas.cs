@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public class PowerOfTwoTextureAtlas : Texture2DAtlas
     {
-
         public PowerOfTwoTextureAtlas(int size, int mipPadding, GraphicsFormat format, FilterMode filterMode = FilterMode.Point, string name = "", bool useMipMap = True);
 
         public int mipPadding { get; }

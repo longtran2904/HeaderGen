@@ -11,7 +11,6 @@ namespace UnityEngine.Rendering
     [DefaultMember("Item")]
     public class ObservableList<T> : ICollection<T>, IEnumerable, IEnumerable<T>, IList<T>
     {
-
         public ObservableList();
         public ObservableList(int capacity);
         public ObservableList(IEnumerable<T> collection);

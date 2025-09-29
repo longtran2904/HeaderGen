@@ -8,7 +8,6 @@ namespace UnityEditor.ShaderGraph
 {
     public class RedirectNode : Node
     {
-
         public RedirectNode();
     }
 }

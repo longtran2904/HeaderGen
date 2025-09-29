@@ -10,7 +10,6 @@ namespace UnityEditor.Search
 {
     public class SearchAction
     {
-
         public bool closeWindowAfterExecution;
         public Func<IReadOnlyCollection<SearchItem>, bool> enabled;
         public Action<SearchItem[]> execute;

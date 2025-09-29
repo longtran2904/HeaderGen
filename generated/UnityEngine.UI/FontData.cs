@@ -6,7 +6,6 @@ namespace UnityEngine.UI
 {
     public class FontData : ISerializationCallbackReceiver
     {
-
         public FontData();
 
         public static FontData defaultFontData { get; }

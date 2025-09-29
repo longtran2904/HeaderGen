@@ -9,7 +9,6 @@ namespace UnityEditor.IMGUI.Controls
 {
     public class BoxBoundsHandle : PrimitiveBoundsHandle
     {
-
         [Obsolete("Use parameterless constructor instead.")]
         public BoxBoundsHandle(int controlIDHint);
         public BoxBoundsHandle();

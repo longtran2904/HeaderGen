@@ -9,7 +9,6 @@ namespace UnityEditor.TextCore.Text
     [CustomEditor(typeof(TextSettings))]
     public class TextSettingsEditor : Editor
     {
-
         public TextSettingsEditor();
 
         public void OnEnable();

@@ -8,7 +8,6 @@ namespace UnityEngine.Timeline
 {
     public class ParticleControlPlayable : PlayableBehaviour
     {
-
         public ParticleControlPlayable();
 
         public ParticleSystem particleSystem { get; }

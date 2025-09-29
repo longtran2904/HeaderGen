@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public enum KeyboardNavigationOperation
     {
-
         None = 0,
         SelectAll = 1,
         Cancel = 2,

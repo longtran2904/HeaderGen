@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
 {
     public struct TierSettings
     {
-
         public ShaderQuality standardShaderQuality;
         public CameraHDRMode hdrMode;
         public bool reflectionProbeBoxProjection;

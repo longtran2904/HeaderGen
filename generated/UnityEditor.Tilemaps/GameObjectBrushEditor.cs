@@ -9,7 +9,6 @@ namespace UnityEditor.Tilemaps
     [CustomEditor(typeof(GameObjectBrush))]
     public class GameObjectBrushEditor : GridBrushEditorBase
     {
-
         public GameObjectBrushEditor();
 
         public GameObjectBrush brush { get; }

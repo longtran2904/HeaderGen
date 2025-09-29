@@ -9,7 +9,6 @@ namespace UnityEditor
     [Flags]
     public enum ImportAssetOptions
     {
-
         Default = 0,
         ForceUpdate = 1,
         ForceSynchronousImport = 8,

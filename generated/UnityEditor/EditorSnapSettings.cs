@@ -9,7 +9,6 @@ namespace UnityEditor
 {
     public static class EditorSnapSettings
     {
-
         public static bool gridSnapEnabled { get; set; }
         public static Vector3 move { get; set; }
         public static float rotate { get; set; }

@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics2D/SurfaceEffector2D.h")]
     public class SurfaceEffector2D : Effector2D
     {
-
         public SurfaceEffector2D();
 
         public float speed { get; set; }

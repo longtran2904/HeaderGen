@@ -7,7 +7,6 @@ namespace System.Reflection
     [AttributeUsage(AttributeTargets.Assembly, Inherited = False)]
     public sealed class AssemblyKeyNameAttribute : Attribute
     {
-
         public AssemblyKeyNameAttribute(string keyName);
 
         public string KeyName { get; }

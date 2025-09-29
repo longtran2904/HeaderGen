@@ -6,7 +6,6 @@ namespace UnityEngine.TerrainUtils
 {
     public readonly struct TerrainTileCoord
     {
-
         public readonly int tileX;
         public readonly int tileZ;
 

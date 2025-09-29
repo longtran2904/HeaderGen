@@ -6,7 +6,6 @@ namespace System.Text
 {
     public class UnicodeEncoding : Encoding
     {
-
         public const int CharSize = 2;
 
         public UnicodeEncoding();

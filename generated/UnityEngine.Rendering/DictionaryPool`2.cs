@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public static class DictionaryPool<TKey, TValue>
     {
-
         public static Dictionary<TKey, TValue> Get();
         public static ObjectPool<Dictionary<TKey, TValue>>.PooledObject Get(out Dictionary<TKey, TValue> value);
         public static void Release(Dictionary<TKey, TValue> toRelease);

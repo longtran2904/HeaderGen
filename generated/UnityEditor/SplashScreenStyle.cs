@@ -9,7 +9,6 @@ namespace UnityEditor
     [Obsolete("SplashScreenStyle deprecated, Use PlayerSettings.SplashScreen.UnityLogoStyle instead")]
     public enum SplashScreenStyle
     {
-
         Light = 0,
         Dark = 1
     }

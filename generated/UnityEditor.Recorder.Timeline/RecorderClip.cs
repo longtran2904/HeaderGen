@@ -12,7 +12,6 @@ namespace UnityEditor.Recorder.Timeline
     [DisplayName("Recorder Clip")]
     public class RecorderClip : PlayableAsset, ISerializationCallbackReceiver, ITimelineClipAsset
     {
-
         [SerializeField]
         public RecorderSettings settings;
 

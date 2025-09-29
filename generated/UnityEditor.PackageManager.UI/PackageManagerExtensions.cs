@@ -6,7 +6,6 @@ namespace UnityEditor.PackageManager.UI
 {
     public static class PackageManagerExtensions
     {
-
         public static void RegisterExtension(IPackageManagerExtension extension);
     }
 }

@@ -14,7 +14,6 @@ namespace UnityEngine.Windows.WebCam
     [StaticAccessor("PhotoCapture", StaticAccessorType.DoubleColon)]
     public class PhotoCapture : IDisposable
     {
-
         ~PhotoCapture();
 
         public static IEnumerable<Resolution> SupportedResolutions { get; }
@@ -32,15 +31,14 @@ namespace UnityEngine.Windows.WebCam
         [ThreadAndSerializationSafe]
         public nint GetUnsafePointerToVideoDeviceController();
         public void Dispose();
+
         public enum CaptureResultType
         {
-
             Success = 0,
             UnknownError = 1
         }
         public struct PhotoCaptureResult
         {
-
             public CaptureResultType resultType;
             public long hResult;
 

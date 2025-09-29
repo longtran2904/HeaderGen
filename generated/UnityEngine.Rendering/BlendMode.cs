@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
     [NativeHeader("Runtime/GfxDevice/GfxDeviceTypes.h")]
     public enum BlendMode
     {
-
         Zero = 0,
         One = 1,
         DstColor = 2,

@@ -9,7 +9,6 @@ namespace UnityEditor.U2D.Sprites
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = False, Inherited = False)]
     public class RequireSpriteDataProviderAttribute : Attribute
     {
-
         public RequireSpriteDataProviderAttribute(params Type[] types);
     }
 }

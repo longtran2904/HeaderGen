@@ -7,7 +7,6 @@ namespace System.Runtime.CompilerServices
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Parameter, Inherited = False)]
     public sealed class DateTimeConstantAttribute : CustomConstantAttribute
     {
-
         public DateTimeConstantAttribute(long ticks);
 
         public override object Value { get; }

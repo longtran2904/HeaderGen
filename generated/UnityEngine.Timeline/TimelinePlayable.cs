@@ -9,7 +9,6 @@ namespace UnityEngine.Timeline
 {
     public class TimelinePlayable : PlayableBehaviour
     {
-
         public TimelinePlayable();
 
         public static ScriptPlayable<TimelinePlayable> Create(PlayableGraph graph, IEnumerable<TrackAsset> tracks, GameObject go, bool autoRebalance, bool createOutputs);

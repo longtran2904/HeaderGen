@@ -9,7 +9,6 @@ namespace Unity.Jobs.LowLevel.Unsafe
     [Obsolete("Reflection data is now universal between job types. The parameter can be removed.", False)]
     public enum JobType
     {
-
         Single = 0,
         ParallelFor = 1
     }

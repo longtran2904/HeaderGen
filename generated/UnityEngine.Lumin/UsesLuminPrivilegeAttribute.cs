@@ -9,7 +9,6 @@ namespace UnityEngine.Lumin
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = True)]
     public sealed class UsesLuminPrivilegeAttribute : Attribute
     {
-
         public UsesLuminPrivilegeAttribute(string privilege);
 
         public string privilege { get; }

@@ -6,7 +6,6 @@ namespace System.Net.Http.Headers
 {
     public sealed class HttpResponseHeaders : HttpHeaders
     {
-
         public HttpHeaderValueCollection<string> AcceptRanges { get; }
         public TimeSpan? Age { get; set; }
         public EntityTagHeaderValue ETag { get; set; }

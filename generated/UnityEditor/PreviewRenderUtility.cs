@@ -9,7 +9,6 @@ namespace UnityEditor
 {
     public class PreviewRenderUtility
     {
-
         [Obsolete("Use the property camera instead (UnityUpgradable) -> camera", False)]
         public Camera m_Camera;
         [Obsolete("Use the property cameraFieldOfView (UnityUpgradable) -> cameraFieldOfView", False)]

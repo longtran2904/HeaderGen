@@ -14,7 +14,6 @@ namespace UnityEngine
     [RequireComponent(typeof(Transform), typeof(SkinnedMeshRenderer))]
     public sealed class Cloth : Component
     {
-
         public Cloth();
 
         public Vector3[] vertices { get; }

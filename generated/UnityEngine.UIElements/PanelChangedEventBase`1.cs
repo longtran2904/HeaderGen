@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public abstract class PanelChangedEventBase<T> : EventBase<T>, IPanelChangedEvent where T : PanelChangedEventBase<T>, new()
     {
-
         protected PanelChangedEventBase();
 
         public IPanel originPanel { get; }

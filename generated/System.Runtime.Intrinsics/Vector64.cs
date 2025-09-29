@@ -6,7 +6,6 @@ namespace System.Runtime.Intrinsics
 {
     public static class Vector64
     {
-
         public static bool IsHardwareAccelerated { get; }
 
         public static Vector64<T> Abs<T>(Vector64<T> vector);

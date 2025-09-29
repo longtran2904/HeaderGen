@@ -9,7 +9,6 @@ namespace System
 {
     public class AccessViolationException : SystemException
     {
-
         public AccessViolationException();
         public AccessViolationException(string message);
         public AccessViolationException(string message, Exception innerException);

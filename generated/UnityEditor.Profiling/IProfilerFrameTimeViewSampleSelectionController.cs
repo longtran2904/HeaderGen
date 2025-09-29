@@ -8,7 +8,6 @@ namespace UnityEditor.Profiling
 {
     public interface IProfilerFrameTimeViewSampleSelectionController
     {
-
         ProfilerTimeSampleSelection selection { get; }
         string sampleNameSearchFilter { get; set; }
         int focusedThreadIndex { get; set; }

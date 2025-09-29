@@ -9,7 +9,6 @@ namespace UnityEngine
     [Flags]
     public enum DrivenTransformProperties
     {
-
         None = 0,
         All = -1,
         AnchoredPositionX = 2,

@@ -14,7 +14,6 @@ namespace UnityEngine
     [NativeType("Runtime/Graphics/SpriteFrame.h")]
     public sealed class Sprite : Object
     {
-
         public Bounds bounds { get; }
         public Rect rect { get; }
         public Vector4 border { get; }

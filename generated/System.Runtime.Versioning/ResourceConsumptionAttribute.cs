@@ -10,7 +10,6 @@ namespace System.Runtime.Versioning
     [Conditional("RESOURCE_ANNOTATION_WORK")]
     public sealed class ResourceConsumptionAttribute : Attribute
     {
-
         public ResourceConsumptionAttribute(ResourceScope resourceScope);
         public ResourceConsumptionAttribute(ResourceScope resourceScope, ResourceScope consumptionScope);
 

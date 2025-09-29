@@ -9,7 +9,6 @@ namespace UnityEditor
 {
     public class MeshPreview : IDisposable
     {
-
         public MeshPreview(Mesh target);
 
         public Mesh mesh { get; set; }

@@ -9,7 +9,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public struct PatchExtents
     {
-
         public float min { get; set; }
         public float max { get; set; }
     }

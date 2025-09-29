@@ -7,7 +7,6 @@ namespace System.Runtime.Intrinsics.X86
     [CLSCompliant(False)]
     public abstract class Sse41 : Ssse3
     {
-
         public static bool IsSupported { get; }
 
         public static Vector128<short> Blend(Vector128<short> left, Vector128<short> right, byte control);
@@ -149,9 +148,9 @@ namespace System.Runtime.Intrinsics.X86
         public static bool TestZ(Vector128<uint> left, Vector128<uint> right);
         public static bool TestZ(Vector128<long> left, Vector128<long> right);
         public static bool TestZ(Vector128<ulong> left, Vector128<ulong> right);
+
         public abstract class X64 : Ssse3.X64
         {
-
             public static bool IsSupported { get; }
 
             public static long Extract(Vector128<long> value, byte index);

@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public class MethodReference : MemberReference, IGenericContext, IGenericParameterProvider, IMethodSignature
     {
-
         public MethodReference(string name, TypeReference returnType);
         public MethodReference(string name, TypeReference returnType, TypeReference declaringType);
 

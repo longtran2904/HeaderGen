@@ -12,7 +12,6 @@ namespace UnityEngine.UI
     [RequireComponent(typeof(RectTransform))]
     public abstract class LayoutGroup : UIBehaviour, ILayoutController, ILayoutElement, ILayoutGroup
     {
-
         [SerializeField]
         protected RectOffset m_Padding;
         [SerializeField]

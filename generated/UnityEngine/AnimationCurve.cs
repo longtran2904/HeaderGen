@@ -14,7 +14,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public class AnimationCurve : IEquatable<AnimationCurve>
     {
-
         public AnimationCurve(params Keyframe[] keys);
         [RequiredByNativeCode]
         public AnimationCurve();

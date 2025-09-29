@@ -8,7 +8,6 @@ namespace UnityEngine.Networking
 {
     public static class UnityWebRequestMultimedia
     {
-
         public static UnityWebRequest GetAudioClip(string uri, AudioType audioType);
         public static UnityWebRequest GetAudioClip(Uri uri, AudioType audioType);
         [Obsolete("MovieTexture is deprecated. Use VideoPlayer instead.", True)]

@@ -8,7 +8,6 @@ namespace UnityEngine.SocialPlatforms
 {
     public interface ILocalUser : IUserProfile
     {
-
         IUserProfile[] friends { get; }
         bool authenticated { get; }
         bool underage { get; }

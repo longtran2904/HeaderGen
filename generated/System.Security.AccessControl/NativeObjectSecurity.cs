@@ -8,7 +8,6 @@ namespace System.Security.AccessControl
 {
     public abstract class NativeObjectSecurity : CommonObjectSecurity
     {
-
         protected NativeObjectSecurity(bool isContainer, ResourceType resourceType);
         protected NativeObjectSecurity(bool isContainer, ResourceType resourceType, ExceptionFromErrorCode exceptionFromErrorCode, object exceptionContext);
         protected NativeObjectSecurity(bool isContainer, ResourceType resourceType, string name, AccessControlSections includeSections, ExceptionFromErrorCode exceptionFromErrorCode, object exceptionContext);
@@ -20,6 +19,7 @@ namespace System.Security.AccessControl
         protected void Persist(string name, AccessControlSections includeSections, object exceptionContext);
         protected sealed override void Persist(SafeHandle handle, AccessControlSections includeSections);
         protected void Persist(SafeHandle handle, AccessControlSections includeSections, object exceptionContext);
+
         protected internal delegate Exception ExceptionFromErrorCode(int errorCode, string name, SafeHandle handle, object context);
     }
 }

@@ -9,7 +9,6 @@ namespace System.Text
 {
     public struct StringRuneEnumerator : IDisposable, IEnumerable, IEnumerable<Rune>, IEnumerator, IEnumerator<Rune>
     {
-
         public Rune Current { get; }
 
         public StringRuneEnumerator GetEnumerator();

@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering
 {
     public static class DialogText
     {
-
         public static readonly string title;
         public static readonly string proceed;
         public static readonly string ok;

@@ -11,7 +11,6 @@ namespace UnityEngine.UI
     [DisallowMultipleComponent]
     public class ToggleGroup : UIBehaviour
     {
-
         protected List<Toggle> m_Toggles;
 
         protected ToggleGroup();

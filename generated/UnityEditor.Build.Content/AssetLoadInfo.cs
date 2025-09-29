@@ -14,7 +14,6 @@ namespace UnityEditor.Build.Content
     [UsedByNativeCode]
     public class AssetLoadInfo
     {
-
         public AssetLoadInfo();
 
         public GUID asset { get; set; }

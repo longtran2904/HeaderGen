@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public class SphericalHarmonicsL2Utils
     {
-
         public SphericalHarmonicsL2Utils();
 
         public static void GetL1(SphericalHarmonicsL2 sh, out Vector3 L1_R, out Vector3 L1_G, out Vector3 L1_B);

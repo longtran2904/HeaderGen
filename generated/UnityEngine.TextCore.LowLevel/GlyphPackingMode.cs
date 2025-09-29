@@ -9,7 +9,6 @@ namespace UnityEngine.TextCore.LowLevel
     [UsedByNativeCode]
     public enum GlyphPackingMode
     {
-
         BestShortSideFit = 0,
         BestLongSideFit = 1,
         BestAreaFit = 2,

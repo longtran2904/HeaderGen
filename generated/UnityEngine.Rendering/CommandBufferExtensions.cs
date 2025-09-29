@@ -11,7 +11,6 @@ namespace UnityEngine.Rendering
     [UsedByNativeCode]
     public static class CommandBufferExtensions
     {
-
         [NativeConditional("UNITY_XBOXONE || UNITY_GAMECORE_XBOXONE")]
         public static void SwitchIntoFastMemory(this CommandBuffer cmd, RenderTargetIdentifier rid, FastMemoryFlags fastMemoryFlags, float residency, bool copyContents);
         [NativeConditional("UNITY_XBOXONE || UNITY_GAMECORE_XBOXONE")]

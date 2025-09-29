@@ -9,7 +9,6 @@ namespace UnityEngine.Networking.Types
     [DefaultValue(NetworkAccessLevel.Invalid)]
     public enum NetworkAccessLevel
     {
-
         Invalid = 0,
         User = 1,
         Owner = 2,

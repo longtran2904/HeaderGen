@@ -11,7 +11,6 @@ namespace UnityEngine
     [PreventReadOnlyInstanceModification]
     public sealed class LightingSettings : Object
     {
-
         public LightingSettings();
 
         [NativeName("EnableBakedLightmaps")]
@@ -108,29 +107,26 @@ namespace UnityEngine
         public int environmentSampleCount { get; set; }
         [NativeName("LightProbeSampleCountMultiplier")]
         public float lightProbeSampleCountMultiplier { get; set; }
+
         public enum Lightmapper
         {
-
             Enlighten = 0,
             ProgressiveCPU = 1,
             ProgressiveGPU = 2
         }
         public enum Sampling
         {
-
             Auto = 0,
             Fixed = 1
         }
         public enum FilterMode
         {
-
             None = 0,
             Auto = 1,
             Advanced = 2
         }
         public enum DenoiserType
         {
-
             None = 0,
             Optix = 1,
             OpenImage = 2,
@@ -138,7 +134,6 @@ namespace UnityEngine
         }
         public enum FilterType
         {
-
             Gaussian = 0,
             ATrous = 1,
             None = 2

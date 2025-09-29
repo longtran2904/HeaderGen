@@ -6,7 +6,6 @@ namespace UnityEditor.ShaderGraph.Serialization
 {
     public class FakeJsonObject
     {
-
         public FakeJsonObject();
 
         public string id { get; set; }

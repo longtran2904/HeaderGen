@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodePropertySetValueReferenceExpression : CodeExpression
     {
-
         public CodePropertySetValueReferenceExpression();
     }
 }

@@ -11,7 +11,6 @@ namespace UnityEditor
 {
     public abstract class BaseShaderGUI : ShaderGUI
     {
-
         public bool m_FirstTimeApply;
 
         protected BaseShaderGUI();
@@ -59,11 +58,11 @@ namespace UnityEditor
         public static Rect TextureColorProps(MaterialEditor materialEditor, GUIContent label, MaterialProperty textureProp, MaterialProperty colorProp, bool hdr = False);
         public static MaterialProperty FindProperty(string propertyName, MaterialProperty[] properties);
         public static MaterialProperty FindProperty(string propertyName, MaterialProperty[] properties, bool propertyIsMandatory);
+
         [Flags]
         [URPHelpURL("shaders-in-universalrp")]
         protected enum Expandable
         {
-
             SurfaceOptions = 1,
             SurfaceInputs = 2,
             Advanced = 4,
@@ -71,13 +70,11 @@ namespace UnityEditor
         }
         public enum SurfaceType
         {
-
             Opaque = 0,
             Transparent = 1
         }
         public enum BlendMode
         {
-
             Alpha = 0,
             Premultiply = 1,
             Additive = 2,
@@ -85,26 +82,22 @@ namespace UnityEditor
         }
         public enum SmoothnessSource
         {
-
             SpecularAlpha = 0,
             BaseAlpha = 1
         }
         public enum RenderFace
         {
-
             Front = 2,
             Back = 1,
             Both = 0
         }
         public enum QueueControl
         {
-
             Auto = 0,
             UserOverride = 1
         }
         protected class Styles
         {
-
             public static readonly string[] surfaceTypeNames;
             public static readonly string[] blendModeNames;
             public static readonly string[] renderFaceNames;

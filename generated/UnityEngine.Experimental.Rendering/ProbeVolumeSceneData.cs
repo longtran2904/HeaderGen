@@ -8,7 +8,6 @@ namespace UnityEngine.Experimental.Rendering
 {
     public class ProbeVolumeSceneData : ISerializationCallbackReceiver
     {
-
         public Dictionary<string, Bounds> sceneBounds;
 
         public ProbeVolumeSceneData(Object parentAsset, string parentSceneDataPropertyName);

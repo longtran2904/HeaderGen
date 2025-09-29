@@ -7,7 +7,6 @@ namespace System.Reflection
     [Flags]
     public enum PropertyAttributes
     {
-
         None = 0,
         SpecialName = 512,
         RTSpecialName = 1024,

@@ -6,7 +6,6 @@ namespace UnityEditor.Graphs
 {
     public enum SlotType
     {
-
         InputSlot = 0,
         OutputSlot = 1
     }

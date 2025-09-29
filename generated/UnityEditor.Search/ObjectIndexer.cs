@@ -9,7 +9,6 @@ namespace UnityEditor.Search
 {
     public abstract class ObjectIndexer : SearchIndexer
     {
-
         public override IEnumerable<SearchResult> Search(string searchQuery, SearchContext context, SearchProvider provider, int maxScore = 2147483647, int patternMatchLimit = 2999);
         public override bool SkipEntry(string path, bool checkRoots = False);
         public override void IndexDocument(string id, bool checkIfDocumentExists);

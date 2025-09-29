@@ -6,7 +6,6 @@ namespace UnityEditor.VersionControl
 {
     public static class VersionControlUtils
     {
-
         public static bool IsPathVersioned(string path);
     }
 }

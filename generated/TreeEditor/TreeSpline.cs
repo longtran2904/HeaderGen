@@ -8,7 +8,6 @@ namespace TreeEditor
 {
     public class TreeSpline
     {
-
         public SplineNode[] nodes;
         public float tension;
 

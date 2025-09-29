@@ -6,7 +6,6 @@ namespace UnityEngine.EventSystems
 {
     public class BaseEventData : AbstractEventData
     {
-
         public BaseEventData(EventSystem eventSystem);
 
         public BaseInputModule currentInputModule { get; }

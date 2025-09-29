@@ -6,7 +6,6 @@ namespace UnityEditor.Recorder
 {
     public static class RecorderOptions
     {
-
         public static bool VerboseMode { get; set; }
         public static bool ShowRecorderGameObject { get; set; }
     }

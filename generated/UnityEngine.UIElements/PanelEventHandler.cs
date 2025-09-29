@@ -9,7 +9,6 @@ namespace UnityEngine.UIElements
     [AddComponentMenu("UI Toolkit/Panel Event Handler (UI Toolkit)")]
     public class PanelEventHandler : UIBehaviour, ICancelHandler, IDeselectHandler, IEventSystemHandler, IMoveHandler, IPointerDownHandler, IPointerEnterHandler, IPointerExitHandler, IPointerMoveHandler, IPointerUpHandler, IRuntimePanelComponent, IScrollHandler, ISelectHandler, ISubmitHandler
     {
-
         public PanelEventHandler();
 
         public IPanel panel { get; set; }

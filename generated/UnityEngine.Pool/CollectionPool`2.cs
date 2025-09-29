@@ -8,7 +8,6 @@ namespace UnityEngine.Pool
 {
     public class CollectionPool<TCollection, TItem> where TCollection : ICollection<TItem>, class, new()
     {
-
         public CollectionPool();
 
         public static TCollection Get();

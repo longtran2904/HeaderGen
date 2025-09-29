@@ -7,7 +7,6 @@ namespace System.Text
     [Obsolete("Types with embedded references are not supported in this version of your compiler.", True)]
     public ref struct SpanLineEnumerator
     {
-
         public ReadOnlySpan<char> Current { get; }
 
         public SpanLineEnumerator GetEnumerator();

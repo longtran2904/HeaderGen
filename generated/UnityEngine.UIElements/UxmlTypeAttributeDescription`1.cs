@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public class UxmlTypeAttributeDescription<TBase> : TypedUxmlAttributeDescription<Type>
     {
-
         public UxmlTypeAttributeDescription();
 
         public override string defaultValueAsString { get; }

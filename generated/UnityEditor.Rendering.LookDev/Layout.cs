@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering.LookDev
 {
     public enum Layout
     {
-
         FullFirstView = 0,
         FullSecondView = 1,
         HorizontalSplit = 2,

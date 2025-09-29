@@ -9,7 +9,6 @@ namespace System.IO
 {
     public class EndOfStreamException : IOException
     {
-
         public EndOfStreamException();
         public EndOfStreamException(string message);
         public EndOfStreamException(string message, Exception innerException);

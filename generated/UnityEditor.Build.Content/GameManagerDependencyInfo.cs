@@ -11,7 +11,6 @@ namespace UnityEditor.Build.Content
     [UsedByNativeCode]
     public struct GameManagerDependencyInfo
     {
-
         public ReadOnlyCollection<ObjectIdentifier> managerObjects { get; }
         public ReadOnlyCollection<ObjectIdentifier> referencedObjects { get; }
         public ReadOnlyCollection<Type> includedTypes { get; }

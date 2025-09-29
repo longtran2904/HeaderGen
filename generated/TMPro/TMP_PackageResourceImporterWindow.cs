@@ -8,7 +8,6 @@ namespace TMPro
 {
     public class TMP_PackageResourceImporterWindow : EditorWindow
     {
-
         public TMP_PackageResourceImporterWindow();
 
         public static void ShowPackageImporterWindow();

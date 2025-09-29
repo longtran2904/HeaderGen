@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public class ConstantBuffer
     {
-
         public ConstantBuffer();
 
         public static void PushGlobal<CBType>(CommandBuffer cmd, in CBType data, int shaderId) where CBType : struct;

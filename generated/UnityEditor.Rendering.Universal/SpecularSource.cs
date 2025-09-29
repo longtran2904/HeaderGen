@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering.Universal
 {
     public enum SpecularSource
     {
-
         SpecularTextureAndColor = 0,
         NoSpecular = 1
     }

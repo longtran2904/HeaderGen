@@ -9,7 +9,6 @@ namespace UnityEditor
 {
     public interface IApplyRevertPropertyContextMenuItemProvider
     {
-
         bool TryGetRevertMethodForFieldName(SerializedProperty property, out Action<SerializedProperty> revertMethod);
         bool TryGetApplyMethodForFieldName(SerializedProperty property, out Action<SerializedProperty> applyMethod);
         string GetSourceTerm();

@@ -7,7 +7,6 @@ namespace System.Reflection
     [Flags]
     public enum PortableExecutableKinds
     {
-
         NotAPortableExecutableImage = 0,
         ILOnly = 1,
         Required32Bit = 2,

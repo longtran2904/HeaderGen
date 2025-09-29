@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public struct StyleTextShadow : IEquatable<StyleTextShadow>, IStyleValue<TextShadow>
     {
-
         public StyleTextShadow(TextShadow v);
         public StyleTextShadow(StyleKeyword keyword);
 

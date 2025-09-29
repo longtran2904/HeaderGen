@@ -13,7 +13,6 @@ namespace UnityEngine.Tilemaps
     [RequireComponent(typeof(Tilemap))]
     public sealed class TilemapRenderer : Renderer
     {
-
         public TilemapRenderer();
 
         public Vector3Int chunkSize { get; set; }
@@ -25,9 +24,9 @@ namespace UnityEngine.Tilemaps
         public Mode mode { get; set; }
         public DetectChunkCullingBounds detectChunkCullingBounds { get; set; }
         public SpriteMaskInteraction maskInteraction { get; set; }
+
         public enum SortOrder
         {
-
             BottomLeft = 0,
             BottomRight = 1,
             TopLeft = 2,
@@ -35,13 +34,11 @@ namespace UnityEngine.Tilemaps
         }
         public enum Mode
         {
-
             Chunk = 0,
             Individual = 1
         }
         public enum DetectChunkCullingBounds
         {
-
             Auto = 0,
             Manual = 1
         }

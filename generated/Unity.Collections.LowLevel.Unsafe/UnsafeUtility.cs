@@ -13,7 +13,6 @@ namespace Unity.Collections.LowLevel.Unsafe
     [StaticAccessor("UnsafeUtility", StaticAccessorType.DoubleColon)]
     public static class UnsafeUtility
     {
-
         public static int GetFieldOffset(FieldInfo field);
         public static void* PinGCObjectAndGetAddress(object target, out ulong gcHandle);
         public static void* PinGCArrayAndGetDataAddress(Array target, out ulong gcHandle);

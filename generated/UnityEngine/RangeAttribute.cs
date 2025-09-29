@@ -9,7 +9,6 @@ namespace UnityEngine
     [AttributeUsage(AttributeTargets.Field, AllowMultiple = False, Inherited = True)]
     public sealed class RangeAttribute : PropertyAttribute
     {
-
         public readonly float min;
         public readonly float max;
 

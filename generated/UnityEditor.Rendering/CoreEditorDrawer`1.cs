@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
 {
     public static class CoreEditorDrawer<TData>
     {
-
         public static readonly IDrawer space;
         public static readonly IDrawer noop;
 
@@ -51,9 +50,9 @@ namespace UnityEditor.Rendering
         public static IDrawer AdditionalPropertiesFoldoutGroup<TEnum, TState, TAPEnum, TAPState>(GUIContent foldoutTitle, TEnum foldoutMask, ExpandedState<TEnum, TState> foldoutState, TAPEnum additionalPropertiesMask, AdditionalPropertiesState<TAPEnum, TAPState> additionalPropertiesState, ActionDrawer normalContent, IDrawer additionalContent, FoldoutOption options = FoldoutOption.Indent) where TEnum : IConvertible, struct where TAPEnum : IConvertible, struct;
         public static IDrawer AdditionalPropertiesFoldoutGroup<TEnum, TState, TAPEnum, TAPState>(GUIContent foldoutTitle, TEnum foldoutMask, ExpandedState<TEnum, TState> foldoutState, TAPEnum additionalPropertiesMask, AdditionalPropertiesState<TAPEnum, TAPState> additionalPropertiesState, IDrawer normalContent, ActionDrawer additionalContent, FoldoutOption options = FoldoutOption.Indent) where TEnum : IConvertible, struct where TAPEnum : IConvertible, struct;
         public static IDrawer AdditionalPropertiesFoldoutGroup<TEnum, TState, TAPEnum, TAPState>(GUIContent foldoutTitle, TEnum foldoutMask, ExpandedState<TEnum, TState> foldoutState, TAPEnum additionalPropertiesMask, AdditionalPropertiesState<TAPEnum, TAPState> additionalPropertiesState, ActionDrawer normalContent, ActionDrawer additionalContent, FoldoutOption options = FoldoutOption.Indent) where TEnum : IConvertible, struct where TAPEnum : IConvertible, struct;
+
         public interface IDrawer
         {
-
             void Draw(TData serializedProperty, Editor owner);
         }
         public delegate bool Enabler(TData data, Editor owner);

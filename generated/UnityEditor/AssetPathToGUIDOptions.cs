@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum AssetPathToGUIDOptions
     {
-
         IncludeRecentlyDeletedAssets = 0,
         OnlyExistingAssets = 1
     }

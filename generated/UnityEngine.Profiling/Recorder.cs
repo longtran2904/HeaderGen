@@ -9,7 +9,6 @@ namespace UnityEngine.Profiling
     [UsedByNativeCode]
     public sealed class Recorder
     {
-
         ~Recorder();
 
         public bool isValid { get; }

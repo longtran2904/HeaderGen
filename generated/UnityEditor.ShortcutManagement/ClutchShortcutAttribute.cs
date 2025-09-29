@@ -11,7 +11,6 @@ namespace UnityEditor.ShortcutManagement
     [AttributeUsage(AttributeTargets.Method)]
     public class ClutchShortcutAttribute : ShortcutAttribute
     {
-
         public ClutchShortcutAttribute(string id, [DefaultValue("null")] Type context = null);
         public ClutchShortcutAttribute(string id, Type context, KeyCode defaultKeyCode, [DefaultValue("None")] ShortcutModifiers defaultShortcutModifiers = ShortcutModifiers.None);
         public ClutchShortcutAttribute(string id, KeyCode defaultKeyCode, [DefaultValue("None")] ShortcutModifiers defaultShortcutModifiers = ShortcutModifiers.None);

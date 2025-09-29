@@ -8,7 +8,6 @@ namespace UnityEngine
 {
     public class RuleTile<T> : RuleTile
     {
-
         public RuleTile();
 
         public sealed override Type m_NeighborType { get; }

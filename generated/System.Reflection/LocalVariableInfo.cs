@@ -6,7 +6,6 @@ namespace System.Reflection
 {
     public class LocalVariableInfo
     {
-
         protected LocalVariableInfo();
 
         public virtual Type LocalType { get; }

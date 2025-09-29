@@ -6,7 +6,6 @@ namespace UnityEngine.Pool
 {
     public static class UnsafeGenericPool<T> where T : class, new()
     {
-
         public static T Get();
         public static PooledObject<T> Get(out T value);
         public static void Release(T toRelease);

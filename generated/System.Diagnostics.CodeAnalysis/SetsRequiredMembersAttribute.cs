@@ -7,7 +7,6 @@ namespace System.Diagnostics.CodeAnalysis
     [AttributeUsage(AttributeTargets.Constructor, AllowMultiple = False, Inherited = False)]
     public sealed class SetsRequiredMembersAttribute : Attribute
     {
-
         public SetsRequiredMembersAttribute();
     }
 }

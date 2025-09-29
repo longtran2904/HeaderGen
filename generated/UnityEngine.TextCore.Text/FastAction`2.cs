@@ -8,7 +8,6 @@ namespace UnityEngine.TextCore.Text
 {
     public class FastAction<A, B>
     {
-
         public FastAction();
 
         public void Add(Action<A, B> rhs);

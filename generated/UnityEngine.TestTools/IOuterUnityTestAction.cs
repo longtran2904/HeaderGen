@@ -9,7 +9,6 @@ namespace UnityEngine.TestTools
 {
     public interface IOuterUnityTestAction
     {
-
         IEnumerator BeforeTest(ITest test);
         IEnumerator AfterTest(ITest test);
     }

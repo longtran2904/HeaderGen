@@ -6,7 +6,6 @@ namespace UnityEngine.EventSystems
 {
     public abstract class UIBehaviour : MonoBehaviour
     {
-
         protected UIBehaviour();
 
         protected virtual void Awake();

@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = False, Inherited = False)]
     public sealed class SetAdditionalPropertiesVisibilityAttribute : Attribute
     {
-
         public SetAdditionalPropertiesVisibilityAttribute();
     }
 }

@@ -10,7 +10,6 @@ namespace System.Runtime.Versioning
     [Conditional("RESOURCE_ANNOTATION_WORK")]
     public sealed class ResourceExposureAttribute : Attribute
     {
-
         public ResourceExposureAttribute(ResourceScope exposureLevel);
 
         public ResourceScope ResourceExposureLevel { get; }

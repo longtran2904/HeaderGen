@@ -6,7 +6,6 @@ namespace System.Diagnostics
 {
     public static class StackFrameExtensions
     {
-
         public static bool HasNativeImage(this StackFrame stackFrame);
         public static bool HasMethod(this StackFrame stackFrame);
         public static bool HasILOffset(this StackFrame stackFrame);

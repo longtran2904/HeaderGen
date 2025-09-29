@@ -9,7 +9,6 @@ namespace UnityEditor
     [Obsolete("targetOSVersion is obsolete, use targetOSVersionString", False)]
     public enum iOSTargetOSVersion
     {
-
         iOS_4_0 = 10,
         iOS_4_1 = 12,
         iOS_4_2 = 14,

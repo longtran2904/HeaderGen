@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public enum PrefabInstanceStatus
     {
-
         NotAPrefab = 0,
         Connected = 1,
         [Obsolete("PrefabInstanceStatus.Disconnected has been deprecated and is not used. Prefabs can not be in a disconnected state.")]

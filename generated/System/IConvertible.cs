@@ -7,7 +7,6 @@ namespace System
     [CLSCompliant(False)]
     public interface IConvertible
     {
-
         TypeCode GetTypeCode();
         bool ToBoolean(IFormatProvider provider);
         char ToChar(IFormatProvider provider);

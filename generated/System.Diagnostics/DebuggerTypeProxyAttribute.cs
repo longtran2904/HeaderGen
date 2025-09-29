@@ -7,7 +7,6 @@ namespace System.Diagnostics
     [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class | AttributeTargets.Struct, AllowMultiple = True)]
     public sealed class DebuggerTypeProxyAttribute : Attribute
     {
-
         public DebuggerTypeProxyAttribute(Type type);
         public DebuggerTypeProxyAttribute(string typeName);
 

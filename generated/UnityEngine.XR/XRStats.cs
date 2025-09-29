@@ -9,7 +9,6 @@ namespace UnityEngine.XR
     [NativeConditional("ENABLE_VR")]
     public static class XRStats
     {
-
         [StaticAccessor("GetIVRDeviceScripting()", StaticAccessorType.ArrowWithDefaultReturnIfNull)]
         public static bool TryGetGPUTimeLastFrame(out float gpuTimeLastFrame);
         [StaticAccessor("GetIVRDeviceScripting()", StaticAccessorType.ArrowWithDefaultReturnIfNull)]

@@ -8,7 +8,6 @@ namespace UnityEditor.ShaderGraph.Internal
 {
     public sealed class SerializableTextureArray : ISerializationCallbackReceiver
     {
-
         public SerializableTextureArray();
 
         public Texture2DArray textureArray { get; set; }

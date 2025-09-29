@@ -6,7 +6,6 @@ namespace UnityEngine.Android
 {
     public class DownloadAssetPackAsyncOperation : CustomYieldInstruction
     {
-
         public override bool keepWaiting { get; }
         public bool isDone { get; }
         public float progress { get; }

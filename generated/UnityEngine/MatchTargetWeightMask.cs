@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Animation/Animator.h")]
     public struct MatchTargetWeightMask
     {
-
         public MatchTargetWeightMask(Vector3 positionXYZWeight, float rotationWeight);
 
         public Vector3 positionXYZWeight { get; set; }

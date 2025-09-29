@@ -6,7 +6,6 @@ namespace Mono.Cecil
 {
     public struct CustomAttributeArgument
     {
-
         public CustomAttributeArgument(TypeReference type, object value);
 
         public TypeReference Type { get; }

@@ -11,7 +11,6 @@ namespace UnityEditor
     [NativeHeader("Modules/AssetPipelineEditor/Public/PluginImporter.h")]
     public sealed class PluginImporter : AssetImporter
     {
-
         public PluginImporter();
 
         [NativeProperty("DefineConstraints")]
@@ -52,6 +51,7 @@ namespace UnityEditor
         public static PluginImporter[] GetAllImporters();
         public void SetIcon([NotNull("ArgumentNullException")] string className, Texture2D icon);
         public Texture2D GetIcon([NotNull("ArgumentNullException")] string className);
+
         public delegate bool IncludeInBuildDelegate(string path);
     }
 }

@@ -10,7 +10,6 @@ namespace System.Collections.Concurrent
     [DefaultMember("Item")]
     public class ConcurrentDictionary<TKey, TValue> : ICollection, ICollection<KeyValuePair<TKey, TValue>>, IDictionary, IDictionary<TKey, TValue>, IEnumerable, IEnumerable<KeyValuePair<TKey, TValue>>, IReadOnlyCollection<KeyValuePair<TKey, TValue>>, IReadOnlyDictionary<TKey, TValue>
     {
-
         public ConcurrentDictionary();
         public ConcurrentDictionary(int concurrencyLevel, int capacity);
         public ConcurrentDictionary(IEnumerable<KeyValuePair<TKey, TValue>> collection);

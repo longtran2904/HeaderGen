@@ -10,7 +10,6 @@ namespace UnityEngine
     [NativeHeader("Runtime/Input/InputBindings.h")]
     public class Input
     {
-
         public Input();
 
         public static bool simulateMouseWithTouches { get; set; }

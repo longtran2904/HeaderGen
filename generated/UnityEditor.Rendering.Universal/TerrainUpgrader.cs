@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering.Universal
 {
     public class TerrainUpgrader : MaterialUpgrader
     {
-
         public TerrainUpgrader(string oldShaderName);
     }
 }

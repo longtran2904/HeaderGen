@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
     [DebugState(new[] {typeof(DebugUI.UIntField) })]
     public sealed class DebugStateUInt : DebugState<uint>
     {
-
         public DebugStateUInt();
     }
 }

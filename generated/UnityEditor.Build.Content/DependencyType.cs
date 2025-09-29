@@ -11,7 +11,6 @@ namespace UnityEditor.Build.Content
     [NativeType("Modules/BuildPipeline/Editor/Shared/ContentDependencyCollector.h")]
     public enum DependencyType
     {
-
         RecursiveOperation = 1,
         MissingReferences = 2,
         ValidReferences = 4,

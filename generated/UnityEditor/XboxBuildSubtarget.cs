@@ -9,7 +9,6 @@ namespace UnityEditor
     [NativeType(Header = "Runtime/Serialize/BuildTarget.h")]
     public enum XboxBuildSubtarget
     {
-
         Development = 0,
         Master = 1,
         Debug = 2

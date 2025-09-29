@@ -6,7 +6,6 @@ namespace Mono.Cecil.Cil
 {
     public struct VariableIndex
     {
-
         public VariableIndex(VariableDefinition variable);
         public VariableIndex(int index);
 

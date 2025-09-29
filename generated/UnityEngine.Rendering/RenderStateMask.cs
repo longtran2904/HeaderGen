@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering
     [Flags]
     public enum RenderStateMask
     {
-
         Nothing = 0,
         Blend = 1,
         Raster = 2,

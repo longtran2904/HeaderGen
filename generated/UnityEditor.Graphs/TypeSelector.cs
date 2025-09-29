@@ -8,7 +8,6 @@ namespace UnityEditor.Graphs
 {
     public class TypeSelector
     {
-
         public Type selectedType;
         public TypeKind selectedTypeKind;
 
@@ -22,9 +21,9 @@ namespace UnityEditor.Graphs
         public static Type GetBaseType(TypeKind typeKind, Type finalType);
         public static TypeKind GetTypeKind(Type dataType);
         public static string DotNetTypeNiceName(Type t);
+
         public enum TypeKind
         {
-
             Simple = 0,
             List = 1,
             Array = 2

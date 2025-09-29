@@ -10,7 +10,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [Flags]
     public enum LIBFLAGS
     {
-
         LIBFLAG_FRESTRICTED = 1,
         LIBFLAG_FCONTROL = 2,
         LIBFLAG_FHIDDEN = 4,

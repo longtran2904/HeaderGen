@@ -6,7 +6,6 @@ namespace UnityEngine.Windows.Speech
 {
     public sealed class GrammarRecognizer : PhraseRecognizer
     {
-
         public GrammarRecognizer(string grammarFilePath);
         public GrammarRecognizer(string grammarFilePath, ConfidenceLevel minimumConfidence);
 

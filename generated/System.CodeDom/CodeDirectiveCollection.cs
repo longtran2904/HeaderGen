@@ -10,7 +10,6 @@ namespace System.CodeDom
     [DefaultMember("Item")]
     public class CodeDirectiveCollection : CollectionBase
     {
-
         public CodeDirectiveCollection();
         public CodeDirectiveCollection(CodeDirectiveCollection value);
         public CodeDirectiveCollection(CodeDirective[] value);

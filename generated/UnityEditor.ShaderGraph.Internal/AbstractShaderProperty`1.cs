@@ -6,7 +6,6 @@ namespace UnityEditor.ShaderGraph.Internal
 {
     public abstract class AbstractShaderProperty<T> : AbstractShaderProperty
     {
-
         protected AbstractShaderProperty();
 
         public virtual T value { get; set; }

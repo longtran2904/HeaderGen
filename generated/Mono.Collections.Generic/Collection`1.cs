@@ -12,7 +12,6 @@ namespace Mono.Collections.Generic
     [DefaultMember("Item")]
     public class Collection<T> : ICollection, ICollection<T>, IEnumerable, IEnumerable<T>, IList, IList<T>
     {
-
         public Collection();
         public Collection(int capacity);
         public Collection(ICollection<T> items);
@@ -37,9 +36,9 @@ namespace Mono.Collections.Generic
         protected virtual void OnClear();
         protected void Resize(int new_size);
         public Enumerator GetEnumerator();
+
         public struct Enumerator : IDisposable, IEnumerator, IEnumerator<T>
         {
-
             public T Current { get; }
 
             public bool MoveNext();

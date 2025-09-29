@@ -7,7 +7,6 @@ namespace System.Diagnostics
     [AttributeUsage(AttributeTargets.Constructor | AttributeTargets.Method | AttributeTargets.Property, Inherited = False)]
     public sealed class DebuggerHiddenAttribute : Attribute
     {
-
         public DebuggerHiddenAttribute();
     }
 }

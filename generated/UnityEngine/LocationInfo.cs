@@ -6,7 +6,6 @@ namespace UnityEngine
 {
     public struct LocationInfo
     {
-
         public float latitude { get; }
         public float longitude { get; }
         public float altitude { get; }

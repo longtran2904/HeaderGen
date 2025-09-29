@@ -8,7 +8,6 @@ namespace UnityEngine.Experimental.Rendering.RenderGraphModule
 {
     public struct TextureDesc
     {
-
         public TextureSizeMode sizeMode;
         public int width;
         public int height;

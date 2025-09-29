@@ -10,7 +10,6 @@ namespace UnityEditor.Recorder
     [RecorderSettings(typeof(ImageRecorder), "Image Sequence", "imagesequence_16")]
     public class ImageRecorderSettings : RecorderSettings, IAccumulation
     {
-
         public ImageRecorderSettings();
 
         public ImageRecorderOutputFormat OutputFormat { get; set; }
@@ -25,23 +24,21 @@ namespace UnityEditor.Recorder
 
         public AccumulationSettings GetAccumulationSettings();
         public override bool IsAccumulationSupported();
+
         public enum ImageRecorderOutputFormat
         {
-
             PNG = 0,
             JPEG = 1,
             EXR = 2
         }
         public enum EXRCompressionType
         {
-
             None = 0,
             RLE = 1,
             Zip = 2
         }
         public enum ColorSpaceType
         {
-
             sRGB_sRGB = 0,
             Unclamped_linear_sRGB = 1
         }

@@ -10,7 +10,6 @@ namespace UnityEditor.Tilemaps
     [HelpURL("https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@latest/index.html?subfolder=/manual/GameObjectBrush.html")]
     public class GameObjectBrush : GridBrushBase
     {
-
         [HideInInspector]
         public GameObject hiddenGrid;
         public Vector3 m_Anchor;
@@ -45,9 +44,9 @@ namespace UnityEditor.Tilemaps
         public int GetCellIndex(int x, int y, int z, int sizex, int sizey, int sizez);
         public int GetCellIndexWrapAround(int x, int y, int z);
         public override int GetHashCode();
+
         public class BrushCell
         {
-
             public BrushCell();
 
             public GameObject gameObject { get; set; }

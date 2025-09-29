@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering.LookDev
 {
     public class ComparisonGizmoState
     {
-
         public ComparisonGizmoState();
 
         public Vector2 point1 { get; }

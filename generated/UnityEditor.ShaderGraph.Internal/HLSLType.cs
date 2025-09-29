@@ -6,7 +6,6 @@ namespace UnityEditor.ShaderGraph.Internal
 {
     public enum HLSLType
     {
-
         _float = 0,
         _float2 = 1,
         _float3 = 2,

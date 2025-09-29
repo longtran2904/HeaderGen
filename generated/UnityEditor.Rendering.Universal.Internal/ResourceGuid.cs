@@ -6,7 +6,6 @@ namespace UnityEditor.Rendering.Universal.Internal
 {
     public static class ResourceGuid
     {
-
         public static readonly string rendererTemplate;
     }
 }

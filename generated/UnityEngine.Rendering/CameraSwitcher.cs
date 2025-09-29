@@ -7,7 +7,6 @@ namespace UnityEngine.Rendering
     [CoreRPHelpURL("Camera-Switcher", "com.unity.render-pipelines.core")]
     public class CameraSwitcher : MonoBehaviour
     {
-
         public Camera[] m_Cameras;
 
         public CameraSwitcher();

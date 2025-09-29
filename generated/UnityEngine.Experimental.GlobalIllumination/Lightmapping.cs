@@ -9,13 +9,13 @@ namespace UnityEngine.Experimental.GlobalIllumination
 {
     public static class Lightmapping
     {
-
         [RequiredByNativeCode]
         public static void SetDelegate(RequestLightsDelegate del);
         [RequiredByNativeCode]
         public static RequestLightsDelegate GetDelegate();
         [RequiredByNativeCode]
         public static void ResetDelegate();
+
         public delegate void RequestLightsDelegate(Light[] requests, NativeArray<LightDataGI> lightsOutput);
     }
 }

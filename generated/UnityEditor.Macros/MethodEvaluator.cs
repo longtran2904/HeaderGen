@@ -8,7 +8,6 @@ namespace UnityEditor.Macros
 {
     public static class MethodEvaluator
     {
-
         public static object Eval(string assemblyFile, string typeName, string methodName, Type[] paramTypes, object[] args);
         public static object ExecuteExternalCode(string parcel);
     }

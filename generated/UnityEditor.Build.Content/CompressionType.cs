@@ -11,7 +11,6 @@ namespace UnityEditor.Build.Content
     [Obsolete("UnityEditor.Build.Content.CompressionType has been deprecated. Use UnityEngine.CompressionType instead (UnityUpgradable) -> [UnityEngine] UnityEngine.CompressionType", True)]
     public enum CompressionType
     {
-
         None = 0,
         Lzma = 1,
         Lz4 = 2,

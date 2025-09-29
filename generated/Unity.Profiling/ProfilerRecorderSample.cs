@@ -9,7 +9,6 @@ namespace Unity.Profiling
     [UsedByNativeCode]
     public struct ProfilerRecorderSample
     {
-
         public long Value { get; }
         public long Count { get; }
     }

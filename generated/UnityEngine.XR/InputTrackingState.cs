@@ -9,7 +9,6 @@ namespace UnityEngine.XR
     [Flags]
     public enum InputTrackingState
     {
-
         None = 0,
         Position = 1,
         Rotation = 2,

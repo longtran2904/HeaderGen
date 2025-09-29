@@ -6,7 +6,6 @@ namespace System
 {
     public static class Convert
     {
-
         public static readonly object DBNull;
 
         public static TypeCode GetTypeCode(object value);

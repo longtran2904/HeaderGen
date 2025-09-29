@@ -6,7 +6,6 @@ namespace UnityEditor.Il2Cpp
 {
     public sealed class Il2CppBuildPipelineData
     {
-
         public readonly BuildTarget target;
         public readonly string inputDirectory;
 

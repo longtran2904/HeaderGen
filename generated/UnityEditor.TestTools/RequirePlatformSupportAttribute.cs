@@ -11,7 +11,6 @@ namespace UnityEditor.TestTools
     [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class | AttributeTargets.Method)]
     public class RequirePlatformSupportAttribute : NUnitAttribute, IApplyToTest
     {
-
         public RequirePlatformSupportAttribute(params BuildTarget[] platforms);
 
         public BuildTarget[] platforms { get; }

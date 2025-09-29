@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public struct GlobalDynamicResolutionSettings
     {
-
         public bool enabled;
         public bool useMipBias;
         public bool enableDLSS;

@@ -10,7 +10,6 @@ namespace UnityEngine.Experimental.Rendering
     [Obsolete("Use the updated RendererList API which is defined in the UnityEngine.Rendering.RendererUtils namespace.")]
     public struct RendererList
     {
-
         public CullingResults cullingResult;
         public DrawingSettings drawSettings;
         public FilteringSettings filteringSettings;

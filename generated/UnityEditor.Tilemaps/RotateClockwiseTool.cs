@@ -8,7 +8,6 @@ namespace UnityEditor.Tilemaps
 {
     public sealed class RotateClockwiseTool : RotateTool
     {
-
         public RotateClockwiseTool();
 
         protected override string tooltipStringFormat { get; }

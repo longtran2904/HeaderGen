@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering
 {
     public class CubemapParameter : VolumeParameter<Texture>
     {
-
         public CubemapParameter(Texture value, bool overrideState = False);
 
         public override int GetHashCode();

@@ -10,7 +10,6 @@ namespace System.Runtime.InteropServices.Marshalling
     [CustomMarshaller(typeof(Span<>), MarshalMode.ManagedToUnmanagedIn, typeof(SpanMarshaller<, >.ManagedToUnmanagedIn))]
     public static class SpanMarshaller<T, TUnmanagedElement> where TUnmanagedElement : unmanaged
     {
-
         public static TUnmanagedElement* AllocateContainerForUnmanagedElements(Span<T> managed, out int numElements);
         public static ReadOnlySpan<T> GetManagedValuesSource(Span<T> managed);
         public static Span<TUnmanagedElement> GetUnmanagedValuesDestination(TUnmanagedElement* unmanaged, int numElements);
@@ -18,10 +17,10 @@ namespace System.Runtime.InteropServices.Marshalling
         public static Span<T> GetManagedValuesDestination(Span<T> managed);
         public static ReadOnlySpan<TUnmanagedElement> GetUnmanagedValuesSource(TUnmanagedElement* unmanaged, int numElements);
         public static void Free(TUnmanagedElement* unmanaged);
+
         [Obsolete("Types with embedded references are not supported in this version of your compiler.", True)]
         public ref struct ManagedToUnmanagedIn
         {
-
             public static int BufferSize { get; }
 
             public void FromManaged(Span<T> managed, Span<TUnmanagedElement> buffer);

@@ -12,7 +12,6 @@ namespace UnityEngine.U2D
     [NativeHeader("Runtime/Graphics/SpriteFrame.h")]
     public static class SpriteDataAccessExtensions
     {
-
         public static NativeSlice<T> GetVertexAttribute<T>(this Sprite sprite, VertexAttribute channel) where T : struct;
         public static void SetVertexAttribute<T>(this Sprite sprite, VertexAttribute channel, NativeArray<T> src) where T : struct;
         public static NativeArray<Matrix4x4> GetBindPoses(this Sprite sprite);

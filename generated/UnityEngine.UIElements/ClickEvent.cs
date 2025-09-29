@@ -6,7 +6,6 @@ namespace UnityEngine.UIElements
 {
     public sealed class ClickEvent : PointerEventBase<ClickEvent>
     {
-
         public ClickEvent();
 
         protected override void Init();

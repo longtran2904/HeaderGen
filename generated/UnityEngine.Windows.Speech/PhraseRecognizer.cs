@@ -9,7 +9,6 @@ namespace UnityEngine.Windows.Speech
 {
     public abstract class PhraseRecognizer : IDisposable
     {
-
         protected nint m_Recognizer;
 
         ~PhraseRecognizer();
@@ -27,6 +26,7 @@ namespace UnityEngine.Windows.Speech
         public void Start();
         public void Stop();
         public void Dispose();
+
         public delegate void PhraseRecognizedDelegate(PhraseRecognizedEventArgs args);
     }
 }

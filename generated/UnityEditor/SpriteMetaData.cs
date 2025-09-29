@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public struct SpriteMetaData
     {
-
         public string name;
         public Rect rect;
         public int alignment;

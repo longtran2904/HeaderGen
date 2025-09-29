@@ -6,7 +6,6 @@ namespace UnityEngine.Experimental.GlobalIllumination
 {
     public struct SpotLightPyramidShape
     {
-
         public int instanceID;
         public bool shadow;
         public LightMode mode;

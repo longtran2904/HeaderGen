@@ -12,7 +12,6 @@ namespace UnityEngine
     [StaticAccessor("GUIEvent", StaticAccessorType.DoubleColon)]
     public sealed class Event
     {
-
         public Event();
         public Event(int displayIndex);
         public Event(Event other);

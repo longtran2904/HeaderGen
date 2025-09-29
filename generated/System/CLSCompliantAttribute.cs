@@ -7,7 +7,6 @@ namespace System
     [AttributeUsage(AttributeTargets.All, AllowMultiple = False, Inherited = True)]
     public sealed class CLSCompliantAttribute : Attribute
     {
-
         public CLSCompliantAttribute(bool isCompliant);
 
         public bool IsCompliant { get; }

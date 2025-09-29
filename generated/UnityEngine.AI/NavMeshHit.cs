@@ -9,7 +9,6 @@ namespace UnityEngine.AI
     [MovedFrom("UnityEngine")]
     public struct NavMeshHit
     {
-
         public Vector3 position { get; set; }
         public Vector3 normal { get; set; }
         public float distance { get; set; }

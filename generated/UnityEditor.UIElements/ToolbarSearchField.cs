@@ -8,7 +8,6 @@ namespace UnityEditor.UIElements
 {
     public class ToolbarSearchField : SearchFieldBase<TextField, string>
     {
-
         public static readonly string textUssClassName;
         public static readonly string searchButtonUssClassName;
         public static readonly string cancelButtonUssClassName;
@@ -24,9 +23,9 @@ namespace UnityEditor.UIElements
         public override void SetValueWithoutNotify(string newValue);
         protected override void ClearTextField();
         protected override bool FieldIsEmpty(string fieldValue);
+
         public class UxmlFactory : UxmlFactory<ToolbarSearchField>
         {
-
             public UxmlFactory();
         }
     }

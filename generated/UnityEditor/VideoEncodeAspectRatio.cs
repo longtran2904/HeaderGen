@@ -9,7 +9,6 @@ namespace UnityEditor
     [NativeHeader("Modules/AssetPipelineEditor/Public/VideoClipImporter.h")]
     public enum VideoEncodeAspectRatio
     {
-
         NoScaling = 0,
         Stretch = 5
     }

@@ -6,7 +6,6 @@ namespace System.Net.Http
 {
     public enum HttpKeepAlivePingPolicy
     {
-
         WithActiveRequests = 0,
         Always = 1
     }

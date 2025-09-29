@@ -6,7 +6,6 @@ namespace System.Security.Principal
 {
     public sealed class SecurityIdentifier : IdentityReference, IComparable<SecurityIdentifier>
     {
-
         public static readonly int MinBinaryLength;
         public static readonly int MaxBinaryLength;
 

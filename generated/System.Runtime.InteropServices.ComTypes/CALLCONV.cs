@@ -9,7 +9,6 @@ namespace System.Runtime.InteropServices.ComTypes
     [EditorBrowsable(EditorBrowsableState.Never)]
     public enum CALLCONV
     {
-
         CC_CDECL = 1,
         CC_MSCPASCAL = 2,
         CC_PASCAL = 2,

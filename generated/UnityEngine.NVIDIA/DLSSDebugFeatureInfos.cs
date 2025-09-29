@@ -6,7 +6,6 @@ namespace UnityEngine.NVIDIA
 {
     public readonly struct DLSSDebugFeatureInfos
     {
-
         public bool validFeature { get; }
         public uint featureSlot { get; }
         public DLSSCommandExecutionData execData { get; }

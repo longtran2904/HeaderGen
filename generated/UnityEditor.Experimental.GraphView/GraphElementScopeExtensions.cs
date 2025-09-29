@@ -6,7 +6,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public static class GraphElementScopeExtensions
     {
-
         public static Scope GetContainingScope(this GraphElement element);
     }
 }

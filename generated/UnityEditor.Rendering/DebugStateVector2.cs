@@ -10,7 +10,6 @@ namespace UnityEditor.Rendering
     [DebugState(new[] {typeof(DebugUI.Vector2Field) })]
     public sealed class DebugStateVector2 : DebugState<Vector2>
     {
-
         public DebugStateVector2();
     }
 }

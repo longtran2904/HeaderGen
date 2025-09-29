@@ -9,7 +9,6 @@ namespace UnityEditor.Rendering
     [DebugUIDrawer(typeof(DebugUI.MessageBox))]
     public sealed class DebugUIDrawerMessageBox : DebugUIDrawer
     {
-
         public DebugUIDrawerMessageBox();
 
         public override bool OnGUI(DebugUI.Widget widget, DebugState state);

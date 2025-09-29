@@ -6,7 +6,6 @@ namespace System.Threading.Tasks
 {
     public class UnobservedTaskExceptionEventArgs : EventArgs
     {
-
         public UnobservedTaskExceptionEventArgs(AggregateException exception);
 
         public bool Observed { get; }

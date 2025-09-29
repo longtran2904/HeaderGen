@@ -10,7 +10,6 @@ namespace UnityEditor.VersionControl
     [StaticAccessor("GetVCManager()")]
     public static class VersionControlManager
     {
-
         public static VersionControlDescriptor[] versionControlDescriptors { get; }
         public static VersionControlObject activeVersionControlObject { get; }
 

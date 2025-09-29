@@ -8,7 +8,6 @@ namespace TMPro.EditorUtilities
 {
     public class TMP_ContextMenus : Editor
     {
-
         public TMP_ContextMenus();
     }
 }

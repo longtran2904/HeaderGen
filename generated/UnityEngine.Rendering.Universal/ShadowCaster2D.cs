@@ -12,7 +12,6 @@ namespace UnityEngine.Rendering.Universal
     [MovedFrom("UnityEngine.Experimental.Rendering.Universal")]
     public class ShadowCaster2D : ShadowCasterGroup2D, ISerializationCallbackReceiver
     {
-
         public ShadowCaster2D();
 
         public Mesh mesh { get; }
@@ -26,9 +25,9 @@ namespace UnityEngine.Rendering.Universal
         public void Update();
         public void OnBeforeSerialize();
         public void OnAfterDeserialize();
+
         public enum ComponentVersions
         {
-
             Version_Unserialized = 0,
             Version_1 = 1
         }

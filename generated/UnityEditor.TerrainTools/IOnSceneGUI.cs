@@ -10,7 +10,6 @@ namespace UnityEditor.TerrainTools
     [MovedFrom("UnityEditor.Experimental.TerrainAPI")]
     public interface IOnSceneGUI
     {
-
         SceneView sceneView { get; }
         Texture brushTexture { get; }
         float brushStrength { get; }

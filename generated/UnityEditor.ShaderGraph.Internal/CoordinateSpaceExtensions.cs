@@ -6,7 +6,6 @@ namespace UnityEditor.ShaderGraph.Internal
 {
     public static class CoordinateSpaceExtensions
     {
-
         public static string ToVariableName(this CoordinateSpace space, InterpolatorType type);
         public static NeededCoordinateSpace ToNeededCoordinateSpace(this CoordinateSpace space);
         public static CoordinateSpace ToCoordinateSpace(this NeededCoordinateSpace space);

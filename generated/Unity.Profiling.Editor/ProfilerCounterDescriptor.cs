@@ -6,7 +6,6 @@ namespace Unity.Profiling.Editor
 {
     public readonly struct ProfilerCounterDescriptor
     {
-
         public ProfilerCounterDescriptor(string name, ProfilerCategory category);
         public ProfilerCounterDescriptor(string name, string categoryName);
 

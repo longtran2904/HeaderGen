@@ -9,7 +9,6 @@ namespace UnityEditor.AnimatedValues
 {
     public class AnimQuaternion : BaseAnimValueNonAlloc<Quaternion>
     {
-
         public AnimQuaternion(Quaternion value);
         public AnimQuaternion(Quaternion value, UnityAction callback);
 

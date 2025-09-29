@@ -11,7 +11,6 @@ namespace UnityEngine
     [UsedByNativeCode]
     public class Behaviour : Component
     {
-
         public Behaviour();
 
         [NativeProperty]

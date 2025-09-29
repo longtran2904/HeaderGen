@@ -11,7 +11,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public sealed class RequireComponent : Attribute
     {
-
         public Type m_Type0;
         public Type m_Type1;
         public Type m_Type2;

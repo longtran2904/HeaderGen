@@ -8,7 +8,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class BlackboardRow : GraphElement
     {
-
         public BlackboardRow(VisualElement item, VisualElement propertyView);
 
         public bool expanded { get; set; }

@@ -16,7 +16,6 @@ namespace UnityEditor.Build.Content
     [StaticAccessor("BuildPipeline", StaticAccessorType.DoubleColon)]
     public static class ContentBuildInterface
     {
-
         public static AssetBundleBuild[] GenerateAssetBundleBuilds();
         public static BuildUsageTagGlobal GetGlobalUsageFromGraphicsSettings();
         public static BuildUsageTagGlobal GetGlobalUsageFromActiveScene(BuildTarget target);

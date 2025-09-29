@@ -9,7 +9,6 @@ namespace UnityEditor.Experimental.GraphView
 {
     public class BlackboardField : GraphElement
     {
-
         public BlackboardField();
         public BlackboardField(Texture icon, string text, string typeText);
 

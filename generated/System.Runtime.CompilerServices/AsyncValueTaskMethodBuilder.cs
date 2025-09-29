@@ -8,7 +8,6 @@ namespace System.Runtime.CompilerServices
 {
     public struct AsyncValueTaskMethodBuilder
     {
-
         public ValueTask Task { get; }
 
         public static AsyncValueTaskMethodBuilder Create();

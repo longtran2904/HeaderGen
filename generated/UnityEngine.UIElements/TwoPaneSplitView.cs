@@ -8,7 +8,6 @@ namespace UnityEngine.UIElements
 {
     public class TwoPaneSplitView : VisualElement
     {
-
         public TwoPaneSplitView();
         public TwoPaneSplitView(int fixedPaneIndex, float fixedPaneStartDimension, TwoPaneSplitViewOrientation orientation);
 
@@ -21,14 +20,13 @@ namespace UnityEngine.UIElements
 
         public void CollapseChild(int index);
         public void UnCollapse();
+
         public class UxmlFactory : UxmlFactory<TwoPaneSplitView, UxmlTraits>
         {
-
             public UxmlFactory();
         }
         public class UxmlTraits : VisualElement.UxmlTraits
         {
-
             public UxmlTraits();
 
             public override IEnumerable<UxmlChildElementDescription> uxmlChildElementsDescription { get; }

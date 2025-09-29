@@ -8,7 +8,6 @@ namespace UnityEngine.TestTools
 {
     public class ExitPlayMode : IEditModeTestYieldInstruction
     {
-
         public ExitPlayMode();
 
         public bool ExpectDomainReload { get; }

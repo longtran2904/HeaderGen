@@ -6,7 +6,6 @@ namespace System.Runtime.Serialization
 {
     public readonly struct SerializationEntry
     {
-
         public object Value { get; }
         public string Name { get; }
         public Type ObjectType { get; }

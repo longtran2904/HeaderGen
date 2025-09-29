@@ -10,7 +10,6 @@ namespace UnityEngine.Playables
     [RequiredByNativeCode]
     public struct Playable : IEquatable<Playable>, IPlayable
     {
-
         public static Playable Null { get; }
 
         public static Playable Create(PlayableGraph graph, int inputCount = 0);

@@ -8,7 +8,6 @@ namespace System.Net.Http.Headers
 {
     public sealed class HttpContentHeaders : HttpHeaders
     {
-
         public ICollection<string> Allow { get; }
         public ContentDispositionHeaderValue ContentDisposition { get; set; }
         public ICollection<string> ContentEncoding { get; }

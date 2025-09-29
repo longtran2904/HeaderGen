@@ -8,7 +8,6 @@ namespace UnityEngine.ParticleSystemJobs
 {
     public struct ParticleSystemJobData
     {
-
         public int count { get; }
         public ParticleSystemNativeArray3 positions { get; }
         public ParticleSystemNativeArray3 velocities { get; }

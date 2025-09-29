@@ -8,7 +8,6 @@ namespace UnityEditor.Rendering
 {
     public static class GizmoUtility
     {
-
         public static Color GetHandleColor(Color baseColor);
         public static Color GetWireframeColor(Color baseColor);
         public static Color GetWireframeColorBehindObjects(Color baseColor);

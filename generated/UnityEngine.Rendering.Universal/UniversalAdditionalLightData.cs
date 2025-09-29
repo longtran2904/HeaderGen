@@ -9,7 +9,6 @@ namespace UnityEngine.Rendering.Universal
     [URPHelpURL("universal-additional-light-data")]
     public class UniversalAdditionalLightData : MonoBehaviour, IAdditionalData
     {
-
         public static readonly int AdditionalLightsShadowResolutionTierCustom;
         public static readonly int AdditionalLightsShadowResolutionTierLow;
         public static readonly int AdditionalLightsShadowResolutionTierMedium;

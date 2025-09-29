@@ -13,7 +13,6 @@ namespace System.Runtime.Loader
     [UnsupportedOSPlatform("tvos")]
     public sealed class AssemblyDependencyResolver
     {
-
         public AssemblyDependencyResolver(string componentAssemblyPath);
 
         public string ResolveAssemblyToPath(AssemblyName assemblyName);

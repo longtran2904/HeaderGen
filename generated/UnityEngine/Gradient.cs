@@ -12,7 +12,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public class Gradient : IEquatable<Gradient>
     {
-
         [RequiredByNativeCode]
         public Gradient();
 

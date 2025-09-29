@@ -6,7 +6,6 @@ namespace UnityEditor.Search
 {
     public readonly struct ParseResult<T> : IParseResult
     {
-
         public readonly T parsedValue;
         public static readonly ParseResult<T> none;
 

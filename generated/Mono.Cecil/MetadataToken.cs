@@ -8,7 +8,6 @@ namespace Mono.Cecil
 {
     public struct MetadataToken : IEquatable<MetadataToken>
     {
-
         public static readonly MetadataToken Zero;
 
         public MetadataToken(uint token);

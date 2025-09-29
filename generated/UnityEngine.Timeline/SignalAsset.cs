@@ -8,7 +8,6 @@ namespace UnityEngine.Timeline
     [TimelineHelpURL(typeof(SignalAsset))]
     public class SignalAsset : ScriptableObject
     {
-
         public SignalAsset();
     }
 }

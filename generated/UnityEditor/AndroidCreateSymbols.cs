@@ -6,7 +6,6 @@ namespace UnityEditor
 {
     public enum AndroidCreateSymbols
     {
-
         Disabled = 0,
         Public = 1,
         Debugging = 2

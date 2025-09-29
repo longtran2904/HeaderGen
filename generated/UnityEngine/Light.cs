@@ -15,7 +15,6 @@ namespace UnityEngine
     [RequireComponent(typeof(Transform))]
     public sealed class Light : Behaviour
     {
-
         public Light();
 
         [NativeProperty("LightType")]

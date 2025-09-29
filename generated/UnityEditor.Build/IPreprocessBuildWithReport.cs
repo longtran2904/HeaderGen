@@ -8,7 +8,6 @@ namespace UnityEditor.Build
 {
     public interface IPreprocessBuildWithReport : IOrderedCallback
     {
-
         void OnPreprocessBuild(BuildReport report);
     }
 }

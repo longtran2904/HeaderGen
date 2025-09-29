@@ -8,7 +8,6 @@ namespace System.Runtime.Intrinsics
 {
     public static class Vector128
     {
-
         public static bool IsHardwareAccelerated { get; }
 
         public static Vector128<T> Abs<T>(Vector128<T> vector);

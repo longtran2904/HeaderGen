@@ -9,7 +9,6 @@ namespace UnityEngine
     [NativeHeader("Modules/Physics2D/FrictionJoint2D.h")]
     public sealed class FrictionJoint2D : AnchoredJoint2D
     {
-
         public FrictionJoint2D();
 
         public float maxForce { get; set; }

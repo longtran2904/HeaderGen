@@ -20,7 +20,6 @@ namespace UnityEngine
     [RequiredByNativeCode(Optional = True, GenerateProxy = True)]
     public struct Vector3 : IEquatable<Vector3>, IFormattable
     {
-
         public float x;
         public float y;
         public float z;

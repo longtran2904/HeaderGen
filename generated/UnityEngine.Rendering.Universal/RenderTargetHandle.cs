@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.Universal
 {
     public struct RenderTargetHandle
     {
-
         public static readonly RenderTargetHandle CameraTarget;
 
         public RenderTargetHandle(RenderTargetIdentifier renderTargetIdentifier);

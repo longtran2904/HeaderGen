@@ -10,7 +10,6 @@ namespace System.Runtime.InteropServices
     [EditorBrowsable(EditorBrowsableState.Never)]
     public sealed class ComEventInterfaceAttribute : Attribute
     {
-
         public ComEventInterfaceAttribute(Type SourceInterface, Type EventProvider);
 
         public Type SourceInterface { get; }

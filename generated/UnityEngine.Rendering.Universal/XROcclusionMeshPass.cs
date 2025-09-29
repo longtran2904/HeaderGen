@@ -6,7 +6,6 @@ namespace UnityEngine.Rendering.Universal
 {
     public class XROcclusionMeshPass : ScriptableRenderPass
     {
-
         public bool m_IsActiveTargetBackBuffer;
 
         public XROcclusionMeshPass(RenderPassEvent evt);

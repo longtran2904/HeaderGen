@@ -9,7 +9,6 @@ namespace UnityEngine
     [RequiredByNativeCode]
     public sealed class WaitForSeconds : YieldInstruction
     {
-
         public WaitForSeconds(float seconds);
     }
 }

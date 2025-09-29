@@ -9,7 +9,6 @@ namespace UnityEditor.SearchService
 {
     public interface ISearchContext
     {
-
         Guid guid { get; }
         SearchEngineScope engineScope { get; }
         IEnumerable<Type> requiredTypes { get; }

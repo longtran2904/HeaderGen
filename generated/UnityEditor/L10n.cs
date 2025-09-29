@@ -9,7 +9,6 @@ namespace UnityEditor
 {
     public static class L10n
     {
-
         public static string Tr(string str);
         public static string[] Tr(string[] str_list);
         public static string Tr(string str, string groupName);

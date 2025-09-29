@@ -8,7 +8,6 @@ namespace Unity.Profiling.LowLevel.Unsafe
 {
     public readonly struct ProfilerCategoryDescription
     {
-
         public readonly ushort Id;
         public readonly ushort Flags;
         public readonly Color32 Color;

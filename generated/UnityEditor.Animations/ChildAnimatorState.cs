@@ -13,7 +13,6 @@ namespace UnityEditor.Animations
     [RequiredByNativeCode]
     public struct ChildAnimatorState
     {
-
         public AnimatorState state { get; set; }
         public Vector3 position { get; set; }
     }

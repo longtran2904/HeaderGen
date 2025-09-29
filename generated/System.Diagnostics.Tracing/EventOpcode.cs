@@ -6,7 +6,6 @@ namespace System.Diagnostics.Tracing
 {
     public enum EventOpcode
     {
-
         Info = 0,
         Start = 1,
         Stop = 2,

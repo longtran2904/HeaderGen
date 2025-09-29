@@ -6,7 +6,6 @@ namespace System.CodeDom
 {
     public class CodeTryCatchFinallyStatement : CodeStatement
     {
-
         public CodeTryCatchFinallyStatement();
         public CodeTryCatchFinallyStatement(CodeStatement[] tryStatements, CodeCatchClause[] catchClauses);
         public CodeTryCatchFinallyStatement(CodeStatement[] tryStatements, CodeCatchClause[] catchClauses, CodeStatement[] finallyStatements);

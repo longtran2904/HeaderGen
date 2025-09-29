@@ -8,7 +8,6 @@ namespace System
 {
     public static class GC
     {
-
         public static int MaxGeneration { get; }
 
         public static GCMemoryInfo GetGCMemoryInfo();

@@ -12,7 +12,6 @@ namespace UnityEditor
 {
     public class AssetPostprocessor
     {
-
         public AssetPostprocessor();
 
         public string assetPath { get; set; }

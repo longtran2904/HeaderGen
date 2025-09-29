@@ -9,7 +9,6 @@ namespace UnityEngine.SubsystemsImplementation
     [NativeHeader("Modules/Subsystems/SubsystemManager.h")]
     public static class SubsystemDescriptorStore
     {
-
         public static void RegisterDescriptor(SubsystemDescriptorWithProvider descriptor);
     }
 }

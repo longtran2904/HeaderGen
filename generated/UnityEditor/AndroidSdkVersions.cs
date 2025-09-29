@@ -8,7 +8,6 @@ namespace UnityEditor
 {
     public enum AndroidSdkVersions
     {
-
         AndroidApiLevelAuto = 0,
         [Obsolete("Minimum supported Android API level is 22 (Android 5.1 Lollipop). Please use AndroidApiLevel22 or higher", True)]
         AndroidApiLevel16 = 16,

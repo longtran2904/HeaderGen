@@ -8,7 +8,6 @@ namespace UnityEngine.Pool
 {
     public class ListPool<T> : CollectionPool<List<T>, T>
     {
-
         public ListPool();
     }
 }

@@ -6,7 +6,6 @@ namespace UnityEditor.Media
 {
     public struct VP8EncoderAttributes
     {
-
         public uint keyframeDistance;
     }
 }

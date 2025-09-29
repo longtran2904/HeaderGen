@@ -7,7 +7,6 @@ namespace System.Runtime.CompilerServices
     [AttributeUsage(AttributeTargets.Property, Inherited = True)]
     public sealed class IndexerNameAttribute : Attribute
     {
-
         public IndexerNameAttribute(string indexerName);
     }
 }

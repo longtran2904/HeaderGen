@@ -8,7 +8,6 @@ namespace UnityEngine.Rendering
 {
     public static class ListPool<T>
     {
-
         public static List<T> Get();
         public static ObjectPool<List<T>>.PooledObject Get(out List<T> value);
         public static void Release(List<T> toRelease);

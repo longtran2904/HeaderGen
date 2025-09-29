@@ -7,7 +7,6 @@ namespace System.Runtime.InteropServices
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = False, Inherited = False)]
     public sealed class UnmanagedCallConvAttribute : Attribute
     {
-
         public Type[] CallConvs;
 
         public UnmanagedCallConvAttribute();

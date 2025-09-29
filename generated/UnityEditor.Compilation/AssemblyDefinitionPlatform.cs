@@ -6,7 +6,6 @@ namespace UnityEditor.Compilation
 {
     public struct AssemblyDefinitionPlatform
     {
-
         public string Name { get; }
         public string DisplayName { get; }
         public BuildTarget BuildTarget { get; }
